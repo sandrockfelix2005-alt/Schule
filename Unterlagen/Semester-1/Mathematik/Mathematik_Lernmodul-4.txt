@@ -1,0 +1,2279 @@
+Fachrichtung: alle Fachrichtungen
+
+Schwerpunkt: alle Schwerpunkte
+
+FACH: Mathematik I
+
+Lernmodul 4 Geometrische Gesetze auf zwei- und
+
+dreidimensionale Figuren anwenden
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+LERNMODUL 4
+
+Bei der Planung und der Konstruktion bilden technische Zeichnungen eine Möglichkeit der Dokumentation und vielfach eine Grundlage zur Kommunikation zwischen den
+
+Ziele beteiligten Fachleuten.
+
+Neben diesen hauptsächlich geometrisch orientierten Anwendungen spielen periodi- sche Vorgänge, wie z.B. Schwingungen und Kurvenverläufe, in der Physik, Mechanik, Elektrotechnik etc. eine wichtige Rolle.
+
+Mathematische Modelle in Form von trigonometrischen Funktionen ermöglichen die Beschreibung und Berechnung dieser Vorgänge.
+
+Technikerinnen und Techniker müssen bei planerischen und konstruktiven Aufgaben die grundlegenden geometrischen Zusammenhänge anwenden können.
+
+Weiterhin müssen Sie z.B. bei Vermessungen, Getriebeauslegungen, Spannungsbe- rechnungen, Reglereinstellungen mit trigonometrischen Funktionen arbeiten können.
+
+Aus diesen Gründen werden im Lernbereich 1 die Grundlagen der Planimetrie erarbei- tet. Die wesentlichen trigonometrischen Funktionen und deren Eigenschaften werden im Lernbereich 2 vermittelt und im Lernbereich 3 die Beziehungen von Oberfläche und Volumen dreidimensionaler Körper dargestellt.
+
+Voraussetzung für dieses Lernmodul ist eine erfolgreiche Bearbeitung des Lernmo- duls 2 dieses Faches
+
+Ausgangssituation
+
+\- Funktionen und Gleichungen erster Ordnung einordnen und anwenden
+
+Alle weiteren notwendigen Informationen und Arbeitsunterlagen sind in diesem Lern- modul enthalten.
+
+Dieses Lernmodul ist im häuslichen Studium zu erarbeiten.
+
+Planung Der benötigte Zeitaufwand liegt bei ca. 46 Stunden.
+
+Zusätzlich finden in den semesterbezogenen Präsenzphasen 17 Stunden Festigung und Vertiefung fachspezifischer und fächerübergreifender Zusammenhänge sowie die Beschreibung typischer Aufgaben und Problemstellungen statt.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+3
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Trigonometrische Höhenbestimmung
+
+Eine Gemeinde möchte in einem Werbeprospekt für Besucher die genaue Höhe ihres historischen Kirchturms angeben.
+
+Da die Dachspitze nicht direkt zugänglich ist und der zu bestimmende Höhenpunkt nur von einer Richtung aus sichtbar ist, kann nur eine trigonometrische Höhenbestimmung mithilfe von Winkelmessungen durchgeführt werden.
+
+In den Lernbereichen 1 und 2 dieses Lernmoduls werden die geometrischen Zusam- menhänge und Grundlagen erarbeitet, um die trigonometrische Höhenbestimmung mit den geforderten Merkmalen realisieren zu können.
+
+Komplexaufgabe des Lernmoduls
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 4
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+1 Planimetrie ............................................................................................................ 6
+
+Inhaltsverzeichnis
+
+1.1 Planimetrische Grundbegriffe ............................................................................ 6 1.1.1 Punkt, Linie, Gerade, Halbgerade und Strecke ........................................... 6 1.1.2 Winkel und Winkelarten ............................................................................ 11 1.2 Grundkonstruktionen ...................................................................................... 19 1.2.1 Ortslinien ................................................................................................. 19 1.2.2 Kongruenzabbildungen ............................................................................ 28 1.3 Ähnlichkeit ...................................................................................................... 32 1.3.1 Zentrische Streckung ............................................................................... 32 1.3.2 Strahlensätze ........................................................................................... 33 1.3.3 Eigenschaften ähnlicher Figuren .............................................................. 37 1.4 Kongruenzsätze und besondere Linien und Punkte im Dreieck ....................... 39 1.5 Rechtwinkliges Dreieck ................................................................................... 59 1.6 Kreis und Kreisteile ......................................................................................... 68 1.6.1 Kreis und Gerade ..................................................................................... 68 1.6.2 Winkelsätze am Kreis ............................................................................... 71 1.6.3 Kreisteile .................................................................................................. 77 1.7 Flächen- und Umfangsberechnungen ............................................................. 78 1.7.1 Geradlinig begrenzte Flächen................................................................... 78 1.7.2 Kreisförmig begrenzte Flächen ................................................................. 92
+
+2 Trigonometrie.................................................................................................... 108
+
+2.1 Sinus, Kosinus und Tangens ........................................................................ 108 2.2 Trigonometrische Funktionen ........................................................................ 116 2.2.1 Sinusfunktion ......................................................................................... 117 2.2.2 Kosinusfunktion ...................................................................................... 117 2.2.3 Tangensfunktion .................................................................................... 118 2.3 Trigonometrische Berechnungen im allgemeinen Dreieck ............................. 119 2.3.1 Sinus und Kosinus für stumpfe Winkel .................................................... 119 2.3.2 Sinussatz ............................................................................................... 121 2.3.3 Kosinussatz ........................................................................................... 129 2.4 Darstellung trigonometrischer Funktionen mithilfe des Bogenmaßes ............. 150 2.5 Additionstheoreme ........................................................................................ 154 2.6 Trigonometrische Funktionen im Raum ......................................................... 155
+
+3 Stereometrie ...................................................................................................... 172
+
+3.1 Volumen und Oberfläche von Prismen .......................................................... 172 3.2 Volumen und Oberfläche von Zylinder, Pyramide und Kegel ......................... 175 3.3 Volumen und Oberfläche der Kugel .............................................................. 184 3.4 Volumen und Oberfläche von Pyramiden- und Kegelstumpf .......................... 187 3.5 Volumen und Oberfläche von Rotationskörpern ............................................ 193
+
+Lösungsanhang ................................................................................................... 202
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+5
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+1 Planimetrie
+
+1.1 Planimetrische Grundbegriffe
+
+1.1.1 Punkt, Linie, Gerade, Halbgerade und Strecke
+
+Abkürzungen und Bezeichnungen
+
+Neben den schon aufgeführten Abkürzungen gelten in der Planimetrie noch weitere, die der genaueren Ausdrucksweise und der Übersichtlichkeit dienen.
+
+Abkürzungen Bedeutung
+
+││ parallel zu ⊥ senkrecht auf
+
+Lernbereich
+
+Bogen von A nach B k (M, r) Kreis mit Mittelpunkt M und Radius ≅ deckungsgleich (kongruent) \~ ähnlich ∆ Dreieck ∠ Winkel  Viereck
+
+Tabelle 1 Abkürzungen in der Planimetrie
+
+Weitere Abkürzungen und Bezeichnungen sind z.B.:
+
+• Großbuchstaben (A, B, C, D, E usw.) für Punkte
+
+• Kleinbuchstaben (a, b, c, d, e, f usw.) für Seiten und Diagonalen
+
+• Griechische Buchstaben für Winkel
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 6
+
+rechter Winkel in Zeichnungen R rechter Winkel AB Gerade durch A und B \[AB\] Strecke von A nach B AB Länge der Strecke von A nach B
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Zeichen Aussprache
+
+α Alpha β Beta γ Gamma δ (∆) Delta ε Epsilon η Eta ϑ (Θ) Theta κ Kappa λ Lambda μ My ν Ny π Pi ρ Rho σ (Σ) Sigma τ Tau φ (Φ) Phi ψ Psi ω (Ω) Omega
+
+Tabelle 2 Aussprache griechischer Zeichen
+
+Spezielle Bezeichnungen (z.B. für besondere Linien im Dreieck) finden Sie an den entsprechenden Stellen erläutert.
+
+Der Punkt
+
+Festgelegt ist ein Punkt wie folgt: Ein Punkt hat keine Ausdehnung. Betrachtet man diese geometrische Festlegung eines Punktes genauer, so bedeutet dies, dass alle gezeichneten Punkte nicht dieser Anforderung entsprechen, es sind genau genom- men Flächen. Für die Praxis hat dies zur Folge, dass man durch eine Zeichnung der Anforderung möglichst nahe kommen muss, indem man mit hartem und spitzem Blei- stift zeichnet. Diese Forderung gilt aber nicht nur für das Zeichnen von Punkten, son- dern für alle Zeichnungen und Konstruktionen in der Geometrie. Punkte entstehen in der Regel durch den Schnitt zweier Linien, die dementsprechend möglichst dünn und genau gezeichnet werden müssen. Sogenannte „schleifende Schnitte“ (Abbildung 1) sind zu vermeiden. Am genauesten wird die Zeichnung, wenn sich die Linien recht- winklig schneiden (Abbildung 2).
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+7
+
+Abbildung 1 Schleifender Schnitt Abbildung 2 Rechtwinkliger Schnitt
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Linien
+
+Eine Linie entsteht durch Bewegung eines Punktes.
+
+Die Linie hat eine Ausdehnung: Die Länge
+
+Je nach Richtung der Bewegung eines Punktes entsteht eine gerade Linie (Gerade) (Abbildung 3) oder eine gekrümmte Linie (Abbildung 4). Ist die Krümmung der Linie gleich bleibend, so entsteht eine Kreislinie.
+
+Abbildung 3 Gerade Abbildung 4 gekrümmte Linie
+
+Flächen
+
+Flächen entstehen bei der Bewegung einer Linie in der Ebene (Abbildung 5) und im Raum (Abbildung 6).
+
+Die Fläche hat zwei Ausdehnungen: Länge und Breite
+
+Bewegt sich eine Linie in der Zeichenebene, so entsteht eine ebene Fläche (siehe Abbildung 5: Rechtecksfläche). Bei einer Bewegung im Raum kann auch eine ge- krümmte Fläche entstehen (siehe Abbildung 6: Oberfläche eines Zylinders).
+
+Abbildung 5 Bewegte Linie in der Zeichenebene Abbildung 6 Bewegte Linie auf einem Kreis
+
+Körper
+
+Körper entstehen durch Bewegung einer Fläche im Raum.
+
+Körper haben drei Ausdehnungen: Länge, Breite und Höhe
+
+Abbildung 7 Bewegte Fläche
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 8
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Gerade Linien
+
+Die kürzeste Verbindung zwischen zwei Punkten ist die geradlinige. Oft wird im tägli- chen Leben diese Verbindung als Gerade bezeichnet. In der Geometrie nennt man diese Verbindung eine Strecke. Von einer Geraden spricht man, wenn man die Stre- cke nach beiden Seiten geradlinig bis ins Unendliche verlängert.
+
+Geraden werden in der Regel mit g bezeichnet. Die geradlinige Verbindung zweier Punkte A und B ist die Strecke von A nach B.
+
+\[AB\] (lies: Strecke AB)
+
+Abbildung 8 Strecke \[AB\]
+
+Häufig werden Strecken auch durch Kleinbuchstaben (z.B. die Seiten eines Dreiecks mit a, b und c) bezeichnet.
+
+Abbildung 9 Strecken c und a
+
+In Abbildung 9 gilt: Strecken haben eine bestimmte Länge. Die Länge der Strecke \[AB\] bezeichnet man mit AB.
+
+AB\< CD (lies: AB kleiner als CD) CD\> AB (lies: CD größer als AB)
+
+Ist eine gerade Linie einseitig begrenzt, so spricht man von einer Halbgeraden.
+
+Abbildung 10 Halbgerade \[AB
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+9
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Zwei Geraden
+
+Verlaufen zwei Geraden in einer Ebene, so gibt es für ihre Lage zwei verschiedene Möglichkeiten:
+
+1\. Die beiden Geraden schneiden sich nicht. 2. Die beiden Geraden schneiden sich.
+
+Zu 1. Zwei Geraden, die sich nicht schneiden, haben immer den gleichen Abstand,
+
+sie verlaufen parallel. Parallele Geraden schneiden sich nicht im Endlichen.
+
+g1 || g2 (lies: g1 parallel g2)
+
+Abbildung 11 Parallele Geraden
+
+Zu 2. Schneiden sich zwei Geraden, so haben sie nur einen Schnittpunkt. Den Win- kel, unter dem sie sich schneiden, nennt man Schnittwinkel. Der Schnittwinkel kann in einem Sonderfall 90° betragen. Dann stehen die beiden Geraden senk- recht aufeinander.
+
+Abbildung 12 Schneidende Geraden
+
+g1 ⊥ g2 (lies: g1 senkrecht auf g2)
+
+Abbildung 13 Rechtwinklige Geraden
+
+In Abbildung 13 verläuft die Gerade g1 waagerecht oder horizontal (wie z.B. die Oberfläche einer Wasserfläche), die Gerade g2 lotrecht oder vertikal (wie z.B. ein freihängendes Senkblei).
+
+Zwei Geraden stehen jedoch immer dann senkrecht aufeinander, wenn der Winkel zwischen ihnen 90° beträgt, auch wenn sie nicht waagerecht und lotrecht verlaufen.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 10
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 14 Schiefstehende rechtwinklige Geraden
+
+1.1.2 Winkel und Winkelarten
+
+Bezeichnungen
+
+Zur Festlegung eines Winkels genügen 2 Halbgeraden, die von einem Punkt ausge- hen. Die beiden Halbgeraden werden mit Schenkel, der Punkt, von dem sie ausge- hen, mit Scheitelpunkt bezeichnet.
+
+Abbildung 15 Bezeichnungen am Winkel
+
+Benannt werden Winkel entweder mit griechischen Kleinbuchstaben (α, β, γ, usw.) oder mittels dreier Punkte (Scheitelpunkt und je 1 Punkt auf den beiden Schenkeln). Bei der Benennung von Winkeln mittels Punkten (die mit Großbuchstaben benannt werden) ist zu beachten, dass der mittlere der drei Buchstaben den Scheitelpunkt bezeichnet.
+
+Somit gilt: α = ∠ BAC Winkelgröße, Übertragen von Winkeln
+
+Die Winkelgröße wird entweder durch die Winkelgrade oder durch die Länge des Bo- gens für eine bestimmte Schenkellänge (Radius) bestimmt. Aus Abbildung 16 ist klar zu erkennen, dass die Bogenlänge zur Größenbestimmung eines Winkels allein nicht ausreicht.
+
+Erst wenn festgelegt wird, bei welchem Radius der Bogen die Länge b1 haben soll, ist die Größe des Winkels bestimmt.
+
+Abbildung 16 Bogenlängen beim Winkel
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+11
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Der gleiche Winkel α kann festgelegt werden durch die Länge des Bogens b1 beim Radius r1 sowie durch b2 beim Radius r2.
+
+Zwei Winkel sind gleich groß, wenn sie gleichlange Kreisbögen beim gleichen Radius haben.
+
+Lehrbeispiel 1: Übertragen eines Winkels
+
+Der Winkel α = ∠ BAC sei vorgegeben.
+
+Tragen Sie ihn an die Halbgerade \[A’B‘\] an\!
+
+Lösung
+
+Der Winkel α = ∠ BAC ist bestimmt durch die Kreisbogenlänge b = BC beim Kreisra- dius 'C'BBCr = = mit dem Zirkel abgetragen.
+
+Jede geometrische Konstruktion muss eindeutig und wiederholbar sein. Dies ist je- doch nur dann möglich, wenn sich die Konstruktion lückenlos beschreiben lässt. Die Beschreibung einer Konstruktion nennt man den Konstruktionstext, der demnach ein- deutig und klar abgefasst werden muss.
+
+Lehrbeispiel 2: Addition und Subtraktion zweier Winkel
+
+Gegeben seien zwei Winkel α und β.
+
+Konstruieren Sie die Winkel α + β und α – β\!
+
+Lösung
+
+Konstruktionstext
+
+• Zeichnen Sie um A, D, A' und A'' ei- nen Kreisbogen mit Radius r\!
+
+• Greifen Sie mit dem Zirkel die Sehne BC ab\!
+
+• Zeichnen Sie damit einen Kreisbogen B' und B''\!
+
+Damit ist α übertragen.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 12
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+• Greifen Sie mit dem Zirkel die Sehne EF ab.
+
+• Zeichnen Sie damit einen Kreisbogen C' bzw. C''.
+
+Damit ist auch β übertragen.
+
+Winkelarten
+
+Bezeichnung von Winkeln nach ihrer Größe
+
+Aus der folgenden Übersicht können Sie die Bezeichnung von Winkeln nach ihrer Größe entnehmen.
+
+Die Maßeintragung der Winkel in der Geometrie kann entweder nach den DIN- Zeichnungsnormen (z.B. beim stumpfen Winkel α) oder nur mit Angabe des Bogens und des griechischen Buchstabens (z.B. beim spitzen Winkel α) erfolgen.
+
+Stumpfer Winkel Gestreckter Winkel Überstumpfer
+
+Winkel
+
+Voller Winkel oder Vollwinkel
+
+90° \< α \< 180° α = 180° 180° \< α \< 360° α = 360° (lies: α liegt zwischen 90° und 180°) Abbildung 17 Stumpfer und gestreckter Winkel Abbildung 18 Überstumpfer und voller Winkel
+
+Spitzer Winkel Rechter Winkel
+
+0° \< α \< 90° α = 90° Abbildung 19 Spitzer und rechter Winkel
+
+Bezeichnung von Winkeln nach ihrer Lage
+
+Die Abbildung 20 zeigt, dass beim Schnitt zweier Geraden 4 Winkel entstehen.
+
+Abbildung 20 Winkel an geschnittenen Geraden
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+13
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Zwischen diesen Winkeln bestehen gewisse Zusammenhänge, die Sie aus der Abbil- dung klar erkennen können.
+
+α
+
+β+ = 180 ° β + γ = 180 ° δ + α = 180 ° Man nennt γ
+
+\+ δ = 180
+
+° ⎧ ││⎨││⎩α β δ γ
+
+und und und und β δ α γ ⎫││⎬││⎭Nebenwinkel.
+
+Zwei Winkel, die an der Kreuzung zweier Geraden nebeneinander liegen, heißen Nebenwinkel. Die Summe zweier Nebenwinkel beträgt 180°.
+
+Ergibt die Summe zweier Winkel 180°, entsprechen sie aber sonst nicht den Erforder- nissen der Nebenwinkel, so nennt man sie Supplementwinkel.
+
+Abbildung 21 Supplementwinkel
+
+Zwei Winkel, die sich zu 180° ergänzen, heißen Supplementwinkel.
+
+Ergänzen sich zwei Winkel zu 90°, so werden sie als Komplementwinkel bezeichnet.
+
+Abbildung 22 Komplementwinkel
+
+Zwei Winkel, die sich zu 90° ergänzen, heißen Komplementwinkel.
+
+Einen weiteren Zusammenhang scheint es zwischen den Winkeln zweier sich schnei- dender Geraden zu geben.
+
+Und zwar scheinen α = γ und β = δ
+
+zu sein. Man nennt α und γ bzw. β und δ Scheitelwinkel.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 14
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Zwei Winkel, die an einer Kreuzung zweier Geraden gegenüber liegen, heißen Scheitelwinkel.
+
+Die Richtigkeit der Vermutung α = γ soll mittels eines Beweises bestätigt werden.
+
+Ein Beweis in der Mathematik besteht immer aus drei Teilen:
+
+1\. der Voraussetzung
+
+2\. der Vermutung oder Behauptung
+
+3\. dem eigentlichen Beweis, in welchem die Behauptung mittels der Vorausset- zung und weiterer schon bekannter oder bewiesener Tatsachen bewiesen wer- den soll
+
+Voraussetzung: (1) β+α = 180 ° (2) γ+β = 180 ° Behauptung: =α γ Beweis: Aus (1) β+α = 180 ° ergibt sich (1‘) =β 180 α-° Aus (2) γ+β = 180 ° ergibt sich
+
+(2‘) =β 180 γ-° Da es sich in (1‘) und (2‘) um denselben Winkel β handelt, gilt:
+
+180 γ-° = 180 α-° | γ+α+ Daraus entsteht:
+
+α
+
+\+
+
+180 ° = γ + 180 ° 180| - ° α
+
+\= γ asw uz b eweisen arw (w. z. w.)b. Genauso kann bewiesen werden: β = α.
+
+Scheitelwinkel sind gleich groß.
+
+Winkel an geschnittenen Parallelen
+
+Werden zwei parallele Geraden g1 und g2 von einer dritten Geraden geschnitten, so entstehen verschiedene Winkel, bei denen sich wieder vermuten lässt, dass einige von ihnen gleich groß sind.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+15
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 23 Winkel an von einer Geraden geschnittenen Parallelen
+
+Aus den bisherigen Ableitungen folgt:
+
+α
+
+1 = γ 1 β
+
+1 = δ 1 α
+
+2
+
+\= γ 2 Scheitelwinkel β
+
+2 = δ 2 Aus der Tatsache, dass Parallelen immer den gleichen Abstand und damit die gleiche Richtung haben, ergibt sich, dass auch die Winkel
+
+α
+
+1 = α 2 β
+
+1 = β 2 γ
+
+1 = γ 2 1
+
+2 sind. δ = δ Abbildung 24 Stufenwinkel
+
+Die Winkel α1, α2 haben die gleiche Lage bezüglich g und gleiche Lage bezüglich g1 bzw. g2. Man nennt daher α1 und α2 gleichliegende Winkel oder Stufenwinkel. Ebenso sind β1, β2; γ1, γ2 sowie δ1, δ2 Stufenwinkel.
+
+An parallelen Geraden sind Stufenwinkel gleich groß.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 16
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Es scheinen noch weitere Winkel einander gleich zu sein, so ist
+
+α 1 = γ 2 β
+
+1 = δ 2 γ
+
+1 = α 2 δ
+
+1 = β 2 Abbildung 25 Wechselwinkel
+
+Hier liegt der zweite Winkel jeweils auf der anderen Seite der Parallelen und der schneidenden Geraden.
+
+Winkel, die auf verschiedenen Seiten der schneidenden sowie auf verschiedenen Seiten der parallelen Geraden liegen, heißen Wechselwinkel.
+
+Es lässt sich zeigen, dass folgender Satz gilt:
+
+An parallelen Geraden sind Wechselwinkel gleich groß.
+
+Es gibt noch eine 3. Art von besonderen Winkeln (Abbildung 26). Die Winkel α1 und δ2 bzw. β1 und γ2 heißen Nachbarwinkel.
+
+Abbildung 26 Nachbarwinkel
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+17
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Auch hier lässt sich zeigen, dass folgender Satz gilt:
+
+An parallelen Geraden ergänzen sich Nachbarwinkel zu 180°.
+
+Lehrbeispiel 3
+
+Berechnen Sie den Winkel α bei der Herstellung einer Schablone zur Prüfung des Spitzenwinkels δ = 118° eines Spitzbohrers für Stahl\!
+
+Lösung
+
+Ziehen Sie eine Parallele zur Mittelachse des Bohrers durch das Ende der Schneide. Der Winkel δ 2kommt dadurch noch einmal vor (Wechselwinkel).
+
+Somit ist:
+
+)4( α + ° + 2 δ = 180 ° (Nebenwinkel)
+
+α
+
+\+ 4
+
+° = 180 ° - 2 δ α = 180 ° - 2 δ - 4 ° α
+
+\= 180 ° - 459 -° ° α
+
+\= 117 ° Der Prüfwinkel beträgt 117°.
+
+Lehrbeispiel 4
+
+Auf einen Wagenheber, der aus 4 gleich langen Streben besteht, drückt eine Kraft Iotrecht.
+
+Berechnen Sie den Winkel α\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 18
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+Zeichnen Sie durch die Pfeilspitze der Kraft F eine Parallele zur Mittelachse AB. Dadurch erhalten wir zweimal Wechselwinkel an parallelen Geraden:
+
+(1) β = ∠ BAC = 30 2° = 15 ° (2) γ = ∠ CBA = 15 ° Damit ist α = 90 ° + γ = 90 ° + 15 ° = 105 ° 1.2 Grundkonstruktionen
+
+1.2.1 Ortslinien
+
+Begriffsbestimmung
+
+Die vier Bohrungen in der Platte (Abbildung 27) sollen symmetrisch zueinander liegen.
+
+Abbildung 27 Bohrplatte
+
+Um diese vier Bohrungen anreißen zu können, müssen mindestens 2 Maße gegeben sein, z.B. die Bohrungsabstände a und b. Ist nur das Maß a bekannt, so lassen sich unendlich viele Bohrungen anreißen, die den Abstand a voneinander haben (Abbildung 28). Die Mittelpunkte dieser Bohrungen liegen auf den beiden Parallelen p1 und p2, die im Abstand a/2 zur Mittelachse m1 liegen.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+19
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 28 Uneindeutige Bemaßung
+
+Ein Bestimmungsstück genügt demnach nicht, um einen Punkt (hier Mittelpunkt) ein- deutig zu konstruieren.
+
+Ein zweites Bestimmungsstück ist unbedingt notwendig. Bei der Platte in Abbildung 27 sind dies die beiden Parallelen zur waagerechten Mittelachse m2 im Abstand b/2‚ mit denen die vier Mittelpunkte der Bohrungen dann eindeutig konstruierbar sind.
+
+Linien, auf denen sämtliche Punkte liegen, die eine bestimmte Bedingung erfül- len, heißen geometrische Örter oder Ortslinien.
+
+Ein Punkt ist in der Ebene durch zwei Ortslinien bestimmt.
+
+Grundaufgaben
+
+Zunächst werden einige Ortslinien mit charakteristischen Eigenschaften vorgestellt. Diese Eigenschaften leuchten unmittelbar ein und müssen nicht weiter begründet werden.
+
+Der geometrische Ort (G.O.) für alle Punkte, die von einer gegebenen Geraden g den gleichen Abstand a haben, ist das Parallelenpaar zu g im Abstand a.
+
+Abbildung 29 Die Parallele als Ortslinie
+
+Der geometrische Ort für alle Punkte, die von einem gegebenen Punkt M den Abstand r haben, ist der Kreis um M mit Radius r.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 20
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 30 Der Kreis als Ortslinie
+
+Bei den Konstruktionsaufgaben der Geometrie ist die Idee meist, zwei Ortslinien zu finden, welche die Lage eines Punktes in der Ebene eindeutig bestimmen.
+
+Lehrbeispiel 1
+
+Konstruieren Sie alle Punkte, die von den beiden Punkten M1 und M2 den Abstand r = 2,5 cm haben\! 3MM 21 = cm .
+
+Lösung
+
+Die gesuchten Punkte liegen:
+
+1\. k (M1, r), d.h. auf dem Kreis um M1 mit dem Radius r 2. k (M2, r), d.h. auf dem Kreis um M2 mit dem Radius r
+
+P1 und P2 sind die gesuchten Punkte.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+21
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 2
+
+Konstruieren Sie alle Punkte, die von M den Abstand r = 2,5 cm und von der Gera- den g den Abstand a = 2 cm haben\! Der Punkt M hat von der Geraden g den Abstand 3,5 cm.
+
+Lösung
+
+Die gesuchten Punkte liegen:
+
+1\. k (M, r) 2. Parallelenpaar zu g im Abstand a = 2 cm
+
+P1 und P2 sind die gesuchten Punkte.
+
+Grundkonstruktionen
+
+Mithilfe dieser Ortslinien lassen sich nun einige geometrische Grundkonstruktionen durchführen, auf denen die Begründung weiter Teile der Geometrie beruht. Ihnen kommt als weitreichende Grundlage eine besondere Bedeutung zu.
+
+• Halbieren einer Strecke
+
+Abbildung 31 Halbierung einer Strecke
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 22
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Konstruktionstext:
+
+Um A und B werden Kreisbögen mit beliebigem, aber gleich großem Radius r ge- zeichnet\! Die Kreisbögen schneiden sich in C und C‘. C wird mit C‘ verbunden. Der Schnittpunkt mit \[AB\] ist die Mitte M von \[AB\]. Die so konstruierte Symmetrieachse CC‘ steht gleichzeitig senkrecht auf \[AB\]. Die obige Konstruktion ergibt somit gleich- zeitig das Mittellot (die Mittelsenkrechte) auf \[AB\].
+
+Anmerkung:
+
+Konstruktionen in der Geometrie müssen mit Zirkel und Lineal ausgeführt werden. Halbieren Sie deshalb in der Geometrie eine Strecke nicht dadurch, dass Sie die Stre- cke abmessen und von einem Punkt aus die Hälfte abtragen.
+
+Weitere Grundaufgaben beruhen auf der vorangegangenen Konstruktion.
+
+• Errichten einer Senkrechten in einem Punkt auf einer Geraden
+
+Abbildung 32 Errichten einer Senkrechten
+
+Konstruktionstext:
+
+Um den Punkt P wird mit dem Zirkel nach beiden Seiten ein Kreisbogen gezeichnet, der die Gerade g in A und B schneidet. Damit ist P die Mitte von \[AB\]. Die Mittelsenk- rechte von \[AB\] ist dann die gesuchte Senkrechte in P auf g.
+
+• Fällen eines Lotes von einem Punkt auf eine Gerade
+
+Abbildung 33 Fällen eines Lotes
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+23
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Konstruktionstext:
+
+Um den Punkt P wird mit dem Zirkel ein Kreisbogen gezeichnet, der die Gerade g in A und B schneidet. P ist damit von A und B gleich weit entfernt. Das Mittellot von \[AB\] ist das Lot auf der Geraden g durch P.
+
+• Halbieren eines Winkels
+
+Abbildung 34 Halbieren eines Winkels
+
+Konstruktionstext:
+
+Die Punkte auf der Winkelhalbierenden müssen von beiden Schenkeln den gleichen Abstand haben. Mittels eines beliebigen Kreisbogens um den Scheitel S werden auf den beiden Seiten zwei Punkte A und B konstruiert, die damit von S die gleiche Ent- fernung haben. Um A und B werden Kreisbögen mit beliebigem, aber gleichem Radi- us r gezeichnet. Sie schneiden sich in Punkt C, der damit von den beiden Schenkeln den gleichen Abstand hat. Die Winkelhalbierende ist dann die Gerade durch C und S.
+
+Die Winkelhalbierende kann auch als Ortslinie aufgefasst werden. Auf ihr liegen alle Punkte, die von 2 sich schneidenden Geraden den gleichen Abstand haben.
+
+Lehrbeispiel 3
+
+Konstruieren Sie 43 einer Strecke s = 10 cm durch zweimaliges Halbieren\!
+
+Lösung
+
+Konstruktionstext:
+
+1\. Konstruktion des Mittellotes von \[AB\] ⇒ C 2. Konstruktion des Mittellotes von \[CB\] ⇒ D
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 24
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 4
+
+Ein Stützblech hat die Form eines rechtwinkligen Dreiecks. Gesucht ist der geringste Abstand a, den die Bohrung von der 3. Dreieckseite hat.
+
+Konstruieren Sie das Lot zur 3. Dreieckseite durch den Mittelpunkt der Bohrung und messen Sie dann den Abstand a\!
+
+Lösung
+
+Der geringste Abstand a ist der senkrechte Abstand der Dreiecksseite von der Boh- rung. Deshalb wird das Lot der 3. Dreiecksseite durch den Mittelpunkt des Kreises (Lot von einem Punkt auf eine Gerade) konstruiert.
+
+gemessen: a = 6,5 mm
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+25
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 5
+
+Zwei Schnittkanten eines Bleches schneiden sich unter dem Winkel α = 70°. Die Ecke soll mit einem Kreisbogen mit dem Radius r = 20 mm abgerundet werden.
+
+Konstruieren Sie die beiden Übergangspunkte zwischen dem Kreisbogen und den Kanten\!
+
+Lösung
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 26
+
+Konstruktionstext:
+
+Der Winkel α = 70° wird halbiert\! In einem beliebigen Punkt P auf einem der Schenkel (z.B. auf s1) des Winkels wird die Senkrechte errichtet. Darauf wird die Strecke mm 20rPP1 = = abgetragen. Dann wird durch P1 die Parallele zu s1 gezeichnet\! Sie schneidet die Winkelhalbierende in M, dem Mittelpunkt des Kreisbogens. Nun wird von M das Lot auf s1 und s2 gefällt. Es schneidet die beiden Schenkel in A und B, den beiden Übergangspunkten. Nun kann der Kreisbogen um M durch A und B gezeichnet werden\!
+
+Eine letzte Ortslinie soll noch erwähnt werden. Es ist die Mittelparallele. Auf ihr liegen alle Punkte, die von 2 parallelen Geraden den gleichen Abstand haben.
+
+Abbildung 35 Mittelparallele
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Umkreis und Inkreis im Dreieck
+
+Werden in einem Dreieck auf den Seiten die Mittelsenkrechten konstruiert, so fällt auf, dass sie sich in einem Punkt schneiden. Der genaue Nachweis erfolgt später.
+
+Abbildung 36 Schnittpunkt der Mittelsenkrechten der Seiten
+
+Dieser Punkt hat eine besondere Eigenschaft: Er ist der Mittelpunkt des Umkreises, des Kreises, auf dem alle Eckpunkte des Dreiecks liegen. Sein Radius wird mit r be- zeichnet.
+
+Werden im Dreieck die Winkelhalbierenden konstruiert, so fällt auf, dass sie sich ebenfalls in einem Punkt schneiden. Der genaue Nachweis erfolgt später.
+
+Abbildung 37 Schnittpunkt der Winkelhalbierenden
+
+Dieser Punkt hat eine besondere Eigenschaft: Er ist der Mittelpunkt des Inkreises, des Kreises, der alle Seiten berührt. Sein Radius wird mit ρ bezeichnet.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+27
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+1.2.2 Kongruenzabbildungen
+
+Gleichheit - Ähnlichkeit - Kongruenz
+
+Zwei Figuren sind dann gleich (=), wenn ihre Flächen gleich groß sind, d.h. „gleich“ bedeutet „flächengleich“.
+
+So sind alle Dreiecke mit gleicher Grundlinie und gleicher Höhe einander gleich (Abbildung 38).
+
+Abbildung 38 Flächengleiche Dreiecke
+
+Zwei Figuren sind einander ähnlich (\~), wenn sie in ihrer Form (Abbildung 39) übereinstimmen.
+
+Abbildung 39 Ähnliche Figuren
+
+Stimmen zwei Figuren in ihrer Größe und Form überein, so nennt man sie kongruent oder deckungsgleich (Abbildung 40). Das Zeichen dafür ist ein Gleichheitszeichen mit darüber liegender Wellenlinie (≅). Legt man beide Figuren aufeinander, so decken sie sich vollständig.
+
+Zwei Figuren sind kongruent (≅), wenn sie in Größe und Form übereinstimmen.
+
+Abbildung 40 Kongruente Figuren
+
+Die Stücke (Seiten, Winkel), die bei der Deckung kongruenter Figuren aufeinan- der fallen, nennt man gleichliegende oder homologe Stücke.
+
+Die beiden entstehenden Dreiecke in Abbildung 41 sind demnach kongruent, denn durch Umklappen um die Seite AB als Achse decken sie sich:
+
+∆ ABC1 ≅ ∆ AC2B
+
+Abbildung 41 Kongruente Dreiecke
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 28
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+In diesem Abschnitt sollen Abbildungen vorgestellt werden, welche kongruente Figu- ren erzeugen. Die Leitfrage ist hier: Welche „Manipulationen“ können an einer gege- benen Figur durchgeführt werden, damit sie kongruente Bilder erzeugt?
+
+Achsenspiegelung
+
+Unter einer Achsenspiegelung versteht man folgende Abbildung:
+
+Ein Punkt P wird an einer Geraden g gespiegelt, indem vom Punkt P das Lot auf die Gerade gefällt wird (Lotfußpunkt M) und der Abstand PM auf der anderen Seite der Geraden abgetragen wird. Der dann entstehende Punkt ist der Spiegelpunkt P’ von P.
+
+Abbildung 42 Spiegelung eines Punktes
+
+Mit der gleichen Methode können Punkt für Punkt Flächen gespiegelt werden.
+
+Lehrbeispiel 1
+
+Spiegeln Sie die Figur an der eingezeichneten Achse\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+29
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+Parallelverschiebung
+
+Unter der Parallelverschiebung versteht man folgende Abbildung:
+
+Ein Punkt P wird durch einen Verschiebungsvektor v auf den Bildpunkt P’ verscho- ben.
+
+Abbildung 43 Verschiebung
+
+Es können auch mehrere Verschiebungen hintereinander ausgeführt werden. Die Gesamtverschiebung kann durch grafische Addition der Verschiebungsvektoren er- reicht werden, indem die Vektoren aneinandergehängt werden. Dies wird auch Vekto- raddition genannt. Die Gesamtverschiebung reicht dann vom Anfangspunkt des ers- ten Vektors bis zum Endpunkt des letzten.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 30
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 2
+
+Verschieben Sie die abgebildete Figur um die Vektoren v 1und v 2mittels Vektoraddi- tion\!
+
+Lösung
+
+1\. Vektoraddition
+
+2\. Verschiebung
+
+Drehung
+
+Unter einer Drehung versteht man folgende Abbildung:
+
+Um den Drehpunkt wird ein Kreis mit dem Radius DP gezeichnet. An der Geraden DP wird der Winkel φ abgetragen. Der freie Schenkel des Winkel φ schneidet den Kreisbogen in P’.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+31
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 44 Drehung
+
+Eine Drehung um 180° wird auch als Punktspiegelung bezeichnet.
+
+1.3 Ähnlichkeit
+
+1.3.1 Zentrische Streckung
+
+Ähnliche Figuren werden durch eine sogenannte zentrische Streckung erzeugt.
+
+Wird eine Fläche (in der Abbildung das Viereck ABCD) von einer punktförmigen Licht- quelle auf eine zu der Fläche parallel verlaufenden Projektionswand projiziert, so ent- steht dort eine andere Fläche (Viereck A′B′C′D′). Eine solche Abbildung heißt zentri- sche Streckung. Die neue Fläche ist größer als die projizierte Fläche, hat jedoch dieselbe Form.
+
+Die beiden Flächen sind einander ähnlich.
+
+Abbildung 45 Erzeugung ähnlicher Figuren durch zentrische Streckung
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 32
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+1.3.2 Strahlensätze
+
+Die Strahlensätze machen Aussagen über Streckenverhältnisse bei ähnlichen Figu- ren.
+
+Streckenverhältnis
+
+Beim Aufzeichnen von Werkstücken müssen sehr oft kleine Teile vergrößert oder sehr große Teile verkleinert dargestellt werden. Der Zeichnungsmaßstab gibt dann an, wie viel mal kleiner oder größer das Werkstück gegenüber der Zeichnung ist. So gibt z.B. der Maßstab 1:2 an, dass das Werkstück doppelt so groß ist wie die Zeichnung. Die Angabe 1:2 nennt man ein Verhältnis und liest: „eins zu zwei“. Sie gibt das Verhältnis der Darstellung in der Zeichnung zur Wirklichkeit an.
+
+Dasselbe gilt für Maßstäbe bei Landkarten. Der Maßstab 1:100000 gibt an, dass z.B. die Strecke 1 cm auf der Karte der Strecke 100000 cm oder 1 km in Wirklichkeit ent- spricht. Ebenso kann man der Angabe 1:100000 auch entnehmen, dass z.B. die Stre- cke 1 mm auf der Karte 100000 mm oder 100 m in Wirklichkeit entspricht. Verhältnis- se enthalten demnach keine Maßeinheiten. Um das Verhältnis zweier Strecken aufzu- stellen, müssen aber beide Strecken in derselben Maßeinheit gemessen sein.
+
+Unter dem Verhältnis zweier Strecken versteht man den Quotienten ihrer Maß- zahlen (beide in der gleichen Maßeinheit gemessen).
+
+Das Verhältnis a:b = 3:1 (lies a zu b wie 3 zu 1) gibt an, dass die Strecke a dreimal so lang ist wie die Strecke b. Über die wirkliche Länge der beiden Strecken ist damit nichts ausgesagt. So kann z.B. a = 6 cm, b = 2 cm sein (a ist hierbei dreimal so groß wie b). Das Rechnen mit Verhältnissen wird in der Algebra behandelt. In der Planimet- rie soll nur das Verhältnis von Strecken untereinander untersucht werden.
+
+Der erste Strahlensatz
+
+Auf einem Strahl (siehe Abbildung 46) werden vom Punkt A aus die Strecken a und b hintereinander abgetragen, sodass aAB= und bBC= ist. Durch die Punkte B und C werden zwei Parallelen gezogen, die einen weiteren Strahl von A aus in D und E schneiden. Dadurch werden auf dem zweiten Strahl die beiden Strecken cAD= und dDE= abgeteilt. Der erste Strahlensatz sagt nun etwas über das Verhältnis der Stre- cke a, b, c und d aus.
+
+Erster Strahlensatz:
+
+Werden von einem Punkt ausgehende Strahlen von Parallelen geschnitten, so verhalten sich die Abschnitte auf dem einen Strahl wie die entsprechenden Ab- schnitte auf dem anderen Strahl.
+
+BC:AB = DE:AD oder
+
+a : b = c : d
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+33
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 46 Erster Strahlensatz
+
+Lehrbeispiel 1
+
+Beweisen Sie den ersten Strahlensatz\!
+
+Lösung
+
+Vor.: BD || CE
+
+Beh.: BC:AB = DE:AD oder
+
+a : b = c : d
+
+Bew.: Die Strecke x ist in a p-mal enthalten (in Abbildung 46 ist p = 4), in b q-mal
+
+(1) enthalten.
+
+xpa
+
+\= ∙ xqb
+
+\= ∙ Die Strecke (2) ypc
+
+y =
+
+ist in ∙ c ebenfalls p-mal und in d q-mal enthalten. yqd
+
+\= ∙ aus (1): )xq(:)xp(b:a =
+
+∙ ∙ a b=
+
+xp ∙ xq ∙(1‘) ba = p qaus (2): )yq(:)yp(d:c =
+
+∙ ∙ c d=
+
+yp ∙ yq ∙(2‘) c d= p q(1‘) = (2‘) a b= c
+
+dd:cb:a = (w.z.b.w)
+
+Der erste Strahlensatz sagt somit etwas über die 4 Strecken a, b, c und d. Sind 3 Strecken gegeben, so kann die 4. Strecke mithilfe des ersten Strahlensatzes konstru- iert (bzw. berechnet) werden.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 34
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 2
+
+Konstruieren Sie die Strecke x zu den Strecken a = 3 cm, b = 4,5 cm und c = 4 cm, wenn a:b = c:x\!
+
+Lösung
+
+Auf zwei von A ausgehenden Strahlen werden die Strecke 3aAB = = cm , 5,4bBC = = cm und 4cAD = = cm abgetragen.
+
+Die gezeichnete Strecke \[DE\] = x erhält man, wenn durch C eine Parallele zu \[BD\] gezogen wird.
+
+Nach dem ersten Strahlensatz gilt dann:
+
+a : b = c : x
+
+Lehrbeispiel 3
+
+Teilen Sie die Strecke AB = cm8 im Verhältnis r:s = 3:4\!
+
+Lösung
+
+Auf einem zweiten Strahl von A aus werden zuerst 3 gleiche Teile a (die Länge von a ist beliebig) bis C und dann 4 gleiche Teile a bis D mit dem Zirkel abgetragen. Danach
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+35
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+wird D mit B verbunden und durch C eine Parallele zu \[DB\] gezogen. Die Strecke \[AB\] wird damit in 2 Teilstrecken r und s aufgeteilt, die sich gemäß dem ersten Strahlensatz wie
+
+r : s = 3 : 4
+
+verhalten.
+
+Der zweite Strahlensatz
+
+Einen weiteren Zusammenhang von Strecken auf Strahlen, die von zwei Parallelen geschnitten werden, gibt der zweite Strahlensatz an:
+
+Zweiter Strahlensatz:
+
+Werden von einem Punkt ausgehende Strahlen von Parallelen geschnitten, so verhalten sich die beiden Abschnitte der Parallelen wie die vom Scheitel aus gemessenen Abschnitte auf den Strahlen.
+
+SC:SA CD:AB = oder SD:SB CD:AB =
+
+Abbildung 47 Zweiter Strahlensatz
+
+Lehrbeispiel 4
+
+Beweisen Sie den zweiten Strahlensatz\!
+
+Lösung
+
+Vor.: \[AB\] || \[CD\]
+
+Beh.: SC:SA CD:AB =
+
+Bew.: Da \[AA‘\] parallel zu \[SD\], gilt nach dem ersten Strahlensatz (C ist Scheitel
+
+und CS bzw. CD sind die Strahlen) (1) SC:SA CD:D'A = (2) ABD'A = (Parallelogramm ABDA‘) (2) in (1): SC:SA CD:AB = (w.z.b.w)
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 36
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 5
+
+Beim Blick von einem Turm mit der Höhe H = 90 m wird von einem l = 200 m entfern- ten Haus mit der Höhe h = 20 m die Strecke s verdeckt.
+
+Ermitteln Sie zeichnerisch s\!
+
+Lösung
+
+M = 1:2000
+
+gemessener Wert für s: 9,2 cm =
+
+ˆ 58 m 58s = m 1.3.3 Eigenschaften ähnlicher Figuren
+
+Figuren sind dann ähnlich, wenn sie in ihrer Form übereinstimmen.
+
+Abbildung 48 Ähnliche Figuren
+
+Ähnlichkeit von Figuren wird mit einer Wellenlinie (\~) angegeben.
+
+Alle Vergrößerungen oder Verkleinerungen ergeben ähnliche Figuren. So sind z.B. alle Kreise einander ähnlich, ebenso alle gleichseitigen Dreiecke oder alle Quadrate.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+37
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 49 Ähnliche Figuren durch Vergrößerung
+
+Ein weiteres Kennzeichen der Ähnlichkeit von Figuren ist die Gleichheit der Winkel (z.B. bei allen gleichseitigen Dreiecken betragen alle Winkel 60°).
+
+Aber auch andere Dreiecke sind einander ähnlich, wenn sie gleiche Winkel haben. Dazu genügt es, wenn jeweils zwei Winkel bekannt sind, da der dritte Winkel aus der Winkelsumme im Dreieck errechenbar ist.
+
+Legt man das linke Dreieck auf das rechte, so erhält man folgendes Bild:
+
+Abbildung 50 Ähnliche Dreiecke
+
+Lehrbeispiel 1
+
+Ein Dreieck ABC hat die Seiten a = 4,5 cm; b = 3 cm; c = 5 cm.
+
+Konstruieren Sie die Seite a‘ im ähnlichen Dreieck A‘B‘C‘ mit der Seite c‘ = 7 cm\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 38
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+gemessen: a‘ = 6,3 cm
+
+Ähnliche Dreiecke haben gleiche Winkel.
+
+Demnach gilt: \[BC\] || \[B‘C‘\]
+
+C‘ wird mit der Parallelen zu \[BC\] durch B‘ konstruiert\!
+
+1.4 Kongruenzsätze und besondere Linien und Punkte im Dreieck
+
+Bezeichnungen am Dreieck
+
+Schneiden sich drei nichtparallele Geraden, so entsteht ein Dreieck (Ausnahme: die drei nichtparallelen Geraden schneiden sich in einem Punkt). Das Dreieck ist eine Figur, die auch in der Technik sehr häufig vorkommt. Es ist deshalb wichtig, Dreiecke zu konstruieren und berechnen zu können.
+
+Abbildung 51 Schnitt dreier Geraden
+
+Die Eckpunkte eines Dreiecks werden mit Großbuchstaben (A, B, C) bezeichnet, und zwar von A nach B und C im Gegenuhrzeigersinn.
+
+Die Seiten werden mit Kleinbuchstaben (a, b, c) bezeichnet, und zwar nach dem ge- genüberliegenden Eckpunkt, also z.B. die dem Eckpunkt A gegenüberliegende Seite mit a.
+
+Die Winkel werden mit griechischen Kleinbuchstaben (α, β, γ) bezeichnet, und zwar liegt beim Eckpunkt A der Winkel α, beim Eckpunkt B der Winkel β und beim Eckpunkt C der Winkel γ.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+39
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 52 Bezeichnungen am Dreieck
+
+• Einteilung der Dreiecke
+
+Einteilung der Dreiecke nach den Seiten
+
+Abbildung 53 Ungleichseitiges Dreieck
+
+Sind alle drei Dreiecksseiten verschie- den, so spricht man von einem un- gleichseitigen Dreieck.
+
+Abbildung 54 Gleichschenkliges Dreieck
+
+Sind zwei Seiten eines Dreiecks gleich, so bezeichnet man es als gleichschenk- lig.
+
+Abbildung 55 Gleichseitiges Dreieck
+
+Sind alle drei Seiten eines Dreiecks gleich, so bezeichnet man es als gleich- seitig.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 40
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+• Einteilung der Dreiecke nach Winkeln
+
+Spitzwinkliges Dreieck Rechtwinkliges Dreieck Stumpfwinkliges Dreieck
+
+α, β, γ \< 90° α oder β oder γ = 90° α oder β oder γ \> 90°
+
+Abbildung 56 Spitzwinkliges, rechtwinkliges und stumpfwinkliges Dreieck
+
+Winkelsumme im Dreieck
+
+Lehrbeispiel 1
+
+Beweisen Sie, dass die Winkelsumme im Dreieck 180° beträgt\!
+
+Lösung
+
+Vor.: Wechselwinkel an Parallelen sind gleich.
+
+Gestreckter Winkel beträgt 180°.
+
+Beh.: α + β + γ = 180°
+
+Bew.: Wird eine Parallele p zu \[BC\] durch A gezogen, dann ist:
+
+(1) α + δ + ε = 180° (gestreckter Winkel) (2) ε = β (Stufenwinkel, da p || BC) (3) δ = γ (Wechselwinkel, da p || BC)
+
+(2) und (3) in (1) eingesetzt, ⇒ α + β +γ =180° (w.z.b.w.)
+
+Die Winkelsumme im Dreieck beträgt 180°.
+
+Folgerungen:
+
+1\. Sind zwei Winkel eines Dreiecks gegeben, so lässt sich der dritte berechnen. 2. In jedem Dreieck kann nur ein rechter und erst recht nur ein stumpfer Winkel vor-
+
+kommen. 3. Im rechtwinkligen Dreieck müssen die beiden spitzen Winkel zusammen 90°
+
+ergeben, sie sind Komplementwinkel. 4. Die drei Winkel eines gleichseitigen Dreiecks sind α = β = γ = 60° (= 180°: 3)
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+41
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 2
+
+In einem rechtwinkligen Dreieck ABC ist γ = 90° und α = 47°15‘.
+
+Berechnen Sie β\!
+
+Lösung
+
+Es
+
+ist 90 90β
+
+\= 90-° '4542'1547 ° = ° β+α
+
+\= ° β = -° α Lehrbeispiel 3
+
+Beweisen Sie den Satz:
+
+Die Außenwinkel eines Dreiecks sind jeweils gleich der Summe der beiden nicht anliegenden Innenwinkel.
+
+Lösung
+
+Der Beweis wird hier nur für α‘ durchgeführt.
+
+Vor.: (1) α + β +γ = 180° Beh.: (2) α‘ = β + γ (3) β‘ = α + γ (4) γ‘ = α + β Bew.: (5) α‘ =180° - α (Nebenwinkel) (6) α = 180° – β – γ (aus Voraussetzung (1)) (6)in(5): α‘ = 180° – (180° – β – γ)
+
+α‘ = 180° –180° + β +γ α' = β + γ (Beweisen Sie die Behauptungen (3) und (4) selbst\!)
+
+Lehrbeispiel 4
+
+Zeichnen Sie ein beliebiges Dreieck und messen Sie alle Seiten und Winkel\! Verglei- chen Sie die Summe bzw. die Differenz zweier Seiten mit der dritten Seite\! Verglei- chen Sie die Größen der Winkel und die Größen der Seiten miteinander\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 42
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+Werden alle Messungen durchgeführt, fallen folgende Beziehungen auf:
+
+a + b \> c a – b \< c a + c \> b a – c \< b b + c \> a c – b \< a
+
+(Wobei bei der Differenzbildung immer die kleinere von der größeren Seite subtrahiert wird\!)
+
+und: Je länger eine Seite eines Dreiecks ist, desto größer ist auch der Winkel, der ihr gegenüberliegt.
+
+In jedem Dreieck ist die Summe zweier Seiten größer als die dritte Seite und die Differenz zweier Seiten kleiner als die dritte Seite. Außerdem liegt der längsten Seite auch der größte Winkel gegenüber.
+
+Lehrbeispiel 5
+
+Beweisen Sie den Satz:
+
+Winkel, deren Schenkel paarweise aufeinander senkrecht stehen, sind gleich groß oder ergänzen sich zu 180°.
+
+Lösung
+
+Der Beweis wird nur für den ersten Teil des Satzes geführt\!
+
+Vor.: Schenkel stehen paarweise aufeinander senkrecht
+
+Beh.: α = β
+
+Bew.: (1) α + γ = 90° (Winkelsumme) (2) β + δ = 90° (Winkelsumme) (3) γ = δ (Scheitelwinkel) (3) in (1) ⇒ (4) α + δ = 90°
+
+aus (2) ⇒ (2‘) δ = 90° –β
+
+(2‘) in (4): α + 90° –β = 90° | - 90° + β
+
+α = β (w.z.b.w.)
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+43
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Anwendung: Schiefe Ebene
+
+Da FG ⊥ b und FN ⊥ s ⇒ α = α'
+
+(Die Schenkel von α‘ und die Schenkel von α stehen paarweise aufeinander senk- recht.)
+
+Kongruenzsätze
+
+Die folgenden Kongruenzsätze liefern Aussagen darüber, wann zwei Dreiecke kon- gruent sind. Sie dienen als Vorbereitung auf die Dreieckskonstruktionen, bei der aus gegebenen Größen ein Dreieck eindeutig konstruiert werden soll. Mithilfe der Kongru- enzsätze kann man genau das nachweisen.
+
+Aus der Definition der Kongruenz ergibt sich der
+
+1\. Kongruenzsatz
+
+Dreiecke sind kongruent, wenn sie in den drei Seiten übereinstimmen (SSS).
+
+Kongruente Dreiecke entstehen auch, wenn zwei Seiten und der eingeschlossene Winkel gegeben sind, In Abbildung 57 sind c, b und der eingeschlossene Winkel α gegeben.
+
+Abbildung 57 2. Kongruenzsatz
+
+Durch Klappen um AB als Achse decken sich die beiden Dreiecke.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 44
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+2\. Kongruenzsatz
+
+Dreiecke sind kongruent, wenn sie in zwei Seiten und dem eingeschlossenen Winkel übereinstimmen (SWS).
+
+Wie später gezeigt wird, gilt dieser Satz nur uneingeschränkt, wenn es sich um den eingeschlossenen Winkel handelt.
+
+Abbildung 58 Kongruenzsatz WSW
+
+Sind von einem Dreieck zwei Winkel und eine Seite gegeben, so ist ihre Lage zuei- nander ohne Bedeutung. In Abbildung 58 sind c, α und β, in Abbildung 59 c, β und γ gegeben.
+
+Abbildung 59 Kongruenzsatz SWW
+
+Auch hier decken sich die Dreiecke durch Umklappen um AB als Achse.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+45
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+3\. Kongruenzsatz
+
+Dreiecke sind kongruent, wenn sie in einer Seite und zwei gleichliegenden Winkeln übereinstimmen (WSW oder SWW).
+
+Der 2. Kongruenzsatz schränkt die Kongruenz von Dreiecken aus zwei Seiten und einem Winkel auf den eingeschlossenen Winkel ein. Sind von Dreiecken zwei Seiten und ein nicht eingeschlossener Winkel gegeben, so gibt es nur in gewissen Fällen Kongruenz.
+
+Geg.: c = 3,4 cm; a = 4,1 cm; α = 40° Geg.: c = 4,1 cm; a = 3,4 cm; α = 40°
+
+Abbildung 60 Zum 4. Kongruenzsatz Abbildung 61 Zum 4. Kongruenzsatz
+
+Abbildung 61 kann entnommen werden, dass vier Dreiecke entstehen, wenn die Seite a kleiner ist als die Seite c. Zwei Dreiecke sind jeweils kongruent, aber nicht alle vier. Hier gibt es also zwei voneinander verschiedene Dreiecke, die jedoch beide die ge- stellten Bedingungen c = 4,1 cm; a = 3,4 cm; α = 40° erfüllen.
+
+Zwei Lösungen gibt es immer dann, wenn der Kreisbogen mit der kleineren Seite (Sei- te a in Abbildung 61) den freien Schenkel des gegenüberliegenden Winkels (freier Schenkel des Winkels α in Abbildung 61) in zwei Punkten schneidet.
+
+Ist die Seite a \> c, so gibt es nur einen Schnittpunkt und demnach auch nur eine Lö- sung (Abbildung 60). Der gegebene Winkel muss dann der größeren der beiden Seiten gegenüberliegen.
+
+4\. Kongruenzsatz
+
+Dreiecke sind kongruent, wenn sie in zwei Seiten und dem „Gegenwinkel“ der größeren von diesen beiden Seiten übereinstimmen (SsW).
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 46
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 6
+
+Gegeben: ∆ ABC aus a = 5 cm; b = 3 cm; γ = 70°
+
+Untersuchen Sie, ob die Lösung eindeutig ist\!
+
+Lösung
+
+Die Lösung ist eindeutig, da von dem Dreieck zwei Seiten und der eingeschlossene Winkel gegeben sind (2. Kongruenzsatz SWS). Die Abbildung bestätigt dies.
+
+Lehrbeispiel 7
+
+Gegeben: ∆ ABC aus a = 4 cm; c = 4,5 cm; γ = 60°
+
+Untersuchen Sie, ob die Lösung eindeutig ist\!
+
+Lösung
+
+Die Lösung ist eindeutig. Der gegebene Winkel liegt der größeren der beiden Seiten gegenüber (4. Kongruenzsatz SsW).
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+47
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Dreieckskonstruktionen
+
+Charakteristisch bei den eben vorgestellten Kongruenzsätzen ist, dass in allen vier Sätzen jeweils auf 3 Bestimmungsstücke Bezug genommen wurde: 3 Seiten, oder 2 Seiten und ein Winkel, oder eine Seite und zwei Winkel (einen Kongruenzsatz mit 3 Winkeln gibt es nicht, da die Dreiecke dadurch nicht eindeutig bestimmt sind: sie sind nur ähnlich).
+
+Folgerung:
+
+Zur Konstruktion eines Dreiecks sind drei Bestimmungsstücke notwendig. Dabei reicht die Angabe von drei Winkeln nicht.
+
+Bei den Dreieckskonstruktionen geht es nun darum, aus drei gegebenen Stücken das Dreieck - wenn möglich - eindeutig zu konstruieren. Das Verfahren der Konstruktion geschieht in 5 Schritten:
+
+1\. Planfigur
+
+In der Planfigur wird ein allgemeines Dreieck ohne Beachtung der gegebenen Maße gezeichnet und die gegebenen Größen werden deutlich markiert hervorgehoben. Es dient der Klärung der Lagen. Es gibt oft die Schwierigkeit, ein wirklich allgemeines Dreieck zu zeichnen, also kein rechtwinkliges oder gleichschenkliges oder gleichseiti- ges. Eine gute Hilfe bildet folgende „Faustformel“:
+
+Abbildung 62 Das allgemeine Dreieck
+
+2\. Plantext
+
+Der Plantext ist ein Plan zur Lösung der Aufgabe mithilfe von Ortslinien in Kurzform, mit Stichworten, Abkürzungen und Symbolen.
+
+3\. Konstruktionsfigur
+
+Die Konstruktion ist die zeichnerische Lösung unter Benutzung der gegebenen Maße.
+
+4\. Konstruktionstext
+
+Der Konstruktionstext ist eine eindeutige Beschreibung der Konstruktion, sodass die Konstruktion (auch von anderen) ausgeführt werden kann.
+
+5\. Determination
+
+Die Determination ist eine Untersuchung, unter welchen Bedingungen die Aufgabe lösbar ist und ob die Lösung eindeutig ist.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 48
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Dreieckskonstruktion aus gegebenen Seiten
+
+Lehrbeispiel 8
+
+Konstruieren Sie ein Dreieck ABC mit den Seitenlängen a = 4 cm, b = 6 cm und c = 5 cm\!
+
+Geg.: a = 4 cm; b = 6 cm; c = 5 cm Ges.: Planfigur, Plantext, Konstruktionsfigur, Konstruktionstext, Determination
+
+Lösung
+
+Planfigur:
+
+Plantext:
+
+Gezeichnet wird cAB= C liegt 1. k (A, b) 2. k (B, a)
+
+Anmerkung:
+
+Der Plantext soll ja in möglichst kurzer Form einen Plan zur Lösung darstellen. Durch den ersten Satz des Plantextes sind schon zwei Ecken (A und B) des Dreiecks ange- geben. Es muss nur noch die fehlende Ecke C mithilfe zweier geometrischer Orte bestimmt werden. Dazu werden die bekannten Abkürzungen und Symbole verwendet.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+49
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Konstruktionsfigur:
+
+Anmerkung:
+
+Die Konstruktionsfigur muss so genau wie möglich sein. Die Konstruktionslinien müs- sen stehen bleiben.
+
+Konstruktionstext:
+
+Gezeichnet wird die Strecke c = 5 cm mit den Endpunkten A und B. Dann wird um A ein Kreis mit dem Radius b = 6 cm und um B ein Kreis mit dem Radius a = 4 cm ge- schlagen. Die Schnittpunkte der beiden Kreise sind C und C‘. Dreieck ABC bzw. ABC‘ ist das gesuchte Dreieck.
+
+Determination:
+
+Damit sich die Kreise um A und B schneiden, muss a + b \> c sein. (Ebenso gilt: a + c \> b und b + c \> a.)
+
+Nach dem Kongruenzsatz SSS sind die Dreiecke ABC und ABC‘ kongruent.
+
+Vereinbarung:
+
+Bei allen folgenden Konstruktionen wird bei kongruenten Figuren immer das Dreieck als Lösung gewählt, bei dem die Punkte A, B, C im mathematisch positiven Umlauf- sinn (entgegen dem Uhrzeigersinn) aufeinander folgen.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 50
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Dreieckskonstruktionen aus Seiten und Winkeln
+
+Lehrbeispiel 9
+
+Geg.: c = 5 cm; α = 40°; b = 4,5 cm Ges.: Planfigur, Plantext, Konstruktionstext.
+
+Lösung
+
+Planfigur:
+
+Plantext:
+
+Gezeichnet wird \[AB\] = c C liegt 1. auf dem freien Schenkel des Winkels α
+
+2\. auf k (A, b)
+
+Konstruktionstext:
+
+Gezeichnet wird die Strecke c = 5 cm mit den Endpunkten A und B. An \[AB\] wird in A der Winkel α = 40° abgetragen. Um A wird ein Kreis mit dem Radius b = 4,5 cm ge- zeichnet. Er schneidet den freien Schenkel des Winkels α in C.
+
+Fertigen Sie die Konstruktionsfigur zur Übung selbst an\!
+
+Lehrbeispiel 10
+
+Geg.: a = 6 cm; α = 55°; γ = 30° Ges.: Planfigur, Plantext, Konstruktionsfigur, Konstruktionstext.
+
+Lösung
+
+Planfigur:
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+51
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Plantext:
+
+Gezeichnet wird \[BC\] = a A liegt 1. auf dem freien Schenkel des Winkels γ
+
+2\. auf einer Parallelen durch B zum freien Schenkel des Winkels α. (α wird in einem beliebigen Punkt A‘, der auf dem freien Schenkel von γ liegt, angetragen\!)
+
+Konstruktionstext:
+
+Gezeichnet wird die Strecke a = 6 cm mit den Endpunkten B und C. An \[BC\] in C wird der Winkel γ = 30° angetragen. In einem beliebigen Punkt A‘ auf dem freien Schenkel des Winkels γ wird der Winkel α = 55° angetragen\! A erhält man durch Verschieben des freien Schenkels des Winkels α durch B.
+
+Konstruktionsfigur:
+
+Besondere Linien und Punkte im Dreieck
+
+Außer den Seiten und Eckpunkten gibt es im Dreieck noch einige andere Linien und Punkte mit besonderen Eigenschaften.
+
+• Mittellote und Umkreis
+
+Jedes beliebige Dreieck hat einen Umkreis, d. h., dass es für jedes Dreieck einen Kreis gibt, auf dem jeweils alle drei Eckpunkte liegen.
+
+Wird in Abbildung 63 zunächst nur die Seite \[AB\] betrachtet, gibt es unendlich viele Kreise, die durch A und B gehen. Die Mittelpunkte all dieser Kreise liegen auf dem Mittellot von \[AB\] (z.B. M1, M2, M3).
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 52
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+53
+
+Abbildung 63 Mittellote und Umkreis
+
+Einer dieser Kreise geht auch durch den Eckpunkt C und ist damit der Umkreis. Zur weiteren Bestimmung des Umkreismittelpunktes wird die Seite \[BC\] betrachtet.
+
+Alle Mittelpunkte von Kreisen, die durch B und C gehen, liegen auf dem Mittellot von \[BC\] (M1‘, M2‘, M3‘). Der Umkreis muss durch A, B und C gehen, er muss demnach auf dem Mittellot von \[AB\] und dem Mittellot von \[BC\], also auf dem Schnittpunkt M der beiden Mittellote liegen.
+
+Zur Kontrolle kann noch das Mittellot auf \[AC\] errichtet werden. Auch das dritte Mittel- lot geht durch M.
+
+Der Umkreismittelpunkt M eines Dreiecks ist der Schnittpunkt der Mittellote. Der Umkreisradius wird mit r bezeichnet.
+
+Lehrbeispiel 11
+
+Konstruieren Sie den Umkreismittelpunkt M eines Dreiecks ABC aus a = 70 mm; b = 45 mm; c = 40 mm\!
+
+Messen Sie den Umkreisradius r\!
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+Dreieck ABC ist stumpfwinklig.
+
+Aus der Konstruktion kann entnommen werden, dass der Umkreismittelpunkt auch außerhalb des Dreiecks liegen kann.
+
+Gemessen: r = 37 mm
+
+(Zeichnung nicht maßstäblich\!)
+
+Konstruktionstext:
+
+Gezeichnet wird \[AB\] (c = 40 mm\!). Dann wird ein Kreisbogen um B mit Radius a = 70 mm und ein Kreisbogen um A mit Radius b = 45 mm geschlagen\! Sie schnei- den sich in C. Nun werden auf den Dreiecksseiten \[AB\], \[BC\] und \[AG\] die Mittellote errichtet. Sie schneiden sich in M, dem Umkreismittelpunkt.
+
+Die Mittellote werden mit m bezeichnet und erhalten als Index den Buchstaben der Seite, auf der sie senkrecht stehen.
+
+ma = Mittellot auf die Seite a mb = Mittellot auf die Seite b mc = Mittellot auf die Seite c
+
+• Seitenhalbierende und Schwerpunkt
+
+Im Schwerpunkt einer Fläche oder eines Körpers kann man sich dessen gesamte Masse vereinigt denken. Unterstützt man die Fläche oder den Körper an dieser Stelle (z.B. mit einer Nadelspitze), so muss er im Gleichgewicht bleiben. Für einige geomet- rische Figuren ist der Schwerpunkt sehr leicht zu finden, so z.B. beim Kreis, dessen Mittelpunkt gleichzeitig der Schwerpunkt ist. Bei einer Strecke ist der Schwerpunkt gleich dem Mittelpunkt dieser Strecke, bei einem Rechteck der Schnittpunkt der bei- den Diagonalen.
+
+Bei vielen Aufgaben in der Physik und Festigkeitslehre benötigt man zur Lösung die Lage des Schwerpunktes, z.B. bei Blechen, Profilquerschnitten usw. Dies wird an entsprechender Stelle ausführlich behandelt. Hier soll nur das Ermitteln des Schwer- punktes einer Strecke, eines Rechtecks und eines Dreiecks erläutert werden.
+
+Der Schwerpunkt von Dreiecken ist nicht so einfach zu finden. Er muss konstruiert werden. Betrachtet wird im Dreieck ABC (Abbildung 64) zuerst die Seite \[AB\]. Der Schwerpunkt dieser Seite ist die Mitte D von \[AB\].
+
+Nun wird das Dreieck in sehr schmale Streifen parallel zu \[AB\] geteilt\! Wenn die Strei- fen so schmal wie nur irgend möglich gewählt werden, so kann man annehmen, dass das Dreieck damit in lauter Strecken (besser: schmale Rechtecke) zerlegt würde. Der
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 54
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Schwerpunkt dieser Strecken ist jeweils ihr Mittelpunkt. Verbindet man all diese Mit- telpunkte, erhält man die Seitenhalbierende. Sie läuft von der Mitte der Seite zur ge- genüberliegenden Ecke. Auf ihr muss der Schwerpunkt des Dreiecks liegen.
+
+Die Strecke vom Mittelpunkt einer Dreiecksseite zum gegenüberliegenden Eck- punkt heißt Seitenhalbierende oder Schwerlinie.
+
+Abbildung 64 Schwerpunkt
+
+Zur genauen Bestimmung des Schwerpunktes teilt man das Dreieck auch parallel zu \[BC\] in viele schmale Streifen. Die Schwerpunkte der so entstandenen Strecken lie- gen wieder auf ihren Mittelpunkten.
+
+Der Schwerpunkt des Dreiecks ABC muss demnach auch auf dieser Seitenhalbieren- den \[MaA\] liegen. Damit kann der Schwerpunkt des Dreiecks nur der Schnittpunkt der Seitenhalbierenden sein.
+
+Zur Kontrolle ist auch die dritte Seitenhalbierende \[MbB\] eingezeichnet\! Damit gilt:
+
+Die Seitenhalbierenden (Schwerlinien) eines Dreiecks schneiden sich in einem Punkt, dem Schwerpunkt S.
+
+Die Seitenhalbierenden werden mit s bezeichnet und erhalten als Index den betref- fenden Kleinbuchstaben der Seite, die sie halbieren.
+
+sa = Seitenhalbierende der Seite a sb = Seitenhalbierende der Seite b sc = Seitenhalbierende der Seite c
+
+Winkelhalbierende und lnkreis
+
+Sollen aus dreieckigen Blechabfallstücken kreisförmige Scheiben geschnitten werden, so erhält man die größtmöglichen Scheiben dann, wenn von dem Kreis alle drei Drei- ecksseiten von innen berührt werden. Diesen Kreis nennt man den lnkreis. Nicht jede geometrische Figur besitzt einen lnkreis; so haben z.B. Rechtecke oder Parallelo- gramme keinen lnkreis. Das Quadrat hingegen besitzt einen lnkreis.
+
+Zur Konstruktion des Inkreismittelpunktes des Dreiecks ABC (Abbildung 65) geht man von den beiden Schenkeln des Winkels α, den Seiten b und c, aus. Die Mittelpunkte aller Kreise, die diese beiden Schenkel berühren, liegen auf der Winkelhalbierenden des Winkels α.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+55
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 65 Inkreis
+
+Auf der Winkelhalbierenden des Winkels β liegen alle Mittelpunkte der Kreise, die beide Schenkel von β berühren. Dasselbe gilt für den Winkel γ.
+
+Der Schnittpunkt O der drei Winkelhalbierenden ist der Mittelpunkt für den Kreis, der die Schenkel aller drei Winkel und damit alle drei Dreiecksseiten von innen berührt.
+
+Die Winkelhalbierenden eines Dreiecks schneiden sich in einem Punkt, dem Inkreismittelpunkt O. Der Radius des Inkreises heißt ρ.
+
+Die Winkelhalbierenden werden mit w bezeichnet und erhalten als Index den Winkel, den Sie halbieren.
+
+wα = Winkelhalbierende des Winkels α wβ = Winkelhalbierende des Winkels β wγ = Winkelhalbierende des Winkels γ
+
+Lehrbeispiel 12
+
+Konstruieren Sie den Inkreismittelpunkt des Dreiecks ABC aus a = 60 mm; b = 80 mm; c = 90 mm\! Konstruieren Sie die Berührungspunkte des Inkreises und messen Sie den Inkreisradius ρ\!
+
+Lösung
+
+gemessen: ρ = 20,5 mm
+
+(Zeichnung nicht maßstäblich\!)
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 56
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Konstruktionstext: Gezeichnet wird \[AB\] (c = 90 mm)
+
+Die Kreisbögen um B mit Radius a = 60 mm und um A mit Radius b = 80 mm schnei- den sich in C. Die Winkel α, β und γ werden halbiert und die Winkelhalbierenden wα, wβ, wγ eingezeichnet\!
+
+Sie schneiden sich in O, dem Inkreismittelpunkt. Fällt man von O jeweils das Lot auf \[AB\], \[BC\] und \[AC\], so sind die Fußpunkte D, E und F die Berührungspunkte des Inkreises.
+
+• Höhe und Fläche des Dreiecks
+
+Das Lot vom Eckpunkt eines Dreiecks auf die gegenüberliegende Seite oder auf deren Verlängerung heißt Höhe des Dreiecks.
+
+Die Höhen werden mit h bezeichnet und erhalten als Index den Kleinbuchstaben der Seite, auf der sie senkrecht stehen.
+
+ha = Höhe vom Eckpunkt A auf a hb = Höhe vom Eckpunkt B auf b hc = Höhe vom Eckpunkt C auf c
+
+Die drei Höhen eines Dreiecks schneiden sich ebenfalls in einem Punkt, dem Höhen- schnittpunkt H.
+
+Der Höhenschnittpunkt H kann innerhalb oder außerhalb eines Dreiecks liegen. Im Sonderfall eines rechtwinkligen Dreiecks liegt er im Scheitelpunkt des rechten Winkels.
+
+Lehrbeispiel 13
+
+Ermitteln Sie die Fläche eines Dreiecks aus Grundlinie und Höhe\!
+
+Lösung
+
+Gezeichnet wird durch C eine Parallele zu AB und in A und B jeweils eine Senkrechte zu AB.
+
+Da AF = hBE = c, gilt für die Fläche des Rechtecks ABEF:
+
+ARechteck = hc∙ c(= Länge x Breite)
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+57
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+∆ ADC und ∆ ACF sind flächengleich (jeweils die Hälfte des Rechtecks ADCF). ∆ DBC und ∆ BEC sind flächengleich (jeweils die Hälfte des Rechtecks DBEC). Die Fläche des ∆ ABC ist somit die Hälfte von der Fläche des Rechtecks ABEF:
+
+chc 21 A ∙ ∙ = ∆ (= 21 x Grundseite x Höhe)
+
+Da man jede Seite des Dreiecks als Grundseite auffassen kann, ergeben sich zur Berechnung der Fläche 3 Möglichkeiten:
+
+aha 21 A ∙ ∙ = , bhb 21 A ∙ ∙ = ; chc 21 A ∙ ∙ =
+
+Die Fläche eines Dreiecks ist gleich dem halben Produkt aus einer Dreiecksseite und der zugehörigen Höhe.
+
+Aus diesem Satz kann man unmittelbar einen weiteren Sachverhalt folgern:
+
+Abbildung 66 Scherung beim Dreieck
+
+Verschiebt man den Eckpunkt C auf einer Parallelen zur Grundlinie c im Abstand h, so entstehen flächengleiche Dreiecke (alle Dreiecke haben die gleiche Grundlinie c und die gleiche Höhe h\!). Eine solche Parallelverschiebung von Eckpunkten heißt Scherung.
+
+Entsteht eine geometrische Figur durch Scherung aus einer anderen Figur, so sind beide flächengleich, aber nicht deckungsgleich.
+
+Lehrbeispiel 14
+
+Konstruieren Sie im Dreieck ABC aus a = 9,0 cm, b = 7,0 cm und c = 8,0 cm die drei Höhen\! Messen Sie die Länge ha, hb und hc\! Berechnen Sie hieraus jeweils die Dreiecksfläche\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 58
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+gemessen: ha = 6,0 cm hb = 7,7 cm hc = 6,8 cm
+
+A
+
+1
+
+\=
+
+ha ∙ a
+
+2= 9
+
+6cm ∙ 2 cm = 27 cm 2 A
+
+2
+
+\=
+
+hb ∙ b
+
+2= 7
+
+7,7cm ∙ 2 cm = 95,26 cm 2 = 27 cm 2 A
+
+2
+
+\=
+
+hc ∙ c
+
+2= 8
+
+8,6cm ∙ 2
+
+2 2 59 cm = 2,27 cm = 27 cm 1.5 Rechtwinkliges Dreieck
+
+Lehrsatz des Thales
+
+Der Satz des Thales (Thales von Milet, griechischer Philosoph um 600 v.Chr.) ermög- licht eine verhältnismäßig einfache Konstruktion eines rechtwinkligen Dreiecks.
+
+Zur Herleitung dieses Satzes wird von einem Rechteck ABCD ausgegangen, um das der Umkreis gezeichnet wird (Abbildung 67). Den Umkreismittelpunkt M findet man als den Schnittpunkt der beiden Diagonalen \[AC\] und \[BD\] (eine Diagonale ist eine gera- de Linie, die zwei nicht benachbarte Ecken eines Vierecks miteinander verbindet).
+
+Die Diagonale \[AC\] halbiert das Rechteck und es entstehen zwei Dreiecke ACD und ABC, die jeweils rechtwinklig sind. \[AC\] und \[BD\] gehen durch den Umkreismittelpunkt und sind deshalb immer Durchmesser.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 67 Umkreis eines Rechtecks
+
+Jedes weitere Dreieck, das einen Durchmesser des Umkreises als Grundlinie und eine weitere Ecke auf dem Umkreis hat, ist die Hälfte eines solchen Rechtecks und somit rechtwinklig
+
+Abbildung 68 Satz des Thales
+
+Satz des Thales: Liegen die Ecken eines Dreiecks so auf einem Kreis, dass eine Seite Kreis- durchmesser ist, so ist das Dreieck rechtwinklig.
+
+Lehrbeispiel 1
+
+Konstruieren Sie das rechtwinklige Dreieck ABC (γ = 90°) aus c = 5 cm und a = 3cm\!
+
+Lösung
+
+(Zeichnung nicht maßstäblich\!)
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 60
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Konstruktionstext:
+
+Gezeichnet wird \[AB\] (c = 5 cm). Danach wird \[AB\] halbiert. Dadurch erhält man M\! Gezeichnet wird nun ein Halbkreis um M mit Radius AM = BM = AB 2, danach um B einen Kreis mit Radius 3aBC = = cm . Er schneidet den Kreis um M in C. Damit ist das gesuchte Dreieck ABC konstruiert\!
+
+Dieses Dreieck ABC muss gemäß dem Satz von Thales rechtwinklig mit dem rechten Winkel bei C sein. Betrachtet man das rechtwinklige Dreieck ABC etwas genauer, so kann man folgende Aussagen machen:
+
+1\. Die Grundlinie c muss die längste Seite des Dreiecks sein, also
+
+a \< c b \< c
+
+2\. Die beiden anderen Seiten müssen zusammen länger sein als die Grundseite,
+
+denn sonst entsteht kein Dreieck, also a + b \> c.
+
+Ein weiterer Zusammenhang zwischen den Seiten lässt sich so einfach nicht finden. Dem griechischen Philosophen Pythagoras (er lebte im 6. Jahrh. v.Chr.) wird die Ent- deckung des rechnerischen Zusammenhangs zwischen den Seiten eines rechtwinkli- gen Dreiecks zugeschrieben.
+
+Lehrsatz des Pythagoras
+
+Die Seiten im rechtwinkligen Dreieck sind nicht gleichbedeutend. Eine besondere Rolle spielt die Seite, die dem rechten Winkel gegenüberliegt. Sie wird mit Hypotenu- se bezeichnet. Die beiden am rechten Winkel aneinander liegenden Dreiecksseiten bezeichnet man mit Katheten.
+
+Abbildung 69 Bezeichnungen am rechtwinkligen Dreieck
+
+Über die rechnerische Beziehung zwischen der Hypotenuse und den Katheten sagt der
+
+Lehrsatz des Pythagoras:
+
+In jedem rechtwinkligen Dreieck ist das Quadrat über der Hypotenuse gleich der Summe der Kathetenquadrate.
+
+Mit den Bezeichnungen gemäß Abbildung 69 gilt:
+
+c2 = a2 + b2
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+61
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Beweis:
+
+Abbildung 70 Beweis des Satzes von Pythagoras
+
+Vor.: ABC ist rechtwinklig,
+
+γ = 90°
+
+Beh.: c2 = a2 + b2
+
+Bew.: Das große Quadrat mit der Seite a + b kann zerlegt werden in 4 rechtwinklige Dreiecke und dem Quadrat über c. Also kann die Fläche des großen Quadrats auf zwei Arten berechnet werden. )ba(A = + 2oder
+
+4A = ∙ ab 2+ c 2(Beachte: Im rechtwinkligen Dreieck ABC ist b die Höhe zur Seite a\!)
+
+Wir setzen die Flächen gleich und erhalten 4)ba( + 2 = ∙ ba 2∙ + c 2 .
+
+Durch Ausmultiplizieren erhält man:
+
+cab2bab2a
+
+2
+
+\+
+
+\+ 2 = + 2 (wenn man die Seiten vertauscht ⇒ ab2|bab2aab2c
+
+2
+
+\+
+
+\= 2 + + 2 - (bac
+
+2
+
+\= 2 + 2 w.z.b.w.) Lehrbeispiel 2
+
+Berechnen Sie die Hypotenuse c im rechtwinkligen Dreieck ABC (γ = 90°) mit a = 4 cm; b = 3 cm\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 62
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+Planfigur:
+
+Nach Pythagoras gilt:
+
+bac
+
+2= 2 + 2 4(c
+
+2
+
+\= 3()cm 2 + )cm 2 16c
+
+2
+
+\= cm 2 + 9 cm 2 c
+
+\=
+
+25 cm 2 5c =cm Lehrbeispiel 3
+
+Berechnen Sie die Kathete a im rechtwinkligen Dreieck ABC (γ = 90°) mit b = 5 cm; c = 13 cm\!
+
+Lösung
+
+Planfigur:
+
+Nach Pythagoras gilt: c2 = a2 + b2 (Seiten vertauschen)
+
+b|cba
+
+2+ 2 = 2 - 2 bca
+
+2
+
+\= 2 - 2 13(a
+
+2
+
+\= 5()cm 2 - )cm 2 a
+
+2
+
+\= 169 cm 2 - 25 cm 2 a
+
+2
+
+\= 144 cm 2 12a =cm Bevor nun weitere Beispiele zum Lehrsatz des Pythagoras gerechnet werden, sollen noch zwei weitere Lehrsätze über das rechtwinklige Dreieck erläutert werden.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+63
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Der Kathetensatz (Satz von Euklid)
+
+Einen Zusammenhang zwischen einer Kathete und der Hypotenuse bzw. einem Teil von ihr gibt der Kathetensatz an.
+
+Dazu muss in einem rechtwinkligen Dreieck die Höhe auf der Hypotenuse errichtet werden. Der Fußpunkt dieser Höhe teilt die Hypotenuse in zwei Abschnitte, die Hypo- tenusenabschnitte, auf.
+
+Kathetensatz:
+
+In jedem rechtwinkligen Dreieck ist das Quadrat über einer Kathete inhaltsgleich dem Rechteck, gebildet aus der Hypotenuse und dem der Kathete anliegenden Hypotenusenabschnitt.
+
+Der Beweis dieses Satzes benützt den Vergleich von Flächen gleich großer Dreiecke.
+
+Abbildung 71 Beweis des Kathetensatzes
+
+Vor.: ∆ ABC ist rechtwinklig (∠ ACB = 90°)
+
+Beh.: qcb 2 ∙ =
+
+Bew.: ∆ ACD = ∆ ABD (flächengleich)
+
+(Beide haben Grundseite b, Höhe b) ∆ ABD = ∆ AGC (gemeinsam b, c, ∠ DAB = ∠ CAG) ∆ AGC = ∆ AGF (Beide haben Grundseite c, Höhe q) Damit ∆ ACD = ∆ AGF und  ACED =  AGHF d. h. qcb 2 ∙ = (w.z.b.w.)
+
+Der Kathetensatz ermöglicht die Verwandlung eines Rechtecks in ein flächengleiches Quadrat.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 64
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 4
+
+Verwandeln Sie das Rechteck ABCD mit l = 5 cm; b = 3 cm in ein flächengleiches Quadrat\!
+
+(Zeichnung nicht maßstäblich\!)
+
+Lösung
+
+Um das Rechteck ABCD wird ein Quadrat ABEF mit der Seitenlänge l = 5 cm ge- zeichnet. Dann wird über der Quadratseite \[AF\] ein Halbkreis errichtet und \[CD\] bis zum Schnitt mit diesem Halbkreis verlängert\! Verbindet man A mit G, so ist \[AG\] die Seite des flächengleichen Quadrats.
+
+Die Fläche des Quadrats beträgt
+
+AG
+
+2
+
+\= 5 3cm ∙ cm AG
+
+2= 15 cm 2 Die Quadratseite \[AG\] ist demnach
+
+AG = 15 cm 2 © DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+65
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Der Höhensatz
+
+Einen Zusammenhang zwischen den beiden Hypotenusenabschnitten und der Höhe auf der Hypotenuse im rechtwinkligen Dreieck gibt der Höhensatz.
+
+Höhensatz:
+
+In jedem rechtwinkligen Dreieck ist das Quadrat über der Höhe inhaltsgleich dem Rechteck, gebildet aus den Hypotenusenabschnitten.
+
+h2 = p ∙ q
+
+Auf den Beweis wird hier verzichtet.
+
+Lehrbeispiel 5
+
+Zwei Kräfte F1 = 60 N und F2 = 40 N stehen senkrecht aufeinander.
+
+Berechnen Sie die Resultierende F\!
+
+Lösung
+
+Nach Pythagoras gilt: FFF 2 =
+
+1
+
+2+ 2 260(F
+
+2= 40(N) 2 + N) 2 F
+
+2
+
+\= 3600 N 2 + 1600 N 2 F
+
+2
+
+\= 5200 N 2 F =5200 N 21,72F =N Lehrbeispiel 6
+
+Ein Blechstück hat die Form eines Kreisabschnitts. Es werden die Maße s = 380 mm und h = 95 mm gemessen.
+
+Berechnen Sie den Radius R zuerst allgemein und dann für die angegebenen Maße\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 66
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+Nach Pythagoras gilt:
+
+R
+
+2
+
+\=
+
+⎛ │⎝s 2⎞ │⎠2
+
+\+ )hR( - 2
+
+R
+
+2
+
+\= s 42 + Rh2R|hRh2R 2 - + 2 - 2 + RRh2R
+
+2
+
+\+ - 2 = s 42 + h 2 Rh2
+
+\=
+
+h4s 2 + 4 2 R
+
+\=
+
+h4s 2 + h8 2 Für s = 380 mm und h = 95 mm gilt:
+
+R
+
+\=
+
+380 2
+
+\+ 954 ∙ 958
+
+∙
+
+2 mm mm 2 = 144400 760+ 36100 mm R
+
+\=
+
+180500 760 mm = 237,5 mm Lehrbeispiel 7
+
+Konstruieren Sie aus den Strecken a = 2 cm und b = 4 cm das „geometrische Mittel“ und das „arithmetische Mittel“\!
+
+Lösung
+
+Definition: Die Wurzel aus dem Produkt der Strecken a und b bezeichnet man als das geometrische Mittel.
+
+bag = ∙ © DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+67
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Die Konstruktion des geometrischen Mittels erfolgt mit dem Höhensatz:
+
+bag
+
+\= ∙ =
+
+cm83,2
+
+Das arithmetische Mittel ist die halbe Summe der Strecken a und b:
+
+2
+
+cm3 =
+
+cm4cm2 ∙ m =
+
+ba + 2
+
+\= cm4cm2 + = 1.6 Kreis und Kreisteile
+
+1.6.1 Kreis und Gerade
+
+Die Linie, die den Kreis bildet, nennt man Peripherie oder Kreisumfang, einen Teil davon Kreisbogen b. Eine Gerade, die den Kreis schneidet, nennt man Sekante. Eine Strecke, deren Endpunkte auf der Peripherie liegen, heißt Sehne. Geht die Seh- ne durch den Mittelpunkt M des Kreises, so ist sie der Durchmesser d, die Hälfte davon ist der Radius r. Berührt eine Gerade den Kreis (d.h. haben Gerade und Kreis nur einen Punkt gemeinsam), so bezeichnet man diese Gerade als Tangente.
+
+Abbildung 72 Linien am Kreis
+
+Der Winkel zwischen zwei Radien heißt Zentriwinkel (Mittelpunktswinkel μ), der Win- kel zwischen zwei Sehnen, dessen Scheitel auf dem Kreis liegt, heißt Peripheriewin- kel (Umfangswinkel φ).
+
+Von Bedeutung für Dreieckskonstruktionen ist noch der Winkel zwischen der Sehne und der Tangente, deren Schnittpunkt auf dem Kreis liegt. Er heißt Sehnen- Tangenten-Winkel (τ).
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 68
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+μ = Zentriwinkel φ = Peripheriewinkel τ = Sehnen-Tangenten-Winkel
+
+Abbildung 73 Winkel am Kreis
+
+Sehnensätze
+
+Als Nächstes sollen Gesetzmäßigkeiten über Sehnen erarbeitet werden.
+
+Verbindet man die Endpunkte A und B einer Sehne \[AB\] mit dem Mittelpunkt M, so entsteht ein gleichschenkliges Dreieck ABM. Wird nun das Mittellot auf der Sehne \[AB\] errichtet, geht es durch den Mittelpunkt M. Das Mittellot \[MC\] teilt das Dreieck ABM in zwei kongruente Dreiecke ACM und CBM. Beide haben einen rechten Winkel bei C, ferner sind AM= BM und AC = BC . Daraus folgt: Nach dem Kongruenzsatz SsW sind die Dreiecke kongruent. Da die beiden Dreiecke ACM und CBM kongruent sind, müssen auch die beiden Winkel ∠ AMC = ∠ CMB sein. Das Lot CM halbiert demnach den Zentriwinkel.
+
+Abbildung 74 Mittellot einer Sehne
+
+Das Mittellot auf einer Sehne geht durch den Mittelpunkt und halbiert den Zentriwinkel über der Sehne.
+
+Umgekehrt gilt:
+
+Das Lot vom Mittelpunkt auf die Sehne halbiert diese und den zugehörigen Zentriwinkel.
+
+Ebenso:
+
+Die Verbindungslinie des Kreismittelpunktes mit dem Sehnenmittelpunkt steht senkrecht auf der Sehne und halbiert den zugehörigen Zentriwinkel.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+69
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Tangentensätze
+
+Verschiebt man in Abbildung 74 die Sehne \[AB\] parallel nach unten, so rücken die beiden Endpunkte A und B immer näher zusammen, während das Mittellot dasselbe bleibt. Im Grenzfall fallen die beiden Endpunkte A und B zusammen, die parallel ver- schobene Gerade berührt den Kreis nur noch in einem Punkt. Diese parallele Gerade ist die Tangente an dem Kreis im Punkt T. Punkt T ist gleichzeitig der Schnittpunkt des Mittellots der Sehne \[AB\] mit dem Kreis. Der Winkel zwischen der Tangente in T und dem Mittellot auf \[AB\] ist ein rechter. Das verlängerte Mittellot auf \[AB\] bis T, also \[MT\], ist gleichzeitig der Radius im Berührungspunkt T.
+
+Der Radius im Berührungspunkt steht senkrecht auf der Tangente.
+
+Umgekehrt gilt:
+
+Das Lot auf einer Tangente im Berührungspunkt geht durch den Kreismittel- punkt.
+
+Zur Konstruktion der Tangenten an einen Kreis benutzt man diese Erkenntnisse.
+
+Lehrbeispiel 1
+
+Konstruieren Sie von einem Punkt P außerhalb des Kreises k (M, r) die beiden Tan- genten an diesen Kreis\!
+
+Lösung
+
+Da Radius und Tangente senkrecht aufeinander stehen, ist das Dreieck MPT (bzw. MT‘P) rechtwinklig.
+
+Ein rechtwinkliges Dreieck über MP kann sehr einfach mithilfe des Satzes von Thales konstruiert werden, indem man über MP einen Halbkreis zeichnet. Er schneidet den gegebenen Kreis in T. Auf dieselbe Weise erhält man auch die zweite Tangente von P an den Kreis in T‘. Die beiden entstehenden Dreiecke MPT und MT‘P sind kongruent nach dem Kongru- enzsatz SsW. (Gemeinsame Seite \[MP\], r'MT MT = = und beide Dreiecke sind recht- winklig.) Hieraus ergeben sich folgende Lehrsätze:
+
+Die von einem Punkt außerhalb eines Kreises an den Kreis gelegten Tangenten- abschnitte sind gleich lang.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 70
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Die Zentrale (Verbindungslinie von M mit P) halbiert den Winkel zwischen den von einem Punkt an den Kreis gelegten Tangenten.
+
+Die Winkelhalbierende des von zwei Tangenten gebildeten Winkels geht durch den Kreismittelpunkt.
+
+1.6.2 Winkelsätze am Kreis
+
+Zwischen Zentriwinkel, Peripheriewinkel und Sehnen-Tangenten-Winkel bestehen Zusammenhänge, die hier näher untersucht werden sollen. Durch Ausmessen des Zentriwinkels und des Peripheriewinkels in Abbildung 75 lässt sich folgender Zusam- menhang vermuten:
+
+Abbildung 75 Zentri- und Peripheriewinkel
+
+Der Zentriwinkel ist doppelt so groß wie der Peripheriewinkel über dem gleichen Bogen.
+
+Dieser Lehrsatz kann bewiesen werden, jedoch soll der Beweis hier nicht angeführt werden.
+
+Weil dieser Lehrsatz für alle Peripheriewinkel über dem gleichen Bogen gilt, kann Folgendes geschlossen werden:
+
+Peripheriewinkel über dem gleichen Bogen sind gleich groß (Abbildung 76).
+
+Abbildung 76 Peripheriewinkel über dem gleichen Kreisbogen
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+71
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Sonderfall:
+
+Im Halbkreis beträgt der Zentriwinkel 180°, die Peripheriewinkel betragen demnach 90°. Dies ist ein weiterer Beweis des Satzes von Thales.
+
+Abbildung 77 Satz des Thales
+
+Einen Zusammenhang zwischen dem Sehnen-Tangenten-Winkel und dem Periphe- riewinkel gibt der folgende Lehrsatz:
+
+Der Sehnen-Tangenten-Winkel ist gleich dem Peripheriewinkel im gegenüberlie- genden Kreisabschnitt.
+
+Beweis:
+
+Abbildung 78 Sehnen-Tangenten-Winkel und Peripheriewinkel
+
+Vor.: ∆ EAM = 90° Beh.: 2μ = φ = τ Bew.: \[MD\] ist Mittellot auf \[AB\].
+
+⇒ ∆ ADM ist rechtwinklig.
+
+φ = μ = ∠ 2 AMD
+
+Im Dreieck ADM gilt:
+
+α + φ = 90° ⇒ (1) α = 90° – φ
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 72
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+ferner gilt nach Voraussetzung:
+
+(2) α + τ = 90° (AE ⊥ AM)
+
+(1) in (2) eingesetzt:
+
+⇒ 90 τ+φ-° = 90|90 ° - φ+° ⇒ τ = φ (w.z.b.w.)
+
+Die Tangentensätze werden z.B. für die folgende Konstruktion der Tangenten zweier Kreise benötigt.
+
+Konstruktion der Tangenten zweier Kreise
+
+Aus Abbildung 79 kann entnommen werden, dass zwei Kreise vier gemeinsame Tan- genten, nämlich die beiden äußeren t1 und t2 und die beiden inneren t3 und t4 haben.
+
+Abbildung 79 Tangenten an zwei Kreisen
+
+Die Konstruktion der beiden äußeren und inneren Tangenten soll in 2 Lehrbeispielen erläutert werden.
+
+Lehrbeispiel 1
+
+Gegeben sind 2 Kreise (M1;r1) und (M2;r2).
+
+Konstruieren Sie die äußeren Tangenten\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+73
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+1\. Hilfskreis um M1 mit Radius r1 – r2 zeichnen. 2. Tangente t‘1 von M2 an den Hilfskreis. (Thaleskreis über \[M1M2\] ergibt den Berüh-
+
+rungspunkt T‘1\!) konstruieren. 3. Durch Verlängerung von \[M1T‘1\] über T‘1 hinaus erhält man T1. 4. Das Lot auf t‘1 in M2 schneidet den kleinen Kreis in Punkt T2. 5. T2T1 ist die gesuchte Tangente t1.
+
+Ebenso verfährt man bei der Konstruktion der zu t1 symmetrischen Tangente t2.
+
+Lehrbeispiel 2
+
+Konstruieren Sie die inneren Tangenten in der folgenden Abbildung\!
+
+Lösung
+
+Zunächst wird ein Hilfskreis um M1 mit dem Radius r1 + r2 gezeichnet. Anschließend wird wieder wie bei der Konstruktion der äußeren Tangenten verfahren.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 74
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lehrbeispiel 3
+
+Gegeben sind ein Kreis mit r1 = 3 cm und ein Kreis mit r2 = 2 cm. Der Abstand der Mittelpunkte beträgt a = 8 cm.
+
+Konstruieren Sie die inneren und äußeren Tangenten\!
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+75
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Lösung
+
+1\. Vorbereitung
+
+a) Strecke a = \[M1;M2\] = 8 cm zeichnen b) Kreis k1 um M1 mit Radius r1 = 3 cm zeichnen c) Kreis k2 um M2 mit Radius r2 = 2 cm zeichnen d) Kreis k3 um M1 mit Radius r1 – r2 = 1 cm zeichnen e) Kreis k4 um M1 mit Radius r1 + r2 = 5 cm zeichnen f) Kreis k5 um Mitte M von a mit r = 2a = 4 cm zeichnen
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 76
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+2\. Innere Tangenten
+
+'T 4ist oberer Schnittpunkt von k4 und k5 T4 ist der Schnittpunkt der Geraden 'TM 41 mit k1 t4 ist die Parallele zu 'TM 42 durch T4
+
+(Die zweite Tangente wird analog mit dem unteren Schnittpunkt von k4 und k5 konstruiert)
+
+3\. Äußere Tangenten
+
+'T 1ist oberer Schnittpunkt von k3 und k5 T1 ist der Schnittpunkt der Geraden 'TM 11 mit k1 t1 ist die Parallele zu 'TM 12 durch T1
+
+(Die zweite Tangente wird analog mit dem unteren Schnittpunkt von k3 und k5 konstruiert)
+
+1.6.3 Kreisteile
+
+Ein Kreissegment (Kreisabschnitt) besteht aus einer Fläche zwischen der Sehne und dem dazugehörigen Bogen.
+
+Ein Kreissektor (Kreisausschnitt) ist die Fläche zwischen dem Kreisbogen und zwei Radien. Sie setzt sich zusammen aus einem Kreissegment und einem gleichschenkli- gen Dreieck.
+
+Beträgt der Winkel zwischen den beiden Radien eines Kreissektors 90°, so bezeichnet man die Fläche als Kreisquadrant.
+
+Abbildung 80 Kreisteile
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+77
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+1.7 Flächen- und Umfangsberechnungen
+
+1.7.1 Geradlinig begrenzte Flächen
+
+Vierecke
+
+Bezeichnungen am Viereck
+
+Die Bezeichnungen am Viereck stimmen nur z.T. mit den Bezeichnungen am Dreieck überein. So werden insbesondere die Seiten des Vierecks anders bezeichnet als beim Dreieck, da einer Ecke im Viereck jeweils 2 Seiten gegenüberliegen. Des weiteren kommen beim Viereck die beiden Diagonalen e, f hinzu.
+
+Abbildung 81 Bezeichnungen am Viereck
+
+Der Winkel zwischen beiden Diagonalen wird mit ε bezeichnet. Aus ε lassen sich die drei übrigen Winkel der Diagonalenkreuzung berechnen (1 Scheitelwinkel, 2 Neben- winkel).
+
+Winkelsumme
+
+Die Winkelsumme im Viereck beträgt 360°. Dieser Satz lässt sich sehr einfach bewei- sen. Die Diagonale eAC= (Abbildung 81) teilt das Viereck ABCD in die zwei Drei- ecke ABC und ACD. Jedes hat die Winkelsumme 180°, beide zusammen demnach 2 ∙ 180° = 360°. An dieser Stelle kann gleich auf die Winkelsumme in einem beliebi- gen Vieleck (n-Eck) geschlossen werden.
+
+Wird an ein Viereck ABCD (Abbildung 82) noch ein Dreieck ADE angefügt, so entsteht das Fünfeck ABCDE. Die Winkelsumme des Fünfecks ist um die Winkelsumme des Dreiecks ADE größer als die Winkelsumme des Vierecks ABCD.
+
+Sie beträgt demnach 360° + 180° = 540°.
+
+Abbildung 82 Fünfeck zerlegt in ein Dreieck und Viereck
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 78
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Eckenzahl Winkelsumme
+
+3 180° = 1 ∙ 180° = (3 – 2) ∙ 180° 4 360° = 2 ∙ 180° = (4 – 2) ∙ 180° 5 540° = 3 ∙ 180° = (5 – 2) ∙ 180° 6 720° = 4 ∙ 180° = (6 – 2) ∙ 180° n = (n – 2) ∙ 180°
+
+Tabelle 3 Winkelsumme in n-Ecken
+
+Die Summe der Innenwinkel eines n-Ecks beträgt (n – 2) ∙ 180°.
+
+Übersicht über die Vierecke
+
+Häufig kommen in der Praxis regelmäßige Vierecke (z.B. Quadrate, Rechtecke usw.) vor. Die nachfolgende Übersicht (Abbildung 83) enthält diese regelmäßigen Vierecke mit Angabe einiger ihrer besonderen Eigenschaften.
+
+In der Übersicht werden aus dem allgemeinen Viereck alle besonderen Vierecke ent- wickelt:
+
+1\. Trapez
+
+Definition: Ein Viereck mit 2 parallelen Seiten heißt Trapez. Sonderfall: Gleichschenkliges Trapez.
+
+2\. Parallelogramm
+
+Definition: Ein Viereck mit je 2 parallelen Seiten heißt Parallelogramm. Ein Parallelogramm ist auch ein Trapez, da es die Definition für das Trapez erfüllt. Sonderfälle: Rechteck, Raute, Quadrat.
+
+3\. Drachenviereck
+
+Definition: Ein Viereck, bei dem je 2 benachbarte Seiten gleich lang sind, heißt Drachenviereck. Sonderfälle: Raute, Quadrat.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01
+
+79
+
+Geometrische Gesetze auf zwei- und dreidimensionale Figuren anwenden
+
+Abbildung 83 Familie der Vierecke
+
+Regelmäßige Vielecke
+
+Eigenschaften regelmäßiger Vielecke
+
+Ein Vieleck, bei dem alle Seiten und Winkel gleich groß sind, heißt regelmäßiges Viel- eck.
+
+© DAA-Technikum Essen / gs-21\_00\_math\_lm4.01.00.01 80
+
+[\#10](#10)   

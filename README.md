@@ -36,8 +36,8 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | Deutsch/Kommunikation | Lernmodul 1 | ✅ | ⬜ | ⬜ | ⬜ |
 | Mathematik I | Lernmodul 1 | ✅ | **✅** | **✅** | **✅** |
 | Mathematik I | Lernmodul 2 | ✅ | ⬜ | ⬜ | ⬜ |
-| Mathematik I | Lernmodul 3 | ⬜ *(folgt)* | – | – | – |
-| Mathematik I | Lernmodul 4 | ⬜ *(folgt)* | – | – | – |
+| Mathematik I | Lernmodul 3 | ⬜ *(noch nicht geliefert)* | – | – | – |
+| Mathematik I | Lernmodul 4 | ✅ *(aus Drive)* | ⬜ | ⬜ | ⬜ |
 | Mathematik I | Formeln | ✅ | ⬜ | – | ⬜ |
 | Naturwissenschaft | Fachbeschr. + LM1/LM2 | ⬜ *(fehlt noch)* | – | – | – |
 | Alle | Einsendeaufgaben | ⬜ *(fehlt noch)* | – | – | – |
