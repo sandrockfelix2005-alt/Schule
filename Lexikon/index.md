@@ -11,6 +11,13 @@ Sag mir einfach *„schlag XY nach"* oder *„erklär mir XY mit Beispiel"*, dan
 - [Rechenreihenfolge (Punkt vor Strich)](mathematik.md#rechenreihenfolge)
 - [Faktorisieren / Ausklammern](mathematik.md#faktorisieren)
 - [Polynomdivision](mathematik.md#polynomdivision)
+- [Proportionale Zuordnung](mathematik.md#proportionale-zuordnung)
+- [Antiproportionale Zuordnung](mathematik.md#antiproportionale-zuordnung)
+- [Dreisatz](mathematik.md#dreisatz)
+- [Geradengleichung (lineare Funktion)](mathematik.md#geradengleichung-lineare-funktion)
+- [Nullstelle](mathematik.md#nullstelle)
+- [Lineares Gleichungssystem](mathematik.md#lineares-gleichungssystem)
+- [Umkehrfunktion](mathematik.md#umkehrfunktion)
 
 ## Deutsch/Kommunikation
 - *(folgt mit der Zusammenfassung von Deutsch LM1)*

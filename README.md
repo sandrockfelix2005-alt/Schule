@@ -37,7 +37,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | Deutsch/Kommunikation | Fachbeschreibung | ✅ | ⬜ | – | – |
 | Deutsch/Kommunikation | Lernmodul 1 | ✅ | ⬜ | ⬜ | ⬜ |
 | Mathematik I | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
-| Mathematik I | Lernmodul 2 | ✅ | ⬜ | ⬜ | ⬜ |
+| Mathematik I | Lernmodul 2 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 3 | ⬜ *(noch nicht geliefert)* | – | – | – |
 | Mathematik I | Lernmodul 4 | ✅ *(aus Drive)* | ⬜ | ⬜ | ⬜ |
 | Mathematik I | Formeln | ✅ | ⬜ | – | ⬜ |

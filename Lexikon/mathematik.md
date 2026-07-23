@@ -57,3 +57,52 @@
 ## Polynomdivision
 **Was:** Zwei Polynome „schriftlich" dividieren (höchste Potenz zuerst) – etwa um Nullstellen abzuspalten.
 **Beispiel:** (x² + 5x + 6) : (x + 2) = **x + 3**.
+
+---
+
+## Proportionale Zuordnung
+**Was:** „Je mehr, desto mehr" – der Quotient y/x = k (Proportionalitätsfaktor) ist konstant.
+**Regel:** y = k·x · Graf: Gerade durch den Ursprung.
+**Beispiel:** 80 Steine wiegen 440 kg → k = 5,5 → y = 5,5·x.
+
+---
+
+## Antiproportionale Zuordnung
+**Was:** „Je mehr, desto weniger" – das Produkt x·y = c ist konstant.
+**Regel:** y = c/x · Graf: Hyperbel.
+**Beispiel:** Doppelt so viele Pumpen → halbe Zeit.
+
+---
+
+## Dreisatz
+**Was:** Rechnen über die Einheit (1).
+**Regel:** proportional = erst dividieren, dann multiplizieren · antiproportional = erst multiplizieren, dann dividieren.
+**Beispiel:** 24 m² = 840 € → 1 m² = 35 € → 7 m² = 245 €.
+
+---
+
+## Geradengleichung (lineare Funktion)
+**Was:** Gleichung einer Geraden.
+**Regel:** y = m·x + b · m = Steigung (Δy/Δx), b = y-Achsenabschnitt.
+**Beispiel:** y = 2x − 6 → Steigung 2, schneidet y-Achse bei −6.
+
+---
+
+## Nullstelle
+**Was:** Stelle, an der der Graf die x-Achse schneidet (y = 0).
+**Regel:** 0 = m·x + b → x = −b/m.
+**Beispiel:** y = 2x − 6 → x = 3 → Nullstelle (3 | 0).
+
+---
+
+## Lineares Gleichungssystem
+**Was:** Zwei Gleichungen mit zwei Unbekannten (x, y).
+**Regel:** lösbar per Gleichsetzungs-, Einsetzungs- oder Additionsverfahren – gleiches Ergebnis.
+**Beispiel:** x + y = 10 und x − y = 2 → addieren → 2x = 12 → x = 6, y = 4.
+
+---
+
+## Umkehrfunktion
+**Was:** Zuordnung „rückwärts".
+**Regel:** nach x auflösen, dann x und y tauschen; Graf = Spiegelung an y = x.
+**Beispiel:** y = 2x + 4 → Umkehrfunktion y = (x − 4)/2.
