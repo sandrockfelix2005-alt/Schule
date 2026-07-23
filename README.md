@@ -47,8 +47,20 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 
 ✅ fertig · ⬜ offen · – nicht nötig
 
-### Semester 2–7
-Folgen, sobald du dort bist und die Materialeinheiten bekommst.
+### Semester 2–7 (Gerüst angelegt)
+Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nur noch gefüllt werden.
+
+| Semester | Status | Ordner |
+|----------|--------|--------|
+| Semester 1 | **In Arbeit** (Deutsch LM1, Mathe LM1/2/4 fertig) | angelegt & gefüllt |
+| Semester 2 | ⬜ wartet auf Material | angelegt |
+| Semester 3 | ⬜ wartet auf Material | angelegt |
+| Semester 4 | ⬜ wartet auf Material | angelegt |
+| Semester 5 | ⬜ wartet auf Material | angelegt |
+| Semester 6 | ⬜ wartet auf Material | angelegt |
+| Semester 7 | ⬜ wartet auf Material | angelegt |
+
+**So wird ergänzt:** Neue Unterlagen in den Google-Drive-Ordner **„Neue Unterlagen"** legen und mir Bescheid geben → ich sortiere sie ins passende Semester ein (Zusammenfassungen, Karteikarten, Übungen, Lexikon) und aktualisiere das HTML-Lerntool.
 
 ---
 
