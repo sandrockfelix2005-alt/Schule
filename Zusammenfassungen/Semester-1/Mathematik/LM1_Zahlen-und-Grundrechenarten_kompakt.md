@@ -1,7 +1,8 @@
-# Mathematik I – Lernmodul 1
+# Mathematik I – Lernmodul 1 · KOMPAKT
 ## Zahlen kennen und Grundrechenarten anwenden
 
 > Quelle: `Unterlagen/Semester-1/Mathematik/Mathematik_Lernmodul-1.pdf` · ca. 20 h häusliches Studium
+> 📄 **Zwei Varianten:** Diese **Kompakt**-Fassung (Überblick/Wiederholen) · [→ Ausführliche Fassung zum Nachschlagen](LM1_Zahlen-und-Grundrechenarten_ausfuehrlich.md)
 > Ziel: mathematische Grundlagen sicher beherrschen, um sie als Werkzeug für technische Probleme einzusetzen.
 
 **Inhalt:** [1 Zahlendarstellungen](#1-mathematische-zahlendarstellungen) · [2 Zahlenmengen](#2-zahlenmengen) · [3 Grundrechenarten](#3-grundrechenarten)

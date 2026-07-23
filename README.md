@@ -11,7 +11,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | Ordner | Was drin ist |
 |--------|--------------|
 | **`Unterlagen/`** | Die Original-PDFs vom DAA (Quelle der Wahrheit), sortiert nach Semester und Fach. |
-| **`Zusammenfassungen/`** | Kompakte Zusammenschriebe je Lernmodul – das Wichtigste auf wenigen Seiten. |
+| **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
 | **`tools/`** | Kleine Hilfsskripte (PDF-Text auslesen, Karten prüfen). |
@@ -31,10 +31,12 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 
 | Fach | Modul | Unterlage | Zusammenfassung | Karteikarten | Lexikon |
 |------|-------|:---------:|:---------------:|:------------:|:-------:|
+> In der Spalte **Zusammenfassung** steht *K* = Kompakt-Fassung, *A* = Ausführliche Fassung.
+
 | **Organisation** | Semesterablaufplan | ✅ | ✅ | – | – |
 | Deutsch/Kommunikation | Fachbeschreibung | ✅ | ⬜ | – | – |
 | Deutsch/Kommunikation | Lernmodul 1 | ✅ | ⬜ | ⬜ | ⬜ |
-| Mathematik I | Lernmodul 1 | ✅ | **✅** | **✅** | **✅** |
+| Mathematik I | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 2 | ✅ | ⬜ | ⬜ | ⬜ |
 | Mathematik I | Lernmodul 3 | ⬜ *(noch nicht geliefert)* | – | – | – |
 | Mathematik I | Lernmodul 4 | ✅ *(aus Drive)* | ⬜ | ⬜ | ⬜ |
