@@ -35,7 +35,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 
 | **Organisation** | Semesterablaufplan | ✅ | ✅ | – | – |
 | Deutsch/Kommunikation | Fachbeschreibung | ✅ | ⬜ | – | – |
-| Deutsch/Kommunikation | Lernmodul 1 | ✅ | ⬜ | ⬜ | ⬜ |
+| Deutsch/Kommunikation | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 2 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 3 | ⬜ *(noch nicht geliefert)* | – | – | – |

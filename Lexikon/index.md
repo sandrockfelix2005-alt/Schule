@@ -26,7 +26,12 @@ Sag mir einfach *„schlag XY nach"* oder *„erklär mir XY mit Beispiel"*, dan
 - [Volumen & Oberfläche (Körper)](mathematik.md#volumen--oberfläche-körper)
 
 ## Deutsch/Kommunikation
-- *(folgt mit der Zusammenfassung von Deutsch LM1)*
+- [DIN 5008](deutsch.md#din-5008)
+- [Geschäftsbrief](deutsch.md#geschäftsbrief)
+- [Zeugnissprache](deutsch.md#zeugnissprache)
+- [Bericht](deutsch.md#bericht)
+- [Protokoll](deutsch.md#protokoll)
+- [Beschreibung](deutsch.md#beschreibung)
 
 ## Naturwissenschaft / Bautechnik
 - *(folgt, sobald die Unterlagen da sind)*
