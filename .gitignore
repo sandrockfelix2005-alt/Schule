@@ -1,0 +1,4 @@
+# Ausgelesene Texte (werden bei Bedarf neu erzeugt)
+*.txt.tmp
+tools/__pycache__/
+.DS_Store
