@@ -1,0 +1,3 @@
+# Von der täglichen Automatik bereits verarbeitete Google-Drive-Datei-IDs.
+# Eine ID pro Zeile. Diese Datei nicht manuell löschen.
+# Eingangsordner "Neue Unterlagen": 1atF-4ir1KbM45_Zo1fPOosAM-2H64pRe
