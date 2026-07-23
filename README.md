@@ -13,6 +13,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Unterlagen/`** | Die Original-PDFs vom DAA (Quelle der Wahrheit), sortiert nach Semester und Fach. |
 | **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
+| **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
 | **`tools/`** | Kleine Hilfsskripte (PDF-Text auslesen, Karten prüfen). |
 
@@ -52,7 +53,10 @@ Folgen, sobald du dort bist und die Materialeinheiten bekommst.
 ---
 
 ## 🗂️ Semesterübersicht
-- **Semester 1:** [Fahrplan & Lernabschnitte](Zusammenfassungen/Semester-1/00_Semesterueberblick.md)
+- **Semester 1:** [Fahrplan & Lernabschnitte](Zusammenfassungen/Semester-1/00_Semesterueberblick.md) · [✅ Lernplan-Checkliste](Zusammenfassungen/Semester-1/01_Lernplan-Checkliste.md)
+
+## ✍️ Übungsaufgaben
+- [Zur Aufgabenübersicht](Uebungsaufgaben/README.md) (Mathe LM1/LM2/LM4, Deutsch LM1)
 
 ## 📖 Lexikon
 - [Zum Lexikon-Index](Lexikon/index.md)
