@@ -39,7 +39,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | Mathematik I | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 2 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 3 | ⬜ *(noch nicht geliefert)* | – | – | – |
-| Mathematik I | Lernmodul 4 | ✅ *(aus Drive)* | ⬜ | ⬜ | ⬜ |
+| Mathematik I | Lernmodul 4 | ✅ *(aus Drive)* | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Formeln | ✅ | ⬜ | – | ⬜ |
 | Naturwissenschaft | Fachbeschr. + LM1/LM2 | ⬜ *(fehlt noch)* | – | – | – |
 | Alle | Einsendeaufgaben | ⬜ *(fehlt noch)* | – | – | – |

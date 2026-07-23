@@ -18,6 +18,12 @@ Sag mir einfach *„schlag XY nach"* oder *„erklär mir XY mit Beispiel"*, dan
 - [Nullstelle](mathematik.md#nullstelle)
 - [Lineares Gleichungssystem](mathematik.md#lineares-gleichungssystem)
 - [Umkehrfunktion](mathematik.md#umkehrfunktion)
+- [Satz des Pythagoras](mathematik.md#satz-des-pythagoras)
+- [Strahlensätze](mathematik.md#strahlensätze)
+- [Sinus, Kosinus, Tangens](mathematik.md#sinus-kosinus-tangens)
+- [Sinussatz](mathematik.md#sinussatz)
+- [Kosinussatz](mathematik.md#kosinussatz)
+- [Volumen & Oberfläche (Körper)](mathematik.md#volumen--oberfläche-körper)
 
 ## Deutsch/Kommunikation
 - *(folgt mit der Zusammenfassung von Deutsch LM1)*

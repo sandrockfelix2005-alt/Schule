@@ -106,3 +106,45 @@
 **Was:** Zuordnung „rückwärts".
 **Regel:** nach x auflösen, dann x und y tauschen; Graf = Spiegelung an y = x.
 **Beispiel:** y = 2x + 4 → Umkehrfunktion y = (x − 4)/2.
+
+---
+
+## Satz des Pythagoras
+**Was:** Zusammenhang der Seiten im rechtwinkligen Dreieck.
+**Regel:** a² + b² = c² (c = Hypotenuse, dem rechten Winkel gegenüber).
+**Beispiel:** a = 3, b = 4 → c = √(9+16) = 5.
+
+---
+
+## Strahlensätze
+**Was:** Streckenverhältnisse, wenn zwei Strahlen von parallelen Geraden geschnitten werden.
+**Regel:** a : b = c : d (entsprechende Abschnitte sind proportional).
+**Beispiel:** Baumhöhe aus Schattenlänge bestimmen (Vergleich mit einem Stab bekannter Höhe).
+
+---
+
+## Sinus, Kosinus, Tangens
+**Was:** Winkelfunktionen im rechtwinkligen Dreieck.
+**Regel:** sin α = Gegenkathete/Hypotenuse · cos α = Ankathete/Hypotenuse · tan α = Gegenkathete/Ankathete. Merkspruch: GAGA – Hühner AH.
+**Beispiel:** c = 10, α = 30° → Gegenkathete = 10·sin30° = 5.
+
+---
+
+## Sinussatz
+**Was:** Seiten-Winkel-Beziehung im beliebigen Dreieck.
+**Regel:** a/sin α = b/sin β = c/sin γ.
+**Beispiel:** anwenden, wenn eine Seite und ihr Gegenwinkel bekannt sind.
+
+---
+
+## Kosinussatz
+**Was:** verallgemeinerter Pythagoras für beliebige Dreiecke.
+**Regel:** c² = a² + b² − 2·a·b·cos γ.
+**Beispiel:** a = 5, b = 7, γ = 60° → c² = 25 + 49 − 2·5·7·0,5 = 39 → c ≈ 6,24.
+
+---
+
+## Volumen & Oberfläche (Körper)
+**Was:** Rauminhalt (V) und Außenfläche (O) von Körpern.
+**Regel:** Quader V = a·b·c · Zylinder V = π·r²·h · Kegel/Pyramide V = ⅓·G·h · Kugel V = (4/3)·π·r³, O = 4·π·r².
+**Beispiel:** Fundament 2,0·1,5·0,4 m = 1,2 m³ Beton.
