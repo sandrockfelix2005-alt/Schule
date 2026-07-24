@@ -136,11 +136,20 @@
 
   .search{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font-size:14px;font-family:var(--sans);margin:6px 0 16px}
   .search:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
-  .lex{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:14px 16px;margin:9px 0}
-  .lex h4{margin:0 0 4px;font-size:15px}
-  .lex .fach{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--accent-deep)}
-  .lex p{margin:5px 0 0;font-size:13.5px}
-  .lex .bsp{color:var(--muted)}
+  .lexcount{font-family:var(--mono);font-size:11px;color:var(--muted);margin:0 0 10px}
+  .lexd{border:1px solid var(--line);border-radius:10px;background:var(--surface);margin:9px 0;overflow:hidden}
+  .lexd[open]{border-color:var(--accent)}
+  .lexd summary{cursor:pointer;list-style:none;padding:13px 16px;display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 10px}
+  .lexd summary::-webkit-details-marker{display:none}
+  .lexd summary:hover{background:var(--surface-2)}
+  .lexd .lb{font-size:15.5px;font-weight:650}
+  .lexd .fach{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-deep);border:1px solid var(--line);border-radius:20px;padding:1px 8px}
+  .lexd .tease{flex-basis:100%;font-size:13px;color:var(--muted)}
+  .lexd[open] .tease{display:none}
+  .lexbody{padding:4px 16px 16px;font-size:14px;border-top:1px solid var(--line-soft)}
+  .lexbody p{margin:10px 0}
+  .lexbody ul,.lexbody ol{margin:8px 0;padding-left:20px}
+  .lexbody .bau{background:var(--accent-soft);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-size:13px}
 
   /* Checklist */
   .chk-abschnitt{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin:12px 0;overflow:hidden}
@@ -211,7 +220,7 @@
         <div class="stat"><div class="num">4</div><div class="lbl">Module aufbereitet</div></div>
         <div class="stat"><div class="num">87</div><div class="lbl">Karteikarten</div></div>
         <div class="stat"><div class="num">37</div><div class="lbl">Übungsaufgaben</div></div>
-        <div class="stat"><div class="num">26</div><div class="lbl">Lexikon-Begriffe</div></div>
+        <div class="stat"><div class="num">35</div><div class="lbl">Lexikon-Begriffe</div></div>
       </div>
       <h2>Die Fächer im 1. Semester</h2>
       <table>
@@ -281,8 +290,9 @@
     <section class="view" data-view="lexikon">
       <div class="kicker">Lexikon</div>
       <h1>Begriffe nachschlagen</h1>
-      <p class="lead">Suche nach einem Begriff — jeder Eintrag hat Erklärung, Regel und Beispiel.</p>
-      <input class="search" id="lexsearch" placeholder="z. B. Pythagoras, Dreisatz, DIN 5008 …" />
+      <p class="lead">Tippe ein Stichwort ein und öffne den Treffer — du bekommst eine ausführliche Erklärung mit Herleitung, Regel, Rechenweg und (wo sinnvoll) Bau-Bezug. Inhalte aus deinen DAA-Modulen.</p>
+      <input class="search" id="lexsearch" placeholder="Suchen: z. B. Pythagoras, Kosinussatz, Dreisatz, Zeugnissprache, DIN 5008 …" />
+      <div class="lexcount" id="lexcount"></div>
       <div id="lex-list"></div>
     </section>
 
@@ -441,42 +451,247 @@ const UEB = {
 };
 
 const LEX = [
- ["Mathematik","Runden","Zahl auf n Nachkommastellen kürzen.","(n+1)-te Stelle 0–4 ab, 5–9 auf.","22,747 → 22,75."],
- ["Mathematik","Zehnerpotenzen","Große/kleine Zahlen als Zahl 1–10 × 10ᵏ.","k=10³, M=10⁶, µ=10⁻⁶.","250 kW = 2,5·10⁵ W."],
- ["Mathematik","Zahlenmengen","Aufeinander aufbauende Mengen.","ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ.","√2 ∈ ℝ, aber ∉ ℚ."],
- ["Mathematik","Binomische Formeln","Klammern schnell aus-/rückmultiplizieren.","(a±b)²=a²±2ab+b²; (a+b)(a−b)=a²−b².","(x+4)(x−4)=x²−16."],
- ["Mathematik","Rechenreihenfolge","Reihenfolge der Rechenschritte.","Klammer → Potenz → Punkt → Strich.","2+3·4 = 14."],
- ["Mathematik","Faktorisieren","Summe in Produkt umwandeln.","a·b+a·c = a·(b+c).","6x+9 = 3(2x+3)."],
- ["Mathematik","Polynomdivision","Polynome schriftlich dividieren.","Höchste Glieder teilen, zurück, abziehen.","(x²+5x+6):(x+2)=x+3."],
- ["Mathematik","Proportionale Zuordnung","Je mehr, desto mehr.","y=k·x, y/x konstant.","80 Steine = 440 kg → k=5,5."],
- ["Mathematik","Antiproportionale Zuordnung","Je mehr, desto weniger.","y=c/x, x·y konstant.","doppelt Pumpen → halbe Zeit."],
- ["Mathematik","Dreisatz","Rechnen über die Einheit 1.","proportional : dann · ; antiprop. · dann :.","24 m²=840 € → 7 m²=245 €."],
- ["Mathematik","Geradengleichung","Gleichung einer Geraden.","y=m·x+b, m Steigung, b y-Abschnitt.","y=2x−6."],
- ["Mathematik","Nullstelle","Schnittpunkt mit der x-Achse (y=0).","x=−b/m.","y=2x−6 → (3|0)."],
- ["Mathematik","Lineares Gleichungssystem","Zwei Gleichungen, zwei Unbekannte.","Gleichsetzung / Einsetzung / Addition.","x+y=10, x−y=2 → (6|4)."],
- ["Mathematik","Umkehrfunktion","Zuordnung rückwärts.","nach x auflösen, x&y tauschen.","y=2x+4 → y=(x−4)/2."],
- ["Mathematik","Satz des Pythagoras","Seiten im rechtwinkligen Dreieck.","a²+b²=c² (c Hypotenuse).","3,4 → c=5."],
- ["Mathematik","Strahlensätze","Streckenverhältnisse an Parallelen.","a:b = c:d.","Baumhöhe über Schatten."],
- ["Mathematik","Sinus, Kosinus, Tangens","Winkelfunktionen im rechtw. Dreieck.","sin=Gegen/Hyp, cos=An/Hyp, tan=Gegen/An.","c=10, α=30° → Gegen=5."],
- ["Mathematik","Sinussatz","Seiten-Winkel im beliebigen Dreieck.","a/sinα = b/sinβ = c/sinγ.","Seite + Gegenwinkel bekannt."],
- ["Mathematik","Kosinussatz","Verallgemeinerter Pythagoras.","c²=a²+b²−2ab·cosγ.","a5 b7 γ60° → c≈6,24."],
- ["Mathematik","Volumen & Oberfläche","Rauminhalt/Fläche von Körpern.","Quader a·b·c; Zylinder π·r²·h; Kugel (4/3)πr³.","Fundament 2·1,5·0,4 = 1,2 m³."],
- ["Deutsch","DIN 5008","Norm für Geschäftsbriefe (Empfehlung).","regelt Anschrift, Betreff, Abstände.","Betreff nicht unterstrichen."],
- ["Deutsch","Geschäftsbrief","Formelles Firmenschreiben.","Briefkopf→Anschrift→Betreff→Anrede→Text→Gruß.","„Mit freundlichen Grüßen“."],
- ["Deutsch","Zeugnissprache","Verschlüsselte Note im Arbeitszeugnis.","Grad der „Zufriedenheit“ = Note.","„vollste Zufriedenheit“ = sehr gut."],
- ["Deutsch","Bericht","Sachliche Wiedergabe eines Sachverhalts.","W-Fragen, Präteritum, keine Wertung.","Unfallbericht, Bautagesbericht."],
- ["Deutsch","Protokoll","Niederschrift einer Sitzung.","Verlaufs-, Ergebnis-, Wort-, Gedächtnisprotokoll.","Ergebnisprotokoll = nur Beschlüsse."],
- ["Deutsch","Beschreibung","Genaue, sachliche Darstellung.","objektiv, genau, Präsens, logische Reihenfolge.","Gegenstand / Vorgang / Anleitung."],
- ["Mathematik","Dualsystem","Zahlensystem zur Basis 2 (nur 0/1).","Stellenwerte sind Zweierpotenzen.","1011₂ = 8+2+1 = 11."],
- ["Mathematik","Wissenschaftliche Schreibweise","Kompakte Schreibweise großer/kleiner Zahlen.","Zahl 1–10 mal 10ᵏ.","47 000 = 4,7·10⁴."],
- ["Mathematik","Kathete & Hypotenuse","Seiten im rechtwinkligen Dreieck.","Hypotenuse liegt dem rechten Winkel gegenüber; Katheten bilden ihn.","Katheten 3,4 → Hypotenuse 5."],
- ["Mathematik","Steigung","Wie stark eine Gerade steigt/fällt.","m = Δy/Δx; in y=m·x+b.","m=2: 1 nach rechts, 2 nach oben."],
- ["Mathematik","Definitions- & Wertemenge","Erlaubte x- bzw. mögliche y-Werte einer Funktion.","D = erlaubte x, W = vorkommende y.","D = {x | 0 ≤ x ≤ 10}."],
- ["Mathematik","Bogenmaß","Winkel im Radiant statt Grad.","Vollkreis = 2π; rad = (π/180°)·Grad.","90° = π/2."],
- ["Mathematik","Satz des Thales","Winkel im Halbkreis.","C auf dem Kreis über dem Durchmesser → 90°.","Rechter Winkel ohne Messen."],
- ["Deutsch","Betreff","Themazeile im Geschäftsbrief.","Ohne das Wort „Betreff“, nicht unterstrichen.","„Ihre Anfrage vom 3. Mai“."],
- ["Deutsch","Lebenslauf","Tabellarische Übersicht des Werdegangs.","lückenlos, antichronologisch, mit Unterschrift.","Teil der Bewerbungsmappe."],
- ["Deutsch","Anrede & Grußformel","Höflichkeitsrahmen im Brief/E-Mail.","„Sehr geehrte …,“ / „Mit freundlichen Grüßen“.","gleich in Brief und E-Mail."]
+ ["Mathematik","Runden","Zahl auf n Stellen kürzen – so genau wie nötig.","runden aufrunden abrunden dezimalstellen genauigkeit überschlag schätzen",
+  `<p>Beim <b>Runden</b> ersetzt man eine Zahl durch einen einfacheren Näherungswert. Aus dem Lernmodul: Zahlen sollen <b>so genau wie nötig</b> angegeben werden, nicht so genau wie möglich – z. B. 12 cm auf 7 Teile ergibt 12 : 7 = 1,714285… cm, was man sinnvoll kürzt.</p>
+  <p><b>Regel (auf n Dezimalstellen):</b> Es entscheidet die <b>(n+1)-te Stelle</b>.</p>
+  <ul><li>Ziffer <b>0, 1, 2, 3, 4</b> → abrunden (die n-te Stelle bleibt).</li><li>Ziffer <b>5, 6, 7, 8, 9</b> → aufrunden (die n-te Stelle wird um 1 erhöht).</li></ul>
+  <p><b>Beispiele:</b> 9,81 ≈ 9,8 · 22,743 ≈ 22,74 · 22,747 ≈ 22,75 · 1,714285 ≈ 1,71.</p>
+  <p class="bau">Bau-Bezug: Endmaße/Mengen sinnvoll runden (Beton z. B. auf 0,1 m³), aber Zwischenergebnisse möglichst ungerundet weiterrechnen, damit sich Rundungsfehler nicht summieren.</p>`],
+
+ ["Mathematik","Zehnerpotenzen","Große/kleine Zahlen als Zahl 1–10 × 10ᵏ.","zehnerpotenz wissenschaftliche schreibweise vorsätze präfix kilo mega giga mikro nano potenz",
+  `<p>Unser Dezimalsystem ist ein <b>Stellenwertsystem zur Basis 10</b>. Die Stufenzahlen 1, 10, 100, 1000 … unterscheiden sich nur durch die Anzahl der Nullen – daraus entsteht die verkürzte Schreibweise als Potenz: die Basis 10 mit der Anzahl der Nullen als Hochzahl (Exponent).</p>
+  <p><b>Wissenschaftliche Schreibweise:</b> eine Zahl zwischen 1 und 10, multipliziert mit <span class="formula">10ᵏ</span>. Große Zahlen → positiver Exponent, kleine Zahlen → negativer Exponent.</p>
+  <p><b>Vorsätze (SI):</b> k = 10³ · M = 10⁶ · G = 10⁹ · T = 10¹² · m = 10⁻³ · µ = 10⁻⁶ · n = 10⁻⁹.</p>
+  <p><b>Beispiele:</b> 250 kW = 2,5·10⁵ W · 510 Billionen m² = 5,1·10¹⁴ m² · 8 µm = 8·10⁻⁶ m.</p>
+  <p><b>Lehrbeispiel Lichtjahr:</b> Licht ≈ 300 000 km/s, 1 Jahr = 365·24·3600 s → 1 Lj = 365·24·3600 · 300 000 km ≈ 9 460 800 000 000 km ≈ <b>9,46·10¹² km</b>. Erst die Zehnerpotenz macht das Ergebnis lesbar.</p>`],
+
+ ["Mathematik","Dualsystem","Zahlensystem zur Basis 2 (nur 0 und 1).","dual binär zweiersystem basis 2 zweierpotenz digital bit umrechnen",
+  `<p>Grundsätzlich kann jede Zahl außer 1 die Stufenzahl eines Stellenwertsystems sein. Im <b>Zweiersystem (Dualsystem)</b> ist die Stufenzahl <b>2</b>; es gibt nur die Ziffern <b>0 und 1</b>. Weil sich 0/1 leicht als „Schalter offen/geschlossen" darstellen lassen, ist es die Grundlage der Digitaltechnik (Binärzahlen).</p>
+  <p><b>Stellenwerte = Zweierpotenzen:</b> … 2⁴=16, 2³=8, 2²=4, 2¹=2, 2⁰=1.</p>
+  <p><b>Dual → Dezimal:</b> die Stellenwerte der Einsen addieren.<br>1011₂ = 1·8 + 0·4 + 1·2 + 1·1 = <b>11</b>.</p>
+  <p><b>Dezimal → Dual (Bsp. 125):</b> jeweils die größte passende Zweierpotenz abziehen: 125−64=61, −32=29, −16=13, −8=5, −4=1, −1=0. Genutzt wurden 64,32,16,8,4,1 (nicht 2) → <b>125 = 1111101₂</b>.</p>`],
+
+ ["Mathematik","Zahlenmengen","ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ – aufeinander aufbauend.","zahlenmengen natürliche ganze rationale reelle komplexe zahlen menge irrational bruch",
+  `<p>Die Zahlenmengen bauen aufeinander auf: <span class="formula">ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ</span>. Jede Erweiterung macht eine vorher „unmögliche" Rechnung möglich.</p>
+  <ul>
+  <li><b>ℕ (natürliche Zahlen):</b> Zählzahlen 1, 2, 3 … (mit 0: ℕ₀). Subtraktion nicht immer lösbar (3−5).</li>
+  <li><b>ℤ (ganze Zahlen):</b> ℕ plus negative Zahlen und 0 → Subtraktion immer lösbar (3−5=−2).</li>
+  <li><b>ℚ (rationale Zahlen):</b> alle Brüche p/q (q≠0); dezimal endlich (0,75) oder periodisch (⅓=0,3̄).</li>
+  <li><b>ℝ (reelle Zahlen):</b> ℚ plus irrationale Zahlen (unendlich, nicht periodisch): √2, π, e. Erst ℝ füllt die Zahlengerade lückenlos.</li>
+  <li><b>ℂ (komplexe Zahlen):</b> erweitern ℝ um die imaginäre Einheit i mit i²=−1; Form a + b·i.</li>
+  </ul>
+  <p><b>Beispiele:</b> −3 ∈ ℤ, aber −3 ∉ ℕ · √2 ∈ ℝ, aber √2 ∉ ℚ.</p>`],
+
+ ["Mathematik","Rechenreihenfolge","Klammer → Potenz → Punkt → Strich.","rechenreihenfolge punkt vor strich klammer potenz operatorrangfolge",
+  `<p>Kommen verschiedene Rechenarten in einem Term vor, entscheidet die <b>Rangfolge</b> über das Ergebnis:</p>
+  <ol><li><b>Klammern</b> zuerst – von innen nach außen: rund ( ) → eckig [ ] → geschweift { }.</li><li><b>Potenzen</b></li><li><b>Punktrechnung</b> (·, :)</li><li><b>Strichrechnung</b> (+, −)</li></ol>
+  <p><b>Merksatz:</b> „Punkt vor Strich".</p>
+  <p><b>Beispiele:</b> 5·3 + 9 = 15 + 9 = <b>24</b> · 10 + (25 − 15) = 10 + 10 = <b>20</b> · 2·(3 + 4²) = 2·19 = <b>38</b>.</p>
+  <p><b>Klammer-Regeln:</b> Plusklammer darf entfallen, Vorzeichen bleiben (17 + (−3+18) = 32). Minusklammer: beim Weglassen alle Vorzeichen umkehren (20 − (5 − 8) = 20 − 5 + 8 = 23).</p>`],
+
+ ["Mathematik","Binomische Formeln","(a±b)² und (a+b)(a−b) schnell umformen.","binomische formeln binom quadrat ausmultiplizieren faktorisieren",
+  `<p>Die drei <b>binomischen Formeln</b> helfen, Klammern schnell auszumultiplizieren oder umgekehrt eine Summe zu faktorisieren. Herleitung der 1. Formel über die Fläche: (a+b)(a+b) zerlegt das Quadrat mit Seitenlänge (a+b) in a² + ab + ab + b².</p>
+  <p><span class="formula">1. (a + b)² = a² + 2ab + b²</span></p>
+  <p><span class="formula">2. (a − b)² = a² − 2ab + b²</span></p>
+  <p><span class="formula">3. (a + b)(a − b) = a² − b²</span></p>
+  <p><b>Ausmultiplizieren:</b> (a+5)² = a² + 10a + 25 · (x−3)² = x² − 6x + 9 · (15r+3s)² = 225r² + 90rs + 9s².</p>
+  <p><b>Faktorisieren (rückwärts):</b> x² − 16 = x² − 4² = (x+4)(x−4).</p>`],
+
+ ["Mathematik","Faktorisieren","Summe in ein Produkt umwandeln.","faktorisieren ausklammern gemeinsamer faktor produkt distributivgesetz",
+  `<p><b>Faktorisieren</b> heißt, eine Summe in ein Produkt umzuwandeln, indem man den gemeinsamen Faktor ausklammert. Es ist die Umkehrung des Ausmultiplizierens (Distributivgesetz a·(b+c) = a·b + a·c).</p>
+  <p><b>Regel:</b> <span class="formula">a·b + a·c = a·(b + c)</span> – den in allen Summanden enthaltenen Faktor herausziehen.</p>
+  <p><b>Beispiele:</b> 6x + 9 = 3·(2x + 3) · 4a² − 8a = 4a·(a − 2) · x² − 16 = (x+4)(x−4) (3. binomische Formel).</p>
+  <p>Nutzen: Terme vereinfachen, kürzen und Gleichungen lösen (ein Produkt ist 0, wenn ein Faktor 0 ist).</p>`],
+
+ ["Mathematik","Polynomdivision","Polynome schriftlich dividieren.","polynomdivision polynom dividieren faktorisieren nullstelle grad",
+  `<p>Die <b>Polynomdivision</b> teilt ein Polynom durch einen Term ersten Grades (x − e), ähnlich der schriftlichen Division bei Zahlen. Damit lässt sich ein Polynom faktorisieren und sein Grad um eine Potenz senken – hilfreich beim Lösen von Gleichungen höheren Grades.</p>
+  <p><b>Vorgehen:</b> höchste Glieder teilen → Ergebnis mit dem Divisor multiplizieren → abziehen → nächstes Glied herunterziehen → wiederholen.</p>
+  <p><b>Beispiel:</b> (6x² − 8x − 30) : (2x − 6)</p>
+  <ul><li>6x² : 2x = <b>3x</b>; 3x·(2x−6) = 6x²−18x; abziehen → Rest 10x−30.</li><li>10x : 2x = <b>5</b>; 5·(2x−6) = 10x−30; abziehen → Rest 0.</li></ul>
+  <p>Ergebnis: <b>(6x² − 8x − 30) : (2x − 6) = 3x + 5</b>.</p>`],
+
+ ["Mathematik","Proportionale Zuordnung","Je mehr, desto mehr – y = k·x.","proportional zuordnung proportionalitätsfaktor gerade ursprung quotient",
+  `<p>Bei einer <b>proportionalen Zuordnung</b> („je mehr, desto mehr") wächst y im gleichen Verhältnis wie x. Kennzeichen: der <b>Quotient y/x = k</b> ist konstant (Proportionalitätsfaktor).</p>
+  <p><b>Gleichung:</b> <span class="formula">y = k·x</span> · <b>Graf:</b> eine Gerade durch den Ursprung.</p>
+  <p><b>Beispiel:</b> 80 Hohlblocksteine wiegen 440 kg → k = 440/80 = 5,5 kg pro Stein → y = 5,5·x. Für 30 Steine: 30·5,5 = 165 kg.</p>
+  <p class="bau">Bau-Bezug: Materialmenge → Masse/Preis, Länge → Gewicht eines Profils usw. sind meist proportional.</p>`],
+
+ ["Mathematik","Antiproportionale Zuordnung","Je mehr, desto weniger – y = c/x.","antiproportional umgekehrt proportional hyperbel produkt konstant",
+  `<p>Bei einer <b>antiproportionalen Zuordnung</b> („je mehr, desto weniger") wird y kleiner, wenn x größer wird. Kennzeichen: das <b>Produkt x·y = c</b> ist konstant.</p>
+  <p><b>Gleichung:</b> <span class="formula">y = c / x</span> · <b>Graf:</b> eine Hyperbel.</p>
+  <p><b>Beispiel:</b> 3 Pumpen brauchen 3 h 20 min für einen Job; mit doppelt so vielen Pumpen halbiert sich die Zeit. Bei 4 Baggern und 9 Tagen ist c = 4·9 = 36 „Bagger-Tage" → 6 Bagger brauchen 36/6 = 6 Tage.</p>`],
+
+ ["Mathematik","Dreisatz","Rechnen über die Einheit (1).","dreisatz proportional antiproportional einheit verhältnis",
+  `<p>Der <b>Dreisatz</b> löst Verhältnisaufgaben, indem man über die <b>Einheit (1)</b> rechnet.</p>
+  <p><b>Proportional</b> (je mehr, desto mehr): erst <b>dividieren</b> (auf 1), dann <b>multiplizieren</b>.<br>Fliesen: 24 m² kosten 840 € → 1 m² = 840 : 24 = 35 € → 7 m² = 35·7 = <b>245 €</b>.</p>
+  <p><b>Antiproportional</b> (je mehr, desto weniger): erst <b>multiplizieren</b> (auf 1), dann <b>dividieren</b>.<br>Maschinen: 4 Maschinen → 3 h → 1 Maschine → 3·4 = 12 h → 3 Maschinen → 12 : 3 = <b>4 h</b>.</p>`],
+
+ ["Mathematik","Geradengleichung","y = m·x + b (lineare Funktion).","gerade lineare funktion steigung y-achsenabschnitt zeichnen graph",
+  `<p>Eine <b>lineare Funktion</b> hat als Graf eine Gerade mit der Gleichung <span class="formula">y = m·x + b</span>.</p>
+  <ul><li><b>m = Steigung</b> = Δy/Δx (Höhenunterschied je Schritt nach rechts). m > 0 steigend, m < 0 fallend.</li><li><b>b = y-Achsenabschnitt</b> (Schnittpunkt mit der y-Achse, dort x = 0).</li></ul>
+  <p><b>Sonderfall b = 0:</b> Ursprungsgerade y = m·x (proportionale Zuordnung).</p>
+  <p><b>Zeichnen:</b> Punkt (0, b) markieren, dann mit der Steigung (z. B. m = 2: 1 nach rechts, 2 nach oben) den zweiten Punkt setzen.</p>
+  <p><b>Beispiel:</b> y = 2x − 6 → Steigung 2, schneidet die y-Achse bei −6.</p>`],
+
+ ["Mathematik","Steigung","Wie stark eine Gerade steigt/fällt (m = Δy/Δx).","steigung m delta gefälle neigung gerade rampe dachneigung",
+  `<p>Die <b>Steigung m</b> gibt an, wie stark eine Gerade steigt oder fällt: <span class="formula">m = Δy / Δx</span> – also Höhenzuwachs pro Schritt nach rechts.</p>
+  <p>m > 0 → steigend, m < 0 → fallend, m = 0 → waagerecht. In y = m·x + b ist m der Faktor vor x.</p>
+  <p><b>Beispiel:</b> Von (0|1) nach (4|9): m = (9−1)/(4−0) = 8/4 = 2.</p>
+  <p class="bau">Bau-Bezug: Steigung/Gefälle einer Rampe oder Leitung wird oft in % angegeben (Höhe/Länge · 100). Der Neigungswinkel folgt aus tan α = Höhe/Länge.</p>`],
+
+ ["Mathematik","Nullstelle","x-Wert, an dem der Graf die x-Achse schneidet (y=0).","nullstelle schnittpunkt x-achse y=0 gleichung lösen",
+  `<p>Die <b>Nullstelle</b> einer Funktion ist der x-Wert, an dem der Graf die x-Achse schneidet – dort ist <b>y = 0</b>.</p>
+  <p><b>Bei der Geraden</b> y = m·x + b: 0 = m·x + b → <span class="formula">x = −b / m</span>.</p>
+  <p><b>Beispiel:</b> y = 2x − 6 → 0 = 2x − 6 → x = 3 → Nullstelle (3 | 0).</p>
+  <p><b>Schnittpunkt zweier Geraden</b> findet man analog, indem man die beiden y-Terme gleichsetzt: y = 3x−1 und y = x+5 → 3x−1 = x+5 → x = 3, y = 8 → (3 | 8).</p>`],
+
+ ["Mathematik","Definitions- & Wertemenge","Erlaubte x- bzw. mögliche y-Werte.","definitionsmenge wertemenge funktion d w zuordnung eindeutig",
+  `<p>Eine <b>Funktion</b> ist eine eindeutige Zuordnung: jedem x-Wert ist genau <b>ein</b> y-Wert zugeordnet.</p>
+  <ul><li><b>Definitionsmenge D:</b> alle erlaubten x-Werte (z. B. D = {x | 0 ≤ x ≤ 10}).</li><li><b>Wertemenge W:</b> alle tatsächlich vorkommenden y-Werte.</li></ul>
+  <p>Schreibweisen: f: x → 8,3x oder y = 8,3x oder f(x) = 8,3x.</p>
+  <p><b>Beispiel:</b> f(x) = 8,3x mit D = {x | 0 ≤ x ≤ 10} → für x = 10 ist y = 83, die Wertemenge ist W = {y | 0 ≤ y ≤ 83}.</p>`],
+
+ ["Mathematik","Lineares Gleichungssystem","Zwei Gleichungen, zwei Unbekannte.","gleichungssystem lgs einsetzungsverfahren gleichsetzungsverfahren additionsverfahren",
+  `<p>Ein <b>lineares Gleichungssystem</b> (2 Unbekannte) besteht aus zwei Gleichungen mit x und y. Gesucht ist das Wertepaar, das beide erfüllt. Drei gleichwertige Verfahren:</p>
+  <p><b>System:</b> (I) x + y = 10 · (II) x − y = 2</p>
+  <ul>
+  <li><b>Gleichsetzungsverfahren:</b> beide nach y auflösen und gleichsetzen: 10−x = x−2 → x = 6.</li>
+  <li><b>Einsetzungsverfahren:</b> (II) x = 2+y in (I): (2+y)+y = 10 → y = 4.</li>
+  <li><b>Additionsverfahren:</b> (I)+(II): 2x = 12 → x = 6.</li>
+  </ul>
+  <p><b>Lösung:</b> (x | y) = (6 | 4). Nimm für jedes System das einfachste Verfahren (Additionsverfahren, wenn sich eine Variable leicht wegkürzt).</p>`],
+
+ ["Mathematik","Umkehrfunktion","Zuordnung rückwärts – nach x auflösen, x&y tauschen.","umkehrfunktion umkehr spiegelung winkelhalbierende invers",
+  `<p>Die <b>Umkehrfunktion</b> kehrt die Zuordnung um (aus y wieder x). Vorgehen:</p>
+  <ol><li>Funktionsgleichung nach <b>x auflösen</b>.</li><li><b>x und y vertauschen</b>.</li></ol>
+  <p><b>Beispiel:</b> y = 2x + 4 → x = (y − 4)/2 → tauschen → <b>y = (x − 4)/2</b>.</p>
+  <p>Der Graf der Umkehrfunktion ist die <b>Spiegelung</b> des ursprünglichen Grafen an der Winkelhalbierenden y = x.</p>`],
+
+ ["Mathematik","Satz des Pythagoras","a² + b² = c² im rechtwinkligen Dreieck.","pythagoras rechtwinklig hypotenuse kathete dreieck c² diagonale",
+  `<p>Im <b>rechtwinkligen Dreieck</b> gilt zwischen den beiden Katheten (a, b) und der Hypotenuse (c, dem rechten Winkel gegenüber):</p>
+  <p><span class="formula">a² + b² = c²</span></p>
+  <p><b>Beispiel:</b> a = 3 m, b = 4 m → c² = 9 + 16 = 25 → c = 5 m.</p>
+  <p><b>Umstellen</b> (fehlende Kathete): a = √(c² − b²). Bsp: c = 13, b = 5 → a = √(169−25) = √144 = 12.</p>
+  <p>Verwandt: <b>Kathetensatz</b> a² = c·p, <b>Höhensatz</b> h² = p·q (p, q = Hypotenusenabschnitte).</p>
+  <p class="bau">Bau-Bezug: rechte Winkel prüfen/abstecken (3-4-5-Regel), Diagonalen, Sparrenlängen, Böschungen.</p>`],
+
+ ["Mathematik","Kathete & Hypotenuse","Seiten im rechtwinkligen Dreieck.","kathete hypotenuse gegenkathete ankathete rechter winkel",
+  `<p>Im rechtwinkligen Dreieck heißen die beiden Seiten, die den <b>rechten Winkel</b> bilden, <b>Katheten</b>; die dem rechten Winkel gegenüberliegende (längste) Seite ist die <b>Hypotenuse</b>.</p>
+  <p>Bezogen auf einen Winkel α unterscheidet man die <b>Gegenkathete</b> (liegt α gegenüber) und die <b>Ankathete</b> (liegt an α an). Diese Begriffe braucht man für sin, cos und tan.</p>
+  <p><b>Beispiel:</b> Katheten 3 und 4 → Hypotenuse √(3²+4²) = 5.</p>`],
+
+ ["Mathematik","Sinus, Kosinus, Tangens","Winkelfunktionen im rechtwinkligen Dreieck.","sinus kosinus cosinus tangens winkel trigonometrie gaga hypotenuse grad",
+  `<p>Die Winkelfunktionen verbinden einen <b>Winkel</b> mit den <b>Seitenverhältnissen</b> im rechtwinkligen Dreieck:</p>
+  <p><span class="formula">sin α = Gegenkathete / Hypotenuse</span></p>
+  <p><span class="formula">cos α = Ankathete / Hypotenuse</span></p>
+  <p><span class="formula">tan α = Gegenkathete / Ankathete = sin α / cos α</span></p>
+  <p><b>Merkspruch:</b> „GAGA – Hühner AH".</p>
+  <p><b>Beispiel:</b> Hypotenuse c = 10 m, α = 30° → Gegenkathete = 10·sin30° = 5 m, Ankathete = 10·cos30° ≈ 8,66 m. Winkel aus Seiten: tan α = 5/8,66 = 0,577 → α = tan⁻¹(0,577) = 30°.</p>
+  <p class="bau">Taschenrechner auf <b>DEG</b> stellen. Bau-Bezug: Dachneigung, Böschungs-/Rampenwinkel (tan = Höhe/Länge).</p>`],
+
+ ["Mathematik","Sinussatz","a/sinα = b/sinβ = c/sinγ (beliebiges Dreieck).","sinussatz allgemeines dreieck seite gegenwinkel trigonometrie",
+  `<p>Der <b>Sinussatz</b> gilt in <b>jedem</b> Dreieck (nicht nur rechtwinkligen). Seiten verhalten sich wie die Sinuswerte der gegenüberliegenden Winkel:</p>
+  <p><span class="formula">a / sin α = b / sin β = c / sin γ</span></p>
+  <p><b>Wann?</b> Wenn eine Seite mit ihrem Gegenwinkel bekannt ist und dazu ein weiterer Winkel oder eine weitere Seite.</p>
+  <p><b>Beispiel:</b> α = 40°, β = 60°, a = 8 → b = a·sinβ/sinα = 8·sin60°/sin40° ≈ 8·0,866/0,643 ≈ 10,8.</p>`],
+
+ ["Mathematik","Kosinussatz","c² = a² + b² − 2ab·cosγ (verallg. Pythagoras).","kosinussatz cosinussatz allgemeines dreieck seiten zwischenwinkel",
+  `<p>Der <b>Kosinussatz</b> ist der auf beliebige Dreiecke verallgemeinerte Satz des Pythagoras:</p>
+  <p><span class="formula">c² = a² + b² − 2·a·b·cos γ</span></p>
+  <p><b>Wann?</b> Bei (SWS) zwei Seiten und dem eingeschlossenen Winkel, oder (SSS) drei Seiten (nach einem Winkel umstellen).</p>
+  <p><b>Beispiel:</b> a = 5, b = 7, γ = 60° → c² = 25 + 49 − 2·5·7·cos60° = 74 − 70·0,5 = 39 → c = √39 ≈ 6,24.</p>
+  <p><b>Sonderfall:</b> γ = 90° → cos90° = 0 → c² = a² + b² (Pythagoras).</p>`],
+
+ ["Mathematik","Bogenmaß","Winkel im Radiant statt in Grad.","bogenmaß radiant rad grad umrechnen pi vollkreis",
+  `<p>Neben dem Gradmaß gibt man Winkel im <b>Bogenmaß (Radiant)</b> an – als Länge des zugehörigen Bogens am Einheitskreis. Der Vollkreis entspricht <b>2π</b>.</p>
+  <p><b>Umrechnung:</b> <span class="formula">rad = (π / 180°) · Grad</span></p>
+  <p><b>Beispiele:</b> 180° = π · 90° = π/2 · 360° = 2π · 30° = π/6.</p>`],
+
+ ["Mathematik","Satz des Thales","Rechter Winkel im Halbkreis.","thales halbkreis durchmesser 90 grad kreis winkel",
+  `<p><b>Satz des Thales:</b> Liegt der Punkt C auf einem Kreis über der Strecke AB, wobei AB der <b>Durchmesser</b> ist, dann ist der Winkel bei C stets <b>90°</b>.</p>
+  <p>Nutzen: Man kann damit rechte Winkel konstruieren oder prüfen, ob ein Dreieck rechtwinklig ist (liegt der Scheitel auf dem Thaleskreis über der Hypotenuse?).</p>
+  <p>Teil der Winkelsätze am Kreis: Der <b>Mittelpunktswinkel</b> ist doppelt so groß wie der <b>Umfangswinkel</b> über derselben Sehne – der Thalessatz ist der Sonderfall mit dem Durchmesser.</p>`],
+
+ ["Mathematik","Volumen & Oberfläche","Rauminhalt und Außenfläche von Körpern.","volumen oberfläche körper quader zylinder kegel pyramide kugel stereometrie beton",
+  `<p><b>Stereometrie:</b> Berechnung von <b>Volumen V</b> (Rauminhalt) und <b>Oberfläche O</b> von Körpern.</p>
+  <table><tr><th>Körper</th><th>Volumen</th><th>Oberfläche</th></tr>
+  <tr><td>Quader</td><td>a·b·c</td><td>2(ab+ac+bc)</td></tr>
+  <tr><td>Zylinder</td><td>π·r²·h</td><td>2πr² + 2πrh</td></tr>
+  <tr><td>Pyramide</td><td>⅓·G·h</td><td>G + Mantel</td></tr>
+  <tr><td>Kegel</td><td>⅓·π·r²·h</td><td>πr² + πrs</td></tr>
+  <tr><td>Kugel</td><td>(4/3)·π·r³</td><td>4πr²</td></tr></table>
+  <p><b>Beispiele (Bau):</b> Fundament 2,0·1,5·0,4 m = 1,2 m³ Beton · Rohr r=0,15 m, l=8 m → V = π·0,15²·8 ≈ 0,565 m³.</p>`],
+
+ ["Mathematik","Strahlensätze","Streckenverhältnisse an parallelen Schnitten.","strahlensatz strahlensätze ähnlichkeit verhältnis parallel indirektes messen",
+  `<p>Werden zwei von einem Punkt ausgehende Strahlen von zwei <b>Parallelen</b> geschnitten, sind die entstehenden Streckenabschnitte <b>proportional</b> (1. Strahlensatz):</p>
+  <p><span class="formula">a : b = c : d</span></p>
+  <p>Grundlage der <b>Ähnlichkeit</b>: ähnliche Figuren haben gleiche Winkel und proportionale Seiten.</p>
+  <p><b>Anwendung (indirektes Messen):</b> Baumhöhe über die Schattenlänge – ist ein 1 m langer Stab 0,8 m Schatten und der Baum 6 m Schatten, gilt Höhe : 6 = 1 : 0,8 → Höhe = 7,5 m.</p>`],
+
+ ["Deutsch","DIN 5008","Norm für Aufbau von Geschäftsbriefen.","din 5008 norm geschäftsbrief anschriftfeld betreff abstände formatierung",
+  `<p>Die <b>DIN 5008</b> legt Schreib- und Gestaltungsregeln für Geschäftsbriefe fest. Sie ist <b>kein Gesetz</b>, sondern eine Empfehlung – sorgt aber für ein einheitliches, professionelles Erscheinungsbild.</p>
+  <p>Geregelt werden u. a. das <b>Anschriftfeld</b> (Zusatz-/Vermerkzone + Anschriftzone), die <b>Bezugszeichenzeile</b>, der <b>Betreff</b>, Datumsstellung und die Abstände zwischen den Bausteinen.</p>
+  <p><b>Wichtige Details:</b> Der Betreff steht <b>ohne</b> das Wort „Betreff" und wird <b>nicht unterstrichen</b>. Bei Auslandsanschriften werden Bestimmungsort und -land in <b>Großbuchstaben</b> geschrieben.</p>`],
+
+ ["Deutsch","Geschäftsbrief","Formelles Firmenschreiben mit festem Aufbau.","geschäftsbrief aufbau bestandteile briefkopf anrede grußformel anlagen",
+  `<p>Ein <b>Geschäftsbrief</b> ist die „Visitenkarte" des Absenders. Aufbau (von oben nach unten):</p>
+  <ol>
+  <li><b>Briefkopf</b> – Absender, Logo.</li>
+  <li><b>Anschriftfeld</b> – Empfänger (mit optionalen Vermerken wie „Einschreiben").</li>
+  <li><b>Bezugszeichenzeile / Datum</b> – „Ihr Zeichen, unser Zeichen …", Datum rechts.</li>
+  <li><b>Betreff</b> – Thema in einer Zeile (ohne „Betreff:", nicht unterstrichen).</li>
+  <li><b>Anrede</b> – „Sehr geehrte Damen und Herren," (danach Komma, weiter klein).</li>
+  <li><b>Brieftext</b> – gegliedert, sachlich, höflich.</li>
+  <li><b>Grußformel</b> – „Mit freundlichen Grüßen".</li>
+  <li><b>Unterschrift</b> – Firma, Unterschrift, Name (ggf. i. A. / i. V.).</li>
+  <li><b>Anlagenvermerk</b>.</li>
+  </ol>`],
+
+ ["Deutsch","Betreff","Themazeile des Geschäftsbriefs.","betreff themazeile brief din 5008 überschrift",
+  `<p>Der <b>Betreff</b> nennt in einer Zeile knapp das Thema des Briefes und steht zwischen Bezugszeichenzeile und Anrede.</p>
+  <p><b>Regeln nach DIN 5008:</b> Das Wort „Betreff" wird <b>nicht</b> davor geschrieben, und der Betreff wird <b>nicht unterstrichen</b> (Fettdruck ist erlaubt).</p>
+  <p><b>Falsch:</b> <u>Betreff: Ihre Anfrage vom 3. Mai</u> · <b>Richtig:</b> Ihre Anfrage vom 3. Mai.</p>`],
+
+ ["Deutsch","Bewerbung & Lebenslauf","Anschreiben + tabellarischer Lebenslauf.","bewerbung lebenslauf anschreiben mappe tabellarisch zeugnisse",
+  `<p>Eine <b>Bewerbungsmappe</b> besteht aus Anschreiben, Lebenslauf und Zeugnissen (ggf. Deckblatt).</p>
+  <p><b>Anschreiben</b> (wie ein Geschäftsbrief aufgebaut): <b>max. 1 Seite</b>, individuell auf die Stelle zugeschnitten – Bezug zur Stelle, Motivation, Qualifikationen mit Belegen, Verfügbarkeit, Gesprächswunsch.</p>
+  <p><b>Lebenslauf:</b> tabellarisch, <b>lückenlos</b>, meist antichronologisch (Neuestes zuerst): persönliche Daten, Berufserfahrung, Ausbildung, Weiterbildung, Kenntnisse. Mit Ort/Datum und Unterschrift.</p>`],
+
+ ["Deutsch","Zeugnissprache","Verschlüsselte Note im Arbeitszeugnis.","zeugnissprache arbeitszeugnis zufriedenheit note wohlwollend geheimcode",
+  `<p>Ein Arbeitszeugnis muss <b>wohlwollend und wahr</b> sein. Daraus entstand die <b>Zeugnissprache</b> – scheinbar positive Formulierungen, die verschlüsselt eine Note ausdrücken. Entscheidend ist der Grad der „Zufriedenheit":</p>
+  <table><tr><th>Formulierung</th><th>Note</th></tr>
+  <tr><td>stets zu unserer <b>vollsten</b> Zufriedenheit</td><td>sehr gut (1)</td></tr>
+  <tr><td>stets zu unserer vollen Zufriedenheit</td><td>gut (2)</td></tr>
+  <tr><td>zu unserer vollen Zufriedenheit</td><td>befriedigend (3)</td></tr>
+  <tr><td>zu unserer Zufriedenheit</td><td>ausreichend (4)</td></tr>
+  <tr><td>im Großen und Ganzen zu unserer Zufriedenheit</td><td>mangelhaft (5)</td></tr></table>`],
+
+ ["Deutsch","Bericht","Sachliche Wiedergabe eines Sachverhalts.","bericht w-fragen sachlich präteritum unfallbericht objektiv",
+  `<p>Ein <b>Bericht</b> gibt einen Sachverhalt <b>objektiv, sachlich und knapp</b> wieder – ohne Meinung, Wertung oder Ausschmückung.</p>
+  <p><b>Leitfragen (W-Fragen):</b> Wer? Was? Wann? Wo? Wie? Warum?</p>
+  <p><b>Zeitform:</b> meist <b>Präteritum</b>; chronologische Reihenfolge; nur belegbare Fakten.</p>
+  <p><b>Beispiel unsachlich → sachlich:</b> „Der Bauleiter kam leider viel zu spät" → „Der Bauleiter traf um 8:45 Uhr ein, 45 Minuten nach dem vereinbarten Termin."</p>
+  <p>Typen: Unfall-, Schadens-, Tätigkeitsbericht (auf dem Bau: Bautagesbericht).</p>`],
+
+ ["Deutsch","Protokoll","Niederschrift einer Sitzung.","protokoll verlaufsprotokoll ergebnisprotokoll wortprotokoll niederschrift beschluss",
+  `<p>Ein <b>Protokoll</b> (Niederschrift) hält Verlauf und/oder Ergebnisse einer Sitzung fest. Es gehört zu den Berichten, konzentriert sich aber auf <b>Aussagen und Beschlüsse</b>.</p>
+  <p><b>Arten:</b></p>
+  <ul><li><b>Verlaufsprotokoll</b> – gibt den Ablauf der Diskussion ausführlich wieder.</li><li><b>Ergebnisprotokoll</b> – nur Ergebnisse/Beschlüsse (in der Praxis am häufigsten).</li><li><b>Wortprotokoll</b> – wörtliche Mitschrift (z. B. Gericht).</li><li><b>Gedächtnisprotokoll</b> – nachträglich aus dem Gedächtnis.</li></ul>
+  <p><b>Aufbau:</b> Kopf (Ort, Datum, Beginn/Ende, Teilnehmer, Protokollführer, Tagesordnung) → Hauptteil (Punkte mit Beschlüssen) → Unterschrift von Protokollführer und Leitung. Zeitform Präsens.</p>`],
+
+ ["Deutsch","Beschreibung","Genaue, sachliche Darstellung.","beschreibung gegenstandsbeschreibung vorgangsbeschreibung bedienungsanleitung präsens sachlich",
+  `<p>Eine <b>Beschreibung</b> stellt einen Gegenstand oder Vorgang so <b>genau und sachlich</b> dar, dass sich der Leser ein klares Bild machen kann.</p>
+  <p><b>Grundregeln:</b> objektiv (keine Wertung), genau (Maße, Material, Reihenfolge), Zeitform <b>Präsens</b>, logische Reihenfolge, klare Sprache.</p>
+  <ul>
+  <li><b>Gegenstandsbeschreibung:</b> vom Gesamteindruck (Form, Größe, Material) zu den Einzelteilen und ihrer Funktion.</li>
+  <li><b>Vorgangsbeschreibung:</b> Schritte in der richtigen Reihenfolge (z. B. Ablauf des Betonierens).</li>
+  <li><b>Bedienungsanleitung:</b> Handlungsanweisungen (Imperativ „Drücken Sie …" oder Infinitiv), nummeriert, mit Sicherheitshinweisen.</li>
+  </ul>`],
+
+ ["Deutsch","E-Mail","Geschäftliche Mail = Geschäftsbrief.","email e-mail betreff signatur anrede elektronische kommunikation",
+  `<p>Eine geschäftliche <b>E-Mail</b> folgt weitgehend den Regeln des Geschäftsbriefs.</p>
+  <ul><li><b>Betreff</b> aussagekräftig (nicht leer, nicht „Hallo").</li><li><b>Anrede</b> und <b>Grußformel</b> wie im Brief („Sehr geehrte …", „Mit freundlichen Grüßen").</li><li>Kurz, sachlich, ein Thema pro Mail.</li><li><b>Signatur</b> mit Kontaktdaten; Anhänge im Text ankündigen.</li></ul>
+  <p>Auf Ton und Rechtschreibung achten – eine geschäftliche Mail wirkt wie ein Brief.</p>`]
 ];
 
 const PLAN = [
@@ -527,7 +742,15 @@ function renderUeb(){const c=document.getElementById('ueb-content');c.innerHTML=
 renderUebPicks();renderUeb();
 
 /* ---------- LEXIKON ---------- */
-function renderLex(q){q=(q||'').toLowerCase();const list=document.getElementById('lex-list');const items=LEX.filter(e=>(e[1]+' '+e[2]+' '+e[3]+' '+e[4]+' '+e[0]).toLowerCase().includes(q));list.innerHTML=items.length?items.map(e=>'<div class="lex"><span class="fach">'+e[0]+'</span><h4>'+e[1]+'</h4><p>'+e[2]+'</p><p><strong>Regel:</strong> '+e[3]+'</p><p class="bsp"><strong>Beispiel:</strong> '+e[4]+'</p></div>').join(''):'<p class="lead">Kein Treffer für „'+q+'“.</p>';}
+function renderLex(q){
+  q=(q||'').toLowerCase().trim();
+  const list=document.getElementById('lex-list');
+  const items=LEX.filter(e=>(e[0]+' '+e[1]+' '+e[2]+' '+e[3]+' '+e[4]).toLowerCase().includes(q));
+  document.getElementById('lexcount').textContent=items.length+' von '+LEX.length+' Begriffen';
+  if(!items.length){list.innerHTML='<p class="lead">Kein Treffer für „'+q+'“. Sag mir den Begriff – dann nehme ich ihn ins Lexikon auf.</p>';return;}
+  const one=items.length===1?' open':'';
+  list.innerHTML=items.map(e=>'<details class="lexd"'+one+'><summary><span class="lb">'+e[1]+'</span><span class="fach">'+e[0]+'</span><span class="tease">'+e[2]+'</span></summary><div class="lexbody">'+e[4]+'</div></details>').join('');
+}
 document.getElementById('lexsearch').addEventListener('input',e=>renderLex(e.target.value));
 renderLex('');
 
