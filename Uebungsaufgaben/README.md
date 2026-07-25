@@ -6,7 +6,10 @@ So arbeitest du: erst selbst rechnen/formulieren, dann Lösung prüfen. Was nich
 ## Semester 1
 - [Mathematik LM1 – Zahlen & Grundrechenarten](Semester-1/Mathematik_LM1_Uebungen.md) · 9 Aufgaben
 - [Mathematik LM2 – Funktionen & Gleichungen](Semester-1/Mathematik_LM2_Uebungen.md) · 9 Aufgaben
+- [Mathematik LM3 – Funktionen höherer Ordnung](Semester-1/Mathematik_LM3_Uebungen.md) · 15 Aufgaben
 - [Mathematik LM4 – Geometrie & Trigonometrie](Semester-1/Mathematik_LM4_Uebungen.md) · 10 Aufgaben
+- [Naturwissenschaft LM1 – Mechanik](Semester-1/Naturwissenschaft_LM1_Uebungen.md) · 17 Aufgaben
+- [Naturwissenschaft LM2 – Wärmelehre](Semester-1/Naturwissenschaft_LM2_Uebungen.md) · 15 Aufgaben
 - [Deutsch LM1 – schriftliche Kommunikation](Semester-1/Deutsch_LM1_Uebungen.md) · 9 Aufgaben
 
 > Sag mir jederzeit „mach mehr Übungsaufgaben zu XY" oder „gib mir eine Probeklausur zu Mathe LM4" – dann lege ich nach.

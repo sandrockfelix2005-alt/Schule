@@ -7,8 +7,8 @@
 | Fach | Module | Status Unterlagen |
 |------|--------|-------------------|
 | **Deutsch/Kommunikation** | Fachbeschreibung, LM 1 | ✅ vorhanden |
-| **Mathematik I** | Fachbeschreibung, LM 1–4, Formeln | LM1, LM2, Formeln ✅ · LM3, LM4 folgen |
-| **Naturwissenschaft** | Fachbeschreibung, LM 1–2, Formeln | ⬜ fehlt noch |
+| **Mathematik I** | Fachbeschreibung, LM 1–4, Formeln | ✅ vollständig |
+| **Naturwissenschaft** | Fachbeschreibung, LM 1–2, Formeln | ✅ vollständig |
 | **Einsendeaufgaben** | 1. Semester | ⬜ fehlt noch |
 
 ## Die 10 Lernabschnitte

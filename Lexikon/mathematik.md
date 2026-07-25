@@ -144,6 +144,62 @@
 
 ---
 
+## Scheitelpunktform
+**Was:** Form der quadratischen Funktion, aus der man den Scheitelpunkt direkt abliest.
+**Regel:** f(x) = a(x − r)² + s → Scheitelpunkt S(r|s); a > 0 nach oben, a < 0 nach unten geöffnet.
+**Beispiel:** f(x) = (x − 1)² + 2 → S(1|2).
+
+---
+
+## Quadratische Ergänzung
+**Was:** Verfahren, um die allgemeine Form ax² + bx + c in die Scheitelpunktform zu bringen.
+**Regel:** a ausklammern, (b/2a)² addieren und wieder subtrahieren, Binom bilden.
+**Beispiel:** 1,5x² − 6x + 4,5 = 1,5(x − 2)² − 1,5 → S(2|−1,5).
+
+---
+
+## p-q-Formel
+**Was:** Lösungsformel für quadratische Gleichungen der Normalform x² + px + q = 0.
+**Regel:** x₁,₂ = −p/2 ± √((p/2)² − q). Diskriminante D > 0 → zwei, D = 0 → eine, D < 0 → keine reelle Lösung.
+**Beispiel:** x² − 4x + 3 = 0 → x = 2 ± 1 → x₁ = 3, x₂ = 1.
+
+---
+
+## Potenzgesetze
+**Was:** Rechenregeln für Potenzen.
+**Regel:** aᵐ·aⁿ = aᵐ⁺ⁿ · aᵐ:aⁿ = aᵐ⁻ⁿ · (aᵐ)ⁿ = aᵐ·ⁿ · a⁻ⁿ = 1/aⁿ · a⁰ = 1 · a^(1/n) = ⁿ√a.
+**Beispiel:** (x²)³ = x⁶ · 2⁻³ = 1/8.
+
+---
+
+## Exponentialfunktion
+**Was:** Funktion mit der Variablen im **Exponenten**: f(x) = aˣ.
+**Regel:** Graf geht immer durch (0|1); a > 1 Wachstum, 0 < a < 1 Zerfall; Werte stets positiv.
+**Beispiel:** Bakterienmasse verdreifacht sich stündlich → f(x) = 3ˣ.
+
+---
+
+## Logarithmus
+**Was:** Der Exponent, mit dem eine Basis potenziert werden muss, um den Numerus zu erhalten.
+**Regel:** log_a b = y ⟺ aʸ = b · lg = log₁₀, ln = log_e, ld = log₂ · Basiswechsel log_a x = lg x / lg a.
+**Beispiel:** log₂ 8 = 3, denn 2³ = 8.
+
+---
+
+## Logarithmengesetze
+**Was:** Rechenregeln für Logarithmen (Umkehrung der Potenzgesetze).
+**Regel:** lg(u·v) = lg u + lg v · lg(u/v) = lg u − lg v · lg(uⁿ) = n·lg u.
+**Beispiel:** lg(a²·b·c⁴) = 2 lg a + lg b + 4 lg c.
+
+---
+
+## Exponentialgleichung
+**Was:** Gleichung mit der Variablen im Exponenten (transzendente Gleichung).
+**Regel:** Beide Seiten logarithmieren, dann nach x auflösen: aˣ = b → x = lg b / lg a.
+**Beispiel:** 6ˣ = 330 → x = lg330/lg6 ≈ 3,2365.
+
+---
+
 ## Volumen & Oberfläche (Körper)
 **Was:** Rauminhalt (V) und Außenfläche (O) von Körpern.
 **Regel:** Quader V = a·b·c · Zylinder V = π·r²·h · Kegel/Pyramide V = ⅓·G·h · Kugel V = (4/3)·π·r³, O = 4·π·r².

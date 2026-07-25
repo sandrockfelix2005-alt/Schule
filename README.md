@@ -30,19 +30,23 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 
 ### Semester 1 (Grundlagen – alle Fachrichtungen)
 
-| Fach | Modul | Unterlage | Zusammenfassung | Karteikarten | Lexikon |
-|------|-------|:---------:|:---------------:|:------------:|:-------:|
 > In der Spalte **Zusammenfassung** steht *K* = Kompakt-Fassung, *A* = Ausführliche Fassung.
 
+| Fach | Modul | Unterlage | Zusammenfassung | Karteikarten | Lexikon |
+|------|-------|:---------:|:---------------:|:------------:|:-------:|
 | **Organisation** | Semesterablaufplan | ✅ | ✅ | – | – |
-| Deutsch/Kommunikation | Fachbeschreibung | ✅ | ⬜ | – | – |
+| Deutsch/Kommunikation | Fachbeschreibung | ✅ | – | – | – |
 | Deutsch/Kommunikation | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
+| Mathematik I | Fachbeschreibung | ✅ | – | – | – |
 | Mathematik I | Lernmodul 1 | ✅ | **✅ K + A** | **✅** | **✅** |
 | Mathematik I | Lernmodul 2 | ✅ | **✅ K + A** | **✅** | **✅** |
-| Mathematik I | Lernmodul 3 | ⬜ *(noch nicht geliefert)* | – | – | – |
-| Mathematik I | Lernmodul 4 | ✅ *(aus Drive)* | **✅ K + A** | **✅** | **✅** |
-| Mathematik I | Formeln | ✅ | ⬜ | – | ⬜ |
-| Naturwissenschaft | Fachbeschr. + LM1/LM2 | ⬜ *(fehlt noch)* | – | – | – |
+| Mathematik I | Lernmodul 3 | ✅ | **✅ K + A** | **✅** | **✅** |
+| Mathematik I | Lernmodul 4 | ✅ | **✅ K + A** | **✅** | **✅** |
+| Mathematik I | Formeln *(Prüfungshilfsmittel)* | ✅ | – | – | ✅ |
+| Naturwissenschaft | Fachbeschreibung | ✅ | – | – | – |
+| Naturwissenschaft | Lernmodul 1 (Mechanik) | ✅ | **✅ K + A** | **✅** | **✅** |
+| Naturwissenschaft | Lernmodul 2 (Wärmelehre) | ✅ | **✅ K + A** | **✅** | **✅** |
+| Naturwissenschaft | Formeln *(Prüfungshilfsmittel)* | ✅ | – | – | ✅ |
 | Alle | Einsendeaufgaben | ⬜ *(fehlt noch)* | – | – | – |
 
 ✅ fertig · ⬜ offen · – nicht nötig
@@ -52,7 +56,7 @@ Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nu
 
 | Semester | Status | Ordner |
 |----------|--------|--------|
-| Semester 1 | **In Arbeit** (Deutsch LM1, Mathe LM1/2/4 fertig) | angelegt & gefüllt |
+| Semester 1 | **Komplett aufbereitet** (7 Module) | angelegt & gefüllt |
 | Semester 2 | ⬜ wartet auf Material | angelegt |
 | Semester 3 | ⬜ wartet auf Material | angelegt |
 | Semester 4 | ⬜ wartet auf Material | angelegt |

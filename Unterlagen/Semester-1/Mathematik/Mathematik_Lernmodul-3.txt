@@ -1,0 +1,12079 @@
+Fachrichtung:  alle Fachrichtungen 
+
+Schwerpunkt:  alle Schwerpunkte 
+
+FACH: 
+
+Mathematik I 
+
+Lernmodul 3 
+
+Funktionen und Gleichungen höherer 
+Ordnung anwenden 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+LERNMODUL 3 
+
+Viele technische Zusammenhänge in realen Systemen lassen sich hinreichend genau 
+nur durch Funktionen und Gleichungen höherer Ordnung beschreiben. Dazu gehören 
+z.B. Beschleunigungsvorgänge, Wachstumsabläufe und Volumenbestimmungen.  
+
+Ziele 
+
+Bei  der  Dimensionierung,  der  Planung  und  der  Konstruktion müssen  Technikerinnen 
+und Techniker häufig komplexe Gesetzmäßigkeiten und Zusammenhänge mithilfe von 
+Funktionen  und  Gleichungen  höherer  Ordnung  beschreiben  und  zur  Problemlösung 
+anwenden können. 
+
+Deshalb  werden  in  den  Lernbereichen  1  bis  3  quadratische  Funktionen  und  Potenz-
+funktionen sowie deren Umkehrfunktionen erarbeitet. Weiterhin werden in den Lernbe-
+reichen 4 und 5 die Exponentialfunktionen und Logarithmusfunktionen dargestellt. 
+
+Voraussetzung  für  dieses  Lernmodul  ist  eine  erfolgreiche  Bearbeitung  des  Lernmo-
+duls 2 dieses Faches 
+
+Ausgangssituation 
+
+- Funktionen und Gleichungen erster Ordnung einordnen und anwenden  
+
+Alle  weiteren  notwendigen  Informationen  und  Arbeitsunterlagen  sind in  diesem  Lern-
+modul enthalten. 
+
+Dieses Lernmodul ist im häuslichen Studium zu erarbeiten. 
+
+Der benötigte Zeitaufwand liegt bei ca. 44 Stunden. 
+
+Planung 
+
+Zusätzlich  finden  in  den  semesterbezogenen  Präsenzphasen  14  Stunden  Festigung 
+und Vertiefung fachspezifischer und fächerübergreifender Zusammenhänge sowie die 
+Beschreibung typischer Aufgaben und Problemstellungen statt. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Komplexaufgabe 
+des Lernmoduls 
+
+Bevölkerungswachstum 
+
+Wachstums-  oder  Vermehrungszahlen  von  Lebewesen  können  bei  günstigen  Bedin-
+gungen exponentiell steigen.  
+
+Dieser  mathematische  Zusammenhang  kann  z.B.  auch  zur  Ermittlung  der  Wachs-
+tumsrate der Bevölkerung eines Landes verwendet werden.  
+
+Aus  regelmäßigen  Volkszählungen,  die  alle  5  Jahre  stattfanden,  liegen  nun  die  im 
+Folgenden aufgeführten Einwohnerzahlen eines Landes vor. 
+
+Jahr  Bevölkerung 
+
+1980 
+
+1985 
+
+1990 
+
+1995 
+
+2000 
+
+5 650 000 
+
+6 268 696 
+
+6 955 140 
+
+7 716 754 
+
+8 561 766 
+
+Das Ziel ist nun, die weitere Entwicklung der Bevölkerungszahl zu berechnen, um für 
+das  Land  schon  heute  eine  Entscheidungsgrundlage  für  zukünftige  soziale  und  wirt-
+schaftliche Entwicklungen zu erhalten. 
+
+In  den  Lernbereichen  3  und  4  dieses  Lernmoduls  werden  die  relevanten  Funktionen 
+und  deren  Beziehungen  zueinander  erarbeitet,  um  das  Projekt  „Bevölkerungswachs-
+tum“ realisieren zu können. 
+
+4 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Inhaltsverzeichnis 
+
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+1 Quadratische Funktionen ..................................................................................... 6 
+
+1.1 Parabeln ........................................................................................................... 6 
+
+1.2 Allgemeine quadratische Funktion .................................................................. 22 
+
+1.3 Quadratische Gleichungen und deren Lösung................................................. 26 
+
+1.4 Schnittpunkte von Parabeln mit anderen Grafen ............................................. 40 
+
+2 Wurzelfunktionen ................................................................................................ 57 
+
+3 Potenzfunktionen ................................................................................................ 69 
+
+3.1 Potenzfunktionen mit natürlichen Exponenten ................................................. 69 
+
+3.2 Potenzfunktionen mit ganzzahligen und rationalen Exponenten ...................... 73 
+
+4 Exponentialfunktionen ....................................................................................... 96 
+
+5 Logarithmusfunktionen  ................................................................................... 113 
+
+5.1 Logarithmensysteme .................................................................................... 113 
+
+5.2 Exponentialgleichungen ................................................................................ 124 
+
+Lösungsanhang  .................................................................................................. 131 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lernbereich 
+
+1 Quadratische Funktionen 
+
+1.1 Parabeln 
+
+In der Wertetabelle wird der Seitenlänge eines Quadrates der Flächeninhalt zugeord-
+net: Seitenlänge (a) → Flächeninhalt (a2). 
+
+a 
+a2 
+
+1 
+1 
+
+2 
+4 
+
+3 
+9 
+
+5 
+
+4 
+8 
+6 
+16  25  36  49  64 
+
+7 
+
+Weil jedem Wert a genau ein Wert a2 zugeordnet wird, handelt es sich um eine Funk-
+tion. 
+
+Die Funktion f hat die Zuordnungsvorschrift f: a → a2 . Die Funktion ist definiert für den 
+Definitionsbereich D = {a  
+
+  1  a  8}. 
+
+Abbildung 1 Graf der Funktion f(a) 
+
+Lehrbeispiel 1 
+
+Legen Sie für die Funktion f(x) = x2 eine Wertetabelle an und zeichnen Sie den Grafen 
+der Funktion! 
+
+Lösung 
+
+Wenn keine besondere Definitionsmenge angegeben ist, gilt: D = 
+
+. 
+
+Da  nur  ein Ausschnitt  des  Grafen  der  Funktion  gezeichnet  werden  kann, legt man je 
+nach Aufgabenstellung sinnvoll Grenzen fest. 
+
+x 
+
+–4  –3  –2,5  –2  –1,5  –1  –0,5  0 
+
+0,5 
+
+1  1,5 
+
+2 
+
+2,5 
+
+3 
+
+4 
+
+f(x)  16 
+
+9  6,25  4  2,25  1  0,25  0  0,25  1  2,25  4  6,25  9  16 
+
+6 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Der  Graf  der  quadratischen  Funktion  f  mit  der  Funktionsgleichung  f(x) = x2 (D  =  ) 
+heißt Normalparabel. Wie am Beispiel von P und P zu sehen ist, ist die Normalpara-
+bel symmetrisch zur y-Achse. 
+
+Der  Funktionsgraf  und  die  y-Achse  schneiden  sich im  Ursprung,  dem  Scheitelpunkt 
+der Normalparabel. An dieser Stelle ist der Funktionswert f(x) = 0. Die Funktion f hat 
+an der Stelle x = 0 eine Nullstelle. Die Normalparabel ist nach oben geöffnet. 
+
+Lehrbeispiel 2 
+
+Zeichnen Sie die Normalparabel in ein Koordinatensystem für –3  x  3! Bestimmen 
+Sie mithilfe des Grafen die Funktionswerte f(–2,5); f(1); f(2)! 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+f(–2,5) = 6,25 
+
+–2,5   
+ 
+
+f(–2,5) 
+
+f(–1,5) = 2,25 
+–1,5 
+f(–1,5) 
+
+f(1) = 1 
+1 
+ 
+f(1)   
+
+f(2) = 4 
+
+2 
+f(2) 
+
+Es  ist  deutlich,  dass  die  Normalparabel  sich im  negativen Bereich  anders verhält  als 
+im positiven Bereich. 
+
+Man sagt: Die Normalparabel fällt links vom Scheitelpunkt und steigt rechts vom 
+
+Scheitelpunkt. 
+
+Aber für beide Seiten gilt: Die Funktionswerte f(x) sind nur positiv; d.h. die Wertemen-
+
+ge besteht aus allen nichtnegativen reellen Zahlen. W =  + 
+
+Lehrbeispiel 3 
+
+Zeichnen Sie die Grafen für die quadratischen Funktionen f(x) = x2 + 4 und  
+g(x) = x2 – 2! Legen Sie zunächst jeweils eine Wertetabelle an! 
+
+8 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+x 
+
+f(x) 
+
+g(x) 
+
+–3 
+
+13 
+
+7 
+
+–2 
+
+8 
+
+2 
+
+–1 
+
+5 
+
+–1 
+
+0 
+
+4 
+
+–2 
+
+1 
+
+5 
+
+–1 
+
+2 
+
+8 
+
+2 
+
+3 
+
+13 
+
+7 
+
+Beide Grafen  sind  offensichtlich  Normalparabeln,  die im Fall von  f(x)  nach oben, im 
+Fall von g(x) nach unten verschoben wurden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Allgemein lässt sich formulieren: 
+
+Der Graf einer quadratischen Funktion mit der Funktionsgleichung  y = x2 + s ist eine 
+in Richtung der y-Achse verschobene Normalparabel. 
+
+Für f(x) = x2 + 4 gilt: s = 4(s  0) 
+
+Die  Normalparabel  ist  um  4  Einheiten  nach  oben  verschoben.  Der  Scheitelpunkt  hat 
+die Koordinaten S(0;4). 
+
+Für g(x) = x2 – 2 gilt: s = –2(s  0) 
+
+Die Normalparabel ist um 2 Einheiten nach unten verschoben. Der Scheitelpunkt hat 
+die Koordinaten S(0;–2). 
+
+Allgemein für f(x) = x2 + s gilt: Der Scheitelpunkt hat die Koordinaten S(0;s). 
+
+Lehrbeispiel 4 
+
+Zeichnen Sie die Funktionsgrafen für f(x) = x2 + 2 und g(x) = x2 – 4! 
+Bestimmen Sie jeweils die Nullstellen! 
+
+Lösung 
+
+10 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Für f(x) = x2 + 2 ist festzustellen, dass es keine Stelle x gibt, bei der der Funktionswert 
+f(x) Null wird. Demnach gibt es auch keine Nullstelle. 
+
+Der Graf von g(x) = x2 – 4 schneidet die x-Achse an den Stellen x = –2 und x = 2. Für 
+beide Stellen gilt: f(x) = 0. 
+
+Antwort: Die Nullstellen der Funktion g(x) = x2 – 4 sind x = –2 und x = 2 . 
+
+Lehrbeispiel 5 
+
+Zeichnen Sie die Grafen zu den angegebenen Funktionen! Bestimmen Sie den Schei-
+telpunkt und die Nullstellen der Funktion! 
+
+f(x) = (x – 2)2 
+
+g(x) = (x + 3)2 
+
+Lösung 
+
+Beide Grafen  sind  Normalparabeln,  die im Fall von f(x)  nach  rechts, im Fall von  g(x) 
+nach links verschoben wurden. 
+
+Allgemein lässt sich formulieren: 
+
+Der Graf einer quadratischen Funktion mit der Funktionsgleichung y = (x – r)2 ist eine 
+in Richtung der x-Achse verschobene Normalparabel. 
+
+Für f(x) = (x – 2)2 gilt: r = 2(r  0) 
+
+Die Normalparabel ist um 2 Einheiten nach rechts verschoben. Der Scheitelpunkt hat 
+die Koordinaten S(2;0). 
+
+Für g(x) = (x + 3)2 gilt: r = –3(r  0) 
+
+Die  Normalparabel  ist  um  3  Einheiten  nach  links  verschoben.  Der  Scheitelpunkt  hat 
+die Koordinaten S(–3;0). 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Allgemein für f(x) = (x – r)2 gilt: Der Scheitelpunkt hat die Koordinaten S(r;0). 
+
+Lehrbeispiel 6 
+
+Zeichnen Sie die Funktionsgrafen für f(x) = (x – 1,5)2 und g(x) = (x + 2,5)2! 
+Bestimmen Sie jeweils die Nullstellen! 
+
+Lösung 
+
+Beide Grafen haben ihren Scheitelpunkt auf der x-Achse. Demnach sind die Nullstel-
+len identisch mit den Scheitelpunkten. 
+
+Für f(x) = (x – 1,5)2 gilt: Nullstelle x = 1,5. 
+
+Für g(x) = (x + 2,5)2 gilt: Nullstelle x = –2,5. 
+
+Lehrbeispiel 7 
+
+Zeichnen Sie den Grafen von f(x) = (x – 1)2 + 2 und bestimmen Sie den Scheitelpunkt! 
+Legen Sie zunächst eine Wertetabelle an mit x-Werten zwischen –3 und 5! 
+
+Lösung 
+
+x 
+
+f(x) 
+
+–3 
+
+18 
+
+–2 
+
+11 
+
+–1 
+
+6 
+
+0 
+
+3 
+
+1 
+
+2 
+
+2 
+
+3 
+
+3 
+
+6 
+
+4 
+
+11 
+
+5 
+
+18 
+
+12 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Der  Graf  ist  eine  um  1  Einheit  nach  rechts  und  um  2  Einheiten  nach  oben  ver-
+schobene Normalparabel. 
+
+Der Scheitelpunkt hat die Koordinaten S(1;2). 
+
+Zwischen  der  Funktionsgleichung  und  dem  Scheitelpunkt  S  lässt  sich  folgender  Zu-
+sammenhang formulieren: 
+
+f(x) = (x – 1)2 + 2; r = 1; s = 2  Scheitelpunkt S(1;2) 
+
+Der Graf einer Funktion mit der Funktionsgleichung f(x) = (x – r)2 + s ist eine verscho-
+bene  Normalparabel  mit  dem  Scheitelpunkt  S(r;s).  Diese  Darstellung  einer  quadrati-
+schen Funktion heißt Scheitelpunktform. 
+
+Lehrbeispiel 8 
+
+Zeichnen Sie den Grafen der Funktion f(x) = (x – 3)2 + 2! Bestimmen Sie zunächst den 
+Scheitelpunkt! 
+
+Lösung 
+
+Der Scheitelpunkt hat die Koordinaten S(r;s). Diese lassen sich aus der Funktionsglei-
+chung ablesen: r = 3; s = 2. 
+
+Scheitelpunktkoordinaten: S(3;2) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 9 
+
+Bestimmen  Sie  jeweils  den  Scheitelpunkt  der  Parabel  und  geben  Sie  die  Funktions-
+gleichung an! 
+
+14 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Scheitelpunkt von g: S(–3;–1); Funktionsgleichung von g: g(x) = (x + 3)2 – 1 
+
+Scheitelpunkt von f: S(4;3); Funktionsgleichung von f: f(x) = (x – 4)2 + 3 
+
+Lehrbeispiel 10 
+
+Überprüfen Sie, ob die Punkte P und Q auf dem Grafen von f liegen! 
+
+f(x) = (x – 2,5)2 + 3,6; 
+
+P(9,5;52,6); 
+
+ Q(–1,5;18,6) 
+
+Lösung 
+
+f(x) = (x – 2,5)2 + 3,6 
+
+P(9,5;52,6) 
+
+Q(–1,5;18,6) 
+
+52,6 = (9,5 – 2,5)2 + 3,6 
+
+= 72 + 3,6 
+52,6 = 49 + 3,6 
+
+18,6 = (–1,5 – 2,5)2 + 3,6 
+
+= (–4)2 + 3,6 
+
+(w) 
+
+18,6 = 16 + 3,6 
+
+(f) 
+
+Antwort:  Der Punkt P liegt auf dem Grafen, der Punkt Q liegt nicht auf dem Grafen. 
+
+Lehrbeispiel 11 
+
+Zeichnen Sie die Grafen der gegebenen Funktionen! 
+
+f(x) = x2 
+
+g(x) = 2x2 
+
+h(x) = 1/2 x2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Den Grafen der Funktionen sind folgende Eigenschaften zu entnehmen: 
+
+•  Der  Graf  einer  quadratischen  Funktion  mit  der  Funktionsgleichung 
+
+f(x) = ax2 (a  0) ist eine nach oben geöffnete Parabel. 
+
+•  Der  Graf  der Funktion g(x) =  2x2 (a   1) ist  steiler  als  die  Normalparabel.  Der 
+
+Scheitelpunkt ist S(0;0); die Nullstelle ist x = 0. 
+
+•  Der Graf der Funktion h(x) = 1/2 x2 (0  a  1) ist flacher als die Normalparabel. 
+
+Der Scheitelpunkt ist S(0;0); die Nullstelle ist x = 0. 
+
+•  Je größer a ist, desto steiler verläuft die Parabel. 
+
+Lehrbeispiel 12 
+
+Zeichnen Sie die Grafen der gegebenen Funktionen! 
+
+k(x) = – x2 
+
+l(x) = – 2x2 
+
+ m(x) = –1/2 x2 
+
+16 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Den Grafen der Funktionen sind folgende Eigenschaften zu entnehmen: 
+
+•  Der  Graf  einer  quadratischen  Funktion  mit  der  Funktionsgleichung 
+
+f(x) = ax2 (a  0) ist eine nach unten geöffnete Parabel. 
+
+•  Die Grafen sind jeweils an der x-Achse gespiegelt: 
+
+Der  Graf  von  k(x)  =  –x2  durch  Spiegelung  von  f(x)  =  x2;  der  Graf  von  
+l(x) = –2x2  durch  Spiegelung  von  g(x)  =  2x2;  der  Graf  von  m(x)  =  –  1/2  x2  durch 
+Spiegelung von h(x) = 1/2 x2. 
+
+Lehrbeispiel 13 
+
+Zeichnen Sie den Grafen der Funktion f(x) = 2x2 – 12x + 14! Berechnen Sie die Funk-
+tionswerte für  x–Werte  zwischen  0  und  6  (Abstand  0,5)!  Bestimmen  Sie  anhand  des 
+Grafen den Scheitelpunkt! 
+
+Lösung 
+
+x 
+
+0 
+
+0,5 
+
+f(x) 
+
+14  8,5 
+
+1 
+
+4 
+
+1,5 
+
+2 
+
+2,5 
+
+3 
+
+3,5 
+
+4 
+
+4,5 
+
+0,5  –2  –3,5  –4 
+
+–3,5  –2  0,5 
+
+5 
+
+4 
+
+5,5 
+
+6 
+
+8,5  14 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Antwort: Der Scheitelpunkt hat die Koordinaten S(3;–4). 
+
+Mithilfe der Wertetabelle lässt sich häufig der Scheitelpunkt der Parabel ohne aufwän-
+dige  Rechnungen  nicht  genau  bestimmen.  Für  das  Zeichnen  einer  Parabel  ist  die 
+genaue Angabe der Scheitelpunktkoordinaten aber von großer Bedeutung.  
+
+Lehrbeispiel 14: 
+
+Zeichnen Sie den Grafen der Funktion f(x) = 2x2 – 8x – 4! Legen Sie eine Wertetabelle 
+an für x-Werte von –2 bis 5! Berechnen Sie die Koordinaten des Scheitelpunktes! 
+
+Lösung 
+
+x 
+
+f(x) 
+
+–2 
+
+20 
+
+–1 
+
+6 
+
+0 
+
+1 
+
+2 
+
+3 
+
+4 
+
+–4  –10  –12  –10  –4 
+
+5 
+
+6 
+
+Aus  der Wertetabelle  ergibt  sich  nicht  zweifelsfrei,  dass  der  niedrigste  Funktionswert  
+–12 ist. 
+
+Aus diesem Grund soll nun die Funktionsgleichung f(x) = 2x2 – 8x – 4 in die Scheitel-
+punktform umgeformt werden. 
+
+f(x) = 2x2 – 8x – 4 
+
+18 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+1. Schritt: 
+
+f(x) = 2 [x2 – 4x] – 4 
+
+Ausklammern des Faktors vor x2 
+vor den beiden Summanden mit 
+der Variablen x 
+
+2. Schritt: 
+
+Aus dem Klammerterm wird ein 
+vollständiges Binom erzeugt. 
+
+Wichtig: 
+Der Gleichungsterm darf sich 
+nicht ändern. 
+Dafür muss die quadratische 
+Ergänzung zunächst addiert und 
+wieder subtrahiert werden  
+(hier: +4  –4). 
+
+f(x) = 2 [x2 – 4x + 4] – 8 – 4 
+= 2 (x – 2)2 – 12 
+
+Aus  der  nun  vorliegenden  Scheitelpunktform  können  die  Koordinaten  des  Scheitel-
+punktes abgelesen werden: S(2;–12). 
+
+Lehrbeispiel 15 
+
+Zeichnen Sie den Graf der Funktion f(x) = 4x2 – 16x + 15! Berechnen Sie zur Kontrolle 
+die Koordinaten des Scheitelpunktes! 
+
+Lösung 
+
+f(x) = 4x2 – 16x + 15 
+
+= 4 (x2 – 4x) + 15 
+= 4 (x2 – 4x + 4 – 4) + 15 
+
+f(x) = 4 (x – 2)2 – 1 
+
+Scheitelpunkt S(2;–1) 
+
+Von der x-Koordinate des Scheitelpunktes werden - je nach Aufgabenstellung - 2 oder 
+3 Werte nach links und rechts vorgegeben. 
+
+x 
+
+f(x) 
+
+0 
+
+15 
+
+1 
+
+3 
+
+2 
+
+–1 
+
+3 
+
+3 
+
+4 
+
+15 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 16 
+
+Zeichnen Sie den Graf der Funktion f(x) = –5x2 – 15x + 19! Bestimmen Sie zunächst 
+die Koordinaten des Scheitelpunktes! 
+
+Lösung 
+
+f(x) = –5x2 – 15x + 19 
+
+= –5 (x2 + 3x) + 19 
+= –5 (x2 + 3x + 2,25 – 2,25) + 19 
+= –5 (x2 + 3x + 2,25) + 30,25 
+
+f(x) = –5 (x + 1,5)2 + 30,25 
+
+Scheitelpunkt S(–1,5;30,25) 
+
+x 
+
+f(x) 
+
+–4 
+
+–1 
+
+–3 
+
+19 
+
+–2 
+
+29 
+
+–1,5 
+
+30,25 
+
+–1 
+
+29 
+
+0 
+
+19 
+
+1 
+
+–1 
+
+20 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+1.2 Allgemeine quadratische Funktion 
+
+Die allgemeine Form einer quadratischen Funktion lautet: y = ax2 + bx + c. 
+
+Die Formvariablen a und b heißen Koeffizienten der quadratischen Funktion.  
+Sie stehen für reelle Zahlen. Der Koeffizient a darf nicht Null sein. 
+
+Lehrbeispiel 1 
+
+Zeichnen  Sie  die  Funktionsgrafen  der  quadratischen  Funktionen  in  ein  Koordinaten-
+system! Berechnen Sie zunächst jeweils den Scheitelpunkt S! Bestimmen Sie anhand 
+des Grafen den Schnittpunkt mit der y-Achse und die Nullstellen! 
+
+f(x) = x2 
+g(x) = 1,5x2 – 6x + 4,5 
+h(x) = –0,5x2 – 2x – 3 
+
+Lösung 
+
+f(x) = x2 
+
+g(x) = 1,5x2 – 6x + 4,5 
+
+= 1,5 (x2 – 4x) + 4,5 
+= 1,5 (x2 – 4x + 4 – 4) + 4,5 
+= 1,5 (x2 – 4x + 4) – 1,5 
+
+Scheitelpunkt S(0;0) 
+
+g(x) = 1,5 (x – 2)2 – 1,5 
+
+Scheitelpunkt S(2;–1,5) 
+
+h(x) = – 0,5x2 – 2x – 3 
+
+= – 0,5 (x2 + 4x) – 3 
+= – 0,5 (x2 + 4x + 4 – 4) – 3 
+= – 0,5 (x2 + 4x + 4) –1 
+
+h(x) = – 0,5 (x + 2)2 – 1 
+
+Scheitelpunkt S(– 2;– 1) 
+
+22 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Die Funktionsgrafen  g(x)  und  h(x)  sollen  nun mit  dem  Grafen  der  Normalparabel f(x) 
+verglichen werden. 
+
+Dabei ergeben sich für g(x) folgende Erkenntnisse: 
+
+•  Die Koeffizienten sind a = 1,5 ; b = –6 ; c = 4,5 
+•  Der Graf ist eine nach oben geöffnete Parabel. Begründung: a  0 
+•  Außerdem ist der Graf steiler als die Normalparabel. Begründung: a  1 
+•  Der Schnittpunkt mit der y-Achse hat die Koordinaten P(0;4,5) 
+•  Der Graf schneidet die x-Achse in den Nullstellen x1 = 1 und x2 = 3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+23 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Für h(x) ergeben sich folgende Erkenntnisse: 
+
+•  Die Koeffizienten sind a = – 0,5; b = – 2; c = – 3 
+•  Der Graf ist eine nach unten geöffnete Parabel. Begründung: a  0 
+•  Außerdem ist der Graf flacher als die Normalparabel. 
+
+Begründung: –1  a  0 
+
+•  Der Schnittpunkt mit der y-Achse hat die Koordinaten Q(0;–3) 
+•  Der Graf schneidet nicht die x-Achse. Es gibt keine Nullstellen. 
+
+Zusammenfassend lassen sich folgende Aussagen treffen: 
+
+(1)  Der  Graf  einer  quadratischen  Funktion  mit  der  Funktionsgleichung 
+
+f(x) = ax2 + bx + c ist eine Parabel. 
+
+(2)  Der Koeffizient a bestimmt, ob die Parabel nach oben oder nach unten geöff-
+
+net ist. Außerdem bestimmt er die Steigung der Parabel. 
+
+(3)  Der Koeffizient c bestimmt den Schnittpunkt mit der y-Achse. Er hat die Koor-
+
+dinaten (0;c). 
+
+(4)  Eine quadratische Funktion hat entweder eine Nullstelle (f(x) = x2), zwei Nullstel-
+len (g(x) = 1,5x2 – 6x + 4,5) oder keine Nullstellen (h(x) = –0,5x2 – 2x – 3). 
+
+Lehrbeispiel 2 
+
+Zeichnen  Sie  die  Grafen  der  angegebenen  Funktionen  in  ein  Koordinatensystem! 
+Berechnen  Sie  jeweils  die  Koordinaten  des  Punktes,  in  dem  die  Funktionen  ihren 
+größten bzw. kleinsten Funktionswert annehmen! Beschreiben Sie das Steigungsver-
+halten  der  Parabel  links  und  rechts  von  diesem  Punkt!  Legen  Sie  eine  Wertetabelle 
+mit sinnvollen x-Werten an! 
+
+f(x) = –2x2 – 6x – 1,5; g(x) = 0,5x2 – 2x + 3 
+
+Lösung 
+
+Der  Punkt,  bei  dem  der  Funktionswert  einer  quadratischen  Funktion  ihren  größten 
+bzw. kleinsten Wert annimmt, ist ihr Scheitelpunkt. 
+
+Für f(x) gilt:  
+
+f(x) = –2x2 – 6x – 1,5 
+
+= – 2 (x2 + 3x) – 1,5 
+= – 2 (x2 + 3x + 2,25 – 2,25) – 1,5 
+= – 2 (x2 + 3x + 2,25) + 3 
+
+f(x) = – 2 (x + 1,5)2 + 3     
+
+Scheitelpunkt S(–1,5;3) 
+
+x 
+
+f(x) 
+
+– 4 
+
+– 3 
+
+– 9,5 
+
+– 1,5 
+
+– 2 
+
+2,5 
+
+– 1,5 
+
+3 
+
+– 1 
+
+2,5 
+
+0 
+
+1 
+
+– 1,5 
+
+– 9,5 
+
+Für g(x) gilt: 
+
+g(x)  = 0,5x2 – 2x + 3 
+
+= 0,5 (x2 – 4x) + 3 
+= 0,5 (x2 – 4x + 4 – 4) + 3 
+= 0,5 (x2 – 4x + 4) + 1 
+
+g(x) = 0,5 (x – 2)2 + 1 
+
+24 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Scheitelpunkt 
+
+S(2;1) 
+
+x 
+
+g(x) 
+
+– 1 
+
+5,5 
+
+0 
+
+3 
+
+1 
+
+1,5 
+
+2 
+
+1 
+
+3 
+
+1,5 
+
+4 
+
+3 
+
+5 
+
+5,5 
+
+Steigungsverhalten  von  f:  links  vom  Scheitelpunkt  (x  =  –1,5)  steigt  der  Graf,  rechts 
+vom Scheitelpunkt fällt der Graf. 
+
+Steigungsverhalten  von  g:  links  vom  Scheitelpunkt  (x  =  2)  fällt  der  Graf,  rechts  vom 
+Scheitelpunkt steigt der Graf. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+1.3 Quadratische Gleichungen und deren Lösung 
+
+In  dem  Koordinatensystem  ist  der  Graf  der  Funktion y  = x2  –  9  dargestellt.  Der Graf 
+schneidet  die  x-Achse  an  zwei  Stellen;  d.h.  es  existieren  zwei  Nullstellen:  
+x1 = –3 und x2 = 3. In den Nullstellen nimmt die Funktion den Wert 0 an. 
+
+Abbildung 2 Funktionsgraf y = x2 – 9 
+
+Dann ergibt sich für y = 0 : 
+
+ x2 – 9  = 0 
+x2  = 9 
+
+Da es offensichtlich zwei Nullstellen gibt, muss dies auch durch eine Rechnung nach-
+gewiesen werden können. 
+
+x = + 
+x1 = 3 
+
+ 
+
+x  =   – 
+x2  =   – 3 
+
+Für eine quadratische Gleichung der Form x2 + q = y werden die Nullstellen so 
+bestimmt,  dass  der  Funktionswert  y  Null  gesetzt  wird.  Die  Nullstellen  werden 
+Lösungen der quadratischen Gleichung genannt. 
+
+Eine quadratische Gleichung der Form x2 + q = 0 hat für q  0 zwei Lösungen: 
+
+x1 = 
+
+; 
+
+x2 = –
+
+26 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+99qq 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 1 
+
+Bestimmen Sie die Lösungsmenge der quadratischen Gleichung 4x2 – 144 = 0! 
+
+Lösung 
+
+Im 1. Lösungsschritt muss die Gleichung so umgeformt werden, dass der Faktor vor 
+x2 1 ist. 
+
+ 4x2 – 144 =   0 
+  x2 – 36 =   0 
+
+| : 4 
+| +36 
+
+x2 =   36 
+
+x = 
+
+   
+
+x = – 
+
+x1 = 6 
+
+x2 = –6 
+
+L = {–6;6} 
+
+Lehrbeispiel 2 
+
+Bestimmen  Sie  jeweils  die  Lösungsmenge  der  angegebenen  quadratischen  Glei-
+chung!  Geben  Sie  zunächst  die  zugehörige  Funktionsgleichung  an  und  zeichnen  Sie 
+die entsprechende Parabel! 
+
+0 = x2 + 2 
+
+0 = x2 
+
+0 = x2 – 16 
+
+Lösung 
+
+Quadratische Gleichung 
+
+0 = x2 + 2 
+
+0 = x2 
+
+0 = x2 – 16 
+
+Funktionsgleichung 
+
+f(x) = x2 + 2 
+
+g(x) = x2 
+
+h(x) = x2 – 16 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+27 
+
+3636 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Antwort:  Die Gleichung y = x2 + 2 hat keine Nullstelle, d.h. sie hat keine Lösung. 
+
+Die  Gleichung  y  =  x2  hat  eine  Nullstelle,  d.h.  sie  hat  eine  Lösung: 
+L = {0}. 
+
+Die Gleichung y = x2 – 16 hat zwei Nullstellen, d.h. sie hat zwei Lösun-
+gen: L = {–4;4} 
+
+Für quadratische Gleichungen der Form x2 + q = 0 gilt: 
+
+Ist q  0: zwei Lösungen 
+
+Beispiel: x2 – 25 = 0 
+
+L = {–5;5} 
+
+28 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Ist q = 0: eine Lösung 
+
+Beispiel : x2 = 0 
+
+L = {0} 
+
+Ist q  0: keine Lösung 
+
+Beispiel : x2 + 9 = 0 
+
+L = { } 
+
+Lehrbeispiel 3 
+
+Bestimmen Sie die Lösungsmenge der quadratischen Gleichung x2 – 2x = 0! 
+
+Lösung 
+
+Der Gleichungsterm kann durch Faktorzerlegung in ein Produkt umgewandelt werden. 
+
+x2 – 2x  = 0 
+x(x – 2)  = 0 
+
+Zur Bestimmung der Lösungsmenge nutzt man die Regel, dass ein Produkt im-
+mer dann gleich Null ist, wenn mindestens ein Faktor Null ist. 
+
+  x(x – 2) =  0 
+x =  0 
+x1 =  0 
+
+L = {0;2} 
+
+ 
+
+(x – 2) = 0 
+x2 = 2 
+
+Jede quadratische Gleichung der Form x2 + px = 0 hat zwei Lösungen: 
+
+x1 = 0 
+
+und 
+
+x2 = –p 
+
+L = {0;–p} 
+
+Lehrbeispiel 4 
+
+Bestimmen Sie die Lösungsmenge! 0,5x2 = 3,5x 
+
+Lösung 
+
+Zunächst muss die Gleichung in die Form x2 + px = 0 umgeformt werden. 
+
+0,5x2  =  3,5x 
+
+  0,5x2 – 3,5x  =  0 
+x2 – 7x  =  0 
+x(x – 7)  =  0 
+
+| – 3,5x 
+| : 0,5 
+
+x =   0 
+x1=   0 
+
+ 
+
+x – 7  =  0 
+x2  =  7 
+
+L = {0;7} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+29 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 5 
+
+Bestimmen Sie die Lösungsmenge! x2 – 6x + 9 = 0 
+
+Lösung 
+
+Der  Gleichungsterm  x2  –  6x  +  9  ist  das  vollständige  2.  Binom  und  kann  faktorisiert 
+werden. 
+
+x2 – 6x + 9  =  0 
+(x – 3)2 
+=  0 
+x – 3 = 0 
+
+x – 3 =  0   
+=  3 
+x 
+
+L = {3} 
+
+Lehrbeispiel 6 
+
+Bestimmen Sie die Lösungsmenge! (x + 3)2 – 2,25 = 0 
+
+Lösung 
+
+Durch Umformung der Gleichung kann der binomische Term auf der linken Seite iso-
+liert werden. 
+
+(x + 3)2 – 2,25  =  0 
+
+| + 2,25 
+
+(x + 3)2  =   2,25 
+
+Auf  beiden  Gleichungsseiten  muss  die  Wurzel  gezogen  werden.  Dabei  ist  folgende 
+Regel zu beachten: 
+
+Für jede positive reelle Zahl gilt: (
+
+)2 = a 
+
+und 
+
+(–
+
+)2 = a. 
+
+D.h. es gibt eine positive und eine negative Zahl, deren Quadrat a ist. 
+
+x + 3 = 
+
+ 
+
+x + 3 = – 
+
+x1 = –3 + 1,5 
+x1 = –1,5 
+
+x2 = –3 – 1,5 
+x2 = – 4,5 
+
+L = {–1,5;–4,5} 
+
+Lehrbeispiel 7 
+
+Bestimmen Sie die Lösungsmenge der quadratischen Gleichung (x – 0,4)2 – 2,56 = 0! 
+
+Lösung 
+
+(x – 0,4)2 – 2,56 = 0 
+
+(x – 0,4)2 = 2,56 
+
+| + 2,56 
+| 
+
+x – 0,4 = 
+
+ 
+
+x – 0,4 = – 
+
+x1 = 0,4 + 1,6 
+x1 = 2 
+
+x2 = 0,4 – 1,6 
+x2 = –1,2 
+
+L = {2 ; –1,2} 
+
+30 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+aa25,225,256,256,2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 8 
+
+Bestimmen Sie die Lösungsmenge der quadratischen Gleichung x2 + 6x – 7 = 0! 
+
+Lösung 
+
+Der  Gleichungsterm x2 +  6x  –  7 ist  kein vollständiges  Binom.  Um  ein  solches  herzu-
+stellen, müssen der quadratische Term x2 und der lineare Term 6x isoliert werden. 
+
+x2 + 6x – 7  
+x2 + 6x  
+
+=  0 
+= 7 
+
+| + 7 
+
+Nun  kann  auf  der  linken  Seite  der  Gleichung  durch  Ergänzung  ein  vollständiges 
+1. Binom erzeugt werden. Man nennt diesen Term quadratische Ergänzung.  
+
+Wichtig: Die Addition muss auf beiden Seiten der Gleichung erfolgen. 
+
+x2  +  6x   +      9 = 7 + 9 
+             (6/2)2   
+
+(x + 3)2 = 16 
+
+| 
+
+ x + 3 = 
+
+ 
+
+x + 3 = – 
+
+x2 = –3 – 4 
+x2 = –7 
+
+x1 = –3 + 4 
+x1 = 1 
+
+L = {1;–7} 
+
+Lehrbeispiel 9 
+
+Bestimmen Sie die Lösungsmenge der quadratischen Gleichung x2 + 20x + 10 = –9! 
+
+Lösung 
+
+  x2 + 20x + 10   =   –9 
+  x2 + 20x  
+  x2 + 20x + 100 =   –19 + 100 
+  (x + 10)2  
+
+=   –19 
+
+=   81 
+
+| –10 
+
+| 
+
+x + 10 =   
+
+ 
+
+x + 10 = –
+
+x1 =   –10 + 9 
+x1 =   –1 
+
+x2 = –10 – 9 
+x2 = –19 
+
+L = {–1;–19} 
+
+Eine quadratische Gleichung in der Normalform x2 + px + q = 0 kann mithilfe der 
+quadratischen Ergänzung gelöst werden.  
+
+Lehrbeispiel 10 
+
+Bestimmen Sie die Lösungsmenge! 2x2 – 8x – 24 = 0 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+31 
+
+16168181 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Diese Gleichung der Form ax2 + bx + c = 0 kann nicht direkt mithilfe der quadratischen 
+Ergänzung gelöst werden. Zunächst muss sie in die Normalform x2 + px + q = 0 umge-
+formt werden. Dazu muss der Faktor vor dem quadratischen Term 1 sein. 
+
+2x2 – 8x – 24  =  0 
+x2 – 4x – 12  =  0 
+x2 – 4x 
+= 12 
+x2 – 4x + 
+
+4 =12 + 4   
+
+| : 2 
+| + 12 
+
+(x – 2)2= 16 
+
+| 
+
+x – 2= 
+
+ 
+
+x – 2  =  – 
+
+x1= 2 + 4 
+x1= 6 
+
+x2  =  2 – 4 
+x2  =  –2 
+
+L = {6;–2} 
+
+Lehrbeispiel 11 
+
+Lösen Sie die Gleichung 1/4x2 + 1/2x – 2 = 0! 
+
+Lösung 
+
+  1/4x2 + 1/2x – 2 =  0 
+x2 + 2x – 8  =  0 
+x2 + 2x  = 8 
+x2 + 2x + 1  =  9 
+(x + 1)2   =  9 
+
+x + 1   =  
+
+x1 =  –1 + 3 
+x1 =  2 
+
+L = {2;–4} 
+
+| : 1/4 
+| +8 
+
+| 
+
+ 
+
+  x + 1  
+x2  
+x2  
+
+= – 
+= –1 – 3 
+= –4 
+
+Da  der  Lösungsablauf immer  nach  einem  bestimmten  Schema  durchgeführt  wird, ist 
+es möglich, eine Lösungsformel abzuleiten. 
+
+Gegeben: quadratische Gleichung in der Normalform x 2 + px + q = 0 ; p , q  
+
+x2 + px + q   =   0 
+x2 + px  =  –q 
+
+| –q 
+
+quadratische Ergänzung 
+
+  x2 + px + (p/2)2  = –q + (p/2)2 
+
+(p/2)2 
+
+(x + p/2)2 = (p/2)2 – q  
+
+| 
+
+  x + p/2  = 
+
+ 
+
+ x + p/2  =  – 
+
+32 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+161699q)2/p(2−q)2/p(2− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+x 1  = – p/2 + 
+
+x 2  =  – p/2 – 
+
+L = {–p/2 + 
+
+ ;–p/2 – 
+
+} 
+
+Lehrbeispiel 12 
+
+Bestimmen Sie die Lösungsmenge mithilfe der Lösungsformel! 
+
+x2 + 1,4x = 4,8 
+
+Lösung 
+
+Die Gleichung wird zunächst in die Normalform gebracht. 
+
+x2 + 1,4x  = 4,8  
+
+| – 4,8 
+
+  x2 + 1,4x – 4,8  = 0 
+
+Die Koeffizienten p und q werden bestimmt: 
+
+p = +1,4 
+
+q = –4,8 
+
+x1 = – p/2 + 
+
+x2 = – p/2 – 
+
+x1 = – 0,7 + 
+x1 = – 0,7 + 2,3  
+x1 = 1,6  
+
+L = {1,6;–3} 
+
+x2 = – 0,7 – 
+x2 = – 0,7 – 2,3  
+x2 = –3 
+
+Beim Lösen quadratischer Gleichungen mithilfe der Lösungsformel wird deutlich, dass 
+
+dem  Wurzelterm 
+
+  eine  entscheidende  Bedeutung  zukommt.  Daher  wird 
+
+der Term 
+
+(p/2)2 – q Diskriminante (D) genannt. 
+
+Es sind drei Möglichkeiten denkbar: 
+
+(1) (p/2)2 – q  0 : 
+  Es existieren zwei Lösungen:  x1 = –p/2 + 
+
+   ; x 2 = –p/2 – 
+
+ ; L = {x1 ; x2} 
+
+(2) (p/2)2 – q = 0 : Es existiert eine Lösung: x = – p/2 ; L = {– p/2} 
+
+(3) (p/2)2 – q  0 : Es existiert keine Lösung, da aus einer negativen Zahl keine Wur-
+
+zel gezogen werden kann. L = { } 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+33 
+
+q)2/p(2−q)2/p(2−q)2/p(2−q)2/p(2−q)2/p(2−q)2/p(2−8,449,0+8,449,0+q)2/p(2−DD 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 13 
+
+Bestimmen  Sie  mithilfe  der  Diskriminanten  die  Anzahl  der  Lösungen!  Geben  Sie  an-
+schließend die Lösungsmenge an! x2 – 7/4x – 1/2 = 0 
+
+Lösung 
+
+x2 – 7/4x – 1/2 = 0 
+
+p = –7/4  
+
+q = –1/2 
+
+D = (p/2)2 – q 
+D = (7/8)2 + 1/2 
+D  0 
+
+Es gibt zwei Lösungen. 
+
+ x1 = –p/2 + 
+
+ x1 = 7/8 + 
+ x1 = 7/8 + 9/8  
+ x1 = 2  
+
+L = {2;–1/4} 
+
+Lehrbeispiel 14 
+
+x2   = 
+
+ –p/2 – 
+
+x2  = 
+x2  = 
+x2  = 
+
+ 7/8 – 
+ 7/8 – 9/8 
+ – 1/4 
+
+Leiten  Sie  eine  Lösungsformel  her  für  eine  quadratische  Gleichung  der  Form 
+ax2 + bx + c = 0! 
+
+Lösung 
+
+Zunächst  muss  die  Normalform  x2  +  px  +  q  =  0  hergestellt  werden.  Dieses  wird 
+dadurch erreicht, dass die ganze Gleichung durch den Faktor a dividiert wird. 
+
+ax2 + bx + c = 0  | : a 
+
+ x2 + bx/a + c/a  =  0 
+
+In der Normalform erscheinen die Koeffizienten p = b/a und q = c/a . 
+
+Nun wird in die Lösungsformel eingesetzt: 
+
+34 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+q)2/p(2−q)2/p(2−64/3264/49+64/3264/49+2a4acbbx21−+−=−+−=−+−=−+−=−+−=−+−=a2ac4ba2bxa4ac4ba2/bxa/ca4/ba2/bxa/c)a2/b(a2/bxq)2/p(2/px2122122121212a4acbbx22−−−=−−−=−−−=−−−=−−−=−−−=a2ac4ba2bxa4ac4ba2/bxa/ca4/ba2/bxa/c)a2/b(a2/bxq)2/p(2/px222222222222 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 15 
+
+Lösen Sie die quadratische Gleichung, ohne in die Normalform umzuformen! 
+
+5x2 – 25x = –30 
+
+Lösung 
+
+5x2 – 25x  = –30 
+
+| +30 
+
+ 5x2 – 25x + 30 = 0 
+
+L = {3;2} 
+
+Lehrbeispiel 16 
+
+Bestimmen Sie die Lösungsmenge der Bruchgleichung! 
+
+Lösung 
+
+D = 
+
+ \ {–1 ; 0 ; 2} 
+
+|  HN: x(x+1) (x –2) 
+
+p = –11 
+
+q = –60 
+
+L = {15;–4} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+35 
+
+310525x102525x52305462525x2a4acbbx11121=+=+=−+=−+−=210525x102525x52305462525x2a4acbbx22222=−=−=−−=−−−=2x131x16x30−=+−2x131x16x30−=+−2x)2x()1x(x131x)2x()1x(x16x)2x()1x(x30−−+=+−+−−+()x13x13x32x162xx30222+=+−−−x13x13x32x1660x30x30222+=+−−−x13x1360x2x1422+=−+060x11x2=−−152/192/11x4/3612/11x4/2404/1212/11x111=+=+=++=42/192/11x4/3612/11x4/2404/1212/11x222−=−=−=+−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 17 
+
+Geben Sie die Normalform der quadratischen Gleichung an! 
+
+L = {4;2} 
+
+Lösung 
+
+Die Lösungsmenge L enthält die beiden Lösungen x1 = 4 und x2 = 2. An diesen Stellen 
+wird die Gleichung genau Null; d.h. diese beiden x-Werte machen jeweils einen Faktor 
+zu Null. 
+
+(x – x1)  (x – x2) = 0 
+
+Eingesetzt ergibt sich:   
+
+(x – 4)  (x – 2) = 0 
+
+Nun muss ausmultipliziert werden: 
+
+x2 – 2x – 4x + 8 = 0 
+
+x2 – 6x + 8 = 0 
+
+Wenn man nun die Koeffizienten p und q mit den Lösungen x1 und x2 vergleicht, stellt 
+man folgenden Zusammenhang fest: 
+
+x1 = 4 
+
+x2 = 2 
+
+p = –6 
+—–  +  –––– ⎯––   (–1)  ––––  
+—–    –—— ⎯–––––—–––––––––––––––––– 
+
+q = 8 
+
+Nach  dem  Satz  von  Vieta  gilt  für  die  Lösungen  x1  und  x2  einer  quadratischen  Glei-
+chung in der Normalform x2 + px + q = 0: 
+
+p = – (x1 + x2) 
+
+q = x1  x2 
+
+Lehrbeispiel 18 
+
+Geben Sie die Normalform der quadratischen Gleichung an! 
+
+L = {–3;–2} 
+
+Lösung 
+
+L = {–3;–2} 
+
+x1 = –3 
+
+x2 = –2 
+
+p  = – (x1 + x2) 
+   =  – [(–3) + (–2)]  
+p  =  5 
+
+q = x1  x2 
+
+= (–3)  (–2) 
+
+q = 6 
+
+Normalform: x2 + 5x + 6 = 0 
+
+36 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 19 
+
+Geben Sie die Gleichung in der Normalform an! 
+
+L = {–3} 
+
+Führen Sie die Probe rechnerisch und zeichnerisch durch! 
+
+Lösung 
+
+L = {–3} 
+
+x = –3 
+
+Da es nur einen x–Wert gibt, tritt dieser an die Stelle von x1 und x2. 
+
+p = – [(–3) + (–3)] 
+  = 6 
+
+q = (–3)(–3) 
+
+= 9 
+
+Normalform:  x2 + 6x + 9 = 0 
+
+Probe: 
+
+L = {–3} 
+
+Aus der Normalform lässt sich das 1. Binom formen: (x + 3)2 = 0. Bei der zugehörigen 
+Parabel handelt es sich um eine um 3 Einheiten auf der x-Achse nach links verscho-
+bene Normalparabel. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+37 
+
+3x993q)2/p(2/px21−=−+−=−+−=993q)2/p(2/px22−−−=−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 20 
+
+Leiten Sie mithilfe der Lösungsformel den Satz von Vieta her! 
+
+Lösung 
+
+Lehrbeispiel 21 
+
+In eine quadratische Blechplatte wird mittig eine quadratische Öffnung gestanzt (siehe 
+Skizze). 
+
+Berechnen  Sie  die  Randbreite  x  bei  einer  verbleibenden  Restfläche  AR  =  144  cm2! 
+Geben Sie eine sinnvolle Lösung an und begründen Sie diese! 
+
+Lösung 
+
+Gesamtfläche der Platte 
+
+Stanzfläche 
+
+Restfläche 
+
+quadratische Gleichung 
+
+Normalform 
+
+Lösungsformel 
+
+A = a  a = a2 
+ASt = (a – 2x)  (a – 2x) = a2 – 4ax + 4x2 
+AR = A – ASt 
+
+= a2 – (a2 – 4ax + 4x2) 
+= 4ax – 4x2 
+
+4x2 – 4ax + AR = 0          | : 4 
+x2 – ax + 1/4 AR = 0 
+
+38 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+q)2/p(2/px21−+−=q)2/p(2/px21−−−=qxxq4/p4/p]q)2/p[(4/p)q)2/p(2/p()q)2/p(2/p(xx2122222221=+−=−−=−−−−+−=p)xx(]2/p2[]2/p2/p[]q)2/p(2/pq)2/p(2/p[)]q)2/p(2/p()q)2/p(2/p[()xx(21222221=+−−−=−−−=−−−−+−−=−−−+−+−−=+−RR22R21A4/1qapA4/14/a2/axA4/14/a2/ax=−=−−=−+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+x1 ist als Lösung nicht sinnvoll, da x  a/2 wird. 
+
+Antwort: Die Randbreite x beträgt 2 cm. 
+
+Lehrbeispiel 22 
+
+Der Bogen einer Brücke hat die Form einer Parabel. 
+
+Bestimmen Sie die zugehörige Funktionsgleichung der quadratischen Funktion! 
+Berechnen Sie anschließend die Höhe h des Parabelbogens! 
+
+Lösung 
+
+Aus der Zeichnung sind folgende Informationen zu entnehmen: 
+
+x = –6 
+x = –12 
+
+y = –8 
+y = –24 
+
+P(–6;–8) 
+Q(–12;–24) 
+
+Da der Scheitelpunkt S der Parabel auf der y-Achse liegt, muss die Parabel folgender 
+Funktionsgleichung genügen: 
+
+f(x) = ax2 + s 
+
+Wenn  die  Punkt-Koordinaten  von  P  und  Q  eingesetzt  werden,  ergibt  sich  ein  Glei-
+chungssystem mit zwei Unbekannten. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+39 
+
+281036100101444/14/4002/20xx2=−=−−=−−== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Für P(–6;–8) 
+
+(I) –8 = a  (–6)2 + s 
+
+Für Q(–12;–24) 
+
+(II) –24 = a (–12)2 + s 
+
+–8 = 36a + s       |  (–1) 
+
+–24 = 144a + s 
+
+8 = –36a – s 
+
+–24 = 144a + s 
+
+–16 = 108a 
+
+a = –4/27 
+
+eingesetzt in (I): 
+
+–8 = 36  (–4/27) + s 
+
+–2 2/3 = s 
+
+Antwort: Die Funktionsgleichung f(x) lautet: f(x) = –4/27x2 – 2 2/3.  
+
+Der Scheitelpunkt S hat die Koordinaten: S(0;–2 2/3) 
+
+Die Höhe h des Brückenbogens errechnet sich: 
+
+h = 24 m – 2 2/3 m 
+h = 21 1/3 m 
+
+Antwort: Der Brückenbogen hat eine Höhe von 21 1/3 m.  
+
+1.4 Schnittpunkte von Parabeln mit anderen Grafen 
+
+Lehrbeispiel 1 
+
+Zeichnen  Sie  den  Funktionsgrafen  der  quadratischen  Funktion  f(x) = x2 – 5x + 6,25! 
+Bestimmen  Sie  anhand  des  Grafen  die  Schnittpunkte  mit  den  Koordinatenachsen! 
+Überprüfen Sie durch eine Rechnung! 
+
+Lösung 
+
+f(x) = x2 – 5x + 6,25 
+
+Scheitelpunktform:  f(x) = x2 – 5x + 2,52 – 2,52 + 6,25 
+f(x) = (x – 2,5)2 
+
+Scheitelpunkt: S(2,5;0) 
+
+Wertetabelle 
+
+x 
+
+0 
+
+1 
+
+2 
+
+2,5 
+
+3 
+
+4 
+
+5 
+
+f(x)  6,25  2,25  0,25 
+
+0 
+
+0,25  2,25  6,25 
+
+40 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Graf 
+
+Schnittpunkte 
+
+•  mit der x-Achse (Nullstellen)  x = 2,5  y = 0 
+•  mit der y-Achse 
+
+x = 0 
+
+y = 6,25 
+
+Überprüfung durch Rechnung 
+
+Die Bedingung für die Nullstellen lautet: f(x) = 0 
+
+f(x) = x2 – 5x + 6,25 
+
+x2 – 5x + 6,25 = 0 
+
+x = 5/2 
+
+Die Bedingung für den Schnittpunkt mit der y-Achse lautet: x = 0 
+
+f(x) = x2 – 5x + 6,25 
+
+= 0 – 0 + 6,25 
+
+= 6,25 
+
+  y = 6,25 
+
+Antwort:  Die Rechnung bestätigt die abgelesenen Werte. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+41 
+
+02/5x25,6)2/5(2/5x121+=−+=02/5x25,6)2/5(2/5x222−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 2 
+
+Bestimmen Sie  rechnerisch  die  Nullstellen  und  den  Schnittpunkt mit  der  y-Achse  der 
+gegebenen Funktion f(x) = –0,4x2 + 2,4x – 2,6! 
+
+Lösung 
+
+Nullstellen 
+
+f(x) = 0 
+
+–0,4x2 + 2,4x – 2,6 = 0 | : (–0,4) 
+
+x2 – 6x + 6,5 = 0 
+
+Schnittpunkt mit der y-Achse: x = 0 
+
+f(x) = –2,6 
+
+y = –2,6 
+
+Lehrbeispiel 3 
+
+Zeichnen Sie den Funktionsgrafen von f(x) = x2 – x – 2! Bestimmen Sie die Nullstellen, 
+indem Sie die quadratische Gleichung lösen!  
+
+Lösung 
+
+Scheitelpunktform 
+
+f(x) = x2 – x + (1/2)2 – (1/2)2 – 2 
+
+= (x – 1/2)2 – 2,25 
+S(1/2;–2,25) 
+
+x 
+
+f(x) 
+
+–2 
+
+4 
+
+–1 
+
+0 
+
+0 
+
+1/2 
+
+1 
+
+–2 
+
+–2,25  –2 
+
+2 
+
+0 
+
+3 
+
+4 
+
+42 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+6,4x6,13x5,693x111=+−+=4,1x6,13x5,693x222=−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Nullstellen abgelesen: x1 = 2 
+
+x2 = –1 
+
+L = {2;–1} 
+
+Die  quadratische  Gleichung  x2 – x – 2 = 0  kann  durch  Umformen  in  einen  quadrati-
+schen und einen linearen Term aufgespalten werden. 
+
+x2 – x – 2 = 0 
+
+| +x + 2 
+
+x2 = x + 2 
+
+Wenn man nun beide Gleichungsseiten jeweils gesondert betrachtet, hat man auf der 
+linken  Seite  einen  quadratischen  Funktionsterm  der  Form  f(x) = x2,  auf  der  rechten 
+Seite  einen linearen Funktionsterm  der Form  g(x) = x + 2.  Beide  Funktionen  sollen in 
+ein Koordinatensystem übertragen werden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+43 
+
+2x5,12/1x2)2/1(2/1x1121=+=++=1x5,12/1x2)2/1(2/1x2222−=−=+−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Beide  Grafen  schneiden  sich  in  den  Punkten  P(–1;1)  und  Q(2;4).  Die  x-Koordinaten 
+der Schnittpunkte sind –1 und 2; sie sind also identisch mit den Nullstellen der Parabel 
+f(x) = x2 – x – 2 
+Gleichung  
+x2 – x – 2 = 0. 
+
+quadratischen 
+
+Lösungen 
+
+bzw. 
+
+den 
+
+der 
+
+Eine quadratische Gleichung der Form x2 + px + q = 0 lässt sich grafisch lösen, indem 
+linearen  Funktion  
+die  Schnittpunkte  einer  Normalparabel 
+g(x) = –px – q ermittelt werden. 
+
+f(x) = x2  und  der 
+
+Lehrbeispiel 4 
+
+Lösen Sie die quadratische Gleichung x2 – 4x + 0,4 = 0 grafisch! Führen Sie eine Kon-
+trollrechnung durch! 
+
+Lösung 
+
+x2 – 4x + 0,4 = 0 
+
+| + 4x – 0,4 
+
+x2 = 4x – 0,4 
+
+f(x) = x2 
+
+g(x) = 4x – 0,4 
+
+44 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Kontrollrechnung: x2 – 4x + 0,4 = 0 
+
+L = {3,9;0,1} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+45 
+
+9,3x9,12x4,042x111=+−+=1,0x9,12x4,042x222=−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 5 
+
+Bestimmen  Sie  die  Schnittpunkte  der  beiden  Funktionsgrafen  von  f(x) = x2 – 3x – 10 
+und g(x) = –2x – 5! Kontrollieren Sie durch eine Zeichnung! 
+
+Lösung 
+
+Die  Schnittpunkte müssen  die  Bedingung  erfüllen,  dass  die x-Koordinaten  und  die  y-
+Koordinaten beider Funktionen gleich sind. 
+
+f(x) = g(x) 
+
+x2 – 3x – 10 = –2x – 5 
+
+Die Lösungen dieser quadratischen Gleichung sind die gesuchten x-Koordinaten. 
+
+x2 – 3x – 10 = –2x – 5   | + 2x + 5 
+  x2 – x – 5 = 0 
+
+Werden  beide  x-Werte  in  eine  Funktionsgleichung  eingesetzt,  ergeben  sich  die  
+y-Koordinaten. 
+
+Für x1 = 2,8 
+
+g(x) = –2x – 5 
+
+= –2  2,8 – 5 
+
+= –5,6 – 5 
+
+g(x) = –10,6 
+
+Für x2 = –1,8 
+
+g(x) = –2  (–1,8) – 5 
+
+= 3,6 – 5 
+
+g(x) = –1,4 
+
+Antwort:  Die beiden Schnittpunkte haben die Koordinaten (2,8;–10,6) und 
+
+(–1,8;–1,4). 
+
+46 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+8,23,22/1x54/12/1x11=+++=8,13,22/1x54/12/1x22−=−+−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Kontrollzeichnung 
+
+Lehrbeispiel 6 
+
+Berechnen Sie, in welchen Punkten sich die beiden Funktionsgrafen   
+f(x) = 2x2 – 20x + 48 und g(x) = 4x – 32 schneiden! 
+
+Lösung 
+
+f(x) = g(x)  
+
+2x2 – 20x + 48 = 4x – 32 
+2x2 – 24x + 80 = 0 
+  x2 – 12x + 40 = 0 
+
+| –4x + 32 
+
+| : 2 
+
+Da  die  Diskriminante    0  ist,  gibt  es  keine  Lösung;  d.h.  es  gibt  keinen  Schnittpunkt 
+beider Grafen. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+47 
+
+40366x1−+=40366x2−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 7 
+
+Bestimmen Sie zunächst grafisch die Schnittpunkte der beiden quadratischen Funkti-
+onsgrafen  von  f(x) = –x2 – 3x + 0,75  und  g(x) = 2x2 + 4x + 3!  Kontrollieren  Sie  an-
+schließend durch eine Rechnung! 
+
+Lösung 
+
+f(x) = –x2 – 3x + 0,75 
+
+= –[x2 + 3x + (3/2)2 – (3/2)2] + 0,75 
+= –[x2 + 3x + 9/4] + 3 
+
+f(x) = –(x + 3/2)2 + 3 
+
+Scheitelpunkt S(–3/2;3) 
+
+x 
+
+–4 
+
+–3 
+
+–2 
+
+–3/2 
+
+–1 
+
+0 
+
+1 
+
+f(x)  –3,25  0,75  2,75 
+
+3 
+
+2,75  0,75  –3,25 
+
+g(x) = 2x2 + 4x + 3 
+
+= 2 (x2 + 2x) + 3 
+= 2 (x2 + 2x + 1 – 1) + 3 
+
+g(x) = 2 (x + 1)2 + 1 
+
+Scheitelpunkt S(–1;1) 
+
+x 
+
+g(x) 
+
+–4 
+
+19 
+
+–3 
+
+9 
+
+–2 
+
+3 
+
+–1 
+
+1 
+
+0 
+
+3 
+
+1 
+
+9 
+
+2 
+
+19 
+
+48 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Auch  hier  gilt  die  Bedingung: In  den  Schnittpunkten  P  und  Q müssen  die  Funktions-
+werte f(x) und g(x) gleich sein. 
+
+f(x) = g(x)  
+
+–x2 – 3x + 0,75 = 2x2 + 4x + 3 
+
+Die  Lösung  der  quadratischen  Gleichung,  die  sich  durch  Umformung  ergibt,  sind  die  
+x-Koordinaten der Schnittpunkte. 
+
+  –x2 – 3x + 0,75 = 2x2 + 4x + 3 
+–3x2 – 7x – 2,25 = 0 
+
+| –2x2 – 4x – 3 
+
+a = –3 
+
+b = –7 
+
+c = –2,25 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+49 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Beide x-Werte werden in eine der beiden Funktionsgleichungen eingesetzt: 
+
+Für x1 = –1,95 
+
+g(x) = 2x2 + 4x + 3 
+
+= 2  (–1,95)2 + 4 (–1,95) + 3 
+
+ 2,8 
+
+Für x2 = –0,4 
+
+g(x) = 2  (–0,4)2 + 4(–0,4) + 3 
+
+ 1,7 
+
+Antwort:  Die Schnittpunkte haben die Koordinaten P(–1,95;2,8) und Q(–0,4;1,7). 
+
+Im  nachfolgenden  Koordinatensystem  sind  Geraden  dargestellt,  die  eine  Geraden-
+schar bilden mit der Funktionsgleichung fc(x) = 2x + c. 
+
+Diese Geradenschar deckt die gesamte Ebene ab, da alle Geraden mit gleich großem 
+Steigungsfaktor  m  parallel  verlaufen.  Jeder  Punkt  P  der  Ebene  liegt  also  auf  einer 
+Geraden der Geradenschar. 
+
+50 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+95,167,47x627497xa2ac4bbx1121−=−+−−+=−+−=4,067,47x627497xa2ac4bbx2222−=−−−−−=−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 8 
+
+Bestimmen  Sie  die  Gerade  der  Geradenschar  mit  fc(x) = 2x + c,  auf  der  der  Punkt 
+P(3;5) liegt! 
+
+Lösung 
+
+Die Koordinaten des Punktes P müssen der Funktionsgleichung fc(x) genügen. 
+
+fc(x) = 2x + c 
+
+  5 = 2  3 + c 
+
+  –1 = c 
+
+Antwort:  Der Punkt P liegt auf der Geraden fc(x) = 2x – 1 der gegebenen Geraden-
+
+schar. 
+
+Lehrbeispiel 9 
+
+Bestimmen  Sie  die  Geradengleichung  aus  der  Geradenschar  fc(x) = –mx + c,  die  mit 
+der  Parabel  g(x)  =  –2(x  +  3)2  +  2,5  die  Schnittpunkte  P(–4;Yp)  und  Q(Xq;–5,5)  ge-
+meinsam hat! Kontrollieren Sie durch eine Zeichnung!  
+
+Lösung 
+
+g(x) = –2(x + 3)2 + 2,5 
+
+Für P: g(x) = –2 (–4 + 3)2 + 2,5 
+= –2 + 2,5 
+
+= 0,5 
+
+P(–4;0,5) 
+
+Für Q: –5,5 = –2(x + 3)2 + 2,5  
+
+= –2x2 – 12x – 18 + 2,5 
+
+0 = –2x2 – 12x – 10 
+0 = x2 + 6x + 5 
+
+Beide  x-Koordinaten  müssen  auf  Plausibilität  untersucht  werden.  Dabei  ergibt  sich, 
+dass nur für x1 = –1 die Bedingung erfüllt wird, dass die Gerade einen negativen Stei-
+gungsfaktor hat. 
+
+Q(–1;–5,5) 
+
+Die Gerade fc(x) = –mx + c schneidet die Parabel g(x) in den Punkten P(–4;0,5) und  
+Q(–1;–5,5). 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+51 
+
+1x23593x11−=+−=−+−=5x23593x22−=−−=−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Steigungsfaktor m: 
+
+fc(x) = –2x + c 
+
+Beide Punkte müssen die Geradengleichung erfüllen. 
+
+Für P: 0,5 = –2 (–4) + c 
+
+–7,5 = c 
+
+Für Q: –5,5 = –2(–1) + c 
+
+–7,5 = c 
+
+Antwort:  Die  Gerade  fc(x) = –2x – 7,5  schneidet  die  Parabel  in  den  gegebenen 
+
+Punkten P und Q. 
+
+52 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+2212xxyym−−=)4(15,05,5−−−−−=36−=2m−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Kontrollzeichnung 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+53 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgaben 
+
+Aufgabe 1  
+
+Geben Sie zu den angegebenen Scheitelpunkten einer verschobenen Normalparabel 
+jeweils die Funktionsgleichung an und bestimmen Sie die Nullstellen! Kontrollieren Sie 
+durch eine Zeichnung! 
+
+1.1  S(–3;4) 
+
+1.2  S(–1;–1) 
+
+Aufgabe 2 
+
+Überprüfen Sie, ob die Punkte P und Q auf dem Grafen von f liegen! 
+
+f(x) = (x – 30)2 – 21 
+
+P(27;–12)  Q(30;–21) 
+
+Aufgabe 3 
+
+Berechnen Sie die Stelle, an der die Funktion f den kleinsten Funktionswert annimmt!  
+
+3.1 
+
+3.2 
+
+f(x) = x2 + 0,5x + 1,5 
+f(x) = x2 – 2,5x + 6,25 
+
+Aufgabe 4 
+
+Bestimmen Sie jeweils den Scheitelpunkt der Parabel! 
+
+4.1 
+
+4.2 
+
+f(x) = –2x2 + 4x + 6 
+f(x) = –1/2x2 – x – 5/4 
+
+Aufgabe 5 
+
+Zerlegen  Sie  die  Zahl  12  so  in  eine  Summe  m  +  n,  dass  das  Produkt  m   n  seinen 
+größten Wert annimmt! 
+
+Aufgabe 6 
+
+Bestimmen Sie die Lösungsmenge der quadratischen Gleichung! 
+
+6.1  x2 – 16/25 = 0 
+6.2  2,5x2 – 12,5 = 0 
+6.3  1/3x2 + 2/3x = 0 
+6.4  x2 + 0,2x + 0,01 = 1,69 
+6.5  1/2x2 + 4x = –8 
+
+54 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 7 
+
+Bestimmen Sie die Lösungsmenge mithilfe der p-q-Formel! Entscheiden Sie zunächst, 
+wie viele Lösungen existieren! 
+
+7.1  x2 +  0,5x = 0,36 
+7.2  x2 + 5x + 6,25 = 0 
+7.3  x2 – 2,5x = –2 
+
+Aufgabe 8 
+
+Lösen Sie die quadratische Gleichung, ohne sie in die Normalform umzuwandeln! 
+
+8.1  0,4x2 – 5x = –10 
+8.2  4(x + 3) (x – 2) = 7(x + 4) (x – 3) 
+
+Aufgabe 9 
+
+Bestimmen Sie die Lösungsmenge der Bruchgleichung! 
+
+9.1 
+
+9.2 
+
+Aufgabe 10 
+
+Geben Sie die zur Lösungsmenge gehörende Gleichung in der Normalform an! 
+
+10.1  L = {–2;5} 
+
+10.2  L = {4} 
+
+Aufgabe 11 
+
+Eine  3 cm vom  Mittelpunkt  eines  Kreises  entfernte  Sehne  ist  um  3 cm länger  als  der 
+Kreisradius.  
+
+Berechnen Sie den Radius r und die Sehne s! 
+
+Aufgabe 12 
+
+Bestimmen  Sie  die  Nullstellen  und  den  Schnittpunkt  mit  der  y-Achse  der  gegebenen 
+Funktion! 
+
+f(x) = 1/4x2 + 1/2x – 2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+55 
+
+0x8x8x35x=++−−012x36x6x2x7222x1x22=−−−−−−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 13 
+
+Bestimmen Sie grafisch die Lösungsmenge! 
+
+Aufgabe 14 
+
+Bestimmen Sie die Schnittpunkte P und Q der beiden Funktionsgrafen! 
+
+f(x) = x2 + 3x – 3  
+
+g(x) = –2,5x + 2,5 
+
+Aufgabe 15 
+
+Bestimmen Sie die Schnittpunkte P und Q der beiden quadratischen Funktionsgrafen!  
+
+f(x) = –0,5x2 – 4x – 6 
+
+g(x) = 2x2 + 12x + 14 
+
+Aufgabe 16 
+
+Bestimmen  Sie  die  Geradengleichung  aus  der  Geradenschar  fc(x) = mx  +  c,  die  mit 
+der Parabel g(x) die Schnittpunkte P und Q gemeinsam hat! 
+
+g(x) = x2 – 2x + 2  
+
+P(0;yP)      Q(5;yQ) 
+
+56 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+021x21x2=−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+2 Wurzelfunktionen 
+
+Lehrbeispiel 1 
+
+Berechnen Sie für die angegebenen Funktionswerte der Funktion f(x) = x2 die zugehö-
+rigen x-Werte! Legen Sie eine Wertetabelle an! 
+
+Lernbereich 
+
+y = 0 (1;16;20;30;40) 
+
+Lösung 
+
+y = 0 
+
+y = 1 
+
+y = x2 
+0 = x2 
+
+x = 0 
+
+y = x2 
+1 = x2 
+
+x1 = 1   x2 = –1 
+
+y = 16 
+
+x1 = 4 
+
+x2 = –4 
+
+y = 20 
+
+y = 30 
+
+y = 40 
+
+x1  4,47 
+
+x1  5,48 
+
+x1  6,32 
+
+x2  –4,47 
+
+x2  –5,48 
+
+x2  –6,32 
+
+y 
+
+x1 
+
+x2 
+
+0 
+
+0 
+
+1 
+
+1 
+
+–1 
+
+16 
+
+4 
+
+–4 
+
+20 
+
+4,47 
+
+30 
+
+5,48 
+
+40 
+
+6,32 
+
+–4,47   
+
+–5,48 
+
+–6,32 
+
+Antwort: Den y-Werten lassen sich jeweils zwei x-Werte zuordnen  
+
+(Ausnahme: y = 0). 
+
+Die beiden Pfeildiagramme stellen die Funktion f(x) = x2 und ihre Umkehrung dar. 
+
+x  → x2 
+
+y  →   
+
+y  →
+
+1  → 1 
+
+1  →    1 
+
+–1  → 1 
+
+1  →  –1 
+
+2  → 4 
+
+16  →    4 
+
+–2  → 4 
+
+16  →  –4 
+
+3  → 9 
+
+20  →    4,47 
+
+–3  → 9 
+
+20  →  –4,47 
+
+Die  Umkehrung der Funktion  f(x) =  x2 ist nicht  eindeutig.  Es handelt  sich dabei 
+also nicht um eine Funktion. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+57 
+
+0x0x−==1x1x−==yy− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 2 
+
+Zeichnen  Sie  den  Funktionsgrafen  der  Funktion  f(x)  =  x2  für  den  Definitionsbereich 
+D =  + . Geben Sie die x-Werte für die Funktionswerte an! 
+
+y = 1 (2;4;6;8;9) 
+
+Lösung 
+
+y 
+
+x 
+
+1 
+
+1 
+
+2 
+
+  1,41 
+
+4 
+
+2 
+
+6 
+
+8 
+
+  2,45 
+
+  2,83 
+
+9 
+
+3 
+
+Die Umkehrung der quadratischen Funktion f(x) = x2 ist eindeutig für D =  +. Die Um-
+kehrfunktion von f heißt Wurzelfunktion. Ihre Zuordnungsvorschrift lautet: 
+
+f–1(x) = 
+W =  +.  
+
+;  D  =  +  Die  Wertemenge  W  besteht  aus  allen  positiven  reellen  Zahlen: 
+
+Lehrbeispiel 3 
+
+Zeigen  Sie  durch  Umformung  der  Funktionsgleichung  y = x2,  dass  die  zugehörige 
+Umkehrfunktion y = 
+
+ lautet! 
+
+58 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+268xx 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Funktionsgleichung 
+Nach x aufgelöst 
+
+y = x2 
+x2 = y 
+x = 
+
+Vertauschen von x und y 
+
+y = 
+
+Im  Koordinatensystem  sind  die  Grafen  der  Funktionen  f(x) = x2  und  f(x)–1 = 
+für  
+D  =  +  abgebildet.  Beide  Grafen  liegen  symmetrisch  zur  Winkelhalbierenden  des  
+I. Quadranten. 
+
+Tritt  in  einer  Gleichung  die  Lösungsvariable  im  Radikanden  einer  Wurzel  auf,  so 
+spricht man von einer Wurzelgleichung.  
+
+Lehrbeispiel 4 
+
+Bestimmen  Sie  die  Lösungsmenge  der  Wurzelgleichung!  Geben  Sie  zunächst  die 
+Definitionsmenge an! Führen Sie die Probe durch!  
+
+Lösung 
+
+D = {x  
+
+;x  –4} 
+
+Das Beseitigen der Wurzel erreicht man dadurch, dass  beide Seiten der Gleichung 
+quadriert werden.  
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+59 
+
+yxx44x=+44x=+12x4|164x4)4x(22=−=+=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Probe durch Einsetzen in die Ausgangsgleichung: 
+
+L = {12} 
+
+Lehrbeispiel 5 
+
+Lösen Sie die Wurzelgleichung!  
+
+Lösung 
+
+D = {x  
+
+;x  
+
+} 
+
+Probe: 
+
+In  diesem  Lehrbeispiel  ist  offensichtlich  geworden,  dass  x = 24  keine  Lösung  der 
+
+Ausgangsgleichung ist. (
+
+ ist die nichtnegative Zahl, deren Quadrat a ist.) 
+
+Dies  zeigt,  dass  beidseitiges  Quadrieren  einer  Gleichung  keine  Äquivalenzum-
+formung darstellt. 
+
+Falls  eine  Zahl  Lösung  der  Ausgangsgleichung  ist,  muss  sie  auch  zwingend  Lösung 
+der  quadratischen  Gleichung  sein.  Umgekehrt  gilt  dies  nicht!  Darum  ist  bei  Wur-
+zelgleichungen  immer  eine  Probe  durch  zu  führen,  indem  die  Lösung  in  die  Aus-
+gangsgleichung eingesetzt wird. 
+
+Lehrbeispiel 6 
+
+Bestimmen Sie die Lösungsmenge der Wurzelgleichung! 
+
+Lösung 
+
+  D = {x  
+
+;
+
+} 
+
+60 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+)W(444164412===+71x2−=+21−24x2:|48x21|491x2)7()1x2(71x222==−=+−=+−=+)f(74971242−=−=+ax11x3=++x11x3=++31x− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Bevor  quadriert  wird,  muss  zunächst  der  Wurzelterm  auf  einer  Seite  der  Gleichung 
+isoliert werden. 
+
+Die quadratische Gleichung wird in die Normalform umgeformt. 
+
+ 
+
+5  D 
+
+0  D 
+
+Probe 
+
+L = {5} 
+
+Lehrbeispiel 7 
+
+Bestimmen Sie die Lösungsmenge der Wurzelgleichung! 
+
+Lösung 
+
+      D = {x  
+
+;x  –1  x  4} = {x  
+
+;x  4} 
+
+Die  Gleichung  muss  so  umgeformt  werden,  dass  ein  Wurzelterm  auf  einer  Seite  
+isoliert wird. 
+
+ + 
+
+   = 5 
+
+ = 5 – 
+
+ | –
+
+Im zweiten Lösungsschritt werden beide Seiten quadriert. Dabei ist darauf zu achten, 
+dass auf der rechten Seite ein Binom entstanden ist. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+61 
+
+1x2x1x3)1x()1x3(222+−=+−=+0)5x(x0x5x1x3|1x31x2x22=−=−−−+=+−0x0x1==5x05x2==−3/10−3/15−)f(01101101103=+=+=++)w(514511651153=+=+=++54x1x=−++54x1x=−++1x+4x−4x−1x+4x−4x4x10251x4x4x52251x)4x5()1x(22−+−−=+−+−−=+−−=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Im  folgenden  Lösungsschritt  wird  wiederum  der  Wurzelterm  auf  einer  Seite  isoliert; 
+anschließend werden beide Seiten erneut quadriert. 
+
+8  4 
+
+Probe: 
+
+8  D 
+
+L = {8} 
+
+Lehrbeispiel 8 
+
+Bestimmen Sie die Lösungsmenge der Wurzelgleichung! 
+
+Lösung 
+
+D = {x  
+
+ | x  –10  x  –3  x  –14,5} 
+
+D = {x  
+
+ | x  –3} 
+
+–2  D 
+
+  D 
+
+62 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+8x4|4x4)4x(2)10(|:4x102022=+−=−=−−−=−)w(52354954818=+=+=−++x2293x20x2+=+++2(...)2x293x202x+=+++0204x116x7)xx1236(xx1236240x104x8xx1236)60x26x2(4xx1236)3x)(20x2(4)x6()3x20x22(23x3|x229)3x(3x20x22)20x2()x229()3x20x2(22222222222=+++−−+−=+++−=+++−=++−=++−−+=+++++++=+++2x148811614571213456116a2ac4bbx121−=+−=−+−=−+−=14204x148811614571213456116a2ac4bbx222−=−−=−−−=−−−=32−−14204314204−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Probe: 
+
+L = {–2} 
+
+Lehrbeispiel 9 
+
+Lösen Sie das Gleichungssystem!  
+
+(I) x + 2y = 17 
+(II) 
+
+Lösung 
+
+D = {x  
+
+;x, y  0} 
+
+Mithilfe  des  Einsetzungsverfahrens  wird  Gleichung  (II)  auf  eine  Wurzelgleichung  mit 
+einer Unbekannten reduziert. 
+
+Aus Gleichung (I): 
+
+Eingesetzt in Gleichung (II): 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+63 
+
+)w(51425116)2(2293220)2(2=+=+−+=+−++−1yx=−17y2x)I(=+1yx)II(=−y217x−=y|1yy217+=−−0256y100y9y4y9y96256)y2()y316(y1|yy21y217)y1()y217(222222=+−=+−=−−−++=−+=−972x917y182810018921610000100y111==+=−+=9x4y182810018921610000100y222==−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Probe: 
+
+für x1; y1: 
+
+für x2;y2: 
+
+L = {9;4} 
+
+Lehrbeispiel 10 
+
+Lösen Sie die Wurzelgleichung! 
+
+Lösung 
+
+D = {x  
+
+;x  12,6} 
+
+Im ersten Lösungsschritt wird die Gleichung auf den Hauptnenner gebracht. 
+
+64 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+)f(1917972)II()w(179214972179172972)I(=−=+=+)w(123149)II()w(178917429)I(=−=−=+=+5x5x2463x5+−+=−5x5x2463x5+−+=−13x13x169x4|:676x4xx38361315x38x5xx38361)5x)(63x5()x19()5x63x5(x19)5x(245x5x245x63x5212222222−====+−=−−+−=+−−=+−−=+−=++−=+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Probe: 
+
+L = {13} 
+
+Wie  am  Beispiel  der  Funktion  f(x) = x2  und  ihrer  Umkehrfunktion  f–1(x) = 
+  gezeigt 
+wurde, hat nicht jede Funktion eine Umkehrfunktion. Dies ist nur dann der Fall, wenn 
+für x1  x2 stets auch f(x1)  f(x2) bzw. wenn f(x1) = f(x2) nur für x1 = x2 gilt. 
+
+Lehrbeispiel 11 
+
+ Untersuchen  Sie,  ob 
+
+mit  D  = x   
+
+  \  {–1}  eine  Umkehrfunktion  besitzt. 
+
+Geben Sie, falls diese vorhanden, die Funktion f–1 an! Zeichnen Sie die Grafen in ein 
+Koordinatensystem und untersuchen Sie diese! 
+
+Lösung 
+
+Die Existenz einer Umkehrfunktion wird mithilfe der Gleichung f(x1) = f(x2) nachgewie-
+sen. 
+
+Das Ergebnis bedeutet, dass die Funktion f(x) eine Umkehrfunktion f–1(x) besitzt. 
+
+Im  zweiten  Schritt  wird  durch  Umformen  der  Funktionsgleichung  die  Umkehrfunktion 
+bestimmt. 
+
+D = x  
+
+ \ {–1} 
+
+nach x auflösen 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+65 
+
+1818242513513246365−=+−+=−)w(66182436181824182=−=−=xx1xf(x)+=212121221112212211xxxx|xxxxxx)x1(x)x1(xx1xx1x=−+=++=++=+x1xy+=y1yx)y1(xxyxyxxyyx)x1(y−=−=−==+=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Vertauschen der Variablen 
+
+D = x  
+
+ \ {+1} 
+
+Wertetabelle für f(x) 
+
+x 
+
+–4 
+
+–3 
+
+–2 
+
+f(x) 
+
+2 
+
+Wertetabelle für f–1(x) 
+
+x 
+
+–4 
+
+–3 
+
+–2 
+
+f–1(x) 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1 
+
+2 
+
+3 
+
+4 
+
+0,5 
+
+2 
+
+3 
+
+4 
+
+1 
+
+-2 
+
+Die  Grafen  von  f(x)  und  f–1(x)  verlaufen  symmetrisch  zur  Winkelhalbierenden  des  
+I. Quadranten. 
+
+66 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+x1xy−=x1x)x(f1−=−34232132435454−43−32−23−34− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 12 
+
+Untersuchen Sie, ob die Funktion f(x) = x3  – x eine Umkehrfunktion besitzt! Argumen-
+tieren Sie mithilfe des Funktionsgrafens! 
+
+Lösung 
+
+x 
+
+–3 
+
+–2,5 
+
+–2  –1,5 
+
+–1 
+
+–0,5 
+
+f(x) 
+
+–24  –13,125  –6  –1,875 
+
+0 
+
+0,375 
+
+0 
+
+0 
+
+0,5 
+
+–0,375 
+
+1 
+
+0 
+
+1,5 
+
+1,875 
+
+2 
+
+6 
+
+Für x1, x2, x3 gilt: x1  x2  x3 
+
+f(x1) = f(x2) = f(x3) 
+
+Antwort:  Die Funktion f(x) = x3 – x hat keine Umkehrfunktion, da die Bedingung 
+
+x1  x2  f(x1)  f(x2) nicht erfüllt ist. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+67 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgaben 
+
+Aufgabe 1 
+
+Bestimmen Sie die Funktionsgleichung der Umkehrfunktion f–1! 
+
+1.1 
+
+f(x) = 
+
+1.2 
+
+f(x) = 
+
+Aufgabe 2 
+
+Bestimmen  Sie  die  Lösungsmenge  der  Wurzelgleichung!  Geben  Sie  zunächst  die 
+Definitionsmenge an und führen Sie die Probe durch! 
+
+2.1 
+
+ + x = 2 
+
+2.2 
+
+ + 
+
+= 4 
+
+2.3 
+
+ + 
+
+ = 
+
+2.4 
+
+ – 
+
+2.5 
+
+2.6 
+
+ = x – 1  
+
+Aufgabe 3 
+
+Bestimmen Sie die Lösungsmenge! Lösungsvariable ist x! 
+
+3.1 
+
+3.2 
+
+Aufgabe 4 
+
+Lösen Sie das Gleichungssystem! 
+
+(I) 
+
+4 
+
+ – 12 = 3 
+
+ – 7 
+
+(II)  3 
+
+ + 4 
+
+ = 2 
+
+– 5 
+
+ + 11 
+
+68 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+x24x−x413−6x+2x−x3x+8x+1x2+14x6x3−−=−015x)x5(4x5x4=−−−−1x2−baxbxa+=−−+22bax)ba(−=+xyxyxy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+3 Potenzfunktionen 
+
+3.1 Potenzfunktionen mit natürlichen Exponenten 
+
+Ein Produkt aus gleichen Faktoren kann verkürzt als Potenz geschrieben werden. 
+
+Lernbereich 
+
+a  
+
+, n   * 
+
+Es wird vereinbart: a1 = a. 
+
+Lehrbeispiel 1 
+
+Geben Sie als Potenz an! 
+
+a  a  a  a  a ;  
+
+ ;  x  x  x  x 
+
+Lösung  
+
+a  a  a  a  a = a5 
+
+x  x  x  x = x4 
+
+Lehrbeispiel 2  
+
+Schreiben Sie die Potenz als Produkt und berechnen Sie den Wert der Potenz! 
+
+(–5)4; (–3)5 
+
+Lösung 
+
+(–5)4 = (–5)  (–5)  (–5)  (–5) = +625 
+(–3)5 = (–3)  (–3)  (–3)  (–3)  (–3) = –243 
+
+Bei negativer Basis und geradem Exponenten ist der Wert der Potenz positiv. 
+Bei negativer Basis und ungeradem Exponenten ist der Wert der Potenz negativ. 
+
+Der  Kantenlänge  a  eines  Würfels  wird  sein  Volumen  V  zugeordnet:  a  →  V.  Die  ent-
+sprechende  Funktion  hat  die Zuordnungsvorschrift f: a  →  a3,  die  Funktionsgleichung 
+lautet f(a) = a3. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+69 
+
+naFaktorennaa...aaa=212121321212121= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 3 
+
+Zeichnen  Sie  den  Funktionsgrafen  der  Funktion  f(x)  =  x4!  Legen  Sie  zunächst  eine 
+Wertetabelle an für x-Werte von –2,5 bis 2,5 (Schrittweite 0,5)! 
+
+Lösung 
+
+x 
+
+–2,5 
+
+–2,0 
+
+–1,5 
+
+–1,0 
+
+–0,5 
+
+f(x)  39,0625  16,0 
+
+5,0625 
+
+1,0 
+
+0,0625 
+
+0 
+
+0 
+
+0,5 
+
+0,0625 
+
+1,0 
+
+1,0 
+
+1,5 
+
+2,0 
+
+2,5 
+
+5,0625 
+
+16,0  39,0625 
+
+Eine Funktion mit der Funktionsgleichung f(x) = xn, n   * heißt Potenzfunktion. 
+
+Die  Definitionsmenge  ist  -  wenn  nicht  anders  vorgegeben  -  die  Menge  der  reellen 
+Zahlen: 
+
+D = 
+
+Im Koordinatensystem sind die Grafen der Potenzfunktionen  
+
+f(x) = x2, g(x) = x4, h(x) = x6 dargestellt. 
+
+70 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aus den Funktionsgrafen der Potenzfunktionen mit geradem Exponenten lassen  sich 
+folgende Eigenschaften von Potenzfunktionen mit der Funktionsgleichung y = x2n, n  
+
+* und D = 
+
+ ablesen: 
+
+•  Die Funktionsgrafen verlaufen durch die Punkte P(1;1) und Q(–1;1). 
+
+•  Der Scheitelpunkt aller Grafen hat die Koordinaten S(0;0). 
+
+•  Die  Funktionsgrafen  fallen  links  vom  Scheitelpunkt  und  steigen  rechts  vom 
+
+Scheitelpunkt. 
+
+•  Die y-Achse ist Symmetrieachse. 
+
+•  Die  Potenzfunktion  mit  y  =  x2n  hat  keine  negativen  Funktionswerte;  die  Werte-
+
+menge ist W =  +. 
+
+Lehrbeispiel 4 
+
+P(–3; ) und Q(1,5; ) sind Punkte des Grafen der Potenzfunktion f(x) = x6. 
+
+Bestimmen Sie jeweils die fehlende Koordinate von P und Q und geben Sie die Koor-
+dinaten des Bildpunktes an!  
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+71 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+P(–3; ) 
+
+Q(1,5; ) 
+
+f(x) = x6 = (–3)6 = 729 
+
+f(x) = x6 = 1,56 = 11,390625 
+
+P(–3;729) 
+
+P‘(3;729) 
+
+Q(1,5;11,390625) 
+
+Q‘(–1,5;11,390625) 
+
+Im Koordinatensystem sind die Grafen der Potenzfunktionen  
+
+f(x) = x, g(x) = x3, h(x) = x5 dargestellt. 
+
+Aus  den  Funktionsgrafen  der  Potenzfunktionen  mit  ungeradem  Exponenten  lassen 
+sich  folgende  Eigenschaften  von  Potenzfunktionen  mit  der  Funktionsgleichung  
+y = x2n–1, n   * und D = 
+
+ ablesen: 
+
+•  Die Funktionsgrafen verlaufen durch die Punkte P(1;1), Q(–1;–1) und R(0;0) 
+•  Die Grafen steigen im gesamten Bereich 
+•  Der Punkt R(0;0) ist Symmetriepunkt 
+•  Die Wertemenge ist die Menge der reellen Zahlen: W = 
+
+72 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 5 
+
+P(2; ) und Q(–3; ) sind Punkte des Grafen der Potenzfunktion f(x) = x5. 
+
+Bestimmen  Sie  jeweils  die  fehlenden  Koordinaten  von  P  und  Q  und  geben  Sie  die 
+Koordinaten des jeweiligen Bildpunktes an! 
+
+Lösung 
+
+P(2; ) 
+
+Q(–3; ) 
+
+f(x) = x5 = 25 = 32 
+
+f(x) = x5 = (–3)5 = –243 
+
+P(2;32) 
+
+P‘(–2;–32) 
+
+Q(–3;–243) 
+
+Q‘(3;243) 
+
+3.2 Potenzfunktionen mit ganzzahligen und rationalen Exponenten 
+
+Lehrbeispiel 1 
+
+Berechnen Sie jeweils den Wert der Terme! 
+
+5  34; 
+
+125 : 52 
+
+Lösung 
+
+5  34 = 5  (3  3  3  3) = 5  81 = 405 
+
+125 : 52 = 125 : (5  5) = 125 : 25 = 5 
+
+Potenzrechnung geht vor Punktrechnung. 
+
+Lehrbeispiel 2 
+
+Vereinfachen Sie den Term! 
+
+3x3 + 7x3; 
+
+8a2 + 12a2 – 4a2 ; 
+
+5y4 – 2y3 + 7y4 – 3y3 
+
+Lösung 
+
+3x3 + 7x3 = (3 + 7) x3 = 10x3 
+
+8a2 + 12a2 – 4a2 = 16a2 
+
+5y4 – 2y3 + 7y4 – 3y3 = 5y4 + 7y4 – 2y3 – 3y3 = 12y4 – 5y3 
+
+Potenzen mit gleichen Basen und gleichen Exponenten können in Summen und 
+Differenzen zusammen gefasst werden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+73 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 3 
+
+Vereinfachen Sie, indem Sie den Term als Potenz angeben! 
+
+a3  a4 
+
+Lösung 
+
+a3  a4 = (a  a  a)  (a  a  a  a) = a3 +4 = a7 
+
+Potenzen mit gleicher Basis werden multipliziert, indem ihre Exponenten addiert 
+werden. Die Basis wird beibehalten. 
+
+Für alle a  
+
+ und m, n  
+
+ gilt: am  an = am + n 
+
+Lehrbeispiel 4 
+
+Vereinfachen Sie den Term so weit wie möglich! 
+
+3x5  6x2 ; 
+
+–5a2y  2ay2 ; 
+
+s2 (2s – 3t2) ; 
+
+x2y3 (x3y2 – 1) 
+
+Lösung 
+
+3x5  6x2 = 3  6  x5  x2 = 18 x 5+2 = 18x7 
+
+–5a2y  2ay2 = –5  2  a2  a  y  y2 = –10a3y3 
+
+s2 (2s – 3t2) = 2s3 – 3 s2t2 
+
+x2y3 (x3y2 – 1) = x5y5 – x2y3 
+
+Lehrbeispiel 5 
+
+Vereinfachen Sie, indem Sie den Term als Potenz angeben!  
+
+b5 : b3 
+
+Lösung 
+
+ = b5 − 3 = b2 
+
+Potenzen  mit  gleicher  Basis  werden  dividiert,  indem  ihre  Exponenten  subtra-
+hiert werden. Die Basis wird beibehalten. 
+
+Für alle a  
+
+ und m, n  
+
+ mit m  n gilt: am : an = a m − n  
+
+74 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+bbbbbbbbb:b35= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 6 
+
+Vereinfachen Sie den Term so weit wie möglich! 
+
+4a6 : 2a3; 
+
+Lösung 
+
+4a6 : 2a3 = 2 a6 − 3 = 2a3 
+
+Lehrbeispiel 7 
+
+Vereinfachen Sie den Term! 
+
+a5 : a5 
+
+Lösung 
+
+a5 : a5 = a5 − 5 = a0 
+
+Bei dieser - durchaus richtigen - Lösung ist man nicht stehen geblieben. Eine andere 
+Darstellung soll dies deutlich machen: 
+
+a5 : a5 = 
+
+= 1 
+
+Wenn  Zähler  und  Nenner  eines  Bruches  gleich  sind,  bezeichnet  der  Bruch  die 
+Zahl 1. 
+
+Also wird vereinbart für alle a  
+
+: a0 = 1 
+
+Lehrbeispiel 8 
+
+Vereinfachen Sie! 
+
+Lösung 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+75 
+
+5356x12y15y6y72x353315565356xy841215yx67235x12y15y6y72x35==−+−aaaaaaaaaa336465cd16cd32ba11ba121a221611dcba32121cd16cd32ba11ba12133116645336465==−−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 9 
+
+Schreiben Sie die Potenz  zunächst ausführlich ohne  Klammern. Geben Sie anschlie-
+ßend das Ergebnis als Produkt von Potenzen an!  
+
+(xy)4 
+
+Lösung 
+
+(xy)4 = (xy)  (xy)  (xy)  (xy) = xy  xy  xy  xy = x  x  x  x  y  y  y  y = x4y4 
+
+Ein  Produkt  wird  mit  einer  natürlichen  Zahl  potenziert,  indem  jeder  Faktor  des 
+Produktes mit der natürlichen Zahl potenziert wird. 
+
+Für alle a, b  
+
+ und n  
+
+ gilt: (a b)n = an  bn 
+
+Lehrbeispiel 10 
+
+Vereinfachen Sie so weit wie möglich! 
+
+(xy)3  
+
+ ; 
+
+  
+
+Lösung 
+
+Lehrbeispiel 11 
+
+Schreiben Sie die Potenz  zunächst ausführlich ohne  Klammern! Geben Sie anschlie-
+ßend das Ergebnis als Quotient von Potenzen an! 
+
+Lösung 
+
+ = 
+
+ = 
+
+Ein  Bruch wird  mit  einer  natürlichen Zahl  potenziert,  indem Zähler  und  Nenner 
+des Bruches jeweils mit der natürlichen Zahl potenziert werden. 
+
+Für alle a, b  
+
+ mit b  0 und n  
+
+ gilt: (a / b)n = an / bn 
+
+76 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+3)y1(6)yx(6)xy(3333 x yxy  y1(xy)==1  1  xyxyxyyx6666===3xa3xaxaxaxa33xaxxxaaa= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 12 
+
+Vereinfachen Sie so weit wie möglich! 
+
+Lösung 
+
+; 
+
+ = 
+
+ = 
+
+Lehrbeispiel 13 
+
+Lösen  Sie  die  Klammern  auf!  Führen  Sie  die  Lösung  auf  zwei  verschiedene  Weisen 
+durch! 
+
+(x3)2 
+
+Lösung 
+
+(x3)2= (x  x  x)2 
+= x2  x2  x2 
+= x2 + 2 + 2 = x6 
+
+(x3)2   = (x3) (x3) 
+
+= x3 + 3 
+= x6 
+
+Beide  Lösungswege  machen  deutlich,  dass  der  Exponent  des  Ergebnisses  sich  als 
+Produkt der beiden Exponenten ergibt. 
+
+Eine  Potenz  wird  potenziert,  indem  die  Exponenten  multipliziert  werden.  Die 
+Basis bleibt unverändert. 
+
+Für alle a  
+
+ und m, n  
+
+ gilt: (am)n = am  n 
+
+Lehrbeispiel 14 
+
+Vereinfachen Sie so weit wie möglich! 
+
+Lösung 
+
+ ; 
+
+ = 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+77 
+
+ ba : ba424x8116y 2y3x64 ba : ba424224444244aabbaba:ba==x8116y 2y3x642364444yxx81y16y2x3=33232yxcab3020b2ay5x33232yxcab96963yxcba 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+ = 
+
+= 
+
+Lehrbeispiel 15 
+
+Dividieren Sie die Potenzen ausführlich am Bruchstrich! 
+
+b4 : b7 
+
+Lösung 
+
+b4 : b7 
+
+Der  gefundene  Lösungsterm  1/b3  soll  nun  mit  dem  Potenzgesetz  zur  Division  von 
+Potenzen in Beziehung gesetzt werden. 
+
+Es gilt: am : an = am – n für m  n. Im Lehrbeispiel b4 : b7 ist m  n . Damit das Potenzge-
+setz  aber  auch für  diesen  Fall  angewendet  werden  kann,  wird  eine  Schreibweise mit 
+negativen Exponenten eingeführt. 
+
+Für alle a  
+
+ und alle n  
+
+ gilt:  1 / an = a–n  
+
+Lehrbeispiel 16 
+
+Schreiben Sie die Potenzen mit negativen Exponenten! 
+
+; 
+
+Lösung 
+
+ = x–3 
+
+ = a–5 
+
+Lehrbeispiel 17 
+
+Schreiben Sie die Potenz mit positivem Exponenten! 
+
+ ; 
+
+ ; 
+
+a–5 : a2 
+
+Lösung 
+
+ = 10a3 
+
+78 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+3020b2ay5x32b12y1536b8y1253b1bbbbbbbbbbb==3x15a13x15a13a10−23xyx−3a10− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+ = x3yx2 = x5y 
+
+a–5 : a2 = 
+
+Für  Potenzen  mit  ganzzahligen  Exponenten  gelten  dieselben  Gesetze  wie  für 
+Potenzen mit natürlichen Zahlen als Exponenten. 
+
+Lehrbeispiel 18 
+
+Vereinfachen Sie so weit wie möglich! Schreiben Sie das Ergebnis mit positivem Ex-
+ponenten! 
+
+a6 a–3; 
+
+b0  b–1; 
+
+x–4 : x–2; 
+
+(y–2)–2; 
+
+(m–1  n–2)–1 
+
+Lösung 
+
+a6a–3 = a6 + (−3) = a3 
+
+b0b–1 = b0 + (−1) = b–1 = 
+
+(y–2)–2 = y(−2)(− 2) = y4 
+
+(m–1n–2)–1 = m(− 1)(− 1)n(− 2)(− 1) = mn2 
+
+Lehrbeispiel 19 
+
+Schreiben Sie die Potenzen mit positivem Exponenten! 
+
+Lösung 
+
+ = 
+
+ = 
+
+= 
+
+Für alle a, b  
+
+ und n  
+
+ gilt: (a / b)–n = (b / a)n 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+79 
+
+23xyx−72525a1  aa1  a : a1==b1()222424x1   x  xx x===−−−−−−3ba−3ba−3ba133ba1333ab  ab= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 20 
+
+Vereinfachen Sie und geben Sie das Ergebnis mit positiven Exponenten an! 
+
+(ab)3a–5b–2 
+
+b–3 
+
+Lösung 
+
+(ab)3 a–5 b–2 = 
+
+b–3 
+
+ = 
+
+ (−b)3 = −1 
+
+Lehrbeispiel 21 
+
+Multiplizieren  Sie  die  Terme  und  schreiben  Sie  das  Ergebnis  mit  positiven  Exponen-
+ten! 
+
+; 
+
+; 
+
+Lösung 
+
+80 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+4232)xy()yx(−−−3b1−−22533abbaba=25364848364232xyyxxyxyyx)xy()yx(+=+=+=−−−−−−−3b1−−3b1)y(xy)(x22−−223)b(a−−)y(x)y(x3232−−+−322322 yxyyx x)y(xy)(x+−−=−−4326423  6223b a2ba 1 bb2aa  )b(a+−=+−=−−−−64643232y1 xyx)y(x)y(x−=−=+−−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 22 
+
+Zeichnen Sie den Graf der Funktion f(x) = 1/x2! Legen Sie zunächst eine Wertetabelle 
+an für x-Werte von –4 bis 4, Schrittweite 1! Geben Sie die Definitionsmenge an! 
+
+Lösung 
+
+x 
+
+–4 
+
+–3 
+
+–2 
+
+f(x) 
+
+–1 
+
+1 
+
+0 
+
+– 
+
+1 
+
+1 
+
+2 
+
+3 
+
+4 
+
+Definitionsmenge: D = 
+
+ \ { 0 } = 
+
+  
+
+Lehrbeispiel 23 
+
+Zeichnen Sie die Funktionsgrafen für g(x) = x–4 und h(x) = x–6 in ein Koordinatensys-
+tem!  Legen  Sie  eine  Wertetabelle  an  für  –2    x    2!  Runden  Sie  die  Werte  auf 
+2 Nachkommastellen! 
+
+Lösung 
+
+x 
+
+g(x) 
+
+h(x) 
+
+–2 
+
+–1,5 
+
+–1 
+
+–0,75 
+
+0,06 
+
+0,02 
+
+0,20 
+
+0,09 
+
+1 
+
+1 
+
+3,16 
+
+5,62 
+
+0,75 
+
+3,16 
+
+5,62 
+
+1 
+
+1 
+
+1 
+
+1,5 
+
+0,2 
+
+0,09 
+
+2 
+
+0,06 
+
+0,02 
+
+Definitionsmenge: D = 
+
+  
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+81 
+
+16191414191161 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aus den Funktionsgrafen von f(x) = x–2, g(x) = x–4 und h(x) = x–6 lassen sich folgende 
+Erkenntnisse gewinnen: 
+
+•  Alle Grafen verlaufen durch die Punkte P(1;1) und Q(–1;1). 
+•  Die Grafen sind symmetrisch zur y-Achse. 
+•  Die Wertemenge W ist die Menge aller positiven reellen Zahlen: W =  +
+
+ 
+
+Diese  Eigenschaften  gelten  für  alle  Potenzfunktionen  mit  der  Funktionsglei-
+chung: 
+
+y = x–2n,  n   , 
+
+D = 
+
+ 
+
+Lehrbeispiel 24 
+
+P  und  Q  sind  Punkte  des  Grafen  der  Potenzfunktion  mit  der  Funktionsgleichung 
+f(x) = x–4! Bestimmen Sie zunächst jeweils die fehlende Koordinate von P und Q! Ge-
+ben Sie anschließend die Koordinaten des Bildpunktes P‘ und Q‘ an! 
+
+P(2; ); 
+
+Q(–1; )  
+
+Lösung 
+
+P(2;  ) 
+
+= 
+
+= 
+
+P(2;
+
+) 
+
+P(–2;
+
+) 
+
+Q(–1;  ) 
+
+= 
+
+= 1 
+
+Q(–1;1) 
+
+Q(1;1) 
+
+82 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+4x)x(f−=4x)x(f−=42)2(f−=4)1()1(f−−=−4214)1(1−161161161 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 25 
+
+Zeichnen  Sie  den  Grafen  der  Potenzfunktion  mit  der  Funktionsgleichung  f(x)  =  x–1! 
+Legen Sie zunächst eine Wertetabelle an mit x-Werten von –5 bis 5 (Schrittweite 0,5)! 
+Runden Sie sinnvoll! Geben Sie die Definitionsmenge an! 
+
+Lösung 
+
+x 
+
+–5 
+
+–4,5 
+
+–4 
+
+–3,5 
+
+–3 
+
+–2,5 
+
+–2 
+
+–1,5 
+
+–1 
+
+–0,5 
+
+f(x) 
+
+–0,2 
+
+–0,22  –0,25  –0,29  –0,33  –0,4 
+
+–0,5 
+
+–0,67  –1 
+
+–2 
+
+x 
+
+f(x) 
+
+0,5 
+
+2 
+
+1 
+
+1 
+
+1,5 
+
+2 
+
+0,67 
+
+0,5 
+
+2,5 
+
+0,4 
+
+3 
+
+3,5 
+
+4 
+
+4,5 
+
+5 
+
+0,33 
+
+0,29 
+
+0,25 
+
+0,22 
+
+0,2 
+
+Im  Koordinatensystem  sind  die  Funktionsgrafen  von  g(x)  =  x–3  und  h(x)  =  x–5  darge-
+stellt. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+83 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aus  den  Grafen für  Potenzfunktionen mit  der  Funktionsgleichung  y = x–2n  +  1  ,  n     
+und D = 
+
+ sind folgende Erkenntnisse zu gewinnen: 
+
+•  Die Grafen verlaufen durch die Punkte P(1;1) und Q(–1;–1). 
+•  Die Grafen sind punktsymmetrisch zum Ursprung des Koordinatensystems. 
+•  Die  Wertemenge  W  ist  die  Menge  aller  von  Null  verschiedenen  reellen  Zahlen: 
+
+W = 
+
+. 
+
+Lehrbeispiel 26 
+
+P  und  Q  sind  Punkte  des  Grafen  der  Potenzfunktion  g(x)  =  x–3!  Bestimmen  Sie  zu-
+nächst  jeweils  die  fehlende  Koordinate  von  P  und  Q!  Geben  Sie  anschließend  die 
+Koordinaten des Bildpunktes P und Q an! 
+
+P(–0,5; ); Q(2; )  
+
+Lösung: 
+
+P(–0,5; ) 
+g(x) = x–3 
+g(–0,5) = (–0,5)–3 
+
+= 
+
+= –8 
+
+P(–0,5;–8) 
+
+P(0,5;8) 
+
+Q(2; ) 
+g(x) = x–3  
+g(2) = 2–3  
+
+= 
+
+Q(2;
+
+) 
+
+Q(–2;– ) 
+
+84 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+125,01−818181 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 27 
+
+Bestimmen Sie die Funktionsgleichung einer Potenzfunktion mit f(x) = x–n, deren Graf 
+durch den Punkt P (x;y) geht! 
+
+Lösung 
+
+f(x) = x–n  
+
+ = 3–n  
+
+ = 3–4  
+
+f(x) = x–4  
+
+Lehrbeispiel 28 
+
+Das Produkt zweier Zahlen x und y beträgt 20. 
+
+Bestimmen Sie die Funktionsgleichung der zugehörigen Potenzfunktion und zeichnen 
+Sie den Grafen im Bereich –2  x  2! Runden Sie auf eine Nachkommastelle! 
+
+Lösung 
+
+x  y = 20 
+
+y = 20 / x 
+y = 20 x–1 
+
+D = 
+
+ \ {0} 
+
+x 
+
+f(x) 
+
+–2 
+
+–10 
+
+–1,5 
+
+–1 
+
+–0,5 
+
+0,5 
+
+–13,3 
+
+–20 
+
+–40 
+
+40 
+
+1 
+
+20 
+
+1,5 
+
+13,3 
+
+2 
+
+10 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+85 
+
+811;3P811;3P811811 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Das Volumen V eines Würfels beträgt 27 cm3 . 
+
+Abbildung 3 Würfel 
+
+Um  die  Kantenlänge  a  des Würfels  zu  bestimmen,  wird  eine  Zahl  gesucht,  die mit  3 
+potenziert 27 ergibt. 
+
+Diese Zahl ist die 3. Wurzel aus 27. 
+
+ = 3 , denn 33 = 27.    Lies: Dritte Wurzel aus 27 gleich 3. 
+
+ ist die nichtnegative Zahl, die mit n potenziert a ergibt. 
+
+,  a   + , n  N 
+
+Wurzelexponent 
+
+Radikand 
+
+86 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+327nana 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Das Wurzelziehen - auch Radizieren genannt - ist die Umkehrung des Potenzierens. 
+Bei  der  zweiten  Wurzel  (Quadratwurzel)  wird  der  Wurzelexponent  weg  gelassen: 
+
+Beispiele: 
+
+, 
+
+, 
+
+denn 25 = 32 
+
+denn 53 = 125 
+
+, 
+
+denn a1 = a 
+
+Lehrbeispiel 29 
+
+Vereinfachen Sie den Term so weit wie möglich! 
+
+; 
+
+; 
+
+; 
+
+; 
+
+Lösung 
+
+ = a 
+
+= x 
+
+= 
+
+Lehrbeispiel 30 
+
+Berechnen  Sie  den  Wert  der  Potenz 
+wenden! 
+
+,  indem  Sie  das  Potenzgesetz  (am)n  an-
+
+Lösung 
+
+= 
+= 
+
+ = 3 
+
+ist  demnach  diejenige  Zahl,  deren  Quadrat  3  ergibt.  Daraus  lässt  sich  folgender 
+
+Zusammenhang herleiten: 
+
+, denn 
+
+Für alle a   + und alle n    gilt: 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+87 
+
+aa2=2325=51253=aa1=2a44x510b39y333b64a82a44x510b2552552b)b(b==333333339y)y(yy===ab8b4a2b4a2b64a833333333===2)3(212221213)3(=223132133321=3)3(2=na=n1a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Beispiele: 
+
+, denn 
+
+, denn 
+
+Lehrbeispiel 31 
+
+Geben Sie als Potenz bzw. als Wurzel an!  
+
+; 
+
+; 
+
+; 
+
+Lösung 
+
+Das folgende Beispiel zeigt, wie Potenzen der Form 
+werden können. 
+
+ als Wurzelterm geschrieben 
+
+Eine weitere Möglichkeit: 
+
+Die Möglichkeit der Darstellung gilt ebenso für negative gebrochene Exponenten. 
+
+Allgemein kann formuliert werden: 
+
+Für alle a   + , m  
+
+ und n    gilt: 
+
+oder 
+
+Lehrbeispiel 32 
+
+Geben Sie als Potenz mit gebrochenem Exponenten bzw. als Wurzel an! 
+
+; 
+
+; 
+
+; 
+
+; 
+
+88 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+161621=16)16(221=5xx51=x)x(551=nab4m61zq1)xy(n1n1n1ba)ab(abn==41mm4=6zz61=qxy)xy(q1=nma3222a)a(aa313132===2322)a()a(aa313132===23232)2()a(1)a()a(aa313132====−−−− a )(aanmmn1nm==mnm)a( )(aan1nm==34x3)a(−48)y(−53a23b− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Für  Potenzen  mit  rationalen  Exponenten  gelten  die  selben  Gesetze  wie  für  Po-
+tenzen mit ganzzahligen Exponenten. 
+
+Lehrbeispiel 33 
+
+Wenden Sie das entsprechende Potenzgesetz an! 
+
+; 
+
+ : 
+
+; 
+
+Lösung 
+
+Lehrbeispiel 34 
+
+Vereinfachen Sie so weit wie möglich! 
+
+; 
+
+; 
+
+Lösung 
+
+ = 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+89 
+
+3431x)x(x434==2321a)a()a(33−−−==8481y)y()y(448−−−==53aa53=33b1bb23==−−2143aa−31x−61x−6)y(314121432143aaaa−+−−==61616261316131xxxx:x)(−+−−−−−−===266yy)y(3131==3232bba45,03x5,024yz−−−3232bba32aabab3232==81x3x3x24245,0==25,024yz yz=−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 35 
+
+Schreiben Sie zunächst als Potenz und vereinfachen so weit wie möglich! 
+
+; 
+
+Lösung 
+
+= 
+
+Lehrbeispiel 36 
+
+Vereinfachen Sie den Term! 
+
+; 
+
+Lösung 
+
+ = 
+
+= x–3  x = x–2 = 
+
+Lehrbeispiel 37 
+
+Vereinfachen Sie so weit wie möglich! 
+
+; 
+
+Lösung 
+
+ = 
+
+90 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+323aa532523yxyxaaaaaa333231323===515151)yyxx()yx()yx(yxyx32233223532523==xy)yx(5155=63)ba(443)xx(41−−32663ba)ba()ba(2131==443)xx(41−−xx)xx(41241434==−−−2x142442yxyx3364a250ba243424242442yyxyxyxyx==3633643364125baa250ba2a250ba2==5ab5ab5ba23636== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
++! Runden Sie auf die zweite Nachkommastel-
+
+Lehrbeispiel 38 
+
+Bestimmen Sie die Lösungsmenge in 
+le! 
+
+150 x–5 – 0,3 = 1,8 – (1,1 – 30x–5) 
+
+Lösung 
+
+150x–5 – 0,3 = 1,8 – (1,1 – 30x–5) 
+
+150x–5 – 0,3 = 1,8 – 1,1 + 30x–5  
+
+120x–5 = 1   
+
+| : 120 
+
+x–5 = 
+
+(x–5)
+
+ = 
+
+x = 
+
+ = 
+
+x  2,61 
+
+L = {2,61} 
+
+Lehrbeispiel 39 
+
+Bestimmen Sie die Lösungsmenge! 
+
+Lösung 
+
+Probe: 
+
+5 = 5 (w) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+91 
+
+120151−511201−5112051205x431=5x431=45x31=3345)x(31=64125x=564125431=5454= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 40 
+
+Vereinfachen Sie! 
+
+Lösung 
+
+=
+
+Aufgaben 
+
+Aufgabe 1  
+
+P  und Q  sind  Punkte  des  Grafen  der  Potenzfunktion  f.  Bestimmen  Sie  die fehlenden 
+Koordinaten von P und Q! 
+
+1.1 
+
+f(x) = x4 
+
+P(–2; ) 
+
+Q( ;81) 
+
+1.2 
+
+f(x) = x7 
+
+P(–3; ) 
+
+Q( ;–1) 
+
+1.3 
+
+f(x) = x–6  P(–2; ) 
+
+Q( ;64) 
+
+1.4 
+
+f(x) = x–5  P(0,5; )  Q( ;1024) 
+
+Aufgabe 2 
+
+P ist ein Punkt auf dem Grafen der Funktion f(x) = x4. Bestimmen Sie die Funktions-
+gleichung der Ursprungsgeraden g(x) durch P, wenn P die x-Koordinate 1,5 hat. 
+
+Aufgabe 3 
+
+Vereinfachen Sie den Term! 
+
+3.1  4x5 + 3x5 
+
+3.2  6 (x – y)k – 5 (x – y)k 
+
+3.3  1 + x3 – 0,4 + 2x3 – ¼ x3 
+
+3.4  atn + tn 
+
+92 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+232521aaaaa5−−−23252123252123252115)()(155aaaaaaa++++−−−−−++−−−−==aa21= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 4 
+
+Vereinfachen Sie! 
+
+4.1  x3  x4 
+4.2  ex  ex 
+4.3  s5 : s3 
+
+4.4  zn+1  zn 
+4.5  bx : bx – 1 
+
+Aufgabe 5 
+
+Vereinfachen Sie den Term! 
+
+5.1 
+
+5.2 
+
+5.3 
+
+(zn+3 – 3zn – zn – 3) : z–3 
+
+5.4 
+
+ : 
+
+Aufgabe 6 
+
+Bringen  Sie  die  Terme  auf  einen  gemeinsamen  Nenner  und  vereinfachen  Sie  die 
+Summe! 
+
+6.1 
+
+ + 
+
+6.2 
+
+Aufgabe 7 
+
+Berechnen Sie! 
+
+7.1 
+
+7.2 
+
+7.3 
+
+7.4 
+
+7.5 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+93 
+
+4,1rsrsr5623112−−−zzq2p:qp−−()1222bazyx−−()()1bayx22−75xx1−2x110108855x22x5x32x3x22x3−−−++36104810−557()332()42 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 8 
+
+Schreiben Sie die Potenz als Wurzel! 
+
+8.1  3½ 
+
+8.2  2–3/4 
+
+8.3  y–0,2 
+
+Aufgabe 9 
+
+Schreiben Sie als Potenz! 
+
+9.1 
+
+9.2 
+
+9.3 
+
+Aufgabe 10 
+
+Vereinfachen Sie den Wurzelterm, indem Sie sie zunächst als Potenz schreiben! 
+
+10.1 
+
+10.2 
+
+10.3 
+
+10.4 
+
+10.5 
+
+Aufgabe 11 
+
+Berechnen Sie! 
+
+11.1 
+
+11.2 
+
+ : 
+
+11.3 
+
+11.4  3–1/2  (2/3)–1/2 
+
+11.5  (3–3/4)–4/5 
+
+94 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+3632a1x2n186s1082115k3x141001042534663103532 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 12 
+
+Vereinfachen Sie! 
+
+12.1 
+
+12.2 
+
+12.3 
+
+12.4 
+
+Aufgabe 13 
+
+Geben Sie die Lösungsmenge an! 
+
+13.1  8 x3 + 27 = 0 
+
+13.2  103 x5 = 10–2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+95 
+
+323xx1na433bbb()()22nn52:10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lernbereich 
+
+4 Exponentialfunktionen  
+
+In der Wertetabelle und im Koordinatensystem ist das Wachstum einer Bakterienkultur 
+dargestellt. 
+
+Zeit t in (h) 
+
+Masse m in (g) 
+
+0 
+
+1 
+
+1 
+
+3 
+
+2 
+
+9 
+
+3 
+
+27 
+
+4 
+
+5 
+
+81 
+
+243 
+
+Der Wertetabelle ist zu entnehmen, dass die Masse m sich stündlich verdreifacht. Die 
+Zuordnung Zeit → Masse kann mit folgendem Term beschrieben werden: 
+
+Masse (x) → 3x 
+
+Der Graf zeigt deutlich, dass es sich bei der Zuordnung um eine Funktion handelt. Die 
+zugehörige Funktionsgleichung lautet demnach: f(x) = 3x , mit D =  + . 
+
+Lehrbeispiel 1 
+
+Zeichnen Sie die Grafen der Funktion f(x) = 2x und g(x) = 3x mit der Definitionsmenge 
+D = 
+
+ in ein Koordinatensystem! 
+
+Legen Sie eine Wertetabelle an mit –3  x  3 (Schrittweite 0,5). Runden Sie auf zwei 
+Nachkommastellen! 
+
+96 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+x 
+
+–3  –2,5  –2  –1,5  –1  –0,5  0 
+
+0,5 
+
+f(x)  0,13  0,18  0,25  0,35  0,5  0,71  1 
+
+1,41 
+
+g(x)  0,04  0,06  0,11  0,19  0,33  0,58  1 
+
+1,73 
+
+1 
+
+2 
+
+3 
+
+1,5 
+
+2,83 
+
+5,20 
+
+2 
+
+4 
+
+9 
+
+2,5 
+
+5,66 
+
+3 
+
+8 
+
+15,59  27 
+
+Den Funktionsgrafen sind folgende Eigenschaften zu entnehmen: 
+
+•  Die Wertemenge W ist die Menge aller positiven reellen Zahlen: W =  +. 
+
+•  Die Grafen schneiden die y-Achse in P(0;1).  
+
+Begründung: Für alle a, a  0, a  
+
+ gilt: 
+
+a0 = 1. 
+
+• 
+
+Je kleiner die x-Werte werden, desto mehr nähern sich die Funktionswerte der 0 
+an. Der Graf hat allerdings keinen Schnittpunkt mit der x-Achse. 
+
+Beweis: 
+
+Annahme: 
+
+2 = 0   (Widerspruch      Annahme ist falsch) 
+
+•  Die Grafen steigen im gesamten Definitionsbereich. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+97 
+
+()xx1xxxx0202020211====−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 2 
+
+Zeichnen  Sie  die  Grafen  der  Funktion  f(x)  =  (1/2)x  und  g(x)  =  (1/3)x  mit  der  Definiti-
+onsmenge D = 
+
+ in ein Koordinatensystem! 
+
+Legen Sie eine Wertetabelle an mit –3  x  3 (Schrittweite 0,5). Runden Sie auf zwei 
+Nachkommastellen! 
+
+Lösung 
+
+x 
+
+–3  –2,5  –2  –1,5  –1  –0,5  0 
+
+0,5 
+
+1 
+
+1,5 
+
+2 
+
+2,5 
+
+3 
+
+f(x) 
+
+8 
+
+5,66 
+
+4  2,83  2  1,41  1  0,71  0,5  0,35  0,25  0,18  0,13 
+
+g(x)  27  15,59  9  5,20  3  1,73  1  0,58  0,33  0,19  0,11  0,06  0,04 
+
+Den Funktionsgrafen sind folgende Eigenschaften zu entnehmen: 
+
+•  Die Wertemenge W ist die Menge aller positiven reellen Zahlen: W =  +. 
+•  Die Grafen schneiden die y-Achse in P(0;1). 
+• 
+
+Je größer die x-Werte werden, desto mehr nähern sich die Funktionswerte der 0 
+an, der Graf schneidet aber nie die x-Achse. 
+
+•  Die Grafen fallen im gesamten Definitionsbereich. 
+•  Die Grafen der Funktionen f(x) = 2x und f(x) = (1/2)x sowie g(x) = 3x und g(x) = 
+
+(1/3)x sind jeweils achsensymmetrisch zur y-Achse. 
+
+98 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 3 
+
+Zeichnen Sie den Grafen der Funktion f(x) = 1x! Beschreiben Sie den Grafen und ge-
+ben Sie die Wertemenge an! 
+
+Lösung 
+
+x 
+
+f(x) 
+
+–1 
+
+1 
+
+0 
+
+1 
+
+1 
+
+1 
+
+Antwort: 
+
+Der Graf verläuft parallel zur x-Achse. Die Wertemenge ist W = {1}. 
+
+Zusammenfassung 
+
+Eine Funktion f mit f(x) = ax, a  0, a   + heißt Exponentialfunktion. 
+
+Ihre Definitionsmenge ist D = 
+
+. Für a  1 ist die Wertemenge W =  +. 
+
+Der Funktionsgraf schneidet die y-Achse in P(0;1). 
+
+Für a  1 steigt der Graf, für a  1 fällt er. Für a = 1 verläuft der Graf parallel zur 
+x-Achse. 
+
+Lehrbeispiel 4 
+
+Bestimmen  Sie  die  Funktionsgleichung  der  Exponentialfunktion  mit  f(x)  =  ax,  deren 
+Graf durch den Punkt P(–3;8) geht! 
+
+Lösung 
+
+P(–3;8) 
+
+f(x) = ax 
+
+|  a3 
+
+| : 8 
+
+8 = a–3 
+
+8 = 
+
+8a3 = 1 
+
+a3 = 
+
+a = 
+
+ = 
+
+Antwort: 
+
+f(x) = 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+99 
+
+3a18138121x21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 5 
+
+Zeichnen Sie die Funktionsgrafen der Funktion f(x) = 5  2x und g(x) = (1/5)  2x mit der 
+ jeweils in ein Koordinatensystem! Legen Sie eine Wertetabel-
+Definitionsmenge D = 
+le an mit –2  x  2 (Schrittweite 0,5)! Runden Sie auf zwei Nachkommastellen! 
+
+Lösung 
+
+x 
+
+f(x) 
+
+g(x) 
+
+–2 
+
+1,25 
+
+0,05 
+
+–1,5 
+
+1,77 
+
+0,07 
+
+–1 
+
+2,5 
+
+0,1 
+
+–0,5 
+
+3,54 
+
+0 
+
+5 
+
+0,14 
+
+0,2 
+
+0,5 
+
+7,07 
+
+0,28 
+
+1 
+
+10 
+
+0,4 
+
+1,5 
+
+14,14 
+
+0,57 
+
+2 
+
+20 
+
+0,8 
+
+100 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Den Funktionsgrafen ist folgende Eigenschaft zu entnehmen: 
+
+Die  Funktionsgrafen  der Funktionsgleichung  f(x) =  k  ax    schneiden  die  y-Achse 
+in P(0;k). 
+
+Lehrbeispiel 6 
+
+Bestimmen Sie die Funktionsgleichung der Exponentialfunktion mit f(x) = k ax , deren 
+Graf die y-Achse in P(0;0,25) schneidet und durch den Punkt Q(5;8) geht! 
+
+Lösung 
+
+Aus den Koordinaten von P ergibt sich der Wert für k. 
+
+P(0;0,25) 
+
+f(x) = k ax 
+0,25 = k  a0 
+0,25 = k  1 
+k = 0,25 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+101 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Für den Punkt Q wird der ermittelte Wert k = 0,25 eingesetzt. 
+
+Q(5;8) 
+
+f(x) = k ax 
+
+| : 0,25 
+
+8 = 0,25 a5 
+32 = a5 
+= a 
+a = 2 
+
+Antwort: 
+
+f(x) = 0,25  2x 
+
+Lehrbeispiel 7 
+
+Berechnen  Sie  das  Guthaben  eines  Sparkontos,  wenn  ein  Kapital  K0  =  3000  €  zum 
+Zinssatz von 4 % für 5 Jahre fest gelegt wird! Stellen Sie das Wachstum des Kapitals 
+grafisch dar. Runden Sie auf ganze Euro! 
+
+Lösung 
+
+Nach dem 1. Jahr beträgt das Guthaben 
+
+K1 = 3000 + 3000  
+
+K1 = 3000  (1 + 0,04) 
+
+= 3000  1,04 
+
+Nach dem 2. Jahr beträgt das Guthaben 
+
+K2 = 3000  1,04  1,04 
+
+K2 = 3000  1,042 
+
+Nach dem 5. Jahr beträgt das Guthaben 
+
+K5 = 3000  1,045 
+
+Antwort:  Nach 5 Jahren beträgt das Guthaben 3650 €. 
+
+= 3650 
+
+102 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+5321004Zinsen 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 8 
+
+Geben Sie einen allgemeinen Term zur Berechnung der Zinseszinsen an! 
+
+Lösung 
+
+Anfangskapital 
+Endkapital nach n Jahren 
+Zinssatz 
+Zinsfaktor  1 + p% 
+
+K0 
+Kn 
+p% 
+q 
+
+Kapital nach n Jahren   
+
+Kn = K0  qn 
+
+= K0 
+
+Lehrbeispiel 9 
+
+Berechnen  Sie  den  Zinssatz,  zu  dem  ein  Kapital  von  5000  €  angelegt  wurde,  wenn 
+nach 15 Jahren 10394,64 € ausgezahlt werden! 
+
+Lösung 
+
+Kn = K0  qn  | : K0 
+
+ = qn 
+
+| 
+
+ = q 
+
+q = 
+
+q = 1,05 
+
+Antwort:  Der Zinssatz beträgt 5 %. 
+
+Lehrbeispiel 10 
+
+Ein Körper mit einer Temperatur von 240 °C wird zum Abkühlen in einen Kühlraum mit 
+einer  konstanten  Temperatur  von  0  °C  gebracht.  Nach  jeweils  einer  Stunde  halbiert 
+sich die Temperatur. 
+
+Geben  Sie  einen  Lösungsterm  zur  Berechnung  der  jeweiligen  Temperatur  an  und 
+stellen Sie die Abkühlkurve bis zu einer Abkühldauer von 5 Stunden grafisch dar! 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+103 
+
+n100p1+0nKKnn0nKK15500064,10394 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Zeit t in (h) 
+
+0 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+Temperatur T in (°C) 
+
+240  120  60  30  15  7,5 
+
+Da die Temperaturen mit wachsender Zeit immer kleiner werden, muss für die Funkti-
+on gelten: 
+
+f(t) = at  mit  a  1. 
+
+Weiter gilt:  f(0) = 240   
+
+f(0) = k  a0 
+
+240 = k  1 
+    k = 240 
+
+Funktionsterm:  T = f(t) = 240  at 
+
+T(1) = 240  a1 
+
+120  = 240  a 
+
+| : 240 
+
+= a 
+
+a = 
+
+Funktionsgleichung:  T = 240  (
+
+)t 
+
+104 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+2401202121 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 11 
+
+Iridium  192  hat  eine  Halbwertszeit  von  74  Tagen.  Zu  Beginn  der  Beobachtung  sind 
+800 mg vorhanden. 
+
+Bestimmen  Sie  zunächst  eine  Funktionsgleichung,  die  den  radioaktiven  Zerfall  be-
+schreibt!  Berechnen  Sie  anschließend, wie  viel  Milligramm  des Stoffes  nach  365 Ta-
+gen noch vorhanden sind! Stellen Sie den radioaktiven Zerfall grafisch dar! 
+
+Lösung 
+
+Anzahl x der Halbwertszeiten 
+
+Zeit t in Tagen 
+
+0 
+
+0 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+74 
+
+148  222  296  370 
+
+Anteil y des anfangs vorhandenen Stoffes  800  400  200  100 
+
+50 
+
+25 
+
+Aus der Wertetabelle ist zu entnehmen:  
+
+y = 800  0,5x. 
+
+Die Anzahl x der vergangenen Halbwertszeiten erhält man, indem die Beobachtungs-
+zeit t durch die Halbwertszeit dividiert wird. 
+
+Für den radioaktiven Zerfall sind folgende Abkürzungen definiert: 
+
+Ausgangsmenge des radioaktiven Stoffes:  N0 
+T 
+Halbwertszeit: 
+t 
+Anzahl der Beobachtungstage: 
+N(t) 
+Restmenge nach der Zeit t :   
+
+Dann ergibt sich für die Berechnungsformel: 
+
+N(t) = N0  0,5t/T 
+
+N(365) = 800  0,5365/74 
+
+= 26,2 
+
+Antwort:  Nach 365 Tagen ist noch eine Restmenge von 26,2 mg Iridium vorhanden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+105 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Viele Naturvorgänge wachsen oder fallen nach den Gesetzmäßigkeiten der Exponen-
+tialfunktion.  Nun  soll  auf  einen  besonderen  Wachstums-  bzw.  Zerfallsprozess  einge-
+gangen werden. 
+
+Zunächst soll noch einmal auf die Kapitalverzinsung Bezug genommen werden. 
+
+Kn = K0 
+
+Dabei wird unterstellt, dass der Zinszuschlag jeweils zum Jahresende erfolgt. 
+
+Wenn man  nun  bei  einem jährlichen Wachstumssatz  von  p%  den  Zuschlag  nach  je-
+weils 1/t Jahr mit p%/t vornimmt, ergibt sich ein Endkapital nach n Jahren von 
+
+Kn = K0 
+
+106 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+n100p1+tnt100p1+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 12 
+
+Berechnen  Sie  das  Guthaben  von  10000  €  bei  6  % Zins  bei  jährlichem  und  monatli-
+chem Zuschlag! 
+
+Lösung 
+
+bei jährlichem Zuschlag 
+
+K1 = 10000 
+
+K1 = 10600 Euro 
+
+bei monatlichem Zuschlag  K1 = 10000 
+
+= 10616,78 Euro 
+
+Antwort:  Bei monatlichem  Zuschlag  ergibt  sich  ein  um  16,78  Euro  höherer  Endbe-
+
+trag. 
+
+Diese  Wachstumsprozesse  bezeichnet  man  als  sprunghaftes Wachstum.  Im  Gegen-
+satz dazu wächst z.B. der Holzbestand eines Waldes nicht sprunghaft sondern konti-
+nuierlich.  Um  dieses  kontinuierliche  Wachstum  mathematisch  zu  beschreiben,  stellt 
+man sich vor, dass die „Wachstumssprünge“ in immer kürzeren Zeiteinheiten erfolgen.  
+
+Zu untersuchen ist also, wie sich der Term 
+
+ verhält, wenn t →  geht. 
+
+Vereinfacht lautet der Term: 
+
+Die folgende Wertetabelle soll den Sachverhalt deutlich machen. 
+
+t 
+
+1 
+
+2 
+
+5 
+
+10 
+
+100 
+
+1000 
+
+10000 
+
+2,49...  2,59...  2,70...  2,716... 
+
+2,718... 
+
+Es wird deutlich, dass die Werte der Potenz 
+
+ sich einem bestimmten Wert an-
+
+nähern.  
+
+Diese Zahl heißt Eulersche Zahl und wird mit e bezeichnet. (e  2,718281) 
+
+Die  Exponentialfunktion  mit  der  Eulerschen  Zahl  e  als  Basis  heißt  natürliche 
+Exponentialfunktion oder natürliche Wachstumsfunktion. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+107 
+
+110061+121210061+tn100p1+tt11+tt11+tt11+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 13 
+
+Zeichnen Sie den Grafen von f(x) = ex für –3  x  2 (Schrittweite 0,5)! Runden Sie auf 
+zwei Nachkommastellen! 
+
+Lösung 
+
+x 
+
+f(x) 
+
+–3 
+
+–2,5 
+
+–2 
+
+–1,5 
+
+–1 
+
+–0,5 
+
+0,05  0,08  0,14  0,22  0,37  0,61 
+
+0 
+
+1 
+
+1 
+
+0,5 
+1,65  2,72  4,48  7,39 
+
+1,5 
+
+2 
+
+Lehrbeispiel 14 
+
+Zeichnen  Sie  den  Grafen  von  f(x) =  e–x  für  –2   x   2  (Schrittweite  0,5)!  Runden  Sie 
+auf zwei Nachkommastellen! 
+
+108 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+x 
+
+–2 
+
+–1,5 
+
+–1 
+
+–0,5 
+
+f(x) 
+
+7,39  4,48  2,72  1,65 
+
+0 
+
+1 
+
+0,5 
+
+1 
+
+1,5 
+
+2 
+
+0,61  0,37  0,22  0,14 
+
+Die  Auf-  und  Entladevorgänge  eines  Kondensators  (Ladungsspeicher  elektrischer 
+Energie)  sind  elektrotechnische  Vorgänge,  die  sich  mithilfe  der  e-Funktion  beschrei-
+ben lassen. 
+
+Ein auf die Spannung U0 = 100 V aufgeladener Kondensator mit der Kapazität (Spei-
+cherfähigkeit)  C =  100  F  wird  in  Reihe  zu  einem Widerstand  R  =  1  M  geschaltet. 
+Zur Zeit t = 0 s wird der Stromkreis über ein Strommessgerät (A) mithilfe des Schalters 
+S geschlossen. Der Strom i(t) wird zu bestimmten Zeiten abgelesen. 
+
+Abbildung 4 Kondensatorschaltung 
+
+Zeit t in s 
+
+0 
+
+1 
+
+10 
+
+11 
+
+20 
+
+Strom i(t) in A 
+
+100 
+
+90,5  36,8  33,3 
+
+13,6 
+
+30 
+
+5 
+
+40 
+
+50 
+
+1,84  0,68 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+109 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Diese  Entladekurve  eines  Kondensators  wird  durch  die  Gleichung  i(t)  =  i0  e–t/T  be-
+schrieben. Dabei ist T = R  C die Zeitkonstante, in der der Kondensator um ungefähr 
+63 % abgesunken ist. Der Strom i0 berechnet sich aus U0/R. 
+
+Die Entladezeit tE eines Kondensators beträgt in der Praxis gleich 5 T: tE = 5 T. 
+
+Da es aber mathematisch keinen Schnittpunkt mit der x-Achse geben kann, ist tE theo-
+retisch unendlich groß. 
+
+Lehrbeispiel 15 
+
+Berechnen Sie für die gegebenen Zeitpunkte den Entladestrom i(t) eines Kondensators 
+C = 10 F! Stellen Sie die Entladekurve grafisch dar! Überprüfen Sie die Zeitkonstante 
+T! U0 = 100 V ; R = 1 M! 
+
+t(0) (t1 = 5 s ; t2 = 10 s ; t3 = 15 s ; t4 = 20 s ; t5 = 30 s ; t6 = 40 s ; t7 = 50 s) 
+
+Lösung 
+
+i(t) = 
+
+T = R C = 106   10  10–6 F 
+
+= 10 s 
+
+i0 = 
+
+ = 
+
+= 10–4 A = 100 A 
+
+i(t) = 100  10–6 e– t/10 s A 
+
+110 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+RCt0eRU−RU0610V100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+t0 = 0 s: 
+
+i0 = 100 A 
+
+t1 = 5 s: 
+
+i1 = 100 A  e–5 s/10 s = 60,7 A 
+
+t2 = 10 s: 
+
+i2 = 100 A  e–10 s/10 s = 36,8 A 
+
+t3 = 15 s: 
+
+i3 = 22,3 A 
+
+t4 = 20 s: 
+
+i4 = 13,5 A 
+
+t5 = 30 s: 
+
+i5 = 5 A 
+
+t6 = 40 s: 
+
+i6 = 1,8 A 
+
+t7 = 50 s: 
+
+i7 = 0,7 A 
+
+T = 10 s 
+
+5 T = 50 s 
+
+i7 = 0,7 A 
+
+Antwort:  Nach etwa 5 T ist der Entladestrom nahezu Null. 
+
+63 % von 100 A = 63 A : Nach T = 10 s beträgt der Entladestrom i2 = 36,8 A. Da-
+mit beträgt der Stromabfall gegenüber i0 ca. 63 %. 
+
+Der Aufladestrom eines Kondensators hat den gleichen Funktionsverlauf wie der Ent-
+ladestrom. Lediglich der Anfangswert i0 unterscheidet sich vom Anfangswert des Ent-
+ladevorgangs. 
+
+Entladekurve: 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+111 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgaben 
+
+Aufgabe 1  
+
+Bestimmen  Sie  den  Funktionsterm  der  Exponentialfunktion  mit  f(x) = ax,  deren  Graf 
+durch den Punkt P(–1;4) geht! 
+
+Aufgabe 2 
+
+Berechnen  Sie  die  Funktionsgleichung  der  Exponentialfunktion  mit  f(x) = k ax,  deren 
+Graf die y-Achse in P schneidet und durch den Punkt Q geht! 
+
+P(0;0,5)  ;  Q(2;0,02) 
+
+Aufgabe 3 
+
+Ein Kapital von 100.000 € wird für 8 Jahre zum Zinssatz von 7 % angelegt. Die Zinsen 
+werden  am  Ende  eines  Jahres  dem  Kapital  gut  geschrieben  und  im  nächsten  Jahr 
+mitverzinst. 
+
+Berechnen Sie das Guthaben nach 8 Jahren! 
+
+Aufgabe 4 
+
+Arsen 74 hat eine Halbwertszeit von 18 Tagen.  
+
+Berechnen Sie die Restmenge Arsen, die nach 365 Tagen noch vorhanden ist, wenn 
+zu Beginn 50 mg vorhanden sind! 
+
+Aufgabe 5 
+
+Der  Luftdruck  p  nimmt  mit  wachsender  Höhe  ab.  Dabei  halbiert  sich  p  jeweils  nach 
+5 1/2 Kilometer Höhenunterschied.  
+
+Berechnen  Sie  den  Luftdruck  auf  der  Zugspitze  (h = 2963 m) wenn  der  Luftdruck  auf 
+Meereshöhe p0 = 1000 hPa beträgt! 
+
+Aufgabe 6 
+
+Ein  Kondensator  mit  C = 1 F  ist  auf  die  Spannung  U1 = 100 V  aufgeladen.  Er  wird 
+über einen Widerstand R = 1 M auf die Spannung U0 = 200 V aufgeladen.  
+
+Berechnen Sie den Strom nach t = 3/2 T! 
+
+112 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+5 Logarithmusfunktionen  
+
+5.1 Logarithmensysteme 
+
+Lehrbeispiel 1 
+
+Geben  Sie  anhand  des  Grafen  zu  den  in  der  Tabelle  angegebenen  y-Werten  der 
+Funktion f(x) = 2x die zugehörigen x-Werte an! 
+
+x 
+y 
+
+–1 
+0,5 
+
+Lösung 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+Lernbereich 
+
+x 
+
+y 
+
+–1 
+
+0,5 
+
+0 
+
+1 
+
+1 
+
+2 
+
+1,6 
+
+3 
+
+2 
+
+4 
+
+2,3 
+
+5 
+
+2,6 
+
+6 
+
+3 
+
+8 
+
+Wie  die  durch  Ablesen  gefundenen  x-Werte  rechnerisch  bestimmt  werden  können, 
+soll am Beispiel y = 8 erklärt werden. 
+
+Gesucht  wird  diejenige  Zahl,  mit  der  die  Basis  2  potenziert  werden  muss,  um  8  zu 
+erhalten. 
+
+Diese gesuchte Zahl heißt Logarithmus von 8 zur Basis 2. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+113 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+f(x) = 2x 
+
+f(x) = 8 
+
+2x = 8 
+
+x = log2 8 
+
+x = 3 
+
+Probe: 
+
+2x = 8 
+23 = 8 (w) 
+
+Der Logarithmus von b zur Basis a (loga b) ist der Exponent, mit dem die Basis a 
+potenziert werden muss, um b zu erhalten. Im Term loga b heißt b Numerus. 
+
+Beispiele: log2 8 = 3,  denn  23 = 8 
+
+log3 243 = 5,  denn  35 = 243 
+
+log10 10000 = 4,  denn  104 = 10000 
+
+loge 20  3,  denn  e3  20 
+
+Lehrbeispiel 2 
+
+Formen Sie jeweils die Gleichung mithilfe von Logarithmen um! 
+
+112 = 121 ;  0,5x = 0,25 ;  ay = b 
+
+Lösung 
+
+112 = 121   
+log11 121 = 2 
+
+Lehrbeispiel 3 
+
+0,5x = 0,25  
+log0,5 0,25 = x 
+
+ay = b 
+loga b = y  
+
+Formen Sie in eine Exponentialgleichung um! 
+
+5 = log2 32 ;  3 = log10 1000 ;  x = loga 8 
+
+Lösung 
+
+5 = log2 32   
+25 = 32 
+
+3 = log10 1000 
+103 = 1000  
+
+x = loga 8 
+ax = 8 
+
+114 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 4 
+
+Bestimmen Sie den Logarithmus! Formen Sie dazu in die zugehörige Exponentialglei-
+chung um! 
+
+y = log5 625 
+
+Lösung 
+
+y  = log5 625 
+5y  = 625 
+5y  = 54 
+
+durch Exponentenvergleich ergibt sich: 
+
+y  = 4 
+
+Lehrbeispiel 5 
+
+Bestimmen Sie den Logarithmus! 
+
+log10 1 ;  log2 0,125 ;  log1/2 1/4 ;  log2 
+
+Lösung 
+
+log10 1  = x 
+10x 
+= 1 
+100 
+= 1 
+
+log10 1  = 0 
+
+log1/2 1/4  = x 
+(1/2)x 
+= 1/4  
+(1/2)2  = 1/4  
+x  
+
+= 2 
+
+log1/2 1/4   = 2 
+
+log2 0,125 = x 
+2x  = 0,125 
+2–3 = 0,125 
+x  = –3 
+
+log2 0,125 = –3 
+
+log2 
+
+= x 
+
+2x = 
+
+2x = 41/3 
+2x = (22)1/3 
+2x = 22/3 
+
+x  = 2/3 
+
+log2 
+
+ = 2/3 
+
+Die Logarithmusfunktion g(x) = log2 x ordnet jedem Funktionswert von f(x) = 2x 
+wieder  den  x-Wert  zu.  Die  Logarithmusfunktion  g  ist  die  Umkehrfunktion  der 
+Exponentialfunktion f. 
+
+Funktion f   
+
+Umkehrfunktion g 
+
+1 →  2 
+
+2 →  4 
+
+3 →  8 
+
+x →  2x 
+
+2 →  1 
+
+4 →  2 
+
+8 →  3 
+
+2x →  log2 2x 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+115 
+
+34343434 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 6  
+
+Stellen Sie die Exponentialfunktion f(x) = 2x und die Logarithmusfunktion g(x) = log2 x 
+grafisch  in  einem  Koordinatensystem  dar  (3   x   3)!  Runden  Sie  auf  die  2.  Nach-
+kommastelle! 
+
+Lösung 
+
+x 
+
+f(x) 
+
+g(x) 
+
+–3 
+
+–2 
+
+0,13 
+
+0,25 
+
+–1 
+
+0,5 
+
+0 
+
+1 
+
+0,25 
+
+1,19 
+
+–2 
+
+0,5 
+
+1,41 
+
+–1 
+
+1 
+
+2 
+
+0 
+
+2 
+
+4 
+
+1 
+
+3 
+
+8 
+
+1,58 
+
+Die  Funktion  x →  loga  x  ,  a   
+Sie ist die Umkehrfunktion der Exponentialfunktion f(x) = ax , a   + \ {0;1}. 
+
++ \  {0;1}  heißt Logarithmusfunktion  zur  Basis  a. 
+
+Die Definitionsmenge D =  + \ {0}; die Wertemenge ist die Menge aller reellen Zah-
+len: 
+
+W = 
+
+. 
+
+Der  Graf  der  Logarithmusfunktion  steigt  monoton  für  a    1  und  hat  im  Punkt  P(1;0) 
+einen  Schnittpunkt  mit  der  x-Achse.  Beide  Grafen  sind  achsensymmetrisch  zur 
+Winkelhalbierenden des I. und III. Quadranten (y = x).  
+
+116 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 7 
+
+Zeichnen Sie die Grafen der Funktionen f(x) = 0,5x mit –3  x  3 und g(x) = log0,5 x 
+mit x  5 (Schrittweite jeweils 0,5) in ein Koordinatensystem! 
+
+Lösung 
+
+x 
+
+–3  –2,5  –2  –1,5  –1  –0,5 
+
+f(x) 
+
+8 
+
+5,66 
+
+4 
+
+2,83 
+
+2 
+
+1,41 
+
+0 
+
+1 
+
+0,5 
+
+1 
+
+1,5 
+
+2 
+
+2,5 
+
+3 
+
+0,71  0,5  0,35  0,25  0,18  0,13 
+
+x 
+
+g(x) 
+
+0,5 
+
+1 
+
+1 
+
+0 
+
+1,5 
+
+–0,58 
+
+2 
+
+–1 
+
+2,5 
+
+3 
+
+3,5 
+
+–1,32  –1,58  –1,81 
+
+4 
+
+–2 
+
+4,5 
+
+5 
+
+–2,17  –2,32 
+
+Der  Graf  der  Logarithmusfunktion  g(x)  =  loga  x  mit  a    1  fällt  monoton  und  hat  im 
+Punkt P(1;0) einen Schnittpunkt mit der x-Achse. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+117 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 8 
+
+Bestimmen Sie zu der Exponentialfunktion f(x) = 1,5x die Umkehrfunktion f–1(x)! 
+
+Lösung 
+
+f(x) = 1,5 x 
+
+y  = 1,5x 
+
+Auflösen nach x: 
+
+x  = log1,5 y 
+
+Umkehrfunktion: 
+
+y  = log1,5 x   
+
+Logarithmen  mit  gleicher  Basis  bilden  ein  Logarithmensystem.  Zur  Vereinfa-
+chung der Schreibweise hat man folgende Vereinbarungen getroffen: 
+
+•  Logarithmen zur Basis 2: log2  Kurzschreibweise: ld oder lb (Logarithmus dualis 
+
+oder binärer Logarithmus) 
+
+•  Logarithmus zur Basis e: loge  Kurzschreibweise: ln (Natürlicher Logarithmus 
+
+oder Logarithmus naturalis) 
+
+•  Logarithmus zur Basis 10: log10  Kurzschreibweise: lg (Zehnerlogarithmus oder 
+
+dekadischer Logarithmus; auch Briggs`scher Lo-
+garithmus) 
+
+Mit der Formel 
+
+logax = 
+
+ kann der Logarithmus zu jeder beliebigen Basis mithilfe 
+
+von Zehnerlogarithmen berechnet werden. 
+
+Behauptung: 
+
+logax = 
+
+Beweis: 
+
+y = loga x 
+
+ay = x 
+lg (ay) = lg x 
+y lg a = lg x 
+
+y = 
+
+loga x = 
+
+118 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+algxlgalgxlgalgxlgalgxlg 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 9 
+
+Bestimmen Sie den Logarithmus mithilfe der Zehnerlogarithmen! 
+
+log2 10 
+
+Lösung 
+
+loga x = 
+
+log2 10 = 
+
+ 3,3219 
+
+Probe: 
+
+23,3219 = 10 
+9,9998  10 (w) 
+
+In  den  folgenden  Beispielen  sollen  die  Gesetze  für  das  Rechnen  mit  Logarithmen 
+bewiesen werden. 
+
+Behauptung: 
+
+loga (x1  x2) = loga x1 + loga x2 
+
+Beweis : 
+
+y1 = loga x1 
+
+y2 = loga x2 
+
+ay1 = x1 
+
+ay2 = x2 
+
+x1  x2 = ay1  ay2 
+= a y1 + y2 
+
+loga (x1  x2) = y1 + y2 
+
+= loga x1 + loga x2  
+
+Ebenso lässt sich herleiten: 
+
+loga 
+
+ = loga x1 – loga x2 
+
+Bei der Multiplikation von Potenzen mit gleicher Basis werden die Exponenten addiert; 
+so  leitet  sich  das  oben  bewiesene  Logarithmengesetz  als  Addition  der  Logarithmen 
+ab. Bei der Division von Potenzen mit gleicher Basis werden die Exponenten subtra-
+hiert.  Somit  ergibt  sich  das  zweite  Logarithmengesetz  als  Subtraktion  der  Logarith-
+men. 
+
+Behauptung: 
+
+loga (xn) = n  loga x 
+
+Beweis 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+119 
+
+algxlg2lg10lg21xxxlognxlogxlogxlog)xxxx(log)x(logamalnaaamalnana=+++==−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Für das Rechnen mit Logarithmen gelten folgende Gesetze: 
+
+loga (x1  x2) = loga x1 + loga x2 
+
+loga 
+
+  = loga x1 – loga x2 
+
+loga (xn) 
+
+= n  loga x  
+
+mit x ; x1 ; x2   + \ {0} ; a   + \ {0;1} ; n  
+
+Lehrbeispiel 10 
+
+Formen Sie mithilfe der Logarithmengesetze die Terme um! 
+
+10.1  lg (a2 b c4) 
+
+10.2  lg 
+
+10.3  lg 
+
+Lösung 
+
+Lehrbeispiel 10.1 
+
+lg (a2 b c4) = 2 lg a + lg b + 4 lg c 
+
+Lehrbeispiel 10.2 
+
+lg 
+
+ = lg 1 – (2 lg x + 2 lg y) 
+
+ = lg 1 – 2 lg x – 2 lg y 
+
+Lehrbeispiel 10.3 
+
+lg 
+
+  = lg 1 – (1/2 lg a + 1/2 lg b) 
+
+= lg 1 – 1/2 lg a – 1/2 lg b 
+
+Lehrbeispiel 11 
+
+Fassen Sie zu einem Logarithmus zusammen! 
+
+11.1  3 lg a + 2 lg b 
+
+11.2  lg x3 – 2 lg 
+
+120 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+21xx()xlogn1xlogana=22yx1ab122yx1ab1x1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösung 
+
+Lehrbeispiel 11.1 
+
+3 lg a + 2 lg b = lg (a3  b2) 
+
+Lehrbeispiel 11.2 
+
+lg x3 – 2 lg 
+
+  = lg 
+
+= lg 
+
+= lg x5 
+
+Tritt  die  Lösungsvariable  in  einer  Gleichung  unter  dem  Logarithmus  auf,  heißt  die 
+Gleichung logarithmische Gleichung. 
+
+Da  der  Logarithmus  nur  für  positive  Zahlen  definiert  ist,  muss  zunächst  die  Definiti-
+onsmenge D bestimmt werden. 
+
+Lehrbeispiel 12 
+
+Bestimmen Sie die Lösungsmenge! 
+
+log2 (x – 3) = –1 
+
+Lösung 
+
+log2 (x – 3) = –1   
+
+Definitionsmenge D: x – 3  0 
+x  3 
+D = { x   + | x  3 } 
+
+Den Logarithmus kann man dadurch beseitigen, indem man die Basis (hier: 2) mit ihm 
+potenziert. 
+
+ = 2–1 
+
+x – 3  = ½ 
+
+x  = 3½ 
+
+L = {3½} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+121 
+
+x123x1x23x:1x)3x(log22− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 13 
+
+Lösen Sie die Gleichung nach x auf! 
+
+lg x + lg (x – 3) = 1 
+
+Lösung 
+
+lg x + lg (x – 3) = 1 
+
+D = {x   + | x  3} 
+
+Summen  oder  Differenzen  von  Logarithmen  lassen  sich  mithilfe  der  Logarithmenge-
+setze zu einem Logarithmus zusammen fassen. 
+
+lg [x  (x – 3)]  = 1 
+lg (x2 – 3x) 
+= 1 
+
+Der Zehnerlogarithmus von 10 ist 1: 
+
+x2 – 3x = 10 
+x2 – 3x – 10 = 0 
+
+x1 = 1,5 + 
+
+x1 = 5 
+
+L = {5} 
+
+Lehrbeispiel 14 
+
+x2 = 1,5 – 
+
+x2 = –2 
+
+x2  D 
+
+Lösen Sie die logarithmische Gleichung nach x auf! 
+
+lg x + 1/3 lg 8 = 1/2 lg 4 
+
+Lösung 
+
+lg x + 1/3 lg 8 = 1/2 lg 4 
+
+D = {x   +;x  0} 
+
+lg (x  81/3) = lg 41/2 
+
+lg 2x = lg 2 
+2x = 2 
+x = 1 
+
+Probe: lg 1 + 1/3 lg 8 = 1/2 lg 4 
+
+0 + 0,3010 = 0,3010 (w) 
+
+122 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+1025,2+1025,2+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 15 
+
+Lösen Sie die Gleichung! Lösungsvariable ist x! 
+
+lg x – 1/2 lg (m + n) = –1/2 lg (m – n) 
+
+Lösung 
+
+lg x – 1/2 lg (m + n) = –1/2 lg (m – n) 
+
+= 
+
+x = 
+
+Lehrbeispiel 16 
+
+Bestimmen Sie die Lösungsmenge!  
+
+xlg x = 10 
+
+Lösung 
+
+xlgx = 10 
+
+D =  + 
+
+Hier tritt die Lösungsvariable x sowohl in der Basis als auch im Exponenten auf. Daher 
+muss die Gleichung logarithmiert werden. 
+
+lg xlg x = lg 10 
+
+lg x  lg x = 1 
+
+(lg x)2 = 1 
+
+lg x = 1  lg x = –1 
+
+x1 = 10 
+
+x2 = 0,1 
+
+Probe für x1 = 10 
+
+L = {10;0,1} 
+
+xlg x = 10 
+101 = 10 (w) 
+
+für x2 = 0,1 
+
+0,1lg 0,1 = 10 
+0,1–1 = 10 
+
+(w) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+123 
+
+()21)nm(lgnmxlg2/1−−=+nm1lgnmxlg−=+nmx+nm1−nmnmnmnm−+=−+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+5.2 Exponentialgleichungen 
+
+Eine Gleichung heißt algebraisch, wenn sie in die Polynomform 
+
+anxn + an – 1 xn – 1 + ... a1x + a0 = 0  
+
+umgeformt  werden  kann.  Tritt  die  Lösungsvariable  im  Exponenten  einer  Potenz  auf, 
+gelingt dies nicht. Diese Gleichungen nennt man transzendente Gleichungen. 
+
+Lehrbeispiel 1 
+
+Bestimmen Sie die Lösungsmenge! Runden Sie auf vier Nachkommastellen! 
+
+6x = 330 
+
+Lösung 
+
+Im ersten Lösungsschritt werden beide Seiten der Gleichung logarithmiert. 
+
+lg (6x) = lg 330 
+
+Nach den Rechengesetzen der Logarithmen ergibt sich im zweiten Lösungsschritt: 
+
+x lg 6 = lg 330 
+
+Im dritten Lösungsschritt wird die Gleichung nach x aufgelöst. 
+
+Probe: 
+
+63,2365 = 330 
+
+329,98  330 (w)   L = {3,2365} 
+
+Lehrbeispiel 2 
+
+Bestimmen Sie die Lösungsmenge! 
+
+2  1,5x = 100 
+
+Lösung 
+
+Probe: 
+
+2  1,59,6482 = 100  
+
+99,998  100 (w)   L = {9,6482} 
+
+124 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+2365,36lg330lgx=6482,95,1lg50lgx5,1lg|:50lg5,1lgx50lg)5,1(lg505,12:|1005,12xxx===== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 3 
+
+Bestimmen Sie die Lösungsmenge! 
+
+0,5x – 1 = 20 
+
+Lösung 
+
+Die Differenz im Exponenten x – 1 zur Basis 0,5 bedeutet umgeschrieben: 
+
+0,5x : 0,5   (Potenzgesetz: Subtraktion der Exponenten). 
+
+Demnach kann die Gleichung auch so geschrieben werden: 
+
+Probe: 
+
+0,5–3,3219 – 1 = 20   
+
+0,5–4,3219 = 20 
+
+19,99  20 (w)   L = {–3,3219} 
+
+Lehrbeispiel 4 
+
+Lösen Sie die Exponentialgleichung! 
+
+8x+5  3x – 5 = 25 
+
+Lösung 
+
+´ 
+
+Probe: 
+
+8–0,5303 + 5  3–0,5303 – 5 = 25 
+
+84,467  3–5,5303 = 25 
+
+24,8587  25 (w)   L = {–0,5303} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+125 
+
+3219,3x5,0lg|:10lg5,0lgx10lg)5,0(lg105,02|:205,02205,05,01xxxx−=====()5303,03lg8lg3lg58lg525lgx3lg58lg525lg3lg8lgx3lg58lg525lg3lgx8lgx25lg3lg53lgx8lg58lgx25lg3lg)5x(8lg)5x(25lg)3(lg)8(lg25385x5x5x5x−++−=+−=++−=+=−++=−++=+=−+−+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 5 
+
+Bestimmen Sie die Lösungsmenge! 
+
+2x+1 + 2x+2 = 3 
+
+Lösung 
+
+Da hier auf der linken Seite der Gleichung eine Summe vorliegt, kann nicht direkt lo-
+garithmiert  werden.  Im  ersten  Lösungsschritt  muss  zunächst  die  Summe  beseitigt 
+werden. 
+
+Probe: 
+
+2–1+1 + 2–1+2 = 3 
+
+1 + 2 = 3 (w)   L = {–1} 
+
+Lehrbeispiel 6 
+
+Lösen Sie die Gleichung!  
+
+32x+1 – 2x+1 = 2x+2 – 9x+1 
+
+Lösung 
+
+Auch  wenn  die  Potenzen  unterschiedliche  Basen  haben,  sind  zunächst  einmal  die 
+Summen zu beseitigen. Im ersten Lösungsschritt müssen die Basen aber noch verein-
+facht werden. 
+
+32x+1 – 2x+1 = 2x+2 – 9x+1 
+
+32x+1 – 2x+1 = 2x+2 – (32)x+1 
+
+Im zweiten Lösungsschritt werden die Gleichungsseiten je nach Basis geordnet. 
+
+32x+1 + (32)x+1 = 2x+2 + 2x+1 
+
+32x+1 + 32x+2 = 2x+2 + 2 x+1 
+
+32x  3 + 32x  32 = 2x  22 + 2x  2 
+
+Aus den Summen werden wieder Produkte gemacht. 
+
+32x (3 + 32) = 2x (22 + 2) 
+
+12  32x = 6  2x   | : 6 
+
+126 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+12lg2/1lgx2/1lg2lgx2/1lg)2(lg2/126|:3)42(232222322xxx2xx2x1x−======+=+=+++ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+2  32x = 2x 
+
+Jetzt kann die Gleichung logarithmiert werden. 
+
+lg 2 + 2x lg 3 = x lg 2 
+
+2x lg 3 – x lg 2 = –lg 2 
+
+x (2 lg 3 – lg 2) = –lg 2 
+
+L = {–0,461} 
+
+Lehrbeispiel 7 
+
+Bestimmen Sie die Lösungsmenge!  
+
+3x + 31 – x – 4 = 0 
+
+Lösung 
+
+Hier wird deutlich, dass die Summe nicht beseitigt werden kann. Es wird eine Substi-
+tution durchgeführt. 
+
+3x = u 
+
+Dann ergibt sich folgende Gleichung: 
+
+Die Substitution wird nach Lösen der quadratischen Gleichung rückgängig gemacht. 
+
+Probe:  für x1 = 1 
+
+31 + 30 – 4 = 0 
+
+3 + 1 – 4 = 0 (w) 
+
+für x2 = 0 
+
+30 + 31 – 4 = 0 
+
+1 + 3 – 4 = 0 (w)   L = {1; 0} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+127 
+
+461,02lg3lg22lgx−−−=043330433xxx1x=−+=−+−0u43uu|04u3u2=−+=−+3u342u11=−+=1u342u22=−−=1x331x1==0x132x2== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lehrbeispiel 8 
+
+Ein Kapital von 10000 € wird jährlich zu einem Zinssatz von 3,5 % verzinst. Die Zinsen 
+werden  jeweils  am  Ende  eines  Jahres  gut  geschrieben  und  im  folgenden  Jahr  mit 
+verzinst. 
+
+Berechnen Sie, nach wie vielen Jahren sich das Anfangskapital verdoppelt hat! 
+
+Lösung 
+
+Antwort:  Nach ca. 20 Jahren hat sich das Anfangskapital verdoppelt. 
+
+Lehrbeispiel 9 
+
+Berechnen  Sie,  nach  wie  vielen  Jahren  noch  ein  Zehntel  der  Ausgangsmenge  von 
+500 Milligramm vom radioaktiven Stoff Polonium 210 vorhanden ist! Die Halbwertszeit 
+beträgt 138 Tage. 
+
+Lösung 
+
+Ausgangsmenge  N0 = 500 mg 
+
+Halbwertszeit 
+
+T = 138 Tage 
+
+Restmenge 
+
+N(t) = 50 mg 
+
+Antwort:  Nach  ca.  459  Tagen  ist  noch  eine  Restmenge  von  50 mg  Polonium 210 
+
+vorhanden. 
+
+128 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+€20000K€10000Kn0==15,20n035,1lg10000lg20000lgqlgKlgKlgnqlg|:KlgKlgqlgnKlgKlg)q(lgKKqK|:qKK0n0n0nn0nn0non−=−=−=−===322,3T/t5,0lg500lg50lgT/t5,0lgNlgNlgT/t5,0lg|:NlgNlg5,0lgT/t)N/N(lg)5,0(lgNN5,0N|:5,0NN0)t(0)t(0)t(T/t0)t(T/t0T/t0)t(−=−=−====436,458tT322,3t== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 1  
+
+Formen Sie die Exponentialgleichung mithilfe von Logarithmen um! 
+
+Aufgaben 
+
+1.1  ay = 100 
+1.2  3x = 81 
+
+Aufgabe 2 
+
+Formen Sie in eine Exponentialgleichung um! 
+
+2.1  1 = log 5 5 
+
+2.2  y = log a b 
+
+Aufgabe 3 
+
+Bestimmen Sie den Logarithmus! 
+
+3.1  y = log 8 64 
+
+3.2 
+
+log 4 256 
+
+3.3 
+
+log 0,4 0,16 
+
+3.4 
+
+log 1/2 2 
+
+3.5 
+
+Aufgabe 4 
+
+Formen Sie mithilfe der Logarithmengesetze um! 
+
+4.1 
+
+4.2 
+
+4.3 
+
+4.4 
+
+Aufgabe 5 
+
+Fassen Sie zu einem Logarithmus zusammen! 
+
+5.1  5 lg p – 2 lg q 
+5.2  1/5 lg (xy) – 3/4 lg (x2y) 
+
+Aufgabe 6 
+
+Bestimmen Sie die Lösungsmenge! 
+
+6.1  1/3 lg 4 + 2 lg x = 1/3 lg 16 
+
+6.2 
+
+lg (p – q) = lg (p2 – q2) – 1/2 lg x 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+129 
+
+5216log)b/a(lg2)q3/1(lg253balg322c/balg 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 7 
+
+Bestimmen Sie den Logarithmus mithilfe des Zehnerlogarithmus! 
+
+7.1 
+
+7.2 
+
+log 8 36 
+
+log 2 10 
+
+Aufgabe 8 
+
+Bestimmen Sie die Lösungsmenge! 
+
+8.1  1,5x = 32 
+
+8.2  4  3,8x = 160 
+8.3  3x+2 – 3x = 8 
+8.4  5x + 6x = 6x+1 
+
+8.5  4x – 2 + 4  42 – x = 5 
+
+Aufgabe 9 
+
+Berechnen Sie, nach wie vielen Jahren noch eine Restmenge von 1 Milligramm Pluto-
+nium 238 einer Anfangsmenge von 10 mg vorhanden ist! 
+
+Plutonium hat eine Halbwertszeit von 86 Jahren. 
+
+Realisierung  
+Komplexaufgabe 
+„Bevölkerungs-
+wachstum“ 
+
+In der Tabelle ist die Bevölkerungsentwicklung eines Landes dargestellt. Legen Sie für 
+die  Berechnungen  die  Annahme  zu  Grunde,  dass  die  Bevölkerungsentwicklung  mit 
+einer Exponentialfunktion der Form f(x) = k ax beschrieben werden kann. 
+
+1.1  Berechnen Sie die Funktionsgleichung für das Bevölkerungswachstum! 
+
+1.2  Berechnen Sie, um wie viel Prozent die Bevölkerung jährlich gewachsen ist! 
+
+1.3  Berechnen Sie die Einwohnerzahlen für die Jahre 2010 und 2020 bei gleichblei-
+
+bender Zuwachsrate! 
+
+Jahr 
+
+Bevölkerung 
+
+1980 
+
+5 650 000 
+
+1985 
+
+6 268 696 
+
+1990 
+
+6 955 140 
+
+1995 
+
+7 716 754 
+
+2000 
+
+8 561 766 
+
+130 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Lösungsanhang  
+
+1 Quadratische Funktionen 
+
+Aufgabe 1.1 
+
+S(–3;4) 
+
+f(x) = (x + 3)2 + 4 
+f(x) = x2 + 6x + 13 
+
+Funktion hat keine Nullstellen! 
+
+Kontrollzeichnung: 
+
+Lösungen 
+
+Aufgabe 1.2 
+
+S(–1;–1) 
+
+f(x) = (x + 1)2 – 1 
+f(x) = x2 + 2x 
+
+x(x + 2) = 0 
+
+x1 = 0 
+
+x2 = –2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+131 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Kontrollzeichnung: 
+
+Aufgabe 2 
+
+ f(x) = (x – 30)2 – 21 
+–12 = (27 – 30)2 – 21 
+–12 = 9 – 21 
+
+P(27;–12) 
+
+(w) 
+
+Der Punkt P liegt auf dem Grafen der Funktion. 
+
+Q(30;–21) 
+
+–21 = (30 – 30)2 – 21 
+
+–21 = 0 – 21 
+
+(w) 
+
+Der Punkt Q liegt auf dem Grafen der Funktion. 
+
+Aufgabe 3.1 
+
+f(x) = x2 + 0,5x + 1,5 
+f(x) = (x + 0,25)2 + 1,4375 
+
+An der Stelle x = –0,25 nimmt die Funktion mit f(x) = 1,4375 den kleinsten Wert an. 
+
+Aufgabe 3.2 
+
+f(x) = x2 – 2,5x + 6,25 
+f(x) = (x – 1,25)2 + 4,6875 
+
+An der Stelle x = 1,25 nimmt die Funktion mit f(x) = 4,6875 den kleinsten Wert an. 
+
+132 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 4.1 
+
+f(x) = –2x2 + 4x + 6 
+f(x) = –2(x2 – 2x) + 6 
+f(x) = –2(x – 1)2 + 8 
+
+Der Scheitelpunkt hat die Koordinaten S(1; 8). 
+
+Aufgabe 4.2 
+
+f(x) = –1/2x2 – x – 5/4  
+f(x) = –1/2 (x2 + 2x) – 5/4 
+f(x) = – 1/2 (x + 1)2 – 3/4 
+
+Der Scheitelpunkt hat die Koordinaten S(–1;–3/4). 
+
+Aufgabe 5 
+
+m + n = 12 
+
+m  n = m (12 – m) 
+m  n = 12 m – m2 
+–(m2 – 12 m) = m  n 
+–[(m – 6)2 – 36] = m  n 
+–(m – 6)2 + 36 = m  n 
+
+n = 12 – m 
+
+S(6;36) 
+
+Bei m = 6 und n = 6 wird das Produkt am größten: 6  6 = 36. 
+
+Aufgabe 6.1 
+
+x2 – 16/25 = 0 
+
+L = {4/5;–4/5} 
+
+Aufgabe 6.2 
+
+2,5x2 – 12,5 = 0 
+x2 = 5 
+
+L = {
+
+} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+133 
+
+5/425/16x1==5/425/16x2−=−=5x1=5x2−=5;5− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 6.3 
+
+1/3x2 + 2/3x = 0 
+
+x1 = 0 
+
+x2 = –2 
+
+L = {0;–2} 
+
+Aufgabe 6.4 
+
+x2 + 0,2x + 0,01 = 1,69 
+(x + 0,1)2 = 1,69 
+
+ x1 = 1,2 
+
+ x2 = –1,4 
+
+L = {1,2;–1,4} 
+
+Aufgabe 6.5 
+
+1/2x2 + 4x = –8 
+x2 + 8x = –16 
+(x + 4)2 = 0 
+x = –4 
+
+L = {–4} 
+
+Aufgabe 7.1 
+
+x2 + 0,5x = 0,36 
+
+x2 + 0,5x – 0,36 = 0 
+
+p = 0,5 
+
+q = –0,36  D  0 : 2 Lösungen 
+
+ x2 = –0,9  
+
+ x1 = 0,4 
+
+L = {0,4;–0,9} 
+
+Aufgabe 7.2 
+
+x2 + 5x + 6,25 = 0 
+
+p = 5  
+
+q = 6,25  D = 0 : 1 Lösung 
+
+x = –2,5 
+
+L = {–2,5} 
+
+Aufgabe 7.3 
+
+x2 – 2,5x = –2 
+x2 – 2,5x + 2 = 0   
+L = { } 
+
+p = –2,5 
+
+q = 2  
+
+D  0 : keine Lösung 
+
+134 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+032x31x=+69,11,0x1+−=69,11,0x2−−=36,00625,025,0x1++−=36,00625,025,0x2+−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 8.1 
+
+0,4x2 – 5x = –10 
+0,4x2 – 5x + 10 = 0 
+
+L = {10;2,5} 
+
+Aufgabe 8.2 
+
+4(x + 3) (x – 2) = 7(x + 4) (x – 3) 
+3x2 + 3x – 60 = 0 
+
+L {4;–5} 
+
+Aufgabe 9.1 
+
+  D = 
+
+ \ {0} 
+
+x(x – 5) – (x + 8) 3 + 24 = 0 
+x2 – 8x = 0 
+x1 = 0 
+
+x2 = 8 
+
+L = {8} 
+
+Aufgabe 9.2 
+
+3(2x2 – 5x + 2) + 3(–7x2 + 8x + 44) – 6x + 6 = 0 
+–15x2 + 3x + 144 = 0 
+
+x1 = 3,2 
+
+x2 = –3 
+
+L = {3,2;–3} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+135 
+
+a2ac4bbx21−+−=a2ac4bbx22−−−=8,016255x1−+=8,016255x2−−10x1=5,2x2=672093x1++−=672093x2+−−=4x1=5x2−=0x8x8x35x=++−−0)4x(36x62xx7222x1x2012x36x6x2x7222x1x222=−−−−−++−=−−−−−−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 10.1 
+
+L = {–2;5}  (x + 2) (x – 5) = 0 
+
+p = –(x1 + x2) 
+
+Normalform: x2 – 3x – 10 = 0 
+
+= –2  5 = –10 
+
+p = – (–2 + 5) = –3 
+
+q = x1  x2 
+
+Aufgabe 10.2 
+
+L = {4} 
+
+(x – 4) (x – 4) = 0 
+
+p = –8 
+q = 16 
+
+Normalform: x2 – 8x + 16 = 0 
+
+Aufgabe 11 
+
+D = {r 
+
+;r  0} 
+
+r2 = (1/2r + 1,5)2 + 32 
+0 = r2 – 2r – 15 
+
+r = 1 + 
+
+s = 8 
+
+ = 5 
+
+Der Radius r beträgt 5 cm, die Sehne ist 8 cm lang. 
+
+Aufgabe 12 
+
+f(x) = 1/4x2 + 1/2x – 2 
+
+ x1 = 2 
+
+L = {2;–4} 
+
+ x2 = –4 
+
+für x = 0: f(x) = –2 
+
+Aufgabe 13 
+
+x2 – 1/2x – 1/2 = 0 
+x2 = 1/2x + 1/2 
+
+f(x) = x2 
+
+g(x) = 1/2x + 1/2 
+
+136 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+151+4/224/12/1x1++−=4/224/12/1x2+−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 14 
+
+f(x) = x2 + 3x – 3 
+
+g(x) = –2,5x + 2,5 
+
+f(x) = g(x) 
+x2 + 5,5x – 5,5 = 0 
+
+x1 = 0,864 
+
+x2 = –6,36 
+
+P: x1 = 0,864 
+
+g(x) = –2,5  0,864 + 2,5 = 0,34 
+
+P(0,864 ; 0,34) 
+
+Q: x2 = –6,36 
+
+g(x) = –2,5  (–6,36) + 2,5 = 18,4 
+
+Q(–6,36 ; 18,4) 
+
+Aufgabe 15 
+
+f(x) = –0,5x2 – 4x – 6 
+f(x) = g(x) 
+–2,5x2 – 16x – 20 = 0 
+x1 = –1,7 
+
+g(x) = 2x2 + 12x + 14 
+
+x2 = –4,7 
+
+P: x1 = –1,7 
+
+  x2 = –4,7 
+
+g(x) = 2 (–1,7)2 + 12(–1,7) + 14 = –0,62 
+g(x) = 2 (–4,7)2 + 12 (–4,7) + 14 = 1,78 
+
+P(–1,7;–0,62) 
+
+Q(–4,7;1,78) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+137 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 16 
+
+g(x) = x2 – 2x + 2 
+
+für P(0; ) 
+
+für Q(5; ) 
+
+g(0) = 2 
+g(5) = 52 – 2  5 + 2 = 17 
+
+P(0;2) 
+
+Q(5;17) 
+
+für P : 
+
+2 = 3  0 + c 
+2 = c 
+
+2 Wurzelfunktionen 
+
+Aufgabe 1.1 
+
+f(x) = 
+
+y = 
+
+y2 = 4x 
+
+x = 
+
+f–1(x) = 1/4 x2 
+
+Aufgabe 1.2 
+
+f(x) = – 
+
+y4 = x 
+y = x4 
+f–1(x) = x4 
+
+Aufgabe 2.1 
+
+  D = {x  
+
+ ; x  
+
+} 
+
+(
+
+ = (2 – x)2 
+
+x2 = 9 
+
+x1 = 3 
+
+x2 = –3 
+
+Probe: 
+für x1 = 3  
+
+für x2 = –3 
+L = {–3} 
+
+ + 3 = 2 
+
+(f) 
+
+ – 3 = 2 
+
+(w) 
+
+138 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+cmx)x(fc+=305217xxyym1212=−−=−−=cx3)x(fc+=2x3)x(fc+=x2x24y24x44)]x([y41−=2x 4x13=+−4132)4x13−1213−1213+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 2.2 
+
+ + 
+
+ = 4  D = { x  
+
+ ; x  2 } 
+
+(
+
+)2  = (4 –
+
+)2  
+
+1 = 
+
+x = 3 
+
+Probe: 
+
+L = {3} 
+
+Aufgabe 2.3 
+
+ + 
+
+ = 
+
+(w) 
+
+x + 2
+
+(2
+
+ + x+3 = x + 8 
+
+)2 = (5 – x)2  
+
+3x2 + 22x – 25 = 0 
+
+x1 = 1 
+
+x2 = –
+
+  x2  D 
+
+(w) 
+
+Probe: 
+
+L = {1} 
+
+Aufgabe 2.4 
+
+4 (x + 1) – 12
+
+ + 9 (x – 6) = x – 14  
+
+x – 3 = 
+
+x2 – 6x + 9 = x2 – 5x – 6 
+
+x = 15 
+
+Probe:  
+
+2
+
+– 3
+
+ = – 
+
+(w)  
+
+L = {15} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+139 
+
+6x+2x−6x+2x−2x−423 63=−++x3x+8x+x3x+x3x+65081311+=++14x6x31x2−−=−−+1x+6x−1x+6x−115+615−1415− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 2.5 
+
+D = {x  
+
+;0 < x; x  25} 
+
+4
+
+ – 4 (5 – 
+
+) (5 – 
+
+) – 15
+
+ (5 – 
+
+) = 0 
+
+4x – 4 (25 – 10
+
+ + x) – 75 
+
+ + 15x = 0  
+
+15x – 100 – 35
+
+ = 0 
+
+9x2 – 169x + 400 = 0 
+
+x1 = 
+
+x1 = 16 
+
+x2 = 25/9 
+
+L = {16} 
+
+Aufgabe 2.6 
+
+  D = 
+
+x2 – 1 = x2 – 2x + 1 
+  2x = 2 
+
+x = 1  
+L = {1} 
+
+Aufgabe 3.1 
+
+a + x = a + b + 2
+
+ + b – x  
+
+x  –a ; x  b 
+
+x2 – bx + ax – ab = 0 
+x2 + x (a – b) – ab = 0 
+
+x1,2 = 
+
+x1 = b 
+
+L = {b} 
+
+x2 = –a 
+
+Aufgabe 3.2 
+
+x (a + b) = a2 – b2 
+x = a – b  
+
+L = {a – b} 
+
+D = {x  
+
+;x  0} 
+
+140 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+015x)x5(4x5x4=−−−−xxxxxxxxx181416128561169−+1x1x2−=−xbbaxa−=+−+xbba−+222ab4)ba(2ba+−+−22bax)ba(−=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+ – 12  = 3 
+
+ = 2 
+
+– 7 
+
+– 5 
+
+ + 11 
+
+Aufgabe 4 
+
+ 4 
+
+ 3 
+
+ 4 
+
+(I) 
+
+(II) 
+
+(I) 
+
+(II) 
+
+(I) 
+
+12 
+
+(II) 
+
+(III)  13 
+
+ + 4
+
+ – 3
+
+ + 9
+
+ – 9
+
+ + 9
+
+ = 5        |  3 
+
+ = 11 
+
+ = 15 
+
+ = 11 
+
+= 26 
+
+ = 2 
+x = 4 
+
+In (I) 
+
+4 
+
+ – 12 = 3 
+
+– 7 
+
+ = 1 
+
+y = 1 
+
+L = {4; 1}  
+
+3 Potenzfunktionen 
+
+Aufgabe 1.1 
+
+f(x) = x4 
+
+P(–2; ) 
+
+f(–2) = (–2)4 = 16 
+
+P(–2;16) 
+
+Q( ;81) 
+
+81 = x4 
+
+81 = 34 
+
+Q(3;81) 
+
+oder 
+
+Q(−3;81) 
+
+Aufgabe 1.2 
+
+f(x) = x7 
+
+P(–3;–2187) 
+
+Q(–1;–1) 
+
+Aufgabe 1.3 
+
+f(x) = x–6  P(–2;0,015625) 
+
+Q(0,5;64)   oder 
+
+Q(−0,5;64) 
+
+Aufgabe 1.4 
+
+f(x) = x–5  P(0,5;32) 
+
+Q(0,25;1024) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+141 
+
+xyxyxyxyxyxyxyxx4yy 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 2 
+
+f(x) = x4 
+
+f(1,5) = 1,54 = 5,0625   
+
+g(x) = 3,375 x 
+
+Aufgabe 3.1 
+
+4x5 + 3x5 = 7x5 
+
+Aufgabe 3.2 
+
+6 (x – y)k – 5 (x – y)k = (x – y)k 
+
+Aufgabe 3.3 
+
+1 + x3 – 0,4 + 2x3 – 1/4x3 = 0,6 + 2 3/4x3 
+
+Aufgabe 3.4 
+
+atn + tn = tn (a + 1) 
+
+Aufgabe 4.1 
+
+x3  x4 = x7 
+
+Aufgabe 4.2 
+
+ex  ex = e2x 
+
+142 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+375,35,10625,5xym=== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 4.3 
+
+s5 : s3 = s2 
+
+Aufgabe 4.4 
+
+zn+1  zn = z2n+1 
+
+Aufgabe 4.5 
+
+bx : bx – 1 = b 
+
+Aufgabe 5.1 
+
+ = 40 r3 s–4 
+
+Aufgabe 5.2 
+
+Aufgabe 5.3 
+
+(zn+3 – 3zn – zn – 3) : z–3 = zn+6 – 3zn+3 – zn 
+
+Aufgabe 5.4 
+
+ : 
+
+ = 
+
+Aufgabe 6.1 
+
+ + 
+
+ =
+
+Aufgabe 6.2 
+
+ = 
+
+= 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+143 
+
+4,1rsrsr5623112−−−zzzzz2pq2:pqq2p:qp−−−==()1222bazyx−−()()1bayx22−2663zyxa175xx1−2x17755x1xxx1=+−10108855x22x5x32x3x22x3−−−++1025x66x4x6+−1025x33x2x3+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 7.1 
+
+ = 100 
+
+Aufgabe 7.2 
+
+= 
+
+Aufgabe 7.3 
+
+= 7 
+
+Aufgabe 7.4 
+
+= 2 
+
+Aufgabe 7.5 
+
+= 4 
+
+Aufgabe 8.1 
+
+31/2 = 
+
+Aufgabe 8.2 
+
+2–3/4 = 
+
+Aufgabe 8.3 
+
+y– 0,2 = 
+
+Aufgabe 9.1 
+
+= 61/3 
+
+Aufgabe 9.2 
+
+= a–2/3 
+
+144 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+36104810−1001557()332()42343215y13632a1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 9.3 
+
+= n–2/x 
+
+Aufgabe 10.1 
+
+Aufgabe 10.2 
+
+Aufgabe 10.3 
+
+Aufgabe 10.4 
+
+Aufgabe 10.5 
+
+Aufgabe 11.1 
+
+Aufgabe 11.2 
+
+Aufgabe 11.3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+145 
+
+x2n14386ss=541082121=5k15k3x1x1=101004=510462525=12734666=33325:10=6322= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 11.4 
+
+3–1/2  (2/3)–1/2 = 
+
+Aufgabe 11.5 
+
+(3–3/4)–4/5 = 
+
+Aufgabe 12.1 
+
+Aufgabe 12.2 
+
+Aufgabe 12.3 
+
+ =
+
+Aufgabe 12.4 
+
+ = 
+
+Aufgabe 13.1 
+
+8 x3 + 27 = 0 
+
+x3 = – 27/8   
+
+x = – 
+
+x = – 3/2 
+
+L = {– 3/2} 
+
+Aufgabe 13.2 
+
+103  x5 = 10–2 
+
+x5 = (1/10)5 
+
+x = 1/10 
+
+L = {1/10) 
+
+146 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+2/15273323xxx1=n2naa=433bbb12b()()22nn52:101n2n2555−=3827 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+4 Exponentialfunktionen 
+
+P(–1;4) 
+
+P(0;0,5) 
+für P: 0,5 = k a0 
+k = 0,5 
+
+Q(2;0,02) 
+für Q: 0,02 = 0,5 a2 
+
+a = 0,2 
+
+Aufgabe 1 
+
+f(x)  = ax 
+  4  = a– 1 
+
+  a  = 1/4 
+f(x)  = (1/4)x 
+
+Aufgabe 2 
+
+f(x) = k ax 
+
+f(x) = 0,5  0,2x 
+
+Aufgabe 3 
+
+Kn = K0  qn = 100000  1,078 = 171 818,62 
+
+Antwort:  Das Guthaben beträgt nach 8 Jahren 171 818,62 €. 
+
+Aufgabe 4 
+
+N(t) = N0  0,5t/T = 50  0,5365/18  3,93  10–5 mg 
+
+Antwort:  Es sind noch ca. 39,3 ng vorhanden. 
+
+Aufgabe 5 
+
+p = p0  (1/2)h/5,5 = 1000  0,52963/5500 = 688,4 
+
+Antwort:  Der Luftdruck auf der Zugspitze beträgt ca. 688,4 hPa. 
+
+Aufgabe 6 
+
+Antwort:  Der Strom beträgt etwa 22,3 A. 
+
+5 Logarithmusfunktionen 
+
+Aufgabe 1.1 
+
+ay = 100 
+
+loga 100 = y 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+147 
+
+A3,22eM1V100eRUUeiiT/T5,1T/t10T/t0)t(==−==−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 1.2 
+
+3x = 81 
+
+log3 81 = x 
+
+Aufgabe 2.1 
+
+1 = log 5 5 
+
+51 = 5 
+
+Aufgabe 2.2 
+
+y = log a b 
+
+ay = b 
+
+Aufgabe 3.1 
+
+y = log 8 64 
+
+8y = 64 
+
+y = 2 
+
+Aufgabe 3.2 
+
+log 4 256 = x 
+
+4x = 256 
+
+x = 4 
+
+log 4 256 = 4 
+
+Aufgabe 3.3 
+
+log 0,4 0,16 = x  0,4x = 0,16  x = 2 
+
+log 0,4 0,16 = 2 
+
+Aufgabe 3.4 
+
+log 1/2 2 = x 
+
+(1/2)x = 2 
+
+x = –1 
+
+log 1/2 2 = –1 
+
+Aufgabe 3.5 
+
+  2x = 24/5 
+
+x = 4/5 
+
+Aufgabe 4.1 
+
+lg (a2/b) = 2 lg a – lg b 
+
+Aufgabe 4.2 
+
+lg (1/3 q2) = lg 1 – lg 3 – 2 lg q 
+
+Aufgabe 4.3 
+
+lg
+
+= 3/2 lg a + 5/2 lg b 
+
+Aufgabe 4.4 
+
+148 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+x16log52=5/416log52=53baclg3/2blg3/1alg3/2c/balg322−+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 5.1 
+
+5 lg p – 2 lg q = lg (p5/q2) 
+
+Aufgabe 5.2 
+
+1/5 lg (xy) – 3/4 lg (x2y) =
+
+Aufgabe 6.1 
+
+ 1/3 lg 4 + 2 lg x = 1/3 lg 16 
+
+2 lg x = 1/3 lg 16 – 1/3 lg 4 
+
+lg x = 1/2 lg 
+
+lg x = 
+
+x = 
+
+Aufgabe 6.2 
+
+Aufgabe 7.1 
+
+log 8 36 =  
+
+  log a x = lg x / lg a 
+
+log 8 36 = lg 36 / lg 8  1,7233 
+
+Aufgabe 7.2 
+
+log 2 10  3,3219 
+
+Aufgabe 8.1 
+
+1,5x = 32 
+
+x lg 1,5 = lg 32 
+
+x  8,55 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+149 
+
+4365yx/xylg3464lg64222222)qp(x)qp(lgxlgqpqplgxlg2/1xlg2/1)q(plgq)(plg+=+=−−=−−=− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Aufgabe 8.2 
+
+ 4  3,8x  = 160 
+
+3,8x  = 40 
+
+ x lg 3,8  = lg 40 
+
+x   2,76 
+
+Aufgabe 8.3 
+
+  3x+2 – 3x = 8 
+
+ 3x  32 – 3x = 8 
+3x = 1 
+
+x = 0 
+
+Aufgabe 8.4 
+
+Aufgabe 8.5 
+
+ u1 = 64    u2 = 16    x1 = 3    x2 = 2    L = {3; 2} 
+
+Aufgabe 9 
+
+Antwort:  Nach ca. 285,7 Jahren sind noch 1 mg Plutonium 238 vorhanden. 
+
+150 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+83,8x6/5lg/5lgx5656665665xxxxx1xxx−==−==++01024u80uu4:onSubstituti54444454442xx22xx22x=+−==+=+−−7,285tT3219,3t5,0lgN/NlgT/t5,0lgNNlg5,0NN0)t(T/t0)t(T/t0)t(==== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+Komplexaufgabe „Bevölkerungswachstum“ 
+
+Aufgabe 1.1 
+
+f(x)  = k ax 
+f(0)  = k a0 = 5 650 000 
+
+ 5 650 000  = k 
+
+f(x)  = k ax 
+f(20)  = k a20 
+
+f(20)  = 8 561 766 
+ 8 561 766  = 5 650 000 a20 
+
+a20  =
+
+a  =
+
+a  = 1,021 
+
+f(x)  = 5 650 000  1,021x 
+
+Aufgabe 1.2 
+
+a = 1,021 
+a = 1 + 0,021 
+
+Antwort:  Das jährliche Bevölkerungswachstum beträgt 2,1 %. 
+
+Aufgabe 1.3 
+
+Bevölkerungszahl im Jahr 2010 
+
+f(2010) = 5 650 000  1,02130 
+
+f(2010) = 10 539 517 
+
+Antwort: 
+
+Im Jahr 2010 wird die Bevölkerungszahl etwa 10 539 517 betragen. 
+
+f(2020) = 5 650 000  1,02140 
+
+f(2020) = 12 974 127 
+
+Antwort: 
+
+Im Jahr 2020 wird bei gleich bleibender Zuwachsrate die Bevölkerung auf 
+12 974 127 Einwohner gestiegen sein. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+151 
+
+000650576656182000065057665618 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen höherer Ordnung anwenden 
+
+152 
+
+© DAA-Technikum Essen / gs-21_00_math_lm3.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+

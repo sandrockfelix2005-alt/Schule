@@ -234,19 +234,19 @@
     <section class="view active" data-view="start">
       <div class="kicker">DAA-Technikum · Start Oktober 2026</div>
       <h1>Dein Lerntool für Bautechnik</h1>
-      <p class="lead">Alle Unterlagen des 1. Semesters an einem Ort: Zusammenfassungen (kompakt &amp; ausführlich), Karteikarten zum Umdrehen, Übungsaufgaben mit Lösung, ein durchsuchbares Lexikon und ein abhakbarer Lernplan. Läuft offline auf dem Handy.</p>
+      <p class="lead">Semester 1 ist <strong>komplett aufbereitet</strong> – alle Unterlagen an einem Ort: Zusammenfassungen (kompakt &amp; ausführlich), Karteikarten zum Umdrehen, Übungsaufgaben mit Lösung, ein durchsuchbares Lexikon und ein abhakbarer Lernplan. Läuft offline auf dem Handy.</p>
       <div class="cards-grid">
-        <div class="stat"><div class="num">4</div><div class="lbl">Module aufbereitet</div></div>
-        <div class="stat"><div class="num">87</div><div class="lbl">Karteikarten</div></div>
-        <div class="stat"><div class="num">37</div><div class="lbl">Übungsaufgaben</div></div>
-        <div class="stat"><div class="num">35</div><div class="lbl">Lexikon-Begriffe</div></div>
+        <div class="stat"><div class="num">7</div><div class="lbl">Module aufbereitet</div></div>
+        <div class="stat"><div class="num">148</div><div class="lbl">Karteikarten</div></div>
+        <div class="stat"><div class="num">82</div><div class="lbl">Übungsaufgaben</div></div>
+        <div class="stat"><div class="num">57</div><div class="lbl">Lexikon-Begriffe</div></div>
       </div>
       <h2>Die Fächer im 1. Semester</h2>
       <table>
         <tr><th>Fach</th><th>Module</th><th class="mono">Status</th></tr>
         <tr><td>Deutsch/Kommunikation</td><td>Fachbeschreibung, LM 1</td><td>LM 1 fertig</td></tr>
-        <tr><td>Mathematik I</td><td>LM 1–4, Formeln</td><td>LM 1, 2, 4 fertig</td></tr>
-        <tr><td>Naturwissenschaft</td><td>Fachbeschr., LM 1–2</td><td>Material folgt</td></tr>
+        <tr><td>Mathematik I</td><td>Fachbeschr., LM 1–4, Formeln</td><td>LM 1–4 fertig ✓</td></tr>
+        <tr><td>Naturwissenschaft</td><td>Fachbeschr., LM 1–2, Formeln</td><td>LM 1–2 fertig ✓</td></tr>
       </table>
       <p style="font-size:13.5px;color:var(--muted)">Oben kannst du das <strong>Semester (1–7)</strong> wählen. Semester 2–7 sind angelegt und warten auf Material – sobald du Dokumente hochlädst, erscheinen Zusammenfassungen, Karteikarten, Übungen und Lernplan dort automatisch. Das <strong>Lexikon</strong> gilt über alle Semester hinweg.</p>
       <div class="panel tip">
@@ -449,20 +449,155 @@ const FACH = {
    <ul><li><strong>Gegenstandsbeschreibung:</strong> Form/Größe/Material → Teile → Funktion.</li>
    <li><strong>Vorgangsbeschreibung:</strong> Schritte in richtiger Reihenfolge.</li>
    <li><strong>Bedienungsanleitung:</strong> Handlungsanweisungen (Imperativ/Infinitiv), Sicherheitshinweise.</li></ul>`}
+,
+ m3:{name:"Mathe LM3 – Funktionen höherer Ordnung",
+  k:`<ul>
+   <li><strong>Normalparabel</strong> f(x)=x², S(0|0). <strong>Scheitelpunktform</strong> f(x)=a(x−r)²+s → S(r|s).</li>
+   <li><strong>Allgemeine Form</strong> y=ax²+bx+c; a&gt;0 nach oben, a&lt;0 nach unten; c = y-Achsenabschnitt.</li>
+   <li><strong>Quadratische Ergänzung</strong> wandelt allgemeine Form → Scheitelpunktform.</li>
+   <li><strong>p-q-Formel:</strong> x₁,₂ = −p/2 ± √((p/2)²−q).</li>
+   <li><strong>Wurzelfunktion</strong> √x = Umkehrfunktion von x² (x ≥ 0).</li>
+   <li><strong>Potenzgesetze:</strong> aᵐ·aⁿ=aᵐ⁺ⁿ · (aᵐ)ⁿ=aᵐ·ⁿ · a⁻ⁿ=1/aⁿ · a^(1/n)=ⁿ√a.</li>
+   <li><strong>Exponentialfunktion</strong> f(x)=aˣ (Variable im Exponenten), geht durch (0|1).</li>
+   <li><strong>Logarithmus:</strong> log_a b = Exponent für a → b. lg/ln/ld. Basiswechsel log_a x = lg x / lg a.</li>
+   <li><strong>Exponentialgleichung</strong> durch Logarithmieren lösen.</li>
+  </ul>`,
+  a:`<h3>1 Quadratische Funktionen</h3>
+   <p><strong>Normalparabel</strong> f(x)=x²: Scheitelpunkt S(0|0), nach oben geöffnet, fällt links und steigt rechts vom Scheitel.</p>
+   <p><strong>Verschiebungen → Scheitelpunktform:</strong> f(x)=x²+s → S(0|s) · f(x)=(x−r)² → S(r|0) · <span class="formula">f(x)=a(x−r)²+s → S(r|s)</span>. Bsp: f(x)=(x−1)²+2 → S(1|2).</p>
+   <p><strong>Faktor a:</strong> a&gt;0 nach oben, a&lt;0 nach unten geöffnet; |a|&gt;1 steiler, |a|&lt;1 flacher.</p>
+   <p><strong>Allgemeine Form</strong> <span class="formula">y = ax² + bx + c</span> (a≠0); c ist der y-Achsenabschnitt.</p>
+   <p><strong>Quadratische Ergänzung</strong> (Lehrbeispiel): g(x)=1,5x²−6x+4,5 = 1,5(x²−4x)+4,5 = 1,5(x²−4x+4−4)+4,5 → <b>g(x)=1,5(x−2)²−1,5</b>, S(2|−1,5), Nullstellen x₁=1, x₂=3.</p>
+   <h3>1.3 Quadratische Gleichungen</h3>
+   <p>Normalform x²+px+q=0. Herleitung über die quadratische Ergänzung ergibt die <strong>p-q-Formel</strong>:</p>
+   <p><span class="formula">x₁,₂ = −p/2 ± √((p/2)² − q)</span></p>
+   <p><strong>Anzahl der Lösungen</strong> über D=(p/2)²−q: D&gt;0 zwei · D=0 eine · D&lt;0 keine reelle Lösung.</p>
+   <p>Bsp: x²−4x+3=0 → x=2±1 → x₁=3, x₂=1. Steht ein Faktor vor x², vorher teilen.</p>
+   <p><strong>Schnittpunkte</strong> von Parabel und Gerade/Parabel: Terme gleichsetzen, auf 0 bringen, p-q-Formel.</p>
+   <h3>2 Wurzelfunktionen</h3>
+   <p>f(x)=√x ist die <strong>Umkehrfunktion</strong> von x² für x ≥ 0; Graf = Spiegelung an y=x. D = {x ≥ 0}. Allgemein ⁿ√a = a^(1/n).</p>
+   <h3>3 Potenzfunktionen</h3>
+   <p>f(x)=xⁿ – Variable in der <b>Basis</b>. Gerader Exponent → achsensymmetrisch zur y-Achse; ungerader → punktsymmetrisch zum Ursprung. Negativer Exponent → Hyperbel.</p>
+   <table><tr><th>Gesetz</th><th>Formel</th></tr>
+   <tr><td>gleiche Basis mal</td><td class="mono">aᵐ·aⁿ = aᵐ⁺ⁿ</td></tr>
+   <tr><td>gleiche Basis geteilt</td><td class="mono">aᵐ:aⁿ = aᵐ⁻ⁿ</td></tr>
+   <tr><td>Potenz potenzieren</td><td class="mono">(aᵐ)ⁿ = aᵐ·ⁿ</td></tr>
+   <tr><td>negativer Exponent</td><td class="mono">a⁻ⁿ = 1/aⁿ</td></tr>
+   <tr><td>Wurzel als Potenz</td><td class="mono">a^(1/n) = ⁿ√a</td></tr></table>
+   <h3>4 Exponentialfunktionen</h3>
+   <p><span class="formula">f(x) = aˣ</span> – Variable im <b>Exponenten</b>. Modul-Beispiel Bakterienkultur: Masse verdreifacht sich stündlich (1, 3, 9, 27, 81, 243) → f(x)=3ˣ.</p>
+   <p>Alle Grafen gehen durch <b>(0|1)</b>. a&gt;1 → Wachstum, 0&lt;a&lt;1 → Zerfall. Werte immer positiv (x-Achse ist Asymptote).</p>
+   <h3>5 Logarithmusfunktionen</h3>
+   <p><strong>Definition:</strong> log_a b ist der <b>Exponent</b>, mit dem die Basis a potenziert werden muss, um b zu erhalten (b = Numerus).</p>
+   <p>Bsp: log₂ 8 = 3 (2³=8) · log₃ 243 = 5 · log₁₀ 10000 = 4.</p>
+   <p><strong>Systeme:</strong> ld/lb = log₂ (dual) · ln = log_e (natürlich) · lg = log₁₀ (dekadisch/Briggs).</p>
+   <p><strong>Basiswechsel:</strong> <span class="formula">log_a x = lg x / lg a</span></p>
+   <p><strong>Gesetze:</strong> lg(u·v)=lg u+lg v · lg(u/v)=lg u−lg v · lg(uⁿ)=n·lg u. Bsp: lg(a²bc⁴)=2lg a+lg b+4lg c.</p>
+   <p><strong>Exponentialgleichungen</strong> (transzendent) durch <b>Logarithmieren</b>: 6ˣ=330 → x·lg6=lg330 → x≈3,2365 (Probe 329,98≈330 ✓). Bzw. 2·1,5ˣ=100 → x≈9,6482.</p>`},
+
+ n1:{name:"Naturwissenschaft LM1 – Mechanik",
+  k:`<ul>
+   <li><strong>7 SI-Basisgrößen:</strong> s, m, kg, A, K, cd, mol.</li>
+   <li><strong>Dichte</strong> ρ=m/V · <strong>Kraft</strong> F=m·a · <strong>Gewichtskraft</strong> F_G=m·g.</li>
+   <li><strong>Schiefe Ebene:</strong> F_N=m·g·cos α, F_H=m·g·sin α · <strong>Reibung</strong> F_R=µ·F_N.</li>
+   <li><strong>Hooke:</strong> F=c·s · <strong>Hebelgesetz</strong> F₁·l₁=F₂·l₂ · <strong>Gleichgewicht</strong> ΣF=0, ΣM=0.</li>
+   <li><strong>Bewegung:</strong> v=s/t · s=½at² · freier Fall v=√(2gh).</li>
+   <li><strong>Arbeit</strong> W=F·s · <strong>Energie</strong> E_pot=mgh, E_kin=½mv² · <strong>Leistung</strong> P=W/t.</li>
+   <li><strong>Wirkungsgrad</strong> η=P_ab/P_zu · <strong>Druck</strong> p=F/A · <strong>Schweredruck</strong> p=ρgh.</li>
+  </ul>`,
+  a:`<h3>1 Messen und Maßeinheiten</h3>
+   <p>Seit 1978 gelten die <b>SI-Einheiten</b>. Alle physikalischen Größen lassen sich auf <b>sieben Basisgrößen</b> zurückführen (Prüfstelle in Deutschland: PTB Braunschweig).</p>
+   <table><tr><th>Größe</th><th>Einheit</th></tr>
+   <tr><td>Zeit t</td><td class="mono">Sekunde [s]</td></tr><tr><td>Länge l</td><td class="mono">Meter [m]</td></tr>
+   <tr><td>Masse m</td><td class="mono">Kilogramm [kg]</td></tr><tr><td>Stromstärke I</td><td class="mono">Ampere [A]</td></tr>
+   <tr><td>Temperatur T</td><td class="mono">Kelvin [K]</td></tr><tr><td>Lichtstärke</td><td class="mono">Candela [cd]</td></tr>
+   <tr><td>Stoffmenge n</td><td class="mono">Mol [mol]</td></tr></table>
+   <h3>2.1 Dichte und Wichte</h3>
+   <p><span class="formula">ρ = m/V</span> [kg/dm³] · <span class="formula">γ = F_G/V</span> [N/dm³]. Beton ρ≈2400 kg/m³ → 1,2 m³ wiegen 2880 kg.</p>
+   <h3>2.2 Kräfte</h3>
+   <p><span class="formula">F = m·a</span> [1 N = 1 kg·m/s²] · <span class="formula">F_G = m·g</span> (g≈9,81 m/s²).</p>
+   <p><strong>Kraftzerlegung:</strong> F_x=F·cos α, F_y=F·sin α; zurück F=√(F_x²+F_y²), tan α=F_y/F_x.</p>
+   <p><strong>Schiefe Ebene:</strong> Normalkraft <span class="formula">F_N = m·g·cos α</span>, Hangabtriebskraft <span class="formula">F_H = m·g·sin α</span>.</p>
+   <p><strong>Reibung:</strong> Haft F_R,max = µ₀·F_N · Gleit F_R = µ·F_N (µ₀ &gt; µ).</p>
+   <p><strong>Hookesches Gesetz:</strong> <span class="formula">F_Fe = c·s</span>. Federn in Reihe 1/c_res=Σ1/cᵢ (weicher), parallel c_res=Σcᵢ (steifer).</p>
+   <h3>2.3 Hebel und Drehmoment</h3>
+   <p><span class="formula">M = F·l</span> [Nm]. Ein <b>Kräftepaar</b> erzeugt ein reines Drehmoment.</p>
+   <p><strong>Hebelgesetz:</strong> ΣM_links = ΣM_rechts → <span class="formula">F₁·l₁ = F₂·l₂</span>.</p>
+   <p><strong>Statische Gleichgewichtsbedingungen</strong> (Basis der Statik): <span class="formula">ΣF_x=0 · ΣF_y=0 · ΣM=0</span>.</p>
+   <h3>2.4 Bewegungen</h3>
+   <p>gleichförmig <span class="formula">v = s/t</span> (1 m/s = 3,6 km/h) · beschleunigt a=Δv/Δt, v=a·t, <span class="formula">s = ½·a·t²</span>, v=√(2as).</p>
+   <p><strong>Freier Fall:</strong> v=g·t · h=½g·t² · <span class="formula">v = √(2·g·h)</span>.</p>
+   <p><strong>Kreisbewegung:</strong> n=u/t · v=π·d·n · T=1/n · f=1/T · ω=2π·f · v=ω·r. (180° ≙ π rad)</p>
+   <h3>2.5 Newtonsche Axiome</h3>
+   <p>1. <b>Trägheitsgesetz</b> (ohne resultierende Kraft keine Änderung) · 2. <b>Grundgesetz</b> F=m·a · 3. <b>Wechselwirkung</b> actio = reactio.</p>
+   <h3>2.6 Arbeit, Energie, Leistung</h3>
+   <p><span class="formula">W = F·s</span> [1 Ws = 1 Nm = 1 J] · Hubarbeit m·g·h · Beschleunigungsarbeit ½mv² · Federarbeit ½cs².</p>
+   <p><strong>Energie:</strong> E_pot=m·g·h · E_kin=½·m·v² · E_elast=½·c·s² · E_rot=½·J·ω².</p>
+   <p><strong>Energieerhaltung:</strong> E_End = E_Anf + W_zu − W_ab.</p>
+   <p><strong>Leistung</strong> <span class="formula">P = W/t = F·v</span> [W] · <strong>Wirkungsgrad</strong> <span class="formula">η = W_ab/W_zu</span>, mehrstufig η_ges = η₁·η₂·…</p>
+   <p><strong>Goldene Regel der Mechanik:</strong> Einfache Maschinen sparen Kraft, nie Arbeit.</p>
+   <h3>3 Flüssigkeiten und Gase</h3>
+   <p><span class="formula">p = F/A</span> [1 Pa = 1 N/m², 1 bar = 10⁵ Pa] · <strong>Schweredruck</strong> <span class="formula">p_h = ρ·g·h</span> (unabhängig von der Gefäßform) · Bodenkraft F_B=ρ·g·h·A.</p>
+   <p><strong>Hydraulik:</strong> <span class="formula">F₁/F₂ = A₁/A₂</span> – große Fläche, große Kraft, dafür kürzerer Weg. <strong>Auftrieb</strong> F_A=ρ·g·V.</p>
+   <p><strong>Ideales Gas:</strong> p·V/T = konstant.</p>`},
+
+ n2:{name:"Naturwissenschaft LM2 – Wärmelehre",
+  k:`<ul>
+   <li><strong>Temperatur:</strong> T = 273,15 K + ϑ; 0 K = −273,15 °C.</li>
+   <li><strong>Längenausdehnung</strong> Δl=α·l·Δϑ · <strong>Volumen</strong> ΔV=γ·V·Δϑ, γ=3α.</li>
+   <li><strong>Gasgesetze:</strong> p·V/T=konst · isobar V₁/V₂=T₁/T₂ · isochor p₁/p₂=T₁/T₂ · isotherm p₁V₁=p₂V₂.</li>
+   <li><strong>Wärmeausbreitung:</strong> Leitung, Konvektion, Strahlung. Wärmestrom Φ=λ·A·Δϑ/l.</li>
+   <li><strong>1. Hauptsatz:</strong> ΔU = Q + W · <strong>Wärmemenge</strong> Q = c·m·Δϑ.</li>
+   <li><strong>Mischungsregel</strong> Q_ab = Q_auf · <strong>Schmelzwärme</strong> Q=q_m·m · <strong>Verdampfung</strong> Q=r_v·m.</li>
+  </ul>`,
+  a:`<h3>1 Wärme und Temperatur</h3>
+   <p><strong>Temperatur</strong> misst die mittlere Teilchenbewegung, <strong>Wärme</strong> ist übertragene Energie.</p>
+   <p><span class="formula">T = 273,15 K + ϑ</span> bzw. ϑ = (T − 273,15) °C. <b>Absoluter Nullpunkt</b> 0 K = −273,15 °C. Temperatur<b>differenzen</b> sind in K und °C gleich groß.</p>
+   <h3>1.1 Wärmeausdehnung</h3>
+   <p><strong>Länge:</strong> <span class="formula">Δl = α·l₁·Δϑ</span> · l₂ = l₁(1+α·Δϑ). α = Längenausdehnungskoeffizient [1/K].</p>
+   <p><strong>Volumen:</strong> <span class="formula">ΔV = γ·V₁·Δϑ</span> · für feste Körper <b>γ = 3α</b>.</p>
+   <p class="bau">Bau-Bezug: 12-m-Stahlträger (α=12·10⁻⁶), +30 K → Δl = 4,32 mm. Deshalb Dehnfugen und Gleitlager!</p>
+   <h3>1.2 Zustandsänderungen bei Gasen</h3>
+   <p><span class="formula">p·V/T = konstant</span> → p₁V₁/T₁ = p₂V₂/T₂ (T immer in <b>Kelvin</b>!).</p>
+   <table><tr><th>Änderung</th><th>konstant</th><th>Gesetz</th></tr>
+   <tr><td>isobar</td><td>p</td><td class="mono">V₁/V₂ = T₁/T₂</td></tr>
+   <tr><td>isochor</td><td>V</td><td class="mono">p₁/p₂ = T₁/T₂</td></tr>
+   <tr><td>isotherm</td><td>T</td><td class="mono">p₁·V₁ = p₂·V₂</td></tr></table>
+   <p>Isobarer Ausdehnungskoeffizient γ = 1/273,15 K ≈ 3,661·10⁻³ K⁻¹.</p>
+   <h3>1.3 Ausbreitung der Wärme</h3>
+   <p>Wärme fließt immer vom wärmeren zum kälteren Körper. Drei Arten: <b>Wärmeleitung</b> (im Stoff) · <b>Konvektion</b> (strömendes Medium) · <b>Wärmestrahlung</b> (auch im Vakuum).</p>
+   <p><strong>Wärmestrom:</strong> <span class="formula">Φ = Q/t = λ·A·(ϑ₁−ϑ₂)/l</span> [W]. λ = Wärmeleitfähigkeit – kleiner Wert = gute Dämmung.</p>
+   <p class="bau">Bau-Bezug: Wand 20 m², 0,3 m dick, λ=0,8 → Φ ≈ 1,07 kW; mit Dämmstoff λ=0,04 nur 53 W. Das ist die Physik hinter dem U-Wert. (1 kWh = 3,6·10⁶ J)</p>
+   <h3>2.1 Wärmemenge und 1. Hauptsatz</h3>
+   <p><strong>1. Hauptsatz:</strong> <span class="formula">ΔU = Q + W</span> – die innere Energie ändert sich durch Wärme und Arbeit.</p>
+   <p><strong>Wärmemenge:</strong> <span class="formula">Q = c·m·Δϑ</span>. c = spezifische Wärmekapazität [kJ/(kg·K)]; Wasser ≈ 4,19, Stahl ≈ 0,48, Beton ≈ 0,88.</p>
+   <p>Wärmekapazität C = c·m · molare Wärmekapazität C_m = M_r·c.</p>
+   <p><strong>Mischungsregel:</strong> <span class="formula">Q_ab = Q_auf</span>. Bsp: 3 kg (80 °C) + 2 kg (20 °C) → Mischtemperatur 56 °C.</p>
+   <h3>2.2 Änderung des Aggregatzustandes</h3>
+   <p>Beim Phasenwechsel bleibt die <b>Temperatur konstant</b> – die Energie geht ganz in die Umwandlung.</p>
+   <p><strong>Schmelzwärme:</strong> <span class="formula">Q_m = q_m·m</span> (Wasser ≈ 334 kJ/kg) · <strong>Verdampfungswärme:</strong> <span class="formula">Q_v = r_v·m</span> (Wasser ≈ 2257 kJ/kg).</p>
+   <h3>2.3 Wärme als Energieträger</h3>
+   <p>Nur ein Teil der zugeführten Wärme wird zu mechanischer Arbeit (Wirkungsgrad η = W_nutz/Q_zu), der Rest ist Abwärme. Brennstoffe: Q = m·H (H = Heizwert).</p>`}
 };
 
 const DECKS = {
  "Mathe LM1":[["Wann wird beim Runden aufgerundet?","Wenn an der (n+1)-ten Stelle 5, 6, 7, 8 oder 9 steht."],["Runde 22,747 auf 2 Stellen.","22,75."],["250 kW in wissenschaftlicher Schreibweise?","2,5·10⁵ W."],["Vorsatz µ = welche Zehnerpotenz?","10⁻⁶."],["1011₂ ins Dezimalsystem.","8+2+1 = 11."],["Zahlenmengen aufsteigend?","ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ."],["Was ist eine rationale Zahl?","Bruch p/q (q≠0); dezimal endlich oder periodisch."],["Was ist i?","Imaginäre Einheit mit i²=−1 (komplexe Zahlen)."],["Rechenreihenfolge?","Klammer → Potenz → Punkt → Strich."],["(−4)·(−3) = ?","+12."],["1. binomische Formel?","(a+b)²=a²+2ab+b²."],["3. binomische Formel?","(a+b)(a−b)=a²−b²."],["Faktorisiere x²−16.","(x+4)(x−4)."],["(x²+5x+6):(x+2) = ?","x+3."]],
  "Mathe LM2":[["Proportionale Zuordnung?","y=k·x, y/x konstant, Ursprungsgerade."],["Antiproportionale Zuordnung?","y=c/x, x·y konstant, Hyperbel."],["Dreisatz proportional – Reihenfolge?","Erst dividieren (auf 1), dann multiplizieren."],["Löse 3x−5=7.","+5 → 3x=12 → x=4."],["Ungleichung ·/: mit negativer Zahl?","Vergleichszeichen dreht sich um."],["Geradengleichung?","y=m·x+b (m Steigung, b y-Achsenabschnitt)."],["Nullstelle von y=mx+b?","x = −b/m."],["Drei Verfahren für Gleichungssysteme?","Gleichsetzung, Einsetzung, Addition."],["x+y=10, x−y=2 → Lösung?","Addieren: 2x=12 → x=6, y=4."],["Umkehrfunktion von y=2x+4?","y=(x−4)/2."]],
  "Mathe LM4":[["Winkelsumme im Dreieck?","180°."],["Scheitelwinkel / Nebenwinkel?","Scheitel gleich; Neben =180°."],["Satz des Pythagoras?","a²+b²=c² (rechtwinklig)."],["Katheten 6 und 8 → Hypotenuse?","√(36+64)=10."],["sin α = ?","Gegenkathete/Hypotenuse."],["cos α = ?","Ankathete/Hypotenuse."],["tan α = ?","Gegenkathete/Ankathete."],["Sinussatz?","a/sinα = b/sinβ = c/sinγ."],["Kosinussatz?","c²=a²+b²−2·a·b·cosγ."],["Volumen Zylinder?","V=π·r²·h."],["Volumen Kugel?","V=(4/3)·π·r³."],["Fläche & Umfang Kreis?","A=π·r², U=2π·r."]],
- "Deutsch LM1":[["Welche Norm regelt den Geschäftsbrief?","DIN 5008 (Empfehlung, kein Gesetz)."],["Wie wird der Betreff geschrieben?","Ohne das Wort „Betreff“, nicht unterstrichen."],["Auslandsanschrift – Ort und Land?","In Großbuchstaben."],["„vollste Zufriedenheit“ = welche Note?","Sehr gut (1)."],["„zu unserer Zufriedenheit“ = Note?","Ausreichend (4)."],["Welche Fragen beantwortet ein Bericht?","Wer? Was? Wann? Wo? Wie? Warum?"],["Zeitform eines Berichts?","Meist Präteritum."],["Protokollarten?","Verlaufs-, Ergebnis-, Wort-, Gedächtnisprotokoll."],["Zeitform einer Beschreibung?","Präsens."],["Formulierung in Bedienungsanleitung?","Handlungsanweisung (Imperativ/Infinitiv)."]]
+ "Deutsch LM1":[["Welche Norm regelt den Geschäftsbrief?","DIN 5008 (Empfehlung, kein Gesetz)."],["Wie wird der Betreff geschrieben?","Ohne das Wort „Betreff“, nicht unterstrichen."],["Auslandsanschrift – Ort und Land?","In Großbuchstaben."],["„vollste Zufriedenheit“ = welche Note?","Sehr gut (1)."],["„zu unserer Zufriedenheit“ = Note?","Ausreichend (4)."],["Welche Fragen beantwortet ein Bericht?","Wer? Was? Wann? Wo? Wie? Warum?"],["Zeitform eines Berichts?","Meist Präteritum."],["Protokollarten?","Verlaufs-, Ergebnis-, Wort-, Gedächtnisprotokoll."],["Zeitform einer Beschreibung?","Präsens."],["Formulierung in Bedienungsanleitung?","Handlungsanweisung (Imperativ/Infinitiv)."]],
+ "Mathe LM3":[["Scheitelpunktform einer Parabel?","f(x)=a(x−r)²+s mit Scheitelpunkt S(r|s)."],["Scheitelpunkt von f(x)=(x−1)²+2 ?","S(1|2)."],["Allgemeine Form der quadratischen Funktion?","y=ax²+bx+c (a≠0); c = y-Achsenabschnitt."],["Was bewirkt a in y=ax²+bx+c?","a>0 nach oben, a<0 nach unten; |a|>1 steiler, |a|<1 flacher."],["Wie kommt man zur Scheitelpunktform?","Durch quadratische Ergänzung (addieren und wieder subtrahieren)."],["p-q-Formel?","x₁,₂ = −p/2 ± √((p/2)² − q)."],["Wie viele Lösungen hat x²+px+q=0?","D>0 zwei, D=0 eine, D<0 keine reelle Lösung (D=(p/2)²−q)."],["Löse x²−4x+3=0.","x = 2 ± 1 → x₁=3, x₂=1."],["Wovon ist √x die Umkehrfunktion?","Von f(x)=x² für x ≥ 0; Graf = Spiegelung an y=x."],["Potenzgesetz aᵐ·aⁿ?","aᵐ⁺ⁿ – Exponenten addieren."],["Potenzgesetz (aᵐ)ⁿ?","aᵐ·ⁿ – Exponenten multiplizieren."],["Was ist a⁻ⁿ?","1/aⁿ."],["Wurzel als Potenz?","ⁿ√a = a^(1/n)."],["Unterschied Potenz- und Exponentialfunktion?","xⁿ: Variable in der Basis; aˣ: Variable im Exponenten."],["Durch welchen Punkt geht jede Exponentialfunktion?","Durch (0|1), denn a⁰=1."],["Definiere log_a b.","Der Exponent, mit dem a potenziert werden muss, um b zu erhalten (b = Numerus)."],["log₂ 8 = ?","3, denn 2³ = 8."],["Was bedeuten lg, ln, ld?","lg=log₁₀, ln=log_e, ld/lb=log₂."],["Formel für den Basiswechsel?","log_a x = lg x / lg a."],["Logarithmengesetz für Produkt und Potenz?","lg(u·v)=lg u+lg v; lg(uⁿ)=n·lg u."],["Wie löst man 6ˣ = 330?","Logarithmieren: x·lg6 = lg330 → x ≈ 3,2365."]],
+ "NaWi LM1 (Mechanik)":[["Nenne die 7 SI-Basisgrößen.","Zeit (s), Länge (m), Masse (kg), Stromstärke (A), Temperatur (K), Lichtstärke (cd), Stoffmenge (mol)."],["Formel für die Dichte?","ρ = m/V."],["Grundgesetz der Mechanik?","F = m·a (1 N = 1 kg·m/s²)."],["Gewichtskraft?","F_G = m·g mit g ≈ 9,81 m/s²."],["Kraftzerlegung in Komponenten?","F_x=F·cos α, F_y=F·sin α; F=√(F_x²+F_y²)."],["Normal- und Hangabtriebskraft?","F_N = m·g·cos α; F_H = m·g·sin α."],["Reibungskraft?","Haft F_R,max=µ₀·F_N; Gleit F_R=µ·F_N."],["Hookesches Gesetz?","F = c·s (Federsteifigkeit × Federweg)."],["Was ist ein Drehmoment?","M = F·l [Nm] – Kraft mal Hebelarm."],["Hebelgesetz?","F₁·l₁ = F₂·l₂ (ΣM_links = ΣM_rechts)."],["Die drei Gleichgewichtsbedingungen?","ΣF_x = 0, ΣF_y = 0, ΣM = 0."],["Formeln der beschleunigten Bewegung?","a=Δv/Δt, v=a·t, s=½·a·t², v=√(2as)."],["Freier Fall?","v = g·t, h = ½·g·t², v = √(2·g·h)."],["Umfangsgeschwindigkeit im Kreis?","v = π·d·n bzw. v = ω·r."],["Newtonsche Axiome?","1. Trägheit, 2. F=m·a, 3. actio = reactio."],["Mechanische Arbeit?","W = F·s; 1 Ws = 1 Nm = 1 J."],["Potenzielle und kinetische Energie?","E_pot = m·g·h; E_kin = ½·m·v²."],["Leistung?","P = W/t = F·v [Watt]."],["Wirkungsgrad?","η = W_ab/W_zu; mehrstufig η_ges = η₁·η₂·…"],["Druck?","p = F/A; 1 Pa = 1 N/m², 1 bar = 10⁵ Pa."],["Schweredruck?","p_h = ρ·g·h – unabhängig von der Gefäßform."],["Hydraulischer Hebebock?","F₁/F₂ = A₁/A₂ – große Fläche erzeugt große Kraft."]],
+ "NaWi LM2 (Wärme)":[["Celsius in Kelvin?","T = 273,15 K + ϑ; 0 K = −273,15 °C."],["Sind Temperaturdifferenzen in K und °C gleich?","Ja, ΔT = Δϑ."],["Längenausdehnung?","Δl = α·l₁·Δϑ."],["Volumenausdehnung fester Körper?","ΔV = γ·V₁·Δϑ mit γ = 3α."],["Allgemeine Zustandsgleichung idealer Gase?","p·V/T = konstant (T in Kelvin)."],["Isobare Zustandsänderung?","p konstant: V₁/V₂ = T₁/T₂ (Gay-Lussac)."],["Isochore Zustandsänderung?","V konstant: p₁/p₂ = T₁/T₂."],["Isotherme Zustandsänderung?","T konstant: p₁·V₁ = p₂·V₂ (Boyle-Mariotte)."],["Die drei Arten der Wärmeausbreitung?","Wärmeleitung, Konvektion, Wärmestrahlung."],["Formel für den Wärmestrom?","Φ = λ·A·(ϑ₁−ϑ₂)/l."],["Was sagt λ aus?","Wärmeleitfähigkeit – kleiner Wert bedeutet gute Dämmung."],["Erster Hauptsatz der Wärmelehre?","ΔU = Q + W."],["Wärmemenge zum Erwärmen?","Q = c·m·Δϑ."],["Spezifische Wärmekapazität von Wasser?","≈ 4,19 kJ/(kg·K)."],["Mischungsregel?","Q_ab = Q_auf."],["Schmelz- und Verdampfungswärme?","Q_m = q_m·m; Q_v = r_v·m."],["Was passiert mit der Temperatur beim Phasenübergang?","Sie bleibt konstant."],["Wie viele Joule hat 1 kWh?","3,6 · 10⁶ J."]]
 };
 
 const UEB = {
  "Mathe LM1":[["Runde auf 2 Stellen: 3,14159","3,14 (3. Stelle 1 → ab)."],["47 000 wissenschaftlich?","4,7·10⁴."],["1101₂ ins Dezimalsystem.","1·8+1·4+0·2+1·1 = 13."],["Kleinste Menge für √2?","ℝ (irrational)."],["Berechne 2·(3+4²).","2·19 = 38."],["(2a−3)² ausmultiplizieren.","4a²−12a+9."],["Faktorisiere x²−25.","(x+5)(x−5)."],["(x²+5x+6):(x+2)","x+3."]],
  "Mathe LM2":[["6 Rohre kosten 45 €. 10 Rohre?","1 Rohr 7,50 € → 10 = 75 €."],["4 Bagger: 9 Tage. 6 Bagger?","1 Bagger 36 Tage → 6 = 6 Tage."],["Löse 5x−8 = 2x+7.","3x=15 → x=5."],["Löse −3x+4 < 13.","−3x<9 → x>−3 (Zeichen dreht)."],["y=−2x+6: Steigung, Nullstelle?","m=−2; Nullstelle x=3."],["Schnittpunkt y=3x−1 und y=x+5?","2x=6 → (3|8)."],["2x+y=12, x−y=3 lösen.","3x=15 → x=5, y=2."],["Umkehrfunktion y=3x−9.","y=(x+9)/3."]],
  "Mathe LM4":[["Katheten 6 m, 8 m → Hypotenuse?","√(36+64)=10 m."],["Hyp. 13, Kathete 5 → andere Kathete?","√(169−25)=12."],["Winkel 55° und 80° → dritter?","180−135 = 45°."],["Hyp. 12 m, α=40° → Gegenkathete?","12·sin40° ≈ 7,71 m."],["Gegen 3, An 4 → Winkel α?","tan⁻¹(0,75) ≈ 36,87°."],["a=5, b=7, γ=60° → c?","c²=25+49−35=39 → ≈6,24."],["Wand 5,0×2,8, Fenster 1,2×1,4 → Putzfläche?","14,0 − 1,68 = 12,32 m²."],["Bodenplatte 6,0×4,0×0,25 → Beton?","6,0 m³."],["Rohr r=0,15, l=8 → Volumen?","π·0,0225·8 ≈ 0,565 m³."]],
- "Deutsch LM1":[["Bestandteile des Geschäftsbriefs in Reihenfolge?","Briefkopf, Anschrift, Datum, Betreff, Anrede, Text, Gruß, Unterschrift, Anlagen."],["Fehler bei unterstrichenem „Betreff: …“?","Wort „Betreff“ weglassen und nicht unterstreichen."],["„vollste“ / „im Großen und Ganzen“-Zufriedenheit?","Sehr gut (1) / mangelhaft (5)."],["Unpassend im Bericht: „kam leider viel zu spät“?","Wertungen weglassen; sachlich mit Uhrzeit."],["Protokoll: nur Beschlüsse festhalten?","Ergebnisprotokoll."],["Zeitform Beschreibung / Bericht?","Präsens / Präteritum."]]
+ "Deutsch LM1":[["Bestandteile des Geschäftsbriefs in Reihenfolge?","Briefkopf, Anschrift, Datum, Betreff, Anrede, Text, Gruß, Unterschrift, Anlagen."],["Fehler bei unterstrichenem „Betreff: …“?","Wort „Betreff“ weglassen und nicht unterstreichen."],["„vollste“ / „im Großen und Ganzen“-Zufriedenheit?","Sehr gut (1) / mangelhaft (5)."],["Unpassend im Bericht: „kam leider viel zu spät“?","Wertungen weglassen; sachlich mit Uhrzeit."],["Protokoll: nur Beschlüsse festhalten?","Ergebnisprotokoll."],["Zeitform Beschreibung / Bericht?","Präsens / Präteritum."]],
+ "Mathe LM3":[["Scheitelpunkt von f(x)=(x−3)²+1 ?","S(3|1)."],["Wandle f(x)=x²−6x+11 in die Scheitelpunktform.","(x−3)²+2 → S(3|2)."],["Löse x²+2x−15=0.","x = −1 ± 4 → x₁=3, x₂=−5."],["Löse 2x²−8x+6=0.","Durch 2 teilen → x²−4x+3=0 → x₁=3, x₂=1."],["Wie viele Lösungen hat x²−6x+9=0?","D = 9−9 = 0 → genau eine (x=3)."],["Schnittpunkte von f(x)=x² und g(x)=2x+3?","x²−2x−3=0 → x=3 und x=−1 → S₁(3|9), S₂(−1|1)."],["Vereinfache x³·x⁴ und (a²)⁵.","x⁷ und a¹⁰."],["Schreibe ³√(a²) als Potenz.","a^(2/3)."],["Kultur verdoppelt sich stündlich, Start 5 g – Masse nach 6 h?","m = 5·2⁶ = 320 g."],["Berechne log₃ 81 und log₂ 64.","4 und 6."],["Berechne log₅ 200 (Basiswechsel).","lg200/lg5 ≈ 3,2920."],["Forme um: lg(a²·b·c⁴)","2 lg a + lg b + 4 lg c."],["Löse 7ˣ = 500.","x = lg500/lg7 ≈ 3,1937."]],
+ "NaWi LM1 (Mechanik)":[["Betonwürfel V=0,5 m³, m=1200 kg – Dichte?","ρ = 2400 kg/m³."],["Gewichtskraft von 850 kg?","F_G = 850·9,81 ≈ 8,34 kN."],["F=500 N unter 30° – Komponenten?","F_x = 433 N, F_y = 250 N."],["200 kg auf 20° schiefer Ebene – F_N und F_H?","F_N ≈ 1843,7 N; F_H ≈ 671,1 N."],["F_N=800 N, µ=0,15 – Reibungskraft?","F_R = 120 N."],["Feder c=25 N/mm, s=12 mm – Kraft?","F = 300 N."],["Links 400 N bei 0,5 m – Kraft rechts bei 2,0 m?","F₂ = 100 N."],["900 m in 60 s – Geschwindigkeit in km/h?","15 m/s = 54 km/h."],["0 auf 20 m/s in 8 s – Beschleunigung und Weg?","a = 2,5 m/s²; s = 80 m."],["Werkzeug fällt 12 m – Aufprallgeschwindigkeit?","v = √(2·9,81·12) ≈ 15,3 m/s (≈55 km/h)."],["Kran hebt 500 kg um 15 m – Arbeit?","W = 500·9,81·15 ≈ 73,6 kJ."],["Dafür 30 s – Leistung?","P = 73575/30 ≈ 2,45 kW."],["12 kW zu, 9,6 kW ab – Wirkungsgrad?","η = 0,8 = 80 %."],["η₁=0,9, η₂=0,85, η₃=0,95 – Gesamtwirkungsgrad?","η_ges ≈ 0,727 = 72,7 %."],["60 kN auf 0,8 m² – Bodenpressung?","p = 75 kPa = 0,75 bar."],["Wasserdruck in 4,5 m Tiefe?","p = 1000·9,81·4,5 ≈ 44 145 Pa ≈ 0,44 bar."],["Hydraulik A₁=5 cm², A₂=250 cm², F₁=200 N – F₂?","F₂ = 200·250/5 = 10 kN."]],
+ "NaWi LM2 (Wärme)":[["25 °C in Kelvin und 350 K in °C?","298,15 K und 76,85 °C."],["25-m-Betonwand (α=12·10⁻⁶), +25 K – Ausdehnung?","Δl = 7,5 mm → Dehnfuge nötig."],["Stahlteil V=2 dm³ (α=12·10⁻⁶), +100 K – Volumenzunahme?","γ=36·10⁻⁶ → ΔV = 7,2 cm³."],["Gas 300 K/2 bar (V konst.) – Druck bei 450 K?","p₂ = 3 bar."],["6 l bei 1 bar auf 2 l komprimiert (T konst.) – Enddruck?","p₂ = 3 bar."],["Nenne die drei Arten der Wärmeausbreitung mit Beispiel.","Leitung (Löffel im Tee), Konvektion (Heizkörper), Strahlung (Sonne)."],["Wand A=20 m², l=0,3 m, λ=0,8, Δϑ=20 K – Wärmestrom?","Φ ≈ 1066,7 W ≈ 1,07 kW."],["Gleiche Wand mit λ=0,04 – Wärmestrom?","Φ ≈ 53,3 W – 20-mal weniger (Dämmung)."],["80 l Wasser von 10 auf 65 °C – Energie?","Q = 4,19·80·55 ≈ 18 436 kJ ≈ 5,12 kWh."],["3 kg (80 °C) + 2 kg (20 °C) – Mischtemperatur?","ϑ = 56 °C."],["5 kg Eis bei 0 °C schmelzen – Energie?","Q = 334·5 = 1670 kJ."],["2 kg Wasser bei 100 °C verdampfen – Energie?","Q = 2257·2 = 4514 kJ."],["1 kg Eis (0 °C) → Wasser 100 °C – Gesamtenergie?","334 + 419 = 753 kJ."]]
 };
 
 const LEX = [
@@ -706,25 +841,191 @@ const LEX = [
  ["Deutsch","E-Mail","Geschäftliche Mail = Geschäftsbrief.","email e-mail betreff signatur anrede elektronische kommunikation",
   `<p>Eine geschäftliche <b>E-Mail</b> folgt weitgehend den Regeln des Geschäftsbriefs.</p>
   <ul><li><b>Betreff</b> aussagekräftig (nicht leer, nicht „Hallo").</li><li><b>Anrede</b> und <b>Grußformel</b> wie im Brief („Sehr geehrte …", „Mit freundlichen Grüßen").</li><li>Kurz, sachlich, ein Thema pro Mail.</li><li><b>Signatur</b> mit Kontaktdaten; Anhänge im Text ankündigen.</li></ul>
-  <p>Auf Ton und Rechtschreibung achten – eine geschäftliche Mail wirkt wie ein Brief.</p>`]
+  <p>Auf Ton und Rechtschreibung achten – eine geschäftliche Mail wirkt wie ein Brief.</p>`],
+ ["Mathematik","Scheitelpunktform","Form, aus der man den Scheitelpunkt direkt abliest.","scheitelpunkt parabel quadratische funktion form verschiebung",
+  `<p>Die <b>Scheitelpunktform</b> einer quadratischen Funktion lautet <span class="formula">f(x) = a(x − r)² + s</span> – der Scheitelpunkt ist dann direkt <b>S(r|s)</b>.</p>
+  <p><b>Entstehung durch Verschiebung der Normalparabel</b> f(x)=x² (S(0|0)):</p>
+  <ul><li>f(x) = x² + s → Verschiebung nach oben/unten → S(0|s)</li><li>f(x) = (x − r)² → Verschiebung nach rechts/links → S(r|0)</li><li>beides kombiniert → S(r|s)</li></ul>
+  <p><b>Faktor a:</b> a &gt; 0 nach oben geöffnet, a &lt; 0 nach unten; |a| &gt; 1 steiler, |a| &lt; 1 flacher als die Normalparabel.</p>
+  <p><b>Beispiele:</b> f(x)=(x−1)²+2 → S(1|2) · f(x)=x²+4 → S(0|4) · f(x)=(x+3)² → S(−3|0).</p>`],
+ ["Mathematik","Quadratische Ergänzung","Verfahren, um zur Scheitelpunktform zu kommen.","quadratische ergänzung binom scheitelpunktform umformen allgemeine form",
+  `<p>Die <b>quadratische Ergänzung</b> wandelt die allgemeine Form y = ax² + bx + c in die Scheitelpunktform um. Wichtig: Der Term darf sich nicht ändern – die Ergänzung wird <b>addiert und wieder subtrahiert</b>.</p>
+  <p><b>Lehrbeispiel:</b> g(x) = 1,5x² − 6x + 4,5</p>
+  <ol><li>a ausklammern: 1,5(x² − 4x) + 4,5</li><li>Ergänzen mit (4/2)² = 4: 1,5(x² − 4x <b>+ 4 − 4</b>) + 4,5</li><li>Binom bilden: 1,5(x − 2)² − 6 + 4,5</li><li>Ergebnis: <b>g(x) = 1,5(x − 2)² − 1,5</b> → S(2|−1,5)</li></ol>
+  <p>Weiteres Beispiel: x² − 6x + 11 = (x − 3)² + 2 → S(3|2).</p>`],
+ ["Mathematik","p-q-Formel","Lösungsformel für quadratische Gleichungen.","pq formel quadratische gleichung lösung diskriminante nullstellen",
+  `<p>Für die Normalform <b>x² + px + q = 0</b> gilt die <b>p-q-Formel</b>:</p>
+  <p><span class="formula">x₁,₂ = −p/2 ± √((p/2)² − q)</span></p>
+  <p><b>Herleitung</b> über die quadratische Ergänzung: x² + px = −q → x² + px + (p/2)² = −q + (p/2)² → (x + p/2)² = (p/2)² − q → Wurzel ziehen (± beachten).</p>
+  <p><b>Anzahl der Lösungen</b> über die Diskriminante D = (p/2)² − q:</p>
+  <ul><li>D &gt; 0 → zwei Lösungen (Parabel schneidet die x-Achse zweimal)</li><li>D = 0 → eine Lösung (Parabel berührt die x-Achse)</li><li>D &lt; 0 → keine reelle Lösung</li></ul>
+  <p><b>Beispiel:</b> x² − 4x + 3 = 0 → p=−4, q=3 → x = 2 ± √(4−3) = 2 ± 1 → x₁ = 3, x₂ = 1.</p>
+  <p>Steht ein Faktor vor x², erst dadurch teilen: 2x² − 8x + 6 = 0 → x² − 4x + 3 = 0.</p>`],
+ ["Mathematik","Potenzgesetze","Rechenregeln für Potenzen und Wurzeln.","potenzgesetze potenz exponent wurzel basis rechenregeln",
+  `<p>Die <b>Potenzgesetze</b> gelten für Potenzfunktionen f(x) = xⁿ (Variable in der Basis):</p>
+  <table><tr><th>Gesetz</th><th>Formel</th><th>Beispiel</th></tr>
+  <tr><td>gleiche Basis mal</td><td class="mono">aᵐ·aⁿ = aᵐ⁺ⁿ</td><td>x²·x³ = x⁵</td></tr>
+  <tr><td>gleiche Basis geteilt</td><td class="mono">aᵐ:aⁿ = aᵐ⁻ⁿ</td><td>x⁵:x² = x³</td></tr>
+  <tr><td>Potenz potenzieren</td><td class="mono">(aᵐ)ⁿ = aᵐ·ⁿ</td><td>(x²)³ = x⁶</td></tr>
+  <tr><td>Produkt potenzieren</td><td class="mono">(a·b)ⁿ = aⁿ·bⁿ</td><td>(2x)³ = 8x³</td></tr>
+  <tr><td>negativer Exponent</td><td class="mono">a⁻ⁿ = 1/aⁿ</td><td>2⁻³ = 1/8</td></tr>
+  <tr><td>Exponent Null</td><td class="mono">a⁰ = 1</td><td>5⁰ = 1</td></tr>
+  <tr><td>Wurzel als Potenz</td><td class="mono">a^(1/n) = ⁿ√a</td><td>4^(1/2) = 2</td></tr></table>
+  <p>Merksatz aus dem Modul: „Eine Potenz wird potenziert, indem die <b>Exponenten multipliziert</b> werden. Die Basis bleibt unverändert."</p>`],
+ ["Mathematik","Exponentialfunktion","Variable steht im Exponenten: f(x) = aˣ.","exponentialfunktion wachstum zerfall bakterien exponent",
+  `<p>Bei der <b>Exponentialfunktion</b> <span class="formula">f(x) = aˣ</span> steht die Variable im <b>Exponenten</b> (Basis a &gt; 0, a ≠ 1) – im Gegensatz zur Potenzfunktion xⁿ.</p>
+  <p><b>Beispiel aus dem Modul (Bakterienkultur):</b> Die Masse verdreifacht sich stündlich: 1, 3, 9, 27, 81, 243 g → <b>f(x) = 3ˣ</b>.</p>
+  <p><b>Eigenschaften:</b></p>
+  <ul><li>Alle Grafen gehen durch <b>(0|1)</b>, denn a⁰ = 1.</li><li>a &gt; 1 → <b>Wachstum</b> (steigend); 0 &lt; a &lt; 1 → <b>Zerfall</b> (fallend).</li><li>Werte immer positiv; die x-Achse ist Asymptote.</li></ul>
+  <p><b>Anwendungen:</b> Bevölkerungs-/Bakterienwachstum, Zinseszins, radioaktiver Zerfall, Abkühlung.</p>`],
+ ["Mathematik","Logarithmus","Der Exponent, mit dem man die Basis potenziert.","logarithmus log lg ln ld basis numerus basiswechsel",
+  `<p><b>Definition:</b> Der Logarithmus von b zur Basis a (<b>log_a b</b>) ist der <b>Exponent</b>, mit dem die Basis a potenziert werden muss, um b zu erhalten. b heißt <b>Numerus</b>.</p>
+  <p><span class="formula">log_a b = y  ⟺  aʸ = b</span></p>
+  <p><b>Beispiele:</b> log₂ 8 = 3 (denn 2³ = 8) · log₃ 243 = 5 · log₁₀ 10000 = 4 · log_e 20 ≈ 3.</p>
+  <p><b>Die drei Systeme:</b></p>
+  <table><tr><th>Basis</th><th>Kurzform</th><th>Name</th></tr>
+  <tr><td>2</td><td class="mono">ld / lb</td><td>Logarithmus dualis (binär)</td></tr>
+  <tr><td>e</td><td class="mono">ln</td><td>natürlicher Logarithmus</td></tr>
+  <tr><td>10</td><td class="mono">lg</td><td>dekadischer (Briggs'scher) Logarithmus</td></tr></table>
+  <p><b>Basiswechsel</b> (für den Taschenrechner): <span class="formula">log_a x = lg x / lg a</span>. Bsp: log₅ 200 = lg200/lg5 ≈ 3,2920.</p>
+  <p><b>Logarithmengesetze:</b> lg(u·v) = lg u + lg v · lg(u/v) = lg u − lg v · lg(uⁿ) = n·lg u. Bsp: lg(a²·b·c⁴) = 2 lg a + lg b + 4 lg c.</p>`],
+ ["Mathematik","Exponentialgleichung","Variable im Exponenten – durch Logarithmieren lösen.","exponentialgleichung transzendent logarithmieren lösen",
+  `<p>Steht die Lösungsvariable im <b>Exponenten</b>, lässt sich die Gleichung nicht in Polynomform bringen – man nennt sie <b>transzendente Gleichung</b>.</p>
+  <p><b>Lösungsweg: beide Seiten logarithmieren.</b></p>
+  <p><b>Lehrbeispiel 1:</b> 6ˣ = 330</p>
+  <ol><li>lg(6ˣ) = lg 330</li><li>Potenzgesetz: x · lg 6 = lg 330</li><li>x = lg 330 / lg 6 ≈ <b>3,2365</b></li><li>Probe: 6^3,2365 ≈ 329,98 ≈ 330 ✓</li></ol>
+  <p><b>Lehrbeispiel 2:</b> 2 · 1,5ˣ = 100 → erst isolieren (1,5ˣ = 50) → x = lg50/lg1,5 ≈ <b>9,6482</b>.</p>`],
+ ["Naturwissenschaft","SI-Basisgrößen","Die sieben Grundgrößen der Physik.","si einheiten basisgrößen meter kilogramm sekunde ampere kelvin mol candela",
+  `<p>Seit 1978 gelten in Deutschland verbindlich die <b>SI-Einheiten</b> (Système International d'Unités). Alle physikalischen Größen lassen sich auf <b>sieben Basisgrößen</b> zurückführen. Zuständig für Maßvergleiche ist die <b>PTB</b> in Braunschweig.</p>
+  <table><tr><th>Größe</th><th>Zeichen</th><th>Einheit</th></tr>
+  <tr><td>Zeit</td><td class="mono">t</td><td class="mono">Sekunde [s]</td></tr>
+  <tr><td>Länge</td><td class="mono">l</td><td class="mono">Meter [m]</td></tr>
+  <tr><td>Masse</td><td class="mono">m</td><td class="mono">Kilogramm [kg]</td></tr>
+  <tr><td>Stromstärke</td><td class="mono">I</td><td class="mono">Ampere [A]</td></tr>
+  <tr><td>Temperatur</td><td class="mono">T</td><td class="mono">Kelvin [K]</td></tr>
+  <tr><td>Lichtstärke</td><td class="mono">I_v</td><td class="mono">Candela [cd]</td></tr>
+  <tr><td>Stoffmenge</td><td class="mono">n</td><td class="mono">Mol [mol]</td></tr></table>
+  <p><b>Beispiele für Definitionen:</b> 1 Meter = Strecke, die Licht im Vakuum in 1/299 792 458 s zurücklegt · 1 Sekunde = 9 192 631 770 Perioden einer Cäsium-Strahlung.</p>`],
+ ["Naturwissenschaft","Dichte & Wichte","Masse bzw. Gewicht pro Volumen.","dichte wichte rho masse volumen stoff beton stahl",
+  `<p><b>Dichte:</b> <span class="formula">ρ = m / V</span> [kg/dm³ bzw. kg/m³] – kennzeichnet den Stoff.</p>
+  <p><b>Wichte:</b> <span class="formula">γ = F_G / V</span> [N/dm³] – Gewichtskraft pro Volumen.</p>
+  <p><b>Typische Werte:</b> Stahl ≈ 7,85 kg/dm³ · Beton ≈ 2,4 kg/dm³ · Wasser = 1,0 kg/dm³.</p>
+  <p class="bau">Bau-Beispiel: Fundament 1,2 m³ Beton (ρ = 2400 kg/m³) → m = 2880 kg → F_G ≈ 28,3 kN.</p>`],
+ ["Naturwissenschaft","Kraft","Ursache für Verformung oder Bewegungsänderung.","kraft newton f=m*a gewichtskraft vektor",
+  `<p>Eine <b>Kraft</b> erkennt man an ihrer Wirkung: Sie verformt einen Körper oder ändert seinen Bewegungszustand. Kräfte sind <b>Vektoren</b> (Betrag, Richtung, Angriffspunkt).</p>
+  <p><span class="formula">F = m · a</span>  [1 N = 1 kg·m/s²]</p>
+  <p><b>Gewichtskraft:</b> <span class="formula">F_G = m · g</span> mit g ≈ 9,81 m/s².</p>
+  <p><b>Kraftzerlegung:</b> F_x = F·cos α · F_y = F·sin α · zurück F = √(F_x² + F_y²), tan α = F_y/F_x.</p>
+  <p><b>Beispiel:</b> F = 500 N unter 30° → F_x = 433 N, F_y = 250 N.</p>`],
+ ["Naturwissenschaft","Schiefe Ebene & Reibung","Kräfteaufteilung auf geneigter Fläche.","schiefe ebene normalkraft hangabtriebskraft reibung haftreibung gleitreibung",
+  `<p>Auf einer um α geneigten Ebene teilt sich die Gewichtskraft auf:</p>
+  <p><b>Normalkraft</b> (senkrecht zur Ebene): <span class="formula">F_N = m·g·cos α</span></p>
+  <p><b>Hangabtriebskraft</b> (parallel, zieht hinab): <span class="formula">F_H = m·g·sin α</span></p>
+  <p><b>Reibung:</b> Haftreibung F_R,max = µ₀·F_N (noch in Ruhe) · Gleitreibung F_R = µ·F_N (in Bewegung); µ₀ &gt; µ.</p>
+  <p><b>Beispiel:</b> 200 kg auf 20°: F_G = 1962 N → F_N ≈ 1843,7 N, F_H ≈ 671,1 N.</p>`],
+ ["Naturwissenschaft","Hookesches Gesetz","Federkraft ist proportional zum Federweg.","hooke feder federkraft federsteifigkeit elastisch reihe parallel",
+  `<p>Im elastischen Bereich gilt: <span class="formula">F_Fe = c · s</span></p>
+  <p>c = <b>Federsteifigkeit</b> [N/mm] · s = <b>Federweg</b> [mm].</p>
+  <p><b>Federschaltungen:</b></p>
+  <ul><li><b>Reihe:</b> 1/c_res = 1/c₁ + 1/c₂ + … → insgesamt <b>weicher</b></li><li><b>Parallel:</b> c_res = c₁ + c₂ + … → insgesamt <b>steifer</b></li></ul>
+  <p><b>Beispiel:</b> c = 25 N/mm, s = 12 mm → F = 300 N.</p>`],
+ ["Naturwissenschaft","Drehmoment & Hebelgesetz","Drehwirkung einer Kraft.","drehmoment hebel hebelgesetz moment gleichgewicht statik",
+  `<p>Das <b>Drehmoment</b> ist das Produkt aus Kraft und Hebelarm:</p>
+  <p><span class="formula">M = F · l</span>  [Nm]</p>
+  <p>Ein <b>Kräftepaar</b> (zwei gleich große, entgegengesetzte Kräfte) erzeugt ein reines Drehmoment.</p>
+  <p><b>Allgemeiner Hebelsatz:</b> <span class="formula">ΣM_links = ΣM_rechts → F₁·l₁ = F₂·l₂</span></p>
+  <p><b>Statische Gleichgewichtsbedingungen</b> (Grundlage der Statik):</p>
+  <p><span class="formula">ΣF_x = 0 · ΣF_y = 0 · ΣM = 0</span></p>
+  <p><b>Beispiel:</b> 400 N bei 0,5 m ↔ Gegenkraft bei 2,0 m: F₂ = (400·0,5)/2,0 = 100 N.</p>
+  <p class="bau">Bau-Bezug: Mit ΣM = 0 um ein Auflager berechnet man die Auflagerkräfte eines Trägers.</p>`],
+ ["Naturwissenschaft","Bewegungsgleichungen","Weg, Geschwindigkeit, Beschleunigung.","bewegung geschwindigkeit beschleunigung freier fall kreisbewegung kinematik",
+  `<p><b>Gleichförmige Bewegung</b> (v konstant): <span class="formula">v = s / t</span> · 1 m/s = 3,6 km/h.</p>
+  <p><b>Gleichmäßig beschleunigt:</b> a = Δv/Δt · v = a·t · <span class="formula">s = ½·a·t²</span> · v = √(2·a·s).<br>
+  Mit Anfangsgeschwindigkeit: v = v₀ + a·t · s = v₀·t + ½·a·t².</p>
+  <p><b>Freier Fall</b> (g ≈ 9,81 m/s²): v = g·t · h = ½·g·t² · <span class="formula">v = √(2·g·h)</span>.</p>
+  <p><b>Kreisbewegung:</b> n = u/t · v = π·d·n · T = 1/n · f = 1/T · ω = 2π·f · v = ω·r. (180° ≙ π rad)</p>
+  <p><b>Beispiel:</b> 0 → 20 m/s in 8 s → a = 2,5 m/s², s = 80 m. Werkzeug aus 12 m: v ≈ 15,3 m/s (≈ 55 km/h!).</p>`],
+ ["Naturwissenschaft","Arbeit, Energie, Leistung","Die zentralen Energiegrößen.","arbeit energie leistung joule watt potenziell kinetisch",
+  `<p><b>Mechanische Arbeit:</b> <span class="formula">W = F · s</span> [1 Ws = 1 Nm = 1 J]. Arbeit wird nur verrichtet, wenn die Kraft in Wegrichtung wirkt.</p>
+  <table><tr><th>Form</th><th>Formel</th></tr>
+  <tr><td>Hubarbeit / potenzielle Energie</td><td class="mono">W = m·g·h</td></tr>
+  <tr><td>Beschleunigungsarbeit / kinetische Energie</td><td class="mono">W = ½·m·v²</td></tr>
+  <tr><td>Federarbeit / elastische Energie</td><td class="mono">W = ½·c·s²</td></tr>
+  <tr><td>Rotationsarbeit</td><td class="mono">W = M·φ = ½·J·ω²</td></tr></table>
+  <p><b>Energieerhaltungssatz:</b> E_End = E_Anfang + W_zu − W_ab – Energie geht nicht verloren, sie wandelt sich um.</p>
+  <p><b>Leistung:</b> <span class="formula">P = W / t = F · v</span> [1 W = 1 J/s] – wie schnell Arbeit verrichtet wird.</p>
+  <p><b>Beispiel:</b> 500 kg 15 m heben = 73,6 kJ; in 30 s → P ≈ 2,45 kW.</p>`],
+ ["Naturwissenschaft","Wirkungsgrad","Verhältnis von Nutzen zu Aufwand.","wirkungsgrad eta verluste nutzen maschine kette",
+  `<p>Bei jeder Energiewandlung entstehen <b>Verluste</b>. Der <b>Wirkungsgrad</b> beschreibt, wie viel davon nutzbar bleibt:</p>
+  <p><span class="formula">η = W_ab / W_zu = P_ab / P_zu</span>  (immer &lt; 1)</p>
+  <p><b>Mehrere Stufen hintereinander:</b> <span class="formula">η_ges = η₁ · η₂ · η₃ · …</span></p>
+  <p><b>Beispiele:</b> Motor 5 kW auf, 4 kW ab → η = 80 %. · Kette mit 0,9 · 0,85 · 0,95 → η_ges ≈ 72,7 %.</p>
+  <p><b>Goldene Regel der Mechanik:</b> Einfache Maschinen (Hebel, Rolle, schiefe Ebene) sparen Kraft, aber nie Arbeit – was man an Kraft spart, legt man an Weg zu.</p>`],
+ ["Naturwissenschaft","Druck & Hydraulik","Kraft pro Fläche, Schweredruck, Kraftübersetzung.","druck pascal bar schweredruck hydraulik auftrieb hebebock",
+  `<p><b>Druck:</b> <span class="formula">p = F / A</span>  [1 Pa = 1 N/m² · <b>1 bar = 10⁵ Pa</b>]</p>
+  <p><b>Schweredruck (hydrostatisch):</b> <span class="formula">p_h = ρ · g · h</span> – hängt <b>nur</b> von Dichte und Höhe ab, <b>nicht</b> von der Gefäßform. Bodenkraft F_B = ρ·g·h·A.</p>
+  <p><b>Hydraulische Kraftübersetzung</b> (Hebebock, Bagger): Der Druck ist überall gleich →</p>
+  <p><span class="formula">F₁ / A₁ = F₂ / A₂  →  F₂ = F₁ · A₂/A₁</span> (der Weg verhält sich umgekehrt)</p>
+  <p><b>Auftrieb:</b> F_A = ρ_Flüssigkeit · g · V_verdrängt (Archimedes).</p>
+  <p><b>Beispiele:</b> 4,5 m Wassertiefe → 0,44 bar · 200 N auf 5 cm² erzeugen 10 kN auf 250 cm² · 60 kN auf 0,8 m² Fundament → 75 kPa.</p>`],
+ ["Naturwissenschaft","Temperatur & Wärmeausdehnung","Kelvin/Celsius und Ausdehnung bei Erwärmung.","temperatur kelvin celsius wärmeausdehnung dehnfuge längenausdehnung",
+  `<p><b>Temperaturskalen:</b> <span class="formula">T = 273,15 K + ϑ</span> bzw. ϑ = (T − 273,15) °C.<br>
+  <b>Absoluter Nullpunkt:</b> 0 K = −273,15 °C. Temperatur<b>differenzen</b> sind in K und °C gleich groß.</p>
+  <p><b>Längenausdehnung:</b> <span class="formula">Δl = α · l₁ · Δϑ</span> · l₂ = l₁(1 + α·Δϑ)</p>
+  <p><b>Volumenausdehnung:</b> <span class="formula">ΔV = γ · V₁ · Δϑ</span> · für feste Körper gilt <b>γ = 3α</b></p>
+  <p class="bau">Bau-Bezug: 12-m-Stahlträger (α = 12·10⁻⁶ 1/K) bei +30 K → Δl = 4,32 mm. Genau deshalb gibt es <b>Dehnfugen</b> und Gleitlager. Eine 25-m-Betonwand dehnt sich bei +25 K um 7,5 mm.</p>`],
+ ["Naturwissenschaft","Gasgesetze","Zusammenhang von Druck, Volumen, Temperatur.","gasgesetze ideales gas isobar isochor isotherm boyle mariotte gay-lussac",
+  `<p><b>Allgemeine Zustandsgleichung des idealen Gases:</b></p>
+  <p><span class="formula">p · V / T = konstant  →  p₁·V₁/T₁ = p₂·V₂/T₂</span></p>
+  <p>⚠️ Temperatur immer in <b>Kelvin</b> einsetzen!</p>
+  <table><tr><th>Änderung</th><th>konstant</th><th>Gesetz</th><th>Merksatz</th></tr>
+  <tr><td><b>isobar</b></td><td>Druck p</td><td class="mono">V₁/V₂ = T₁/T₂</td><td>wärmer → größer</td></tr>
+  <tr><td><b>isochor</b></td><td>Volumen V</td><td class="mono">p₁/p₂ = T₁/T₂</td><td>wärmer → mehr Druck</td></tr>
+  <tr><td><b>isotherm</b></td><td>Temperatur T</td><td class="mono">p₁·V₁ = p₂·V₂</td><td>mehr Druck → weniger Volumen</td></tr></table>
+  <p><b>Beispiel:</b> Gas bei 300 K und 2 bar (V konstant) → bei 450 K: p₂ = 2·450/300 = 3 bar.</p>`],
+ ["Naturwissenschaft","Wärmeausbreitung","Leitung, Konvektion, Strahlung – und Dämmung.","wärmeausbreitung wärmeleitung konvektion strahlung wärmestrom dämmung lambda u-wert",
+  `<p>Wärme fließt immer <b>vom wärmeren zum kälteren</b> Körper. Drei Arten:</p>
+  <ol><li><b>Wärmeleitung</b> – im Stoff, ohne Materialtransport (Metalle gut, Dämmstoffe schlecht).</li>
+  <li><b>Konvektion (Strömung)</b> – durch strömende Flüssigkeiten/Gase (Heizkörper erwärmt Raumluft).</li>
+  <li><b>Wärmestrahlung</b> – elektromagnetische Wellen, auch im Vakuum (Sonne).</li></ol>
+  <p><b>Wärmestrom durch eine Wand:</b></p>
+  <p><span class="formula">Φ = Q/t = λ · A · (ϑ₁ − ϑ₂) / l</span>  [W]</p>
+  <p>λ = <b>Wärmeleitfähigkeit</b> [W/(m·K)] – kleiner Wert = gute Dämmung · l = Dicke · A = Fläche.</p>
+  <p class="bau">Bau-Bezug: Wand 20 m², 0,3 m, λ = 0,8 → Φ ≈ 1,07 kW. Mit Dämmstoff (λ = 0,04) nur noch 53 W – das ist die Physik hinter U-Wert und Wärmedämmung. (1 kWh = 3,6·10⁶ J)</p>`],
+ ["Naturwissenschaft","Wärmemenge & Wärmekapazität","Q = c·m·Δϑ und Mischungsregel.","wärmemenge wärmekapazität spezifisch mischungsregel erster hauptsatz innere energie",
+  `<p><b>Erster Hauptsatz der Wärmelehre:</b> <span class="formula">ΔU = Q + W</span> – die innere Energie ändert sich durch zugeführte Wärme und Arbeit (Energieerhaltung).</p>
+  <p><b>Wärmemenge zum Erwärmen:</b> <span class="formula">Q = c · m · Δϑ</span>  [1 J = 1 Ws = 1 Nm]</p>
+  <p><b>c = spezifische Wärmekapazität</b> [kJ/(kg·K)] – Energie, um 1 kg um 1 K zu erwärmen:<br>
+  Wasser ≈ 4,19 (sehr hoch) · Stahl ≈ 0,48 · Beton ≈ 0,88.</p>
+  <p>Wärmekapazität des Körpers: C = c·m · molare Wärmekapazität C_m = M_r·c.</p>
+  <p><b>Mischungsregel (Energieerhaltung):</b> <span class="formula">Q_ab = Q_auf</span><br>
+  c₁·m₁·(ϑ₁ − ϑ_m) = c₂·m₂·(ϑ_m − ϑ₂) → daraus die Mischtemperatur.</p>
+  <p><b>Beispiele:</b> 80 l Wasser von 10 auf 65 °C → Q ≈ 18,4 MJ ≈ 5,12 kWh. · 3 kg (80 °C) + 2 kg (20 °C) → 56 °C.</p>`],
+ ["Naturwissenschaft","Schmelz- & Verdampfungswärme","Energie beim Wechsel des Aggregatzustands.","schmelzwärme verdampfungswärme aggregatzustand phasenübergang latent",
+  `<p>Beim Wechsel des Aggregatzustands (fest ↔ flüssig ↔ gasförmig) bleibt die <b>Temperatur konstant</b> – die gesamte zugeführte Energie geht in die Umwandlung.</p>
+  <p><b>Schmelzwärme:</b> <span class="formula">Q_m = q_m · m</span> (Wasser: q_m ≈ 334 kJ/kg bei 0 °C)</p>
+  <p><b>Verdampfungswärme:</b> <span class="formula">Q_v = r_v · m</span> (Wasser: r_v ≈ 2257 kJ/kg bei 100 °C)</p>
+  <p>Beim Erstarren bzw. Kondensieren wird dieselbe Energiemenge wieder <b>abgegeben</b>.</p>
+  <p><b>Beispiele:</b> 5 kg Eis schmelzen = 1670 kJ · 2 kg Wasser verdampfen = 4514 kJ · 1 kg Eis (0 °C) → Wasser (100 °C) = 334 + 419 = <b>753 kJ</b>.</p>
+  <p>Ein vollständiger Erwärmungsvorgang besteht aus „schrägen" Abschnitten (Q = c·m·Δϑ) und „waagerechten" Haltepunkten (Phasenübergang).</p>`]
 ];
 
 const PLAN = [
  ["Lernabschnitt 1 · Deutsch","18 HS-Std.",["Deutsch LM1, Kap. 1–1.2 (Geschäftsbriefe)","Deutsch LM1, Kap. 1.2.1–1.3 (Bewerbung, E-Mail)","Deutsch LM1, Kap. 2–2.2 (Berichte, Protokolle)","Deutsch LM1, Kap. 3–3.3 (Beschreibungen)","Deutsch LM1: wiederholt · Karteikarten · Übungen"]],
  ["Lernabschnitt 2 · Mathematik","20 HS-Std.",["Mathe LM1, Kap. 1–1.4 (Zahlendarstellungen)","Mathe LM1, Kap. 2–2.5 (Zahlenmengen)","Mathe LM1, Kap. 3–3.5 (Grundrechenarten)","Mathe LM1: wiederholt · Karteikarten · Übungen"]],
  ["Lernabschnitt 3 · Mathematik","16 HS-Std.",["Mathe LM2, Kap. 1–1.1 (Zuordnungen)","Mathe LM2, Kap. 1.2–1.3 (Dreisatz)","Mathe LM2, Kap. 1.4 (Äquivalenzumformungen)","Mathe LM2, Kap. 2–2.2.2 (Gerade, Nullstellen)"]],
- ["Lernabschnitt 4 · Mathe + Naturwiss.","18 HS-Std.",["Mathe LM2, Kap. 2.2.3 (Gleichungssysteme)","Mathe LM2, Kap. 2.2.4 (Umkehrfunktionen)","Mathe LM2: wiederholt · Karteikarten · Übungen","Naturwissenschaft LM1, Kap. 1–2.2.1 [Material folgt]"]],
- ["Lernabschnitt 5 · Mathe + Naturwiss.","25 HS-Std.",["Mathe LM3, Kap. 1–1.4 [Material folgt]","Naturwissenschaft LM1, Kap. 2.2.2 [Material folgt]"]],
- ["Lernabschnitt 6 · Mathematik","15 HS-Std.",["Mathe LM3, Kap. 2 [Material folgt]","Mathe LM3, Kap. 3–3.2 [Material folgt]","Mathe LM3, Kap. 4 [Material folgt]"]],
- ["Lernabschnitt 7 · Naturwissenschaft","16 HS-Std.",["Naturwissenschaft LM1, Kap. 2.3 [Material folgt]","Naturwissenschaft LM1, Kap. 2.4–2.4.2 [Material folgt]"]],
- ["Lernabschnitt 8 · Mathe + Naturwiss.","18 HS-Std.",["Mathe LM3, Kap. 5–5.2 [Material folgt]","Mathe LM4, Kap. 1–1.2.1 (Planimetrie)","Naturwissenschaft LM1, Kap. 2.5 [Material folgt]"]],
- ["Lernabschnitt 9 · Mathe + Naturwiss.","14 HS-Std.",["Mathe LM4, Kap. 1.2.2–1.3.3 (Strahlensätze)","Naturwissenschaft LM1, Kap. 2.6–2.6.3 [Material folgt]","Mathe LM4: wiederholt · Karteikarten · Übungen"]],
- ["Lernabschnitt 10 · Naturwissenschaft","21 HS-Std.",["Naturwissenschaft LM1, Kap. 2.6.4–3.3 [Material folgt]","Naturwissenschaft LM2, Kap. 1–1.2 [Material folgt]"]]
+ ["Lernabschnitt 4 · Mathe + Naturwiss.","18 HS-Std.",["Mathe LM2, Kap. 2.2.3 (Gleichungssysteme)","Mathe LM2, Kap. 2.2.4 (Umkehrfunktionen)","Mathe LM2: wiederholt · Karteikarten · Übungen","Naturwissenschaft LM1, Kap. 1–2.2.1"]],
+ ["Lernabschnitt 5 · Mathe + Naturwiss.","25 HS-Std.",["Mathe LM3, Kap. 1–1.4","Naturwissenschaft LM1, Kap. 2.2.2"]],
+ ["Lernabschnitt 6 · Mathematik","15 HS-Std.",["Mathe LM3, Kap. 2","Mathe LM3, Kap. 3–3.2","Mathe LM3, Kap. 4"]],
+ ["Lernabschnitt 7 · Naturwissenschaft","16 HS-Std.",["Naturwissenschaft LM1, Kap. 2.3","Naturwissenschaft LM1, Kap. 2.4–2.4.2"]],
+ ["Lernabschnitt 8 · Mathe + Naturwiss.","18 HS-Std.",["Mathe LM3, Kap. 5–5.2","Mathe LM4, Kap. 1–1.2.1 (Planimetrie)","Naturwissenschaft LM1, Kap. 2.5"]],
+ ["Lernabschnitt 9 · Mathe + Naturwiss.","14 HS-Std.",["Mathe LM4, Kap. 1.2.2–1.3.3 (Strahlensätze)","Naturwissenschaft LM1, Kap. 2.6–2.6.3","Mathe LM4: wiederholt · Karteikarten · Übungen"]],
+ ["Lernabschnitt 10 · Naturwissenschaft","21 HS-Std.",["Naturwissenschaft LM1, Kap. 2.6.4–3.3","Naturwissenschaft LM2, Kap. 1–1.2"]]
 ];
 
 /* ---------- SEMESTER-DATEN (Sem 1 gefüllt, 2–7 warten auf Material) ---------- */
 const SEMDATA={
- 1:{mods:[['m1','Mathe LM1'],['m2','Mathe LM2'],['m4','Mathe LM4'],['d1','Deutsch LM1']],FACH:FACH,DECKS:DECKS,UEB:UEB,PLAN:PLAN},
+ 1:{mods:[['m1','Mathe LM1'],['m2','Mathe LM2'],['m3','Mathe LM3'],['m4','Mathe LM4'],['n1','NaWi LM1'],['n2','NaWi LM2'],['d1','Deutsch LM1']],FACH:FACH,DECKS:DECKS,UEB:UEB,PLAN:PLAN},
  2:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
  3:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
  4:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
@@ -752,9 +1053,9 @@ function setSem(n){
   document.querySelectorAll('.semsel').forEach(s=>s.value=String(curSem));
   curMod=(curData().mods[0]||[null])[0];
   renderModPicks(); renderFach();
-  curDeck=Object.keys(curData().DECKS)[0]||null; idx=0;
+  curDeck=sortKeys(curData().DECKS)[0]||null; idx=0;
   renderDeckPicks(); renderCard();
-  curUeb=Object.keys(curData().UEB)[0]||null;
+  curUeb=sortKeys(curData().UEB)[0]||null;
   renderUebPicks(); renderUeb();
   renderPlan(); updateProgress();
 }
@@ -769,7 +1070,9 @@ document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{document.quer
 /* ---------- KARTEIKARTEN ---------- */
 let curDeck=Object.keys(SEMDATA[1].DECKS)[0],idx=0;
 const fc=document.getElementById('fc');
-function renderDeckPicks(){const p=document.getElementById('deckpick');p.innerHTML='';Object.keys(curData().DECKS).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curDeck)b.classList.add('on');b.onclick=()=>{curDeck=d;idx=0;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderCard();};p.appendChild(b);});}
+const ORDER=['Mathe LM1','Mathe LM2','Mathe LM3','Mathe LM4','NaWi LM1 (Mechanik)','NaWi LM2 (Wärme)','Deutsch LM1'];
+function sortKeys(o){return Object.keys(o).sort((a,b)=>{const ia=ORDER.indexOf(a),ib=ORDER.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib);});}
+function renderDeckPicks(){const p=document.getElementById('deckpick');p.innerHTML='';sortKeys(curData().DECKS).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curDeck)b.classList.add('on');b.onclick=()=>{curDeck=d;idx=0;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderCard();};p.appendChild(b);});}
 function renderCard(){const D=curData().DECKS;const stage=document.querySelector('.fc-stage');const ctr=document.querySelector('.fc-controls');const emp=document.getElementById('fc-empty');if(!curDeck||!D[curDeck]){emp.innerHTML=emptyMsg('Karteikarten');emp.style.display='block';stage.style.display='none';ctr.style.display='none';return;}emp.style.display='none';stage.style.display='';ctr.style.display='';const c=D[curDeck][idx];fc.classList.remove('flip');document.getElementById('fc-q').innerHTML=c[0];document.getElementById('fc-a').innerHTML=c[1];document.getElementById('fc-count').textContent=(idx+1)+' / '+D[curDeck].length;}
 fc.onclick=()=>fc.classList.toggle('flip');
 document.getElementById('fc-next').onclick=()=>{const D=curData().DECKS;if(!curDeck||!D[curDeck])return;idx=(idx+1)%D[curDeck].length;renderCard();};
@@ -778,7 +1081,7 @@ document.addEventListener('keydown',e=>{if(!document.querySelector('.view[data-v
 
 /* ---------- ÜBUNGEN ---------- */
 let curUeb=Object.keys(SEMDATA[1].UEB)[0];
-function renderUebPicks(){const p=document.getElementById('uebpick');p.innerHTML='';Object.keys(curData().UEB).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curUeb)b.classList.add('on');b.onclick=()=>{curUeb=d;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderUeb();};p.appendChild(b);});}
+function renderUebPicks(){const p=document.getElementById('uebpick');p.innerHTML='';sortKeys(curData().UEB).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curUeb)b.classList.add('on');b.onclick=()=>{curUeb=d;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderUeb();};p.appendChild(b);});}
 function renderUeb(){const c=document.getElementById('ueb-content');const U=curData().UEB;if(!curUeb||!U[curUeb]){c.innerHTML=emptyMsg('Übungsaufgaben');return;}c.innerHTML=U[curUeb].map((a,i)=>'<details><summary><span class="q">'+(i+1)+'</span><span>'+a[0]+'</span></summary><div class="sol"><strong>Lösung:</strong> '+a[1]+'</div></details>').join('');}
 
 /* ---------- LEXIKON (global über alle Semester) ---------- */

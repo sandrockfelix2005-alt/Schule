@@ -1,0 +1,5622 @@
+Fachrichtung:  alle Fachrichtungen 
+
+Schwerpunkt:  alle Schwerpunkte 
+
+FACH: 
+
+Naturwissenschaft 
+
+Modul Formeln 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+1 Messen und Maßeinheiten in der Physik ............................................................. 5 
+
+Inhaltsverzeichnis 
+
+2 Mechanik der festen Körper ................................................................................. 6 
+
+2.1 Körperbegriff..................................................................................................... 6 
+
+2.2 Kräfte ............................................................................................................... 6 
+
+2.2.1 Grundeigenschaften von Kräften ................................................................ 6 
+
+2.2.2 Kraftwirkungen ........................................................................................... 7 
+
+2.3 Hebelgesetz und Hebelarten............................................................................. 9 
+
+2.4 Bewegungen fester Körper ............................................................................. 10 
+
+2.4.1 Gleichförmige und ungleichförmige Bewegung ......................................... 10 
+
+2.4.2 Bewegungen unter dem Einfluss der Erdbeschleunigung ......................... 12 
+
+2.5 Kräfte und Bewegung ..................................................................................... 14 
+
+2.6 Arbeit, Energie und Leistung ........................................................................... 15 
+
+2.6.1 Mechanische Arbeit .................................................................................. 15 
+
+2.6.2 Formen der Energie ................................................................................. 16 
+
+2.6.3 Leistung und Wirkungsgrad ...................................................................... 16 
+
+2.6.4 Einfache Maschinen ................................................................................. 17 
+
+3 Mechanik der Flüssigkeiten und Gase ............................................................... 20 
+
+3.1 Allgemeine Eigenschaften der Flüssigkeiten ................................................... 20 
+
+3.2 Allgemeine Eigenschaften der Gase ............................................................... 21 
+
+3.3 Dynamik der Flüssigkeiten und Gase .............................................................. 21 
+
+4 Wärme und Temperatur ...................................................................................... 22 
+
+4.1 Wärmeausdehnung ........................................................................................ 22 
+
+4.2 Zustandsänderungen bei Gasen ..................................................................... 23 
+
+4.3 Ausbreitung der Wärme .................................................................................. 26 
+
+5 Wärme als Energieart und Energieträger........................................................... 28 
+
+5.1 Wärmemenge und erster Hauptsatz ................................................................ 28 
+
+5.2 Änderung des Aggregatzustandes .................................................................. 32 
+
+5.3 Wärme als Energieträger ................................................................................ 33 
+
+6 Schwingungen .................................................................................................... 35 
+
+6.1 Harmonische Schwingungen .......................................................................... 35 
+
+6.2 Gedämpfte Schwingungen .............................................................................. 36 
+
+7 Wellen .................................................................................................................. 37 
+
+8 Schall ................................................................................................................... 38 
+
+9 Eigenschaften des Lichtes ................................................................................. 39 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+10 Geometrische Optik .......................................................................................... 41 
+
+10.1 Reflexion ...................................................................................................... 41 
+
+10.2 Brechung ..................................................................................................... 41 
+
+10.3 Abbildungen ................................................................................................. 42 
+
+11 Licht als Wellenerscheinung ............................................................................ 45 
+
+Anhang................................................................................................................... 46 
+
+Griechisches Alphabet ......................................................................................... 46 
+
+Zehnerpotenzen und Teile von Einheiten.............................................................. 46 
+
+Das Periodensystem ............................................................................................ 46 
+
+Konstanten .......................................................................................................... 47 
+
+Flächenberechnung ............................................................................................. 47 
+
+Körperberechnung ............................................................................................... 48 
+
+Dichte  fester Stoffe bei 20 °C ............................................................................ 50 
+
+Dichte  von Flüssigkeiten bei 20 °C .................................................................... 51 
+
+Dichte  von Gasen im Normzustand ................................................................... 51 
+
+Haftreibungszahlen 0 und Gleitreibungszahlen  verschiedener Werkstoffe ........ 51 
+
+Dynamische Viskosität η bei 20 °C ....................................................................... 52 
+
+Eigenschaften von Wasser in Abhängigkeit von der Temperatur........................... 52 
+
+Längenausdehnungszahlen ................................................................................. 53 
+
+Wärmeleitfähigkeit  ............................................................................................. 53 
+
+Volumenausdehnungszahlen ............................................................................... 54 
+
+Heizwert............................................................................................................... 54 
+
+Spezifische Wärmekapazitäten ............................................................................ 55 
+
+Schmelztemperatur 
+1013 h Pa Druck .................................................................................................. 56 
+
+ und spezifische Schmelzwärme qm einiger Stoffe bei  
+
+Siedetemperatur 
+bei 1013 h Pa Druck ............................................................................................. 57 
+
+ und spezifische Verdampfungswärme 
+
+ einiger Stoffe  
+
+Brechungsindizes n (bei 20°C) ............................................................................. 57 
+
+Spektrum der elektromagnetischen Strahlung ...................................................... 58 
+
+4 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+mvvr 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+1 Messen und Maßeinheiten in der Physik 
+
+Jede  physikalische  Größe  G  besteht  aus  einer  quantitativen  Aussage  {G}  (ausge-
+drückt  durch  eine  Maßzahl),  und  einer  qualitativen  Aussage  [G]  (ausgedrückt  durch 
+die Maßeinheit).  
+
+SI-Basisgrößen und SI-Basiseinheiten  
+
+SI-Basisgrößen 
+
+SI-Basiseinheiten 
+
+Zeit  
+
+Länge  
+
+Masse  
+
+Elektrische Stromstärke 
+
+t 
+
+l 
+
+m 
+
+I 
+
+Sekunden  
+
+Meter  
+
+Kilogramm  
+
+Ampere  
+
+s 
+
+m 
+
+kg 
+
+A 
+
+Temperatur  
+
+Lichtstärke  
+
+Stoffmenge  
+
+T (oder 
+
+)  Kelvin  
+
+K (oder °C) 
+
+I 
+
+Candela  
+
+n (oder 
+
+)  Mol  
+
+cd 
+
+mol 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+5 
+
+GGG= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+2 Mechanik der festen Körper  
+
+2.1 Körperbegriff  
+
+Dichte  
+
+  : Dichte in 
+
+m  : Masse in kg  
+V  : Volumen in dm3  
+
+Wichte  
+
+ 
+
+: Wichte in 
+
+FG : Gewichtskraft in N 
+
+2.2 Kräfte  
+
+2.2.1 Grundeigenschaften von Kräften  
+
+Kraft F 
+
+ : Kraft in N 
+m  : Masse kg 
+
+ : Beschleunigung in 
+
+Zerlegung einer Kraft in ihre x- und y- Komponenten  
+
+6 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+Vm=3dmkgVFG=3dmNamF=Fa2smxyyx2y2x2FFtansinFFcosFFFFF===+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Addition von Kräften  
+
+2.2.2 Kraftwirkungen  
+
+Beschleunigungskraft F 
+
+F  : Kraft in N  
+
+(1 Newton N = 1 kg 
+
+) 
+
+m : Masse in kg 
+
+a  : Beschleunigung in 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+7 
+
+xy2y2x21nnyy2y1y1nnxx2x1x1nn21FFtanFFFF...FFFF...FFFF...FFF=+=+++=+++=+++=amF=2sm2sm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Gewichtskraft FG 
+
+m  : Masse in kg  
+
+g  : Fallbeschleunigung in 
+
+Normalkraft FN 
+
+α  : Neigungswinkel  
+
+Hangabtriebskraft FH 
+
+Reibungskraft FR 
+
+Haftreibung 
+
+F  : Kraft in N  
+0  : Haftreibungszahl 
+
+Gleitreibung 
+
+ : Gleitreibungszahl 
+
+Hookesches Gesetz 
+
+Federkraft FFe 
+
+c  : Federsteifigkeit in 
+
+s  : Federweg in mm 
+
+Reihenschaltung von Federn 
+
+8 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+gmFG=2sm=cosgmFN=singmFHN0maxRFF=NRFF=scFFe=mmNn21n1kkresc1...c1c1c1c1+++=== 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Formeln: Naturwissenschaft 
+
+Parallelschaltung von Federn 
+
+2.3 Hebelgesetz und Hebelarten 
+
+Drehmoment M 
+
+M  : Moment in Nm  
+F  : Kraft in N  
+l 
+r 
+
+: Weg in m (Hebelarm) 
+: Radius in m  
+
+Allgemeiner Hebelsatz 
+
+Beispiel: 
+
+Statische Gleichgewichtsbedingungen 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+9 
+
+=+++==n1kn21kresc...cccclFM=rFM==1nrechts1nlinksMM2211lFlF====0M0F0Fyx 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+2.4 Bewegungen fester Körper  
+
+2.4.1 Gleichförmige und ungleichförmige Bewegung  
+
+Formeln: Naturwissenschaft  
+
+Geschwindigkeit v 
+
+mit 
+
+v : Geschwindigkeit in 
+
+s : Weg in m 
+t  : Zeit in s  
+
+Beschleunigung a 
+
+a : Beschleunigung in 
+
+v : Geschwindigkeit in 
+
+t  : Zeitabschnitt in s  
+s : Weg in m 
+
+Mit Anfangsgeschwindigkeit 
+
+10 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+tsv=12sss−=12ttt−=sm1ms72,0sm6,31hkm1−==tva=2ta21s=tav,sa2v==2smsmtvt2asa2vvt2vvs022020+=−=+=sa2vtavv200+=+=s2vvtvva2020−=−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Kreisbewegung 
+
+Drehzahl n 
+
+Umfangsgeschwindigkeit v 
+
+Umlaufzeit T 
+
+Frequenz f 
+
+Geschwindigkeit v 
+
+Winkelgeschwindigkeit  
+
+n 
+
+: Drehzahl in 
+
+u 
+
+: Umdrehungen  
+
+t 
+
+: Zeit in s  
+
+v 
+
+: Geschwindigkeit in 
+
+U  : Umfang in m 
+
+T  : Umlaufzeit in s 
+
+f 
+
+: Frequenz in 
+
+ oder Hz    (1 Hz = 1 s–1) 
+
+  : Winkelgeschw. in 
+
+ oder Hz  
+
+  : Drehwinkel in rad 
+
+r 
+
+: Radius in m 
+
+Umrechnung Winkelangaben in Grad  Winkelangaben in Bogenmaß 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+11 
+
+tun=nUv=ndv=n1T=T1f=rT12v=rv=t=T12=f2=s1sms1s1rad180ˆ=rad180ˆrad= 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+2.4.2 Bewegungen unter dem Einfluss der Erdbeschleunigung 
+
+Freier Fall 
+
+Formeln: Naturwissenschaft  
+
+v:  Fallgeschwindigkeit in 
+
+(Endgeschwindigkeit nach der 
+
+Zeit t) 
+
+g:  Fallbeschleunigung in 
+
+t :  Zeit in s  
+h:  Fallhöhe in m  
+
+Senkrechter Wurf nach oben 
+
+Aufwärtsbewegung 
+
+Abwärtsbewegung 
+
+Schräger Wurf 
+
+Wurfweite 
+
+12 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+tgv=2tg21h=hg2v=sm2sm)hh(g2vvtg21tvhtgvv020200−−+=−=−=)hh(g2vvhtg21htgv02002−−−=+==tcosvs0x= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Grundgleichung 
+
+Wurfhöhe (Höhe zur Zeit t) 
+
+Steigzeit 
+
+Scheitelhöhe 
+
+Flugzeit 
+
+s 
+
+: Wegstrecke in m 
+
+v 
+
+: Geschwindigkeit in 
+
+g 
+
+: Fallbeschleunigung in 
+
+: Zeit in s 
+: Höhe in m 
+
+t 
+h 
+  : Abwurfwinkel in ° 
+T  : Flugzeit in s 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+13 
+
+tvgy=tv21hy=()20tg21tsinvh−=gsinvt0s=g2sinvh220max=gsinv2T0=sm2sm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Bewegung auf einer schiefen Ebene 
+
+Geschwindigkeit v 
+
+Wegstrecke s 
+
+v 
+
+: Geschwindigkeit in 
+
+g 
+
+: Erdbeschleunigung in 
+
+: Zeit in s 
+
+t 
+  : Winkel der schiefen Ebene  
+s 
+
+: Weg in m 
+
+2.5 Kräfte und Bewegung  
+
+Kraft F 
+
+F  : Kraft in N 
+m : Masse in kg  
+
+a  : Beschleunigung in 
+
+Zentrifugalkraft FZ 
+
+FZ : Zentrifugalkraft in N 
+
+  : Winkelgeschw. in 
+
+ oder Hz 
+
+vu  : Umfangsgeschw. in 
+
+aZ : Radialbeschleunigung in 
+
+14 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+=sintgv=sintg21s2=sinsg2vsm2smamF=2sm2ss2uZZrmrvmamF===s1sm2sm 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+Formeln: Naturwissenschaft 
+
+2.6 Arbeit, Energie und Leistung  
+
+2.6.1 Mechanische Arbeit 
+
+Mechanische Arbeit W allgemein 
+
+Potenzielle Arbeit Wpot 
+
+Kinetische Arbeit WKin 
+
+ohne Anfangsgeschwindigkeit: 
+
+Elastische Arbeit Welast / Federarbeit 
+
+ohne Anfangsdehnung: 
+
+Rotationsarbeit Wrot  
+
+   (idealer Fall ohne Reibung und ohne Anfangsgeschwindigkeit) 
+
+W : Arbeit in Ws  (1 Ws = 1 Nm = 1 J) 
+
+  Arbeit in Joule 
+
+c : Federsteifigkeit in 
+
+F  : Kraft in N  
+
+s  : Weg in m  
+
+J  : Massenträgheit in 
+
+ : Winkelgeschwindigkeit in 
+
+m : Masse in kg  
+
+u 
+
+: Anzahl der Umdrehungen  
+
+g  : Erdbescheunigung in 
+
+r 
+
+: Rotationsradius in m  
+
+h  : Höhe in m  
+
+M  : Drehmoment in Nm  
+
+v 
+
+:  Geschwindigkeit in 
+
+  : Drehwinkel in rad  
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+15 
+
+sFW=hFWGpot=hgmWpot=12hhh−=()2122kinvvm21W−=2kinvm21W=()2122elastssc21W−=2elastsc21W=2rotJ21W===MWur2FWrotrotmN2mkgs12smsm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+ 
+Formeln: Naturwissenschaft  
+
+2.6.2 Formen der Energie  
+
+Potentielle Energie Epot 
+
+Kinetische Energie Ekin 
+
+Elastische Energie Eelast 
+
+Rotationsenergie Erot 
+
+Energieerhaltungssatz 
+
+: Energie in Ws 
+
+E 
+Wzu : zugeführte Arbeit in Ws 
+Wab : abgegebene Arbeit in Ws 
+
+(1 Nm = 1 Ws = 1 J) 
+
+2.6.3 Leistung und Wirkungsgrad  
+
+Leistung P 
+
+bei v = const. 
+
+P  : Leistung in Watt W   
+
+W : Arbeit in Ws bzw. J 
+t 
+: Zeit in s  
+F  : Kraft in N 
+
+v  : Geschwindigkeit in 
+
+16 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+hgmhFWEGpotpot===2kinkinvm21WE==2elastelastsc21WE==2rotrotJ21WE==abzu.AnfEndWWEE−+=tWP=vFP=)sJ1sNm1W1(==sm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Wirkungsgrad  
+
+W : Arbeit in Ws 
+P  : Leistung in W  
+
+Zusammenwirken mehrerer Wirkungsgrade ges 
+
+F 
+Fu 
+FR 
+FN 
+ 
+rFl 
+
+Schraubenlängskraft 
+Umfangskraft 
+Reibungskraft 
+Normalkraft 
+Steigungswinkel  
+Flankenradius 
+
+2.6.4 Einfache Maschinen 
+
+Schraubgewinde 
+
+Anziehen 
+
+Lösen 
+
+Auflagerradius ra 
+
+Gewindereibmoment 
+
+Auflagereibmoment 
+
+Anzugsmoment 
+
+F : Schraubenlängskraft in N  
+Fu : Umfangskraft in N  
+  : Steigungswinkel  
+  : Reibwinkel 
+M : Moment in Nm  
+rFl  : Flankenradius 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+17 
+
+zuabzuabPPWW==n321ges...=()+=tanFFu()−=tanFFud7,0ra=()=tanrFMFlRGaaaRARArFrFM==()aaFlARARGArtanrFMMMM+=+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Feste Rolle 
+
+Formeln: Naturwissenschaft  
+
+Abbildung 1 Freimachen der festen Rolle  
+
+Lose Rolle 
+
+Abbildung 2 a) Lose Rolle b) Freigemachte lose Rolle  
+
+FZ  : Zugkraft 
+FG : Gewichtskraft 
+r 
+: Rollenradius in m 
+rZ  : Zapfenradius in m 
+  : Reibungszahl 
+
+18 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+rr2rFFzGZ+=rrrF21FzGZ+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+η 
+n 
+
+: Wirkungsgrad (dimensionslos) 
+: Anzahl der treibenden Seil- oder  
+  Kettenstränge beim Heben der Last 
+
+Whub : Hubarbeit in Joule bzw. Nm 
+Wzug  : Zugarbeit in Joule bzw. Nm 
+sG 
+sZ 
+
+: Hubstrecke 
+: Zugstrecke 
+
+Formeln: Naturwissenschaft 
+
+Rollenzug (Flaschenzug) 
+
+Riementrieb 
+
+i  : Übersetzungsverhältnis 
+
+n : Umdrehungsfrequenz in 
+
+d : Scheibendurchmesser in m  
+
+Zahnradtrieb 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+19 
+
+()()nnGZ11gm11FF−−=−−=ZZzugGGhubsFWsFW==GZsns=12212u1uddnnivv===s112122121zzddnn=== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+3 Mechanik der Flüssigkeiten und Gase 
+
+3.1 Allgemeine Eigenschaften der Flüssigkeiten 
+
+Druck p 
+
+Hydrostatischer Druck 
+
+Kolbendruck 
+
+Hydraulischer Hebebock 
+
+Abbildung 3 Hydraulischer Hebebock 
+
+Bodenkraft FB 
+
+Schweredruck ph 
+
+Seitenkraft FS 
+
+mit 
+
+p  : Druck in Pa  
+F  : Kraft in N 
+A  : Fläche in m2 
+h : Druckhöhe in m  
+
+ : Dichte in 
+
+g : Fallbeschleunigung in 
+
+FA : Kraft in N  
+V  : Volumen in m3  
+y0  : Schwerpunkt in m 
+
+20 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+AFp=bar10Pa1mN10cmN10Pa10bar1mN1Pa1525252−=====ghp=AFp=11ApF=22ApF=122121ssAAFF==ApFB=AhgFB=hgph=0SyAgF=h21y0=3mkg2sm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+Formeln: Naturwissenschaft 
+
+Auftrieb FA 
+
+3.2 Allgemeine Eigenschaften der Gase  
+
+Allgemeine Zustandsgleichung des idealen Gases 
+
+p  : Druck in Pa  
+V : Volumen in m3  
+T  : Temperatur in K  
+
+Kompressibilität  
+
+ : Kompressibilität in 
+
+3.3 Dynamik der Flüssigkeiten und Gase 
+
+Volumenstrom 
+
+ : Volumenstrom in 
+
+A  : Querschnittsfläche in m²  
+
+Kontinuitätsgleichung 
+
+v : Strömungsgeschw. in 
+
+ : Dichte in 
+
+Bernoullische Gleichung 
+
+(horizontale, reibungsfreie Strö-
+mung) 
+
+(Bernoullische Druckhöhenglei-
+chung für nicht horizontale Strö-
+mungen) 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+21 
+
+VerdAVgF=222111TVpTVp=pVV−=Nm2VvAV=Vsm3.konstvAV==sm3mkg222211v21pv21p+=+22222111v21hgpv21hgp++=++g2vhgpg2vhgp22222111++=++ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+4 Wärme und Temperatur 
+
+Umrechnung der Temperaturskalen 
+
+T = 273,15 K +  K/°C oder  = (T – 273,15 K) °C/K 
+
+T : Kelvin Temperatur der absoluten Temperaturskala 
+ : Temperatur der Celsius-Temperaturskala 
+
+4.1 Wärmeausdehnung 
+
+Längenausdehnung fester Körper 
+
+Exakte Formeln 
+
+l =  l0  
+
+l2 = l0 (1 +  ) 
+
+: Längenänderung 
+l = l2 – l0 
+: Anfangslänge bei 0°C 
+l0 
+l2 
+: Endlänge 
+ = 2 – 0 : Temperaturänderung 
+0 
+2 
+ 
+
+: Anfangstemperatur 0 °C 
+: Endtemperatur 
+: Längenausdehnungskoeffizient 
+
+Näherungsformeln 
+
+l =  l1  
+
+l2 = l1 (1 +  ) 
+
+: Längenänderung 
+l = l2 – l1 
+: Anfangslänge 
+l1 
+l2 
+: Endlänge 
+ = 2 – 1 : Temperaturänderung 
+1 
+2 
+ 
+
+: Anfangstemperatur 
+: Endtemperatur 
+: Längenausdehnungskoeffizient 
+
+22 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Volumenausdehnung fester und flüssiger Körper 
+
+Exakte Formeln 
+
+V =  V0  
+
+V2 = V0 (1 +  ) 
+
+: Anfangstemperatur 0 °C 
+: Endtemperatur 
+
+ = 2 – 0 : Temperaturänderung 
+0  
+2  
+V = V2 – V1 : Volumenänderung 
+V0  
+V2 
+  
+ = 3  
+
+: Anfangsvolumen bei 0 °C 
+: Endvolumen 
+: Volumenausdehnungskoeffizient 
+: für feste Körper 
+
+Näherungsformeln 
+
+V2 = V1 (1 +  ) 
+
+V =  V1  
+
+: Anfangstemperatur 
+: Endtemperatur 
+
+ = 2 – 1 : Temperaturänderung 
+1 
+2 
+V = V2 – V1 : Volumenänderung 
+V1  
+V2 
+  
+ = 3  
+
+: Anfangsvolumen 
+: Endvolumen 
+: Volumenausdehnungskoeffizient 
+: für feste Körper 
+
+4.2 Zustandsänderungen bei Gasen 
+
+Isobare Zustandsänderung p = konstant 
+
+V =   V0    
+
+V = V0 + V = V0(1 +   ) 
+
+  (für ideale Gase) 
+
+: Volumen bei der Temperatur  
+: Volumen bei der Temperatur 0 °C 
+
+V = V – V0 : Volumenänderung 
+V  
+V0 
+ =  – 0  : Temperaturänderung 
+  
+0 
+  
+
+: Endtemperatur 
+: Anfangstemperatur 0 °C 
+: isobarer Ausdehnungskoeffizient  
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+23 
+
+1300K10661,3K15,2731K)15,273(VV−−==−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Gesetz von Gay-Lussac 
+
+, wenn p = konstant 
+
+V1  : Volumen bei der absoluten Temperatur T1 
+V2  : Volumen bei der absoluten Temperatur T2 
+V0  : Volumen bei der absoluten Temperatur T0 = 273,15 K 
+
+Isochore Zustandsänderung V = Konstant 
+
+: Druck bei der Temperatur  
+: Druck bei der Temperatur 0 °C 
+
+p = p – p0  : Druckänderung 
+p 
+p0 
+ =  – 0  : Temperaturänderung 
+  
+0 
+
+: Endtemperatur 
+: Anfangstemperatur 0 °C 
+
+Gesetz von Amontons 
+
+  wenn V = konstant 
+
+p1  : Druck bei der absoluten Temperatur T1 
+p2  : Druck bei der absoluten Temperatur T2 
+p0  : Druck bei der absoluten Temperatur T0 = 273,15 K 
+
+Isotherme Zustandsänderung T = Konstant 
+
+Gesetz von Boyle und Mariotte 
+
+p1  V1 = p2  V2, wenn T = konstant 
+
+p1  : Druck beim Volumen V1 
+p2  : Druck beim Volumen V2 
+
+Allgemeine Gasgleichung 
+
+V1; p1  : Volumen und Druck bei der absoluten Temperatur T1 
+V2; p2  : Volumen und Druck bei der absoluten Temperatur T2 
+V0; p0  : Volumen und Druck bei der absoluten Temperatur T0 = 273,15 K 
+
+24 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+002211TVTVTV==+=+=K15,2731pppp00002211TpTpTp==000222111TVpTVpTVp== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Universelle Gasgleichung 
+
+V; p 
+n 
+R 
+
+: Volumen und Druck bei der absoluten Temperatur T 
+: Stoffmenge in mol 
+: Universelle Gaskonstante 
+
+Universelle Gaskonstante 
+
+R = 8,3145 J/(mol  K) 
+
+Avogadro-Konstante 
+
+Boltzmann Konstante 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+25 
+
+RnTVp=123Amol10023,6N−=K/J103805,1NRk23A−== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+4.3 Ausbreitung der Wärme 
+
+Wärmestrom 
+
+Q 
+t  
+
+: Wärmemenge Q in J 
+: Zeit in s 
+
+: Wärmestrom in 
+
+: Querschnittsfläche 
+A 
+l  
+: Dicke des Körpers 
+1 – 2 : Temperaturgefälle 
+
+  
+
+: Wärmeleitfähigkeit in 
+
+Wärmeübergang 
+
+Q 
+
+: Wärmeenergie (Wärmemenge Q) in Joule J 
+  1 Kilowattstunde kWh = 3,6  106 J 
+A 
+: Querschnittsfläche 
+1 – 2  : Temperaturgefälle 
+: Zeitdauer 
+t 
+
+  
+
+: Wärmeübergangskoeffizient in
+
+Wärmedurchgang 
+
+A 
+: Querschnittsfläche 
+1 – 2 : Temperaturgefälle 
+: Zeitdauer 
+t 
+: Wärmedurchgangskoeffizient 
+k  
+
+26 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+tQQ=lA)(Q21−=QW1sJ1sJ=KmWmKmW]A[][]l[]Q[2==)(tAQ21−=KmWKsmJ][]t[]A[]Q[22==)(tAkQ21−===++=ni1iii21l11k1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Wärmestrahlung 
+
+Wien‘sches Verschiebungsgesetz 
+
+max : Strahlungsmaximum 
+: Absolute Temperatur 
+T 
+
+Stefan-Boltzmann-Gesetz 
+
+IS(T) =  T4 
+
+Is(T) : Strahlungsintensität eines schwarzen Körpers 
+ 
+T 
+
+: Stefan-Boltzmann Konstante 
+: Absolute Temperatur 
+
+Stefan-Boltzmann-Konstante 
+
+ = 5,6703 10–8 W/(m2K4). 
+
+Kirchhoff‘sches Gesetz 
+
+I = a  IS 
+
+I  : Strahlungsintensität eines nicht schwarzen Körpers 
+IS : Strahlungsintensität eines schwarzen Körpers 
+a : Absorptionsvermögen eines nicht schwarzen Körpers 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+27 
+
+TKm10898,23max=− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+5 Wärme als Energieart und Energieträger 
+
+5.1 Wärmemenge und erster Hauptsatz 
+
+Innere Energie 
+
+  : Änderung der inneren Energie 
+ : Auf- oder abgegebene Wärmeenergie 
+ : Zugeführte oder abgegebene mechanische Arbeit 
+
+Spezifische Wärmekapazität 
+
+ : Wärmeenergie, die aufgenommen oder abgegeben wurde 
+
+m 
+
+: Masse des Körpers 
+
+c 
+
+: Spezifische Wärmekapazität des Körpers in 
+
+ : Temperaturänderung des Körpers 
+
+Wärmekapazität 
+
+C = c  m 
+
+C  : Wärmekapazität; 
+
+c  : spezifische Wärmekapazität des Körpers 
+m : Masse des Körpers 
+
+Molare Wärmekapazität Cm 
+
+Cm = Mr  c 
+
+Mr :  Molare Masse 
+
+Energieerhaltungssatz (Mischungsregel) 
+
+ : abgegebene Wärmeenergie 
+
+ : aufgenommene Wärmeenergie 
+
+28 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+WQU+=UQW=cmQQNm1Ws1J1]Q[===KkgkJKJ1]C[=aufabQQ=abQaufQ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+1. Hauptsatz der Thermodynamik 
+
+dU = dQ + dW 
+
+dU  : Änderung der inneren Energie 
+dQ : Auf- oder abgegebene Wärmeenergie 
+dW : Zugeführte oder abgegebene mechanische Arbeit 
+
+Volumenarbeit 
+
+dU = – p  dV 
+
+: Druck 
+
+p 
+dV : Volumenänderung 
+
+Isochore Zustandsänderung 
+
+Innere Energie 
+
+dU = m  cv dT 
+dU = n  Cmv  dT 
+
+: Spezifische Wärmekapazität bei konstantem Volumen 
+
+cv 
+Cmv : Molare Wärmekapazität bei konstantem Volumen 
+n 
+: Stoffmenge in Mol 
+dT  : Temperaturänderung 
+
+Isobare Zustandsänderung 
+
+m  : Masse 
+cv  : Spezifische Wärmekapazität bei konstantem Volumen 
+cp  : Spezifische Wärmekapazität bei konstantem Druck 
+dT : Temperaturänderung 
+p 
+dV : Volumenänderung 
+
+: Druck 
+
+Molare Wärmekapazitäten 
+
+Cmp – Cmv = R 
+
+Cmp : Molare Wärmekapazität bei konstantem Druck 
+Cmv : Molare Wärmekapazität bei konstantem Volumen 
+R 
+
+: Universelle Gaskonstante 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+29 
+
+dVpdTcmdTcmpv−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Isobare Volumenarbeit 
+
+Formeln: Naturwissenschaft  
+
+: Volumenarbeit 
+
+W 
+V1; T1 : Ausgangsvolumen; -temperatur 
+V2; T2 : Endvolumen; -temperatur 
+p 
+n 
+R 
+
+: Druck 
+: Stoffmenge in Mol 
+: Universelle Gaskonstante 
+
+Isotherme Zustandsänderung 
+
+dQ = p  dV 
+
+dQ : Änderung der Wärmeenergie 
+p 
+dV : Volumenänderung 
+
+: Druck 
+
+Isotherme Volumenarbeit 
+
+: Volumenarbeit 
+
+W 
+V1; p1  : Ausgangsvolumen; -druck 
+V2; p2  : Endvolumen; -druck 
+n 
+R 
+T 
+
+: Stoffmenge in Mol 
+: Universelle Gaskonstante 
+: Temperatur 
+
+Adiabatische Zustandsänderung 
+
+dU = n  Cmv  dT = –p  dV = dW 
+
+: Stoffmenge in Mol 
+
+dU  : Änderung der Inneren Energie 
+n 
+Cmv : Molare Wärmekapazität bei konstantem Volumen 
+dT  : Temperaturänderung 
+p 
+dV  : Volumenänderung 
+dW  : Zugeführte oder abgegebene Arbeit 
+
+: Druck 
+
+30 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+)TT(Rn)VV(p)VV(pdVpdVpW2121VV12VV2121−=−=−−=−=−=12VV21pplnTRnWVVlnTRndVVTRnW21==−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Adiabatenexponent 
+
+Cmp  : Molare Wärmekapazität bei konstantem Druck 
+Cmv  : Molare Wärmekapazität bei konstantem Volumen 
+cp  : Spezifische Wärmekapazität bei konstantem Druck 
+cv  : Spezifische Wärmekapazität bei konstantem Volumen 
+
+Temperatur-Volumen-Beziehung 
+
+Temperatur-Druck-Beziehung 
+
+Druck-Volumen-Beziehung 
+
+V1; p1; T1  : Anfangsvolumen; -druck; -temperatur 
+V2; p2; T2 : Endvolumen; -druck; -temperatur 
+ 
+
+: Adiabatenexponent 
+
+Poissonsches Gesetz 
+
+pV = const. 
+
+(Gleichung der Adiabaten eines idealen Gases) 
+
+p  : Druck 
+V  : Volumen 
+  : Adiabatenexponent 
+
+Volumenarbeit bei adiabatischer Zustandsänderung 
+
+: Volumenarbeit 
+: Stoffmenge in Mol 
+: Molare Wärmekapazität bei konstantem Volumen 
+
+W 
+n 
+CmV 
+V1; p1; T1  : Anfangsvolumen; -druck; -temperatur 
+V2; p2; T2 : Endvolumen; -druck; -temperatur 
+ 
+
+: Adiabatenexponent 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+31 
+
+vpmvmpccCC==11221VVTT−=−=12121ppTT=1221VVpp−−=−=−1VV1VpW)TT(CnW1211112mV 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Polytropengleichung 
+
+p  Vn = const. 
+
+p  : Druck 
+V  : Volumen 
+n  : Polytropenexponent 
+
+5.2 Änderung des Aggregatzustandes 
+
+Spezifische Schmelzwärme 
+
+: spezifische Schmelz-(Erstarrungs-)wärme in 
+
+Qm  : Wärmeenergie,  die  bei  Schmelz-(Erstarrungs-)temperatur  zugeführt  (abgege-
+
+ben) wird 
+
+m 
+
+: Masse des geschmolzenen bzw. erstarrten Körper 
+
+Spezifische Verdampfungswärme 
+
+: spezifische Verdampfungs-(Kondensations-)wärme in 
+
+  : Wärmeenergie,  die  bei  Siedetemperatur  (Kondensationstemperatur)  zugeführt 
+
+(abgegeben) wird 
+
+m 
+
+: Masse des verdampften (bzw. kondensierten) Körpers 
+
+32 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+)n1(mQqmm=mqkgkJmQrvv=vrkgkJvQ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+5.3 Wärme als Energieträger 
+
+Heizwert bei festen und flüssigen Stoffen 
+
+H 
+
+: Heizwert in 
+
+ : Wärmeenergie, die durch Verbrennung frei wird 
+: Masse des verbrannten Körpers 
+
+m 
+
+Heizwert bei flüssigen und gasförmigen Stoffen 
+
+H‘ : Heizwert in 
+
+V  : Volumen des verbrannten Stoffes 
+
+Wärmeleistung 
+
+P 
+
+: Leistung in 
+
+ : Wärmeenergie, die von der Wärmequelle abgegeben wurde 
+  : Zeitintervall der Wärmeabgabe 
+
+Wirkungsgrad 
+
+Pab; Pzu 
+Wab; Wzu  : Abgegebene bzw. zugeführte Arbeit/Energie 
+
+: Abgegebene bzw. zugeführte Leistung 
+
+Thermischer Wirkungsgrad 
+
+: Arbeit 
+
+W 
+Q1; Q2  : Wärmemenge des Kreisprozesses 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+33 
+
+mQH=kgkJQVQH=3mkJtQP=W1sJ1=QtzuabzuabWWPP==121211QQ1QQQQW−=−== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Thermischer Wirkungsgrad des Carnot-Prozesses 
+
+Formeln: Naturwissenschaft  
+
+T1; T2 : Temperaturen bei Kreisprozessen 
+
+Entropie 
+
+: Entropieänderung in 
+
+Qrev : Reversibel ausgetauschte Wärmemenge 
+T 
+
+: Temperatur 
+
+Entropie des idealen Gases 
+
+: Entropieänderung 
+: Stoffmenge in Mol 
+: molare Wärmekapazität bei konstantem Volumen 
+
+n 
+CmV 
+T1; V1 : Ausgangstemperatur, -volumen 
+T2; V2 : Endtemperatur, -volumen 
+: universelle Gaskonstante 
+R 
+
+Entropie und Wahrscheinlichkeit 
+
+Bei  einem  Übergang von  einem  Zustand  mit  der Wahrscheinlichkeit W1 in  einen  Zu-
+stand der Wahrscheinlichkeit W2 nimmt die Entropie zu: 
+
+(Boltzmann-Konstante) 
+
+W1; W2 
+S; S1; S2; S  : Entropien und Entropieänderung 
+
+: Wahrscheinlichkeiten 
+
+2. Hauptsatz der Thermodynamik 
+
+Bei irreversiblen Vorgängen wächst die Entropie, bei reversiblen bleibt sie konstant. 
+
+S : Entropie 
+
+34 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+12121TT1TTT−=−=TQSrev=SKJ1212mvVVlnRnTTlnCnS+=SWlnkS=1212WWlnkSSS=−=K/J1038,1k23−=0S 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+6 Schwingungen 
+
+6.1 Harmonische Schwingungen 
+
+Gegenüberstellung von Kreisbewegung und Harmonischer Schwingung 
+
+Symbol  Kreisbewegung 
+
+harmonische Schwingung 
+
+r 
+
+T 
+
+f 
+
+ 
+
+ 
+
+Bahnradius 
+
+Amplitude 
+
+Umlaufdauer 
+
+Schwingungsdauer 
+
+Frequenz 
+
+Drehwinkel 
+
+Frequenz 
+
+Phasenwinkel, Phase 
+
+Winkelgeschwindigkeit  Kreisfrequenz 
+
+Frequenz 
+
+f  : Frequenz  in s–1 
+z  : Anzahl der Schwingungen 
+t  : benötigte Zeit 
+T : Schwingungsdauer 
+
+Kreisfrequenz 
+
+  : Kreisfrequenz in 
+
+Zeit-Weg-Gesetz der harmonischen Schwingung 
+
+ : Amplitude der Schwingung (maximale Auslenkung aus der Gleichgewichtslage) 
+
+Zeit-Geschwindigkeits-Gesetz der harmonische Schwingung 
+
+v : Geschwindigkeit zur Zeit t 
+
+Zeit-Beschleunigungs-Gesetz der harmonischen Schwingung 
+
+a : Beschleunigung zur Zeit t 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+35 
+
+yˆT1f;tzf==)HertzHz(Hz1s1]f[===T2;f2==srad()tsinyˆy=yˆ)t(cosyˆv=)t(sinyˆa2−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Kraftgesetz einer harmonischen Schwingung 
+
+Formeln: Naturwissenschaft  
+
+F : Betrag der rücktreibenden Kraft 
+y  : Entfernung aus der Ruhelage 
+
+Schwingungsdauer eines Fadenpendels 
+
+T  : Schwingungsdauer 
+l  : Länge des Pendels 
+g  : Erdbeschleunigung 
+
+Schwingungsdauer eines Federpendels 
+
+m : Masse des schwingenden Körpers 
+c  : Federkonstante (auch D üblich) 
+
+Gesamtenergie einer Harmonischen Schwingung 
+
+m : Masse 
+  : Kreisfrequenz 
+ : Amplitude 
+
+6.2 Gedämpfte Schwingungen 
+
+y(t) : Weg 
+
+ : Amplitude bei t = 0 
+: Dämpfungskoeffizient 
+
+k 
+
+36 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+)t(sinyˆmF)KonstanteD(yDF2−==−=gl2T=cm2T=22yˆm21E=yˆ()tsineyˆtytk0=−0yˆ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+7 Wellen 
+
+Ausbreitungsgeschwindigkeit (Phasengeschwindigkeit) einer Welle 
+
+cP =   f 
+
+cP : Ausbreitungsgeschwindigkeit der Welle 
+  : Wellenlänge 
+f  : Frequenz 
+
+Wellengleichung einer linearen Welle 
+
+Wegdifferenz (Gangunterschied) und Phasendifferenz 
+
+ = (s / )  2 
+
+ : Phasendifferenz 
+s : Gangunterschied 
+: Wellenlänge 
+ 
+
+Überlagerung von kohärenten Wellen 
+
+Konstruktive Interferenz 
+
+s = n   
+ = n  2 
+mit n = 0, 1, 2, ... 
+
+Destruktive Interferenz 
+
+s = (2n – 1)   / 2 
+ = (2n –1)   
+mit n = 1, 2, ... 
+
+Brechungsgesetz 
+
+:  Die in den Medien gemessenen Winkel 
+
+  :  Ausbreitungsgeschwindigkeiten  (Phasengeschwindigkeiten)  der  Wellen  in 
+
+den Medien 
+
+Stehende Wellen 
+
+n = 4l / (2n + 1) 
+n = 2l / (n+1) 
+mit n = 0, 1, 2, ... 
+
+l : Länge des Wellenträgers 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+37 
+
+−=xTt2sinyˆ)t,x(y2p1pccsinsin=;2p1pc;c 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+8 Schall 
+
+Schallleistung 
+
+P = 
+
+P  : Schalleistung in Watt [W] 
+W : von der Schallquelle abgegebene Energie 
+t 
+
+: benötigte Zeit 
+
+Schallstärke (Schallintensität) 
+
+I 
+
+: Schallintensität in Watt je Quadtratmeter 
+
+W : Schallenergie, die in der Zeit t senkrecht durch die Fläche A transportiert wird 
+P  : Schalleistung 
+
+Lautstärke 
+
+: Lautstärke gemessen in dB 
+
+L 
+dB : Dezibel 
+p 
+
+: Schalldruck 
+
+p0  : Hörschwelle 
+
+Dopplereffekt 
+
+Bewegter Sender 
+
+Bewegter Empfänger 
+
+f‘ : Dopplerfrequenz 
+c : Schallgeschwindigkeit 
+v : Geschwindigkeit von Sender oder Empfänger 
+
+38 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+tWAP;tAW==II2mW0202pplg20pplg10L===−250mN102pcv11ff−=vcvffff−=−=)cv1(ff+=cvffff=−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+9 Eigenschaften des Lichtes 
+
+Strahlenfluss 
+
+Energieflussdichte 
+
+Raumwinkel 
+
+: Strahlungsfluss bzw. Strahlungsleistung in W 
+: empfangene Energie in J 
+
+: Energieflussdichte bzw. Strahlungsflussdichte 
+  in W/m2 
+: Querschnittsfläche des Strahlungsflusses 
+
+: Strahlungsfluss 
+
+: Raumwinkel in sr (Steradiant; wegen m2/m2  
+  dimensionslos) 
+: von der Strahlung getroffener Teil einer  
+  Kugelfläche 
+: zugehöriger Radius  
+
+r 
+
+Strahlstärke, Lichtstärke 
+
+: Strahlstärke in W/sr 
+: Lichtstärke in cd (Candela) 
+
+Solarkonstante 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+39 
+
+dtdQee=tQee=eedQ⊥=dAde⊥=Ae⊥Ae22rA=2A=ddee=e2Som/kW35,1= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Beleuchtungsstärke 
+
+(ungleichmäßige Verteilung) 
+
+E 
+
+: Beleuchtungsstärke in lx 
+
+Em 
+
+: mittlere Beleuchtungsstärke in lx 
+
+Leuchtdichte 
+
+(ungleichmäßige Verteilung) 
+
+L 
+
+: Leuchtdichte in 
+
+(bei schräger Fläche) 
+
+Lichtmenge 
+
+Q 
+
+: Lichtmenge in lms 
+
+40 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+dAdE=AEm=2rE=dAdL=2mcdAL==cosALtQ= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+10 Geometrische Optik 
+
+10.1 Reflexion 
+
+ =  
+
+Sphärische Spiegel 
+
+Hohlspiegel 
+
+f = 
+
+Wölbspiegel 
+
+f = –  
+
+f  : Brennweite (Entfernung des Brennpunkts von der Spiegelmitte) 
+r  : Krümmungsradius des Spiegels 
+
+10.2 Brechung 
+
+n 
+
+: Brechzahl 
+ : Einfallswinkel 
+
+ : Brechungswinkel 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+41 
+
+2r2r1221nnsinsin=12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+ : Lichtgeschwindigkeit in verschiedenen Medien 
+ : Brechungsindizes 
+
+Totalreflexion 
+
+  : Grenzwinkel der Totalreflexion 
+
+n 
+
+: Brechzahl 
+
+Ablenkwinkel beim Durchgang eines Lichtstrahls durch ein Prisma 
+
+, oder  = 
+
++
+
+- 
+
+ 
+
+:  Ablenkwinkel 
+ :  Einfallswinkel 
+
+ :  Brechungswinkel  
+
+beim Eintritt in das Prisma 
+
+  :  Einfallswinkel 
+
+ :  Brechungswinkel beim 
+
+Austritt aus dem Prisma 
+
+10.3 Abbildungen 
+
+Abbildungsmaßstab (Lochkamera) 
+
+A = 
+
+A : Abbildungsmaßstab 
+B : Bildgröße 
+G : Gegenstandsgröße 
+
+42 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+1221nncc=21c,c21n,n12grnnsin=gr)()(2211−+−=121212GB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Abbildungsgesetz (Lochkamera) 
+
+b  : Bildweite 
+g  : Gegenstandsweite 
+
+Gesetze der Linsenabbildung 
+
+für reelles Bild 
+
+für virtuelles Bild 
+
+B  : Bildgröße 
+G : Gegenstandsgröße 
+b  : Bildweite (negativ für virtuelle Bilder) 
+g  : Gegenstandsweite 
+f  : Brennweite 
+
+D : Brechkraft in 
+
+ = 1 dpt (Dioptrie) 
+
+Bildkonstruktion 
+
+Zerstreuungslinsen 
+
+f 
+g 
+b 
+B 
+G 
+
+: Brennweite (negativ) 
+: Gegenstandsweite 
+: Bildweite 
+: Bildgröße 
+: Gegenstandsgröße 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+43 
+
+GBgb=gbGB=gbGB−=b1g1f1+=f1D=m1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sammellinsen 
+
+Formeln: Naturwissenschaft  
+
+Vergrößerung optischer Instrumente 
+
+V 
+
+: Vergrößerung 
+ : Sehwinkel mit Instrument 
+ : Sehwinkel ohne Instrument 
+
+Vergrößerung der Lupe 
+
+ : deutliche Sehweite (
+: Brennweite 
+
+f 
+
+ = 25 cm) 
+
+44 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+0mV=m0fsV0=0s0s 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+11 Licht als Wellenerscheinung 
+
+Beugung und Interferenz 
+
+Doppelspalt 
+
+Maxima 
+
+Minima 
+
+n = 0, 1, 2, ... 
+
+Gitter 
+
+Maxima 
+
+n = 0, 1, 2, ... 
+
+Einzelspalt 
+
+Minima 
+
+Maxima 
+
+n = 1, 2, ... 
+
+Bragg-Gleichung 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+45 
+
+d/nsinn=()()d2/1n2sinn+=d/nsinn=d/nsinn=()()d2/1n2sinn+==sind2n 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Anhang 
+
+Griechisches Alphabet 
+
+  
+
+Alpha 
+
+  
+
+Eta 
+
+  
+
+Ny 
+
+  
+
+Tau 
+
+  
+
+Beta 
+
+  
+
+Theta 
+
+  
+
+Xi 
+
+  
+
+Ypsilon 
+
+  
+
+Gamma 
+
+  
+
+Iota 
+
+  
+
+Omikron 
+
+  
+
+Phi 
+
+  
+
+Delta 
+
+  
+
+  
+
+Epsilon 
+
+  
+
+Kappa 
+
+Lambda 
+
+  
+
+Pi 
+
+  
+
+Chi 
+
+  
+
+Rho 
+
+  
+
+Psi 
+
+  
+
+Zeta 
+
+  
+
+My 
+
+  
+
+Sigma 
+
+  
+
+Omega 
+
+Zehnerpotenzen und Teile von Einheiten 
+
+E  Exa- 
+
+1018   M 
+
+Mega- 
+
+106  d  Dezi- 
+
+P  Peta-  1015  k 
+
+Kilo- 
+
+103  c 
+
+Zenti- 
+
+T 
+
+Tera-  1012  h  
+
+Hekto-  102  m  Milli- 
+
+G  Giga-  109  da  Deka- 
+
+101    Mikro- 
+
+10-1 
+
+10-2 
+
+10-3 
+
+10-6 
+
+n  Nano- 
+
+p  Pico- 
+
+10-9 
+
+10-12 
+
+f 
+
+Femto-  10-15 
+
+a  Atto- 
+
+10-18 
+
+Das Periodensystem 
+
+Periode 
+
+Haupt- 
+gruppen 
+
+Nebengruppen 
+
+Hauptgruppen 
+
+I a 
+
+1 
+H 
+1,0 
+
+3 
+Li 
+6,9 
+
+11 
+Na 
+23,0 
+
+19 
+K 
+39,1 
+
+37 
+Rb 
+85,5 
+
+55 
+Cs 
+132,9 
+
+87 
+Fr 
+223 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+II a 
+
+III b 
+
+IV b 
+
+V b 
+
+VI b 
+
+VII b 
+
+VIII 
+
+VIII 
+
+VIII 
+
+I b 
+
+II b 
+
+III a 
+
+IV a 
+
+V a 
+
+VI a 
+
+VII a 
+
+4 
+Be 
+9,0 
+
+12 
+Mg 
+24,3 
+
+20 
+Ca 
+40,1 
+38 
+Sr 
+87,6 
+
+56 
+Ba 
+137,3 
+
+88 
+Ra 
+226 
+
+21 
+Sc 
+45,0 
+
+39 
+Y 
+88,9 
+
+57...71 
+
+89..103 
+
+22 
+Ti 
+47,9 
+
+40 
+Zr 
+91,2 
+
+72 
+Hf 
+178,5 
+104 
+Ku 
+261 
+
+23 
+V 
+50,9 
+
+41 
+Nb 
+92,9 
+
+73 
+Ta 
+180,9 
+
+105 
+Ha 
+
+24 
+Cr 
+52,0 
+
+42 
+Mo 
+95,9 
+
+25 
+Mn 
+54,9 
+
+43 
+Tc 
+99 
+
+74 
+W 
+183,9 
+
+75 
+Re 
+186,2 
+
+26 
+Fe 
+55,8 
+
+44 
+Ru 
+101,1 
+
+76 
+Os 
+190,2 
+
+27 
+Co 
+58,9 
+
+45 
+Rh 
+102,9 
+
+77 
+Ir 
+192,2 
+
+28 
+Ni 
+58,7 
+
+46 
+Pd 
+106,4 
+
+78 
+Pt 
+195,1 
+
+29 
+Cu 
+63,5 
+
+47 
+Ag 
+107,9 
+
+79 
+Au 
+197,0 
+
+30 
+Zn 
+65,4 
+
+48 
+Cd 
+112,4 
+
+80 
+Hg 
+200,6 
+
+ (gekürzte Darstellung) 
+
+5 
+B 
+10,8 
+
+13 
+Al 
+27,0 
+
+31 
+Ga 
+69,7 
+
+49 
+In 
+114,8 
+
+81 
+Tl 
+204,4 
+
+6 
+C 
+12,0 
+
+14 
+Si 
+28,1 
+
+32 
+Ge 
+72,6 
+
+50 
+Sn 
+118,7 
+
+82 
+Pb 
+207,2 
+
+7 
+N 
+14,0 
+
+15 
+P 
+31,0 
+
+33 
+As 
+74,9 
+
+51 
+Sb 
+121,8 
+
+83 
+Bi 
+209,0 
+
+8 
+O 
+16,0 
+
+16 
+S 
+32,1 
+
+34 
+Se 
+79,0 
+
+52 
+Te 
+127,6 
+
+84 
+Po 
+210 
+
+9 
+F 
+19,0 
+
+17 
+Cl 
+35,5 
+
+35 
+Br 
+79,9 
+
+53 
+J 
+126,9 
+
+85 
+At 
+210 
+
+VIII 
+
+2 
+He 
+4,0 
+
+10 
+Ne 
+20,2 
+
+18 
+Ar 
+39,9 
+36 
+Kr 
+83,8 
+54 
+Xe 
+131,3 
+
+86 
+Rn 
+(222) 
+
+Wasserstoff   
+Helium 
+Kohlenstoff 
+Stickstoff 
+Sauerstoff 
+Neon   
+
+He 
+
+N 
+
+H 
+
+C 
+
+O 
+Ne 
+
+Natrium 
+Magnesium   
+Aluminium 
+Silicium 
+Phosphor 
+Schwefel 
+
+Mg 
+Al 
+
+P 
+
+Na 
+
+Si 
+
+S 
+
+Chlor   
+Calcium 
+Eisen   
+Nickel  
+Kupfer 
+Zink 
+
+Ca 
+
+Cl 
+
+Fe 
+Ni 
+Cu 
+Zn 
+
+Silber   
+Zinn 
+Gold 
+Quecksilber   
+Blei 
+Uran   
+
+Ag 
+Sn 
+Au 
+Hg 
+Pb 
+U 
+
+Wichtige Elemente mit Kurzzeichen 
+
+46 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fläche  A = a2 
+
+Umfang  U = 4  a 
+
+Formeln: Naturwissenschaft 
+
+Konstanten 
+
+Absoluter Nullpunkt 
+
+Fallbeschleunigung 
+
+Lichtgeschwindigkeit 
+
+Physikalischer Normaldruck 
+
+Flächenberechnung 
+
+Quadrat 
+
+Rechteck 
+
+Rhombus  
+(Raute) 
+
+Parallelogramm 
+
+Trapez 
+
+Dreieck 
+
+Kreis 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+47 
+
+K0T=C15,2730−=2sm81,9g=sm109979,2c8=Pa1001325,1p5n=a2d=22bad)ba( 2  Ub a A +=+=====sinaha4Uh a A =+==sinbh)ba( 2  Uh a A dcbaUh2baA+++=+=cbaU2haA++==dr2U4dArA22==== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Kreisring 
+
+Kreisausschnitt 
+
+Kreisabschnitt 
+
+Ellipse 
+
+Vieleck 
+
+Zerlegung in Dreiecke: 
+
+Körperberechnung 
+
+Würfel (Kubus) 
+
+Prisma 
+
+Volumen  V = a3 
+
+Oberfläche  A = 6  a2 
+
+Kantenlänge 
+
+a = 
+
+Raumdiagonale D = a  
+
+48 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+s)sd(ArRs)dD(4A)rR(A2222+=−=−=−===180rb2rbA)2/(sinr2shrh22s180rb2)hr(srbA2=−==−−=)rR(2U2dDU4dDA22+=+=gfedcU2hahahaAAAAA321321++++=++=++=3V3222hbaD)hbhaba(2AhbaV++=++== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mantelfläche AM: 
+
+AM =   d  h 
+
+Oberfläche A: 
+
+A =   d  h +
+
+Formeln: Naturwissenschaft 
+
+Zylinder 
+
+Hohlzylinder 
+
+Pyramide 
+
+Pyramidenstumpf 
+
+mit:  A1 = a1  b1  
+
+  A2 = a2  b2 
+
+Kegel 
+
+Kegelstumpf 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+49 
+
+h4dVhrV22==2d2}2dD)dD(h{Ahs)sd(VrRs)dD(4hVh)rR(V222222−++=+=−=−=−=ab22b22b22ahahbb a A b25,0hLa25,0hhb25,0hh3hbaV++=+=+=+==)AAAA(3hV2211++=++=+=+=+===2d4dh2dA)sr(r4d2sdAd25,0hshr3112hdV2222222)dD(4)dD(2sA)rR(hs)ddDD(12hV222222+++=−+=++= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Kugel 
+
+Zylindrischer 
+Ring 
+
+Dichte  fester Stoffe bei 20 °C 
+
+Feste Stoffe 
+
+Dichte  in 
+kg/dm3  
+
+Feste Stoffe 
+
+Dichte  in 
+kg/dm3  
+
+Aluminium (gewalzt) 
+
+2,7 
+
+Zink (gegossen) 
+
+7,20 
+
+Blei 
+
+Bronze (gewöhnlich) 
+
+Eisen  
+
+Gold 
+
+Gusseisen 
+
+Konstantan 
+
+Kupferdraht (hart) 
+
+Magnesium 
+
+Messing 
+
+Natrium  
+
+Nickeldraht (hart) 
+
+Silber 
+
+Stahl 
+
+Titan 
+
+Uran 
+
+Wolfram 
+
+Wolframstahl 
+
+Zink (gewalzt) 
+
+11,34 
+
+8,6 
+
+7,86 
+
+19,3 
+
+Platin 
+
+Basalt 
+
+Chrom 
+
+Kalkstein 
+
+7,2 bis 7,6 
+
+Gips (gebrannt) 
+
+8,8 
+
+8,96 
+
+1,74 
+
+Kalk (gebrannt) 
+
+Kies (trocken) 
+
+Sand (feucht) 
+
+8,1 bis 8,6 
+
+Sand (trocken) 
+
+0,97 
+
+8,76 
+
+10,40 
+
+Diamant 
+
+Eis (0C) 
+
+Kork 
+
+21,4 
+
+3,0 
+
+7,1 
+
+2,7 
+
+1,6 bis 1,8 
+
+0,9 bis 1,2 
+
+1,9 bis 2,0 
+
+1,9 bis 2,1 
+
+1,4 bis 1,6 
+
+3,6 
+
+0,92 
+
+0,24 
+
+7,7 bis 7,86  Granit 
+
+2,5 bis 2,7 
+
+4,5 
+
+18,7 
+
+19,3 
+
+9,0 
+
+7,15 
+
+Kristallglas 
+
+Quarzglas 
+
+Gummi 
+
+Balsaholz 
+
+Buchenholz 
+
+2,9 
+
+2,2 
+
+1,1 
+
+0,08 bis 0,2 
+
+0,6 bis 0,9 
+
+50 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+233dAr34V6dV===DdAD4dV2== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Dichte  von Flüssigkeiten bei 20 °C 
+
+Flüssigkeit 
+
+Äthanol 
+
+Benzin  
+
+Benzol 
+
+Diäthyläther 
+
+Dieselöl 
+
+Glycerin 
+
+Pentan 
+
+Petroleum 
+
+Quecksilber 
+
+Dichte  in 
+kg/dm3  
+
+Flüssigkeit 
+
+Dichte  in 
+kg/dm3  
+
+0,789 
+
+Salzsäure (25 %) 
+
+0,70 bis 0,74  Salzsäure (40 %) 
+
+0,88 
+
+0,72 
+
+Schwefelkohlenstoff 
+
+Schwefelsäure (50 %) 
+
+0,85 bis 0,88  Schwefelsäure (100 %) 
+
+1,26 
+
+0,623 
+
+Seewasser 
+
+Spiritus 
+
+0,8 bis 0,82 
+
+Tetrachlorkohlenstoff 
+
+13,55 
+
+Toluol 
+
+1,1 
+
+1,195 
+
+1,26 
+
+1,40 
+
+1,83 
+
+1,02 
+
+0,83 
+
+1,598 
+
+0,866 
+
+1,0000 
+
+0,9982 
+
+Salpetersäure (50 %) 
+
+1,31 
+
+Wasser (4 C) 
+
+Wasser (0 C) 
+
+Dichte  von Gasen im Normzustand 
+
+Gas 
+
+Ammoniak 
+
+Acethylen 
+
+Chlor 
+
+Helium 
+
+Kohlendioxid 
+
+Kohlenmonoxid 
+
+Luft (trocken) 
+
+Methan 
+
+Dichte  in kg/m3   Gas 
+
+Dichte  in kg/m3  
+
+0,771 
+
+1,171 
+
+3,23 
+
+0,179 
+
+1,977 
+
+1,250 
+
+1,293 
+
+0,717 
+
+Ozon 
+
+Propan 
+
+Sauerstoff 
+
+Schwefeldioxid 
+
+Stadtgas 
+
+Stickstoff 
+
+Wasserstoff 
+
+2,22 
+
+2,0 
+
+1,429 
+
+2,93 
+
+0,6 
+
+1,250 
+
+0,090 
+
+Haftreibungszahlen  0  und  Gleitreibungszahlen    verschiedener  Werk-
+stoffe 
+
+Stoffe 
+
+Haft-
+reibungs-
+zahl 0 
+
+Gleitreibungszahl  
+
+trocken 
+
+flüssig 
+
+Rollreibungszahl 
+(f in m) 
+
+Stahl/Stahl 
+
+Stahl/CuSn-Legierung 
+
+Stahl/Grauguss 
+
+Holz/Metall 
+
+Lederdichtung/Metall 
+
+Gummireifen/Asphalt 
+
+0,25 
+
+0,25 
+
+0,25 
+
+0,5 
+
+0,6 
+
+0,8 
+
+0,15 
+
+0,2 
+
+0,2 
+
+0,4 
+
+0,2 
+
+0,7 
+
+0,06 
+
+0,05 
+
+0,08 
+
+0,1 
+
+0,12 
+
+0,3 
+
+5 ·10–5  bis 5 ·10–4   
+
+2 ·10–5  bis 3 ·10–5   
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+51 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Dynamische Viskosität η bei 20 °C 
+
+Stoff 
+
+Äthanol 
+
+Benzol 
+
+Diäthyläther 
+
+Glycerin 
+
+Methanol 
+
+Motoröl 
+
+Pech 
+
+Petroleum 
+
+Quecksilber 
+
+Schweres Wasser 
+
+Dynamische 
+Viskosität η in 
+10 –3 Pa s 
+
+Stoff 
+
+Dynamische 
+Viskosität η in 
+10 –3 Pa s 
+
+1,20 
+
+0,648 
+
+0,24 
+
+1480 
+
+0,587 
+20 bis 104 
+3 ·1010 
+
+1,46 
+
+1,554 
+
+1,26 
+
+Tetrachlorkohlenstoff 
+
+Toluol 
+
+Ammoniak 
+
+Helium 
+
+Kohlendioxid 
+
+Methan 
+
+Sauerstoff 
+
+Stickstoff 
+
+Wasserstoff 
+
+Luft 
+
+0,97 
+
+0,585 
+
+0,224 
+
+0,022 
+
+0,0147 
+
+0,0108 
+
+0,0203 
+
+0,0175 
+
+0,013 
+
+0,0171 
+
+Eigenschaften von Wasser in Abhängigkeit von der Temperatur  
+
+ in ºC 
+ρ in kg/dm3 
+
+ps in Pa 
+σ in 10–2 N/m 
+η in 10–3 Pa s 
+
+ in ºC 
+ρ in kg/dm3 
+
+ps in Pa 
+σ in 10–2 N/m 
+η in 10–3 Pa s 
+
+0 
+
+10 
+
+20 
+
+30 
+
+40 
+
+50 
+
+0,99984 
+
+0,9997 
+
+0,9982 
+
+0,9957 
+
+0,9922 
+
+0,9881 
+
+611 
+
+1228 
+
+2340 
+
+4244 
+
+7313 
+
+12332 
+
+7,56 
+
+1,79 
+
+7,40 
+
+1,31 
+
+60 
+
+70 
+
+7,25 
+
+1,00 
+
+80 
+
+7,09 
+
+0,80 
+
+90 
+
+0,9832 
+
+19865 
+
+0,9778 
+
+31197 
+
+0,9718 
+
+42329 
+
+0,9653 
+
+70127 
+
+6,93 
+
+0,65 
+
+6,78 
+
+0,55 
+
+100 
+
+0,9584 
+
+101325 
+
+6,57 
+
+0,47 
+
+6,45 
+
+0,40 
+
+6,30 
+
+0,36 
+
+6,12 
+
+0,32 
+
+5,88 
+
+0,28 
+
+; ρ Dichte; ps Sättigungsdruck;  σ Kapillaritätskonstante; η dynamisch Viskosität 
+
+52 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Längenausdehnungszahlen 
+
+Stoff 
+
+Aluminium 
+Beton 
+Blei 
+Eisen 
+Glas 
+Gold 
+Iridium 
+Kupfer 
+Messing 
+Naphthalin 
+Platin 
+Plexiglas 
+Porzellan 
+PVC 
+Quarzglas 
+Silber 
+Stahl (unlegiert) 
+Stahl, V2A 
+Zelluloid 
+Zink 
+Zinn 
+
+2,40  10–5 
+1,20  10–5 
+2,90  10–5 
+1,25  10–5 
+0,79  10–5 
+1,43  10–5 
+0,66  10–5 
+1,60  10–5 
+1,80  10–5 
+9,40  10–5 
+0,90  10–5 
+7,00  10–5 
+0,35  10–5 
+7,80 10–5 bis 15  10–5 
+0,05 10–5 
+2,00  10–5 
+1,20 10–5 
+1,60  10–5 
+10,00  10–5 
+3,00  10–5 
+2,30  10–5 
+
+Wärmeleitfähigkeit  
+
+Stoff 
+
+Aluminium 
+
+Baustahl 
+
+Edelstahl 
+
+Gusseisen 
+
+Kupfer 
+
+Silber 
+
+Stahlbeton 
+
+Ziegel 
+
+Glas 
+
+Holz (Mittelwert) 
+
+Kork 
+
+Luft (ruhend) 
+
+Schafwolle 
+
+200 
+
+60 
+
+14 
+
+58 
+
+380 
+
+410 
+
+2,1 
+
+0,5 ... 0,9 
+
+0,80 
+
+0,15 
+
+0,05 
+
+0,023 
+
+0,040 
+
+Wärmedämmstoffe 
+
+0,025 ... 0,050 
+
+Wasserstoff 
+
+Wasser 
+
+0,19 
+
+0,58 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+53 
+
+K1inαKmWinλ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Volumenausdehnungszahlen 
+
+Flüssigkeit 
+
+Äther 
+
+Alkohol 
+
+Azeton 
+
+Benzin 
+
+Benzol 
+
+Glycerin 
+
+Heizöl 
+
+Petroleum 
+
+Quecksilber 
+
+Wasser 
+
+Heizwert 
+
+fester, flüs-
+siger Stoff 
+
+Benzin 
+
+Brikett 
+
+Dieselkraft-
+stoff 
+
+Heizöl 
+
+Holz 
+
+Spiritus 
+
+16,2  10–4 
+
+11,0  10–4 
+
+14,3  10–4 
+
+11,0  10–4 
+
+10,6  10–4 
+
+5,0  10–4 
+
+9,6  10–4 
+
+9,6  10–4 
+
+1,8  10–4 
+
+1,8   10–4 
+
+43500 
+
+17000...20000 
+
+42000 
+
+37000...40000 
+
+12500...16000 
+
+25000...27000 
+
+Steinkohle 
+
+30000...36000 
+
+Gase 
+
+Acetylen 
+
+Propangas 
+
+Stadtgas 
+
+Wasserstoff 
+
+59000 
+
+47000 
+
+17500 
+
+11000 
+
+54 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+K1inkgkJinH3mkJinH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Spezifische Wärmekapazitäten 
+
+feste Körper 
+
+Aluminium 
+
+Beton 
+
+Blei 
+
+Eis 
+
+Eisen 
+
+Glas 
+
+Gold 
+
+Iridium 
+
+Konstanten 
+
+Kupfer 
+
+Magnesium 
+
+Messing 
+
+Naphtalin 
+
+Platin 
+
+Quarzglas 
+
+Silber 
+
+Stahl 
+
+Zink 
+
+Zinn 
+
+Flüssigkeiten 
+
+Alkohol 
+
+Benzol 
+
+Chloroform 
+
+Glycerin 
+
+Öl 
+
+Petroleum 
+
+Quecksilber 
+
+Schwefelsäure 
+
+Terpentinöl 
+
+Wasser 
+
+0,895 
+
+0,84 
+
+0,130 
+
+2,10 
+
+0,460 
+
+0,66...0,84 
+
+0,131 
+
+0,129 
+
+0,410 
+
+0,389 
+
+1,006 
+
+0,385 
+
+1,257 
+
+0,132 
+
+0,729 
+
+0,233 
+
+0,42...0,67 
+
+0,388 
+
+0,219 
+
+2,43 
+
+1,73 
+
+0,493 
+
+2,388 
+
+1,97 
+
+2,14 
+
+0,14 
+
+1,45 
+
+1,80 
+
+4,19 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+55 
+
+KkgkJincKkgkJinc 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Gase 
+
+Ammoniak 
+
+Helium 
+
+Luft 
+
+Sauerstoff 
+
+Stickstoff 
+
+Wasserdampf 
+
+Wasserstoff 
+
+2,19 
+
+5,24 
+
+1,01 
+
+0,92 
+
+1,05 
+
+1,97 
+
+14,3 
+
+1,67 
+
+3,157 
+
+0,71 
+
+0,67 
+
+0,75 
+
+1,394 
+
+10,1 
+
+cp  :  spezifische Wärmekapazität bei konstantem Druck 
+cv  :  spezifische Wärmekapazität bei konstantem Volumen 
+
+Schmelztemperatur 
+bei 1013 h Pa Druck 
+
+ und spezifische Schmelzwärme qm einiger Stoffe 
+
+Stoff 
+
+Aluminium 
+
+Blei 
+
+Eis 
+
+Eisen 
+
+Kupfer 
+
+Magnesium 
+
+Naphtalin 
+
+Nickel 
+
+Platin 
+
+Quecksilber 
+
+Silber 
+
+Zink 
+
+Zinn 
+
+658 
+
+327 
+
+0 
+
+1530 
+
+1084 
+
+650 
+
+80,1 
+
+1452 
+
+1770 
+
+–39 
+
+960,5 
+
+419,4 
+
+232 
+
+398 
+
+25 
+
+335 
+
+268 
+
+205 
+
+373 
+
+151 
+
+300 
+
+113 
+
+11,7 
+
+105 
+
+103 
+
+58,6 
+
+56 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+KkgkJincpKkgkJincvmCinmkgkJinqm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft 
+
+Siedetemperatur 
+Stoffe bei 1013 h Pa Druck 
+
+  und  spezifische  Verdampfungswärme 
+
+  einiger 
+
+Stoff 
+
+Äther 
+
+Alkohol 
+
+Ammoniak 
+
+Benzol 
+
+Chloroform 
+
+Glycerin 
+
+Luft 
+
+Quecksilber 
+
+Sauerstoff 
+
+Wasser 
+
+Wasserstoff 
+
+35 
+
+78 
+
+–34 
+
+80 
+
+61 
+
+64,5 
+
+–193 
+
+357 
+
+–183 
+
+100 
+
+–253 
+
+368 
+
+859 
+
+1344 
+
+393 
+
+279 
+
+1102 
+
+209 
+
+284 
+
+214 
+
+2257 
+
+461 
+
+Brechungsindizes n (bei 20°C) 
+
+Medium 
+
+Äthylalkohol 
+
+Benzol 
+
+Diamant 
+
+Flintglas (F 3) 
+
+Flintglas (SF 2) 
+
+Kanadabalsam 
+
+Kronglas (BK 7) 
+
+Kronglas (SK 1) 
+
+n 
+
+1,362 
+
+1,501 
+
+2,417 
+
+1,613 
+
+1,648 
+
+1,544 
+
+1,516 
+
+1,610 
+
+Luft (1013 h Pa) 
+
+1,000272  1 
+
+Quarzglas 
+
+Schwefelkohlenstoff 
+
+Steinsalz 
+
+Wasser 
+
+1,458  
+
+1,628 
+
+1,542 
+
+1,333 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+57 
+
+vvrCinvkgkJinrv 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Naturwissenschaft  
+
+Spektrum der elektromagnetischen Strahlung 
+
+Wellenlänge  Frequenz  Art der Strahlung 
+
+Anwendung 
+
+  
+ /m 
+
+– 104 
+
+– 105 
+
+– 106 
+
+– 107 
+
+– 108 
+
+– 109 
+
+– 1010 
+
+– 1011 
+
+– 1012 
+
+– 1013 
+
+– 1014 
+
+– 1015 
+
+– 1016 
+
+– 1017 
+
+– 1018 
+
+Hz 
+
+– 1019 
+
+– 1020 
+
+– 104 
+
+– 103 
+
+– 102 
+
+– 101 
+
+– 100 
+
+– 10– 1 
+
+– 10– 2 
+
+– 10– 3 
+
+– 10– 4 
+
+– 10– 5 
+
+– 10– 6 
+
+– 10– 7 
+
+– 10– 8 
+
+– 10– 9 
+
+– 10– 10 
+
+– 10– 11 
+
+– 10– 12 
+
+f 
+
+ 
+
+Langwellen 
+
+Mittelwellen 
+
+Kurzwellen 
+
+Ultrakurz-
+wellen 
+
+Rundfunk 
+und 
+Telegrafie 
+
+Mikro- 
+wellen 
+
+Fernseher 
+Radartechnik 
+
+z
+n
+e
+u
+q
+e
+r
+f
+h
+c
+o
+H
+e
+h
+c
+s
+n
+h
+c
+e
+T
+
+i
+
+Wärme- 
+strahlung 
+
+Infrarot 
+
+Medizin 
+Infrarot- 
+Spektroskopie 
+
+sichtbares Licht 
+
+Beleuchtung 
+
+Ultraviolett 
+
+Laser- 
+Spektroskopie 
+
+Röntgenstrahlen 
+
+Medizin, 
+Grobstruktur- 
+und 
+Feinstruktur- 
+analysen 
+
+Gamma-
+strahlung 
+
+58 
+
+© DAA-Technikum Essen / gs-21_00_nawi_fo.01.01.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

@@ -24,6 +24,14 @@ Sag mir einfach *„schlag XY nach"* oder *„erklär mir XY mit Beispiel"*, dan
 - [Sinussatz](mathematik.md#sinussatz)
 - [Kosinussatz](mathematik.md#kosinussatz)
 - [Volumen & Oberfläche (Körper)](mathematik.md#volumen--oberfläche-körper)
+- [Scheitelpunktform](mathematik.md#scheitelpunktform)
+- [Quadratische Ergänzung](mathematik.md#quadratische-ergänzung)
+- [p-q-Formel](mathematik.md#p-q-formel)
+- [Potenzgesetze](mathematik.md#potenzgesetze)
+- [Exponentialfunktion](mathematik.md#exponentialfunktion)
+- [Logarithmus](mathematik.md#logarithmus)
+- [Logarithmengesetze](mathematik.md#logarithmengesetze)
+- [Exponentialgleichung](mathematik.md#exponentialgleichung)
 
 ## Deutsch/Kommunikation
 - [DIN 5008](deutsch.md#din-5008)
@@ -33,8 +41,10 @@ Sag mir einfach *„schlag XY nach"* oder *„erklär mir XY mit Beispiel"*, dan
 - [Protokoll](deutsch.md#protokoll)
 - [Beschreibung](deutsch.md#beschreibung)
 
-## Naturwissenschaft / Bautechnik
-- *(folgt, sobald die Unterlagen da sind)*
+## Naturwissenschaft (Physik)
+**Mechanik (LM1):** [SI-Basisgrößen](naturwissenschaft.md#si-basisgrößen) · [Dichte & Wichte](naturwissenschaft.md#dichte--wichte) · [Kraft](naturwissenschaft.md#kraft) · [Kraftzerlegung](naturwissenschaft.md#kraftzerlegung) · [Schiefe Ebene](naturwissenschaft.md#schiefe-ebene) · [Reibung](naturwissenschaft.md#reibung) · [Hookesches Gesetz](naturwissenschaft.md#hookesches-gesetz) · [Drehmoment & Hebelgesetz](naturwissenschaft.md#drehmoment--hebelgesetz) · [Gleichgewichtsbedingungen](naturwissenschaft.md#gleichgewichtsbedingungen) · [Bewegungsgleichungen](naturwissenschaft.md#bewegungsgleichungen) · [Freier Fall](naturwissenschaft.md#freier-fall) · [Kreisbewegung](naturwissenschaft.md#kreisbewegung) · [Newtonsche Axiome](naturwissenschaft.md#newtonsche-axiome) · [Arbeit, Energie, Leistung](naturwissenschaft.md#arbeit-energie-leistung) · [Wirkungsgrad](naturwissenschaft.md#wirkungsgrad) · [Druck](naturwissenschaft.md#druck) · [Schweredruck](naturwissenschaft.md#schweredruck-hydrostatischer-druck) · [Hydraulik](naturwissenschaft.md#hydraulik)
+
+**Wärmelehre (LM2):** [Temperaturskalen](naturwissenschaft.md#temperaturskalen) · [Wärmeausdehnung](naturwissenschaft.md#wärmeausdehnung) · [Gasgesetze](naturwissenschaft.md#gasgesetze) · [Wärmeausbreitung](naturwissenschaft.md#wärmeausbreitung) · [Wärmemenge](naturwissenschaft.md#wärmemenge--spezifische-wärmekapazität) · [Erster Hauptsatz](naturwissenschaft.md#erster-hauptsatz-der-wärmelehre) · [Schmelz- & Verdampfungswärme](naturwissenschaft.md#schmelz--und-verdampfungswärme)
 
 ---
 > Das Lexikon wächst mit jedem Modul mit. Neue Fächer bekommen eine eigene Datei (z. B. `bautechnik.md`).
