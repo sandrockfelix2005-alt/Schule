@@ -173,6 +173,73 @@
   .foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line-soft);font-size:12.5px;color:var(--muted)}
   .foot a{color:var(--accent-deep)}
 
+  /* --- Globale Suche --- */
+  .gsearch{width:100%;padding:9px 11px;margin:14px 0 2px;border:1px solid var(--line);border-radius:9px;background:var(--surface-2);color:var(--ink);font-family:var(--sans);font-size:13.5px}
+  .gsearch:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+  .sres{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:12px 15px;margin:9px 0;cursor:pointer}
+  .sres:hover{border-color:var(--accent)}
+  .sres .typ{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-deep);border:1px solid var(--line);border-radius:20px;padding:1px 8px;margin-right:8px}
+  .sres h4{margin:6px 0 3px;font-size:14.5px}
+  .sres p{margin:0;font-size:13px;color:var(--muted)}
+  mark{background:var(--accent-soft);color:var(--ink);padding:0 2px;border-radius:3px}
+
+  /* --- Wiederholen --- */
+  .due{display:inline-block;min-width:18px;padding:1px 6px;margin-left:7px;border-radius:20px;background:var(--accent);color:#1a1305;font-family:var(--mono);font-size:10.5px;font-weight:700;text-align:center}
+  .due:empty{display:none}
+  .wdh-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+  .wstat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px;text-align:center}
+  .wnum{display:block;font-family:var(--mono);font-size:23px;font-weight:700;color:var(--accent-deep);line-height:1}
+  .wlbl{display:block;font-size:11.5px;color:var(--muted);margin-top:5px}
+  .wdh-rate{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+  .rb{border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);padding:10px 4px;font-size:13.5px;font-weight:600;cursor:pointer;display:flex;flex-direction:column;gap:3px;align-items:center}
+  .rb span{font-family:var(--mono);font-size:10px;font-weight:400;color:var(--muted)}
+  .rb.again:hover,.rb.again:focus{border-color:#c0522d;color:#c0522d}
+  .rb.hard:hover{border-color:var(--accent)}
+  .rb.good:hover{border-color:var(--good);color:var(--good)}
+  .rb.easy:hover{border-color:var(--blue);color:var(--blue)}
+
+  /* --- Klausur --- */
+  .timerbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+  .timer{font-family:var(--mono);font-size:26px;font-weight:700;letter-spacing:.02em;font-variant-numeric:tabular-nums;flex:1}
+  .timer.warn{color:#c0522d}
+  .timerbar button{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-size:13px;cursor:pointer;color:var(--ink)}
+  .timerbar button:hover{border-color:var(--accent)}
+  .kauf{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0}
+  .kauf .knr{font-family:var(--mono);font-size:11px;color:var(--accent-deep);text-transform:uppercase;letter-spacing:.1em}
+  .kauf .kp{float:right;font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .kauf .ktxt{margin:7px 0 0;font-size:14.5px}
+  .kauf details{border:none;background:none;padding:0;margin:10px 0 0}
+  .kauf summary{font-size:13.5px;color:var(--accent-deep)}
+
+  /* --- Formeln --- */
+  .ftab{width:100%;border-collapse:collapse;margin:10px 0;font-size:13.5px;display:block;overflow-x:auto}
+  .frow{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 15px;margin:8px 0}
+  .frow .fth{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-deep)}
+  .frow h4{margin:4px 0 6px;font-size:14.5px}
+  .frow .ff{font-family:var(--mono);background:var(--surface-2);border:1px solid var(--line);border-radius:7px;padding:7px 11px;display:block;font-size:14px;overflow-x:auto}
+  .frow .fe{margin:7px 0 0;font-size:12.5px;color:var(--muted)}
+  .ft-opts{display:grid;gap:8px;margin:12px 0}
+  .ft-opts button{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:11px 14px;font-size:14px;text-align:left;cursor:pointer;color:var(--ink)}
+  .ft-opts button:hover{border-color:var(--accent)}
+  .ft-opts button.ok{border-color:var(--good);background:var(--good-bg);font-weight:600}
+  .ft-opts button.no{border-color:#c0522d;opacity:.75}
+
+  /* --- Notizen --- */
+  .notiz{width:100%;min-height:260px;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font-family:var(--sans);font-size:14.5px;line-height:1.6;resize:vertical}
+  .notiz:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+  .notiz-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  #notiz-status{font-family:var(--mono);font-size:11.5px;color:var(--good)}
+
+  /* --- Termine --- */
+  .term{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:11px 14px;margin:7px 0}
+  .term.past{opacity:.45}
+  .term.next{border-color:var(--accent);border-width:2px}
+  .term .tdat{font-family:var(--mono);font-size:13px;font-weight:600;min-width:104px;font-variant-numeric:tabular-nums}
+  .term .tnr{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-left:auto}
+  .fer{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:5px 0;border-bottom:1px solid var(--line-soft)}
+  .fer:last-child{border:none}
+  .fer .fd{font-family:var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+
   @media (max-width:820px){
     .sidebar{display:none}
     .topbar{display:block;position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line)}
@@ -182,6 +249,11 @@
     .mobnav button{flex:none;background:var(--surface-2);border:1px solid var(--line);border-radius:20px;padding:8px 14px;font-size:13px;color:var(--ink);cursor:pointer;white-space:nowrap}
     .mobnav button.active{background:var(--accent);color:#1a1305;border-color:var(--accent);font-weight:650}
     main{padding:20px 18px 80px}
+    .wdh-stats{grid-template-columns:repeat(3,1fr);gap:7px}
+    .wnum{font-size:19px}
+    .wlbl{font-size:10.5px}
+    .wdh-rate{grid-template-columns:repeat(2,1fr)}
+    .gsearch{margin:0}
     h1{font-size:24px}
     .layout{display:block}
   }
@@ -193,13 +265,19 @@
       <option value="1">Sem 1</option><option value="2">Sem 2</option><option value="3">Sem 3</option><option value="4">Sem 4</option><option value="5">Sem 5</option><option value="6">Sem 6</option><option value="7">Sem 7</option>
     </select>
   </div>
+  <div style="padding:0 14px 8px"><input class="gsearch" id="gsearchMob" placeholder="🔎 Alles durchsuchen …" /></div>
   <nav class="mobnav" id="mobnav">
     <button data-view="start" class="active">Übersicht</button>
+    <button data-view="wdh">Wiederholen<span class="due" id="dueBadgeM"></span></button>
     <button data-view="fach">Zusammenfassungen</button>
     <button data-view="karten">Karteikarten</button>
     <button data-view="uebung">Übungen</button>
+    <button data-view="klausur">Probeklausur</button>
+    <button data-view="formeln">Formeln</button>
     <button data-view="lexikon">Lexikon</button>
+    <button data-view="notizen">Notizen</button>
     <button data-view="plan">Lernplan</button>
+    <button data-view="termine">Termine</button>
   </nav>
 </header>
 
@@ -209,6 +287,7 @@
       <div class="brand-mark">BT</div>
       <div class="brand-txt"><strong>Lerntool</strong><span>Bautechnik</span></div>
     </div>
+    <input class="gsearch" id="gsearchSide" placeholder="🔎 Alles durchsuchen …" />
     <div class="semrow">
       <label class="semlbl" for="semSideSel">Semester wählen</label>
       <select class="semsel" id="semSideSel">
@@ -218,11 +297,25 @@
     <div class="eyebrow">Bereiche</div>
     <nav id="nav">
       <a data-view="start" class="active"><span class="n">00</span> Übersicht</a>
-      <a data-view="fach"><span class="n">01</span> Zusammenfassungen</a>
-      <a data-view="karten"><span class="n">02</span> Karteikarten</a>
-      <a data-view="uebung"><span class="n">03</span> Übungsaufgaben</a>
-      <a data-view="lexikon"><span class="n">04</span> Lexikon</a>
-      <a data-view="plan"><span class="n">05</span> Lernplan</a>
+      <a data-view="wdh"><span class="n">01</span> Wiederholen<span class="due" id="dueBadge"></span></a>
+    </nav>
+    <div class="eyebrow">Lernen</div>
+    <nav id="nav2">
+      <a data-view="fach"><span class="n">02</span> Zusammenfassungen</a>
+      <a data-view="karten"><span class="n">03</span> Karteikarten</a>
+      <a data-view="uebung"><span class="n">04</span> Übungsaufgaben</a>
+      <a data-view="klausur"><span class="n">05</span> Probeklausur</a>
+    </nav>
+    <div class="eyebrow">Nachschlagen</div>
+    <nav id="nav3">
+      <a data-view="formeln"><span class="n">06</span> Formelsammlung</a>
+      <a data-view="lexikon"><span class="n">07</span> Lexikon</a>
+      <a data-view="notizen"><span class="n">08</span> Meine Notizen</a>
+    </nav>
+    <div class="eyebrow">Planen</div>
+    <nav id="nav4">
+      <a data-view="plan"><span class="n">09</span> Lernplan</a>
+      <a data-view="termine"><span class="n">10</span> Termine</a>
     </nav>
     <div class="eyebrow">Fortschritt Lernplan</div>
     <div class="side-progress"><span id="pct">0 %</span><div class="bar"><i id="barfill"></i></div></div>
@@ -239,6 +332,8 @@
         <div class="stat"><div class="num">148</div><div class="lbl">Karteikarten</div></div>
         <div class="stat"><div class="num">82</div><div class="lbl">Übungsaufgaben</div></div>
         <div class="stat"><div class="num">57</div><div class="lbl">Lexikon-Begriffe</div></div>
+        <div class="stat"><div class="num">92</div><div class="lbl">Formeln</div></div>
+        <div class="stat"><div class="num">2</div><div class="lbl">Probeklausuren</div></div>
       </div>
       <h2>Die Fächer im 1. Semester</h2>
       <table>
@@ -252,13 +347,24 @@
         <strong>Wo liegen die Original-PDFs?</strong>
         <p style="margin:8px 0 0">Im GitHub-Repo <code>sandrockfelix2005-alt/Schule</code> (Ordner <code>Unterlagen/</code>) und in deinem Google-Drive-Ordner <strong>Technikerschule</strong>. Diese HTML-Seite bündelt alles Aufbereitete zum Lernen unterwegs.</p>
       </div>
-      <div class="panel">
-        <strong>So lernst du damit</strong>
+      <div class="panel tip">
+        <strong>Dein Tagesablauf</strong>
         <ol style="margin:8px 0 0">
-          <li>Im <strong>Lernplan</strong> dem aktuellen Lernabschnitt folgen.</li>
-          <li>Kapitel durcharbeiten → <strong>Zusammenfassung</strong> lesen → <strong>Karteikarten</strong> → <strong>Übungen</strong>.</li>
-          <li>Hängt etwas? Im <strong>Lexikon</strong> nachschlagen.</li>
+          <li><strong>Wiederholen</strong> öffnen – dort steht, was heute dran ist (die Zahl neben dem Menüpunkt).</li>
+          <li>Neuen Stoff nach <strong>Lernplan</strong> durcharbeiten → <strong>Zusammenfassung</strong> → <strong>Übungen</strong>.</li>
+          <li>Hängt etwas? <strong>Lexikon</strong>, <strong>Formelsammlung</strong> oder das Suchfeld oben nutzen.</li>
         </ol>
+      </div>
+      <div class="panel">
+        <strong>Was drin steckt</strong>
+        <ul style="margin:8px 0 0">
+          <li><strong>Wiederholen</strong> – Karteikarten im wissenschaftlichen Abstand (Spaced Repetition), Fortschritt bleibt gespeichert.</li>
+          <li><strong>Probeklausur</strong> – 90 Minuten im echten Prüfungsformat, mit Timer.</li>
+          <li><strong>Formelsammlung</strong> – alle Formeln durchsuchbar + Trainer „Welche Formel brauche ich?“.</li>
+          <li><strong>Notizen</strong> – eigene Merker je Modul.</li>
+          <li><strong>Termine</strong> – deine Samstage ohne hessische Ferien und Feiertage.</li>
+          <li><strong>Suche</strong> oben – findet alles auf einmal.</li>
+        </ul>
       </div>
     </section>
 
@@ -308,6 +414,99 @@
       <input class="search" id="lexsearch" placeholder="Suchen: z. B. Pythagoras, Kosinussatz, Dreisatz, Zeugnissprache, DIN 5008 …" />
       <div class="lexcount" id="lexcount"></div>
       <div id="lex-list"></div>
+    </section>
+
+
+    <!-- SUCHE (global) -->
+    <section class="view" data-view="suche">
+      <div class="kicker">Globale Suche</div>
+      <h1>Suchergebnisse</h1>
+      <p class="lead" id="suche-info">Tippe oben ins Suchfeld – durchsucht Zusammenfassungen, Karteikarten, Übungen, Formeln, Lexikon und deine Notizen.</p>
+      <div id="suche-out"></div>
+    </section>
+
+    <!-- WIEDERHOLEN (Spaced Repetition) -->
+    <section class="view" data-view="wdh">
+      <div class="kicker">Wiederholen · Spaced Repetition</div>
+      <h1>Heute lernen</h1>
+      <p class="lead">Karte antippen zum Umdrehen, dann ehrlich bewerten. Gewusste Karten kommen erst später wieder, schwierige schon bald.</p>
+      <div class="wdh-stats">
+        <div class="wstat"><span class="wnum" id="w-due">0</span><span class="wlbl">heute fällig</span></div>
+        <div class="wstat"><span class="wnum" id="w-new">0</span><span class="wlbl">noch nie gelernt</span></div>
+        <div class="wstat"><span class="wnum" id="w-known">0</span><span class="wlbl">im Langzeit&shy;gedächtnis</span></div>
+      </div>
+      <div id="wdh-done" class="empty" style="display:none"><strong>Alles erledigt für heute 🎉</strong><p>Komm morgen wieder – oder üb im Bereich „Karteikarten“ frei weiter.</p></div>
+      <div id="wdh-box">
+        <div class="fc-stage"><div class="fc" id="wfc">
+          <div class="fc-face fc-front"><span class="tag" id="wfc-deck">Frage</span><div id="wfc-q"></div></div>
+          <div class="fc-face fc-back"><span class="tag">Antwort</span><div id="wfc-a"></div></div>
+        </div></div>
+        <div class="wdh-rate" id="wdh-rate" style="display:none">
+          <button class="rb again" data-r="0">Nochmal<span>morgen</span></button>
+          <button class="rb hard" data-r="1">Schwer<span id="rt1">2 Tage</span></button>
+          <button class="rb good" data-r="2">Gewusst<span id="rt2">4 Tage</span></button>
+          <button class="rb easy" data-r="3">Leicht<span id="rt3">8 Tage</span></button>
+        </div>
+        <p class="hint" id="wdh-hint">Tippe die Karte an, um die Antwort zu sehen.</p>
+      </div>
+      <button class="reset" id="wdh-reset">Lernfortschritt dieses Semesters zurücksetzen</button>
+    </section>
+
+    <!-- PROBEKLAUSUR -->
+    <section class="view" data-view="klausur">
+      <div class="kicker">Probeklausur</div>
+      <h1>Klausur im Prüfungsformat</h1>
+      <p class="lead">90 Minuten, nur mit Formelsammlung und Taschenrechner – so wie in der echten Prüfung. Erst rechnen, dann Lösungen aufklappen.</p>
+      <div class="modpick" id="klausurpick"></div>
+      <div class="panel tip" id="klausur-info"></div>
+      <div class="timerbar">
+        <span class="timer" id="k-timer">90:00</span>
+        <button id="k-start">Start</button>
+        <button id="k-stop">Pause</button>
+        <button id="k-reset">Zurücksetzen</button>
+      </div>
+      <div id="klausur-out"></div>
+    </section>
+
+    <!-- FORMELSAMMLUNG -->
+    <section class="view" data-view="formeln">
+      <div class="kicker">Formelsammlung</div>
+      <h1>Formeln finden</h1>
+      <p class="lead">In beiden Prüfungen ist die Formelsammlung das <strong>einzige Hilfsmittel</strong> – hier trainierst du, die richtige Formel schnell zu finden.</p>
+      <div class="seg" id="fmode"><button data-m="liste" class="on">Nachschlagen</button><button data-m="train">Trainer</button></div>
+      <div id="f-liste">
+        <input class="search" id="fsearch" placeholder="Suchen: z. B. Wärmemenge, Pythagoras, Wirkungsgrad …" />
+        <div class="modpick" id="ffach"></div>
+        <div class="lexcount" id="fcount"></div>
+        <div id="formel-out"></div>
+      </div>
+      <div id="f-train" style="display:none">
+        <div class="panel"><strong>Welche Formel brauchst du?</strong><p style="margin:8px 0 0" id="ft-frage"></p></div>
+        <div id="ft-opts" class="ft-opts"></div>
+        <p class="hint" id="ft-fb"></p>
+        <div class="fc-controls"><span class="fc-count" id="ft-score">0 richtig</span><button id="ft-next">Nächste Frage →</button></div>
+      </div>
+    </section>
+
+    <!-- NOTIZEN -->
+    <section class="view" data-view="notizen">
+      <div class="kicker">Meine Notizen</div>
+      <h1>Eigene Notizen</h1>
+      <p class="lead">Für Fragen aus der Präsenzphase, eigene Merksätze oder Rechenwege. Wird auf diesem Gerät gespeichert.</p>
+      <div class="modpick" id="notizpick"></div>
+      <textarea id="notiz-txt" class="notiz" placeholder="Hier tippen … (wird automatisch gespeichert)"></textarea>
+      <div class="notiz-bar"><span id="notiz-status">&nbsp;</span><button class="reset" id="notiz-export">Alle Notizen anzeigen/kopieren</button></div>
+      <div id="notiz-all"></div>
+    </section>
+
+    <!-- TERMINE -->
+    <section class="view" data-view="termine">
+      <div class="kicker">Termine · Präsenzphasen</div>
+      <h1>Deine Samstage</h1>
+      <p class="lead">Alle Samstage im Semester – ohne die hessischen Schulferien. Der nächste Termin steht oben.</p>
+      <div class="panel tip" id="next-termin"></div>
+      <div id="termin-out"></div>
+      <div class="panel"><strong>Hessische Schulferien</strong><div id="ferien-out"></div></div>
     </section>
 
     <!-- LERNPLAN -->
@@ -1022,6 +1221,189 @@ const PLAN = [
  ["Lernabschnitt 10 · Naturwissenschaft","21 HS-Std.",["Naturwissenschaft LM1, Kap. 2.6.4–3.3","Naturwissenschaft LM2, Kap. 1–1.2"]]
 ];
 
+/* ---------- FORMELSAMMLUNG ---------- */
+/* [Fach, Thema, Bezeichnung, Formel, Erklärung/Einheiten] */
+const FORMELN = [
+ ["Mathematik","Grundlagen","Rundungsregel","(n+1)-te Stelle 0–4 → ab · 5–9 → auf","Runden auf n Dezimalstellen"],
+ ["Mathematik","Grundlagen","Wissenschaftliche Schreibweise","a · 10ᵏ  (1 ≤ a < 10)","k = Zehnerpotenz; k=10³, M=10⁶, µ=10⁻⁶"],
+ ["Mathematik","Algebra","1. binomische Formel","(a + b)² = a² + 2ab + b²",""],
+ ["Mathematik","Algebra","2. binomische Formel","(a − b)² = a² − 2ab + b²",""],
+ ["Mathematik","Algebra","3. binomische Formel","(a + b)(a − b) = a² − b²","zum Faktorisieren von Differenzen"],
+ ["Mathematik","Algebra","Ausklammern","a·b + a·c = a·(b + c)","Summe → Produkt"],
+ ["Mathematik","Funktionen","Geradengleichung","y = m·x + b","m = Steigung Δy/Δx, b = y-Achsenabschnitt"],
+ ["Mathematik","Funktionen","Nullstelle der Geraden","x = −b / m","y = 0 setzen"],
+ ["Mathematik","Funktionen","Proportionale Zuordnung","y = k · x","k = y/x konstant"],
+ ["Mathematik","Funktionen","Antiproportionale Zuordnung","y = c / x","x·y = c konstant"],
+ ["Mathematik","Funktionen","Scheitelpunktform","f(x) = a(x − r)² + s","Scheitelpunkt S(r|s)"],
+ ["Mathematik","Funktionen","p-q-Formel","x₁,₂ = −p/2 ± √((p/2)² − q)","für x² + px + q = 0"],
+ ["Mathematik","Funktionen","Diskriminante","D = (p/2)² − q","D>0 zwei, D=0 eine, D<0 keine Lösung"],
+ ["Mathematik","Potenzen","Potenz mal Potenz","aᵐ · aⁿ = aᵐ⁺ⁿ","gleiche Basis: Exponenten addieren"],
+ ["Mathematik","Potenzen","Potenz durch Potenz","aᵐ : aⁿ = aᵐ⁻ⁿ",""],
+ ["Mathematik","Potenzen","Potenz potenzieren","(aᵐ)ⁿ = aᵐ·ⁿ","Exponenten multiplizieren"],
+ ["Mathematik","Potenzen","Negativer Exponent","a⁻ⁿ = 1 / aⁿ",""],
+ ["Mathematik","Potenzen","Wurzel als Potenz","ⁿ√a = a^(1/n)",""],
+ ["Mathematik","Logarithmus","Definition","log_a b = y  ⟺  aʸ = b","b = Numerus"],
+ ["Mathematik","Logarithmus","Basiswechsel","log_a x = lg x / lg a","für den Taschenrechner"],
+ ["Mathematik","Logarithmus","Produktregel","lg(u · v) = lg u + lg v",""],
+ ["Mathematik","Logarithmus","Quotientenregel","lg(u / v) = lg u − lg v",""],
+ ["Mathematik","Logarithmus","Potenzregel","lg(uⁿ) = n · lg u","Schlüssel für Exponentialgleichungen"],
+ ["Mathematik","Logarithmus","Exponentialgleichung","aˣ = b → x = lg b / lg a","beide Seiten logarithmieren"],
+ ["Mathematik","Geometrie","Satz des Pythagoras","a² + b² = c²","nur im rechtwinkligen Dreieck, c = Hypotenuse"],
+ ["Mathematik","Geometrie","Winkelsumme Dreieck","α + β + γ = 180°",""],
+ ["Mathematik","Geometrie","Strahlensatz","a : b = c : d","bei parallelen Schnitten"],
+ ["Mathematik","Geometrie","Fläche Rechteck","A = a · b","U = 2(a+b)"],
+ ["Mathematik","Geometrie","Fläche Dreieck","A = ½ · g · h","g = Grundseite, h = Höhe"],
+ ["Mathematik","Geometrie","Fläche Trapez","A = ½ · (a + c) · h",""],
+ ["Mathematik","Geometrie","Kreis","A = π · r²   ·   U = 2 · π · r","d = 2r"],
+ ["Mathematik","Geometrie","Kreissektor","A = (φ/360°) · π · r²","Bogen b = (φ/360°)·2πr"],
+ ["Mathematik","Trigonometrie","Sinus","sin α = Gegenkathete / Hypotenuse","GAGA – Hühner AH"],
+ ["Mathematik","Trigonometrie","Kosinus","cos α = Ankathete / Hypotenuse",""],
+ ["Mathematik","Trigonometrie","Tangens","tan α = Gegenkathete / Ankathete","= sin α / cos α"],
+ ["Mathematik","Trigonometrie","Sinussatz","a/sin α = b/sin β = c/sin γ","beliebiges Dreieck; Seite + Gegenwinkel bekannt"],
+ ["Mathematik","Trigonometrie","Kosinussatz","c² = a² + b² − 2·a·b·cos γ","SWS oder SSS; γ=90° → Pythagoras"],
+ ["Mathematik","Trigonometrie","Bogenmaß","rad = (π / 180°) · Grad","Vollkreis = 2π"],
+ ["Mathematik","Körper","Quader","V = a·b·c   ·   O = 2(ab+ac+bc)",""],
+ ["Mathematik","Körper","Prisma","V = G · h","G = Grundfläche"],
+ ["Mathematik","Körper","Zylinder","V = π·r²·h   ·   O = 2πr² + 2πrh",""],
+ ["Mathematik","Körper","Pyramide / Kegel","V = ⅓ · G · h","Kegel: V = ⅓·π·r²·h"],
+ ["Mathematik","Körper","Kugel","V = (4/3)·π·r³   ·   O = 4·π·r²",""],
+
+ ["Naturwissenschaft","Grundlagen","Dichte","ρ = m / V","[kg/dm³] Beton ≈ 2,4 · Stahl ≈ 7,85"],
+ ["Naturwissenschaft","Grundlagen","Wichte","γ = F_G / V","[N/dm³]"],
+ ["Naturwissenschaft","Kräfte","Kraft (Grundgesetz)","F = m · a","1 N = 1 kg·m/s²"],
+ ["Naturwissenschaft","Kräfte","Gewichtskraft","F_G = m · g","g ≈ 9,81 m/s²"],
+ ["Naturwissenschaft","Kräfte","Kraftkomponenten","F_x = F·cos α   ·   F_y = F·sin α","F = √(F_x²+F_y²), tan α = F_y/F_x"],
+ ["Naturwissenschaft","Kräfte","Normalkraft (schiefe Ebene)","F_N = m · g · cos α","senkrecht zur Ebene"],
+ ["Naturwissenschaft","Kräfte","Hangabtriebskraft","F_H = m · g · sin α","parallel zur Ebene"],
+ ["Naturwissenschaft","Kräfte","Haftreibung","F_R,max = µ₀ · F_N","noch in Ruhe"],
+ ["Naturwissenschaft","Kräfte","Gleitreibung","F_R = µ · F_N","in Bewegung, µ < µ₀"],
+ ["Naturwissenschaft","Kräfte","Hookesches Gesetz","F = c · s","c = Federsteifigkeit [N/mm]"],
+ ["Naturwissenschaft","Kräfte","Federn in Reihe","1/c_res = 1/c₁ + 1/c₂ + …","weicher"],
+ ["Naturwissenschaft","Kräfte","Federn parallel","c_res = c₁ + c₂ + …","steifer"],
+ ["Naturwissenschaft","Statik","Drehmoment","M = F · l","[Nm], l = Hebelarm"],
+ ["Naturwissenschaft","Statik","Hebelgesetz","F₁ · l₁ = F₂ · l₂","ΣM_links = ΣM_rechts"],
+ ["Naturwissenschaft","Statik","Gleichgewichtsbedingungen","ΣF_x = 0 · ΣF_y = 0 · ΣM = 0","Grundlage der Statik"],
+ ["Naturwissenschaft","Bewegung","Geschwindigkeit","v = s / t","1 m/s = 3,6 km/h"],
+ ["Naturwissenschaft","Bewegung","Beschleunigung","a = Δv / Δt","[m/s²]"],
+ ["Naturwissenschaft","Bewegung","Weg (beschleunigt)","s = ½ · a · t²","aus dem Stand"],
+ ["Naturwissenschaft","Bewegung","Endgeschwindigkeit","v = a · t   ·   v = √(2·a·s)",""],
+ ["Naturwissenschaft","Bewegung","Freier Fall","h = ½·g·t²   ·   v = √(2·g·h)","g ≈ 9,81 m/s²"],
+ ["Naturwissenschaft","Bewegung","Kreisbewegung","v = π·d·n = ω·r","n = Drehzahl, ω = 2π·f"],
+ ["Naturwissenschaft","Bewegung","Frequenz / Umlaufzeit","f = 1/T   ·   T = 1/n","1 Hz = 1 s⁻¹"],
+ ["Naturwissenschaft","Energie","Mechanische Arbeit","W = F · s","1 Ws = 1 Nm = 1 J"],
+ ["Naturwissenschaft","Energie","Hubarbeit / pot. Energie","W = E_pot = m · g · h",""],
+ ["Naturwissenschaft","Energie","Kinetische Energie","E_kin = ½ · m · v²",""],
+ ["Naturwissenschaft","Energie","Federarbeit","W = ½ · c · s²",""],
+ ["Naturwissenschaft","Energie","Energieerhaltung","E_End = E_Anf + W_zu − W_ab",""],
+ ["Naturwissenschaft","Energie","Leistung","P = W / t = F · v","1 W = 1 J/s"],
+ ["Naturwissenschaft","Energie","Wirkungsgrad","η = W_ab / W_zu = P_ab / P_zu","immer < 1"],
+ ["Naturwissenschaft","Energie","Wirkungsgradkette","η_ges = η₁ · η₂ · η₃ · …",""],
+ ["Naturwissenschaft","Druck","Druck","p = F / A","1 Pa = 1 N/m², 1 bar = 10⁵ Pa"],
+ ["Naturwissenschaft","Druck","Schweredruck","p_h = ρ · g · h","unabhängig von der Gefäßform"],
+ ["Naturwissenschaft","Druck","Bodenkraft","F_B = ρ · g · h · A",""],
+ ["Naturwissenschaft","Druck","Hydraulik","F₁ / A₁ = F₂ / A₂","Weg umgekehrt: s₁/s₂ = A₂/A₁"],
+ ["Naturwissenschaft","Druck","Auftrieb","F_A = ρ · g · V","verdrängtes Volumen (Archimedes)"],
+ ["Naturwissenschaft","Wärme","Temperaturumrechnung","T = 273,15 K + ϑ","0 K = −273,15 °C"],
+ ["Naturwissenschaft","Wärme","Längenausdehnung","Δl = α · l₁ · Δϑ","α = Längenausdehnungskoeffizient"],
+ ["Naturwissenschaft","Wärme","Volumenausdehnung","ΔV = γ · V₁ · Δϑ","feste Körper: γ = 3α"],
+ ["Naturwissenschaft","Wärme","Zustandsgleichung ideales Gas","p·V / T = konstant","T in Kelvin!"],
+ ["Naturwissenschaft","Wärme","Isobar (p konstant)","V₁ / V₂ = T₁ / T₂","Gay-Lussac"],
+ ["Naturwissenschaft","Wärme","Isochor (V konstant)","p₁ / p₂ = T₁ / T₂",""],
+ ["Naturwissenschaft","Wärme","Isotherm (T konstant)","p₁ · V₁ = p₂ · V₂","Boyle-Mariotte"],
+ ["Naturwissenschaft","Wärme","Wärmestrom","Φ = λ · A · (ϑ₁ − ϑ₂) / l","λ = Wärmeleitfähigkeit [W/(m·K)]"],
+ ["Naturwissenschaft","Wärme","Erster Hauptsatz","ΔU = Q + W",""],
+ ["Naturwissenschaft","Wärme","Wärmemenge","Q = c · m · Δϑ","c Wasser ≈ 4,19 kJ/(kg·K)"],
+ ["Naturwissenschaft","Wärme","Wärmekapazität","C = c · m","[J/K]"],
+ ["Naturwissenschaft","Wärme","Mischungsregel","Q_ab = Q_auf","Energieerhaltung"],
+ ["Naturwissenschaft","Wärme","Schmelzwärme","Q_m = q_m · m","Wasser ≈ 334 kJ/kg"],
+ ["Naturwissenschaft","Wärme","Verdampfungswärme","Q_v = r_v · m","Wasser ≈ 2257 kJ/kg"]
+];
+
+/* Formel-Trainer: [Situation, richtige Formel-Bezeichnung] */
+const FTRAIN = [
+ ["Ein Körper (500 kg) wird 15 m angehoben. Welche Formel für die Arbeit?","Hubarbeit / pot. Energie"],
+ ["Wie schnell ist ein Werkzeug beim Aufprall nach 12 m freiem Fall?","Freier Fall"],
+ ["Ein Fundament überträgt 60 kN auf 0,8 m². Gesuchte Größe: Bodenpressung.","Druck"],
+ ["Wie viel Beton passt in einen Zylinder mit r und h?","Zylinder"],
+ ["Ein Träger wird um 30 K erwärmt – wie stark dehnt er sich?","Längenausdehnung"],
+ ["Wie viel Energie braucht man, um 80 l Wasser zu erwärmen?","Wärmemenge"],
+ ["Zwei Seiten und der eingeschlossene Winkel sind bekannt – dritte Seite?","Kosinussatz"],
+ ["Rechtwinkliges Dreieck: Hypotenuse und Winkel bekannt, Gegenkathete gesucht.","Sinus"],
+ ["Welche Kraft ist am anderen Hebelarm nötig?","Hebelgesetz"],
+ ["Ein Motor nimmt 12 kW auf und gibt 9,6 kW ab.","Wirkungsgrad"],
+ ["Gas wird bei konstantem Volumen erwärmt – neuer Druck?","Isochor (V konstant)"],
+ ["Wie groß ist der Wasserdruck in 4,5 m Tiefe?","Schweredruck"],
+ ["Löse x² + px + q = 0.","p-q-Formel"],
+ ["6ˣ = 330 – wie kommst du an x?","Exponentialgleichung"],
+ ["Kleiner Kolben 5 cm², großer 250 cm² – Kraftübersetzung?","Hydraulik"],
+ ["Wie viel Wärme geht durch eine gedämmte Wand verloren?","Wärmestrom"],
+ ["Eis bei 0 °C soll geschmolzen werden.","Schmelzwärme"],
+ ["Katheten bekannt, Hypotenuse gesucht.","Satz des Pythagoras"],
+ ["Ein Körper liegt auf einer 20°-Rampe – Kraft senkrecht zur Fläche?","Normalkraft (schiefe Ebene)"],
+ ["Scheitelpunkt einer Parabel aus der allgemeinen Form?","Scheitelpunktform"]
+];
+
+/* ---------- PROBEKLAUSUREN ---------- */
+/* {titel, dauer (min), hinweis, aufgaben:[[Punkte, Aufgabe, Lösung]]} */
+const KLAUSUREN = {
+ "Mathematik I":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. 60 Punkte.",
+  aufgaben:[
+   [5,"Runden Sie auf zwei Dezimalstellen und geben Sie in wissenschaftlicher Schreibweise an: a) 48 372 m · b) 0,000 815 s","a) 4,84·10⁴ m · b) 8,15·10⁻⁴ s"],
+   [5,"Wandeln Sie um: a) 1101₂ ins Dezimalsystem · b) 45 ins Dualsystem","a) 8+4+0+1 = 13 · b) 45 = 101101₂ (32+8+4+1)"],
+   [6,"Multiplizieren Sie aus und fassen Sie zusammen: (3x + 4)² − (3x − 4)(3x + 4)","(9x²+24x+16) − (9x²−16) = 24x + 32"],
+   [6,"Lösen Sie die Gleichung: 4x − 7 = 2x + 9. Machen Sie die Probe.","2x = 16 → x = 8. Probe: 4·8−7 = 25 = 2·8+9 ✓"],
+   [8,"Gegeben ist f(x) = x² − 6x + 5. a) Scheitelpunktform und Scheitelpunkt · b) Nullstellen · c) Schnittpunkt mit der y-Achse","a) (x−3)²−4 → S(3|−4) · b) x²−6x+5=0 → x=3±2 → x₁=5, x₂=1 · c) P(0|5)"],
+   [6,"Ein Betrag wächst jährlich um den Faktor 1,04. Nach wie vielen Jahren hat er sich verdoppelt? (Ansatz + Rechnung)","1,04ⁿ = 2 → n = lg2/lg1,04 ≈ 17,67 → nach 18 Jahren"],
+   [6,"Ein rechtwinkliges Dreieck hat die Kathete a = 4,5 m und die Hypotenuse c = 7,2 m. Berechnen Sie b und den Winkel α.","b = √(7,2²−4,5²) = √(51,84−20,25) = √31,59 ≈ 5,62 m · sin α = 4,5/7,2 = 0,625 → α ≈ 38,68°"],
+   [8,"Ein Dreieck hat a = 6,0 m, b = 9,0 m und den eingeschlossenen Winkel γ = 55°. Berechnen Sie die Seite c und die Fläche.","c² = 36+81−2·6·9·cos55° = 117−108·0,5736 = 55,05 → c ≈ 7,42 m · A = ½·a·b·sinγ = ½·54·0,819 ≈ 22,1 m²"],
+   [5,"Berechnen Sie Volumen und Oberfläche eines Zylinders mit d = 0,8 m und h = 2,5 m.","r=0,4 → V = π·0,16·2,5 ≈ 1,257 m³ · O = 2π·0,16 + 2π·0,4·2,5 ≈ 1,005+6,283 ≈ 7,29 m²"],
+   [5,"Eine kreisrunde Bodenplatte (d = 12 m) soll 25 cm dick betoniert werden. Wie viel m³ Beton werden benötigt?","A = π·6² ≈ 113,10 m² · V = 113,10 · 0,25 ≈ 28,3 m³"]
+  ]},
+ "Naturwissenschaft":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. g = 9,81 m/s². 60 Punkte.",
+  aufgaben:[
+   [4,"Nennen Sie die sieben SI-Basisgrößen mit ihren Einheiten.","Zeit (s), Länge (m), Masse (kg), Stromstärke (A), Temperatur (K), Lichtstärke (cd), Stoffmenge (mol)"],
+   [6,"Ein Betonfundament misst 2,5 m × 1,8 m × 0,45 m (ρ = 2400 kg/m³). Berechnen Sie Volumen, Masse und Gewichtskraft.","V = 2,025 m³ · m = 2400·2,025 = 4860 kg · F_G = 4860·9,81 ≈ 47 679 N ≈ 47,7 kN"],
+   [6,"Eine Kiste (m = 150 kg) liegt auf einer Rampe mit 18° Neigung. Berechnen Sie Normalkraft und Hangabtriebskraft.","F_G = 1471,5 N · F_N = 1471,5·cos18° ≈ 1399,5 N · F_H = 1471,5·sin18° ≈ 454,7 N"],
+   [5,"Wie groß muss die Kraft F₂ bei l₂ = 1,8 m sein, wenn links F₁ = 600 N bei l₁ = 0,45 m wirkt?","F₂ = (600·0,45)/1,8 = 150 N"],
+   [6,"Ein Fahrzeug beschleunigt aus dem Stand in 12 s auf 90 km/h. Berechnen Sie a und den zurückgelegten Weg.","v = 25 m/s · a = 25/12 ≈ 2,08 m/s² · s = ½·2,08·144 ≈ 150 m"],
+   [6,"Ein Kran hebt 1,2 t um 18 m in 40 s. Berechnen Sie Arbeit und Leistung. Wie groß ist die Motorleistung bei η = 0,75?","W = 1200·9,81·18 ≈ 211 896 J ≈ 211,9 kJ · P_ab = 211896/40 ≈ 5297 W · P_zu = 5297/0,75 ≈ 7063 W ≈ 7,06 kW"],
+   [5,"In einem Behälter steht Wasser 3,2 m hoch. Berechnen Sie den Druck am Boden und die Kraft auf eine Bodenfläche von 2,5 m².","p = 1000·9,81·3,2 = 31 392 Pa ≈ 0,31 bar · F = 31392·2,5 ≈ 78 480 N ≈ 78,5 kN"],
+   [6,"Ein hydraulischer Heber hat A₁ = 4 cm² und A₂ = 320 cm². Welche Kraft F₂ entsteht bei F₁ = 250 N? Um wie viel senkt sich der kleine Kolben, wenn der große 2 cm steigt?","F₂ = 250·320/4 = 20 000 N = 20 kN · s₁ = s₂·A₂/A₁ = 2·80 = 160 cm"],
+   [6,"Eine 18 m lange Stahlträgerreihe (α = 12·10⁻⁶ 1/K) erwärmt sich von −5 °C auf 35 °C. Wie groß ist die Längenänderung?","Δϑ = 40 K · Δl = 12·10⁻⁶·18·40 = 0,00864 m = 8,64 mm"],
+   [5,"Ein Gas hat bei 290 K einen Druck von 1,8 bar. Auf welche Temperatur muss es (bei konstantem Volumen) erwärmt werden, damit 2,4 bar herrschen?","T₂ = T₁·p₂/p₁ = 290·2,4/1,8 ≈ 386,7 K ≈ 113,5 °C"],
+   [5,"Wie viel Energie ist nötig, um 120 l Wasser von 12 °C auf 60 °C zu erwärmen? (c = 4,19 kJ/(kg·K))","Q = 4,19·120·48 ≈ 24 134 kJ ≈ 24,1 MJ ≈ 6,7 kWh"]
+  ]}
+};
+
+/* ---------- TERMINE: hessische Schulferien (offiziell, Kultusministerium) ---------- */
+const FERIEN = [
+ ["Sommerferien 2026","2026-06-29","2026-08-07"],
+ ["Herbstferien 2026","2026-10-05","2026-10-17"],
+ ["Weihnachtsferien 2026/27","2026-12-23","2027-01-12"],
+ ["Osterferien 2027","2027-03-22","2027-04-02"],
+ ["Sommerferien 2027","2027-06-28","2027-08-06"],
+ ["Herbstferien 2027","2027-10-04","2027-10-16"],
+ ["Weihnachtsferien 2027/28","2027-12-23","2028-01-11"],
+ ["Osterferien 2028","2028-04-03","2028-04-14"],
+ ["Sommerferien 2028","2028-07-03","2028-08-11"]
+];
+/* Semesterzeiträume (Start Oktober 2026, je ca. ein halbes Jahr) */
+const SEMZEIT = {
+ 1:["2026-10-01","2027-03-31"], 2:["2027-04-01","2027-09-30"],
+ 3:["2027-10-01","2028-03-31"], 4:["2028-04-01","2028-09-30"],
+ 5:["2028-10-01","2029-03-31"], 6:["2029-04-01","2029-09-30"],
+ 7:["2029-10-01","2030-03-31"]
+};
+const FERIEN_BIS = "2028-08-11";
+/* Gesetzliche Feiertage in Hessen, die auf einen Samstag fallen (kein Unterricht) */
+const FEIERTAGE = [
+ ["Tag der Deutschen Einheit","2026-10-03"],
+ ["Tag der Arbeit","2027-05-01"],
+ ["Neujahr","2028-01-01"],
+ ["Karfreitag","2029-03-30"],
+ ["Tag der Deutschen Einheit","2030-10-03"]
+];
+
 /* ---------- SEMESTER-DATEN (Sem 1 gefüllt, 2–7 warten auf Material) ---------- */
 const SEMDATA={
  1:{mods:[['m1','Mathe LM1'],['m2','Mathe LM2'],['m3','Mathe LM3'],['m4','Mathe LM4'],['n1','NaWi LM1'],['n2','NaWi LM2'],['d1','Deutsch LM1']],FACH:FACH,DECKS:DECKS,UEB:UEB,PLAN:PLAN},
@@ -1057,6 +1439,10 @@ function setSem(n){
   curUeb=sortKeys(curData().UEB)[0]||null;
   renderUebPicks(); renderUeb();
   renderPlan(); updateProgress();
+  renderNotizPicks(); loadNotizIntoBox();
+  renderTermine();
+  startWdh();
+  document.getElementById('notiz-all').innerHTML='';
 }
 document.querySelectorAll('.semsel').forEach(s=>s.addEventListener('change',e=>setSem(e.target.value)));
 
@@ -1107,6 +1493,270 @@ function updateProgress(){const P=curData().PLAN;const tot=totalItems();let done
 function renderPlan(){const wrap=document.getElementById('plan-list');wrap.innerHTML='';const P=curData().PLAN;if(!P.length){wrap.innerHTML=emptyMsg('Lernabschnitte');return;}P.forEach((ab,ai)=>{const box=document.createElement('div');box.className='chk-abschnitt';const done=ab[2].filter((_,ii)=>state[pid(ai,ii)]).length;box.innerHTML='<div class="chk-head"><span>'+ab[0]+'</span><span class="meta">'+done+'/'+ab[2].length+' · '+ab[1]+'</span></div>';const body=document.createElement('div');body.className='chk-body';ab[2].forEach((t,ii)=>{const id=pid(ai,ii);const soon=/\[Material folgt\]/.test(t);const label=t.replace(/\s*\[Material folgt\]/,'');const row=document.createElement('label');row.className='chk'+(state[id]?' done':'');row.innerHTML='<input type="checkbox" '+(state[id]?'checked':'')+'><span>'+label+(soon?' <span class="soon">Material folgt</span>':'')+'</span>';row.querySelector('input').addEventListener('change',e=>{state[id]=e.target.checked;saveState(state);renderPlan();updateProgress();});body.appendChild(row);});box.appendChild(body);wrap.appendChild(box);});}
 document.getElementById('reset').onclick=()=>{if(confirm('Fortschritt für Semester '+curSem+' zurücksetzen?')){curData().PLAN.forEach((ab,ai)=>ab[2].forEach((_,ii)=>{delete state[pid(ai,ii)];}));saveState(state);renderPlan();updateProgress();}};
 
+/* ================= WIEDERHOLEN (Spaced Repetition) ================= */
+const SKEY='lerntool-bautechnik-srs';
+function loadSrs(){try{return JSON.parse(localStorage.getItem(SKEY))||{};}catch(e){return {};}}
+function saveSrs(){try{localStorage.setItem(SKEY,JSON.stringify(srs));}catch(e){}}
+let srs=loadSrs();
+const DAY=86400000;
+function today0(){const d=new Date();d.setHours(0,0,0,0);return d.getTime();}
+function allCards(){const out=[];const D=curData().DECKS;sortKeys(D).forEach(deck=>{D[deck].forEach((c,i)=>out.push({id:curSem+'|'+deck+'|'+i,deck:deck,q:c[0],a:c[1]}));});return out;}
+function dueCards(){const t=today0();return allCards().filter(c=>{const s=srs[c.id];return !s||s.due<=t;});}
+const STEPS=[1,2,4,8];  /* Basisintervalle in Tagen je Bewertung */
+function nextIv(cur,rating){
+  if(rating===0) return 1;
+  const base=cur&&cur>0?cur:1;
+  if(rating===1) return Math.max(2,Math.round(base*1.4));
+  if(rating===2) return Math.max(4,Math.round(base*2.3));
+  return Math.max(8,Math.round(base*3.2));
+}
+let wQueue=[],wCur=null,wShown=false;
+function refreshWdhStats(){
+  const all=allCards(),t=today0();
+  const due=all.filter(c=>{const s=srs[c.id];return !s||s.due<=t;}).length;
+  const neu=all.filter(c=>!srs[c.id]).length;
+  const known=all.filter(c=>{const s=srs[c.id];return s&&s.iv>=21;}).length;
+  const set=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};
+  set('w-due',due); set('w-new',neu); set('w-known',known);
+  ['dueBadge','dueBadgeM'].forEach(id=>{const b=document.getElementById(id);if(b)b.textContent=due>0?due:'';});
+  return due;
+}
+function startWdh(){
+  wQueue=dueCards();
+  refreshWdhStats();
+  const box=document.getElementById('wdh-box'),done=document.getElementById('wdh-done');
+  if(!wQueue.length){box.style.display='none';done.style.display='block';
+    done.innerHTML=allCards().length?'<strong>Alles erledigt für heute 🎉</strong><p>Komm morgen wieder – oder üb im Bereich „Karteikarten“ frei weiter.</p>':'<strong>Noch keine Karten in Semester '+curSem+'</strong><p>Sobald Unterlagen für dieses Semester da sind, kannst du hier wiederholen.</p>';
+    return;}
+  box.style.display='';done.style.display='none';
+  nextWdh();
+}
+function nextWdh(){
+  if(!wQueue.length){startWdh();return;}
+  wCur=wQueue[0];wShown=false;
+  const fc=document.getElementById('wfc');fc.classList.remove('flip');
+  document.getElementById('wfc-deck').textContent=wCur.deck;
+  document.getElementById('wfc-q').innerHTML=wCur.q;
+  document.getElementById('wfc-a').innerHTML=wCur.a;
+  document.getElementById('wdh-rate').style.display='none';
+  document.getElementById('wdh-hint').textContent='Tippe die Karte an, um die Antwort zu sehen. ('+wQueue.length+' übrig)';
+}
+function showWdhAnswer(){
+  if(wShown)return;wShown=true;
+  document.getElementById('wfc').classList.add('flip');
+  const s=srs[wCur.id],cur=s?s.iv:0;
+  const lbl=n=>n===1?'morgen':n+' Tage';
+  document.getElementById('rt1').textContent=lbl(nextIv(cur,1));
+  document.getElementById('rt2').textContent=lbl(nextIv(cur,2));
+  document.getElementById('rt3').textContent=lbl(nextIv(cur,3));
+  document.getElementById('wdh-rate').style.display='';
+  document.getElementById('wdh-hint').textContent='Wie gut wusstest du es?';
+}
+function rateWdh(r){
+  if(!wCur)return;
+  const s=srs[wCur.id],iv=nextIv(s?s.iv:0,r);
+  srs[wCur.id]={iv:iv,due:today0()+iv*DAY};saveSrs();
+  wQueue.shift();
+  if(r===0)wQueue.push(wCur);      /* „Nochmal“ hängt die Karte wieder hinten an */
+  refreshWdhStats();
+  if(!wQueue.length)startWdh();else nextWdh();
+}
+document.getElementById('wfc').onclick=showWdhAnswer;
+document.querySelectorAll('#wdh-rate .rb').forEach(b=>b.onclick=()=>rateWdh(+b.dataset.r));
+document.getElementById('wdh-reset').onclick=()=>{
+  if(confirm('Lernfortschritt (Wiederholungen) für Semester '+curSem+' zurücksetzen?')){
+    allCards().forEach(c=>delete srs[c.id]);saveSrs();startWdh();}
+};
+
+/* ================= PROBEKLAUSUR ================= */
+let curK=Object.keys(KLAUSUREN)[0], kSec=0, kTimer=null;
+function renderKlausurPicks(){
+  const p=document.getElementById('klausurpick');p.innerHTML='';
+  Object.keys(KLAUSUREN).forEach(k=>{const b=document.createElement('button');b.textContent=k;
+    if(k===curK)b.classList.add('on');
+    b.onclick=()=>{curK=k;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderKlausur();};
+    p.appendChild(b);});
+}
+function renderKlausur(){
+  const K=KLAUSUREN[curK];
+  document.getElementById('klausur-info').innerHTML='<strong>'+curK+' · '+K.dauer+' Minuten</strong><p style="margin:8px 0 0">'+K.hinweis+'</p>';
+  document.getElementById('klausur-out').innerHTML=K.aufgaben.map((a,i)=>
+    '<div class="kauf"><span class="kp">'+a[0]+' P.</span><span class="knr">Aufgabe '+(i+1)+'</span>'+
+    '<p class="ktxt">'+a[1]+'</p><details><summary>Lösung anzeigen</summary><div class="sol">'+a[2]+'</div></details></div>').join('');
+  resetTimer();
+}
+function fmtT(s){const m=Math.floor(s/60),x=s%60;return String(m).padStart(2,'0')+':'+String(x).padStart(2,'0');}
+function paintTimer(){const el=document.getElementById('k-timer');el.textContent=fmtT(kSec);el.classList.toggle('warn',kSec<=600);}
+function resetTimer(){clearInterval(kTimer);kTimer=null;kSec=KLAUSUREN[curK].dauer*60;paintTimer();}
+document.getElementById('k-start').onclick=()=>{if(kTimer)return;kTimer=setInterval(()=>{if(kSec>0){kSec--;paintTimer();}else{clearInterval(kTimer);kTimer=null;alert('Zeit abgelaufen!');}},1000);};
+document.getElementById('k-stop').onclick=()=>{clearInterval(kTimer);kTimer=null;};
+document.getElementById('k-reset').onclick=resetTimer;
+
+/* ================= FORMELSAMMLUNG ================= */
+let fFach='alle';
+function renderFFach(){
+  const p=document.getElementById('ffach');p.innerHTML='';
+  ['alle',...new Set(FORMELN.map(f=>f[0]))].forEach(f=>{
+    const b=document.createElement('button');b.textContent=f==='alle'?'Alle Fächer':f;
+    if(f===fFach)b.classList.add('on');
+    b.onclick=()=>{fFach=f;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderFormeln();};
+    p.appendChild(b);});
+}
+function renderFormeln(){
+  const q=(document.getElementById('fsearch').value||'').toLowerCase().trim();
+  let items=FORMELN.filter(f=>fFach==='alle'||f[0]===fFach);
+  if(q)items=items.filter(f=>(f[0]+' '+f[1]+' '+f[2]+' '+f[3]+' '+f[4]).toLowerCase().includes(q));
+  document.getElementById('fcount').textContent=items.length+' von '+FORMELN.length+' Formeln';
+  document.getElementById('formel-out').innerHTML=items.length?items.map(f=>
+    '<div class="frow"><span class="fth">'+f[0]+' · '+f[1]+'</span><h4>'+f[2]+'</h4><span class="ff">'+f[3]+'</span>'+
+    (f[4]?'<p class="fe">'+f[4]+'</p>':'')+'</div>').join(''):'<p class="lead">Keine Formel gefunden.</p>';
+}
+/* Formel-Trainer */
+let ftIdx=0,ftScore=0,ftAnswered=false;
+function newFT(){
+  ftAnswered=false;
+  const item=FTRAIN[ftIdx%FTRAIN.length];
+  document.getElementById('ft-frage').textContent=item[0];
+  const right=item[1];
+  const pool=FORMELN.map(f=>f[2]).filter(n=>n!==right);
+  const opts=[right];
+  while(opts.length<4&&pool.length){const k=pool.splice(Math.floor(Math.random()*pool.length),1)[0];if(!opts.includes(k))opts.push(k);}
+  opts.sort(()=>Math.random()-0.5);
+  const box=document.getElementById('ft-opts');box.innerHTML='';
+  opts.forEach(o=>{const b=document.createElement('button');b.textContent=o;
+    b.onclick=()=>{
+      if(ftAnswered)return;ftAnswered=true;
+      const f=FORMELN.find(x=>x[2]===right);
+      box.querySelectorAll('button').forEach(x=>{if(x.textContent===right)x.classList.add('ok');else if(x===b)x.classList.add('no');});
+      if(o===right){ftScore++;document.getElementById('ft-fb').innerHTML='✅ Richtig! <span class="formula">'+f[3]+'</span>';}
+      else document.getElementById('ft-fb').innerHTML='❌ Richtig wäre: <b>'+right+'</b> – <span class="formula">'+f[3]+'</span>';
+      document.getElementById('ft-score').textContent=ftScore+' richtig';
+    };
+    box.appendChild(b);});
+  document.getElementById('ft-fb').textContent='';
+}
+document.getElementById('ft-next').onclick=()=>{ftIdx++;newFT();};
+document.querySelectorAll('#fmode button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#fmode button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  const t=b.dataset.m==='train';
+  document.getElementById('f-train').style.display=t?'':'none';
+  document.getElementById('f-liste').style.display=t?'none':'';
+  if(t)newFT();
+});
+document.getElementById('fsearch').addEventListener('input',renderFormeln);
+
+/* ================= NOTIZEN ================= */
+const NKEY='lerntool-bautechnik-notizen';
+function loadNot(){try{return JSON.parse(localStorage.getItem(NKEY))||{};}catch(e){return {};}}
+let notizen=loadNot();
+let curNot=null,notTimer=null;
+function notKeys(){const m=curData().mods.map(x=>x[1]);return m.length?m:['Allgemein'];}
+function renderNotizPicks(){
+  const p=document.getElementById('notizpick');p.innerHTML='';
+  const keys=[...notKeys(),'Allgemein'];
+  if(!curNot||!keys.includes(curNot))curNot=keys[0];
+  keys.forEach(k=>{const b=document.createElement('button');b.textContent=k;
+    const has=(notizen[curSem+'|'+k]||'').trim().length>0;
+    if(has)b.textContent=k+' •';
+    if(k===curNot)b.classList.add('on');
+    b.onclick=()=>{saveNotizNow();curNot=k;renderNotizPicks();loadNotizIntoBox();};
+    p.appendChild(b);});
+}
+function loadNotizIntoBox(){document.getElementById('notiz-txt').value=notizen[curSem+'|'+curNot]||'';}
+function saveNotizNow(){
+  const v=document.getElementById('notiz-txt').value;
+  notizen[curSem+'|'+curNot]=v;
+  try{localStorage.setItem(NKEY,JSON.stringify(notizen));}catch(e){}
+}
+document.getElementById('notiz-txt').addEventListener('input',()=>{
+  clearTimeout(notTimer);
+  const st=document.getElementById('notiz-status');st.textContent='speichere …';
+  notTimer=setTimeout(()=>{saveNotizNow();renderNotizPicks();st.textContent='✓ gespeichert';setTimeout(()=>st.innerHTML='&nbsp;',1600);},500);
+});
+document.getElementById('notiz-export').onclick=()=>{
+  saveNotizNow();
+  const mine=Object.entries(notizen).filter(([k,v])=>k.startsWith(curSem+'|')&&v.trim());
+  const out=document.getElementById('notiz-all');
+  out.innerHTML=mine.length?'<div class="panel"><strong>Alle Notizen (Semester '+curSem+')</strong>'+
+    mine.map(([k,v])=>'<h3>'+k.split('|')[1]+'</h3><p style="white-space:pre-wrap">'+v.replace(/</g,'&lt;')+'</p>').join('')+'</div>'
+    :'<p class="lead">Noch keine Notizen in diesem Semester.</p>';
+};
+
+/* ================= TERMINE ================= */
+function d(s){return new Date(s+'T00:00:00');}
+function inFerien(dt){return FERIEN.some(f=>dt>=d(f[1])&&dt<=d(f[2]));}
+function istFeiertag(dt){return FEIERTAGE.find(f=>d(f[1]).getTime()===dt.getTime());}
+function faelltAus(dt){return inFerien(dt)||!!istFeiertag(dt);}
+function fmtD(dt){return dt.toLocaleDateString('de-DE',{weekday:'short',day:'2-digit',month:'2-digit',year:'numeric'});}
+function samstage(sem){
+  const [a,b]=SEMZEIT[sem]||[];if(!a)return [];
+  const out=[];const cur=d(a),end=d(b);
+  while(cur.getDay()!==6)cur.setDate(cur.getDate()+1);
+  while(cur<=end){if(!faelltAus(cur))out.push(new Date(cur));cur.setDate(cur.getDate()+7);}
+  return out;
+}
+function renderTermine(){
+  const list=samstage(curSem),now=new Date();now.setHours(0,0,0,0);
+  const out=document.getElementById('termin-out'),nx=document.getElementById('next-termin');
+  if(!list.length){out.innerHTML='<p class="lead">Für Semester '+curSem+' sind keine Termine hinterlegt.</p>';nx.innerHTML='';return;}
+  const next=list.find(x=>x>=now);
+  nx.innerHTML=next
+    ? '<strong>Nächster Präsenztermin</strong><p style="margin:8px 0 0">'+fmtD(next)+' · noch '+Math.ceil((next-now)/DAY)+' Tage</p>'
+    : '<strong>Semester '+curSem+' liegt in der Vergangenheit</strong><p style="margin:8px 0 0">Alle '+list.length+' Termine sind vorbei.</p>';
+  out.innerHTML='<p class="lead">'+list.length+' Präsenztermine im Semester '+curSem+'</p>'+list.map((x,i)=>{
+    const cls=x<now?'past':(next&&x.getTime()===next.getTime()?'next':'');
+    return '<div class="term '+cls+'"><span class="tdat">'+fmtD(x)+'</span>'+(cls==='next'?'<span>nächster Termin</span>':'')+'<span class="tnr">#'+(i+1)+'</span></div>';
+  }).join('');
+  const fe=FEIERTAGE.filter(f=>{const x=d(f[1]);return SEMZEIT[curSem]&&x>=d(SEMZEIT[curSem][0])&&x<=d(SEMZEIT[curSem][1]);});
+  document.getElementById('ferien-out').innerHTML=FERIEN.map(f=>
+    '<div class="fer"><span>'+f[0]+'</span><span class="fd">'+d(f[1]).toLocaleDateString('de-DE')+' – '+d(f[2]).toLocaleDateString('de-DE')+'</span></div>').join('')
+    +(fe.length?'<div class="fer" style="margin-top:8px"><span><b>Feiertag (fällt aus)</b></span><span class="fd">'+fe.map(f=>f[0]+' '+d(f[1]).toLocaleDateString('de-DE')).join(' · ')+'</span></div>':'')
+    +'<p class="fe" style="margin-top:10px;font-size:12px;color:var(--muted)">Quelle: Hessisches Kultusministerium. Hinterlegt bis '+d(FERIEN_BIS).toLocaleDateString('de-DE')+' – spätere Ferien ergänze ich, sobald sie feststehen.</p>';
+}
+
+/* ================= GLOBALE SUCHE ================= */
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function hl(txt,q){const t=esc(txt);if(!q)return t;const i=t.toLowerCase().indexOf(q);if(i<0)return t;
+  return t.slice(0,i)+'<mark>'+t.slice(i,i+q.length)+'</mark>'+t.slice(i+q.length);}
+function snippet(txt,q,len){const t=String(txt).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+  const i=t.toLowerCase().indexOf(q);const s=i<0?0:Math.max(0,i-40);
+  return (s>0?'… ':'')+hl(t.slice(s,s+(len||150)),q)+'…';}
+function globalSearch(q){
+  q=(q||'').toLowerCase().trim();
+  const out=document.getElementById('suche-out'),info=document.getElementById('suche-info');
+  if(q.length<2){out.innerHTML='';info.textContent='Tippe mindestens 2 Zeichen – durchsucht Zusammenfassungen, Karteikarten, Übungen, Formeln, Lexikon und deine Notizen.';return;}
+  const res=[];
+  const F=curData().FACH;
+  Object.keys(F).forEach(k=>{const f=F[k];const hay=(f.name+' '+f.k+' '+f.a).toLowerCase();
+    if(hay.includes(q))res.push({t:'Zusammenfassung',h:f.name,p:snippet(f.a,q),go:()=>{show('fach');curMod=k;renderModPicks();renderFach();}});});
+  const D=curData().DECKS;
+  Object.keys(D).forEach(deck=>D[deck].forEach(c=>{if((c[0]+' '+c[1]).toLowerCase().includes(q))
+    res.push({t:'Karteikarte · '+deck,h:hl(c[0],q),p:hl(c[1],q),go:()=>{show('karten');curDeck=deck;idx=0;renderDeckPicks();renderCard();}});}));
+  const U=curData().UEB;
+  Object.keys(U).forEach(k=>U[k].forEach(a=>{if((a[0]+' '+a[1]).toLowerCase().includes(q))
+    res.push({t:'Übung · '+k,h:hl(a[0],q),p:'Lösung: '+hl(a[1],q),go:()=>{show('uebung');curUeb=k;renderUebPicks();renderUeb();}});}));
+  FORMELN.forEach(f=>{if((f[0]+' '+f[1]+' '+f[2]+' '+f[3]+' '+f[4]).toLowerCase().includes(q))
+    res.push({t:'Formel · '+f[1],h:hl(f[2],q),p:'<span class="formula">'+esc(f[3])+'</span>',go:()=>{show('formeln');document.getElementById('fsearch').value=f[2];fFach='alle';renderFFach();renderFormeln();}});});
+  LEX.forEach(e=>{if((e[0]+' '+e[1]+' '+e[2]+' '+e[3]).toLowerCase().includes(q))
+    res.push({t:'Lexikon · '+e[0],h:hl(e[1],q),p:hl(e[2],q),go:()=>{show('lexikon');document.getElementById('lexsearch').value=e[1];renderLex(e[1]);}});});
+  Object.entries(notizen).forEach(([k,v])=>{if(k.startsWith(curSem+'|')&&v.toLowerCase().includes(q))
+    res.push({t:'Notiz · '+k.split('|')[1],h:'Deine Notiz',p:snippet(v,q),go:()=>{show('notizen');curNot=k.split('|')[1];renderNotizPicks();loadNotizIntoBox();}});});
+  info.textContent=res.length?res.length+' Treffer für „'+q+'“ (Semester '+curSem+' + globale Inhalte)':'Keine Treffer für „'+q+'“.';
+  out.innerHTML='';
+  res.slice(0,60).forEach(r=>{const el=document.createElement('div');el.className='sres';
+    el.innerHTML='<span class="typ">'+r.t+'</span><h4>'+r.h+'</h4><p>'+r.p+'</p>';
+    el.onclick=r.go;out.appendChild(el);});
+}
+['gsearchSide','gsearchMob'].forEach(id=>{const el=document.getElementById(id);if(!el)return;
+  el.addEventListener('input',e=>{
+    const v=e.target.value;
+    ['gsearchSide','gsearchMob'].forEach(o=>{const x=document.getElementById(o);if(x&&x!==e.target)x.value=v;});
+    if(v.trim().length>=2&&!document.querySelector('.view[data-view="suche"]').classList.contains('active'))show('suche');
+    globalSearch(v);
+  });});
+
 /* ---------- START ---------- */
+renderKlausurPicks(); renderKlausur();
+renderFFach(); renderFormeln();
 setSem(1);
 </script>

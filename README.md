@@ -14,6 +14,8 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
 | **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
+| **`Formelsammlung/`** | Alle Formeln kompakt – Prüfungshilfsmittel-Training. |
+| **`Termine.md`** | Präsenztermine (Samstage ohne hessische Ferien/Feiertage). |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
 | **`tools/`** | Kleine Hilfsskripte (PDF-Text auslesen, Karten prüfen). |
 
@@ -72,7 +74,29 @@ Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nu
 - **Semester 1:** [Fahrplan & Lernabschnitte](Zusammenfassungen/Semester-1/00_Semesterueberblick.md) · [✅ Lernplan-Checkliste](Zusammenfassungen/Semester-1/01_Lernplan-Checkliste.md)
 
 ## ✍️ Übungsaufgaben
-- [Zur Aufgabenübersicht](Uebungsaufgaben/README.md) (Mathe LM1/LM2/LM4, Deutsch LM1)
+- [Zur Aufgabenübersicht](Uebungsaufgaben/README.md) – 7 Module, 82 Aufgaben mit Lösungen
+
+## 📐 Formelsammlung & Termine
+- [Alle Formeln (92)](Formelsammlung/Semester-1_Formeln.md) – Prüfungshilfsmittel
+- [Präsenztermine](Termine.md) – Samstage ohne hessische Ferien und Feiertage
+
+## 🖥️ Das HTML-Lerntool
+Die Datei `lerntool_offline.html` bündelt alles in einer App für Handy und PC:
+
+| Bereich | Was es kann |
+|---------|-------------|
+| **Wiederholen** | Karteikarten mit Spaced Repetition – zeigt täglich, was dran ist |
+| **Zusammenfassungen** | kompakt/ausführlich umschaltbar, je Modul |
+| **Karteikarten** | freies Üben nach Stapeln |
+| **Übungen** | Aufgaben mit aufklappbarer Lösung |
+| **Probeklausur** | 90 min im Prüfungsformat, mit Timer |
+| **Formelsammlung** | durchsuchbar + Trainer „Welche Formel brauche ich?“ |
+| **Lexikon** | 57 Begriffe mit ausführlicher Erklärung |
+| **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
+| **Lernplan / Termine** | Checkliste je Semester und Präsenztermine |
+| **Globale Suche** | findet alles auf einmal |
+
+Semester 1–7 sind umschaltbar; Fortschritt und Notizen werden pro Semester gespeichert.
 
 ## 📖 Lexikon
 - [Zum Lexikon-Index](Lexikon/index.md)
