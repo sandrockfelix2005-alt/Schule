@@ -1396,14 +1396,24 @@ const SEMZEIT = {
  7:["2029-10-01","2030-03-31"]
 };
 const FERIEN_BIS = "2028-08-11";
-/* Gesetzliche Feiertage in Hessen, die auf einen Samstag fallen (kein Unterricht) */
-const FEIERTAGE = [
- ["Tag der Deutschen Einheit","2026-10-03"],
- ["Tag der Arbeit","2027-05-01"],
- ["Neujahr","2028-01-01"],
- ["Karfreitag","2029-03-30"],
- ["Tag der Deutschen Einheit","2030-10-03"]
-];
+/* Gesetzliche Feiertage in Hessen – werden berechnet (inkl. beweglicher Ostertermine) */
+function ostersonntag(y){
+  const a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,f=Math.floor((b+8)/25),
+        g=Math.floor((b-f+1)/3),hh=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,
+        l=(32+2*e+2*i-hh-k)%7,m=Math.floor((a+11*hh+22*l)/451),
+        mo=Math.floor((hh+l-7*m+114)/31),da=((hh+l-7*m+114)%31)+1;
+  return new Date(y,mo-1,da);
+}
+function feiertageJahr(y){
+  const o=ostersonntag(y),plus=n=>{const x=new Date(o);x.setDate(x.getDate()+n);return x;};
+  return [["Neujahr",new Date(y,0,1)],["Karfreitag",plus(-2)],["Ostermontag",plus(1)],
+          ["Tag der Arbeit",new Date(y,4,1)],["Christi Himmelfahrt",plus(39)],
+          ["Pfingstmontag",plus(50)],["Fronleichnam",plus(60)],
+          ["Tag der Deutschen Einheit",new Date(y,9,3)],
+          ["1. Weihnachtstag",new Date(y,11,25)],["2. Weihnachtstag",new Date(y,11,26)]];
+}
+const _ftCache={};
+function feiertageVon(y){if(!_ftCache[y])_ftCache[y]=feiertageJahr(y);return _ftCache[y];}
 
 /* ---------- SEMESTER-DATEN (Sem 1 gefüllt, 2–7 warten auf Material) ---------- */
 const SEMDATA={
@@ -1686,7 +1696,7 @@ document.getElementById('notiz-export').onclick=()=>{
 /* ================= TERMINE ================= */
 function d(s){return new Date(s+'T00:00:00');}
 function inFerien(dt){return FERIEN.some(f=>dt>=d(f[1])&&dt<=d(f[2]));}
-function istFeiertag(dt){return FEIERTAGE.find(f=>d(f[1]).getTime()===dt.getTime());}
+function istFeiertag(dt){const t=dt.getTime();const hit=feiertageVon(dt.getFullYear()).find(f=>f[1].getFullYear()===dt.getFullYear()&&f[1].getMonth()===dt.getMonth()&&f[1].getDate()===dt.getDate());return hit?hit[0]:null;}
 function faelltAus(dt){return inFerien(dt)||!!istFeiertag(dt);}
 function fmtD(dt){return dt.toLocaleDateString('de-DE',{weekday:'short',day:'2-digit',month:'2-digit',year:'numeric'});}
 function samstage(sem){
@@ -1708,10 +1718,13 @@ function renderTermine(){
     const cls=x<now?'past':(next&&x.getTime()===next.getTime()?'next':'');
     return '<div class="term '+cls+'"><span class="tdat">'+fmtD(x)+'</span>'+(cls==='next'?'<span>nächster Termin</span>':'')+'<span class="tnr">#'+(i+1)+'</span></div>';
   }).join('');
-  const fe=FEIERTAGE.filter(f=>{const x=d(f[1]);return SEMZEIT[curSem]&&x>=d(SEMZEIT[curSem][0])&&x<=d(SEMZEIT[curSem][1]);});
+  const fe=[];
+  if(SEMZEIT[curSem]){const s=d(SEMZEIT[curSem][0]),e2=d(SEMZEIT[curSem][1]);
+    for(let y=s.getFullYear();y<=e2.getFullYear();y++)
+      feiertageVon(y).forEach(f=>{if(f[1]>=s&&f[1]<=e2&&f[1].getDay()===6)fe.push([f[0],f[1]]);});}
   document.getElementById('ferien-out').innerHTML=FERIEN.map(f=>
     '<div class="fer"><span>'+f[0]+'</span><span class="fd">'+d(f[1]).toLocaleDateString('de-DE')+' – '+d(f[2]).toLocaleDateString('de-DE')+'</span></div>').join('')
-    +(fe.length?'<div class="fer" style="margin-top:8px"><span><b>Feiertag (fällt aus)</b></span><span class="fd">'+fe.map(f=>f[0]+' '+d(f[1]).toLocaleDateString('de-DE')).join(' · ')+'</span></div>':'')
+    +(fe.length?'<div class="fer" style="margin-top:8px"><span><b>Feiertag (fällt aus)</b></span><span class="fd">'+fe.map(f=>f[0]+' '+f[1].toLocaleDateString('de-DE')).join(' · ')+'</span></div>':'')
     +'<p class="fe" style="margin-top:10px;font-size:12px;color:var(--muted)">Quelle: Hessisches Kultusministerium. Hinterlegt bis '+d(FERIEN_BIS).toLocaleDateString('de-DE')+' – spätere Ferien ergänze ich, sobald sie feststehen.</p>';
 }
 

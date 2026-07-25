@@ -1,7 +1,7 @@
 # 📅 Termine – Präsenzphasen (Samstage)
 
-> Unterricht ist **jeden Samstag**, außer in den **hessischen Schulferien** und an gesetzlichen **Feiertagen**.
-> Ferientermine: Hessisches Kultusministerium (offiziell hinterlegt bis 11.08.2028).
+> Unterricht ist **jeden Samstag**, außer in den **hessischen Schulferien** und an **gesetzlichen Feiertagen**.
+> Ferientermine: Hessisches Kultusministerium (offiziell bis 11.08.2028). Feiertage werden berechnet – auch die beweglichen (Ostern, Pfingsten, Fronleichnam).
 > Im HTML-Lerntool siehst du unter **Termine** immer den nächsten Termin mit Countdown.
 
 
@@ -21,6 +21,9 @@
 | 9 | 19.12.2026 | | 19 | 20.03.2027 |
 | 10 | 16.01.2027 | |  |  |
 
+**Fällt zusätzlich aus (Feiertag auf Samstag):**
+- 03.10.2026 – Tag der Deutschen Einheit
+
 ## Semester 2 · 01.04.2027 – 30.09.2027
 **20 Präsenztermine**
 
@@ -36,6 +39,9 @@
 | 8 | 29.05.2027 | | 18 | 11.09.2027 |
 | 9 | 05.06.2027 | | 19 | 18.09.2027 |
 | 10 | 12.06.2027 | | 20 | 25.09.2027 |
+
+**Fällt zusätzlich aus (Feiertag auf Samstag):**
+- 01.05.2027 – Tag der Arbeit
 
 ## Semester 3 · 01.10.2027 – 31.03.2028
 **21 Präsenztermine**
@@ -85,10 +91,16 @@
 | Osterferien 2028 | 03.04.2028 – 14.04.2028 |
 | Sommerferien 2028 | 03.07.2028 – 11.08.2028 |
 
-## Feiertage, die auf einen Samstag fallen
+## Gesetzliche Feiertage in Hessen
 
-- **Tag der Deutschen Einheit** – 03.10.2026
-- **Tag der Arbeit** – 01.05.2027
-- **Neujahr** – 01.01.2028
+Neujahr · Karfreitag · Ostermontag · Tag der Arbeit · Christi Himmelfahrt · Pfingstmontag · Fronleichnam · Tag der Deutschen Einheit · 1. und 2. Weihnachtstag
 
-> Semester 5–7 werden ergänzt, sobald die Ferientermine dafür offiziell feststehen.
+Davon fallen 2026–2030 auf einen **Samstag**:
+
+- **03.10.2026** – Tag der Deutschen Einheit
+- **26.12.2026** – 2. Weihnachtstag *(liegt ohnehin in den Ferien)*
+- **01.05.2027** – Tag der Arbeit
+- **25.12.2027** – 1. Weihnachtstag *(liegt ohnehin in den Ferien)*
+- **01.01.2028** – Neujahr *(liegt ohnehin in den Ferien)*
+
+> Semester 5–7 folgen, sobald die Ferientermine dafür offiziell feststehen.
