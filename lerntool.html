@@ -62,6 +62,14 @@
   .side-progress{margin:14px 6px 0;font-family:var(--mono);font-size:11px;color:var(--muted)}
   .bar{height:6px;background:var(--surface-2);border-radius:4px;overflow:hidden;margin-top:6px;border:1px solid var(--line)}
   .bar > i{display:block;height:100%;background:var(--accent);width:0}
+  .semrow{display:flex;flex-direction:column;gap:5px;margin:16px 6px 2px}
+  .semlbl{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
+  .semsel{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);color:var(--ink);font-family:var(--sans);font-size:14px;font-weight:600;cursor:pointer}
+  .semsel:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+  .semsel-mob{width:auto;flex:none;padding:6px 8px;font-size:12.5px;font-weight:600}
+  .empty{border:1px dashed var(--line);border-radius:10px;background:var(--surface);padding:22px 18px;color:var(--muted);text-align:center}
+  .empty strong{display:block;color:var(--ink);margin-bottom:6px;font-size:15.5px}
+  .empty p{margin:0;font-size:13.5px}
 
   /* Topbar (mobile) */
   .topbar{display:none}
@@ -180,7 +188,11 @@
 </style>
 
 <header class="topbar">
-  <div class="topbar-title"><span class="brand-mark sm">BT</span> Lerntool Bautechnik · Sem 1</div>
+  <div class="topbar-title"><span class="brand-mark sm">BT</span><span style="flex:1">Lerntool Bautechnik</span>
+    <select class="semsel semsel-mob" aria-label="Semester wählen">
+      <option value="1">Sem 1</option><option value="2">Sem 2</option><option value="3">Sem 3</option><option value="4">Sem 4</option><option value="5">Sem 5</option><option value="6">Sem 6</option><option value="7">Sem 7</option>
+    </select>
+  </div>
   <nav class="mobnav" id="mobnav">
     <button data-view="start" class="active">Übersicht</button>
     <button data-view="fach">Zusammenfassungen</button>
@@ -195,7 +207,13 @@
   <aside class="sidebar" id="sidebar">
     <div class="brand">
       <div class="brand-mark">BT</div>
-      <div class="brand-txt"><strong>Lerntool</strong><span>Bautechnik · Sem 1</span></div>
+      <div class="brand-txt"><strong>Lerntool</strong><span>Bautechnik</span></div>
+    </div>
+    <div class="semrow">
+      <label class="semlbl" for="semSideSel">Semester wählen</label>
+      <select class="semsel" id="semSideSel">
+        <option value="1">Semester 1</option><option value="2">Semester 2</option><option value="3">Semester 3</option><option value="4">Semester 4</option><option value="5">Semester 5</option><option value="6">Semester 6</option><option value="7">Semester 7</option>
+      </select>
     </div>
     <div class="eyebrow">Bereiche</div>
     <nav id="nav">
@@ -229,7 +247,7 @@
         <tr><td>Mathematik I</td><td>LM 1–4, Formeln</td><td>LM 1, 2, 4 fertig</td></tr>
         <tr><td>Naturwissenschaft</td><td>Fachbeschr., LM 1–2</td><td>Material folgt</td></tr>
       </table>
-      <p style="font-size:13.5px;color:var(--muted)">Das Gerüst für <strong>alle 7 Semester</strong> ist im Repo angelegt – neue Module werden einfach ergänzt und erscheinen dann hier.</p>
+      <p style="font-size:13.5px;color:var(--muted)">Oben kannst du das <strong>Semester (1–7)</strong> wählen. Semester 2–7 sind angelegt und warten auf Material – sobald du Dokumente hochlädst, erscheinen Zusammenfassungen, Karteikarten, Übungen und Lernplan dort automatisch. Das <strong>Lexikon</strong> gilt über alle Semester hinweg.</p>
       <div class="panel tip">
         <strong>Wo liegen die Original-PDFs?</strong>
         <p style="margin:8px 0 0">Im GitHub-Repo <code>sandrockfelix2005-alt/Schule</code> (Ordner <code>Unterlagen/</code>) und in deinem Google-Drive-Ordner <strong>Technikerschule</strong>. Diese HTML-Seite bündelt alles Aufbereitete zum Lernen unterwegs.</p>
@@ -249,12 +267,7 @@
       <div class="kicker">Zusammenfassungen</div>
       <h1>Module nachschlagen</h1>
       <p class="lead">Wähle ein Modul und eine Variante: <strong>Kompakt</strong> zum schnellen Wiederholen, <strong>Ausführlich</strong> zum echten Nachschlagen mit Rechenwegen.</p>
-      <div class="modpick" id="modpick">
-        <button data-mod="m1" class="on">Mathe LM1</button>
-        <button data-mod="m2">Mathe LM2</button>
-        <button data-mod="m4">Mathe LM4</button>
-        <button data-mod="d1">Deutsch LM1</button>
-      </div>
+      <div class="modpick" id="modpick"></div>
       <div class="seg"><button data-var="k" class="on">Kompakt</button><button data-var="a">Ausführlich</button></div>
       <div id="fach-content"></div>
     </section>
@@ -265,6 +278,7 @@
       <h1>Karten üben</h1>
       <p class="lead">Karte antippen zum Umdrehen. Wähle einen Stapel.</p>
       <div class="modpick" id="deckpick"></div>
+      <div class="empty" id="fc-empty" style="display:none"></div>
       <div class="fc-stage"><div class="fc" id="fc">
         <div class="fc-face fc-front"><span class="tag" id="fc-tag">Frage</span><div id="fc-q"></div></div>
         <div class="fc-face fc-back"><span class="tag">Antwort</span><div id="fc-a"></div></div>
@@ -707,6 +721,20 @@ const PLAN = [
  ["Lernabschnitt 10 · Naturwissenschaft","21 HS-Std.",["Naturwissenschaft LM1, Kap. 2.6.4–3.3 [Material folgt]","Naturwissenschaft LM2, Kap. 1–1.2 [Material folgt]"]]
 ];
 
+/* ---------- SEMESTER-DATEN (Sem 1 gefüllt, 2–7 warten auf Material) ---------- */
+const SEMDATA={
+ 1:{mods:[['m1','Mathe LM1'],['m2','Mathe LM2'],['m4','Mathe LM4'],['d1','Deutsch LM1']],FACH:FACH,DECKS:DECKS,UEB:UEB,PLAN:PLAN},
+ 2:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
+ 3:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
+ 4:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
+ 5:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
+ 6:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]},
+ 7:{mods:[],FACH:{},DECKS:{},UEB:{},PLAN:[]}
+};
+let curSem=1;
+function curData(){return SEMDATA[curSem];}
+function emptyMsg(kind){return '<div class="empty"><strong>Semester '+curSem+' – noch keine '+kind+'</strong><p>Lade die Dokumente in den Google-Drive-Ordner „Neue Unterlagen“ und sag mir Bescheid – dann erscheinen sie hier automatisch.</p></div>';}
+
 /* ---------- ROUTING ---------- */
 const views=document.querySelectorAll('.view');
 const navEls=document.querySelectorAll('#nav a, #mobnav button');
@@ -717,31 +745,42 @@ function show(v){
 }
 navEls.forEach(a=>a.addEventListener('click',()=>show(a.dataset.view)));
 
+/* ---------- SEMESTER-UMSCHALTER ---------- */
+function setSem(n){
+  curSem=+n;
+  document.querySelectorAll('.semsel').forEach(s=>s.value=String(curSem));
+  curMod=(curData().mods[0]||[null])[0];
+  renderModPicks(); renderFach();
+  curDeck=Object.keys(curData().DECKS)[0]||null; idx=0;
+  renderDeckPicks(); renderCard();
+  curUeb=Object.keys(curData().UEB)[0]||null;
+  renderUebPicks(); renderUeb();
+  renderPlan(); updateProgress();
+}
+document.querySelectorAll('.semsel').forEach(s=>s.addEventListener('change',e=>setSem(e.target.value)));
+
 /* ---------- FÄCHER ---------- */
-let curMod='m1',curVar='k';
-function renderFach(){const f=FACH[curMod];document.getElementById('fach-content').innerHTML='<h2 style="border:none;padding:0;margin:6px 0 4px">'+f.name+'</h2>'+f[curVar];}
-document.querySelectorAll('#modpick button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#modpick button').forEach(x=>x.classList.remove('on'));b.classList.add('on');curMod=b.dataset.mod;renderFach();});
+let curMod=(SEMDATA[1].mods[0]||[null])[0],curVar='k';
+function renderModPicks(){const p=document.getElementById('modpick');p.innerHTML='';curData().mods.forEach(m=>{const b=document.createElement('button');b.textContent=m[1];b.dataset.mod=m[0];if(m[0]===curMod)b.classList.add('on');b.onclick=()=>{curMod=m[0];p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderFach();};p.appendChild(b);});}
+function renderFach(){const box=document.getElementById('fach-content');const F=curData().FACH;if(!curMod||!F[curMod]){box.innerHTML=emptyMsg('Zusammenfassungen');return;}const f=F[curMod];box.innerHTML='<h2 style="border:none;padding:0;margin:6px 0 4px">'+f.name+'</h2>'+f[curVar];}
 document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.seg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');curVar=b.dataset.var;renderFach();});
-renderFach();
 
 /* ---------- KARTEIKARTEN ---------- */
-let curDeck=Object.keys(DECKS)[0],idx=0;
+let curDeck=Object.keys(SEMDATA[1].DECKS)[0],idx=0;
 const fc=document.getElementById('fc');
-function renderDeckPicks(){const p=document.getElementById('deckpick');p.innerHTML='';Object.keys(DECKS).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curDeck)b.classList.add('on');b.onclick=()=>{curDeck=d;idx=0;document.querySelectorAll('#deckpick button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderCard();};p.appendChild(b);});}
-function renderCard(){const c=DECKS[curDeck][idx];fc.classList.remove('flip');document.getElementById('fc-q').innerHTML=c[0];document.getElementById('fc-a').innerHTML=c[1];document.getElementById('fc-count').textContent=(idx+1)+' / '+DECKS[curDeck].length;}
+function renderDeckPicks(){const p=document.getElementById('deckpick');p.innerHTML='';Object.keys(curData().DECKS).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curDeck)b.classList.add('on');b.onclick=()=>{curDeck=d;idx=0;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderCard();};p.appendChild(b);});}
+function renderCard(){const D=curData().DECKS;const stage=document.querySelector('.fc-stage');const ctr=document.querySelector('.fc-controls');const emp=document.getElementById('fc-empty');if(!curDeck||!D[curDeck]){emp.innerHTML=emptyMsg('Karteikarten');emp.style.display='block';stage.style.display='none';ctr.style.display='none';return;}emp.style.display='none';stage.style.display='';ctr.style.display='';const c=D[curDeck][idx];fc.classList.remove('flip');document.getElementById('fc-q').innerHTML=c[0];document.getElementById('fc-a').innerHTML=c[1];document.getElementById('fc-count').textContent=(idx+1)+' / '+D[curDeck].length;}
 fc.onclick=()=>fc.classList.toggle('flip');
-document.getElementById('fc-next').onclick=()=>{idx=(idx+1)%DECKS[curDeck].length;renderCard();};
-document.getElementById('fc-prev').onclick=()=>{idx=(idx-1+DECKS[curDeck].length)%DECKS[curDeck].length;renderCard();};
+document.getElementById('fc-next').onclick=()=>{const D=curData().DECKS;if(!curDeck||!D[curDeck])return;idx=(idx+1)%D[curDeck].length;renderCard();};
+document.getElementById('fc-prev').onclick=()=>{const D=curData().DECKS;if(!curDeck||!D[curDeck])return;idx=(idx-1+D[curDeck].length)%D[curDeck].length;renderCard();};
 document.addEventListener('keydown',e=>{if(!document.querySelector('.view[data-view="karten"]').classList.contains('active'))return;if(e.code==='Space'){e.preventDefault();fc.classList.toggle('flip');}if(e.code==='ArrowRight')document.getElementById('fc-next').click();if(e.code==='ArrowLeft')document.getElementById('fc-prev').click();});
-renderDeckPicks();renderCard();
 
 /* ---------- ÜBUNGEN ---------- */
-let curUeb=Object.keys(UEB)[0];
-function renderUebPicks(){const p=document.getElementById('uebpick');p.innerHTML='';Object.keys(UEB).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curUeb)b.classList.add('on');b.onclick=()=>{curUeb=d;document.querySelectorAll('#uebpick button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderUeb();};p.appendChild(b);});}
-function renderUeb(){const c=document.getElementById('ueb-content');c.innerHTML=UEB[curUeb].map((a,i)=>'<details><summary><span class="q">'+(i+1)+'</span><span>'+a[0]+'</span></summary><div class="sol"><strong>Lösung:</strong> '+a[1]+'</div></details>').join('');}
-renderUebPicks();renderUeb();
+let curUeb=Object.keys(SEMDATA[1].UEB)[0];
+function renderUebPicks(){const p=document.getElementById('uebpick');p.innerHTML='';Object.keys(curData().UEB).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curUeb)b.classList.add('on');b.onclick=()=>{curUeb=d;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderUeb();};p.appendChild(b);});}
+function renderUeb(){const c=document.getElementById('ueb-content');const U=curData().UEB;if(!curUeb||!U[curUeb]){c.innerHTML=emptyMsg('Übungsaufgaben');return;}c.innerHTML=U[curUeb].map((a,i)=>'<details><summary><span class="q">'+(i+1)+'</span><span>'+a[0]+'</span></summary><div class="sol"><strong>Lösung:</strong> '+a[1]+'</div></details>').join('');}
 
-/* ---------- LEXIKON ---------- */
+/* ---------- LEXIKON (global über alle Semester) ---------- */
 function renderLex(q){
   q=(q||'').toLowerCase().trim();
   const list=document.getElementById('lex-list');
@@ -754,14 +793,17 @@ function renderLex(q){
 document.getElementById('lexsearch').addEventListener('input',e=>renderLex(e.target.value));
 renderLex('');
 
-/* ---------- LERNPLAN (localStorage) ---------- */
+/* ---------- LERNPLAN (localStorage, je Semester) ---------- */
 const KEY='lerntool-bautechnik-plan';
 function loadState(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch(e){return {};}}
 function saveState(s){try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}}
 let state=loadState();
-function totalItems(){return PLAN.reduce((n,a)=>n+a[2].length,0);}
-function updateProgress(){const done=Object.values(state).filter(Boolean).length;const pct=Math.round(done/totalItems()*100);document.getElementById('pct').textContent=pct+' %';document.getElementById('barfill').style.width=pct+'%';}
-function renderPlan(){const wrap=document.getElementById('plan-list');wrap.innerHTML='';PLAN.forEach((ab,ai)=>{const box=document.createElement('div');box.className='chk-abschnitt';const done=ab[2].filter((_,ii)=>state[ai+'-'+ii]).length;box.innerHTML='<div class="chk-head"><span>'+ab[0]+'</span><span class="meta">'+done+'/'+ab[2].length+' · '+ab[1]+'</span></div>';const body=document.createElement('div');body.className='chk-body';ab[2].forEach((t,ii)=>{const id=ai+'-'+ii;const soon=/\[Material folgt\]/.test(t);const label=t.replace(/\s*\[Material folgt\]/,'');const row=document.createElement('label');row.className='chk'+(state[id]?' done':'');row.innerHTML='<input type="checkbox" '+(state[id]?'checked':'')+'><span>'+label+(soon?' <span class="soon">Material folgt</span>':'')+'</span>';row.querySelector('input').addEventListener('change',e=>{state[id]=e.target.checked;saveState(state);renderPlan();updateProgress();});body.appendChild(row);});box.appendChild(body);wrap.appendChild(box);});}
-document.getElementById('reset').onclick=()=>{if(confirm('Wirklich den ganzen Fortschritt zurücksetzen?')){state={};saveState(state);renderPlan();updateProgress();}};
-renderPlan();updateProgress();
+function pid(ai,ii){return curSem+'-'+ai+'-'+ii;}
+function totalItems(){return curData().PLAN.reduce((n,a)=>n+a[2].length,0);}
+function updateProgress(){const P=curData().PLAN;const tot=totalItems();let done=0;P.forEach((ab,ai)=>ab[2].forEach((_,ii)=>{if(state[pid(ai,ii)])done++;}));const pct=tot?Math.round(done/tot*100):0;document.getElementById('pct').textContent=pct+' %';document.getElementById('barfill').style.width=pct+'%';}
+function renderPlan(){const wrap=document.getElementById('plan-list');wrap.innerHTML='';const P=curData().PLAN;if(!P.length){wrap.innerHTML=emptyMsg('Lernabschnitte');return;}P.forEach((ab,ai)=>{const box=document.createElement('div');box.className='chk-abschnitt';const done=ab[2].filter((_,ii)=>state[pid(ai,ii)]).length;box.innerHTML='<div class="chk-head"><span>'+ab[0]+'</span><span class="meta">'+done+'/'+ab[2].length+' · '+ab[1]+'</span></div>';const body=document.createElement('div');body.className='chk-body';ab[2].forEach((t,ii)=>{const id=pid(ai,ii);const soon=/\[Material folgt\]/.test(t);const label=t.replace(/\s*\[Material folgt\]/,'');const row=document.createElement('label');row.className='chk'+(state[id]?' done':'');row.innerHTML='<input type="checkbox" '+(state[id]?'checked':'')+'><span>'+label+(soon?' <span class="soon">Material folgt</span>':'')+'</span>';row.querySelector('input').addEventListener('change',e=>{state[id]=e.target.checked;saveState(state);renderPlan();updateProgress();});body.appendChild(row);});box.appendChild(body);wrap.appendChild(box);});}
+document.getElementById('reset').onclick=()=>{if(confirm('Fortschritt für Semester '+curSem+' zurücksetzen?')){curData().PLAN.forEach((ab,ai)=>ab[2].forEach((_,ii)=>{delete state[pid(ai,ii)];}));saveState(state);renderPlan();updateProgress();}};
+
+/* ---------- START ---------- */
+setSem(1);
 </script>
