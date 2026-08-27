@@ -1,0 +1,4141 @@
+Fachrichtung:  alle Fachrichtungen 
+
+Schwerpunkt:  alle Schwerpunkte 
+
+FACH: 
+
+Mathematik I 
+
+Modul Formeln 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+0 Zeichen und Abkürzungen ................................................................................... 6 
+
+Inhaltsverzeichnis 
+
+0.1 Mengen ............................................................................................................ 6 
+
+0.2 Besondere Konstanten ..................................................................................... 6 
+
+0.3 Besondere Zehnerpotenzen.............................................................................. 6 
+
+0.4 Beziehungen zwischen Zahlen ......................................................................... 6 
+
+0.5 Beziehungen zwischen Aussagen ..................................................................... 6 
+
+0.6 Operationen mit Zahlen .................................................................................... 7 
+
+0.7 Geometrie ........................................................................................................ 7 
+
+0.8 Vektorrechnung ................................................................................................ 8 
+
+0.9 Differentialrechnung.......................................................................................... 8 
+
+0.10 Integralrechnung ............................................................................................. 8 
+
+1 Zahlen und Grundrechenarten ............................................................................. 9 
+
+1.1 Runden von Zahlen .......................................................................................... 9 
+
+1.2 Zahlenmengen ................................................................................................. 9 
+
+1.2.1 Natürliche Zahlen 
+
+ .................................................................................... 9 
+
+1.2.2 Ganze Zahlen 
+
+ ........................................................................................ 9 
+
+1.2.3 Rationale Zahlen 
+
+ .................................................................................... 9 
+
+1.2.3.1 Erweitern eines Bruches ...................................................................... 9 
+
+1.2.3.2 Kürzen eines Bruches ........................................................................ 10 
+
+1.2.3.3 Primzahlen ........................................................................................ 10 
+
+1.2.3.4 Verwandeln eines Bruches in einen Dezimalbruch ............................. 10 
+
+1.2.3.5 Verwandeln eines periodischen Dezimalbruchs in einen Bruch .......... 10 
+
+1.2.4 Reelle Zahlen 
+
+ ....................................................................................... 10 
+
+1.2.4.1 Gesetzmäßigkeiten für reelle Zahlen .................................................. 11 
+
+1.2.4.2 Rechnen mit Quadratwurzeln ............................................................. 11 
+
+1.2.5 Komplexe Zahlen 
+
+ .................................................................................. 11 
+
+1.3 Grundrechenarten .......................................................................................... 12 
+
+1.3.1 Addition und Subtraktion .......................................................................... 12 
+
+1.3.2 Addition und Subtraktion von gleichnamigen Brüchen .............................. 12 
+
+1.3.3 Addition und Subtraktion von ungleichnamigen Brüchen........................... 12 
+
+1.3.4 Multiplikation und Division ........................................................................ 13 
+
+1.4 Klammerrechnen und Faktorisieren ................................................................ 13 
+
+1.5 Binomische Formeln ....................................................................................... 14 
+
+1.6 Polynomdivision ............................................................................................. 14 
+
+2 Funktionen und Gleichungen erster Ordnung ................................................... 15 
+
+2.1 Zuordnungen und Dreisatz ............................................................................. 15 
+
+2.1.1 Proportionale Zuordnung .......................................................................... 15 
+
+2.1.2 Antiproportionale Zuordnung .................................................................... 15 
+
+2.2 Äquivalenzumformungen bei Gleichungen und Ungleichungen ....................... 15 
+
+2.2.1 Gleichungen ............................................................................................. 15 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+2.2.2 Ungleichungen ......................................................................................... 16 
+
+2.3 Funktionen als eindeutige Zuordnungen ......................................................... 16 
+
+2.3.1 Funktion einer Geraden ........................................................................... 17 
+
+2.3.2 Nullstellen einer Geraden und Schnittpunkte zweier Geraden .................. 18 
+
+2.3.3 Gleichungssysteme mit zwei Variablen .................................................... 19 
+
+2.3.3.1 Gleichsetzungsverfahren .................................................................... 19 
+
+2.3.3.2 Einsetzungsverfahren ......................................................................... 19 
+
+2.3.3.3 Additionsverfahren.............................................................................. 19 
+
+2.3.4 Umkehrfunktionen .................................................................................... 20 
+
+3 Funktionen und Gleichungen höherer Ordnung ............................................... 21 
+
+3.1 Parabeln ........................................................................................................ 21 
+
+3.2 Die allgemeine quadratische Funktion ............................................................ 23 
+
+3.3 Quadratische Gleichungen und deren Lösung ................................................ 24 
+
+3.3.1 Quadratische Gleichung der Form y = x2 + q ............................................ 24 
+3.3.2 Quadratische Gleichung der Form y = x2 + px .......................................... 24 
+3.3.3 Allgemeine quadratische Gleichung der Form y = x2 + px + q ................... 24 
+3.3.4 Quadratische Gleichung der Form ax 2 + bx + c = 0 ................................. 24 
+3.3.5 Satz von Vieta ......................................................................................... 25 
+
+3.4 Schnittpunkte von Parabeln mit anderen Grafen ............................................. 25 
+
+3.4.1 Schnittpunkte mit den Achsen des Koordinatensystems ........................... 25 
+
+3.4.2 Schnittpunkte einer Normalparabel mit einer Geraden.............................. 25 
+
+3.4.3 Schnittpunkte von zwei Parabeln ............................................................. 26 
+
+3.5 Wurzelfunktionen ........................................................................................... 27 
+
+3.6 Potenzfunktionen mit natürlichen Exponenten ................................................ 27 
+
+3.7 Potenzfunktionen mit ganzzahligen Exponenten ............................................. 29 
+
+3.8 Potenzen mit rationalen Exponenten .............................................................. 30 
+
+3.9 Exponentialfunktionen .................................................................................... 31 
+
+3.10 Logarithmenfunktionen ................................................................................. 33 
+
+3.11 Exponentialgleichungen ............................................................................... 34 
+
+4 Geometrische Gesetze für zwei- und dreidimensionale Figuren...................... 35 
+
+4.1 Planimetrie ..................................................................................................... 35 
+
+4.1.1 Planimetrische Grundbegriffe ................................................................... 35 
+
+4.1.2 Grundkonstruktionen................................................................................ 37 
+
+4.1.3 Ähnlichkeit ............................................................................................... 39 
+
+4.1.4 Kongruenzsätze und besondere Linien und Punkte im Dreieck ................ 40 
+
+4.1.5 Rechtwinkliges Dreieck ............................................................................ 43 
+
+4.1.6 Kreis und Kreisteile .................................................................................. 44 
+
+4.1.7 Flächen- und Umfangsberechnung .......................................................... 46 
+
+4.2 Trigonometrie ................................................................................................. 50 
+
+4.2.1 Sinus, Kosinus, Tangens ......................................................................... 50 
+
+4.2.2 Trigonometrische Funktionen ................................................................... 50 
+
+4.2.3 Trigonometrische Berechnung im allgemeinen Dreieck ............................ 51 
+
+4 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+Formeln: Mathematik I 
+
+4.2.4 Darstellung trigonometrischer Funktionen mithilfe des Bogenmaßes der 
+
+Winkel ...................................................................................................... 52 
+
+4.2.5 Additionstheoreme ................................................................................... 52 
+
+4.3 Stereometrie ................................................................................................... 53 
+
+4.3.1 Volumen und Oberfläche von Prismen ..................................................... 53 
+
+4.3.2 Volumen und Oberfläche von Zylinder, Pyramide und Kegel ..................... 54 
+
+4.3.3 Volumen und Oberfläche der Kugel .......................................................... 55 
+
+4.3.4 Volumen und Oberfläche von Pyramiden- und Kegelstümpfen.................. 55 
+
+4.3.5 Volumen und Oberfläche von Rotationskörpern ........................................ 57 
+
+5 Grundlagen der Analysis und Vektorrechnung ................................................. 58 
+
+5.1 Vektoren und Matrizen .................................................................................... 58 
+
+5.1.1 Grundlagen der Vektorrechnung............................................................... 58 
+
+5.1.2 Multiplikation von Vektoren ....................................................................... 60 
+
+5.1.3 (2 x 2)-Matrix ............................................................................................ 61 
+
+5.2 Einführung in die Differenzial- und Integralrechnung ....................................... 62 
+
+5.2.1 Differenzialrechnung ................................................................................ 62 
+
+5.2.2 Integralrechnung ...................................................................................... 66 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+0 Zeichen und Abkürzungen 
+
+0.1 Mengen 
+
+Formeln: Mathematik I 
+
+Menge aus den Elementen 5, 6, 7 und 8 in aufzählender Form 
+Lösungsmenge für eine Gleichung oder Ungleichung 
+Leere Menge 
+Grundmenge 
+Wertemenge 
+
+ | 5  x  8}  Menge in beschreibender Form 
+Definitionsmenge 
+Menge der natürlichen Zahlen {0, 1, 2, 3,...} 
+Menge der natürlichen Zahlen ohne die Null {1, 2, 3,...} 
+Menge der ganzen Zahlen {..., –3, –2, –1, 0, 1, 2, 3,...} 
+
+M = {5, 6, 7, 8} 
+L 
+{ } 
+G 
+W 
+M = {x 
+D 
+
+* 
+
+* 
+
+Menge der rationalen Zahlen 
+
+   y  0 
+
+Menge der reellen Zahlen 
+Menge der reellen Zahlen ohne die Null 
+Menge der komplexen Zahlen {a + j  b | a,b 
+
+  } 
+
+0.2 Besondere Konstanten 
+
+ = 3,14159265358979... 
+e = 2,7182818284590... 
+
+Kreiszahl pi 
+Eulersche Zahl e 
+imaginäre Einheit 
+
+0.3 Besondere Zehnerpotenzen 
+
+Pico 
+Nano 
+Mikro 
+
+p 
+n 
+
+m 
+Milli 
+k 
+Kilo 
+Mega  M 
+G 
+Giga 
+T 
+Tera 
+
+0.4 Beziehungen zwischen Zahlen 
+
+a = b 
+a  b 
+10,4567  10,5 
+a > b 
+a < b 
+a  b 
+a  b 
+
+a gleich b 
+a ungleich b 
+10,4567 ist ungefähr gleich 10,5 
+a ist größer als b 
+a ist kleiner als b 
+a ist kleiner oder gleich b 
+a ist größer oder gleich b 
+
+0.5 Beziehungen zwischen Aussagen 
+
+  Wenn die Aussage a richtig ist, dann ist auch die Aussage b richtig. 
+  Genau  dann,  wenn  die  Aussage  a  richtig  ist,  dann  ist  auch  die  Aussage  b 
+
+richtig. 
+
+6 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+y,xyx=−j11210−910−610−310−3106109101210baba 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+0.6 Operationen mit Zahlen 
+
+a + b 
+a – b  
+
+a : b 
+ab 
+loga x 
+ex 
+ln x 
+|a| 
+
+Summe (a plus b) 
+Differenz (a minus b) 
+Produkt (a mal b) 
+Quotient (a geteilt durch b) 
+Potenz (a hoch b) 
+Logarithmus von x zur Basis a 
+e-Funktion 
+natürlicher Logarithmus 
+Betrag der Zahl a 
+Wurzel aus a, a  0 
+
+sin x, sin 
+cos x, cos 
+tan x, tan 
+
+n-te Wurzel aus a, a  0 
+Sinus des Winkels x (in Bogenmaß) bzw.  (in Gradmaß) 
+  Kosinus des Winkels x (in Bogenmaß) bzw.  (in Gradmaß) 
+Tangens des Winkels x (in Bogenmaß) bzw.  (in Gradmaß) 
+
+0.7 Geometrie 
+
+A, B, C,... 
+P (5 ; 10) 
+
+g, h, k,... 
+AB 
+g || h 
+
+[AB] 
+
+k(M ; r) 
+α       
+
+Punkte 
+Punkt im Koordinatensystem mit den Koordinaten 5 (x-Wert) und 
+10 (y-Wert) 
+Geraden 
+Gerade durch die Punkte A und B 
+g ist parallel zu h 
+g steht senkrecht auf h 
+Strecke von A bis B 
+Länge der Strecke [AB] 
+Kreisbogen von A bis B 
+Kreis um den Mittelpunkt M mit dem Radius r 
+alpha, beta, gamma, delta, epsilon, rho, phi 
+Winkel im Scheitelpunkt B mit den Punkten A und B auf jeweils 
+einem Schenkel 
+
+  Das Dreieck ABC ist kongruent zum Dreieck A’B’C’. 
+  Das Dreieck ABC ist ähnlich zum Dreieck A’B’C’. 
+
+l, b, h 
+ma 
+w 
+sa 
+ha 
+r, R 
+ 
+d, D 
+s 
+U 
+A 
+AM 
+AO 
+V 
+
+Länge, Breite, Höhe 
+Mittelsenkrechte auf die Seite a 
+Winkelhalbierende des Winkels  
+Seitenhalbierende der Seite a 
+Höhe (Lot vom Eckpunkt A) auf der Seite a 
+Radius, Umkreisradius 
+Inkreisradius 
+Durchmesser 
+Mantellinie eines Körpers 
+Umfang 
+Flächeninhalt allgemein 
+Mantelfläche eines Körpers 
+Oberfläche eines Körpers 
+Volumen eines Körpers 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+7 
+
+abanahg⊥ABAB)ABC('C'B'AABC'C'B'A~ABC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+0.8 Vektorrechnung 
+
+Vektoren 
+
+Vektor in Komponentendarstellung mit der x-Komponente 3 und der 
+y-Komponente 4 
+
+Nullvektor 
+
+Einheitsvektor 
+Quadratische 2x2-Matrix 
+
+Spaltenvektor 
+
+Zeilenvektor 
+
+Determinante einer Matrix 
+
+0.9 Differentialrechnung 
+
+f‘(x), f‘‘(x) 
+
+unendlich 
+erste bzw. zweite Ableitungsfunktion der Funktion f(x) (lies: f Strich von x 
+bzw. f zwei Strich von x) 
+erste  bzw.  zweite  Ableitungsfunktion  der  zeitabhängigen  Funktion  s(t) 
+(lies: s Punkt von t bzw. s zwei Punkt von t) 
+
+0.10 Integralrechnung 
+
+F(x) 
+
+Stammfunktion der Funktion f(x) 
+
+  bestimmtes Integral (lies: Integral von a bis b über f von x dx) 
+
+8 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+v,b,a=43v0e22211211aaaa21aa()21aa22211211aaaa)t(s),t(sbadx)x(f 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+1 Zahlen und Grundrechenarten 
+
+1.1 Runden von Zahlen 
+
+Steht  an  der  (n  +  1)-ten  Stelle  eine  der  Ziffern  0,  1,  2,  3  oder  4,  wird  die  n-te  Stelle 
+abgerundet. 105,92 ≈ 105,9 
+
+Steht  an  der  (n  +  1)-ten  Stelle  eine  der  Ziffern  5,  6,  7,  8  oder  9,  wird  die  n-te  Stelle 
+aufgerundet. 63,86 ≈ 63,9 
+
+1.2 Zahlenmengen 
+
+1.2.1 Natürliche Zahlen   
+
+Die Menge der natürlichen Zahlen hat unendlich viele Elemente. 
+
+ = {0, 1, 2, 3,...} 
+
+* = 
+
+ \ {0} = {1, 2, 3,...} 
+
+1.2.2 Ganze Zahlen 
+
+Die  negativen  ganzen  Zahlen,  die  Null  und  die  positiven  ganzen  Zahlen  bilden  die 
+Menge der ganzen Zahlen 
+
+ = {... –3, –2, –1, 0, 1, 2, 3,...}.  
+
+. 
+
+Der Abstand einer Zahl von der Null heißt Betrag. Zwei Zahlen mit dem gleichen Ab-
+stand von der Null heißen Gegenzahlen. 
+
+1.2.3 Rationale Zahlen 
+
+Zwischen  zwei  ganzen  Zahlen  lassen  sich  beliebig  viele  andere  Zahlen  abtragen. 
+Diese Zahlen werden Bruchzahlen genannt. Bruchzahlen, die sich als Quotient zweier 
+ganzer  Zahlen  darstellen  lassen,  werden  rationale  Zahlen  genannt.  Sie  bilden  die 
+Menge 
+
+ der rationalen Zahlen. 
+
+1.2.3.1 Erweitern eines Bruches 
+
+Ein Bruch wird erweitert, indem Zähler und Nenner mit der gleichen Zahl multipliziert 
+werden. 
+
+b  0 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+9 
+
+b5a55b5a=1284342= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+1.2.3.2 Kürzen eines Bruches 
+
+Ein Bruch wird gekürzt, indem Zähler und Nenner durch die gleiche Zahl dividiert wer-
+den. 
+
+  b  0 
+
+1.2.3.3 Primzahlen 
+
+Natürliche Zahlen, die genau zwei Teiler haben, nennt man Primzahlen. Sie sind nur 
+durch  1  und  sich  selbst  teilbar.  Dabei  ist  1  keine  Primzahl.  Die  Primzahlen  bis  50: 
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 
+
+1.2.3.4 Verwandeln eines Bruches in einen Dezimalbruch 
+
+Ein Bruch wird in einen Dezimalbruch umgeformt, indem der Zähler durch den Nenner 
+dividiert wird. 
+
+1.2.3.5 Verwandeln eines periodischen Dezimalbruchs in einen Bruch 
+
+Die Ziffern der Periode werden in den Zähler geschrieben. Im Nenner müssen so viele 
+Neunen geschrieben werden, wie die Periode Ziffern hat. 
+
+Das Komma wird so weit nach rechts verschoben, bis die Periode hinter dem Komma 
+beginnt. Es muss entsprechend mit einem Zehntelbruch (Hundertstelbruch usw.) mul-
+tipliziert werden. 
+
+1.2.4 Reelle Zahlen 
+
+Zahlen,  die  sich  als  unendliche,  nicht  periodische  Dezimalzahlen  darstellen  lassen, 
+heißen irrationale Zahlen. Die rationalen und die irrationalen Zahlen bilden die Menge 
+
+ der reellen Zahlen. 
+
+* = 
+
+ \ {0}  
+
+ ist die nichtnegative Zahl, deren Quadrat a ist. Sie heißt Quadratwurzel von a. 
+
+Intervallschachtelung: [3 ; 4], [3,3 ; 3,4], [3,31 ; 3,32]... 
+
+Jedes Intervall ist im vorhergehenden enthalten. Es gibt somit genau eine reelle Zahl, 
+die in allen Intervallen liegt.  
+
+10 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ba34:b44:a12=436:246:18=4,0...444,09:49475,04:343=====117996363,0==451190221019421014,242,0====a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+1.2.4.1 Gesetzmäßigkeiten für reelle Zahlen 
+
+Kommutativgesetz 
+Assoziativgesetz 
+Neutrales Element  
+Inverses Element  
+Distributivgesetz 
+
+a + b = b + a 
+(a + b) + c = a + (b + c) 
+a + 0 = a  
+a + (–a) = 0  
+a  (b + c) = a  b + a  c 
+
+a  b = b  a 
+(a  b)  c = a  (b  c) 
+a  1 = a 
+a  1 / a = 1 
+
+1.2.4.2 Rechnen mit Quadratwurzeln 
+
+Gleiche Wurzeln können zusammengefasst werden: 
+
+Multiplikation von Quadratwurzeln: 
+
+Division von Quadratwurzeln: 
+
+Wurzelterm aus Nenner eines Bruches in den Zähler bringen: 
+
+1.2.5 Komplexe Zahlen 
+
+Summen  aus  je  einer  reellen  Zahl  a  und  einer  imaginären  Zahl  bj  heißen  komplexe 
+Zahlen.  Jede  komplexe  Zahl  lässt  sich  als  Punkt  in  den  vier  Quadranten  der  Gauß-
+schen Zahlenebene darstellen. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+11 
+
+ba7b2a2b3a5+=−++baba=baba=aa3aaa3a3==4ba2ab)2b)(2b()2b(a2ba−−=−+−=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+1.3 Grundrechenarten 
+
+1.3.1 Addition und Subtraktion 
+
+Summand  + 
++ 
+
+5 
+
+Summand 
+7 
+
+=  Wert der Summe 
+= 
+
+12 
+
+Minuend  –  Subtrahend 
+
+20 
+
+– 
+
+12 
+
+=  Wert der Differenz 
+= 
+
+8 
+
+Addition von rationalen Zahlen mit gleichen Vorzeichen: 
+
+(+7,5) + (+2,5) = +10 
+
+(–8,4) + (–7,5) = –15,9 
+
+Addition von rationalen Zahlen mit verschiedenen Vorzeichen: 
+
+(+15) – (–5,5) = +20,5 
+
+(–12,5) – (–7,5) = –5 
+
+Vereinfachte Vorzeichenregeln 
+
++ (+) = + 
+
++ (–) = – 
+
+– (+) = – 
+
+– (–) = + 
+
+Punktrechnung geht vor Strichrechnung. 
+
+–5  15 + 18 : 3 = –75 + 6 = –69 
+
+Was in der Klammer steht, wird zuerst berechnet.  
+
+(–22 + 12)  (25 – 10) = –10  15 = –150 
+
+1.3.2 Addition und Subtraktion von gleichnamigen Brüchen 
+
+Gleichnamige Brüche werden addiert bzw. subtrahiert, indem die Zähler addiert bzw. 
+subtrahiert werden und der Nenner unverändert bleibt. 
+
+1.3.3 Addition und Subtraktion von ungleichnamigen Brüchen 
+
+Ungleichnamige Brüche werden addiert bzw. subtrahiert, indem sie vor dem Addieren 
+bzw. Subtrahieren gleichnamig gemacht werden. 
+
+Terme, bei denen im Nenner eine oder mehrere Variablen vorkommen, werden Bruch-
+terme genannt. Dabei darf der Term im Nenner nicht die Zahl Null bezeichnen. 
+
+a  0 
+
+Für  die  Addition  und  Subtraktion  von  Bruchtermen  gelten  die  selben  Regeln  wie  für 
+Brüche. 
+
+12 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+3ba3b3a+=+20b4a520b420a55b4a+=+=+ayx2+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+1.3.4 Multiplikation und Division 
+
+Faktor 
+4 
+
+ 
+ 
+
+Faktor 
+1,5 
+
+=  Wert des Produktes 
+= 
+
+6 
+
+Dividend 
+65 
+
+: 
+: 
+
+Divisor 
+13 
+
+=  Wert des Quotienten 
+= 
+
+5 
+
+Ein  Bruch  wird  mit  einer  ganzen  Zahl  multipliziert,  indem  der  Zähler  mit  der  ganzen 
+Zahl multipliziert und der Nenner beibehalten wird. 
+
+x  0 
+
+Ein  Bruch  wird  mit  einem  Bruch  multipliziert,  indem  die  Zähler  miteinander  und  die 
+Nenner miteinander multipliziert werden. 
+
+x  0 
+
+Ein Bruch wird durch eine ganze Zahl dividiert, indem der Nenner mit der ganzen Zahl 
+multipliziert wird und der Zähler beibehalten wird. 
+
+  x  0 
+
+Durch einen Bruch wird dividiert, indem mit seinem Kehrwert multipliziert wird. 
+
+a,b  0 
+
+Das Kürzen von Brüchen und Bruchtermen aus Summen ist nicht erlaubt. 
+
+Vorzeichenregeln 
+
+Sind die Vorzeichen gleich: Plus 
+
+(–a) : (–b) = a/b 
+
+b  0 
+
+(–2)  (–a) = + 2 a 
+
+Sind die Vorzeichen verschieden: Minus 
+
+(–x) : (+y) = –x/y  y  0 
+
+(+10)  (–4) = –40 
+
+1.4 Klammerrechnen und Faktorisieren 
+
+Steht vor der Klammer ein Pluszeichen (Plusklammer), so kann die Klammer wegge-
+lassen werden. 
+
++ (a – b) = a – b 
+
+Steht vor der Klammer ein Minuszeichen (Minusklammer), so müssen beim Auflösen 
+der Klammer die Zeichen vor jedem Summanden in der Klammer umgekehrt werden. 
+
+– (x – y) = –x + y 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+13 
+
+xa44xa=2x10y3x2yx53=x858:x5=b45aab20a5:ab20== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Distributivgesetz 
+
+Ein  Term  wird  mit  einer  Summe  multipliziert,  indem  er  mit  jedem  Summanden  der 
+Summe multipliziert wird. 
+
+a (b + c) = ab + ac 
+
+Eine  Summe  wird  mit  einer  Summe  multipliziert,  indem  jeder  Summand  der  ersten 
+Summe mit jedem Summanden der zweiten Summe multipliziert wird und die Teilpro-
+dukte addiert werden. 
+
+(a + b) (c – d)  = ac – ad + bc – bd 
+
+Ausklammern oder Faktorisieren 
+
+Faktorisieren eines gemeinsamen Faktors 
+
+20 x + 10 xy = 10 x (2 + y) 
+
+–a – b = (–1) (a + b) 
+
+Faktorisieren aus Gruppen von Termen 
+
+ax + az + bx + bz = a (x + z) + b (x + z) = (x + z) (a + b) 
+
+1.5 Binomische Formeln 
+
+1. binomische Formel 
+
+(a + b)2 = a2 + 2 ab + b2 
+
+(5 + x)2 = 25 + 10x + x2  
+
+2. binomische Formel 
+
+(a – b)2 = a2 – 2 ab + b2 
+
+(y – 2)2 = y2 – 4y + 4 
+
+3. binomische Formel 
+
+(a + b) (a – b) = a2 – b2 
+
+(z + 3) (z – 3) = z2 – 9 
+
+Faktorisieren mithilfe der binomischen Formeln 
+
+25 p2 + 30 pq + 9 q2 = (5 p + 3 q)2 
+
+r2 – 2 rs + s2 = (r – s)2  
+
+121 t2 – 49 w2 = (11 t + 7 w) (11 t – 7 w) 
+
+1.6 Polynomdivision 
+
+(x3 – 2 x2 –25 x + 50) : (x – 2) = x2 – 25 
+–(x3 – 2 x2) 
+           0 – 25 x + 50 
+            –(–25 x + 50) 
+                             0 
+
+x2 – 25 = (x + 5) (x – 5) 
+
+x3 – 2 x2 –25 x + 50 = (x – 2) (x + 5) (x – 5) 
+
+14 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+2 Funktionen und Gleichungen erster Ordnung 
+
+2.1 Zuordnungen und Dreisatz 
+
+2.1.1 Proportionale Zuordnung 
+
+doppeltes Volumen → doppelte Mas-
+se 
+
+Hälfte  des  Volumens  →  Hälfte  der 
+Masse 
+
+x → k  x 
+
+k ist der Proportionalitätsfaktor 
+
+doppelte Anzahl → Hälfte der Zeit 
+
+Hälfte der Anzahl → doppelte Zeit 
+
+x → c / x 
+
+c ist die Proportionalitätskonstante 
+
+2.1.2 Antiproportionale Zuordnung 
+
+2.2 Äquivalenzumformungen bei Gleichungen und Ungleichungen 
+
+2.2.1 Gleichungen 
+
+Werden  zwei  Terme  durch  ein  Gleichheitszeichen  verbunden,  entsteht  eine  Glei-
+chung. 
+
+5 + x = 12 
+
+Die  Lösungsmenge  bleibt  unverändert,  wenn  auf  beiden  Seiten  der  Gleichung  die 
+selbe Zahl addiert oder subtrahiert wird. 
+
+5 – 5 + x = 12 – 5 
+x = 7 
+
+Die Lösungsmenge bleibt unverändert, wenn auf beiden Seiten der Gleichung mit der 
+selben Zahl ( 0) multipliziert oder durch die selbe Zahl ( 0) dividiert wird. 
+
+8 x = 40 
+x = 5 
+
+| : 8 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+In  einer Gleichung,  in  der  außer  der  Variablen x  noch  andere  Variablen vorkommen, 
+heißt  x  die  Lösungsvariable.  Die  anderen  Variablen  heißen  Formvariablen.  Sie  sind 
+Platzhalter für reelle Zahlen. 
+
+2.2.2 Ungleichungen 
+
+Werden zwei Terme durch eines der Zeichen  ;  ;  ;  verbunden, so entsteht eine 
+Ungleichung. 
+
+x + 5  10 
+
+Die  Lösungsmenge  bleibt  unverändert,  wenn  auf  beiden  Seiten  der  Gleichung  die 
+selbe Zahl addiert bzw. subtrahiert wird. 
+
+x + 5 – 5  10 – 5 
+
+x  5 
+
+Die  Lösungsmenge  bleibt  unverändert,  wenn  auf  beiden  Seiten  der  Ungleichung  mit 
+der selben positiven Zahl multipliziert oder durch die selbe positive Zahl dividiert wird. 
+
+2 x  14 | : 2 
+
+x  7 
+
+Werden  beide  Seiten  einer  Ungleichung  mit  der  selben  negativen  Zahl  multipliziert 
+oder durch die selbe negative Zahl dividiert, müssen die Ungleichheitszeichen umge-
+dreht werden. 
+
+–1/2 x  5 | : (–1/2) 
+
+x  –10 
+
+2.3 Funktionen als eindeutige Zuordnungen 
+
+Eine Funktion ist eine eindeutige Zuordnung. Dafür muss gelten: Jedem Element der 
+Definitionsmenge D wird genau ein Element der Wertemenge W zugeordnet. 
+
+D = {–1 ; 0 ; 1 ; 2 ; 3 ; 4}  W = {–1 ; 0 ; 1 ; 2} 
+
+Auf jeder Parallelen zur y-Achse darf höchstens ein Punkt liegen. 
+
+16 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Bezeichnungen für Funktionen: 
+
+f: x → 2 x ; 2 x wird Funktionsterm genannt. 
+f: 2 → 4 ; Der Funktionswert von f an der Stelle 2 ist 4: f (2) = 4 
+f(x) = 2 x ; Funktionsgleichung 
+
+2.3.1 Funktion einer Geraden 
+
+Der Graf einer Funktion f: x → mx ist eine Gerade durch den Ursprung. 
+
+Der Graf einer linearen Funktion mit f(x) = mx + b ist eine um b nach oben (+b) oder 
+unten (–b) verschobene Ursprungsgerade. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Berechnung des Steigungsfaktors m einer Geraden aus zwei Punkten 
+
+Steigungsfaktor m: 
+
+Formeln: Mathematik I 
+
+2.3.2 Nullstellen einer Geraden und Schnittpunkte zweier Geraden 
+
+f(x) = x –2 
+
+Der Schnittpunkt S des Grafen von f mit der x-Achse hat die Koordinaten S (x ; 0). Die 
+x-Koordinate von S wird Nullstelle der Funktion f genannt. 
+
+Für den Schnittpunkt der beiden Geraden gilt: f(x) = g(x). 
+
+18 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+1212xxyym−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+2.3.3 Gleichungssysteme mit zwei Variablen 
+
+Zwei lineare Gleichungen mit zwei Variablen bilden ein lineares Gleichungssystem. 
+
+I  x + y = 10 
+
+II  x – y = 4 
+
+Der  Schnittpunkt  S  (x ; y)  erfüllt  beide Funktionsgleichungen;  seine  Koordinaten  sind 
+Lösung des Gleichungssystems. 
+
+Rechnerische Lösungsverfahren 
+
+2.3.3.1 Gleichsetzungsverfahren 
+
+Im  ersten  Lösungsschritt  werden  beide  Gleichungen  in  die  Normalform  y  =  mx  +  b 
+umgeformt.  Im  zweiten  Lösungsschritt  werden  beide  Gleichungsterme  gleich  gesetzt 
+und die Gleichung nach x aufgelöst. Im dritten Lösungsschritt wird der x-Wert in eine 
+der beiden Gleichungen eingesetzt. 
+
+2.3.3.2 Einsetzungsverfahren 
+
+Im  ersten  Lösungsschritt  wird  Gleichung  I  oder  II  nach  y  aufgelöst.  Im  zweiten  Lö-
+sungsschritt wird der Term für y in die andere Gleichung eingesetzt und diese nach x 
+aufgelöst. Im dritten Lösungsschritt wird der x-Wert in den y-Term eingesetzt. 
+
+2.3.3.3 Additionsverfahren 
+
+Im ersten Lösungsschritt müssen eine oder beide Gleichungen so umgeformt werden, 
+dass  bei  anschließender  Addition  beider  Gleichungen  eine  Variable  heraus  fällt.  Im 
+zweiten  Lösungsschritt  wird  der  berechnete  x-Wert  (oder  y-Wert)  in  eine  der  beiden 
+Ausgangsgleichungen eingesetzt und die zweite Variable bestimmt. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+2.3.4 Umkehrfunktionen 
+
+Jeder x-Wert führt  bei  einer linearen Funktion  zu  einem  bestimmten  y-Wert.  Jeder  y-
+Wert ist auch eindeutig einem bestimmten x-Wert zugeordnet. Diese Eigenschaft einer 
+linearen Funktion f(x) nennt man umkehrbar eindeutig. 
+
+Ihre  Definitionsmenge  ist  Df,  ihre  Wertemenge  W f.  Die  Funktion  f–1  :  f(x)  →  x  mit  
+D (f–1) = Wf und W (f–1) = Df heißt Umkehrfunktion. 
+
+y = 1/2 x – 4 
+
+Erster Lösungsschritt: nach x auflösen 
+
+y + 4 = 1/2 x | : 1/2  
+
+2 y + 8 = x 
+
+Zweiter Lösungsschritt: x und y vertauschen 
+
+2 x + 8 = y 
+
+f –1 : y = 2 x + 8  
+
+20 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3 Funktionen und Gleichungen höherer Ordnung 
+
+3.1 Parabeln 
+
+Der  Graf  der  quadratischen  Funktion f(x) = x2  ;  D  = 
+  heißt  Normalparabel. S ist  der 
+Scheitelpunkt  der  Parabel.  Die Funktion f  hat  an  der Stelle x  =  0  eine  Nullstelle.  Die 
+Normalparabel ist nach oben geöffnet.  
+
+Der Graf einer quadratischen Funktion mit der Funktionsgleichung y = x2 + s ist eine in 
+Richtung der y-Achse verschobene Normalparabel. Der Scheitelpunkt hat die Koordi-
+naten S (0 ; s). 
+
+f(x) = x2 + 2 
+
+g(x) = x2 – 4  
+
+Der Graf einer quadratischen Funktion mit der Funktionsgleichung y = (x – r)2 ist eine 
+in Richtung der x-Achse verschobene Normalparabel. Der Scheitelpunkt lautet: 
+S (r ; 0) 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+f(x) = (x + 4)2  
+
+g(x) = (x – 4)2  
+
+Formeln: Mathematik I 
+
+Der Graf einer Funktion mit der Funktionsgleichung y = (x – r)2 + s ist eine verschobe-
+ne Normalparabel mit dem Scheitelpunkt S (r ; s). 
+
+f(x) = (x – 5)2 – 2  
+
+Diese Darstellung einer quadratischen Funktion heißt Scheitelpunktform. 
+
+Der Graf einer quadratischen Funktion mit f(x) = ax2 (a  0) ist eine nach unten geöff-
+nete Parabel. Die Grafen sind jeweils an der x-Achse gespiegelt. 
+
+f(x) = x2 
+
+g(x) = ax2 mit a  1 
+
+h(x) = ax2 mit 0  a  1 
+
+22 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.2 Die allgemeine quadratische Funktion 
+
+Die allgemeine Form einer quadratischen Funktion lautet: y = ax2 + bx + c. Die Form-
+variablen a und b heißen Koeffizienten der quadratischen Funktion. 
+
+Beispiel: 
+
+f(x) = 2x2 – 8x – 4 
+f(x) = 2 (x2 – 4x) – 4  
+f(x) = 2 (x2 – 4x + 4 – 4) – 4  
+f(x) = 2 (x2 – 4x + 4) – 8 – 4  
+f(x) = 2 (x – 2)2 – 12  
+
+Eine  quadratische  Funktion  hat  entweder  eine  Nullstelle,  zwei  Nullstellen  oder  keine 
+Nullstelle. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+23 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.3 Quadratische Gleichungen und deren Lösung 
+
+3.3.1 Quadratische Gleichung der Form y = x2 + q 
+
+Eine quadratische Gleichung der Form x2 + q hat  
+
+für q < 0 zwei Lösungen: 
+
+für q = 0 eine Lösung : 
+
+x = 0 
+
+L = {0} 
+
+für q  0 keine Lösung:  L = { } 
+
+3.3.2 Quadratische Gleichung der Form y = x2 + px 
+
+Eine quadratische Gleichung der Form y = x2 + px hat zwei Lösungen:  
+
+x1 = 0 
+
+x2 = –p 
+
+L = {0 ; –p}  
+
+3.3.3 Allgemeine quadratische Gleichung der Form y = x2 + px + q 
+
+Lösung mithilfe der quadratischen Ergänzung 
+
+x2 – 4x – 12 = 0 
+x2 – 4x   = 12 
+x2 – 4x + 4 = 12 + 4 
+(x – 2)2  = 16 
+
+x1 = 6 
+L = {6 ; –2} 
+
+x2 = –2 
+
+Lösung mithilfe der Lösungsformel 
+
+x2 + px + q = 0  p, q  
+
+Der Radikand (p/2)2 – q heißt Diskriminante D. 
+
+Ist D  0 : Es existieren zwei Lösungen L = {x1 ; x2} 
+Ist D = 0 : Es existiert eine Lösung L = {x} 
+Ist D  0 : Es existiert keine Lösung L = { } 
+
+3.3.4 Quadratische Gleichung der Form ax 2 + bx + c = 0 
+
+24 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+qx1=qx2−=q;qL−=162x162x−=−=−()q2/p2/px21−+−=()q2/p2/px22−−−=a2ac4bbx21−+−=a2ac4bbx22−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.3.5 Satz von Vieta 
+
+Für quadratische Gleichungen in der Normalform x2 + px + q = 0 gilt für die Lösungen 
+x1 und x2 : 
+
+p = –(x1 + x2) 
+
+q = x1  x2 
+
+3.4 Schnittpunkte von Parabeln mit anderen Grafen 
+
+3.4.1 Schnittpunkte mit den Achsen des Koordinatensystems 
+
+Die Schnittpunkte des Funktionsgrafen mit f(x) = x2 + px + q mit der x-Achse sind die 
+Nullstellen x1 und x2. Die Bedingung für die Nullstellen lautet: f(x) = 0. Die Bedingung 
+für den Schnittpunkt mit der y-Achse lautet: x = 0. 
+
+3.4.2 Schnittpunkte einer Normalparabel mit einer Geraden  
+
+Grafisches Lösungsverfahren zur Schnittpunktbestimmung einer quadratischen Funk-
+tion mit f(x) = x2 + px + q 
+
+x2 – x – 2 = 0 
+
+f(x) = x2 
+
+g(x) = x + 2 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.4.3 Schnittpunkte von zwei Parabeln 
+
+Für die Schnittpunkte P und Q muss gelten: f(x) = g(x) 
+
+Formeln: Mathematik I 
+
+26 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.5 Wurzelfunktionen 
+
+Die Umkehrung der quadratischen Funktion f(x) = x2 ist eindeutig für D = 
+kehrfunktion von f heißt Wurzelfunktion : 
+
++. Die Um-
+
+  mit D =  + , W =  + . 
+
+Tritt in einer Gleichung die Lösungsvariable im Radikanden einer Wurzel auf, so wird 
+die Gleichung als Wurzelgleichung bezeichnet. 
+
+x + 4 = 16 
+x = 12 
+
+Beidseitiges  Quadrieren  einer  Gleichung  ist  keine  Äquivalenzumformung.  Bei  Wur-
+zelgleichungen ist immer eine Probe durch zu führen. 
+
+3.6 Potenzfunktionen mit natürlichen Exponenten 
+
+Ein Produkt aus gleichen Faktoren kann verkürzt als Potenz geschrieben werden. 
+
+an (a heißt Basis, n heißt Exponent), a  
+
+, n   * 
+
+Bei negativer Basis und geradem Exponenten ist der Wert der Potenz positiv. 
+
+(–2)2 = +4 
+
+Bei negativer Basis und ungeradem Exponenten ist der Wert der Potenz negativ. 
+
+(–3)3 = –27 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+27 
+
+xf1=−44x=+()2244x=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Eine Funktion mit der Funktionsgleichung f(x) = xn, n   * heißt Potenzfunktion, D = 
+
+. 
+
+Die  Grafen  der  Potenzfunktionen mit  geradem  Exponenten  y = x2n,  n   *  und  D = 
+verlaufen durch die Punkte P (1 ; 1) und Q (–1 ; 1). Die y-Achse ist Symmetrieachse. 
+
+Die  Grafen  der  Potenzfunktionen  mit  ungeradem  Exponenten  y  =  x2n–1,  n    *  und  
+ verlaufen  durch  die  Punkte  P  (1  ;  1)  und  Q  (–1 ;  –1).  Der  Ursprung  (0  ;  0) ist 
+D = 
+Symmetriepunkt. 
+
+28 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.7 Potenzfunktionen mit ganzzahligen Exponenten 
+
+Potenzen mit gleichen Basen und gleichen Exponenten können in Summen und Diffe-
+renzen zusammengefasst werden. 
+
+3 a4 + 4 a4 = 7 a4 
+
+Potenzen mit gleicher Basis werden multipliziert, indem ihre Exponenten addiert wer-
+den. Die Basis wird beibehalten. 
+
+am  an = am+n für a  
+
+ ; m, n   * 
+
+Beispiel: a5  a2 = a7 
+
+Potenzen mit gleicher Basis werden dividiert, indem ihre Exponenten subtrahiert wer-
+den. Die Basis wird beibehalten. 
+
+am : an = am – n für a   * ; m, n  
+
+ und m  n 
+
+Beispiel: a5 : a3 = a2 
+
+Wenn  Zähler  und  Nenner  eines  Bruches  gleich  sind,  so  bezeichnet  der  Bruch  die 
+Zahl 1. So gilt: 
+
+a0 = 1 für a   * 
+
+Ein Produkt wird mit einer natürlichen Zahl potenziert, indem jeder Faktor des Produk-
+tes mit der natürlichen Zahl potenziert wird. 
+
+(a b)n = an bn für a, b  
+
+ und n  
+
+Beispiel: (3b)3 = 33 b3 = 27 b3 
+
+Ein  Bruch  wird  mit  einer  natürlichen  Zahl  potenziert,  indem  Zähler  und  Nenner  des 
+Bruches jeweils mit der natürlichen Zahl potenziert werden. 
+
+(a / b)n = an / bn für a, b  
+
+, b  0, n  
+
+Beispiel: (3 / b)4 = 81 / b4 
+
+b  0 
+
+Eine  Potenz  wird  potenziert,  indem  die  Exponenten  multipliziert  werden.  Die  Basis 
+bleibt unverändert. 
+
+(am)n = am  n für a  
+
+ und m, n  
+
+Beispiel:(23)2 = 26 = 64 
+
+Potenzschreibweise mit negativen Exponenten 
+
+1 / an = a–n für a   * und n  
+
+Beispiel: 1 / 22 = 2–2 = 1/4 
+
+(a / b)–n = (b / a)n für a, b   * und n  
+und a  0, b  0 
+
+Beispiel: (2/3)–4 = (3/2)4 = 
+
+Die Grafen der Potenzfunktionen mit y = x–2n, n   * und D =  * verlaufen durch die 
+Punkte P (1 ; 1) und Q (–1 ; 1). Die y-Achse ist die Symmetrieachse. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+29 
+
+1681 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Die Grafen der Potenzfunktionen mit y = x–2n+1, n   * und D =  * verlaufen durch die 
+Punkte P (1 ; 1) und Q (–1 ; –1). Der Ursprung (0 ; 0) ist Symmetriepunkt. 
+
+Formeln: Mathematik I 
+
+3.8 Potenzen mit rationalen Exponenten 
+
+ ist die nichtnegative Zahl, die mit n potenziert a ergibt. n heißt Wurzelexponent, a 
+
+heißt Radikand. 
+
+ = a1/n für a   + und n   * 
+
+ = 101/5 
+
+ = am/n = 
+
+ für a   + und m   , n   *  52/3 = 
+
+Für Potenzen mit rationalen Exponenten gelten die selben Gesetze wie für Potenzen 
+mit ganzzahligen Exponenten. 
+
+30 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+nana510nma()mna()233255=454234243aaaaa==323423432b1bbb:b==38432aa=63aa= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.9 Exponentialfunktionen 
+
+Eine  Funktion  f(x)  =  ax,  a   
+D = 
+
+. Für a  1 ist W =  +. 
+
++*  heißt  Exponentialfunktion.  Ihre  Definitionsmenge  ist 
+
+Die Grafen der Exponentialfunktionen mit f(x) = ax mit a  1 verlaufen durch den Punkt 
+P(0 ; 1). Die Grafen haben keinen Schnittpunkt mit der x-Achse. Sie steigen monoton. 
+
+Die Grafen der Exponentialfunktionen mit f(x) = ax mit a  1 verlaufen durch den Punkt 
+P(0  ;  1).  Die  Grafen  haben  keinen  Schnittpunkt  mit  der  x-Achse.  Die  Grafen  fallen 
+monoton. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionsgrafen der Funktionsgleichung f(x) = kax schneiden die y-Achse in P (0 ; k). 
+
+Formeln: Mathematik I 
+
+Die Exponentialfunktion mit der Eulerschen Zahl e als Basis heißt natürliche Exponen-
+tialfunktion oder natürliche Wachstumsfunktion. (e  2,718281) 
+
+32 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.10 Logarithmenfunktionen 
+
+Der  Logarithmus  von  b  zur  Basis  a    (loga  b)  ist  der  Exponent,  mit  dem  die  Basis  a 
+potenziert werden muss, um b zu erhalten. Im Term loga b heißt b Numerus. 
+
+log2 8 = 3, denn 23 = 8 
+
+Die Funktion x → loga x, a   + \ {0 ; 1} heißt Logarithmusfunktion zur Basis a.  
+
+ist  die  Umkehrfunktion  der  Exponentialfunktion 
+
+Sie 
+D =  + \ {0} ; W = 
+
+. 
+
+f(x) = ax,  a   + 
+
+\  {0 ; 1}  
+
+Beispiele für Logarithmusfunktionen: 
+
+Logarithmen zur Basis 2 : log2  (kurz: ld oder lb) 
+Logarithmen zur Basis e : loge  (kurz: ln) 
+Logarithmen zur Basis 10 : log10 (kurz: lg) 
+
+Der  Logarithmus  zu  jeder  beliebigen  Basis  kann  mithilfe  der  Zehnerlogarithmen  be-
+rechnet werden. 
+
+loga x = lgx / lga 
+
+Logarithmengesetze 
+
+loga (x1  x2) = loga x1 + loga x2 
+
+loga (x1 / x2) = loga x1 – loga x2 
+
+loga (xn) = n loga x 
+
+x, x1, x2   + \ {0}  
+
+a   + \ {0 ; 1}  
+
+n  
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+33 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+3.11 Exponentialgleichungen 
+
+Tritt in einer Gleichung die Lösungsvariable im Exponenten einer Potenz auf, heißt die 
+Gleichung transzendent. 
+
+ax = b 
+
+x lga = lgb 
+
+x = lgb / lga 
+
+Summen  können  nicht  logarithmiert  werden,  es  muss  zunächst  die  Summe  beseitigt 
+werden. 
+
+2x + 1 + 2x + 2 = 3 
+2x  2 + 2x  4 = 3 
+2x  6 = 3 
+2x = 1/2  
+x lg 2 = lg 1/2 
+
+Kann die Summe nicht beseitigt werden, wird eine Substitution durchgeführt. 
+
+3x + 31 – x = 4 
+
+3x = u 
+
+u2 + 3 – 4 u = 0 
+
+34 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+4333xx=+4u3u=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4 Geometrische Gesetze für zwei- und dreidimensionale Figuren 
+
+4.1 Planimetrie 
+
+4.1.1 Planimetrische Grundbegriffe 
+
+Winkel 
+
+Spitzer Winkel 
+
+Rechter Winkel 
+
+Stumpfer Winkel 
+
+Gestreckter Winkel  
+
+0° <  < 90° 
+
+ = 90° 
+
+90° <  < 180°  
+
+ = 180°  
+
+(lies:  liegt zwischen 0° und 90°) 
+
+Überstumpfer 
+Winkel 
+
+Voller Winkel oder 
+Vollwinkel 
+
+180° <  < 360° 
+
+ = 360° 
+
+Zwei Winkel, die an der Kreuzung zweier Geraden nebeneinander liegen, heißen Ne-
+benwinkel. Die Summe zweier Nebenwinkel beträgt 180°. 
+
+Zwei Winkel, die an einer Kreuzung zweier Geraden gegenüber liegen, heißen Schei-
+telwinkel. Sie sind gleich groß. 
+
+Zwei Winkel, die sich zu 180° ergänzen, heißen Supplementwinkel. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+35 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Zwei Winkel, die sich zu 90° ergänzen, heißen Komplementwinkel. 
+
+Winkel an einer Geraden, die von 2 Parallelen geschnitten wird. 
+
+heißen Stufenwinkel. Sie sind gleich groß. 
+
+heißen Wechselwinkel. Sie sind gleich groß 
+
+ heißen Nachbarwinkel. Sie ergänzen sich zu 180°. 
+
+Winkel,  deren  Schenkel  paarweise  aufeinander  senkrecht  stehen,  sind  gleich  groß 
+oder ergänzen sich zu 180°. 
+
+36 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+====21212121====212121212121undund 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4.1.2 Grundkonstruktionen 
+
+Geometrische Örter 
+
+Der geometrische Ort (G.O.) für alle Punkte, die von einer gegebenen Geraden g den 
+gleichen Abstand a haben, ist das Parallelenpaar zu g im Abstand a. 
+
+Der geometrische Ort für alle Punkte, die von einem gegebenen Punkt M den Abstand 
+r haben, ist der Kreis um M mit Radius r. 
+
+Der geometrische Ort für alle Punkte, die von 2 sich schneidenden Geraden den glei-
+chen Abstand haben, ist die Winkelhalbierende. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+37 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Der geometrische Ort für alle Punkte, die von 2 parallelen Geraden den gleichen Ab-
+stand haben, ist die Mittelparallele. 
+
+Formeln: Mathematik I 
+
+Der  geometrische  Ort  für  alle  Punkte,  die  von  zwei  Punkten  A,  B  gleichen  Abstand 
+haben, ist die Mittelsenkrechte auf [A,B]. 
+
+Kongruenzabbildungen 
+
+Gleichheit – Ähnlichkeit – Kongruenz 
+
+Zwei  Figuren  sind  dann  gleich  (=),  wenn  Ihre  Flächen  gleich  groß  sind,  d.h.  „gleich“ 
+bedeutet „flächengleich“. 
+
+Zwei Figuren sind einander ähnlich (~), wenn sie in ihrer Form übereinstimmen. 
+
+38 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Zwei Figuren sind kongruent (), wenn sie in Größe und Form übereinstimmen. 
+
+Achsenspiegelung, Parallelverschiebung und Drehung erzeugen kongruente Flächen. 
+
+4.1.3 Ähnlichkeit 
+
+Strahlensätze 
+
+Ist AB || CD, so gilt 
+
+Erster Strahlensatz: 
+
+Zweiter Strahlensatz: 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+39 
+
+SD:SBSC:SABD:SBAC:SA==SD:SBCD:ABSC:SACD:AB== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1.4 Kongruenzsätze und besondere Linien und Punkte im Dreieck 
+
+Bezeichnungen am Dreieck 
+
+Formeln: Mathematik I 
+
+Einteilung der Dreiecke nach den Seiten 
+
+Allgemeines Dreieck 
+
+gleichschenkliges Dreieck 
+
+gleichseitiges Dreieck 
+
+Einteilung der Dreiecke nach den Winkeln 
+
+Spitzwinkliges Dreieck 
+
+Rechtwinkliges Dreieck 
+
+Stumpfwinkliges Dreieck 
+
+, ,  < 90° 
+
+ oder  oder  = 90° 
+
+ oder  oder  > 90° 
+
+Die Winkelsumme im Dreieck beträgt 180°. 
+
+Die  Außenwinkel  eines  Dreiecks  sind jeweils  gleich  der  Summe  der  beiden  nicht  an-
+liegenden Innenwinkel. 
+
+‘ =  +  
+
+‘ =  +  
+
+‘ =  +  
+
+40 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+In jedem Dreieck ist die Summe zweier Seiten größer als die dritte Seite und die Diffe-
+renz zweier Seiten kleiner als die dritte Seite. Außerdem liegt der längsten Seite auch 
+der größte Winkel gegenüber. 
+
+Kongruenzsätze 
+
+Erster Kongruenzsatz 
+
+Dreiecke sind kongruent, wenn sie in den drei Seiten übereinstimmen (SSS). 
+
+Zweiter Kongruenzsatz 
+
+Dreiecke sind kongruent, wenn  sie in zwei Seiten und dem eingeschlossenen Winkel 
+übereinstimmen (SWS). 
+
+Dritter Kongruenzsatz 
+
+Dreiecke  sind  kongruent,  wenn  sie  in  einer  Seite  und  zwei  gleichliegenden  
+Winkeln übereinstimmen (WSW oder SWW). 
+
+Vierter Kongruenzsatz 
+
+Dreiecke sind kongruent, wenn sie in zwei Seiten und dem „Gegenwinkel“ der größe-
+ren von diesen beiden Seiten übereinstimmen (SsW). 
+
+Besondere Linien und Punkte im Dreieck 
+
+Die Winkelhalbierenden eines Dreiecks schneiden sich in einem Punkt, dem Inkreis-
+mittelpunkt. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+41 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Die  Mittelsenkrechten  eines  Dreiecks  schneiden  sich  in  einem  Punkt,  dem  Umkreis-
+mittelpunkt M. 
+
+Formeln: Mathematik I 
+
+Die Seitenhalbierenden eines Dreiecks schneiden sich in einem Punkt, dem Schwer-
+punkt S. 
+
+Die Höhen des Dreiecks schneiden sich in einem Punkt, dem Höhenschnittpunkt H. 
+
+42 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Fläche des Dreiecks 
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+4.1.5 Rechtwinkliges Dreieck 
+
+Satz des Thales: 
+
+Liegen die Ecken eines Dreiecks so auf einem Kreis, dass eine Seite Kreisdurchmes-
+ser ist, so ist das Dreieck rechtwinklig. 
+
+Satz des Pythagoras:  a2 + b2 = c2  
+
+Höhensatz: 
+
+h2 = p  q 
+
+Kathetensatz: 
+
+a2 = c  p 
+
+b2 = c  q 
+
+Fläche: 
+
+Umkreisradius: 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+43 
+
+cbahc21hb21ha21HöheGrundseite21A====2cbasmit)cs)(bs)(as(sA++=−−−=2cbas;iusInkreisrad:mitsA++=====sin2casin2basin2cbA===sinsinsin2bsinsinsin2asinsinsin2cA222ba21hc21A==2cR= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1.6 Kreis und Kreisteile 
+
+Formeln: Mathematik I 
+
+Sehnensätze 
+
+Tangentensätze 
+
+ = Zentriwinkel 
+ = Peripheriewinkel 
+ = Sehnen-Tangenten-Winkel 
+
+Das  Mittellot  auf  einer  Sehne  geht  durch 
+den  Mittelpunkt  und  halbiert  den  Zentri-
+winkel über der Sehne. 
+
+Das  Lot  vom  Mittelpunkt  auf  die  Sehne 
+halbiert  diese  und  den  zugehörigen 
+Zentriwinkel. 
+
+Die  Verbindungslinie  des  Kreismittelpunk-
+tes  mit  dem  Sehnenmittelpunkt  steht 
+senkrecht auf der Sehne und halbiert den 
+zugehörigen Zentriwinkel. 
+
+Der Radius im Berührungspunkt steht 
+senkrecht auf der Tangente. 
+
+Das  Lot  auf  einer  Tangente  im  Berüh-
+rungspunkt  geht  durch  den  Kreismittel-
+punkt. 
+
+44 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Die von einem Punkt außerhalb eines Kreises an den Kreis gelegten Tangenten sind 
+gleich lang. 
+
+Die  Zentrale  (Verbindungslinie  von  M  mit  P)  halbiert  den  Winkel  zwischen  den  von 
+einem Punkt an den Kreis gelegten Tangenten. 
+
+Die  Winkelhalbierende  des  von  zwei  Tangenten  gebildeten  Winkels  geht  durch  den 
+Kreismittelpunkt. 
+
+Winkelsätze 
+
+Der  Zentriwinkel  ist  doppelt  so  groß  wie 
+der  Peripheriewinkel  über  dem  gleichen 
+Bogen. 
+
+Peripheriewinkel  über  dem  gleichen  Bo-
+gen sind gleich groß 
+
+Der  Sehnen-Tangenten-Winkel  ist  gleich 
+dem  Peripheriewinkel  im  gegenüberlie-
+genden Kreisabschnitt.  =  
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+45 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Kreisteile 
+
+Formeln: Mathematik I 
+
+4.1.7 Flächen- und Umfangsberechnung  
+
+Gradlinig begrenzte Flächen (Vielecke) 
+
+Gleichschenkliges Dreieck 
+
+Gleichseitiges Dreieck 
+
+46 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+ca2Uh2aR4cahhc21Ac222cc+==−==36aa3U33aR34aA32ah602======== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Vierecke 
+
+Winkelsumme im n-Eck: 
+
+(n – 2)  180° 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+47 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sehnenvierecke 
+
+Formeln: Mathematik I 
+
+Sehnenvierecke haben einen Umkreis. 
+
+In  jedem  Sehnenviereck  beträgt  die  Win-
+kelsumme  von  zwei  gegenüberliegenden 
+Winkeln 180°. 
+
+Tangentenvierecke haben einen Inkreis. 
+
+jedem  Tangentenviereck  sind  die 
+
+In 
+Summen der Gegenseiten gleich. 
+
+Tangentenvierecke 
+
+Regelmäßige n-Ecke 
+
+48 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+===−==sinRn21an21A2sinR2R2an360222 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Kreisförmig begrenzte Flächen 
+
+Kreis 
+
+Kreisring 
+
+Kreisausschnitt 
+
+Kreisabschnitt 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+49 
+
+22d4rAdr2U====()2dDbdD4A22−=−====360db2rb360rA2−==−−=−−=2cos12dh2sinds2)hr(sbr2)hr(sr360A2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4.2 Trigonometrie 
+
+4.2.1 Sinus, Kosinus, Tangens 
+
+Im rechtwinkligen Dreieck sind folgende Seitenverhältnisse erklärt: 
+
+Am Einheitskreis lassen sich folgende Verhältnisse aufstellen: 
+
+4.2.2 Trigonometrische Funktionen 
+
+50 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+)!90für(baAnkatheteteGegenkathetan)!90für(cbeHypothenusAnkathetecos)!90für(caeHypothenusteGegenkathesin=========1cossincossintan22=+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4.2.3 Trigonometrische Berechnung im allgemeinen Dreieck 
+
+Berechnung von Winkeln 
+nen auf Taschenrechnern ( TR = Winkelergebnis vom Taschenrechner) 
+
+ mithilfe der trigonometrischen Funktio-
+
+II. Quadrant 
+
+III. Quadrant 
+
+IV. Quadrant 
+
+ im 
+
+sin  gegeben, 
+daraus TR 
+berechnet 
+
+cos  gegeben, 
+daraus TR 
+berechnet 
+
+Sinussatz 
+
+Die Kosinusfunktion ist 
+hier noch eindeutig 
+
+In  jedem  Dreieck  verhalten  sich  zwei 
+Dreiecksseiten  wie  die  Sinuswerte  ihrer 
+gegenüberliegenden Winkel. 
+
+Kosinussatz 
+
+a2 = b2 + c2 – 2 bc  cos  
+c2 = a2 + b2 – 2 ab  cos  
+b2 = a2 + c2 – 2 ac  cos  
+
+Das  Quadrat  über  einer  Dreieckseite  ist  gleich  der  Summe  der  Quadrate  über  den 
+beiden anderen Seiten, vermindert um das doppelte Produkt dieser beiden Seiten und 
+des Kosinus des von ihnen eingeschlossenen Winkels. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+51 
+
+3609TR180−=|180|TR−=TR360+=TR=TR360−=TR360−=====sin:sin:sinc:b:asinsincasinsincbsinsinba 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2.4 Darstellung  trigonometrischer  Funktionen  mithilfe  des  Bogen-
+
+maßes der Winkel 
+
+Formeln: Mathematik I 
+
+allgemein: 
+
+speziell: 
+
+4.2.5 Additionstheoreme 
+
+52 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+x180180x========4541804x318060x60212121212121212121xtanxtan1xtanxtan)xxtan(xsinxsinxcosxcos)xxcos(xsinxcosxcosxsin)xxsin(−+=+−=++=+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4.3 Stereometrie 
+
+4.3.1 Volumen und Oberfläche von Prismen 
+
+V = A  h 
+
+Würfel 
+
+Quader 
+
+Dreiseitiges Prisma 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+53 
+
+2ad3aDa6AaV2O3====222OMhbaD)ahbhab(2A)ba(h2AhbaV++=++=+==H)bag(hgAHhg21VO+++== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.3.2 Volumen und Oberfläche von Zylinder, Pyramide und Kegel 
+
+Zylinder 
+
+Formeln: Mathematik I 
+
+Pyramide und Kegel 
+
+Quadratische Pyramide 
+
+Kegel 
+
+54 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+)hr(r2h2ddAhr2hdAhrhd4VOM22+=+=====MOAAAhA31V+==222O22M22s2a4aha2A4aha2A4ahh3haV++=+=+==++=+=+==2d2dh2dA2dh2dA2dhshd12V22O22M222 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4.3.3 Volumen und Oberfläche der Kugel 
+
+VZylinder : VKugel : VKegel = 3 : 2 : 1 
+
+4.3.4 Volumen und Oberfläche von Pyramiden- und Kegelstümpfen 
+
+Pyramidenstumpf 
+
+Kugelabschnitt 
+
+Kugelausschnitt 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+55 
+
+2O33dAd6r34V===()ddggAAAAh31V++=)rRh2(A)KalotteoderKugelkappe(hR2A)hR2(hr)hR3(h3V2OM2+==−=−=)h2r(RA)hR2(hrhR32VO2+=−== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Durchbohrte Kugel 
+
+Formeln: Mathematik I 
+
+Quadratischer Pyramidenstumpf 
+
+Kegelstumpf 
+
+56 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+)rR(h2Ah6VO3+==2221221221O221221M2212S222121aa2aah)aa(2A2aah)aa(2A2aahh)aaaa(h31V++−++=−++=−+=++=()())dd(s2dd4A)dd(s2A2ddhsddddh12V212221O21M2212222121+++=+=−+=++= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+4.3.5 Volumen und Oberfläche von Rotationskörpern 
+
+Erste Guldinsche Regel 
+
+Die  Mantelfläche  AM  eines  Rotationskörpers  ist  gleich  dem  Produkt  aus  der  Länge  l 
+der erzeugenden  Linie und der Länge 2    rSM des  Weges des Schwerpunktes SM 
+der rotierenden Linie bei einer Umdrehung um die Drehachse. 
+
+:  Bahnlänge des Schwerpunktes 
+:  Länge der erzeugenden Mantellinie 
+
+L 
+l 
+rSM  :  Abstand  des  Schwerpunktes  der 
+erzeugenden  Mantellinie  M  von  der 
+Drehachse 
+
+Zweite Guldinsche Regel 
+
+Das Volumen V eines Rotationskörpers ist gleich dem Produkt aus dem Flächeninhalt 
+A  der  erzeugenden  Fläche  und  dem  Weg  des  Schwerpunktes  SM  der  rotierenden 
+Fläche bei einer Umdrehung um die Drehachse. 
+
+mit  L:  Bahnlänge des Schwerpunktes SA 
+A:  Inhalt der erzeugenden Fläche 
+rSA: Abstand  des  Schwerpunktes  SA 
+der erzeugenden Fläche A von der 
+Drehachse 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+57 
+
+LSMMr2lA=LSAr2AV= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+5 Grundlagen der Analysis und Vektorrechnung 
+
+5.1 Vektoren und Matrizen 
+
+5.1.1 Grundlagen der Vektorrechnung 
+
+Unter  einem  Vektor  wird  die  Menge  aller  Pfeile  verstanden,  die  gleiche  Richtung, 
+gleiche  Länge  und  gleiche  Orientierung  haben.  Einen  beliebigen  Pfeil  aus  dieser 
+Menge nennt man Repräsentant des Vektors. 
+
+Spezielle Vektoren 
+
+Nullvektor
+
+: Vektor der Länge 0 
+
+Einheitsvektor 
+
+: Vektor der Länge 1 
+
+Addition von Vektoren 
+
+zeichnerisch 
+
+rechnerisch 
+
+58 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+→0→e++=+=yyxxvuvuvuw 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Subtraktion von Vektoren 
+
+Multiplikation eines Vektors mit einer Zahl 
+
+Betrag eines Vektors 
+
+Winkel eines Vektors mit der x-Achse 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+59 
+
+−−=−=yyxxvuvuvuw==yxucucucw2y2xvvv+=vvcosx===+==13,536,0433cos43v22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.1.2 Multiplikation von Vektoren 
+
+Skalarprodukt zweier Vektoren 
+
+Formeln: Mathematik I 
+
+Winkel zwischen zwei Vektoren 
+
+Einheitsvektor eines Vektors 
+
+Vektorprodukt 
+
+Dabei gibt das Vorzeichen die Richtung des Produktvektors an: 
+
+Negatives Vorzeichen: der Vektor zeigt aus der Zeichenebene hinaus. 
+Positives Vorzeichen: Der Vektor zeigt in die Zeichenebene hinein. 
+
+Betrag: 
+
+= | 
+
+| 
+
+60 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+yyxxvuvucosvuvu+==()54231vu43v21u=+−==−=vuvuvucosyyxx+==−=43v21u()==++−+−=4,634472,0432)1(4231cos2222vvvev==43v=+=5/45/343431e22v()zxyyxevuvuvu−==sinvuvuxyyxvuvu− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+5.1.3 (2 x 2)-Matrix 
+
+Unter  einer  2  x  2-Matrix  wird  rechteckiges  Schema  mit  2  Zeilen  und  2  Spalten  ver-
+standen: 
+
+Die vier Zahlen 
+
+ und 
+
+ nennt man die Elemente der Matrix. 
+
+Die  Spalten 
+
+  bzw. 
+
+  werden  auch  als  Spaltenvektoren,  die  Zeilen 
+
+ bzw. 
+
+ als Zeilenvektoren der Matrix bezeichnet. 
+
+Addition und Subtraktion zweier Matrizen 
+
+Zwei  (2  x  2)-Matrizen 
+
+  und 
+
+  werden  addiert  bzw.  sub-
+
+trahiert, indem die entsprechenden Matrizenelemente addiert bzw. subtrahiert werden. 
+
+ heißt die Summe aus A und B. 
+
+ heißt die Differenz von A und B. 
+
+Rechengesetze 
+
+Es gelten das Kommutativ- und das Assoziativgesetz der Addition, d.h. es gilt: 
+
+A + B = B + A und 
+
+A + (B + C) = (A + B) + C. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+61 
+
+=−=43v21u()10|3241||vxu|=−−==22211211aaaaA211211a,a,a22a2111aa2212aa()1211aa()2221aa=22211211aaaaA=22211211bbbbB++++=+=2222212112121111babababaBAC−−−−=−=2222212112121111babababaBAD 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Skalarmultiplikation 
+
+Die Multiplikation eines Vektors mit einem Skalar erfolgt komponentenweise, die einer 
+Matrix elementweise. 
+
+Formeln: Mathematik I 
+
+c  A = c  
+
+ = 
+
+Besitzen alle Elemente einer Matrix einen gemeinsamen Faktor c, so kann dieser vor 
+die Matrix gezogen werden (ausklammern). 
+
+Multiplikation einer (2 x 2)-Matrix mit einem Vektor 
+
+Das Produkt einer Matrix 
+
+ mit einem Vektor 
+
+ ist ein Vektor 
+
+. 
+
+Dessen Komponenten sind das Skalarprodukt aus den Zeilenvektoren von A und 
+Die Berechnung lässt sich einfach an einem Schema merken. 
+
+.  
+
+u1 
+
+u2 
+
+a11  a12  →  a11  u1 
+
++  a12  u2    Skalarprodukt aus der oberen Zeile von A und 
+
+a21  a22  →  a21  u1 
+
++  a22  u2    Skalarprodukt aus der unteren Zeile von A und 
+
+Drehmatrix 
+
+Eine Matrix A vom Typ 
+
+heißt Drehmatrix. Sie dreht einen Vektor bei der Multiplikation um den Winkel . 
+
+5.2 Einführung in die Differenzial- und Integralrechnung 
+
+5.2.1 Differenzialrechnung 
+
+Differenzenquotient einer Funktion 
+
+Der  Ausdruck 
+
+  wird  als 
+
+Differenzenquotient  bezeichnet.  Er  gibt 
+die  Steigung  m  der  Sekante  durch  die 
+Punkte  des  Grafen  der  Funktion  f  P  und 
+Q an. 
+
+62 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+22211211aaaa22211211acacacac=16812442314=22211211aaaaA=21uuuvuuu−=cossinsincosA−==866,05,05,0866,0A30h)x(f)hx(f00−+h)x(f)hx(ftanm00−+== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Differenzialquotient 
+
+Der  Ausdruck 
+
+  für  h → 0  wird  als  Differenzialquotient  bezeich-
+
+net. Er gibt die Steigung m der Tangente im Punkt P an. 
+
+ (für h → 0) 
+
+Ableitungsfunktion 
+
+Die  Ableitungsfunktion  f‘(x)  einer  Funktion  f(x)  gibt  für  jede  Stelle  x  die  Steigung  der 
+zugehörigen Kurventangente an. 
+
+Ableitungsfunktionen einiger Grundfunktionen 
+
+Ableitungsfunktion f’(x) 
+
+f(x) 
+
+f(x) = c 
+
+f(x) = x 
+
+f(x) = x2 
+
+    n  
+
+= n  xn–1 
+
+f(x) = sin x 
+
+f(x) = cos x 
+
+f(x) = ex 
+
+f(x) = ln x 
+
+= cos x 
+
+= –sin x 
+
+= ex 
+
+=  
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+63 
+
+h)x(f)hx(fdxdy00−+=h)x(f)hx(ftanm00−+==0)x('f=1)x('f=x1)x(f=2x1)x('f−=x2)x('f=nx)x(f=)x('fx)x(f=x21)x('f=)x('f)x('f)x('f)x('fx1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Ableitungsregeln 
+
+f(x) 
+
+f’(x) 
+
+Faktorregel 
+
+Summenregel 
+
+Produktregel 
+
+Kettenregel 
+
+Beispiele zu den Ableitungsregeln: 
+
+f(x) = x2  sin x 
+         |       |     Produktregel                 |       |         |       | 
+      g(x)   h(x)                                  = 
+
+(x) h(x)   g(x)  
+
+(x) 
+
+= 2 x  sin x + x2  cos x = x (2 sin x + x  cos x) 
+
+            |         |        Kettenregel           |          |        | 
+       f(g(x))   g(x)                              
+
+(g(x))   g(x)   
+
+(x) 
+
+64 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+)x(gc)x(f=)x('gc)x('f=)x(h)x(g)x(f+=)x('h)x('g)x('f+=)x(h)x(g)x(f=)x('h)x(g)x(h)x('g)x('f+=))x(g(f)x(f=)x('g))x(g('f)x('f=)x('f'g'h)x2(cos22)x2(cos)x('f)x2(sin)x(f+=+=+='f'g 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Bedeutung der Ableitungsfunktion in der Technik 
+
+Ausgangsfunktion  Ableitung 
+
+Zusammenhang 
+
+Ladung q(t) 
+
+i(t)= (t) 
+
+Stromstärke i (t) 
+
+u(t)=
+
+Weg s(t) 
+
+Geschwindigkeit v(t) 
+
+Weg s(t) 
+
+Drehwinkel 
+
+Beim Stromfluss durch einen elektrischen Leiter 
+ist die Stromstärke i(t) die erste Ableitung der 
+elektrischen Ladung q(t) nach der Zeit t. 
+
+Fließt durch eine Spule der Induktivität L ein 
+zeitlich veränderlicher Strom der Stromstärke 
+i(t), so ergibt sich die elektrische Spannung u(t) 
+als Produkt aus Induktivität und der Ableitung 
+der Stromstärke nach der Zeit t. 
+
+Bei einer geradlinigen Bewegung ist die Momen-
+tangeschwindigkeit v(t) gleich der ersten Ablei-
+tung des Weges s(t) nach der Zeit t. 
+
+Bei einer geradlinigen Bewegung ist die Be-
+schleunigung a(t) gleich der ersten Ableitung der 
+Geschwindigkeit v(t) nach der Zeit t. 
+
+Bei einer geradlinigen Bewegung ist die Be-
+schleunigung a(t) gleich der zweiten Ableitung 
+des Weges s(t) nach der Zeit t. 
+
+  Die augenblickliche Lage eines Massenpunktes 
+bei einer Drehbewegung wird durch den zeitab-
+hängigen Winkel 
+Winkelgeschwindigkeit 
+Ableitung des Drehwinkels 
+
+ beschrieben. Die 
+ist die erste 
+
+nach der Zeit t. 
+
+Winkelgeschwindig-
+keit 
+
+Drehwinkel 
+
+  Die Winkelbeschleunigung 
+
+ist die erste 
+
+Ableitung der Winkelgeschwindigkeit 
+
+nach t. 
+
+  Die Winkelbeschleunigung 
+Ableitung des Drehwinkels 
+
+ist die zweite 
+nach der Zeit t. 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+65 
+
+q)t(iL)t(s)t(v=)t(v)t(a=)t(s)t(a=)t()t()t(=)t()t()t()t()t()t(=)t()t()t()t()t(=)t()t( 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+5.2.2 Integralrechnung 
+
+Stammfunktion 
+
+Eine Funktion F(x) heißt Stammfunktion zur Funktion f(x), wenn gilt: 
+
+(x) = f(x).  
+
+Bestimmtes Integral 
+
+Ist  F(x)  eine  Stammfunktion  zu  f(x),  dann  heißt  die  Zahl  F(b)  –  F(a)  das  bestimmte 
+Integral über der Funktion f im Intervall [a ; b] und wird mit  
+
+bezeichnet. Es gilt also: 
+
+Flächenberechnung mit bestimmten Integralen 
+
+1.  x-Achse ist Randlinie 
+
+linke Grenze y-Achse 
+
+linke Grenze a < b 
+
+l
+
+e
+h
+c
+ä
+F
+e
+v
+i
+t
+i
+s
+o
+p
+
+l
+
+e
+h
+c
+ä
+F
+e
+v
+i
+t
+a
+g
+e
+n
+
+]
+b
+
+;
+a
+[
+n
+
+i
+
+e
+
+l
+l
+
+e
+t
+s
+
+l
+l
+
+u
+N
+
+66 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+'Fbadx)x(f−=ba)a(F)b(Fdx)x(f=b0dx)x(fA=badx)x(fA−=b0dx)x(fA−=badx)x(fA−=bxxa00dx)x(fdx)x(fA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+f(x) = –2 x + 4   [1 ; 4] 
+
+Nullstelle: x0 = 2 
+
+2.  g(x) ist Randlinie 
+
+f(x)  g(x) in [a ; b] 
+
+Schnittpunkt in [a ; b] 
+
+Stammfunktionen einiger Grundfunktionen 
+
+f(x) 
+
+Stammfunktion F(x) 
+
+f(x) = c 
+
+F(x) = cx 
+
+f(x) = x 
+
+F(x) = 
+
+f(x) = x2 
+
+F(x) = 
+
+f(x) = xn 
+
+F(x) = 
+
+f(x) = sin x 
+
+F(x) = –cos x 
+
+f(x) = cos x  F(x) = sin x 
+f(x) = ex 
+
+F(x) = ex 
+
+f(x) = ln x 
+
+F(x) = x  (ln x – 1) 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+67 
+
+5))242(444()141(242x4x22x4x22dx)4x2(dx)4x2(A2222142422212=+−−+−−+−−+−=+−−+−=+−−+−=−=babadx)x(gdx)x(fA−+−=bxxassdx)]x(f)x(g[dx)]x(g)x(f[A2x213x311nx1n1++ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Formeln: Mathematik I 
+
+Integrationsregeln 
+
+f(x) 
+
+Stammfunktion F(x) 
+
+f(x) = c  g(x) 
+
+f(x) = 
+
+Faktorregel  
+
+F(x) = c  G(x) 
+
+Summenregel  
+
+F(x) = 
+
+f(x) = 3 x2 + 4  sin x 
+
+Anwendungen des bestimmten Integrals 
+
+Ausgangsfunktion 
+
+Integral 
+
+Skizze 
+
+Zusammenhang 
+
+Geschwindigkeit v(t) 
+
+s = 
+
+Beschleunigung 
+
+v = 
+
+Kraft F(s) 
+
+W = 
+
+Stromstärke i(t) 
+
+Q = 
+
+Der Flächeninhalt 
+entspricht dem im 
+Zeitintervall [t1 ; t2] 
+zurückgelegten Weg. 
+
+Der Flächeninhalt 
+entspricht der im 
+Zeitintervall [t1 ; t2] er-
+reichten Geschwin-
+digkeit. 
+
+Der Flächeninhalt 
+entspricht der im 
+Wegintervall [s1 ; s2] 
+verrichteten mecha-
+nischen Arbeit. 
+
+Der Flächeninhalt 
+entspricht der im 
+Zeitintervall [t1 ; t2] 
+durch den Strom 
+transportierten La-
+dung. 
+
+68 
+
+© DAA-Technikum Essen / gs-21_00_math_fo.01.00.01 
+
+)x(h)x(g)x(H)x(Gxcos4x)xcos(4x313)x(F3lSummenregelFaktorregefunktionGrundlFaktorregefunktionGrund3−=−+=−−21ttdt)t(v21ttdt)t(a21ssds)s(F21ttdt)t(i 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

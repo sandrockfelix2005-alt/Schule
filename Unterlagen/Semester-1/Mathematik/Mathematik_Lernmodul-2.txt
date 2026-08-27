@@ -1,0 +1,7502 @@
+Fachrichtung:  alle Fachrichtungen 
+
+Schwerpunkt:  alle Schwerpunkte 
+
+FACH: 
+
+Mathematik I 
+
+Lernmodul 2 
+
+Funktionen und Gleichungen erster 
+Ordnung einordnen und anwenden 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+LERNMODUL 2 
+
+Naturgesetze  bestimmen  die  realen  Zusammenhänge  und  Wirkungsweisen  techni-
+scher  Systeme.  Häufig  lassen  sich  diese  Gesetzmäßigkeiten  durch  mathematische 
+Modelle beschreiben.  
+
+Ziele 
+
+Eine  wichtige  Modellgruppe  bilden  die  linearen  Funktionen,  da  mit  ihrer  Hilfe  reale 
+Situationen auf einfache Weise beschrieben bzw. angenähert werden können. 
+
+In  ihrem  Berufsfeld  werden  Technikerinnen  und  Techniker  immer  wieder  damit  kon-
+frontiert, Gesetzmäßigkeiten in technischen Systemen zu erkennen.  
+
+Bei linearen  Abhängigkeiten müssen  sie  daraus  Funktionen  bzw.  Gleichungen  erster 
+Ordnung zur Lösung von Problemstellungen aufstellen und anwenden können, um mit 
+diesen  Instrumenten  die  Verhaltensweisen  der  realen  Systeme  darzustellen  und vor-
+herzusagen. 
+
+Aus  diesen  Gründen  wird im  Lernbereich  1  zunächst auf Zuordnungen  und  ihre  Dar-
+stellungen eingegangen und anschließend im Lernbereich 2 die Funktion als eindeuti-
+ge Zuordnung dargestellt.  
+
+Alle notwendigen Informationen und Arbeitsunterlagen sind in diesem Lernmodul ent-
+halten. 
+
+Ausgangssituation 
+
+Dieses Lernmodul ist im häuslichen Studium zu erarbeiten. 
+
+Der benötigte Zeitaufwand liegt bei ca. 24 Stunden. 
+
+Planung 
+
+Zusätzlich  finden  in  den  semesterbezogenen  Präsenzphasen  11  Stunden  Festigung 
+und Vertiefung fachspezifischer und fächerübergreifender Zusammenhänge sowie die 
+Beschreibung typischer Aufgaben und Problemstellungen statt. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Komplexaufgabe  
+des Lernmoduls 
+
+Bestimmung einer Grenzstückzahl 
+
+Eine  Maschinenfabrik  ist  auf  die  Herstellung  von  Sondermaschinen  für  ihre  Kunden 
+spezialisiert. Von einem Kunden wird eine geringe Stückzahl einer neu zu entwickeln-
+den Maschine geordert.  
+
+Für  die  Maschinenfabrik  ist  die  Kalkulation  des  Verkaufspreises  notwendig,  um  dem 
+Kunden  ein  Angebot  zu  unterbreiten.  Dazu  spielen  neben  den  Entwicklungskosten 
+und  den  Produktionskosten  noch  die  Menge  der  später  verkauften  Maschinen  eine 
+Rolle, da die Maschine eventuell für weitere Kunden in Frage kommt. 
+
+In diesem Lernmodul werden die erforderlichen Grundlagen zur erfolgreichen Bearbei-
+tung dieses Projektes gelegt. 
+
+4 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+1 Zuordnungen und ihre Darstellungen .................................................................. 6 
+
+Inhaltsverzeichnis 
+
+1.1 Tabelle, Graf und Koordinatensystem ............................................................... 6 
+
+1.2 Proportionale und antiproportionale Zuordnungen ............................................. 9 
+
+1.3 Dreisatz bei proportionalen und antiproportionalen Zuordnungen .................... 16 
+
+1.4 Äquivalenzumformungen zum Lösen linearer Gleichungen und    
+
+Ungleichungen ............................................................................................... 20 
+
+2 Funktionen als eindeutige Zuordnungen ........................................................... 35 
+
+2.1 Definitionsmenge und Wertemenge ................................................................ 35 
+
+2.2 Funktionen im Koordinatensystem .................................................................. 37 
+
+2.2.1 Funktion einer Geraden ............................................................................ 41 
+2.2.2 Nullstellen einer Geraden und Schnittpunkt zweier Geraden ..................... 49 
+2.2.3 Gleichungssysteme mit zwei Unbekannten ............................................... 52 
+2.2.4 Umkehrfunktionen .................................................................................... 67 
+
+Lösungsanhang ..................................................................................................... 74 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lernbereich 
+
+1 Zuordnungen und ihre Darstellungen 
+
+1.1 Tabelle, Graf und Koordinatensystem 
+
+In  den  verschiedensten  Bereichen  von  Technik  und  Wirtschaft  sowie  im  täglichen 
+Leben  begegnen  uns  ständig  Tabellen  und  Schaubilder  aller  Art,  die  eine  Beziehung 
+zwischen den unterschiedlichsten Bereichen herstellen. Dazu einige Beispiele. 
+
+Abbildung 1 Temperaturkurve einer Wetterstation 
+
+Amerikanische Dollar 
+
+$ 
+
+1 
+2 
+3 
+4 
+
+€ 
+
+1,08 
+2,16 
+3,24 
+4,32 
+
+$ 
+
+0,10 
+0,20 
+0,30 
+
+€ 
+
+0,108 
+0,216 
+0,324 
+
+Tabelle 1 Währungstabelle 
+
+Abbildung 2 Geschwindigkeits-Zeit-Diagramm 
+
+Diese  Beziehungen  werden  in  der  Mathematik  Zuordnung  genannt.  Um  deutlich  zu 
+machen,  welche  Zahl  oder  Größe  (Zahl  mit  Maßeinheit)  einer  anderen  zugeordnet 
+wird, werden verschiedene Darstellungsformen verwendet. 
+
+Lehrbeispiel 1 
+
+Ordnen Sie jedem Element der Menge M die Anzahl seiner Teiler zu! 
+
+M = {2,4,8,16,24,32} 
+
+Lösung 
+
+Die Zuordnung wird in einem Pfeildiagramm deutlich gemacht. 
+
+Zahl → Anzahl ihrer Teiler 
+
+Als Teiler ergeben sich im Einzelnen: 
+
+Teiler von 2: 
+Teiler von 4: 
+Teiler von 8: 
+Teiler von 16:  1, 2, 4, 8, 16 
+
+1, 2 
+1, 2, 4 
+1, 2, 4, 8 
+
+Anzahl: 2 
+Anzahl: 3 
+Anzahl: 4 
+Anzahl: 5 
+
+6 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Teiler von 24:  1, 2, 3, 4, 6, 8, 12, 24 
+Teiler von 32:  1, 2, 4, 8, 16, 32 
+
+Anzahl: 8 
+Anzahl: 6 
+
+Diese Aufstellung lässt sich übersichtlicher in einer Tabelle darstellen. 
+
+Zahl  → 
+
+Anzahl ihrer Teiler 
+
+2 
+
+4 
+
+8 
+
+16 
+
+24 
+
+32 
+
+2 
+
+3 
+
+4 
+
+5 
+
+8 
+
+6 
+
+Werden wie im Beispiel Zahlen einander zugeordnet, so können diese einander zuge-
+ordneten  Zahlenpaare  als  Punkte in  einem  Koordinatensystem  dargestellt  werden. 
+Dabei ist es üblich, auf der waagerechten x-Achse die erste Spalte der Zuordnungsta-
+belle,  auf  der  senkrechten  y-Achse  die  zweite  Spalte  abzutragen.  Diese  eingetrage-
+nen Punkte nennt man Graf der Zuordnung. 
+
+Solche Grafen können - je nach Zuordnung - sehr unterschiedlich sein. 
+
+Lehrbeispiel 2 
+
+Legen Sie eine Tabelle an und zeichnen Sie den Grafen für folgende Zuordnung! 
+
+Gewicht in kg → Porto in € 
+
+Von 0 kg 
+  bis   5,000 kg : 2,25 € 
+Von 5,001 kg  bis   6,000 kg : 2,50 € 
+Von 6,001 kg  bis   7,000 kg : 2,75 € 
+Von 7,001 kg  bis   8,000 kg : 3,12 € 
+Von 8,001 kg  bis   9,000 kg : 3,38 € 
+Von 9,001 kg  bis 10,000 kg : 3,88 € 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+Gewicht in kg → 
+
+Porto in € 
+
+bis 5 
+
+bis 6 
+
+bis 7 
+
+bis 8 
+
+bis 9 
+
+bis 10 
+
+2,25 
+
+2,50 
+
+2,75 
+
+3,12 
+
+3,38 
+
+3,88 
+
+Lehrbeispiel 3 
+
+Um  die  Güte  von  Schraubenfedern  zu  ermitteln,  werden  sie  einer  Dehnungsprüfung 
+unterzogen. Dabei werden gleiche Massestücke an die Feder gehängt. 
+
+Geben Sie die Zuordnung an und zeichnen Sie den Grafen der Zuordnung! 
+
+Gewicht in N (Newton) 
+
+Dehnung in cm 
+
+0 
+
+0 
+
+20 
+
+12 
+
+40 
+
+24 
+
+60 
+
+36 
+
+80 
+
+48 
+
+100 
+
+60 
+
+Lösung 
+
+Einer angehängten Masse wird eine Dehnung zugeordnet: 
+
+Kraft in N → 
+
+Dehnung in cm 
+
+0 
+
+20 
+
+40 
+
+60 
+
+80 
+
+100 
+
+0 
+
+12 
+
+24 
+
+36 
+
+48 
+
+60 
+
+8 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Nachdem die Wertepaare der Tabelle zunächst als Punkte in das Koordinatensystem 
+eingetragen worden sind, stellt sich die Frage, ob es zwischen den Messwerten auch 
+sinnvolle  (und  stimmige)  Wertepaare  gibt.  Dies  wird  nach  eingehender  Überlegung 
+bestätigt. Allerdings muss der Graf im Punkt (100/60) enden, da keine Aussage über 
+den Bereich vorliegt, der größer ist als die angegebene Belastung. 
+
+1.2 Proportionale und antiproportionale Zuordnungen 
+
+Lehrbeispiel 1 
+
+Ein Holzwürfel mit einem Volumen von 25 cm3 hat eine Masse von 20 g. 
+
+Geben Sie die Zuordnung an und zeichnen Sie den Grafen der Zuordnung! 
+
+Lösung 
+
+Einem Volumen von 25 cm3 wird eine Masse von 20 g zugeordnet. 
+
+Volumen in cm3 → Masse in g 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Der Graf der Zuordnung Volumen → Masse lässt sich mithilfe von zwei Wertepaaren 
+zeichnen. 
+
+1. Ist kein Volumen vorhanden, existiert keine Masse: (0;0) 
+2. Die gegebenen Werte bilden das zweite Wertepaar: (25;20) 
+
+Da  bei  dem  Holzwürfel  von  einer  gleichmäßigen  Materialverteilung  auszugehen  ist, 
+kann zwischen den beiden Wertepaaren und über das Wertepaar (25;20) hinaus eine 
+Halbgerade gezeichnet werden. 
+
+Alle  Punkte  der  Halbgeraden  sind  Wertepaare  der  Zuordnung.  Somit  lässt  sich  z.B. 
+folgende Tabelle erstellen: 
+
+Volumen in cm3  Masse in g 
+
+Volumen  →  Masse 
+
+doppeltes Volumen  →  doppelte Masse 
+
+  Hälfte des Volumens  →  Hälfte der Masse 
+
+Diese Zuordnung ist proportional. 
+
+Der  Graf  einer  proportionalen  Zuordnung  ist  eine  Gerade,  die  durch  den  Ursprung 
+(0;0) des Koordinatensystems geht. 
+
+Lehrbeispiel 2 
+
+Ein Fahrzeug bewegt sich mit konstanter Geschwindigkeit v. Gegeben ist der zurück-
+gelegte Weg s von 540 km nach einer Fahrzeit von t = 6 h. 
+
+Ergänzen Sie die Zuordnungstabelle! 
+
+Lösung 
+
+Zeit in h → Weg in km 
+
+h 
+
+km 
+
+10 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 3 
+
+Ein Produkt kostet für 1,8 kg einen Betrag von 11,70 €. 
+
+Die Zuordnung Gewicht → Preis ist proportional. 
+
+Ergänzen Sie die Tabelle! 
+
+Lösung 
+
+Gewicht in kg 
+
+Preis in € 
+
+Additionsregel/Subtraktionsregel 
+
+Bei  proportionalen Zuordnungen  darf  auf  beiden  Seiten  der Tabelle  entweder  addiert 
+oder subtrahiert werden. 
+
+Lehrbeispiel 4 
+
+Ein Eisenquader hat ein Volumen von 46 cm3. Er hat eine Masse von 363,4 g. 
+
+Zeichnen Sie den Grafen der Zuordnung! Tragen Sie vier weitere Wertepaare in eine 
+Tabelle ein! 
+
+Lösung 
+
+Volumen 
+in cm3 
+
+46 
+
+20 
+
+10 
+
+5 
+
+30 
+
+Masse 
+in g 
+
+363,4 
+
+158 
+
+79 
+
+39,5 
+
+237 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Wenn nun jeweils der Quotient aus dem y-Wert und dem zugehörigen x-Wert gebildet 
+wird, ergeben sich folgende Werte: 
+
+(46;363,4)  363,4 : 46 = 7,9 
+
+(20;158) 
+
+158 : 20 = 7,9 
+
+(30;237) 
+
+237 : 30 = 7,9 
+
+(10;79) 
+
+79 : 10 = 7,9 
+
+(5;39,5) 
+
+39,5 : 5 = 7,9  
+
+Volumen → Masse 
+
+V in cm3  m in g  Masse : Volumen (g/cm3) 
+
+20 
+
+40 
+
+100 
+
+15 
+
+30 
+
+75 
+
+15  :  20 = 0,75 
+
+30  :  40 = 0,75 
+
+75  : 100 = 0,75 
+
+Die Zahlenpaare  (20;15);  (40;30);  (100;75)  sind  quotientengleich.  Sie  haben  alle  den 
+selben Proportionalitätsfaktor k = 0,75. 
+
+k gibt hier die Masse (0,75 g) pro cm3 Volumen an. 
+
+Lehrbeispiel 5 
+
+Bestimmen Sie den Proportionalitätsfaktor k! Zeichnen Sie den Grafen der Zuordnung: 
+80 Hohlblocksteine haben eine Masse von 440 kg. 
+
+Lösung 
+
+Die Zuordnung wird durch folgendes Pfeildiagramm beschrieben: 
+
+Anzahl der Steine  →  Masse in kg 
+
+80 
+
+440 
+
+Proportionalitätsfaktor  k = 440 : 80 = 5,5 
+
+Antwort:  Der  Proportionalitätsfaktor  k  =  5,5  gibt  an,  wie  viel  kg  Masse  ein  Hohl-
+
+blockstein hat. 
+
+12 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 6 
+
+Vier Pumpen füllen ein Wasserbecken in 180 Minuten. 
+
+Wie  viele  Pumpen  müssen  eingesetzt  werden,  wenn  das  Becken  in  60  min  (45  min, 
+90 min, 240 min) gefüllt werden soll? 
+
+Legen Sie eine Tabelle an und zeichnen Sie den Grafen der Zuordnung! 
+
+Lösung 
+
+Einer Anzahl von 4 Pumpen wird eine Zeit von 180 min zugeordnet. 
+
+Anzahl der Pumpen 
+
+Zeit in min 
+
+Auf  Grund  der Wertepaare  lässt  sich  die  Aussage  treffen,  dass  eine  kleinere  Anzahl 
+von  Pumpen  eine längere  Füllzeit,  eine  größere  Zahl von  Pumpen  eine  kürzere  Füll-
+zeit bedingen. Dann wird der Graf auch verständlich. 
+
+Diese Zuordnung ist antiproportional. Die benachbarten Punkte dürfen im Koordina-
+tensystem  nicht  durch  Strecken  verbunden  werden.  Die  Punkte  liegen  alle  auf  einer 
+Kurve, die Hyperbel heißt. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 7 
+
+Ein Rechteck hat einen Flächeninhalt von 100 cm2. 
+
+Bestimmen Sie fünf Wertepaare möglicher Seitenlängen und tragen diese in eine Ta-
+belle ein! Zeichnen Sie den Grafen der Zuordnung! 
+
+Lösung 
+
+Die Zuordnung wird durch folgendes Pfeildiagramm beschrieben: 
+
+Länge → Breite 
+
+Länge in cm  Breite in cm 
+
+10 
+
+20 
+
+40 
+
+25 
+
+50 
+
+10 
+
+5 
+
+2,5 
+
+4 
+
+2 
+
+Wenn nun jeweils das Produkt aus dem y-Wert und dem zugehörigen x-Wert gebildet 
+wird, ergeben sich folgende Werte: 
+
+(10;10) 
+(40;2,5) 
+(50;2) 
+
+10  10 = 100 
+40  2,5 = 100 
+50  2 = 100 
+
+(20;5) 
+(25;4) 
+
+20  5 = 100 
+25   4 = 100 
+
+Proportionalitätskonstante 
+
+Länge (cm)  Breite (cm)  Länge  Breite (cm2) 
+
+10 
+
+5 
+
+20 
+
+4 
+
+2 
+
+4 
+
+1 
+
+5 
+
+10  2 = 20 
+
+5  4 = 20 
+
+20  1 = 20 
+
+4  5 = 20 
+
+Die Zahlenpaare (10;2), (5;4), (20;1), (4;5) sind produktgleich. Sie haben alle diesel-
+be Proportionalitätskonstante c. 
+
+c = 20 gibt hier den Flächeninhalt eines Rechtecks an. 
+
+14 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 8 
+
+Bestimmen Sie die Proportionalitätskonstante c! Zeichnen Sie den Grafen der Zuord-
+nung: Mit vier Maschinen wird ein Produktionsauftrag in 4,5 Stunden erfüllt! 
+
+Lösung 
+
+Die Zuordnung wird durch folgendes Pfeildiagramm beschrieben: 
+
+Anzahl der Maschinen  
+
+→ 
+
+4 
+
+benötigte Zeit 
+4,5 
+
+Proportionalitätskonstante:  c = 4  4,5 = 18 
+
+Die  Proportionalitätskonstante  c  gibt  hier  die  Gesamtmenge  der  benötigten  Maschi-
+nenstunden an. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+1.3 Dreisatz bei proportionalen und antiproportionalen Zuordnungen 
+
+Lehrbeispiel 1 
+
+Bei  Umbauarbeiten  wird  festgestellt,  dass  statt  der  gelieferten  24 m2  Fliesen  7 m2 
+mehr benötigt werden. 
+
+Berechnen Sie die Mehrkosten, wenn 24 m2 840 € kosten! 
+
+Lösung 
+
+24 m2   kosten   840 € 
+7 m2   kosten  
+x € 
+
+Menge in m2  Preis in € 
+
+24 
+
+1 
+
+7 
+
+840 
+
+35 
+
+245 
+
+24 m2  kosten 
+1 m2  kostet 
+7 m2  kosten 
+
+840 €   
+
+840 €  : 24  = 
+
+35 € 
+
+35 €   7 
+
+=  245 € 
+
+Antwort:  Die Mehrkosten betragen 245 €. 
+
+Wie im Lehrbeispiel zu sehen ist, sind drei Lösungsschritte durchgeführt worden. Die-
+se Lösungsschritte können in einem Lösungsterm zusammengeführt werden: 
+
+x = (840 : 24)  7 € 
+x = 245 € 
+
+Lehrbeispiel 2 
+
+Der  Hausgrundriss  einer  Architektenzeichnung ist im Maßstab  1:100  angefertigt  wor-
+den. 
+
+Bestimmen Sie die wirklichen Maße eines Raumes, der mit 4,5 cm Länge gezeichnet 
+wurde! 
+
+Lösung 
+
+Der  Maßstab  der  Zeichnung  gibt  an,  welche  Strecke  in  der  Wirklichkeit  1  cm  in  der 
+Zeichnung entspricht. 
+
+Zeichnung in cm  →  Wirklichkeit in cm 
+
+1 
+
+4,5 
+
+100 
+
+  x 
+
+x = (100 : 1)  4,5 
+x = 450 cm 
+
+Antwort:  Der Raum ist in Wirklichkeit 4,50 m lang. 
+
+16 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 3 
+
+Ein Elektrogerät verursacht in 15 Minuten Energiekosten in Höhe von 0,18 €. 
+
+Berechnen  Sie  den  Proportionalitätsfaktor  k  und  geben  Sie  die  Zuordnungsvorschrift 
+an! Berechnen Sie die Energiekosten, die in 54 Minuten entstehen! 
+
+Lösung 
+
+In 15 min entstehen Kosten von 0,18 €. 
+In 54 min entstehen Kosten von x €. 
+
+Zeit in min 
+
+Kosten in € 
+
+15 
+
+1 
+
+54 
+
+0,18 
+
+0,012 
+
+0,648 
+
+Antwort:  Es entstehen Kosten von 0,65 €. 
+
+x = (0,18 : 15)  54 
+
+x = 0,648 € 
+
+Der Proportionalitätsfaktor k berechnet sich aus: k = 0,18 : 15 = 0,012. 
+
+k gibt an, wie hoch die Energiekosten pro Minute sind. 
+
+Somit  lässt  sich  folgender  Zusammenhang  formulieren:  Jeder  beliebigen  Zeit  x  wird 
+das 0,012fache zugeordnet. 
+
+x → 0,012  x 
+
+Hieraus  leiten  wir  die  allgemeine Zuordnungsvorschrift  für  den  Dreisatz  bei  pro-
+portionalen Zuordnungen ab: 
+
+x → k  x  
+
+Lehrbeispiel 4 
+
+Ein Passagierflugzeug verbraucht in drei Flugstunden etwa 600 Liter Kerosin. 
+
+Bestimmen  Sie  k  und  geben  Sie  die  Zuordnungsvorschrift  an!  Berechnen  Sie  den 
+Kerosinverbrauch für 5 1/2 h Flugzeit! 
+
+Lösung 
+
+Flugzeit in h  Kerosinverbrauch in l 
+
+3 
+
+1 
+
+600 
+
+200 
+
+k = 600 : 3 = 200 
+
+x  →  k  x 
+x  → 200  x  
+
+Verbrauch in 5 1/2 h Flugzeit: 200  5,5 = 1100 
+
+Antwort:  Das Flugzeug verbraucht in 5 1/2 h Flugzeit etwa 1100 Liter Kerosin. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 5 
+
+Ein Klärbecken kann mit drei gleich starken Pumpen in 3 h 20 min geleert werden. 
+
+Berechnen Sie die benötigte Zeit, wenn zu Beginn eine vierte Pumpe angeschlossen 
+wird! 
+
+Lösung 
+
+3 Pumpen benötigen 3 h 20 min. 
+4 Pumpen benötigen x h. 
+
+Anzahl der Pumpen  Zeit in h 
+
+3 
+
+1 
+
+4 
+
+3 1/3 
+
+10 
+
+2 1/2 
+
+  Drei Pumpen benötigen 3 1/3 h. 
+
+  Eine Pumpe benötigt 10 h.  
+
+  Vier Pumpen benötigen 2 1/2 h. 
+
+Antwort:  Vier Pumpen benötigen 2 1/2 h. 
+
+Die drei Lösungsschritte können zu einem Lösungsterm zusammengeführt werden: 
+
+x = (3 1/3  3) : 4 
+x = 2 1/2 
+
+Lehrbeispiel 6 
+
+Fünf Maschinen verpacken die Tagesproduktion in 6 h. 
+
+Berechnen Sie, welche Zeit benötigt wird, wenn zu Beginn zwei Maschinen ausfallen! 
+
+Lösung 
+
+5 Maschinen benötigen 6 h. 
+3 Maschinen benötigen x h. 
+
+x = (6  5) : 3 
+x = 10 
+
+Antwort:  3 Maschinen benötigen 10 h. 
+
+Lehrbeispiel 7 
+
+Ein  Arbeitnehmer  benötigt  mit  seinem  PKW  bei  einer  Durchschnittsgeschwindigkeit 
+von 40 km pro Stunde für den Weg zum Arbeitsplatz 30 min. 
+
+Berechnen  Sie  die  Proportionalitätskonstante  c  und  geben  Sie  die  Zuordnungsvor-
+schrift an! Berechnen Sie die Fahrzeit, wenn die Durchschnittsgeschwindigkeit nur 25 
+km/h beträgt!  
+
+Lösung 
+
+40 km/h → 30 min 
+25 km/h → x min 
+
+18 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Geschwindigkeit in km/h  Zeit in min 
+
+40 
+
+1 
+
+25 
+
+30 
+
+1200 
+
+48 
+
+x = (30  40) : 25 
+
+x = 48 min 
+
+Antwort:  Die Fahrzeit beträgt 48 min. 
+
+Die Proportionalitätskonstante c berechnet sich aus: 
+
+c = 40  30 = 1200 
+
+c gibt an, welche Zeit bei einer Geschwindigkeit von 1 km/h benötigt wird. 
+
+Somit lässt sich folgender Zusammenhang formulieren: 
+
+Jeder beliebigen Geschwindigkeit x wird der Quotient c/x zugeordnet. 
+
+Hieraus  leiten  wir  die  allgemeine  Zuordnungsvorschrift  für  den  Dreisatz bei  anti-
+proportionalen Zuordnungen ab: 
+
+Lehrbeispiel 8 
+
+Ein Holzwürfel (Dichte = 0,5 g/cm3) hat ein Volumen von 1000 cm3. 
+
+Berechnen Sie die Proportionalitätskonstante und geben Sie die Zuordnungsvorschrift 
+an!  Berechnen  Sie  das  Volumen  eines  gleich  schweren  Würfels  aus  Glas  (Dichte  = 
+2,6 g/cm3)! 
+
+Lösung 
+
+Dichte in g/cm3  
+
+  Volumen in cm3 
+
+c = 0,5  1000 = 500 
+
+Volumen bei einer Dichte von 2,6 g/cm3: 
+
+ = 192,3 cm3 
+
+Antwort:  Der Glaswürfel hat ein Volumen von 192,3 cm3. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+19 
+
+x1200x→xcx→xcx→x500x→6,2500 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 9 
+
+Vier Maschinen können zusammen in drei Stunden 84000 Schrauben produzieren. 
+
+Welche Stückzahl kann von drei Maschinen in acht Stunden produziert werden?  
+
+Lösung 
+
+In  dieser  Aufgabenstellung  werden  drei  Größen  durch  eine  Zuordnung  miteinander 
+verknüpft. 
+
+Anzahl der Maschinen → Zeit → Stückzahl 
+
+Zur  Lösung  eignen  sich  sowohl  die  Zuordnungstabelle  als  auch  das  Pfeildiagramm. 
+Wichtig ist dabei, dass bei jedem Rechenschritt eine Größe unverändert bleibt. 
+
+Anzahl der 
+Maschinen 
+
+Zeit in h  Stückzahl 
+
+4 
+
+1 
+
+1 
+
+3 
+
+3 
+
+3 
+
+12 
+
+1 
+
+1 
+
+8 
+
+84000 
+
+  4 Maschinen  →  3 h  → 84000 Stück 
+
+84000 
+
+  1 Maschine  →  12 h  → 84000 Stück   
+
+7000 
+
+  1 Maschine  →  1 h  → 7000 Stück 
+
+21000 
+
+  3 Maschinen  →  1 h  → 21000 Stück 
+
+168000 
+
+  3 Maschinen  →  8 h  → 168000 Stück 
+
+Antwort:  3 Maschinen können in 8 Stunden 168000 Schrauben produzieren. 
+
+1.4  Äquivalenzumformungen zum Lösen linearer Gleichungen und   
+
+Ungleichungen 
+
+Der  Satz:  „Köln  liegt  am  Rhein“  ist  wahr  (w).  Der  Satz:  „2,5  ist  eine  ganze  Zahl“  ist 
+falsch (f). 
+
+Beide  Sätze  sind  Aussagen.  Aussagen  sind  Sätze,  die  entweder  wahr  (w)  oder 
+falsch (f) sind. 
+
+Lehrbeispiel 1 
+
+Bilden Sie jeweils eine wahre und falsche Aussage, indem Sie die Variable ersetzen!  
+
+x ist durch 4 und 3 teilbar. 
+
+Lösung 
+
+Der Satz: „x ist durch 4 und 3 teilbar“ ist eine Aussageform. Durch Ersetzen der Vari-
+ablen geht eine Aussageform in eine Aussage über. 
+
+12 ist durch 4 und 3 teilbar. (w) 
+
+15 ist durch 4 und 3 teilbar. (f) 
+
+20 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 2 
+
+Geben Sie aus der vorgegebenen Menge G alle Elemente an, die beim Einsetzen die 
+Aussageform  in  eine  wahre  Aussage  überführen.  Fassen  Sie  alle  diese  Elemente  in 
+der Lösungsmenge L zusammen! 
+
+Aussageform: 4  x > 15 
+
+G = {0,1,2,3,4,5} 
+
+Lösung 
+
+Jedes  Element  der  Grundmenge  wird  in  die  Aussageform  eingesetzt  und  daraufhin 
+überprüft, ob eine wahre Aussage entsteht. 
+
+4  0 > 15 (f)   
+
+4  1 > 15 (f)    
+
+4  2 > 15 (f) 
+
+4  3 > 15 (f)   
+
+4  4 > 15 (w)   
+
+4  5 > 15 (w)  
+
+Bei  zwei  Einsetzungen  für  die  Variable  x  (4,  5)  entsteht  eine  wahre  Aussage.  Somit 
+ergibt sich die Lösungsmenge L = {4,5}. 
+
+Die Lösungsmenge L ist eine Teilmenge der Grundmenge G (L  G). 
+
+Aussageformen 
+
+Aussagen 
+
+3x = 30 
+
+5 + x = 10 
+
+2x – 1 = 23 
+
+3  10 = 30 (w) 
+
+5 + 5 = 10 (w) 
+
+2  15 – 1 = 23 (f) 
+
+Eine  Gleichung  entsteht,  wenn  zwei  Terme  durch  ein  Gleichheitszeichen  ver-
+bunden werden. Die Grundmenge ist - falls nicht anders angegeben - G = 
+
+. 
+
+Lehrbeispiel 3 
+
+Bestimmen Sie jeweils die Lösungsmenge! 
+
+2x + 3 = x     G = {0,1,2,3}        
+
+x + 4 = x + 4     G = {0,1,2,3} 
+
+Lösung 
+
+2  0 + 3 = 0 (f) 
+
+2  1 + 3 = 1 (f) 
+
+2  2 + 3 = 2 (f) 
+
+2  3 + 3 = 3 (f) 
+
+0 + 4 = 0 + 4 (w) 
+
+1 + 4 = 1 + 4 (w) 
+
+2 + 4 = 2 + 4 (w) 
+
+3 + 4 = 3 + 4 (w) 
+
+Antwort: 
+
+Im  1.  Fall  ist  keine  Zahl  der  Grundmenge  Lösung  der  Gleichung.  Diese 
+Gleichung heißt nicht erfüllbar über der Grundmenge G: L = { }. 
+
+Im  2.  Fall  ist  jede  Zahl  der  Grundmenge  Lösung  der  Gleichung.  Diese 
+Gleichung heißt allgemein gültig über der Grundmenge G: L = G. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Werden  die  beiden  Aussageformen  x  –  10  =  5  und  x  =  15  betrachtet,  so  wird  beim 
+Einsetzen  einer  beliebigen  Zahl  x  deutlich,  dass  beide  Aussageformen  dieselbe  Lö-
+sungsmenge haben. Durch Umformen der Aussageform x – 10 = 5 lässt sich die Aus-
+sageform x = 15 erhalten. 
+
+x – 10  
+
+= 5 
+
+x – 10 + 10  = 5 +10 
+
+x  = 15 
+
+L  = {15} 
+
+Die  Lösungsmenge  bleibt  unverändert,  wenn  auf  beiden  Seiten  der  Gleichung 
+dieselbe Zahl addiert oder subtrahiert wird. 
+
+x + 5  
+
+= 7 
+
+x + 5 – 5  = 7 – 5  
+
+x  = 2 
+
+L  = {2} 
+
+x – 8 
+
+= 15 
+
+x – 8 + 8  = 15 + 8 
+
+x  = 23 
+
+L  = {23} 
+
+Lehrbeispiel 4 
+
+Zeigen Sie, dass die beiden Aussageformen dieselbe Lösungsmenge haben! 
+
+3x = 12                      und                         x = 4 
+
+Lösung 
+
+  L = {4} 
+
+L = {4} 
+
+Die  Lösungsmenge  bleibt  unverändert,  wenn  auf  beiden  Seiten  der  Gleichung 
+mit  derselben  Zahl  (≠  0)  multipliziert  oder  durch  dieselbe  Zahl  (≠  0)  dividiert 
+wird. 
+
+  x = 8 
+
+  L = {8} 
+
+x = 4 
+
+L = {4} 
+
+22 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+4x4x31233x3:|12x3====5405x55:|40x5==222x212|2x21== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 5 
+
+Bestimmen Sie die Lösungsmenge! 
+
+8x + 4 = 20 
+
+Lösung 
+
+Um  die  Lösungsvariable  x  zu  isolieren,  muss  die  Gleichung  zunächst  so  umgeformt 
+werden,  dass  der  Zahlenterm  (4)  nicht  mehr  auf  der  linken  Seite  der  Gleichung  er-
+scheint. 
+
+ 8x + 4  = 20 
+
+8 x  = 16 
+
+| –4 
+
+| : 8 
+
+x  = 2 
+
+L  = {2} 
+
+Zur Überprüfung der Lösungsmenge wird eine Probe durchgeführt. Dafür werden für 
+die  Variable  die  Elemente  der  Lösungsmenge  eingesetzt.  Dabei  muss  die  Aussage-
+form in eine wahre Aussage übergehen. 
+
+Probe: 
+
+  8x + 4 = 20 
+
+ 8  2 + 4 = 20 
+
+  16 + 4 = 20 
+
+20 = 20   (w) 
+
+Lehrbeispiel 6 
+
+Bestimmen Sie die Lösungsmenge! 
+
+3 – [2(x + 2) + 4x – 4] = 2(4x + 1) 
+
+Lösung 
+
+Zunächst werden die Terme auf der linken und rechten Seite jeweils vereinfacht. 
+
+3 – [2x + 4 + 4x – 4] = 8x + 2 
+
+3 – [           6x         ] = 8x + 2 
+
+               3 – 6x  
+
+= 8x + 2 
+
+Es ist üblich, die Lösungsvariable (hier: x) auf der linken Seite der Gleichung zu iso-
+lieren. 
+
+Da  Variablen  Platzhalter  für  reelle Zahlen  sind, ist auch die  Addition bzw. Sub-
+traktion eines Variablenterms auf beiden Seiten der Gleichung eine Äquivalenz-
+umformung. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+23 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+3 – 6x    = 8x + 2   
+
+3 – 14x  = 2     
+
+| –8x 
+
+| –3 
+
+  –14x  = –1     
+
+| :(–14) 
+
+x  = 1/14 
+
+L  = {1/14} 
+
+Probe: 
+
+Lehrbeispiel 7 
+
+Bestimmen Sie die Lösungsmenge! 
+
+(x – 1)2 + (x + 2)2 = (x – 1) (x + 1) + (x – 2)2 
+
+Lösung 
+
+(x – 1)2 + (x + 2)2  = (x – 1) (x + 1) + (x - 2)2 
+
+ x2 – 2x + 1 + x2 + 4x + 4  = x2 – 1 + x2 – 4x + 4 
+
+Alle gleichartigen Terme werden zusammengefasst. 
+
+2x2 + 2x + 5 = 2x2 – 4x + 3 
+
+Wenn auf beiden Seiten einer Gleichung derselbe Term steht (einschließlich Vorzei-
+chen) so kann dieser Term gestrichen werden. 
+
+ 2x + 5  = –4x + 3 
+
+| + 4x 
+
+ 6x + 5  = + 3 
+
+6x  = –2 
+
+| – 5 
+
+| : 6 
+
+x  = –2/6 = –1/3 
+
+L  = {–1/3} 
+
+Lehrbeispiel 8 
+
+Bestimmen Sie die Lösungsmenge! 
+
+24 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+)w(1482148214821463114142]414144142[3)11414(2]41414)2141(2[3)1x4(2]4x4)2x(2[3==−+=−++−+=−++−+=−++−27135)4x(33)1x(2=−−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+Zunächst  muss  der  Hauptnenner  bestimmt  werden.  Anschließend  wird  die  gesamte 
+Gleichung (alle Terme) mit dem Hauptnenner multipliziert. 
+
+HN.: 15 
+
+L = {34} 
+
+Lehrbeispiel 9 
+
+Bestimmen Sie die Lösungsmenge der Gleichung 2ax + 3b = 4c! 
+
+Lösung 
+
+In  einer Gleichung,  in  der  außer  der  Variablen x  noch  andere  Variablen vorkommen, 
+heißt x die Lösungsvariable. Die anderen Variablen heißen Formvariablen. Sie sind 
+Platzhalter für reelle Zahlen. Bei der Division durch eine Variable darf diese nicht den 
+Wert Null annehmen. 
+
+L = 
+
+         a  0 
+
+Lehrbeispiel 10 
+
+Bestimmen Sie die Definitionsmenge! Geben Sie die Lösungsmenge an! 
+
+  D = 
+
+ \ {0; 4} 
+
+Lösung 
+
+HN.: (x – 4) x 
+
+L = {–8} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+25 
+
+34x19:|646x19241|405241x1940519536x910x1015271513515)4x(3315)1x(2==+=−=−−+−=−−+−a2b3c4xa2:|b3c4ax2b3|c4b3ax2−=−=−=+}a2b3c4{−x84x12=−8x4:|32x4x8|32x8x12xx)4x(84xx)4x(12x84x12−=−=−−=−=−−=− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 11 
+
+Bestimmen Sie die Lösungsmenge der Bruchgleichung! Geben Sie zunächst die Defi-
+nitionsmenge an! 
+
+Lösung 
+
+Zunächst müssen die Nenner so weit wie möglich faktorisiert werden, d.h. in Faktoren 
+zerlegt werden! 
+
+4 – 2x  = 2 
+
+(2 – x) 
+
+4 – 4x  = 2  2 
+
+(1 – x) 
+
+2 – x  = 
+
+(2 – x) 
+
+2 – 2x  = 2 
+
+(1 – x) 
+
+HN.: 
+
+= 2  2 
+
+(2 – x)  (1 – x) 
+
+Zur Bestimmung der Definitionsmenge werden die Nenner Null gesetzt. 
+
+2 (2 – x)  = 0 
+
+  2 – x  = 0 
+
+x  = 2 
+
+4 (1 – x) = 0 
+
+1 – x = 0 
+
+x = 1 
+
+D = 
+
+ \ {1; 2} 
+
+L = {–4} 
+
+Lehrbeispiel 12 
+
+Lösen Sie die Bruchgleichung! 
+
+Lösung 
+
+HN.: 
+
+  x + 6   = (x + 6) 
+
+  x – 6  =  
+(x – 6) 
+x2 – 36  = (x + 6) (x – 6) 
+  HN.:  = (x + 6) (x – 6) 
+
+26 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+x225x23x4415x243−+−=−+−4x36|3236xx22|32x2236x21x1020x1212x1530x66)x2(10)x1(12)x2(15)x1(6)x1(24)x1()x2(5x24)x1()x2(3)x1(44)x1()x2(15)x2(24)x1()x2(3−=−=+++−=+−−+−=−+−−+−=−+−−−−+−−−=−−−+−−−36x126x16x12−=−++ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Definitionsmenge D: 
+
+ x + 6  = 0 
+
+x – 6  = 0 
+
+x  = –6 
+
+x  = 6 
+
+D = 
+
+ \ {–6; 6} 
+
+Die  gefundene  Lösung:  x = 6  kann  nicht  in  die  Lösungsmenge  eingesetzt  wer-
+den,  da  sie  in  der  Definitionsmenge  ausgeschlossen  wurde.  Aus  diesem  Grunde 
+bleibt die Lösungsmenge leer: L = { }. 
+
+Lehrbeispiel 13 
+
+Subtrahieren  Sie  die  Zahl  4  von  der  Summe  aus  dem  Doppelten  einer  Zahl  und  der 
+Hälfte der Zahl, so erhalten Sie die Hälfte der Zahl vermehrt um 2! 
+
+Lösung 
+
+Textgleichungen  werden  so  gelöst,  dass  zusammenhängende  Textpassagen  in  ma-
+thematische Terme umgeformt werden. 
+
+die Summe aus dem Doppelten einer Zahl und 
+der Hälfte der Zahl 
+
+2x + 1/2x 
+
+(2x + 1/2x) – 4 
+
+(2x + 1/2x) – 4 = 
+
+(2x + 1/2x) – 4 = 1/2x 
+
+(2x + 1/2x) – 4 = 1/2x + 2 
+
+Subtrahieren Sie die Zahl 4 
+
+so erhalten Sie 
+
+die Hälfte der Zahl 
+
+vermehrt um 2  
+
+Gleichung: 
+
+(2x + 1/2x) – 4  = 1/2x + 2 
+
+2 1/2x –4  = 1/2x + 2 
+
+| – 1/2x 
+
+2x – 4  = 2 
+
+2x  = 6 
+
+x  = 3 
+
+L  = {3} 
+
+| + 4 
+
+| : 2 
+
+Probe: 
+
+(2  3 + 1/2  3) – 4 = 1/2  3 + 2 
+
+6 + 1,5 – 4 = 1,5 + 2 
+
+3,5 = 3,5    (w) 
+
+Antwort:  Die gesuchte Zahl heißt drei. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+27 
+
+6x2:|12x2126x6x)6x()6x()6x()6x(126x)6x()6x(16x)6x()6x(1===++−−+−+=−−+++−+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 14 
+
+Ein  Apotheker  stellt  durch  Mischung  70  %igen  Alkohol  her.  Wie  viel  Liter  90  %igen 
+Alkohol muss er zu 15 Litern 30 %igen Alkohol hinzufügen? 
+
+Lösung 
+
+Volumen ges. in 
+Liter 
+
+Volumen reiner Alkohol in 
+Liter 
+
+Vor dem Mischen 
+
+90 %iger 
+
+30 %iger 
+
+x 
+
+15 
+
+x  90/100 
+
+15  30/100 
+
+nach dem Mischen 
+
+70 %iger 
+
+x + 15 
+
+(x + 15)  70/100 
+
+Aus  dem  Lösungsansatz:  Vor  dem  Mischen  -  Nach  dem  Mischen  lässt  sich folgende 
+Gleichung herleiten: 
+
+x  90/100 + 15  30/100  = (x + 15)  70/100 
+
+0,9x + 4,5  = 0,7x + 10,5 
+
+| – 0,7x 
+
+0,2x + 4,5  = 10,5 
+
+0,2x  = 6 
+
+x  = 30 
+
+| – 4,5 
+
+| : 0,2 
+
+Antwort:  Er muss 30 Liter 90 %igen Alkohol hinzufügen. 
+
+Lehrbeispiel 15 
+
+Ein LKW fährt mit einer Geschwindigkeit von 60 km/h von Osnabrück nach Hamburg. 
+Ein PKW fährt eine Stunde später in Osnabrück ab. Er hat eine Geschwindigkeit von 
+100 km/h. 
+
+Berechnen Sie die Zeit, bis der PKW den LKW überholt! Welche Strecke hat der LKW 
+bis zum Treffpunkt zurückgelegt? 
+
+Lösung 
+
+Zeit bis zum Treffen in h 
+
+Geschwindigkeit in km/h 
+
+LKW 
+
+x 
+
+60 
+
+PKW 
+
+x – 1 
+
+100 
+
+Strecke bis zum Treffpunkt  60  x  100 (x – 1) 
+
+Gleichung: 
+
+  60x  = 100 (x – 1) 
+
+  60x  = 100x – 100  | – 100x 
+
+ -40x  = –100 
+
+| : (-40) 
+
+x  = 2,5 
+
+Antwort:  Der  LKW  ist  2,5  Stunden  unterwegs.  Die  gefahrene  Strecke  beträgt 
+
+2,5  60 km/h = 150 km. 
+
+28 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Werden zwei Terme durch eines der Zeichen < ; > ; ≤ ; ≥ verbunden, so entsteht 
+eine Ungleichung. 
+
+Lehrbeispiel 16 
+
+Bestimmen Sie die Lösungsmenge folgender Ungleichung! 
+
+x + 1 < –2 
+
+Lösung 
+
+Wenn keine bestimmte Grundmenge angegeben wird, ist 
+
+ die Grundmenge. 
+
+Beim Einsetzen für x ergibt sich z.B.: 
+
+–4 + 1 < –2 
+
+–5 + 1 < –2 
+
+–6 + 1 < –2 
+
+Deutlich wird, dass nicht alle Elemente der Lösungsmenge aufgezählt werden können. 
+Daher wählt man die beschreibende Form. 
+
+L = {x  
+
+ | x  –3} 
+
+Lies: L ist gleich der Menge aller x Elemente aus 
+Die beiden Ungleichungen x + 1  –2 und x  –3 haben dieselbe Lösungsmenge. Sol-
+che Lösungsmengen heißen äquivalent. 
+
+ für die gilt: x kleiner –3. 
+
+Die Lösungsmenge bleibt unverändert, wenn auf beiden Seiten der Ungleichung 
+dieselbe Zahl subtrahiert bzw. addiert wird. 
+
+x + 5   10 
+
+ –5 
+
+  x – 3 
+
+ 2 
+
+ +3 
+
+ x + 5 –5   10 – 5  
+
+x   5 
+
+L = {x  
+
+  x  5} 
+
+  x – 3 + 3   2 + 3  
+
+  x 
+
+ 5 
+
+  L = {x  
+
+  x  5} 
+
+Lehrbeispiel 17 
+
+Zeigen Sie durch Einsetzen, dass die beiden Ungleichungen dieselbe Lösungsmenge 
+haben! 
+
+5x < 15 
+
+x < 3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+29 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+  5x   15 
+
+ 5  2   15 
+
+ 5  1   15 
+
+ 5  0   15 
+
+x   3 
+
+2   3 
+
+1   3 
+
+0   3 
+
+L = {x  
+
+  x  3} 
+
+L = {x  
+
+  x  3} 
+
+Die  Lösungsmenge  bleibt unverändert, wenn  beide  Seiten der  Ungleichung  mit 
+derselben positiven Zahl multipliziert oder durch dieselbe positive Zahl dividiert 
+werden. 
+
+Lehrbeispiel 18 
+
+Geben Sie für die beiden Ungleichungen die Lösungsmenge an! 
+
+  –x   5 
+
+x   –5 
+
+Lösung 
+
+ –(–4)   5 
+
+ –(–3)   5 
+
+ –(–2)   5 
+
+ –(–1)   5 
+
+   
+
+   
+
+–4   –5 
+
+–3   –5 
+
+–2   –5 
+
+–1   –5 
+
+   
+
+   
+
+L = {x  
+
+  x  –5} 
+
+L = {x  
+
+  x  –5} 
+
+Da  beide  Lösungsmengen  gleich  sind, müssen  die  Ungleichungen  –x  5  und x  –5 
+äquivalent  sein.  Zu  überlegen  ist  also,  durch  welche  Äquivalenzumformung  die  Un-
+gleichung –x  5 in die Ungleichung x  –5 umgeformt werden kann. 
+
+–x  5  
+
+: (–1)  
+
+ : (–1) 
+
+ 
+
+Austausch   
+
+x  –5 
+
+L = {x  
+
+  x  –5} 
+
+Werden  beide  Seiten  einer  Ungleichung  mit  derselben  negativen  Zahl  multipli-
+ziert  oder  durch  dieselbe  negative  Zahl  dividiert,  muss  das  Ungleichheitszei-
+chen umgedreht werden. 
+
+30 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 19 
+
+Geben Sie die Lösungsmenge an! 
+
+2 [–2 –3 (x + 6)]  2x + 4 
+
+Lösung 
+
+ 2 [–2 –3x –18]   2x + 4 
+
+–4 –6x –36   2x + 4 
+
+–6x –40   2x + 4 
+
+–8x –40   4 
+
+–8x   44 
+
+x   –5,5 
+
+|–2x 
+
+|+40 
+
+|:(–8) 
+
+L  = {x  
+
+  x  –5,5} 
+
+Lehrbeispiel 20 
+
+Der  Umfang  eines  Rechtecks  soll  höchstens  40 cm  betragen.  Die  eine Seite ist vier-
+mal so lang wie die andere. 
+
+Wie lang dürfen die Rechteckseiten höchstens sein? 
+
+Lösung 
+
+a ist viermal so lang wie b. 
+
+a = 4b 
+
+  2a + 2b = U 
+
+2  4b + 2b  U 
+
+10b  U 
+
+10b  40   : 10 
+
+b  4 
+
+a  16 
+
+Antwort:  Die Länge des Rechtecks darf höchstens 16 cm sein, die Breite höchstens 
+
+4 cm. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgaben 
+
+Aufgabe 1 
+
+In einer Autofabrik wird eine Arbeitszeituntersuchung durchgeführt. Für die vollständi-
+ge  Montage  eines  Motors  benötigt  ein Arbeiter  120  Minuten,  zwei Arbeiter  benötigen 
+jeweils  58  Minuten.  Die  weiteren  Ergebnisse:  3  Arbeiter  →  jeweils  37  Minuten;  4  Ar-
+beiter → jeweils 27 Minuten; 5 Arbeiter → jeweils 21 Minuten; 6 Arbeiter → jeweils 17 
+Minuten. 
+
+1.1  Berechnen Sie jeweils die Arbeitszeit, die insgesamt für die Montage eines Mo-
+tors benötigt wird! Legen Sie eine Tabelle  an für die  Zuordnung Anzahl der Ar-
+beiter → gesamte Arbeitszeit! 
+
+1.2  Zeichnen Sie den Grafen der Zuordnung! 
+
+Aufgabe 2 
+
+Ein Fahrzeug benötigt für eine Strecke von 240 km vier Stunden. 
+
+2.1  Berechnen Sie den Proportionalitätsfaktor k. Legen Sie eine Wertetabelle für die 
+proportionale  Zuordnung  Zeit →  Weg  an.  Geben  Sie  die  Zuordnungsvorschrift 
+an! Ergänzen Sie mithilfe von k zwei weitere Wertepaare für eine Fahrzeit von 6 
+Stunden und zwei Stunden! 
+
+2.2  Zeichnen Sie den Grafen der Zuordnung! 
+
+Aufgabe 3 
+
+Eine Zuckerfabrik verpackt den Zucker in Gewichtseinheiten zu je 3 kg. Dabei werden 
+jeweils 1000 Packungen zusammengestellt. 
+
+3.1  Berechnen Sie die Proportionalitätskonstante c! Legen Sie eine Wertetabelle mit 
+zwei  weiteren  Wertepaaren  (5  kg;  15  kg)  für  die  antiproportionale  Zuordnung 
+Packungsgewicht → Anzahl der Packungen an! Geben Sie die Zuordnungsvor-
+schrift an! 
+
+3.2  Zeichnen Sie den Grafen der Zuordnung! 
+
+Aufgabe 4 
+
+Ein Langstreckenläufer legt die Strecke von 10 km in 28,5 Minuten zurück. 
+
+4.1  Berechnen  Sie  mithilfe  des  Proportionalitätsfaktors  k  die  Zeiten,  die  der  Läufer 
+durchschnittlich für eine Strecke von 100 m, 400 m, 1000 m, und 5000 m benö-
+tigt! 
+
+4.2  Zeichnen Sie den Grafen der Zuordnung! 
+
+32 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 5 
+
+Die Kettenschaltung eines Sportrades hat einen Zahnkranz mit 6 Abstufungen: 13, 15, 
+17,  19,  21  und  24 Zähne.  Bei  dem  Zahnkranz mit  21 Zähnen  legt  das  Rad  bei  einer 
+Pedaldrehung 4,80 m zurück. 
+
+5.1  Berechnen  Sie  mithilfe  der  Proportionalitätskonstanten  c  die  zurückgelegten 
+
+Strecken für die anderen Zahnräder! 
+
+5.2  Zeichnen Sie den Grafen der Zuordnung! 
+
+Aufgabe 6 
+
+Bei Erdarbeiten werden von einem 600 m2 großen Grundstück 78 Tonnen Erde abge-
+fahren. Das entspricht einer 10 cm dicken Schicht. 
+
+Wie  viele  Tonnen  Erde  müssen  bei  einem  800  m2  großen  Grundstück  abgefahren 
+werden, wenn der Boden 15 cm tief abgenommen wird? 
+
+Aufgabe 7 
+
+Bestimmen Sie die Lösungsmenge der Gleichung! 
+
+7.1  x + 6 = –11 
+
+7.2  3x = 54 
+
+7.3  –3x – 21 = –63 
+
+7.4  –[3(1 – x) – 5(6 – x)] = –3(9 – x) + 14 
+
+7.5  7x – [5(x – 7)2 + 3(x – 1)2] = 21 – 8x2 – 20 
+
+7.6 
+
+7.7 
+
+Aufgabe 8 
+
+Bestimmen Sie die Lösungsmenge. Geben Sie zunächst die Definitionsmenge an! 
+
+8.1 
+
+8.2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+33 
+
+944x9x)18(33614x2x7−++=++−axabx=−1x5x5125x3x35+−=+−15x1558x69x115x54x33x35x422−+−=−+−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 9 
+
+Aus 96 %igem Alkohol und 1/2 Liter 20 %igem Alkohol wird 32 %iger Alkohol herge-
+stellt. 
+
+Wie viel cm3 werden von dem 96 %igen Alkohol benötigt? 
+
+Aufgabe 10 
+
+Ein Verkehrsflugzeug fliegt mit einer Durchschnittsgeschwindigkeit von 550 km/h von 
+Düsseldorf nach Rom. Ein Jumbo fliegt zwei Stunden später mit dem gleichen Ziel ab. 
+Die Geschwindigkeit beträgt 950 km/h. 
+
+10.1  Nach welcher Flugzeit des Verkehrsflugzeuges hat der Jumbo dieses eingeholt? 
+
+10.2  Welche Strecke haben die Flugzeuge dann zurückgelegt? 
+
+Aufgabe 11 
+
+Bestimmen Sie die Lösungsmenge der Ungleichung! 
+
+11.1  3(7 – 2x) – 12  8 – 7x 
+
+11.2  2(x – 2)(x – 5)  2x2 – 4x – 10 
+
+Aufgabe 12 
+
+Ein Handelsvertreter erhält von seinem Arbeitgeber folgendes Angebot: 
+
+1. Angebot:  1000 € Festgehalt und 6 % Provision vom Umsatz 
+2. Angebot:  1250 € Festgehalt und 4 % Provision vom Umsatz 
+
+Von  welchem monatlichen  Umsatz  an  ist  das  1.  Angebot  vorteilhafter für  den  Arbeit-
+nehmer? 
+
+34 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+2 Funktionen als eindeutige Zuordnungen 
+
+2.1 Definitionsmenge und Wertemenge 
+
+Lehrbeispiel 1 
+
+Fertigen  Sie  für  die  in  den  Tabellen  dargestellten  Zuordnungen  jeweils  das  Pfeildia-
+gramm an!  
+
+Lernbereich 
+
+Gewinn 
+
+Losnummer 
+
+500 
+
+200 
+
+50 
+
+75 
+
+121; 14 
+
+222; 198 
+
+43; 25 
+
+Angestellte 
+
+Lebensalter 
+
+35 
+
+29 
+
+39 
+
+35 
+
+Herr Meier 
+
+Frau Abel 
+
+Frau Münter 
+
+Herr Kley 
+
+Lösung 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+35 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Zahl → Anzahl der Teiler 
+
+Wertetabelle 
+
+Pfeildiagramm 
+
+Zahl  Anz. d. Teiler   
+
+8 
+
+12 
+
+15 
+
+20 
+
+4 
+
+6 
+
+4 
+
+6 
+
+Definitionsmenge 
+
+Wertemenge 
+
+Eine  Funktion  ist  eine  eindeutige  Zuordnung.  Dafür  muss  gelten:  Jedem  Ele-
+ment der Definitionsmenge D wird genau ein Element der Wertemenge W zuge-
+ordnet.  Im  Pfeildiagramm  wird  dies  dadurch  deutlich,  dass  von  jedem  Element 
+aus  D genau  ein  Pfeil  ausgeht und bei  jedem  Element der  Wertemenge  W  min-
+destens ein Pfeil endet.   
+
+Lehrbeispiel 2 
+
+Ein Werbeplakat enthält folgende Information: 
+
+1 Stück kostet  
+7,50 € 
+2 Stück kosten   15,00 €  
+5 Stück kosten   30,00 € 
+10 Stück kosten   50,00 € 
+
+Ordnen  Sie  in  einer  Wertetabelle!  Zeichnen  Sie  das  Pfeildiagramm  und  begründen 
+Sie,  warum  es  sich  bei  dieser  Zuordnung  um  eine  Funktion  handelt!  Bestimmen  Sie 
+Definitions- und Wertemenge! 
+
+Lösung 
+
+Stück 
+
+Preis in € 
+
+1 
+
+2 
+
+5 
+
+10 
+
+7,50 
+
+15,00 
+
+30,00 
+
+50,00 
+
+  Definitionsmenge D 
+
+Wertemenge W 
+
+Es handelt sich bei dieser Zuordnung um eine Funktion, weil von jedem Element aus 
+D ein Pfeil ausgeht und bei jedem Element aus W mindestens ein Pfeil endet. 
+
+36 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+2.2 Funktionen im Koordinatensystem 
+
+Bei der Darstellung von Funktionen im Koordinatensystem ist es üblich, die Elemente 
+der  Definitionsmenge  (x    D)  auf  der  x-Achse  und  die  Elemente  der  Wertemenge 
+(y  W) auf der y-Achse abzutragen. 
+
+Lehrbeispiel 1 
+
+Zeichnen Sie den Grafen der Funktion: Zahl → Kehrwert der Zahl für folgende Zahlen: 
+–4; –2; –1; –0,5; –0,25; 0,25; 0,5; 1; 2; 4 ! 
+
+Lösung 
+
+Zahl   → 
+
+Kehrwert der Zahl 
+
+–4 
+
+–2 
+
+–1 
+
+–0,5 
+
+–0,25 
+
+0,25 
+
+0,5 
+
+1 
+
+2 
+
+4 
+
+–0,25 
+
+–0,5 
+
+–1 
+
+–2 
+
+–4 
+
+4 
+
+2 
+
+1 
+
+0,5 
+
+0,25 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+37 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 2 
+
+Bestimmen Sie anhand des Funktionsgrafen die Definitions- und Wertemenge! 
+
+Lösung 
+
+Lehrbeispiel 3 
+
+Legen  Sie  anhand  des  Grafen  eine Wertetabelle  an! Bestimmen Sie  Definitions-  und 
+Wertemenge! Begründen Sie mithilfe des Pfeildiagramms, ob es sich um einen Funk-
+tionsgrafen handelt! 
+
+38 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+x 
+y 
+
+–3 
+2 
+
+–2 
+1 
+
+–1 
+0 
+
+0 
+–1 
+
+1 
+–2 
+
+2 
+–3 
+
+3 
+–3 
+
+3 
+–4 
+
+4 
+–3 
+
+Antwort:  Es  handelt  sich  nicht  um  einen  Funktionsgrafen,  da  von  einem  Element 
+
+aus D (x = 3) zwei Pfeile ausgehen. 
+
+Für die Darstellung einer Funktion im Koordinatensystem gilt, dass auf jeder Paralle-
+len zur y- Achse höchstens ein Punkt liegen darf. 
+
+Funktionsgraf 
+
+kein Funktionsgraf 
+
+Lehrbeispiel 4 
+
+Der Flächeninhalt eines Rechtecks beträgt 30 cm2 . 
+
+Zeichnen  Sie  den  Grafen  der  Funktion,  die  jeder  Länge  die  zugehörige  Breite  zuord-
+net. Als Definitionsmenge legen Sie D = {x  
+
+  3  x  10} zu Grunde!  
+
+Lösung 
+
+x 
+y 
+
+3 
+10 
+
+4 
+7,5 
+
+5 
+6 
+
+6 
+5 
+
+8 
+3,75 
+
+10 
+3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+39 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aus der Formel für den Flächeninhalt eines Rechtecks A = x  y lässt sich die Variable 
+y bestimmen: 
+
+A = x  y 
+
+ : x 
+
+Im vorliegenden  Beispiel  wurde  die  Zuordnungsvorschrift mit x  →  A  / x  bestimmt.  Es 
+ist deutlich, dass beide Darstellungen dieselbe Funktion beschreiben. 
+
+Bezeichnungen für Funktionen 
+
+Zur Unterscheidung von Funktionen werden sie mit kleinen Buchstaben bezeichnet: 
+
+f: x → 2x 
+
+g: x → c / x  
+
+h: x → 3x2 
+
+Die Terme  2x ; c / x ; 3x2  werden dabei Funktionsterm genannt. 
+
+Funktionswert 
+
+Für eine Funktion f gilt:  
+
+f: 3 → 6 
+
+Dies bedeutet, dass die Funktion f der Zahl 3 die Zahl 6 zuordnet. Der Funktionswert 
+von f an der Stelle 3 ist 6. (f (3) = 6) 
+
+Funktionsgleichung 
+
+Die Zuordnungsvorschrift x → 2x kann auch als Gleichung geschrieben werden: 
+
+f(x) = 2x 
+
+oder   y = 2x . 
+
+Im Koordinatensystem werden die Funktionswerte f(x) auf der y-Achse abgetragen. 
+
+40 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+yxA= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+2.2.1 Funktion einer Geraden 
+
+Lehrbeispiel 1 
+
+Die  proportionale  Zuordnung  Volumen  →  Masse  ist  eine  Funktion.  Geben  Sie  für 
+Messing (Dichte  = 8,3 g/cm3) die Funktionsgleichung an. Legen Sie eine Wertetabel-
+le an. D = {x 0  x  10}. Zeichnen Sie den Funktionsgrafen! 
+
+Lösung 
+
+V (cm3)  →  m (g) 
+8,3 
+
+1 
+
+Proportionalitätsfaktor: k = 8,3 
+
+Funktionsgleichung: f: x → 8,3x   oder   y = 8,3x 
+
+x 
+
+y 
+
+0 
+
+0 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+8,3 
+
+16,6  24,9  33,2  41,5  49,8  58,1  66,4  74,7  83,0 
+
+Lehrbeispiel 2 
+
+Zeichnen Sie jeweils den Grafen der Funktion mit dem Funktionsterm mx in ein Koor-
+dinatensystem! f: x → 2x   g: x → –2x  
+
+Lösung 
+
+Ausgangspunkt der Lösung ist die Überlegung, dass eine Gerade durch zwei Punkte 
+eindeutig festgelegt ist. Daher ist es ausreichend, in die Wertetabelle nur zwei Koordi-
+naten einzutragen. 
+
+f: 
+g: 
+
+x → 2x; m = 2 
+x → –2x; m = –2 
+
+x 
+f(x) 
+g(x) 
+
+0 
+0 
+0 
+
+2 
+4 
+–4 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+41 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aus den beiden Funktionsgrafen lassen sich folgende Erkenntnisse gewinnen: 
+
+Die Funktionsgrafen sind Geraden durch den Ursprung (0;0). Für m   0 (hier: m = 2) 
+verläuft  die  Ursprungsgerade  durch  den  I.  und  III.  Quadranten,  für  m  0  
+(hier: m = –2) durch den II. und IV. Quadranten. 
+
+Lehrbeispiel 3 
+
+Zeichnen Sie den Grafen der Funktion f(x) = 3x! Nutzen Sie dabei den Faktor m! 
+
+Lösung 
+
+Bei  dem Grafen  handelt  es  sich  um  eine  Ursprungsgerade,  bei  der  ein  Punkt  bereits 
+festliegt: (0;0). 
+
+Wenn  man  nun  vom  Ursprung  aus  eine  Einheit  in  die  positive  x-Richtung  geht, 
+muss der zugehörige Wert f(x) um m Einheiten (hier: 3) nach oben gehen. 
+
+f(1) = 3  1 = 3 
+
+42 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Somit  sind  zwei  Punkte  -  und  damit  die  Gerade  -  fest  gelegt.  Da  der  Faktor  m  die 
+Steigung der Geraden angibt, heißt er Steigungsfaktor. 
+
+Das  Dreieck,  das  zum  Festlegen  des  zweiten  Punktes  gezeichnet  wird,  heißt  Stei-
+gungsdreieck. 
+
+Lehrbeispiel 4 
+
+Zeichnen Sie mithilfe des Steigungsdreiecks den Graf der Funktion f(x) = –0,5x!  
+
+Lösung 
+
+Festlegen der zwei Punkte:  (1) Ursprungspunkt (0;0) 
+(2) f(1) = –0,5  1 = –0,5  
+
+(1;–0,5) 
+
+Bei  einem  negativen  Steigungsfaktor  m  (hier:  m = –0,5)  geht  man  vom  Ursprung 
+eine Einheit nach rechts und m Einheiten nach unten. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+43 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 5 
+
+Überprüfen  Sie,  ob  die  Punkte  P  und  Q  auf  dem  Grafen  der  Funktion  f(x)  mit 
+f(x) = (–2/3)  x liegen! P(–6;4)  Q(–2,4;–1,6) 
+
+Lösung 
+
+f(x) = (–2/3)  x   für   P: f(–6) = –2/3  (–6) 
+
+= 4 
+4  = 4 (w) 
+
+Antwort:  Der Punkt P liegt auf dem Grafen. 
+
+für Q: f(–2,4)  = –2/3  (–2,4) 
+
+= 1,6 
+
+–1,6  = 1,6 (f) 
+
+Antwort:  Der Punkt Q liegt nicht auf dem Grafen. 
+
+Lehrbeispiel 6 
+
+Berechnen Sie die Steigung der Ursprungsgeraden durch den Punkt P und geben Sie 
+die Funktionsgleichung an! P(–14;–8) 
+
+Lösung 
+
+Der  Punkt  P  liegt  auf  einer  Ursprungsgeraden;  d.h.  die  Koordinaten  des  Punktes  P 
+müssen die Funktionsgleichung f(x) = mx erfüllen. 
+
+P(–14;–8 ) 
+
+f(–14) = –8 
+f(–14) = m  (–14) 
+–8 = m  (–14) 
+m = 4 / 7 
+
+:(–14) 
+
+Funktionsgleichung: f(x) = (4/7)  x 
+
+Eine allgemeine Lösung ergibt dann: 
+
+P(x;y) 
+
+f(x) = y 
+f(x) = m  x 
+
+m  x = y  
+
+m = y / x 
+
+:x 
+
+Die  Steigung  einer  Ursprungsgeraden  durch  den  Punkt  P  erhält  man,  indem 
+man die y-Koordinate durch die x-Koordinate (x  0) dividiert: m = y/x. 
+
+44 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 7 
+
+Zeichnen Sie den Funktionsgrafen von g(x) = 3x + 4 mithilfe des Steigungsdreiecks!  
+
+Lösung 
+
+Bei  dem  Grafen  dieser  Funktion  kann  es  sich  nicht  um  eine  Ursprungsgerade  han-
+deln, da der Term außer mx noch einen zweiten Summanden (+4) enthält. Da es sich 
+aber um eine Gerade handeln muss, lässt sich der Graf mit zwei Punkten festlegen. 
+
+g(x) = 3x + 4 
+g(0) = 3  0 + 4 = 4   P(0;4) 
+g(1) = 3  1 + 4 = 7   Q(1;7) 
+
+Es  ist  deutlich,  dass  der  Graf  der  Funktion  g  eine  nach  oben  verschobene  Ur-
+sprungsgerade ist mit dem Steigungsfaktor m = 3. 
+
+Der Schnittpunkt des Grafen mit der y-Achse ergibt sich durch Berechnen des Funkti-
+onswertes an der Stelle x = 0. 
+
+x = 0 
+
+g(x) = 3x + 4 
+g(0) = 3  0 + 4 = 0 + 4 = 4     P(0;4) 
+
+Dieser Punkt kann also auch ohne Berechnung abgelesen werden. 
+
+Funktionen mit dem Funktionsterm mx + b heißen lineare Funktionen. Die zuge-
+hörigen Grafen sind Geraden. 
+
+Dabei gibt m die Steigung der Geraden und b den y-Achsenabschnitt (Schnittpunkt mit 
+der y-Achse) an. (m, b   ) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+45 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 8 
+
+Zeichnen Sie den Grafen der Funktion h(x) = –x – 2!  
+
+Lösung 
+
+1. Lösungsschritt:  Festlegen des Steigungsfaktors m und des y-Achsenabschnitts b  
+
+m = –1   b = –2 
+
+2. Lösungsschritt:  Eintragen des Punktes P(0;–2) 
+3. Lösungsschritt:  Zeichnen  des  Steigungsdreiecks:  eine Einheit  nach  rechts,  eine 
+
+Einheit nach unten 
+
+Lehrbeispiel 9 
+
+Überprüfen Sie, ob die Punkte P und Q auf dem Funktionsgrafen von f liegen!  
+P(–4;–1)   Q(12;35)   f(x) = 4,5x – 19 
+
+Lösung 
+
+f(x) = 4,5x – 19 
+
+ P(–4;–1) 
+f(–4) = 4,5  (–4) – 19 
+f(–4) = –37 
+  –1 = –37 (f) 
+
+Q(12;35) 
+f(12) = 4,5  12 – 19 
+f(12) = 35 
+
+35 = 35 (w) 
+
+Antwort:  Der Punkt P liegt nicht auf dem Grafen, der Punkt Q liegt auf dem Grafen. 
+
+46 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 10 
+
+Der Graf einer linearen Funktion f(x) verläuft durch die Punkte P und Q. Zeichnen Sie 
+die Gerade. Berechnen Sie mithilfe der Punkt-Koordinaten die Steigung m. Geben Sie 
+anschließend die Funktionsgleichung an! P(2;6); Q(4;3) 
+
+Lösung 
+
+Aus  dem  Steigungsdreieck  lässt  sich  folgendes  entnehmen:  zwei  Längeneinheiten 
+nach rechts, drei Längeneinheiten nach unten. 
+
+Würde  man  nur  eine  Längeneinheit  nach  rechts  gehen,  müsste  man  auch  nur  1,5 
+Einheiten nach unten gehen. 
+
+Daraus lässt sich der Steigungsfaktor m bestimmen: (–3) : 2 = (–1,5) : 1 = –1,5 
+m = –1,5 
+
+Mithilfe der Koordinaten lässt sich folgende Rechnung aufstellen: 
+
+P(2;6)   Q(4;3)   
+
+Allgemein gilt für P(x1;y1) und Q(x2;y2) mit x1, x2, y1, y2  
+
+; x1  x2  
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+47 
+
+5,1232463m−=−=−−=1212xxyym−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Damit lässt sich an dieser Stelle bereits teilweise die Funktionsgleichung angeben: 
+
+f(x) = –1,5x + b 
+
+Zur  Berechnung  von  b  werden  die  Koordinaten  von  P  oder  Q  in  die  Funktionsglei-
+chung f(x) = –1,5x + b eingesetzt. 
+
+ f(x) = –1,5x + b 
+ f(2) = –1,5  2 + b 
+  6 = –3 + b 
+  9 = b 
+
+P(2;6) 
+
++3 
+
+Funktionsgleichung: f(x) = –1,5x + 9 
+
+Lehrbeispiel 11 
+
+Berechnen  Sie  die  Funktionsgleichung  der  linearen  Funktion  g(x),  deren  Graf  durch 
+die Punkte P und Q geht! P(–1;6); Q(1;2) 
+
+Lösung 
+
+1. Lösungsschritt: Berechnen der Steigung 
+
+2. Lösungsschritt: Berechnen des y-Achsenabschnitts b durch Einsetzen von Q 
+
+g(x) = –2x + b 
+g(1) = –2  1 + b  
+  2 = –2 + b 
+  4 = b 
+
+Q(1;2) 
+
++2 
+
+Funktionsgleichung: g(x) = –2x + 4 
+
+48 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+224)1(162xxyym1212−=−=−−−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 12 
+
+Überprüfen Sie, ob die Punkte P, Q und R auf einer Geraden liegen! 
+P(2;2); Q(5;11); R(–1;–7) 
+
+Lösung 
+
+Da zwei Punkte immer auf einer Geraden liegen müssen, berechnet man zunächst die 
+Funktionsgleichung der Geraden durch zwei beliebige Punkte. (z.B. Q und R) 
+
+f(x) = 3x + b   für Q gilt:   f(5) = 3  5 + b 
+
+11 = 15  + b    - 15 
+
+–4 = b 
+
+Funktionsgleichung: f(x) = 3x – 4 
+
+Überprüfen von P: 
+
+f(2) = 3  2 – 4 
+
+2 = 6 – 4 
+
+2 = 2 (w) 
+
+Antwort:  Alle drei Punkte liegen auf einer Geraden. 
+
+2.2.2 Nullstellen einer Geraden und Schnittpunkt zweier Geraden 
+
+Lehrbeispiel 1 
+
+Lösen Sie die lineare Gleichung 4x – 12 = x – 10 grafisch! 
+
+Lösung 
+
+Die grafische Lösung einer linearen Gleichung setzt voraus, dass eine Funktionsglei-
+chung vorliegt; erst diese kann grafisch dargestellt werden. 
+
+Zunächst  muss  also  die  Gleichung  so  umgeformt  werden,  dass  alle Glieder  auf  eine 
+Seite gebracht werden. 
+
+4x – 12 = x – 10    – x 
+3x – 12 =  –10      +10 
+3x –   2 = 
+
+  0 
+
+Nun  wird  an  die  Stelle  der  Null  die  Variable  y  gesetzt;  man  erhält  die  Funktionsglei-
+chung  
+
+y = 3x – 2   
+
+oder   
+
+f(x) = 3x – 2 . 
+
+Mithilfe des Steigungsfaktors und des y-Achsenabschnitts wird der Graf gezeichnet. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+49 
+
+361851117xxyym1212=−−=−−−−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Da die Variable y an die Stelle der Null gesetzt wurde, ist die Lösung für x der Schnitt-
+punkt des Funktionsgrafen mit der x-Achse: S(x;0). 
+
+Dieser Schnittpunkt S des Funktionsgrafen von f mit der x-Achse hat die y-Koordinate 
+0. Die x-Koordinate von S wird Nullstelle der Funktion f genannt. 
+
+Lehrbeispiel 2 
+
+Der Punkt P liegt auf dem Funktionsgrafen von f. 
+
+Berechnen Sie die Nullstelle der Funktion! 
+
+P(x;0) ; f(x) = – 2/3 x – 8 
+
+Lösung 
+
+f(x) = – 2/3x – 8 
+
+Nullstelle: 
+
+f(x) = 0 
+
+0 = –2/3 x – 8 
+
+2/3 x = – 8 
+
+x = – 12 
+
+ + 2/3 x 
+ : 2/3 
+
+Antwort:  Der Punkt P hat die Koordinaten (–12;0) ; die Nullstelle liegt bei x = –12. 
+
+Lehrbeispiel 3 
+
+Bestimmen Sie die Koordinaten des Schnittpunktes der beiden Funktionsgrafen von f 
+und g! 
+
+f(x) = 1,5x + 2,5   ; 
+
+ g(x) = – 3/2 x – 2,5 
+
+50 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+Damit  die  anschließenden  Überlegungen  deutlich  werden,  sollen  zunächst  beide 
+Funktionsgrafen in ein Koordinatensystem gezeichnet werden. 
+
+Der  Schnittpunkt  S(x;y)  hat  die  Eigenschaft,  dass  er  als  einziger  Punkt  sowohl  auf 
+dem Grafen von f als auch auf dem Grafen von g liegt. D.h. er muss beide Funktions-
+gleichungen erfüllen. 
+
+Dieses  bedeutet  für  die  rechnerische  Lösung,  dass  beide  Funktionsterme  in  diesem 
+Punkt gleich sein müssen. 
+
+f(x) 
+1,5x + 2,5  = – 3/2 x – 2,5 
+
+=  g(x) 
+
+Mithilfe dieser Gleichung lässt sich die x-Koordinate des Schnittpunktes bestimmen. 
+
+1,5x + 2,5  = – 3/2 x – 2,5   + 3/2 x 
+   3x + 2,5  = – 2,5 
+3x  = – 5   
+  x  = – 5/3 
+
+ –2,5 
+ : 3 
+
+Dieser  errechnete  x-Wert  muss  nun  in  eine  der  beiden  Funktionsgleichungen  einge-
+setzt werden. 
+
+f(x) = 1,5x + 2,5 
+
+für x = – 5/3 gilt: 
+
+f(–5/3) = 1,5  (– 5/3) + 2,5 
+= – 2,5 + 2,5 
+= 0 
+
+Antwort:  Der Schnittpunkt S hat die Koordinaten (–5/3;0). 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+51 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 4 
+
+Berechnen Sie den Schnittpunkt der Geraden mit f(x) = –1/3 x + 1/2 und  
+g(x) = 1/2 x + 3! 
+
+Lösung 
+
+Für den Schnittpunkt S gilt: 
+
+f(x) = g(x) 
+
+– 1/3 x + 1/2 = 1/2 x + 3 
+
+ – 2/6x – 3/6x + 1/2= 3   
+
+– 5/6 x = 2 1/2 
+
+x = –3 
+
+ – 1/2 x 
+ – 1/2 
+ : (– 5/6) 
+
+Die x-Koordinate in g(x) eingesetzt:  
+
+g(x)  = 1/2 x + 3 
+g(–3)  = 1/2 (–3) + 3 
+= 1,5 
+
+Antwort:  Der Schnittpunkt S hat die Koordinaten (–3;1,5). 
+
+2.2.3 Gleichungssysteme mit zwei Unbekannten 
+
+Lehrbeispiel 1 
+
+Geben  Sie  den  Umfang  eines  Rechtecks  mithilfe  eines  Variablenterms  an!  Der  Um-
+fang U beträgt 30 cm! Geben Sie drei verschiedene Lösungen an! 
+
+Lösung 
+
+U = 2a + 2b 
+
+30 = 2a + 2b 
+
+Länge a (cm) 
+
+5 
+
+Breite b (cm) 
+
+10 
+
+8 
+
+7 
+
+12 
+
+3 
+
+Antwort:  Drei mögliche Lösungspaare (a;b) sind: (5;10); (8;7) ; (12;3). 
+
+Deutlich wird bei der Lösung, dass die angegebenen Lösungspaare nur eine Teilmen-
+ge aller möglichen Lösungen darstellen. 
+
+Für lineare Gleichungen mit zwei Variablen der Form 2x + 2y = 30 gilt: 
+
+Jede  der  Variablen  kann  durch  eine  reelle  Zahl  ersetzt  werden.  Die  Lösungen  der 
+Gleichung sind Zahlenpaare. Die Lösungsmenge L besteht aus unendlich vielen Zah-
+lenpaaren. L = {(5;10); (8;7); (12;3); ...} 
+
+Um die lineare Gleichung mit zwei Variablen 2x + 2y = 30 grafisch darstellen zu kön-
+nen, muss aus der Gleichung die Normalform einer linearen Gleichung mit zwei Vari-
+ablen durch Äquivalenzumformungen erzeugt werden. 
+
+2x + 2y =   30 
+
+ –2x 
+2y  =  –2x + 30   : 2 
+
+y  =  –x + 15 
+
+Lösungen der Normalform y = mx + b sind auch Lösungen der Ausgangsgleichung. 
+
+52 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Diese Gleichung in Normalform y = –x + 15 kann als Funktionsgleichung einer linea-
+ren Funktion begriffen werden, die nun grafisch dargestellt werden kann. 
+
+Abbildung 3 Graf einer Gleichung mit 2 Variablen 
+
+Nun lassen sich für den Funktionsgrafen folgende Aussagen machen: 
+
+•  Die  Koordinaten  eines  Punktes,  der  auf  der Geraden  liegt,  sind  eine  Lösung  der 
+
+Gleichung. 
+Jedes Zahlenpaar, das die Gleichung erfüllt, liegt als Punkt auf der Geraden. 
+• 
+•  Da  die  Gerade  weder  Anfang  noch  Ende  hat,  gibt  es  unendlich  viele  Lösungen 
+
+der Gleichung. 
+
+Lehrbeispiel 2 
+
+Lösen  Sie  die  Gleichung  nach  y  auf  und  zeichnen  Sie  den  zugehörigen  Grafen!  
+Bestimmen  Sie  die  fehlende  Koordinate  des  Punktes  P  auf  dem  Grafen  und  zeigen 
+Sie, dass die Koordinaten von P Lösung der Ausgangsgleichung sind! 
+
+3x + 2y = –2 
+
+P(x;7) 
+
+Lösung 
+
+3x + 2y  =  –2 
+
+2y  =  –3x – 2 
+
+y  =  –3/2 x – 1 
+
+ –3x 
+ : 2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+53 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+y = –3/2x – 1 
+7 = –3/2 x – 1 
+8 = –3/2 x   
+x = –5 1/3 
+
+P(x;7) 
+
+ +1 
+ : (–3/2) 
+
+P(–51/3;7)  eingesetzt   
+
+ y = –3/2x – 1 
+
+7 = (–3/2)  (–51/3) – 1 
+7 = 8 – 1 
+7 = 7 (w) 
+
+Lehrbeispiel 3 
+
+Ein Rechteck mit den Seitenlängen x und y hat einen Umfang von 20 cm. Die Länge x 
+ist um 4 cm größer als die Breite y. 
+
+Bestimmen Sie die Seitenlängen x und y! 
+
+Lösung 
+
+Aus den gegebenen Informationen lassen sich folgende Gleichungen formulieren: 
+
+(I) 
+(II) 
+
+2x + 2y =  20 
+ x = y + 4 
+
+Diese  beiden  linearen  Gleichungen  mit  zwei  Variablen  bilden  ein  lineares  Glei-
+chungssystem. 
+
+Eine  Lösungsmöglichkeit  besteht  darin,  beide  Gleichungen  in  ein  Koordinatensystem 
+zu zeichnen. 
+
+(I)  2x + 2y  = 20   
+
+ –2x  
+= –2x + 20  :2   
+= –x + 10 
+
+2y 
+y 
+
+(II) 
+
+x = y + 4 
+y = x – 4 
+
+54 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Der  Schnittpunkt  S(x;y)  erfüllt  beide  Funktionsgleichungen;  seine  Koordinaten  sind 
+also Lösung des Gleichungssystems. Der Schnittpunkt hat die Koordinaten S(7;3). 
+
+Zur Kontrolle werden die Koordinaten von S in beide Gleichungen eingesetzt. 
+
+(I) 
+
+2x + 2y    = 20 
+  2  7 + 2  3 = 20 
+14 +  6     = 20 
+ = 20 
+
+20 
+
+(II) 
+
+x = y + 4 
+7 = 3 + 4 
+7 = 7 (w) 
+
+(w) 
+
+L = {(7;3)} 
+
+Lehrbeispiel 4 
+
+Bestimmen Sie grafisch die Lösung des Gleichungssystems. Machen Sie die Probe! 
+
+(I)  2y + x  = 1 
+y + x  = 2  
+(II) 
+
+Lösung 
+
+1. Lösungsschritt: Umformen beider Gleichungen in die Normalform 
+
+(I) 
+
+2y + x = 1 
+
+2y  = –x + 1 
+
+y  = –1/2 x + 1/2  
+
+ –x 
+ : 2 
+
+(II) 
+
+y + x  = 2 
+
+ –x 
+
+y  = –x + 2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+55 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+2. Lösungsschritt: Zeichnen der Grafen 
+
+Probe: 
+
+(I) 
+
+(II) 
+
+2y + x  = 1 
+2  (–1) + 3 = 1 
+–2 + 3  = 1 
+= 1 
+
+1 
+
+(w) 
+
+y + x  = 2 
+(–1) + 3  = 2 
+2  = 2 
+
+(w) 
+
+L = {(3;–1)} 
+
+Lehrbeispiel 5 
+
+Bestimmen Sie jeweils die Lösungsmenge des Gleichungssystems! 
+
+Beispiel 1:  (I) 
+Beispiel 2:  (I) 
+Beispiel 3:  (I) 
+
+2y – 0,5x = 4 
+3y – 1,5x = 3 
+y – 1/8 x = 2 
+
+(II) 
+(II) 
+(II) 
+
+y 
+y + 0,5x 
+2y 
+
+= 0,25x + 1 
+= 5 
+= 1/4 x + 4  
+
+Lösung 
+
+Beispiel 1: 
+
+(I) 
+
+2y – 0,5x  = 4 
+
+(II) 
+
+y = 0,25x + 1 
+
+2y  = 0,5x + 4 
+
+y = 0,25x + 2 
+
+56 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Beide Grafen verlaufen parallel zueinander, da der Steigungsfaktor m in beiden Glei-
+m  =  0,25.  Da  sich  die  Geraden  nicht  schneiden,  existiert 
+chungen gleich ist: 
+keine Lösung: L = { } .  
+
+Beispiel 2: 
+
+(I) 
+
+3y – 1,5x  = 3 
+
+(II) 
+
+y + 0,5x = 5 
+
+3y = 1,5x + 3 
+y = 0,5x + 1 
+
+y  = –0,5x + 5 
+
+In diesem Fall existiert genau eine Lösung: L = {(4;3)} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+57 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Beispiel 3: 
+
+(I) 
+
+y – 1/8x = 2 
+
+y = 1/8x + 2 
+
+(II)  2y =  1/4x + 4 
+y =  1/8x + 2 
+
+Jeder Punkt mit seinen Koordinaten (x;y) ist Lösung des Gleichungssystems. Es gibt 
+also unendlich viele Lösungen. 
+
+Im  unten  abgebildeten  Koordinatensystem  sind  die  Grafen  des  linearen  Gleichungs-
+systems 
+
+(I) 
+(II) 
+
+y = –0,5x + 2,5 
+y = 1,5x – 1,5 
+
+dargestellt. Der Schnittpunkt S(x;y) hat die Koordinaten (2;1,5). 
+
+Zur Probe werden die Koordinaten eingesetzt: 
+
+1,5 = –0,5  2 + 2,5 
+
+(I) 
+(II)  1,5 = 1,5  2 – 1,5 
+
+(w) 
+(w) 
+
+58 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Wenn  bei  beiden  Gleichungen  die  linken  Seiten  gleich  sind,  muss  dies  auch  für  die 
+rechten Seiten gelten. Also ist:  
+
+–0,5  2 + 2,5  = 1,5  2 – 1,5 
+–1 + 2,5  = 3 – 1,5 
+1,5  = 1,5 
+
+(w) 
+
+Allgemein gilt für den Schnittpunkt S(x;y): 
+
+(I) 
+(II) 
+
+y  =  –0,5x + 2,5 
+y  =  1,5x – 1,5   
+
+–0,5x + 2,5 = 1,5x – 1,5 
+
+–2x + 2,5 = –1,5 
+–2x = –4   
+x  = 2 
+
+ –1,5x 
+ –2,5 
+ : (–2) 
+
+x = 2  eingesetzt in eine Gleichung: 
+
+(I) 
+
+y = –0,5x + 2,5 
+y = –0,5  2 + 2,5  
+y = 1,5 
+
+L = {(2;1,5)} 
+
+Dieses  Lösungsverfahren  eines  linearen  Gleichungssystems  heißt  Gleichsetzungs-
+verfahren. 
+
+Lehrbeispiel 6 
+
+Bestimmen  Sie  mithilfe  des  Gleichsetzungsverfahrens  die  Lösungsmenge  des  Glei-
+chungssystems! 
+
+(I)  2y + 3x = 2 
+(II)  8x – 34 = –2y 
+
+Lösung 
+
+Im ersten Lösungsschritt werden beide Gleichungen in die Normalform umgeformt. 
+
+(I) 
+
+  2y + 3x = 2  
+
+2y  = –3x + 2 
+
+y  = –1,5x + 1 
+
+ –3x  
+ : 2 
+
+(II)  8x – 34 = –2y 
+
+ : (–2) 
+
+y = –4x + 17 
+
+Im zweiten Lösungsschritt werden beide Gleichungsterme gleich gesetzt und die Glei-
+chung wird nach x aufgelöst. 
+
+–1,5x + 1 = –4x + 17   +4x 
+2,5x + 1  = 17 
+2,5x = 16 
+x  = 6,4 
+
+ –1 
+ : 2,5 
+
+Im dritten Lösungsschritt wird der x-Wert in eine der beiden Gleichungen eingesetzt. 
+
+(I) 
+
+2y + 3x = 2 
+2y + 3  6,4 = 2 
+
+2y  = –17,2 
+y  = –8,6 
+
+ –19,2 
+ : 2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+59 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Probe: 
+
+(I) 
+
+= 2 
+2y + 3x 
+2  (–8,6) + 3  6,4 = 2 
+–17,2 + 19,2  = 2 
+ = 2 
+
+2 
+
+(II)  8x – 34 
+
+= –2y 
+
+8  6,4 – 34 = (–2)  (–8,6) 
+51,2 – 34  = 17,2 
+  17,2  = 17,2 
+
+(w) 
+
+(w) 
+
+L = {(6,4;–8,6)} 
+
+Lehrbeispiel 7 
+
+Bestimmen Sie die Lösungsmenge! 
+
+  HN 15 
+
+(II) 
+
+ 1/4 x + 1/3 y = 3   HN 12 
+
+  3x + 4y = 36 
+
+4y = –3x + 36 
+
+y = –3/4 x + 9 
+
+2/3 x – 2/5 y = 4/15 
+
+(I) 
+(II)  1/4 x + 1/3 y = 3 
+
+Lösung 
+
+(I) 
+
+2/3x – 2/5 y = 4/15 
+10x – 6y = 4 
+
+–6y = –10x + 4 
+y = 5/3x – 2/3 
+
+5/3x – 2/3  = –3/4x + 9  
+
+5/3x + 3/4x – 2/3 = 9 
+
+29/12x  = 9 2/3 
+x  = 4 
+
+ +3/4x 
+ + 2/3 
+ : 29/12 
+
+eingesetzt in (I): 
+
+2/3x – 2/5 y  = 4/15 
+2/3  4 – 2/5 y  = 4/15 
+
+ – 8/3 
+
+–2/5 y  = – 36/15   : (–2/5) 
+
+y = 6 
+
+Probe: 
+
+(I) 
+
+2/3 x – 2/5 y   = 4/15 
+2/3  4 – 2/5  6  = 4/15 
+8/3 – 12/5  = 4/15 
+40/15 – 36/15  = 4/15 
+4/15  = 4/15 
+
+Lehrbeispiel 8 
+
+( II )   
+
+1/4x + 1/3y = 3 
+ 1/4  4 + 1/3  6  = 3 
+1 + 2 = 3 
+
+(w) 
+
+(w) 
+
+L = {(4;6)} 
+
+Der  Umfang  eines  Rechtecks  beträgt  48m.  Die  Länge  x  ist  doppelt  so  groß  wie  die 
+Breite y. 
+
+Berechnen Sie die Seitenlängen des Rechtecks!  
+
+Lösung 
+
+(I) 
+(II) 
+
+2 x + 2 y = 48 
+x = 2 y 
+
+In Gleichung (I) kann an die Stelle von x auch der Term 2y geschrieben werden. 
+
+60 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+(I) 
+
+2  2y + 2y  = 48 
+4y + 2y  = 48 
+
+6y  = 48   : 6 
+
+y  = 8 
+
+eingesetzt in (II):  
+
+x = 2  8 
+x = 16 
+
+Probe: 
+(I) 
+
+2x + 2y = 48   
+
+2  16 + 2  8  = 48 
+32 + 16  = 48 
+
+48  = 48  (w)  
+
+(II) 
+
+x = 2y 
+16 = 2  8 
+16 = 16 
+
+(w) 
+
+L = {(16;8)} 
+
+Antwort:  Die Rechteckseiten sind 16 cm und 8 cm lang. 
+
+Dieses  Lösungsverfahren  eines  linearen  Gleichungssystems  heißt  Einsetzungsver-
+fahren.  
+
+Lehrbeispiel 9 
+
+Bestimmen  Sie  mithilfe  des  Einsetzungsverfahrens  die  Lösungsmenge  des  Glei-
+chungssystems! 
+
+(I) 
+(II) 
+
+15x – 10y  = 54 
+4x + 7y  = –3 
+
+Lösung 
+
+Im ersten Lösungsschritt wird Gleichung (I) oder (II) nach y aufgelöst. 
+
+(I) 
+
+  15x – 10y  = 54  
+
+–10y  = –15x + 54 
+y  = 1,5x – 5,4 
+
+ –15x 
+ : (–10) 
+
+Der isolierte Term für y wird im zweiten Lösungsschritt in die andere Gleichung einge-
+setzt und diese nach x aufgelöst. 
+
+(II) 
+
+  4x + 7y  = –3 
+4x + 7 ( 1,5x – 5,4 )  = –3 
+
+4x + 10,5x – 37,8  = –3   
+14,5x = 34,8 
+
+ +37,8 
+ : 14,5 
+
+x  = 2,4 
+
+Im dritten Lösungsschritt wird der x-Wert in den y-Term eingesetzt. 
+
+y = 1,5x – 5,4 
+y = 1,5  2,4 – 5,4  
+
+= 3,6 – 5,4 = –1,8 
+
+Probe 
+
+(I) 
+
+15x – 10y  = 54   
+
+15  2,4 – 10  (–1,8) = 54 
+
+36 + 18  = 54   
+
+54 = 54  (w) 
+
+(II) 
+
+4x + 7y 
+
+= –3 
+4  2,4 + 7  (–1,8)= –3  
+9,6 – 12,6  = –3 
+
+–3  = –3  (w) 
+
+L = {(2,4;–1,8)} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+61 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lehrbeispiel 10 
+
+Bestimmen Sie die Lösungsmenge!  
+
+(I) 
+(II) 
+
+2y – 4x  = 12 
+17x – 5y  = –9  
+
+Lösung 
+
+(I) 
+
+2y – 4x  = 12 
+
+2y  = 4x + 12 
+y  = 2x + 6 
+
+ +4x 
+ : 2 
+
+eingesetzt in (II): 
+
+17x – 5y  = –9 
+17x – 5 (2x + 6)  = –9 
+17x – 10x – 30  = –9   + 30 
+
+7x  = 21   : 7 
+x  = 3 
+
+eingesetzt in den y-Term: y = 2x + 6 
+
+y = 2  3 + 6 
+y = 12 
+
+Probe: 
+(I) 
+
+2y – 4x  = 12 
+2  12 – 4  3 = 12 
+24 – 12  = 12 
+
+(II) 
+
+17x – 5y = –9 
+17  3 – 5  12  = –9 
+51 – 60  = –9 
+
+12 
+
+= 12  (w) 
+
+–9  = –9  (w) 
+
+L = {(3;12)} 
+
+Lehrbeispiel 11 
+
+Bestimmen  Sie  die  Lösungsmenge  des  Gleichungssystems,  indem  Sie  die  beiden 
+Gleichungen addieren! 
+
+3x – 2y = 5 
+
+(I) 
+(II)  4x + 2y = 44  
+
+Lösung 
+
+Beim Addieren der beiden Gleichungen muss eine der Variablen heraus fallen. 
+
+3x – 2y = 5 
+
+(I) 
+(II)  4x + 2y = 44 
+
+ + 
+
+Es entsteht eine neue Gleichung. 
+
+(III)  7x = 49 
+
+ : 7 
+
+x = 7 
+
+62 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+ –21 
+ : (–2) 
+
+eingesetzt in (I): 
+
+3x – 2y  = 5 
+3  7 – 2y  = 5 
+
+–2y  = –16  
+y  = 8 
+
+Probe: 
+(I) 
+
+3x – 2y = 5  
+3  7 – 2  8 = 5 
+21 – 16 = 5 
+
+5 = 5  (w) 
+
+(II) 
+
+4x + 2y = 44 
+4  7 + 2  8 = 44 
+28 + 16 = 44 
+44 = 44 
+
+(w) 
+
+L = {(7;8)} 
+
+Dieses  Lösungsverfahren  eines  linearen  Gleichungssystems  heißt  Additionsverfah-
+ren.  
+
+Lehrbeispiel 12 
+
+Bestimmen  Sie  mithilfe  des  Additionsverfahrens  die  Lösungsmenge  des  Gleichungs-
+systems! 
+
+6x + 8y = 63 
+
+(I) 
+(II)  14x +12y = 181 
+
+Lösung 
+
+Im ersten Lösungsschritt müssen eine oder beide Gleichungen so umgeformt werden, 
+dass bei anschließender Addition beider Gleichungen eine Variable heraus fällt. 
+
+6x + 8y = 63    (–3) 
+
+(I) 
+(II)  14x + 12y = 181    2 
+
+(I) 
+(II) 
+
+–18x – 24y = –189 
+
+28x + 24y = 362   + 
+
+(III)  10x = 173   : 10 
+x = 17,3 
+
+Im zweiten Lösungsschritt wird der berechnete x-Wert (oder y-Wert) in eine der Aus-
+gangsgleichungen eingesetzt und die zweite Variable bestimmt. 
+
+Eingesetzt in (I): 
+
+6x + 8y = 63 
+6  17,3 + 8y = 63 
+
+ – 103,8 
+
+8y = –40,8   : 8 
+y = -5,1 
+
+L = {(17,3;–5,1)} 
+
+Lehrbeispiel 13 
+
+Bestimmen Sie die Lösungsmenge! 
+
+(I) 
+(II) 
+
+–2x – 3y = 48 
+7x + 5y = –3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+63 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+(I) 
+(II) 
+
+(I) 
+(II) 
+
+–2x – 3y = 48 
+7x + 5y = –3 
+
+  5 
+  3  
+
+–10x – 15y = 240 
+
+21x + 15y = –9   + 
+
+(III)  11x = 231   : 11 
+x = 21 
+
+eingesetzt in (I): 
+
+–2x – 3y = 48 
+
+–2  21 – 3y = 48    +42 
+
+– 3y = 90   : (–3) 
+
+y = –30 
+
+Probe: 
+
+(I) 
+
+–2x – 3y = 48 
+–2  21 – 3  (–30) = 48 
+–42 + 90 = 48 
+
+48 = 48  (w) 
+
+(II) 
+
+7x + 5y = –3 
+7  21 + 5  (–30) = –3 
+147 – 150 = –3 
+–3 = –3 
+
+(w) 
+
+L = {(21;–30)} 
+
+Lehrbeispiel 14 
+
+In  einem  Hotel  befinden  sich  108  Einzel-  und  Doppelzimmer mit  insgesamt  156  Bet-
+ten. 
+
+Berechnen Sie jeweils die Anzahl der Einzel- und Doppelzimmer!  
+
+Lösung 
+
+Im ersten Lösungsschritt muss festgelegt werden, welche gesuchte Größe mit x bzw. 
+y bezeichnet werden soll. 
+
+Anzahl Einzelzimmer: x 
+Anzahl Doppelzimmer : y 
+
+Im zweiten Lösungsschritt muss der Text in Gleichungen umgeformt werden. 
+
+(I) 
+(II) 
+
+x + y = 108 
+  x + 2y = 156 
+
+Im dritten Lösungsschritt wird die Lösungsmenge mithilfe eines geeigneten Verfahrens 
+bestimmt. 
+
+(I) 
+(II) 
+
+x + y = 108 
+x + 2y = 156 
+
+  (–1)  
+
+x + y = 108 
+(I) 
+(II)  –x – 2y = –156   + 
+
+(III)  –y = – 48    (–1) 
+
+y = 48 
+
+64 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+eingesetzt in (I): 
+
+x + y = 108 
+x + 48 = 108 
+x = 60  
+
+ –48 
+
+L = {(60;48)} 
+
+Antwort:  Es gibt 60 Einzelzimmer und 48 Doppelzimmer. 
+
+Lehrbeispiel 15 
+
+Der  Umfang  eines  gleichschenkligen  Dreiecks  beträgt  34  cm.  Jeder  Schenkel  ist  um 
+5 cm länger als die Basis. 
+
+Berechnen Sie die Seitenlängen! 
+
+Lösung 
+
+Gleichung (I): 
+Gleichung (II): 
+
+a + b + c = U 
+a = c + 5 
+
+da  a = b  folgt  a + a + c = U 
+
+Gleichung (I) in Gleichung (II) eingesetzt: 2 (c + 5) + c = U 
+
+2c + 10 + c = 34   –10 
+
+3c = 24  
+c = 8 
+
+eingesetzt in den Term für a:  a = c + 5 
+
+a = 8 + 5 = 13 
+
+Antwort:  Die Basis ist 8 cm lang, die Schenkel sind jeweils 13 cm lang. 
+
+Lehrbeispiel 16 
+
+In einem Labor werden 15 Liter hochprozentiger Alkohol mit 10 Liter Alkohol von nied-
+rigerem  Alkoholgehalt  gemischt.  Es  entsteht  eine  Mischung  von  25  Liter  70  %igem 
+Alkohol.  Werden  dagegen  12  Liter  des  hochprozentigen  Alkohols  und  28  Liter  mit 
+niedrigerem Prozentwert gemischt, entsteht 62,5 %iger Alkohol.  
+
+Berechnen Sie die Prozentgehalte der Alkoholsorten!  
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+65 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösung 
+
+hochprozentig 
+Volumen (in Liter) 
+
+Niedrig prozentig 
+Volumen (in Liter) 
+
+x % 
+15 
+
+y % 
+10 
+
+reiner Alkohol: 
+15  x : 100 
+
+reiner Alkohol 
+10  y : 100 
+
+Gleichung (I) : 15  x/100 + 10  y/100 = 25  70/100   
+Gleichung (II): 12  x/100 + 28  y/100 = 40  62,5/100 
+
+  100 
+  100 
+
+Gleichung (I) : 15x  
+Gleichung (II) : 12x 
+
++ 10y 
++ 28y 
+
+= 1750   
+= 2500   
+
+  ( –4 ) 
+  5 
+
+Gleichung (I) : 
+Gleichung (II) : 
+
+Gleichung (III) 
+
+eingesetzt in (I): 
+
+–60x – 40y = –7000 
+60x + 140y = 12500  
+
+ + 
+
+100y = 5500 
+y = 55 
+
+15x + 10y = 1750 
+
+15x + 10  55 = 1750   –550 
+
+15x = 1200   : 15 
+
+x = 80 
+
+Antwort:  Der  hochprozentige  Alkohol  hat  einen  Gehalt  von  80  %,  der  Alkohol  mit 
+
+dem niedrigeren Prozentgehalt 55 % Alkoholgehalt. 
+
+Lehrbeispiel 17 
+
+Ein Flugzeug benötigt für eine 1200 km lange Strecke eine Flugzeit von zwei Stunden. 
+Dabei fliegt es in Windrichtung. Auf dem Rückflug beträgt die Flugzeit 2 ½ Stunden. 
+
+Berechnen  Sie  die  Eigengeschwindigkeit  des  Flugzeugs  und  die  Windgeschwindig-
+keit!  
+
+Lösung 
+
+Eigengeschwindigkeit (in km/h) 
+Windgeschwindigkeit (in km/h) 
+
+ve  
+vw  
+
+Geschwindigkeit mit dem Wind: 
+
+ve + vw  
+
+Geschwindigkeit (v) = Weg (s)   
+
+s = v  t 
+
+Zeit (t) 
+
+Gleichung (I) 
+Gleichung (II) 
+
+1200 = (ve + vw)  2 
+1200 = (ve – vw)  2,5 
+
+1200 = 2 ve + 2 vw 
+
+(I) 
+  5 
+(II)  1200 = 2,5 ve – 2,5 vw    4 
+
+66 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+(I) 
+6000 = 10 ve + 10 vw 
+(II)  4800 = 10 ve – 10 vw  + 
+(III)  10800 = 20 ve 
+
+ : 20 
+
+540 = ve  
+
+eingesetzt in (I): 
+
+1200 = 2  540 + 2 vw   – 1080 
+
+ : 2 
+
+120 = 2 vw 
+vw = 60  
+
+L = {(540;60)} 
+
+Antwort:  Die  Eigengeschwindigkeit  des  Flugzeugs  beträgt  540  km/h,  die  Windge-
+
+schwindigkeit beträgt 60 km/h. 
+
+2.2.4 Umkehrfunktionen 
+
+Im Koordinatensystem ist der Graf der Funktion f(x) = 2x + 4 dargestellt. 
+
+Der  Abbildung  ist  zu  entnehmen,  welche  x-Werte  den  Funktionswerten  –4;  2  und  6 
+zugeordnet werden. 
+
+Abbildung 4 Graf der Funktion f(x) = 2x + 4 
+
+Lehrbeispiel 1 
+
+Berechnen  Sie  die  Stelle  x,  an  welcher  die  Funktion  f  den  Funktionswert  12  und  an 
+welcher Stelle –6 annimmt! 
+
+Lösung 
+
+  f(x) =  2x + 4 
+  f(x) =  12 
+  12 =  2x + 4  
+8 =  2x 
+x =  4 
+
+ – 4 
+ : 2 
+
+f(x) =  2x + 4 
+f(x) =  –6  
+  –6 =  2x + 4  
+  –10 =  2x   
+
+x =  –5 
+
+ – 4 
+ : 2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+67 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Antwort:  Die Funktion nimmt an der Stelle x = 4 den Funktionswert 12, an der Stelle  
+
+x = –5 den Funktionswert –6 an. 
+
+Jeder x-Wert führt zu einem bestimmten y-Wert. Geht man nun umgekehrt von einem 
+y-Wert  aus,  so  gelangen  wir  eindeutig  zu  dem  zugehörigen  x-Wert.  Diese  Eigen-
+schaft einer linearen Funktion f(x) nennt man umkehrbar eindeutig. 
+
+f sei eine lineare Funktion, d.h. sie ist umkehrbar eindeutig. Ihre Definitionsmenge ist 
+Df,  ihre  Wertemenge  Wf.  Dann  heißt  die  Funktion  f–1:  f(x)  →  x  mit  D(f–1)  =  Wf  und  
+W(f –1) = Df die Umkehrfunktion von f. 
+
+Lehrbeispiel 2 
+
+Geben Sie die Zuordnungsvorschrift der Umkehrfunktion f–1 an, die jedem Funktions-
+wert von f wieder den zugehörigen x-Wert zuordnet! 
+
+Lösung 
+
+Funktion f(x) 
+  –2  → 0 
+  –1  → 2 
+  0    → 4 
+  1    → 6 
+  2    → 8 
+
+Umkehrfunktion f–1  
+
+0   → –2 
+2   → –1 
+4   → 0 
+6   → 1 
+8   → 2 
+
+  x    → 2x + 4 
+
+y   → ……….. 
+
+Im ersten Lösungsschritt wird die Funktionsgleichung nach x aufgelöst. 
+
+y = 2x + 4   –4 
+ : 2 
+
+y – 4 = 2x   
+
+x = 1/2 y – 2 
+
+Im  zweiten  Lösungsschritt  wird  die  Gleichung  der  Umkehrfunktion  in  der  üblichen 
+Darstellungsform geschrieben, indem x und y miteinander vertauscht werden. 
+
+y = 1/2 x – 2 
+
+Antwort: Die Funktionsgleichung der Umkehrfunktion f–1 lautet: y = 1/2x – 2 
+
+Lehrbeispiel 3 
+
+Bestimmen Sie die Funktionsgleichung der Umkehrfunktion g(x) = 1/3x + 4! 
+
+Lösung 
+
+g(x)  = 1/3 x + 4  
+
+y  = 1/3 x + 4   –4 
+
+y – 4  = 1/3 x   
+
+ : 1/3 
+
+ 3y – 12  = x 
+
+g–1: y = 3x – 12 
+
+Antwort: Die Funktionsgleichung von g–1 lautet: y = 3x – 12 
+
+68 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 1 
+
+In einer Prüfung haben die Kandidaten wie folgt abgeschnitten: 
+
+Aufgaben 
+
+56  Punkte  (Note  2);  35  Punkte  (Note  3);  28  Punkte  (Note  4);  20  Punkte  (Note  4); 
+43 Punkte (Note 2). 
+
+1.1  Bestimmen Sie Definitions- und Wertemenge der Funktion! 
+
+1.2  Zeichnen Sie das zugehörige Pfeildiagramm! 
+
+Aufgabe 2 
+
+Bestimmen Sie anhand des Funktionsgrafen die Definitions- und Wertemenge! 
+
+2.1 
+
+2.2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+69 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 3 
+
+Entscheiden Sie, ob es sich bei dem Grafen um einen Funktionsgrafen handelt! 
+
+3.1 
+
+3.2 
+
+3.3 
+
+70 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 4 
+
+Geben Sie die Definitionsmenge und die Zuordnungsvorschrift der dargestellten Funk-
+tion an! 
+
+4.1 
+
+4.2 
+
+Aufgabe 5 
+
+Berechnen Sie die Steigung der Ursprungsgeraden durch den Punkt P! 
+
+5.1  P(–6;–2) 
+
+5.2  P(–8;6) 
+
+Aufgabe 6 
+
+Zeichnen Sie den Grafen einer linearen Funktion, der durch die Punkte P und Q geht! 
+Berechnen Sie die Funktionsgleichung! 
+
+6.1  P(–3;5);Q(–6;6) 
+
+6.2  P(4;–2); Q(1;0) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+71 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 7 
+
+Bestimmen Sie zeichnerisch die Nullstelle der Funktion! Kontrollieren Sie durch Rech-
+nung! 
+
+7.1 
+
+f(x) = –1,5x + 0,5 
+
+7.2  g(x) = 2x – 8 
+
+Aufgabe 8 
+
+Berechnen Sie den Schnittpunkt der Geraden. 
+
+8.1 
+
+f(x)  = –3x – 10 
+g(x) = 0,5x – 3 
+
+8.2 
+
+f(x)  verläuft durch P(–2;1) und Q(2;–5) 
+g(x) verläuft durch R(6;0) und T(–3;–3) 
+
+Aufgabe 9 
+
+Bestimmen Sie rechnerisch die Lösungsmenge! 
+
+9.1 
+
+(I)  3x + 6y = 90 
+(II)  2y – 4x = 140 
+
+9.2 
+
+(I)  4x + 2y = 36 
+(II)  –8y = 6x – 20 
+
+9.3 
+
+(I)  4y + 8x = –84 
+(II)  -50 – 6y = 7x 
+
+9.4 
+
+(I)  2y – [2x – 2 (6 + 4x)] = 5(3 – y) 
+(II)  3[6x – (7y + 5 )] = 9x – 7(y + 2) 
+
+Aufgabe 10 
+
+Die Kosten für einen Leihwagen  setzen sich aus einer Grundgebühr und den Kosten 
+für jeden  zurück  gelegten  Kilometer  zusammen. Für  160  Kilometer  zahlt  Herr  A.  ins-
+gesamt einen Betrag von € 40,10. Frau B. zahlt für eine Strecke von 120 Kilometern 
+35,70 €. 
+
+Berechnen Sie die Grundgebühr und die Kosten pro Kilometer! 
+
+Aufgabe 11 
+
+Eine Messinglegierung mit einem Kupferanteil von 85 % soll durch Zuschmelzen einer 
+Messinglegierung mit  einem  Kupferanteil von  55  %  auf  einen  Kupfergehalt von  72 % 
+reduziert  werden.  Insgesamt  sollen  100  Kilogramm  Messing  der  neuen  Legierung 
+entstehen. 
+
+Berechnen Sie die Anteile der ursprünglichen Legierungen! 
+
+72 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 12 
+
+Bestimmen Sie die Funktionsgleichung der Umkehrfunktion! 
+
+12.1 
+
+12.2  g(x) = –5x – 10 
+
+Eine  Maschinenfabrik  kalkuliert  für  die  Entwicklung  einer  Maschine  Kosten  in  Höhe 
+von  1 500 000 €.  Die  Produktionskosten  einer  Maschine  werden  mit  50 000 €  veran-
+schlagt. Die Firma rechnet mit einem Verkaufserlös von 150 000 €. 
+
+Realisierung  
+Komplexaufgabe 
+„Bestimmung einer 
+Grenzstückzahl“ 
+
+1.1  Berechnen Sie, ab welcher Stückzahl verkaufter Maschinen die Maschinenfabrik 
+
+mit positiven Einnahmen rechnen kann! 
+
+1.2  Berechnen Sie die Höhe der dann erzielten Einnahmen! 
+
+1.3  Stellen Sie die Lösung grafisch dar! 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+73 
+
+4x21f(x)+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Lösungen 
+
+Lösungsanhang 
+
+1 Zuordnung und ihre Darstellungen 
+
+Aufgabe 1.1 
+
+1A  →  120 min  →  120 min 
+2A  →  58 min  →  116 min 
+3A  →  37 min  →  111 min 
+4A  →  27 min  →  108 min 
+5A  →  21 min  →  105 min 
+6A  →  17 min  →  102 min 
+
+Anzahl der 
+Arbeiter 
+
+Zeit in min 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+120 
+
+116 
+
+111 
+
+108 
+
+105 
+
+102 
+
+Aufgabe 1.2 
+
+Aufgabe 2.1 
+
+Zeit (h) 
+
+Weg (km) 
+
+4 
+
+6 
+
+2 
+
+240 
+
+360 
+
+120 
+
+74 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+604240k== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 2.2 
+
+x → 60 x 
+
+Aufgabe 3.1 
+
+Gewicht (kg) 
+
+Anzahl der 
+Packungen 
+
+3 
+
+5 
+
+15 
+
+1000 
+
+600 
+
+200 
+
+c = 3  1000 = 3000 
+
+Aufgabe 3.2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+75 
+
+x3000x→ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 4.1 
+
+10 km → 28,5 min 
+
+k = 2,85 
+
+k gibt die Zeit pro km an. 
+
+x → 2,85x 
+
+0,1 km:  2,85 min/km  0,1 km =   0,285 min 
+0,4 km:  2,85 min/km  0,4 km =   1,14 min 
+1,0 km:  2,85 min/km  1,0 km =   2,85 min 
+5,0 km:  2,85 min/km  5,0 km =   14,25 min 
+
+Aufgabe 4.2 
+
+Aufgabe 5.1 
+
+21 Zähne → 4,80 m  
+
+c = 21  4,80 = 100,8 
+
+13 Zähne:  100,8 : 13 = 7,75 m 
+6,72 m 
+15 Zähne: 
+5,93 m 
+17 Zähne: 
+5,31 m 
+19 Zähne: 
+4,20 m 
+24 Zähne: 
+
+76 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+x8,100x→ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 5.2 
+
+Aufgabe 6 
+
+Fläche in m2 
+
+Schichtdicke in cm 
+
+Erdmenge in Tonnen 
+
+Antwort:  Es werden 156 Tonnen Erde abgefahren. 
+
+Aufgabe 7.1 
+
+ x + 6 =  –11 
+
+| – 6 
+
+x =  –17 
+
+L =  {–17} 
+
+Aufgabe 7.2 
+
+  3x =  54 
+
+| : 3 
+
+x =  18 
+
+L =  {18} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+77 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+| + 21 
+
+| : (–3) 
+
+Aufgabe 7.3 
+
+ –3x – 21 =  –63 
+
+–3x =  –42 
+
+x =  14 
+
+L =  {14} 
+
+Aufgabe 7.4 
+
+ –[3(1 – x) – 5(6 – x)] =  –3(9 – x) + 14 
+
+  –[3 – 3x – 30 + 5x] =  –27 + 3x + 14 
+
+27 – 2x =  3x – 13 
+
+–5x + 27 =  –13 
+
+–5x =  –40 
+
+x =  8 
+
+L =  {8} 
+
+| – 3x 
+
+| – 27 
+
+| : (–5) 
+
+Aufgabe 7.5 
+
+7x – [5(x – 7)2 + 3(x – 1)2] =  21 – 8x2 – 20 
+
+  7x – [5(x2 – 14x + 49) + 3(x2 – 2x + 1)] =  1 – 8 x2 
+7x – 8 x2 + 76 x – 248 =  1 – 8 x2 
+
+83 x =  249 
+
+| : 83 
+
+x =  3 
+
+L =  {3} 
+
+Aufgabe 7.6 
+
+75x + 99 =  108x + 100 
+
+–33x + 99 =  100 
+
+–33x =  1 
+
+x =  –1/33 
+
+L =  {–1/33} 
+
+| – 108x 
+
+| – 99 
+
+| : (–33) 
+
+78 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+918418x4918)x3(183)6x14(182)x7(1818:HN94x49)x3(1836x142x7−++=++−−++=++− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 7.7 
+
+L = 
+
+Aufgabe 8.1 
+
+ 3x + 5 =  0 
+
+ 5x + 1 =  0 
+
+3x =  –5 
+
+x =  –5/3 
+
+5x =  –1 
+
+x =  –1/5 
+
+D = 
+
+ \ {–1/5;–5/3} 
+
+HN: (3x + 5)(5x + 1) 
+
+22x + 5 =  11x + 60 
+
+11x + 5 =  60 
+
+11x =  55 
+
+x =  5 
+
+L =  {5} 
+
+| – 11x 
+
+| – 5 
+
+| : 11 
+
+Aufgabe 8.2 
+
+3x + 3 =   3(x + 1) 
+
+5x – 5 =   5 
+
+(x – 1) 
+ 15x2 – 15 =  15(x + 1) (x – 1) 
+HN:  15(x + 1) (x – 1) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+79 
+
+ab1abxab1axab1:|aab1xaaxbxax|aaxbx0ba|axabx−=−=−=−=−−+=+=−−ab1ab1x5x5125x3x35+−=+−1x5)1x5)(5x3)(x512(5x3)1x5)(5x3)(x35(+++−=+++−15x1558x69x115x54x33x35x422−+−=−+−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+3(x + 1) = 0 
+
+x =  –1 
+
+D = 
+
+ \ {–1; 1} 
+
+5(x – 1) = 0 
+
+x =  1 
+
+–66x + 13 =  –69x + 58 
+
+3x + 13 =  58 
+
+3x =  45 
+
+x =  15 
+
+L =  {15} 
+
+Aufgabe 9 
+
+vor dem Mischen 
+
+nach dem Mischen 
+
+in Volumen-Prozent 
+
+96 %iger Alkohol 
+
+x Liter 
+
+20 %iger Alkohol 
+
+1/2 Liter 
+
+x  96/100 
+
+0,5  20/100 
+
+(x + 0,5) 32/100 
+
+32%iger Alkohol 
+
+(x + 0,5) Liter 
+
+Gleichung: 
+
+x  96/100 + 0,5  20/100 = (x + 0,5) 32/100 
+
+x = 0,09375 
+
+Antwort:  Es werden 93,75 cm3 vom 96 %igen Alkohol benötigt. 
+
+Aufgabe 10.1 
+
+vF = 550 km/h 
+
+vJ = 950 km/h 
+
+Verkehrsflugzeug 
+
+Jumbo 
+
+Flugzeit 
+
+Geschwindigkeit 
+
+Strecke 
+
+x 
+
+550 
+
+550x 
+
+x – 2 
+
+950 
+
+950(x – 2) 
+
+Gleichung: 
+
+550x = 950(x – 2) 
+
+x = 4,75 
+
+Antwort:  Nach  einer  Flugzeit  von  4,75  Stunden  für  das  Verkehrsflugzeug  treffen 
+
+sich beide Flugzeuge. 
+
+80 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+)1x(15)]1x(15)[58x69x11()1x(515)1x)(1x)(4x3()1x(315)1x)(1x)(5x4(222−−+−=−−++−+−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 10.2 
+
+Zurückgelegte Strecke: 
+
+550  x = 2612,5 
+
+Antwort:  Die Flugzeuge sind 2612,5 km von Düsseldorf entfernt. 
+
+Aufgabe 11.1 
+
+ 3(7 – 2x) – 12   8 – 7x 
+
+x + 9   8 
+
+x   –1 
+
+L =  {x  
+
+ | x  –1} 
+
+Aufgabe 11.2 
+
+ 2(x – 2)(x – 5)   2x2 – 4x – 10 
+2x2 – 14x + 20   2x2 – 4x – 10 
+
+–10x   –30       : (–30) 
+
+x   3 
+
+L =  {x  
+
+  x  3} 
+
+Aufgabe 12 
+
+Angebot 1:  1000 + 0,06  x 
+Angebot 2:  1250 + 0,04  x 
+
+Ungleichung:  1000 + 0,06 x > 1250 + 0,04 x 
+
+x > 12500 
+
+Antwort:  Von  einem  monatlichen  Umsatz  von  >  12.500 €  an  wird  das  1. Angebot 
+
+günstiger.  
+
+2 Funktionen als eindeutige Zuordnungen 
+
+Aufgabe 1.1 
+
+D = {56;43;35;28;20} 
+
+W = {2;3;4} 
+
+Aufgabe 1.2 
+
+56 → 2 
+43 → 2 
+35 → 3 
+28 → 4 
+20 → 4 
+
+Aufgabe 2.1 
+
+D = {–3;–2;–1;0;1;2;3;4;5} 
+
+W = {3;2;1;0;–1} 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+81 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 2.2 
+
+D = {–2;–1;0;1;2;3;4;5;6} 
+
+W = {–1;0;1;2;3} 
+
+Aufgabe 3.1 
+
+Ja! f(x) = 3 
+
+Aufgabe 3.2 
+
+Nein! Zuordnung ist nicht eindeutig. 
+
+Aufgabe 3.3 
+
+Nein! Zuordnung ist nicht eindeutig.  
+
+Aufgabe 4.1 
+
+D = {x  
+
+; –4; –3; 1; 5; 7,4; 10}     f(x) = 2x – 2 
+
+Aufgabe 4.2 
+
+D = {x  
+
+;–1  x  5} f(x) = –x + 4 
+
+Aufgabe 5.1 
+
+Aufgabe 5.2 
+
+Aufgabe 6.1 
+
+82 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+)2;6(P−−x31)x(fm31)6(m2mx)x(f==−=−=)6;8(P−x43)x(fm86)8(m6mx)x(f−==−−==)5;3(P−)6;6(Q−31m)3(656xxyym1212−=−−−−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 6.2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+83 
+
+bx31)x(f+−=4x31)x(f4bb15b)3(31)3(f)5;3(Pfür+−==+=+−−=−−)2;4(P−)0;1(Q32m41)2(0m−=−−−=bx32)x(f+−=32x32)x(fb32b1320bx32)1(f)0;1(Qfür+−==+−=+−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 7.1 
+
+84 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+31x5,0x5,100y5,0x5,1)x(f=+−==+−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 7.2 
+
+Aufgabe 8.1 
+
+Aufgabe 8.2 
+
+f(x) durch P(–2;1) und Q(2;–5) 
+
+f(x) = –1,5x + b 
+
+für P: 
+
+f(x) = –1,5x – 2 
+
+g(x) durch R(6;0) und T(–3;–3) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+85 
+
+4x8x200y8x2)x(g=−==−=10x3)x(f−−=3x5,0)x(g−=2x3x5,010x3)x(g)x(f−=−=−−=410)2(3)2(f−=−−−=−)4;2(S−−5,1)2(215m−=−−−−=2bb31b)2(5,1)2(f−=+=+−−=−316303m=−−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+g(x) = 1/3x + b 
+
+für T: 
+
+g(x) = 1/3x – 2 
+
+Schnittpunkt S: 
+
+für g(x): 
+
+Aufgabe 9.1 
+
+15x 
+x 
+
+= –330 
+= –22 
+
+Aufgabe 9.2 
+
+10x 
+x 
+
+= 124 
+= 12,4 
+
+Aufgabe 9.3 
+
+10x 
+x 
+
+= –152 
+= –15,2 
+
+L = {(–22;26)} 
+
+L = {(12,4;–6,8)} 
+
+L = {(–15,2;9,4)} 
+
+86 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+2bb13b)3(31)3(g−=+−=−+−=−0x2x312x5,1)x(g)x(f=−=−−=)2;0(S2)0(g2x31)x(g−−=−=)3(|140y2x490y6x3−=+−=+26y156y6x390y6==−=20y8x64|36y2x4−=−−=+8,6y4,54y820x6y8−==−−=−)2(|50x7y6)3(|84x8y4=−−−=+4,9y846,121y484x8y4=−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 9.4 
+
+L = {1/3;1/7} 
+
+Aufgabe 10 
+
+Antwort: Die Grundgebühr beträgt 22,50 €; der Kilometerpreis beträgt 0,11 €. 
+
+Aufgabe 11 
+
+Messing 85 %: x 
+
+Messing 55 %: y 
+
+Antwort:  Der  Anteil  des  85 %igen  Messings  beträgt  56  2/3  kg;  der  Anteil  des  
+
+55 %igen Messings beträgt 43 1/3 kg. 
+
+Aufgabe 12.1 
+
+f–1(x): y = 2x – 8 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+87 
+
+31x7x211x9y143x6y714y7x9)5y7x6(3y515)x812x2(y2===+−=+−−=−−−=−−−71y1y732y7===+50,22y70,35yx12010,40yx160==+=+11,0x50,2210,40x160=−=3143y10072,0y55,0x85,0100yx==+=+3256xy100x=−=x8y2x214y4x21y4x21)x(f=−=−+=+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 12.2 
+
+g–1(x) = –1/5x – 2  
+
+Komplexaufgabe „Bestimmung einer Grenzstückzahl“ 
+
+Aufgabe 1 
+
+Festlegen der Variablen 
+
+Anzahl der verkauften Maschinen 
+
+x 
+
+Kosten 
+
+Erlös 
+
+yK 
+
+yE 
+
+Kostengleichung  
+
+1 500 000 + 50 000 x = yK 
+
+Erlösgleichung 
+
+150 000 x = yE 
+
+Aufgabe 1.1 
+
+Wenn yK = yE, sind Kosten und Erlös gleich groß. 
+
+(I) 
+
+(II) 
+
+y = 1 500 000 + 50 000 x 
+
+y = 150 000 x 
+
+(I)  –3y = –4 500 000 – 150 000 x 
+
+(II) 
+
+y = 150 000 x 
+
+–2y = –4 500 000 
+
+y = 2 250 000 
+
+eingesetzt in (II): 
+
+Antwort:  Wenn von der Maschine 15 Stück verkauft werden, sind Kosten und Erlös 
+gleich groß; d.h. wenn die Firma mehr als 15 Maschinen verkauft, hat sie 
+positive Einnahmen. 
+
+88 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+x2y2,0x510y10x5y10x5)x(g=−−−=+−−=−−=150001500002502x= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+Aufgabe 1.2 
+
+yE = 2 250 000 
+
+Antwort: Die dann erzielten Einnahmen betragen 2 250 000 Euro. 
+
+Aufgabe 1.3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+89 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Funktionen und Gleichungen erster Ordnung einordnen und anwenden 
+
+90 
+
+© DAA-Technikum Essen / gs-21_00_math_lm2.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

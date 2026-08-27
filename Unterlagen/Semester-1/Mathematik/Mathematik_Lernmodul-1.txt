@@ -1,0 +1,7798 @@
+Fachrichtung:  alle Fachrichtungen 
+
+Schwerpunkt:  alle Schwerpunkte 
+
+FACH: 
+
+Mathematik I 
+
+Lernmodul 1 
+
+Zahlen kennen und Grundrechenarten 
+anwenden 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Zahlen kennen und Grundrechenarten anwenden 
+
+LERNMODUL 1 
+
+Die Basis  der mathematischen  Modelle  und  Verfahren  bilden  definierte  Symbole  und 
+Zahlendarstellungen sowie elementare Rechenregeln.  
+
+Ziele 
+
+Je  nach  Ausbildung  und  beruflichem Werdegang  ist  diese  Basis  unterschiedlich  prä-
+sent. Technikerinnen und Techniker müssen aber in ihrem Berufsfeld die mathemati-
+schen  Grundlagen  sicher  beherrschen,  um  sie  als Werkzeug  zur  Lösung von  techni-
+schen Problemen einsetzen zu können. 
+
+Daher werden in den Lernbereichen 1 bis 3 die mathematischen Zahlendarstellungen, 
+Zahlenmengen und Grundrechenarten wiederholt und vertieft. 
+
+Alle notwendigen Informationen und Arbeitsunterlagen sind in diesem Lernmodul ent-
+halten. 
+
+Ausgangssituation 
+
+Dieses Lernmodul ist im häuslichen Studium zu erarbeiten. 
+
+Der benötigte Zeitaufwand liegt bei ca. 20 Stunden. 
+
+Planung 
+
+Zusätzlich  finden  in  den  semesterbezogenen  Präsenzphasen  7  Stunden  Festigung 
+und Vertiefung fachspezifischer und fächerübergreifender Zusammenhänge sowie die 
+Beschreibung typischer Aufgaben und Problemstellungen statt. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Inhaltsverzeichnis 
+
+Zahlen kennen und Grundrechenarten anwenden 
+
+1 Mathematische Zahlendarstellungen................................................................... 5 
+
+1.1 Zeichen und Abkürzungen ................................................................................ 5 
+
+1.2 Runden von Zahlen .......................................................................................... 6 
+
+1.3 Zehnerpotenzen ............................................................................................... 9 
+
+1.4 Zweiersystem ................................................................................................. 12 
+
+2 Zahlenmengen .................................................................................................... 16 
+
+2.1 Natürliche Zahlen ........................................................................................... 17 
+
+2.2 Ganze Zahlen ................................................................................................ 18 
+
+2.3 Rationale Zahlen ............................................................................................ 19 
+
+2.4 Reelle Zahlen ................................................................................................. 24 
+
+2.5 Komplexe Zahlen ........................................................................................... 32 
+
+3 Grundrechenarten .............................................................................................. 38 
+
+3.1 Addition und Subtraktion ................................................................................ 38 
+
+3.2 Multiplikation und Division .............................................................................. 47 
+
+3.3 Klammerrechnen und Faktorisieren ................................................................ 53 
+
+3.4 Binomische Formeln ....................................................................................... 67 
+
+3.5 Polynomdivision ............................................................................................. 72 
+
+Lösungsanhang ..................................................................................................... 77 
+
+4 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+Lernbereich 
+
+Zahlen kennen und Grundrechenarten anwenden 
+
+1 Mathematische Zahlendarstellungen 
+
+1.1 Zeichen und Abkürzungen 
+
+In der modernen Industrie- und Kommunikationsgesellschaft haben immer mehr Men-
+schen  mit  mathematisch  bestimmten  oder  beeinflussten  Problemen  zu  tun.  Die  Be-
+deutung der Mathematik für die Gesellschaft und hier vor allem für Führungskräfte im 
+technischen,  kaufmännischen  und  informationstechnologischen  Bereich  sind  offen-
+kundig. 
+
+Im Laufe der Geschichte hat sich die Mathematik von ihrer „Anwendbarkeit“ zu einem 
+abstrakten,  nur  von  den  Gesetzen  der  Logik  bestimmten  System  mit  einer  eigenen 
+„Sprache“ und „Grammatik“ entwickelt. 
+
+An dieser Stelle wird eine Übersicht über die wichtigsten Zeichen und Abkürzungen 
+gegeben, um die Möglichkeit zu bieten, bei Bedarf nachzuschlagen und um „Sprache“ 
+und „Grammatik“ der Mathematik verstehen zu können. 
+
+Mengen 
+
+M = {5, 6, 7, 8} 
+
+Menge aus den Elementen 5, 6, 7, 8 in aufzählender Form 
+
+L 
+
+{ } 
+
+G 
+
+W 
+
+Lösungsmenge für eine Gleichung bzw. Ungleichung 
+
+leere Menge 
+
+Grundmenge 
+
+Wertemenge 
+
+M = {x   5  x  8} 
+
+Menge in beschreibender Form 
+
+D 
+
+Definitionsmenge 
+
+Beziehungen zwischen Zahlen 
+
+a = b 
+
+x  y 
+
+ 
+
+c  d 
+
+e  f 
+
+a  b 
+
+a gleich b 
+
+x ungleich y 
+
+nahezu gleich  
+
+c größer als d 
+
+e kleiner als f 
+
+a kleiner oder gleich b 
+
+Verknüpfungen von Zahlen 
+
+a + b 
+
+x – y 
+
+a  b 
+
+Summe (a plus b) 
+
+Differenz (x minus y) 
+
+Produkt (a mal b) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+x : y 
+
+ab 
+
+Quotient (x geteilt durch y) 
+
+Potenz (a hoch b) 
+
+Betrag der Zahl x 
+
+Quadratwurzel aus a , a  0  
+
+n-te Wurzel aus a , a  0 
+
+Geometrie 
+
+A, B, C ... 
+
+Punkte 
+
+g, h, k 
+
+g  h 
+
+g ⊥ h 
+
+P (5|10) 
+
+Strecke mit den Endpunkten C und D 
+
+Geraden 
+
+g ist parallel zu h 
+
+g ist senkrecht zu h 
+
+Punkt 
+5 (x-Wert) und 10 (y-Wert) 
+
+im  Koordinatensystem  mit  den  Koordinaten  
+
+Vektoren 
+
+       
+
+alpha, beta, gamma, delta, epsilon, rho, phi          
+
+(PSQ) 
+
+ (a, b) 
+
+
+
+Winkelbezeichnungen   
+
+ ABC ist kongruent zu  ABC 
+
+1.2 Runden von Zahlen 
+
+Bei Schätzungen, Vergleichen oder Überschlagsrechnungen sind häufig nur genäher-
+te Zahlenangaben von Bedeutung. So ist z.B. bei der Angabe der Einwohnerzahl einer 
+Stadt mit 25835 die Angabe: ≈ 26000 genau genug. 
+
+Auch  Berechnungen  bei  technischen  Sachverhalten  können  zu  Ergebnissen  führen, 
+die  sich  jeder  Messmöglichkeit  entziehen.  Soll  eine  Strecke  von  12  cm  Länge  in  7 
+gleiche Teile aufgeteilt werden, ergibt sich:  
+
+12 cm : 7 = 1,714 285 cm 
+
+An  den  beiden  Beispielen  ist  deutlich  geworden,  dass  das  Runden  von  Zahlen  nicht 
+Selbstzweck ist, sondern praktischen Überlegungen folgt. Diese praktischen Erforder-
+nisse  entscheiden  auch  darüber,  auf  wie viele  Stellen  gerundet  werden  soll.  Hier  gilt 
+die Regel: Zahlen sollten so genau wie nötig angegeben werden.  
+
+6 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+xanaCDv,b,aCBAABC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Regeln für das Runden von Zahlen auf n Dezimalstellen 
+
+Steht  an  der  (n  +  1)-ten Stelle  eine  der  Ziffern  0,  1,  2,  3 oder  4,  wird  die  n-te  Stelle 
+abgerundet, d.h. sie bleibt unverändert. 
+
+Beispiele: 9,81 ≈ 9,8 
+
+22,743 ≈ 22,74 
+
+Steht  an  der  (n  +  1)-ten Stelle  eine  der  Ziffern  5,  6,  7,  8 oder  9,  wird  die  n-te  Stelle 
+aufgerundet. 
+
+Beispiele: 9,86 ≈ 9,9 
+
+22,747 ≈ 22,75 
+
+Ist eine 5 durch Aufrunden entstanden, so wird im nächsten Schritt abgerundet. 
+
+Beispiel: 0,145 ≈ 0,15 ≈ 0,1 
+
+Lehrbeispiel 1 
+
+Runden Sie jeweils auf die angegebene Rundungsstelle! 
+
+8763 (6), 13955 (3), 12,67501 (7), 0,075 (7), 8,65 (6) 
+
+Lösung 
+
+8763 (6) 
+
+Die auf die 6 folgende Ziffer ist die 3: abrunden   8763 ≈ 8760 
+
+13955 (3) 
+
+Die auf die 3 folgende Ziffer ist die 9: aufrunden  13955 ≈ 14000 
+
+12,67501 (7)  Die auf die 7 folgende Ziffer ist die 5: aufrunden  12,67501 ≈ 12,68 
+
+0,075 (7) 
+
+Die auf die 7 folgende Ziffer ist die 5: aufrunden  0,075 ≈ 0,08 
+
+8,65 (6) 
+
+Die auf die 6 folgende Ziffer ist die 5: aufrunden  8,65 ≈ 8,7 
+
+Da  jedes  Messgerät  (Thermometer,  Zollstock,  Stoppuhr  usw.)  Messwerte  von  be-
+grenzter  Genauigkeit  liefert,  ist  jedes  Messergebnis  ein  Näherungswert  des  exakten 
+Messwertes. 
+
+Lehrbeispiel 2 
+
+Addieren Sie die Näherungswerte!  
+
+8,4123 + 9,7 + 4,505 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Runden Sie alle Näherungswerte auf so viele Nachkommastellen, wie der ungenaues-
+te Wert (9,7) hat. 
+
+8,4123 ≈ 8,4     4,505 ≈ 4,5 
+
+Addieren Sie die gerundeten Werte. 8,4 + 9,7 + 4,5 = 22,6 
+
+Lehrbeispiel 3 
+
+Subtrahieren Sie die Näherungswerte! 
+
+10,958 – 3,27 – 5,791 
+
+Lösung 
+
+Der ungenaueste Wert (3,27) hat zwei Nachkommastellen.  
+
+10,958 ≈ 10,96 
+5,791 ≈  5,79 
+
+Antwort:  10,96 – 3,27 – 5,79 = 1,9 
+
+Lehrbeispiel 4 
+
+Multiplizieren Sie! 
+
+2,56  0,83 
+
+Lösung 
+
+Der  ungenaueste  Faktor  (0,83)  enthält  zwei  gültige  Ziffern.  Deshalb  wird  auch  der 
+Faktor 2,56 auf zwei gültige Ziffern gerundet.  
+
+2,56 ≈ 2,6 
+
+Die Multiplikation lautet dann: 2,6 · 0,83 = 2,158 
+
+Das Ergebnis wird nun ebenfalls auf zwei gültige Ziffern gerundet: 2,158 ≈ 2,2 
+
+Antwort:  2,56  0,83 ≈ 2,2 
+
+Lehrbeispiel 5 
+
+Dividieren Sie! 
+
+39,74 : 5,3 
+
+Lösung 
+
+Die  ungenauere  Zahl  enthält  zwei  gültige  Ziffern  (5,3).  Daher  wird  auch  die  zweite 
+Zahl auf zwei gültige Ziffern gerundet: 39,74 ≈ 40 
+
+8 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Die Division lautet dann: 40 : 5,3 = 400 : 53 = 7,54... 
+
+Das Ergebnis wird auf zwei gültige Ziffern gerundet: 7,54... ≈ 7,5 
+
+Antwort:  39,74 : 5,3 ≈ 7,5 
+
+1.3 Zehnerpotenzen 
+
+In  den  Naturwissenschaften  und  der  Technik  wird  häufig mit  sehr  großen  Zahlen  ge-
+arbeitet.  
+
+Lehrbeispiel 1 
+
+Ein  Lichtjahr  entspricht  der  Entfernung,  die  das  Licht  in  einem  Jahr  zurücklegt.  Licht 
+breitet sich mit der Geschwindigkeit von etwa 300 000 km/s aus. 
+
+Berechnen Sie die Entfernung von einem Lichtjahr (Lj) in Kilometern!  
+
+Lösung 
+
+1 Jahr 
+1 Tag 
+1 Stunde = 3600 Sekunden 
+
+= 365 Tage 
+= 24 Stunden 
+
+1 Lj 
+
+= 365  24  3600 s  300 000 km/s 
+
+Antwort: Ein Lichtjahr entspricht einer Entfernung von etwa 9 460 800 000 000 km. 
+
+Dieses  Ergebnis  ist  recht  unübersichtlich  und  nur  sehr  mühsam  zu  lesen.  Daher  hat 
+man in den Naturwissenschaften eine Möglichkeit gesucht, solch große Zahlen über-
+sichtlicher  zu  schreiben.  Dabei  hat  man  den  Aufbau  unseres  Zahlensystems  zur 
+Grundlage  gemacht.  Unser  Zahlensystem  gehört  zu  den  Stellenwertsystemen;  es 
+beruht  auf  der Grundzahl  10.  Daher  wird  es  Zehner- oder  Dezimalsystem  genannt. 
+Die 1, 10, 100, 1000, ... nennt man die Stufenzahlen des Zehnersystems. 
+
+Die Stufenzahlen unterscheiden sich demnach nur durch die Anzahl der Nullen, die an 
+die Ziffer 1 angehängt werden. 
+
+Diese Eigenschaft der Stufenzahlen hat man zur Grundlage einer verkürzten Schreib-
+weise gemacht. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Die  Stufenzahl  10  wird  zur  Grundzahl  (Basis),  die  Anzahl  der  Nullen  wird  zur 
+Hochzahl (dem Exponenten) einer Potenz (Zehnerpotenz). 
+
+1  =  100 
+10  =  101 
+100  =  102 
+1 000  =  103 
+10 000  =  104 
+100 000  =  105 
+1 000 000  =  106 
+1 000 000 000  =  109 
+1 000 000 000 000  =  1012 
+1015 
+1018 
+1021 
+1024  Quadrillion 
+1027  Quadrilliarde 
+
+Eins 
+Zehn 
+Hundert 
+Tausend 
+Zehntausend   
+Hunderttausend 
+Million 
+Milliarde 
+Billion 
+Billiarde 
+Trillion 
+Trilliarde 
+
+(keine Null hinter der Ziffer 1) 
+(eine Null hinter der Ziffer 1) 
+Vorsilbe: Hekto;  Kurzform: h 
+Vorsilbe: Kilo;  Kurzform: k 
+
+Vorsilbe: Mega;  Kurzform: M 
+Vorsilbe: Giga;  Kurzform: G 
+Vorsilbe: Tera;  Kurzform: T 
+
+Eine Zahl lässt sich so in zwei Faktoren zerlegen, dass der Wert des 1. Faktors 
+zwischen 1 und 10 liegt und der 2. Faktor eine Zehnerpotenz ist. 
+
+3 000 000 = 3  1 000 000 
+
+= 3  106 
+
+5 185 000 = 5,185  1 000 000  
+
+= 5,185  106 
+
+Lehrbeispiel 2 
+
+Schreiben Sie mithilfe von Zehnerpotenzen! 
+
+1 230 000, 232 400, 9 184 530  
+
+Lösung 
+
+1 230 000 = 
+
+Der  1.  Faktor  (zwischen  1  und  10)  enthält  alle  von  Null  verschiedenen  Ziffern: 
+1,23 
+
+Der  2. Faktor  (Zehnerpotenz)  ergibt  sich  aus  der  Anzahl  der Stellen,  die  insgesamt 
+abgestrichen worden sind: 106. 
+
+Antwort:  1 230 000 = 1,23  106 
+
+232 400 = 2,324  105 (5 Stellen von rechts abgestrichen) 
+
+9 184 530 = 9,18453  106 
+
+Zur  Darstellung  kleinster  Längen  werden  neben  der  Einheit  Millimeter  noch  kleinere 
+Einheiten verwendet.  So  werden  z.B.  die  Längen von Lichtwellen  häufig  in  Mikrome-
+tern (μm) angegeben (1 μm = 0, 000 001 m). 
+
+10 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Um  auch  kleine  Zahlen  mithilfe  von  Zehnerpotenzen  darstellen  zu  können,  hat  man 
+das vorgestellte System erweitert. 
+
+0,1  =  1/10   
+
+=  10–1 
+
+Zehntel (eine Null wird ange-
+hängt, allerdings im Nenner) 
+Vorsilbe: dezi; Abkürzung: d 
+
+0,01  =  1/100  
+
+=  10–2  Hundertstel (zwei Nullen 
+
+0,001   =  1/1 000  
+
+=  10–3 
+
+werden angehängt) 
+Vorsilbe: Zenti; Abkürzung: c 
+
+Tausendstel 
+Vorsilbe: Milli; Abkürzung: m 
+
+  0,000 001   =  1/1 000 000  
+
+=  10–6  Millionstel 
+
+Vorsilbe: Mikro; Abkürzung:  
+
+0,000 000 001   =  1/1 000 000 000  
+
+=  10–9  Milliardstel 
+
+Vorsilbe: Nano; Abkürzung: n  
+
+0,000 000 000 001  =  1/1 000 000 000 000   =  10–12  Billionstel 
+
+Vorsilbe: Piko Abkürzung: p 
+
+Lehrbeispiel 3 
+
+Schreiben Sie mithilfe von Zehnerpotenzen! 
+
+0,004; 0,0014; 0,000 000 76 
+
+Lösung 
+
+0,004 = 
+
+Der 1. Faktor (zwischen 1 und 10) enthält alle von Null verschiedenen Ziffern: 4 
+
+Der 2. Faktor (Zehnerpotenz) ergibt sich aus der Anzahl der Stellen, die vom Komma 
+aus bis hinter die erste Ziffer des 1. Faktors gezählt wird: 10–3 
+
+Antwort:  0, 004 = 4  10–3  
+
+0, 001 4 = 1,4  10–3 
+
+0, 000 000 76 = 7,6  10–7 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+1.4 Zweiersystem 
+
+Wie  bereits  gezeigt  wurde,  ist  die  Stufenzahl  10  Grundlage  unseres  Zahlensystems. 
+Dafür  gibt  es  vor  allem  historische  Gründe  (10  Finger  zum  Zählen).  Grundsätzlich 
+kann jede beliebige Zahl als Stufenzahl dienen (Ausnahme: 1). 
+
+Im Zweiersystem, auch Dualsystem genannt, wird die Zahl 2 Stufenzahl; somit wer-
+den  die  Potenzen  zur  Basis  2  die  Einheiten  dieses  Stellenwertsystems,  mit  dessen 
+Hilfe sich jede natürliche Zahl eindeutig darstellen lässt. 
+
+Da sich die Dualzahlen leicht durch den Zustand einer elektrischen Schaltung (Schal-
+ter  geschlossen/offen)  darstellen  lassen,  werden  sie  in  der  elektronischen  Datenver-
+arbeitung verwendet. Man spricht von Binärzahlen. Es können  also nur die Ziffern 0 
+und 1 auftreten. 
+
+Lehrbeispiel 1 
+
+Schreiben Sie die Zahl 125 im Zweiersystem! 
+
+Lösung 
+
+Stufenzahlen 
+
+210 
+
+29 
+
+28 
+
+27 
+
+1024  512  256  128 
+
+26 
+
+64 
+
+25 
+
+32 
+
+24 
+
+16 
+
+23 
+
+8 
+
+22 
+
+4 
+
+21 
+
+2 
+
+20 
+
+1 
+
+Zunächst  wird  ein  Stellenwertsystem  mit  den  Zweierpotenzen  und  den  zugehörigen 
+Zahlen des Dezimalsystems aufgestellt. 
+
+Der 1. Lösungsschritt besteht darin, die größte in der Dezimalzahl enthaltene Zwei-
+erpotenz  zu finden. Anschließend  wird für  alle  Zweierpotenzen  niederen  Grades  (bis 
+20) geprüft, ob sie im jeweiligen Rest einmal (1) oder Null mal (0) enthalten sind. 
+
+125 = 1 · 26 
+
++  1 · 25  +  1 · 24  +  1 · 23  + 
+
+1 · 22 
+
++  0 · 21  +  1 · 20 
+
+64 
+Rest 61 
+
+32 
++ 
+  Rest 29 
+
+16 
++ 
+  Rest 13 
+
+8 
+
++ 
+  Rest 5 
+
+4 
+
++ 
+  Rest 1 
+
++ 
+
+0 
+
++ 
+
+1 
+
+Zur  Kennzeichnung  der  Dualzahl  verwendet  man  häufig  den  Index  2,  bei  den  Dezi-
+malzahlen wird der Index in der Regel weggelassen. 
+
+Antwort: 
+
+Lehrbeispiel 2 
+
+Übersetzen Sie die Dualzahl in die dezimale Schreibweise! 
+
+(1 0 0 1 0)2 
+
+12 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+2)1111101(125= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+(1 0 0 1 0)2 
+
+= 
+
+= 
+
+1 · 24 
+16 
+18 
+
++ 
++ 
+
+0 · 23 
+0 
+
++ 
++ 
+
+0 · 22 
+0 
+
++ 
++ 
+
+1 · 21 
+2 
+
++ 
++ 
+
+0 · 20 
+0 
+
+Das schriftliche Rechnen im Zweiersystem wird nach den gleichen Verfahren durchge-
+führt wie das Rechnen mit Dezimalzahlen. 
+
+Lehrbeispiel 3 
+
+Addieren Sie die Dualzahlen 10101 und 110! 
+
+Lösung 
+
+Wie im Zehnersystem werden auch hier im Zweiersystem die entsprechenden Poten-
+zen jeweils addiert. 
+
+Dualzahlen     Stufenzahlen (2n) 
+
+  Dezimalsystem 
+
+  10101   
++ 
+110   
+  11011   
+
+1  24   +   0  23  +  1  22  +  0  21  +  1  20 
+  1  22  +  1  21  +  0  20 
+1  24   +   1  23  +  0  22  +  1  21  +  1  20 
+
+21 
++  6 
+27 
+
+Lehrbeispiel 4 
+
+Multiplizieren Sie die Dualzahlen 11 und 101! 
+
+Lösung 
+
+Im Zweiersystem besteht das „Einmaleins“ nur aus vier Möglichkeiten (im Gegensatz 
+zum Zehnersystem: 100 Möglichkeiten): 
+
+0  0 = 0 
+
+0  1 = 0 
+
+1  0 = 0 
+
+1  1 = 1 
+
+(1  21 + 1  20) (1  22 + 0  21 + 1  20) 
+
+3  5 = 15 
+
+11  101 
+11 
+
+00 
+
+11 
+1111 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgaben 
+
+Aufgabe 1 
+
+Runden Sie folgende Dezimalzahlen auf die jeweils angegebene Stelle! 
+
+1.1 
+1.2 
+1.3 
+1.4 
+
+3,1505  (2. Stelle nach dem Komma) 
+19,67 
+(1. Stelle nach dem Komma) 
+1250,0  (3. Stelle vor dem Komma) 
+(2. Stelle vor dem Komma) 
+875,5 
+
+Aufgabe 2 
+
+Berechnen Sie die Summe bzw. Differenz der genäherten Zahlenwerte! 
+
+2.1  8,5441 + 25,489 + 0,75 
+2.2  33,567 – 9,8 
+
+Aufgabe 3 
+
+Berechnen Sie jeweils das Produkt bzw. den Quotienten der genäherten Zahlenwerte! 
+
+3.1  47,93  3,5 
+3.2  65,2 : 0,38 
+
+Aufgabe 4 
+
+Schreiben Sie folgende Zahlen mithilfe von Zehnerpotenzen! 
+
+4.1  5 000 000  
+4.2  1 230 000 000 
+4.3  9 184 530 
+
+Aufgabe 5 
+
+Geben Sie die Größe in der angegebenen Einheit mithilfe von Zehnerpotenzen an! 
+
+5.1  250 kW (W) 
+5.2  7 GW (W) 
+5.3  800 km (m) 
+
+Aufgabe 6 
+
+Schreiben Sie mithilfe von Zehnerpotenzen! 
+
+6.1  Die Erdoberfläche hat eine Größe von 510 Billionen Quadratmetern. 
+6.2  Das Volumen der Erde beträgt 1083 Trillionen Kubikmeter. 
+
+Aufgabe 7 
+
+Schreiben Sie mithilfe von Zehnerpotenzen! 
+
+7.1  0,000 7 
+7.2  0,000 000 72 
+7.3  0,000 001 
+
+14 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 8 
+
+Geben Sie die Größe in der angegebenen Einheit mithilfe von Zehnerpotenzen an! 
+
+8.1  12 μm (m) 
+8.2  1280 nm (m) 
+8.3  500 pF (F) 
+
+Aufgabe 9 
+
+Schreiben Sie mithilfe von Zehnerpotenzen in Metern! 
+
+9.1  Der Durchmesser eines Glühlampenfadens beträgt 8 μm. 
+9.2  Harte Röntgenstrahlen haben eine Wellenlänge von 250 nm. 
+
+Aufgabe 10 
+
+Schreiben Sie die Dezimalzahlen im Zweiersystem! 
+
+10.1  88 
+10.2  429 
+10.3  901 
+
+Aufgabe 11 
+
+Addieren Sie die Dualzahlen und überprüfen Sie im Dezimalsystem! 
+
+11.1  10010 + 10101 
+11.2  1111111 + 1100 
+
+Aufgabe 12 
+
+Multiplizieren Sie die Dualzahlen und überprüfen Sie im Dezimalsystem! 
+
+12.1  10  100 
+12.2  100101  11001  
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lernbereich 
+
+2 Zahlenmengen 
+
+Zahlen kennen und Grundrechenarten anwenden 
+
+Die Grundbegriffe der Mengenlehre sind Menge und Element. Eine Menge ist eine 
+Zusammenfassung  von  genau  bestimmten,  unterschiedlichen  Dingen.  Die  Dinge, 
+welche die Menge bilden, heißen ihre Elemente. Als Bezeichnung für Mengen werden 
+die  großen  Buchstaben  A,  B,  C,  ...  ,  für  die  Elemente  die  kleinen  Buchstaben  a,  b, 
+c, ... verwendet. 
+
+Gehört das Element a zur Menge A , so schreibt man aA (lies: a ist Element von A). 
+Gehört  das  Element  a  nicht  zur  Menge  B,  so  schreibt man  aB (lies:  a  ist  nicht  Ele-
+ment von B). 
+
+Die Darstellung einer Menge kann auf drei Arten erfolgen: 
+
+1.  Aufzählende  Form:  Die  Elemente  der  Menge  werden  zwischen  den  Mengen-
+klammern (geschweifte Klammern) aufgezählt und durch Semikolon oder Komma 
+voneinander getrennt. 
+
+Lehrbeispiel 1 
+
+Geben Sie die Menge V der Vokale des Alphabets in aufzählender Form an! 
+
+Lösung 
+
+V = {a, e, i, o, u} 
+
+2.  Beschreibende  Form:  Die  Elemente  werden  durch  ihre  gemeinsamen  Eigen-
+schaften  charakterisiert.  Die  charakteristische  Eigenschaft  wird  durch  eine  Aus-
+sageform  und  eine  Grundmenge  G  festgelegt,  aus  der  die  Elemente  der  be-
+schriebenen Menge genommen werden dürfen. 
+
+Lehrbeispiel 2 
+
+Geben Sie die Menge M der Buchstaben des Alphabets an, die vor dem Buchstaben e 
+stehen! 
+
+Lösung 
+
+M = {∆│∆ steht vor e} 
+
+Lies: M ist die Menge aller Buchstaben, für die gilt: steht vor e. 
+
+Um  aus  der  beschreibenden  Form  einer  Menge  die  aufzählende  Form  zu  erhalten, 
+wird jedes Element der Grundmenge an die Stelle der Variablen (Platzhalter) gesetzt; 
+dabei muss eine wahre Aussage entstehen. 
+
+Antwort:  M = {a, b, c, d} 
+
+Die  aufzählende  Form  einer  Menge  wird  vorwiegend  für  Mengen  mit  endlich  vielen 
+Elementen  benutzt.  Wird  es  für  unendliche  Mengen  (Zahlenmengen)  verwendet,  so 
+werden  einige  Elemente  aufgeschrieben  und  die  nachfolgenden  durch  drei  Punkte 
+angedeutet. 
+
+3.  Mengenbild  oder  Venn-Diagramm:  Hierbei  werden  die  Elemente  einer  Menge 
+
+bildlich innerhalb einer geschlossenen Linie in der Ebene dargestellt.  
+
+16 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 3 
+
+Zeichnen Sie das Venn-Diagramm der Menge M = {m|m hat 30 Tage}! 
+
+Grundmenge G = Monate des Jahres 
+
+Lösung 
+
+Lehrbeispiel 4 
+
+Das Mengenbild zeigt die Menge M = {0, 1, 2, 3, 4, 5}. Geben Sie drei Teilmengen (T1, 
+T2, T3) von M an!  
+
+Lösung 
+
+Wenn  nur  einige  Elemente  der  Menge  M  betrachtet  werden  sollen,  bildet  man  Teil-
+mengen T. Dafür gilt die Regel, dass jedes Element der Teilmenge auch Element der 
+Menge ist: T  M. Lies: Die Menge T ist Teilmenge der Menge M. 
+
+2.1 Natürliche Zahlen 
+
+Beim  Zählen  verwendet  man  natürliche  Zahlen.  Die  natürlichen  Zahlen  werden  an-
+schaulich auf einer Zahlenhalbgeraden, dem Zahlenstrahl, dargestellt. 
+
+Die Menge der natürlichen Zahlen hat unendlich viele Elemente. 
+
+ = {0, 1, 2, 3, ...} 
+
+Als  * wird die Menge der natürlichen Zahlen ohne die Null bezeichnet.  * = {1, 2, ...} 
+
+Auf dem Zahlenstrahl liegt die kleinere Zahl links von der größeren Zahl. 
+
+4 steht links von 10 
+4 ist kleiner als 10 
+
+7 steht rechts von 5 
+7 ist größer als 5 
+
+4 < 10 
+
+7 > 5 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+2.2 Ganze Zahlen 
+
+In der Menge der natürlichen Zahlen 
+ ist die Subtraktion zweier Zahlen a, b nur dann 
+ nicht möglich. Aus diesem 
+möglich, wenn a > b . Die Differenz a – b für a < b ist in 
+Grund verlängert man die Zahlenhalbgerade nach links über die Null hinaus zur Zah-
+lengeraden. 
+
+Zahlen wie +1; +87; +354 sind positive ganze Zahlen. 
+Zahlen wie -3; -67; -197 sind negative ganze Zahlen. 
+
+Die  negativen  ganzen  Zahlen,  die  Null  und  die  positiven  ganzen  Zahlen  bilden  die 
+Menge der ganzen Zahlen 
+
+. 
+
+ = {... –3, –2, –1, 0, 1, 2, 3, ...} 
+
+Lehrbeispiel 1 
+
+Vergleichen Sie die ganzen Zahlen jeweils miteinander! 
+
+–5 und –3; +1 und –1 
+
+Lösung 
+
+Antwort:  –5 < –3; +1 > –1 
+
+Auf der Zahlengeraden liegt von zwei ganzen Zahlen die kleinere Zahl links und 
+die größere Zahl rechts. 
+
+Lehrbeispiel 2 
+
+Geben Sie jeweils die Zahl an, die denselben Abstand von der Null hat wie die ange-
+gebene Zahl! 
+
+–5; +3 
+
+Lösung 
+
+18 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Der Abstand einer Zahl von der Null heißt Betrag. 
+
+I–5I = 5 
+I+3I = 3 
+
+Lies: Betrag von –5 ist 5 
+Betrag von +3 ist 3 
+
+Zwei Zahlen mit dem gleichen Abstand von der Null heißen Gegenzahlen. 
+
+2.3 Rationale Zahlen 
+
+Zwischen zwei ganzen Zahlen lassen sich beliebig viele andere Zahlen abtragen. Auf 
+diese Weise erhält man Bruchteile des Zahlenbereiches der ganzen Zahlen 
+. Diese 
+neuen Zahlen werden Brüche oder Bruchzahlen genannt. 
+
+Brüche, die sich als Quotient zweier ganzer Zahlen darstellen lassen, werden rationa-
+le Zahlen genannt. Sie werden in der Menge 
+
+ zusammengefasst.  
+
+Zahlen wie +2,5; + 1/3; 7,65 sind positive rationale Zahlen. 
+Zahlen wie –4,7; –4/9; –1 sind negative rationale Zahlen. 
+
+Die positiven rationalen Zahlen einschließlich der Null bilden die Menge 
+tiven rationalen Zahlen einschließlich der Null bilden die Menge 
+
+ –. 
+
++. Die nega-
+
+Lehrbeispiel 1 
+
+Bestimmen Sie jeweils die markierten rationalen Zahlen! 
+
+Lösung 
+
+(1) –4,5; 
+
+(2) –2,25;  (3) +0,5; 
+
+(4) +3 
+
+Auf der Zahlengeraden lassen sich die rationalen Zahlen darstellen. 
+
+Jede ganze Zahl lässt sich auch als Bruchzahl schreiben. 
+
+2  = 6/3 = 8/4 
+–1 = –2/2  = –5/5 
+
+Jede  Bruchzahl,  die  sich  nicht  als  ganze  Zahl  schreiben  lässt,  kann  als  gemischte 
+Zahl geschrieben werden. 
+
+12/5  = 2 2/5  
+–14/3 = –4 2/3 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 2 
+
+Geben Sie zwei Bruchzahlen für den schraffierten Bruchteil an! 
+
+Lösung 
+
+2 Streifen von 5 Streifen: 2/5 
+
+4 Streifen von 10 Streifen: 4/10 
+
+2/5 = 4/10 
+
+Antwort:  Die  beiden  Brüche  2/5  und  4/10  bezeichnen  den  gleichen  schraffierten 
+
+Bruchteil. 
+
+Brüche, die auf der Zahlengerade an der gleichen Stelle liegen, bezeichnen dieselbe  
+Bruchzahl. 
+
+Lehrbeispiel 3 
+
+Vergleichen Sie jeweils die beiden Bruchzahlen miteinander. Verwenden Sie dafür die 
+Zeichen < oder >! 
+
+3/8 und 5/8,  2/3 und 3/5,  18/30 und 36/40! 
+
+Lösung 
+
+Vergleich von 3/8 und 5/8 
+
+Beim  Vergleich  zweier Brüche,  die  den  gleichen  Nenner  haben,  entscheiden  die  bei-
+den Zähler darüber, welche Bruchzahl die größere bzw. kleinere ist. 
+
+Antwort:  3/8 < 5/8 
+
+Vergleich von 2/3 und 3/5    sowie    18/30 und 36/40 
+
+Zum  Vergleichen  von  Bruchzahlen  mit  verschiedenen  Nennern  müssen  die  Brüche 
+zunächst auf den gleichen Nenner gebracht werden. Dies kann entweder durch  Kür-
+zen oder Erweitern des Bruches erreicht werden. Sie werden gleichnamig gemacht. 
+Der kleinste gemeinsame Nenner ist der Hauptnenner. Dieser Hauptnenner muss 
+
+20 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+beide Nenner als Vielfaches enthalten, somit ist er das kleinste gemeinsame Vielfa-
+che (kgV) . 
+
+Man bildet zunächst die Vielfachmengen beider Nenner: 
+
+V3 = { 3, 6, 9, 12, 15, 18, ... }  V5 = { 5, 10, 15, 20, ... } 
+
+Die  Zahl  15  ist  in  beiden  Vielfachmengen  die  kleinste  Zahl  und  somit  das  gesuchte 
+kgV.  
+
+Nun  müssen  beide  Brüche  auf  diesen  gemeinsamen  Hauptnenner  gebracht  werden. 
+Dieses geschieht durch Erweitern. Dabei darf sich der Wert des Bruches nicht verän-
+dern. 
+
+Ein Bruch wird erweitert, indem Zähler und Nenner mit der gleichen Zahl multi-
+pliziert werden. 
+
+Antwort:  2/3 = 10/15  
+
+3/5 = 9/15 
+
+2/3 > 3/5 
+
+Vergleich von 18/30 und 36/40 
+
+Bevor  von  diesen  beiden  Nennern  das  kgV  bestimmt  wird,  werden  die  Brüche  zu-
+nächst gekürzt.  
+
+Dafür  bestimmt  man  jeweils  von  Zähler  und  Nenner  die  Teilermengen,  um  so  den 
+größten gemeinsamen Teiler bestimmen zu können. 
+
+T 18 = { 1, 2, 3, 6, 9, 18 }   T 30 = { 1, 2, 3, 5, 6, 10, 15, 30 } 
+
+Die  Zahl  6  ist  in  beiden  Teilermengen  die  größte  Zahl  und  somit  der  gesuchte  ggT. 
+Nun muss der Bruch 18/30 gekürzt werden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Ein  Bruch  wird  gekürzt,  indem  Zähler  und  Nenner  durch  die  gleiche  Zahl  divi-
+diert werden.   
+
+Nun werden die Brüche wie schon beschrieben auf den gemeinsamen Nenner erwei-
+tert. 
+
+Antwort: 
+
+9/10 
+
+6/10 
+
+< 
+
+9/10 
+
+In  vielen  Fällen  -  wenn  die  Zahlen  im  Zähler  und  Nenner  sehr  groß  werden  -  ist  es 
+vorteilhaft,  kgV  und  ggT  mithilfe  eines  formalisierten  Verfahrens  zu  bestimmen.  Für 
+dieses Verfahren werden die Primzahlen verwendet.  
+
+Natürliche Zahlen, die genau zwei Teiler haben, nennt man Primzahlen. Sie sind 
+nur durch 1 und sich selbst teilbar. Dabei ist 1 keine Primzahl.  
+
+Die Primzahlen bis 50: 
+
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 
+
+Lehrbeispiel 4 
+
+Vergleichen Sie die Brüche 35/42; 55/70  und 75/105 miteinander! 
+
+Lösung 
+
+Zunächst  werden  in  tabellarischer  Form  die  Nenner  in  Primfaktoren  zerlegt.  Dabei 
+werden nur gleiche Faktoren untereinander geschrieben. 
+
+42 =  2 
+70 =  2 
+
+105 = 
+
+kgV (42, 70, 105) =  2 
+
+·  3 
+· 
+  3 
+·  3 
+
+· 
+  5 
+·  5 
+·  5 
+
+  7 
+·  7 
+·  7 
+·  7 
+
+=  210 
+
+Das kgV muss nun alle Primfaktoren enthalten, die jeweils in einem Nenner enthal-
+ten sind. Nun müssen die Brüche auf den Hauptnenner erweitert werden. 
+
+22 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+1062523= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Antwort: 
+
+Lehrbeispiel 5 
+
+Kürzen Sie folgenden Bruch: 112/184! 
+
+Lösung 
+
+Zähler und Nenner werden - analog zum kgV - in Primfaktoren zerlegt. 
+
+112 =  2 
+184 =  2 
+ggT (112, 184) =  2 
+=  8 
+
+·  2 
+·  2 
+·  2 
+
+·  2 
+·  2 
+·  2 
+
+·  2 
+
+·  7 
+
+·  23 
+
+Der ggT enthält alle gemeinsamen Primfaktoren. 
+
+Antwort: 
+
+Lehrbeispiel 6 
+
+Entscheiden Sie, welche der beiden rationalen Zahlen –4 1/2 und –4 kleiner bzw. grö-
+ßer ist! 
+
+Antwort:  –4 1/2 < –4 
+
+Auf  der  Zahlengeraden  liegt  von  zwei  rationalen  Zahlen  die  kleinere  Zahl  links 
+und die größere Zahl rechts. 
+
+Lehrbeispiel 7 
+
+Schreiben Sie die Brüche 2/9 und 15/22 als Dezimalbrüche! 
+
+Lösung 
+
+Ein Bruch wird in einen Dezimalbruch umgeformt, indem der Zähler durch den Nenner 
+dividiert wird. 
+
+2/9  = 2 : 9 = 0,2222... 
+
+15/22 = 15 : 22 = 0,681818... 
+
+= 
+
+= 
+
+Lies:  Null Komma Periode 2 
+
+Null Komma sechs acht Periode eins acht 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+23 
+
+210175542535=210165370355=2101502105275=21015021016521017523148:1848:112=2314184112=2,01868,0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Nicht abbrechende Dezimalbrüche werden reinperiodisch genannt, wenn alle Ziffern 
+nach dem Komma zur Periode gehören. 
+
+5/11 = 5 : 11 = 
+
+Nicht abbrechende Dezimalbrüche werden gemischt-periodisch genannt, wenn hin-
+ter dem Komma auch Ziffern vorkommen, die nicht zur Periode gehören. 
+
+17/30 = 17 : 30 = 
+
+Lehrbeispiel 8 
+
+Verwandeln Sie den Dezimalbruch 
+
+ in einen Bruch! 
+
+Lösung 
+
+Die Ziffern der Periode werden in den Zähler geschrieben. Im Nenner müssen so 
+viele Neunen geschrieben werden, wie die Periode Ziffern hat.  
+
+Lehrbeispiel 9 
+
+Verwandeln Sie den Dezimalbruch 
+
+ in einen Bruch!  
+
+Lösung 
+
+Das  Komma  wird  so  weit  nach  rechts  verschoben,  bis  die  Periode  hinter  dem 
+Komma beginnt. Damit diese Multiplikation ausgeglichen wird, muss mit einem 
+Zehntelbruch (Hundertstelbruch ... ) multipliziert werden.  
+
+2.4 Reelle Zahlen 
+
+Lehrbeispiel 1 
+
+Bilden Sie jeweils die Quadrate der folgenden Zahlen! 
+
+82, (–1,5)2, (2/5)2, 02 
+
+Lösung 
+
+82 = 8  8     Lies: 8 hoch 2 
+  = 64 
+
+(–1,5)2 = (–1,5)  (–1,5) 
+= 2,25 
+
+24 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+45,065,062,099/6262,0=60,310/16,363,0=10/19/63=30/1190/3310/19/33=== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+(2/5)2 = 2/5  2/5 
+= 4/25 
+
+02 = 0  0 
+  = 0 
+
+Wenn eine Zahl mit sich selbst multipliziert wird, so erhält man das Quadrat der 
+Zahl. 
+
+Das Quadrat einer Zahl ist immer größer oder gleich Null. 
+
+Soll aus dem gegebenen Flächeninhalt A des abgebildeten Quadrates die Seitenlänge 
+a berechnet werden, wird eine Zahl gesucht, die mit sich selbst multipliziert 25 ergibt, 
+da gilt: 
+
+A = a  a 
+  = a2 
+
+A = 25 cm2 
+  = 5 cm2  5 
+
+a = 5 cm 
+
+Abbildung 1 Quadrat 
+
+Zur Bestimmung dieser gesuchten Zahl hat man eine neue Schreibweise eingeführt: 
+
+Lies: Wurzel aus 25 gleich 5 
+
+Lehrbeispiel 2 
+
+Nennen Sie eine rationale Zahl, deren Quadrat –81 ist! 
+
+Lösung 
+
+Es gibt zwei Möglichkeiten einer Lösung. 
+
+1. 
+2. 
+
+(–9)  (–9) = +81 
+(+9)  (+9) = +81 
+
+Antwort:  Es existiert keine rationale Zahl, deren Quadrat –81 ist. 
+
+ ist die nichtnegative Zahl, deren Quadrat a ist. Sie heißt Quadratwurzel aus 
+
+a. Man nennt die Zahl unter dem Wurzelzeichen Radikand. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+25 
+
+255denn,5252==a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+, denn 72 = 49 
+
+, denn 0,52 = 0,25 
+
+, denn 02 = 0 
+
+Lehrbeispiel 3 
+
+Geben Sie zunächst den Flächeninhalt des Quadrates ABCD an! Bestimmen Sie an-
+schließend die Seitenlänge des Quadrates! 
+
+Lösung 
+
+Das Quadrat AEDF hat eine Seitenlänge von 1 cm und somit einen Flächeninhalt von 
+
+AAEDF = 1 cm2  1 
+
+= 1 cm2 
+
+Das Dreieck AED ist genau halb so groß wie das Quadrat AEDF und hat somit einen 
+Flächeninhalt von AAED = 0,5 cm2. 
+
+Das Quadrat ABCD besteht aus 4 solcher Dreiecke; damit lässt sich der Flächeninhalt 
+bestimmen: 
+
+AABCD = 4  AAED 
+
+= 4  0,5 cm2 = 2 cm2 
+
+Antwort:  Das Quadrat ABCD hat einen Flächeninhalt von 2 cm2. 
+
+Um nun die Seitenlänge des Quadrates ABCD mit einem Flächeninhalt von A = 2 cm2 
+zu bestimmen, muss die Quadratwurzel aus 2 berechnet werden. 
+
+Lehrbeispiel 4 
+
+Überprüfen  Sie  durch  Quadrieren,  welcher  der  angegebenen  Dezimalbrüche  am 
+nächsten bei 
+
+ liegt! 
+
+1,41; 1,414; 1,4142; 1,41421; 1,414214 
+
+26 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+749=5,025,0=00=2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+= 1,9881 
+= 1,999396 
+= 1,99996164 
+
+1,412 
+1,4142 
+1,41422 
+1,414212  = 1,999989924 
+1,4142142  = 2,000001238 
+
+Antwort:  Die Dezimalzahl 1,414214 liegt 
+
+ am nächsten. 
+
+Im folgenden  Beweis  soll  gezeigt  werden,  warum  das  Quadrat  eines  endlichen  Dezi-
+malbruches nicht 2 sein kann. 
+
+Annahme: 
+
+ lässt sich als gekürzter Bruch darstellen. 
+
+Beweis: 
+
+= p/q; p, q , ggT (größter gemeinsamer Teiler) von p,q = 1 
+
+2 = (p/q)2  
+
+2 = p2/q2      │q2 
+
+2q2 = p2 
+
+Aus der letzten Zeile würde folgen, dass p2 das 2-fache von q2 und damit eine gerade 
+Zahl wäre. Damit wäre aber auch p eine gerade Zahl, denn nur gerade Zahlen erge-
+ben  quadriert  ebenfalls  gerade  Zahlen.  Daraus  folgt  in  entsprechender  Weise,  dass 
+auch q eine gerade Zahl sein müsste. Beide Folgerungen stehen im Widerspruch zur 
+Annahme. 
+
+Antwort: 
+
+ ist keine rationale Zahl. 
+
+Zahlen, die sich als unendliche, nicht periodische Dezimalzahlen darstellen las-
+sen, heißen irrationale Zahlen. 
+
+Die rationalen und die irrationalen Zahlen bilden die Menge der reellen Zahlen 
+\
+Die Menge der irrationalen Zahlen ist 
+
+, (Lies: 
+
+ ohne 
+
+). 
+
+. 
+
+Für die Menge der positiven reellen Zahlen einschließlich der Null schreibt man 
++  für  die  Menge  der  negativen  reellen  Zahlen  einschließlich  der  Null  schreibt 
+
+man  –. 
+
+Lehrbeispiel 5 
+
+Bestimmen  Sie,  zwischen  welchen  Dezimalzahlen  (3  Nachkommastellen)  die 
+liegt! 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+27 
+
+2222...16227,310...23606,25...41421,12===11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Im Intervall [3;  4] liegen  alle Zahlen,  die  größer  gleich  3  und  kleiner  gleich  4  sind.  3 
+und 4 sind Intervallgrenzen.  
+
+ liegt zwischen 3 und 4, denn  32 ≤ 11 ≤ 42 
+
+Das  Intervall  [3;  4]  wird  nun  in  10  gleich  große  Abschnitte  geteilt.  Anschließend  wird 
+das Teilintervall bestimmt, in dem 
+
+ liegt. 
+
+3,12 = 9,61  ≤  11 
+3,32 = 10,89  ≤  11 
+3,42 = 11,56  ≥  11 
+
+3,32 ≤ 11 ≤ 3,42              3,3 ≤ 
+
+≤ 3,4 
+
+3,31 2 = 10.9561  ≤  11 
+3,32 2 = 11,0224  ≥  11 
+
+3,312 ≤ 11 ≤ 3,322    3,31 ≤ 
+
+ ≤  3,32 
+
+Intervallschachtelung: [3; 4], [3,3; 3,4], [3,31; 3,32] ... 
+
+Jedes Intervall ist im vorhergehenden enthalten. Es gibt somit genau eine reelle 
+Zahl, die in allen Intervallen liegt.  
+
+Lehrbeispiel 6 
+
+Bestimmen Sie die Seitenlänge des abgebildeten Quadrates ABCD! 
+
+28 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+11111111 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Der  Flächeninhalt  des  Quadrates  ABCD  beträgt  2  cm2.  Die  Seitenlänge  berechnet 
+. Überträgt man nun mit dem Zirkel die Seitenlänge des 
+sich demnach als a = 
+Quadrates  auf  die  Zahlengerade,  so  erhält  man  genau  den  Punkt,  zu  dem  die  Zahl 
+
+ gehört. 
+
+Reelle Zahlen lassen sich auf der Zahlengeraden darstellen. Zu jedem Punkt auf 
+der  Zahlengeraden  gehört  genau  eine  reelle Zahl. Von  zwei  reellen  Zahlen  liegt 
+die kleinere links, die größere rechts. 
+
+Für die reellen Zahlen gelten die gleichen Gesetze wie für die rationalen Zahlen. 
+
+Addition 
+
+Multiplikation 
+
+Kommutativgesetz 
+ gilt: 
+Für alle a, b  
+
+a + b = b + a 
+
+a  b = b  a 
+
+Assoziativgesetz 
+Für alle a, b  
+
+ gilt: 
+
+(a + b) + c = a + (b + c ) 
+
+(a  b)  c = a  (b  c) 
+
+0 ist das neutrale Element der Addition. 
+
+1 ist das neutrale Element der Multipli-
+kation. 
+
+Für alle a  
+
+ gilt: 
+
+a + 0 = 0 + a = a  
+
+a  1 = 1  a = a 
+
+Das inverse Element einer Zahl ist ihre 
+Gegenzahl. 
+
+Das inverse Element einer Zahl ist ihr 
+Kehrwert. 
+
+Für alle a  
+
+ gilt: 
+
+Für alle a   * (  ohne die Null) gilt: 
+
+a + (–a) = 0  
+
+a  1 / a = 1 
+
+Distributivgesetz 
+Für alle a, b, c  
+
+ gilt: 
+
+a  (b + c) = a  b + a  c 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+29 
+
+cm22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 7 
+
+Vereinfachen Sie so weit wie möglich! 
+
+Lösung 
+
+Für alle a, b  + gilt: 
+
+Beispiele: 
+
+Lehrbeispiel 8 
+
+Ziehen Sie die Wurzel teilweise! 
+
+Lösung 
+
+Lehrbeispiel 9 
+
+Vereinfachen Sie so weit wie möglich! 
+
+Lösung 
+
+30 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+824168282===baba=395,4210100254====502522522550===22001010022002200=== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Für alle a, b + \ {0} gilt: 
+
+Beispiele: 
+
+Lehrbeispiel 10 
+
+Wenden Sie das Distributivgesetz an und vereinfachen Sie so weit wie möglich! 
+
+Lösung 
+
+Gleiche  Wurzeln  können  wie  bei  der  Addition  und  Subtraktion  von  Variablen 
+zusammengefasst werden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+31 
+
+baba=74910490416464====23322534−−+22322)35(3)24(2325323423322534+=−+−=−+−=−−+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+2.5 Komplexe Zahlen 
+
+Soll nun die Gleichung x2 = –4 gelöst werden, so ist in der Menge der reellen Zahlen 
+keine  Lösung  zu  finden.  Setzt  man  für  x = –2,  dann  ist  x2 = +4  ,  setzt  man  x = +2, 
+dann ist ebenfalls x2 = +4. 
+
+Um  aber  auch  Gleichungen  der  Form  x2 = a  mit  a < 0  lösen  zu  können,  muss  noch 
+einmal der Zahlenbereich von 
+
+ erweitert werden. 
+
+Leonhard Euler hat folgende Definition eingeführt: 
+
+Mithilfe dieser Definition lässt sich nun auch die Gleichung x2 = –4 lösen. 
+
+Diese  Zahlen  werden  als  imaginäre Zahlen  bezeichnet.  Da  in  dieser  neuen  Zahlen-
+menge auch die Grundrechenarten unbeschränkt ausgeführt werden sollen, entstehen 
+Summen, die eine reelle Zahl und eine imaginäre Zahl enthalten. 
+
+Summen  aus  je  einer  reellen  Zahl  a  und 
+einer  imaginären  Zahl  bj  heißen  kom- 
+plexe Zahlen.  
+
+a + bj 
+
+Komplexe Zahlen lassen sich nicht auf der Zahlengeraden darstellen. Da sie aus zwei 
+Komponenten  bestehen,  benötigt  man  auch  eine  zweidimensionale  Darstellung.  Da-
+her  werden  komplexe  Zahlen  grafisch  in  der  nach  dem  Mathematiker  Carl  Friedrich 
+Gauß  benannten  Gaußschen  Zahlenebene  dargestellt.  Dabei  wird  der  reelle  Anteil 
+auf  der  waagerechten  x-Achse,  der  imaginäre  Anteil  auf  der  senkrechten  y-Achse 
+abgetragen. 
+
+32 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+1j1j2−=−=j2x)1(4x4x4x112=−+=−+=−=j2x)1(4x4x22−=−−=−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Jede komplexe Zahl lässt sich als Punkt in 
+den vier Quadranten der Gaußschen Zah-
+lenebene darstellen. 
+
+Zwei komplexe Zahlen, die sich nur durch 
+ihr  Vorzeichen  ihres  imaginären  Anteils 
+unterscheiden,  heißen  konjugiert  kom-
+plexe Zahlen. 
+
+–2 + 3j 
+–2 – 3j 
+
+3 + 2j 
+3 – 2j 
+
+Weil  komplexe  Zahlen  als  Punkt  in  der  Gaußschen  Zahlenebene  erscheinen,  ist  es 
+nicht möglich, die Beziehungen größer (>) oder kleiner (<) zu verwenden. 
+
+Ebenso ist es nicht möglich, von positiven oder negativen komplexen Zahlen zu spre-
+chen.  Daher  ist  analog  zu  den  reellen  Zahlen  der  Abstand  des  Punktes  vom  Ur-
+sprung der Zahlenebene als absoluter Betrag definiert worden. 
+
+Unter  dem  Betrag  |z|  einer  komplexen 
+Zahl z = a + bj versteht man den Wert 
+
+  
+
+Mithilfe der komplexen Zahlen können z.B. Schwingungsvorgänge in der Physik oder 
+Elektrotechnik berechnet werden. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+33 
+
+b,a;baz22+=0z 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Zusammenfassende Übersicht über die Zahlenmengen 
+
+Abbildung 2 Übersicht über die Zahlenmengen 
+
+34 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 1 
+
+Zu welchen Mengen ( , 
+
+,  –,  +, 
+
+) gehört die Zahl? 
+
+Aufgaben 
+
+1.1  8 
+
+1.2  –6 
+
+1.3 
+
+1.4  –10,5 
+
+1.5  8,1 
+
+1.6  –20 
+
+1.7  100 
+
+Aufgabe 2 
+
+Vergleichen Sie jeweils die beiden Zahlen mithilfe der Zeichen <, > und =! 
+
+5 
+
+–8 
+
+–5 
+
+–21 
+
+1 
+
+–9 
+
+2.1 
+
+2.2 
+
+3 
+
+7 
+
+2.3  –2 1/2 
+
+2.4  20,01 
+
+2.5 
+
+  –1 
+
+2.6 
+
+  –9 
+
+Aufgabe 3 
+
+Bestimmen Sie jeweils die Gegenzahl und den Betrag der rationalen Zahl! 
+
+3.1  –15 
+
+3.2  3,4 
+
+3.3 
+
+3.4  –8,35 
+
+Aufgabe 4 
+
+Quadrieren Sie die angegebenen Zahlen! 
+
+4.1  7 
+
+4.2  –2 
+
+4.3  –0,4 
+
+4.4 
+
+4.5  –1,2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+35 
+
+2112214−52 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 5 
+
+Bestimmen Sie die Quadratwurzel! 
+
+5.1 
+
+5.2 
+
+5.3 
+
+5.4 
+
+5.5 
+
+Aufgabe 6 
+
+Bestimmen Sie 
+kommastellen! 
+
+Aufgabe 7 
+
+ näherungsweise durch eine Intervallschachtelung auf zwei Nach-
+
+Stellen  Sie  die  folgenden  reellen  Zahlen  auf  der  Zahlengeraden  dar  und  ordnen  Sie 
+sie der Größe nach! 
+
+7.1 
+
+7.2 
+
+7.3 
+
+7.4 
+
+Aufgabe 8 
+
+Vereinfachen Sie so weit wie möglich! 
+
+8.1 
+
+8.2 
+
+8.3 
+
+Aufgabe 9 
+
+Ziehen Sie die Wurzel teilweise! 
+
+9.1 
+
+9.2 
+
+9.3 
+
+36 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+144124,381,00049,0321+2−12−−21−3228505,2421281210245 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 10 
+
+Vereinfachen Sie so weit wie möglich! 
+
+10.1 
+
+10.2 
+
+10.3 
+
+Aufgabe 11 
+
+Fassen Sie zusammen! 
+
+11.1 
+
+11.2 
+
+Aufgabe 12 
+
+Machen Sie den Nenner rational! 
+
+12.1 
+
+12.2 
+
+Aufgabe 13 
+
+Stellen Sie die komplexe Zahl in der Gauß‘schen Zahlenebene dar! 
+
+13.1  –2 + 3j 
+
+13.2  3 – 2j 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+37 
+
+3273147545,23175332457−−+7256730617−−+155623 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lernbereich 
+
+3 Grundrechenarten 
+
+3.1 Addition und Subtraktion 
+
+Im nachfolgenden Beispiel ist die Rechenoperation der Addition der zwei Zahlen 4 
+und 3 dargestellt. 
+
+4 
+
++ 
+
+3 
+
+= 
+
+7 
+
+Summand  plus  Summand  gleich  Wert der Summe 
+
+S u m m e 
+
+Im nachfolgenden Beispiel ist die Rechenoperation der Subtraktion der zwei Zahlen 
+1 und 7 dargestellt. 
+
+1 
+
+– 
+
+7 
+
+= 
+
+–6 
+
+Minuend  minus  Subtrahend  gleich  Wert der Differenz 
+
+D i f f e r e n z 
+
+Lehrbeispiel 1 
+
+Addieren bzw. subtrahieren Sie! 
+
+7 + (–9)     15 – (–20) 
+
+Lösung 
+
+7 + (–9) = 7 – 9 = –2 
+
+15 – ( –20) = 15 + 20 = 35 
+
+Eine negative Zahl wird addiert, indem die Gegenzahl subtrahiert wird. 
+
+5 + (–2) = 5 – 2 = 3 
+
+Eine negative Zahl wird subtrahiert, indem die Gegenzahl addiert wird. 
+
+5 – (–2) = 5 + 2 = 7 
+
+38 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 2 
+
+Addieren Sie die rationalen Zahlen und vergleichen Sie die Vorzeichen der Summan-
+den und des Ergebnisses! 
+
+(+6) + (+4) 
+
+(–6) + (–4) 
+
+(–12) + (+7) 
+
+(+12) + (–7) 
+
+Lösung 
+
+(+6) + (+4) 
+(–12) + (+7)  = –5 
+
+= +10 
+
+(–6) + ( –4)  = –10 
+(+12) + (–7)  = +5 
+
+Rationale Zahlen mit gleichen Vorzeichen werden addiert, indem man die Beträ-
+ge addiert und das gemeinsame Vorzeichen setzt. 
+
+(+2,5) + (+3,5) = +6 
+(–8,1) + (–1,9) = –10 
+
+Rationale Zahlen mit verschiedenen Vorzeichen werden addiert, indem man die 
+Beträge subtrahiert und das Vorzeichen der Zahl mit dem größeren Betrag setzt. 
+
+ (+12) + (–4,5) = +7,5 
+(–2,2) + (+1,1) = –1,1 
+
+Lehrbeispiel 3 
+
+Subtrahieren Sie die rationalen Zahlen und vergleichen Sie mit der Additionsaufgabe! 
+
+(+8) – (+6) 
+
+(+8) + (–6) 
+
+(–15) – (–5) 
+
+(–15) + (+5) 
+
+Lösung 
+
+(+8) – (+6)  = +2 
+(–15) – (–5) = –10 
+
+(+8) + (–6)  = +2 
+(–15) + (+5) = –10 
+
+Rationale Zahlen werden subtrahiert, indem die Gegenzahl addiert wird. 
+
+(+20) – (+15)   = (+20) + (–15)   = 5 
+(–14) – (–8)   = (–14) + (+8) 
+
+= –6  
+
+Zur  Vereinfachung  der  Schreibweise  können  Summen  und  Differenzen  auch  ohne 
+Klammern geschrieben werden. Dabei gelten folgende Regeln: 
+
+Sind Rechenzeichen und Vorzeichen der zweiten Zahl gleich, so wird ein Pluszei-
+chen  geschrieben.  Sind  Rechenzeichen  und  Vorzeichen  der  zweiten  Zahl  ver-
+schieden, so wird ein Minuszeichen geschrieben. 
+
+Lehrbeispiel 4 
+
+Vereinfachen Sie die Schreibweise und berechnen Sie! 
+
+(–29) + (+15) 
+
+(+44) + (–14) 
+
+(+8) – (–32) 
+
+(–55) – (+25) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+39 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+(–29) + (+15) = –29 + 15 = –14 
+
+(+44) + (–14) = 44 – 14 = 30 
+
+(+8) – (–32) = 8 + 32 = 40 
+
+(–55) – (+25) = –55 – 25 = –80 
+
+Rationale Zahlen sind Terme. 
+
+Summen, Differenzen, Produkte von Termen sind Terme. 
+
+Summen 
+
+Differenzen 
+
+Produkte 
+
+50 + 11;  –22 + (–13) 
+
+142 – 17;  –28 – (–18) 
+
+–4 · 5; 
+
+–7 · (–11) 
+
+Quotienten von  Termen  sind  Terme,  wenn  der  Term im  Nenner  nicht  die  Zahl  Null 
+bezeichnet.  
+
+Quotienten 
+
+45 : 9;   –20 : (–5) 
+
+Variablen  (Platzhalter  für  Zahlen)  und  Verknüpfungen  von  Variablen  sind  ebenfalls 
+Terme. 
+
+Variablenterme 
+
+a + b; 
+
+3 – x   
+
+Lehrbeispiel 5 
+
+Berechnen Sie die zusammengesetzten Terme! 
+
+–5 · 15 + 18 : 3 
+
+Lösung 
+
+Punktrechnung geht vor Strichrechnung. 
+
+Lehrbeispiel 6 
+
+Berechnen Sie (–18 + 12) · (25 – 15)! 
+
+40 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Was in der Klammer steht, wird zuerst berechnet.  
+
+Gesetzmäßigkeiten 
+
+Kommutativgesetz der Addition 
+
+Assoziativgesetz der Addition 
+
+(–5) + (+8) = (+8) + (–5) = 3 
+(+1/2) + (–1/4) = (–1/4) + (+1/2) = + 1/4 
+
+[12,5 + (–2,5)] + 8 = 12,5 + [(–2,5) + 8] 
+
+= 12,5 + 5,5 
+= 18 
+
+Für alle a, b  
+
+ gilt: 
+
+Für alle a, b, c  
+
+ gilt: 
+
+a + b = b + a 
+
+(a + b) + c = a + (b + c) 
+
+0 ist das neutrale Element der Addition. 
+
+Das inverse Element einer Zahl ist ihre 
+Gegenzahl. 
+
+Für alle a  
+
+ gilt: 
+
+Für alle a  
+
+ gilt: 
+
+a + 0 = 0 + a = a 
+
+a + (-a ) = 0 
+
+Lehrbeispiel 7 
+
+Bestimmen  Sie  die  Gesamtlänge  der  Strecke 
+terms! Berechnen Sie anschließend! Setzen Sie für a = 3 m! 
+
+  zunächst  mithilfe  eines  Variablen-
+
+Lösung 
+
+= a + a + a 
+= 3 · a 
+
+= 3  3 m 
+= 9 m 
+
+Antwort:  Die Gesamtlänge der Strecke beträgt 9 m. 
+
+Für gleiche Variablen in einem Term ist immer die gleiche Zahl einzusetzen. 
+
+Terme mit den selben Variablen heißen äquivalent (gleichwertig), wenn sie bei jeder 
+Einsetzung von Zahlen gleiche Werte ergeben.  
+
+a + a + a = 3 · a 
+
+Koeffizient 
+
+Variable 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+41 
+
+ABABAB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Vereinfachte Schreibweise bei Variablentermen 
+
+5  x = 5x 
+
+Steht  ein  Koeffizient  vor  einer  Variablen,  so  kann  das  
+„“-Zeichen weg gelassen werden. 
+
+1  a = 1a = a 
+
+Der Koeffizient 1 wird weg gelassen. 
+
+a  b  c = abc 
+
+Bei einem Produkt aus Variablen fallen die „·“- Zeichen weg. 
+
+t  e  r  m = emrt 
+
+Bei Termen  werden  die  Variablen  nach  dem  Alphabet  geord-
+net. 
+
+Lehrbeispiel 8 
+
+Bestimmen  Sie  die  Gesamtlänge  der  Strecke 
+terms. Berechnen Sie anschließend. Setzen Sie für a = 2 cm und b = 4 cm. 
+
+zunächst  mithilfe  eines  Variablen-
+
+Lösung 
+
+ = a + b + a + a + b 
+= a + a + a + b + b 
+= 3a + 2b 
+
+ = 3 · 2 cm + 2 · 4 cm 
+ = 14 cm 
+
+Antwort:  Die Gesamtlänge der Strecke beträgt 14 cm. 
+
+In  Summen und  Differenzen  können nur  gleichartige Terme  zusammen gefasst 
+werden. Dabei werden die Koeffizienten der Variablenterme addiert bzw. subtra-
+hiert. 
+
+3a + 2a   = (3 + 2)a   = 5a 
+15x – 7x  = (15 – 7)x   = 8x 
+
+Lehrbeispiel 9 
+
+Addieren Sie die Terme, die durch die markierten Flächen dargestellt werden! 
+
+Lösung 
+
+Die Gesamtfläche  des  Streifendiagramms  wird mit  der  Variablen  a  bezeichnet.  Dann 
+ist  die  erste  Bruchzahl  3/5.  Im  zweiten  Streifen  ist  der  Anteil  1/5 a  markiert.  Somit 
+ergibt sich als Additionsaufgabe: 3/5 a + 1/5 a = 4/5 a. 
+
+42 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ABABAB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Gleichnamige Brüche werden addiert bzw. subtrahiert, indem die Zähler addiert 
+bzw. subtrahiert werden und der Nenner unverändert bleibt. 
+
+3/7 + 2/7 = 5/7 
+1/6x – 5/6x = –4/6x 
+
+Lehrbeispiel 10 
+
+Vereinfachen Sie den Term! 
+
+9/11a – (–5/33a) + 2/7b + (–9/14b) 
+
+Lösung 
+
+9/11a – (–5/33a) + 2/7b + (–9/14b) 
+
+=  9/11a + 5/33a + 2/7b – 9/14b 
+
+=  27/33a + 5/33a + 4/14b – 9/14b 
+
+=  32/33a – 5/14b 
+
+Ungleichnamige  Brüche  werden  addiert  bzw.  subtrahiert,  indem  sie  vor  dem 
+Addieren bzw. Subtrahieren gleichnamig gemacht werden. 
+
+5/6 + 3/4  = 10/12 + 9/12 = 19/12 
+
+= 1 7/12 
+
+–9/10y – 9/15y  = –27/30y – 18/30y 
+
+= –45/30y = –1 1/2 y 
+
+Lehrbeispiel 11 
+
+Eine Strecke 
+
+ wird in x gleich lange Teilstrecken zerlegt. 
+
+Geben Sie einen allgemeinen Term für die Länge einer Teilstrecke an. 
+
+Lösung 
+
+Die Länge einer Teilstrecke ist der x-te Teil von 1 m. 
+
+Antwort:  Länge einer Teilstrecke: 1/x 
+
+In  den  Bruch  1/x  können  selbstverständlich  nicht  nur  natürliche  Zahlen  eingesetzt 
+werden. 
+
+Terme,  bei  denen  im  Nenner  eine  oder  mehrere  Variablen  vorkommen,  werden 
+Bruchterme  genannt.  Dabei  darf  der  Term  im  Nenner  nicht  die  Zahl  Null  be-
+zeichnen, da die Division durch Null nicht erlaubt ist. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+43 
+
+AB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+1/x 
+
+Um festzustellen, für welche Einsetzungen der Term im Nenner die Zahl Null bezeich-
+net, muss die Definitionsmenge bestimmt werden. 
+
+Lehrbeispiel 12 
+
+Bestimmen Sie, für welche Einsetzungen der Term im Nenner die Zahl Null bezeich-
+net! 
+
+Lösung 
+
+Wenn der Term im Nenner x – 1 Null wird, muss gelten: 
+
+ x  – 1 = 0 
+
+Dann ist: 
+
+ 1  – 1 = 0 
+
+Antwort:  Wenn für x die Zahl 1 eingesetzt wird, bezeichnet der Term x – 1 die Zahl 
+
+Null. 
+
+Bei  Bruchtermen  muss  angegeben  werden, welche  Einsetzungen  für  den Term 
+erlaubt  sind.  Alle  Zahlen,  die  eingesetzt  werden  dürfen,  bilden  die  Definitions-
+menge D. 
+
+Bruchterm: 
+
+Grundmenge: 
+
+G = 
+
+Definitionsmenge: 
+
+D = 
+
+\{2} 
+
+gelesen:  D ist die Menge aller rationalen Zahlen ohne die Zahl 2. 
+
+Lehrbeispiel 13 
+
+Fassen Sie die Bruchterme zusammen! 
+
+44 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+a5b+abyx2+yx5y+1x1−2x10−x5x4+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Definitionsmenge: D = 
+
+\{0} 
+
+Gleichnamige  Bruchterme  werden  addiert  (subtrahiert),  indem  man  die  Zähler 
+addiert (subtrahiert) und den Term im Nenner beibehält. 
+
+Lehrbeispiel 14 
+
+Fassen Sie zusammen! 
+
+Lösung 
+
+Definitionsmenge: D = 
+
+\{5} 
+
+Lehrbeispiel 15 
+
+Fassen Sie die Bruchterme zusammen!  
+
+Lösung 
+
+Analog  zur  Addition  ungleichnamiger  Brüche  wird  bei  ungleichnamigen  Bruchtermen 
+zunächst der Hauptnenner bestimmt. 
+
+D = 
+
+\{0} 
+
+Hauptnenner: a · b = ab 
+
+Im nächsten Lösungsschritt werden beide Bruchterme auf den Hauptnenner erweitert 
+und anschließend addiert. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+45 
+
+x9x54x5x4=+=+z57z55a3−−−−z512a3z575a3z57z55a3−−=−−−=−−−−b5a10+b5a10+abb10a5b5a10+=+aabb 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 16 
+
+Machen Sie gleichnamig und fassen Sie zusammen! 
+
+Lösung 
+
+D = 
+
+\{0} 
+
+Wenn im Nenner vor den Variablen Koeffizienten stehen, muss auch von diesen das 
+kgV bestimmt werden. 
+
+27  =   
+36  =  2 
+kgV(27/36)  =  2 
+
+·  2 
+·  2 
+
+3 
+·  3 
+·  3 
+
+·  3 
+·  3 
+·  3 
+
+·  3 
+
+·  3 
+
+  =  108 
+
+Anschließend wird der Hauptnenner bestimmt. 
+
+Hauptnenner: 108  y = 108y 
+
+Auf den Hauptnenner erweitert:  
+
+Lassen sich die Koeffizienten noch kürzen, wird dieses auch durchgeführt. 
+
+74  =  2 
+108  =  2 
+ggT(74/108)  =  2 
+
+·  2 
+
+·  3 
+
+·  3 
+
+·  3 
+
+·  37 
+
+Lehrbeispiel 17 
+
+Fassen Sie zusammen!  
+
+Lösung 
+
+D = 
+
+\{0} 
+
+Bei dieser Aufgabe ist zu beachten, dass jede ganze Zahl ein Bruch mit dem Nenner 1 
+ist. 
+
+46 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+y36x18y27x32−y36x18y27x32−y108x74y108x54y108x128y1083x18y1084x32=−=−54y37xy108x74=1yx−1yx− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Hauptnenner: y 
+
+3.2 Multiplikation und Division 
+
+In dem Pfeilbild ist die Addition von drei gleichen Summanden dargestellt. Die Multipli-
+kation stellt eine verkürzte Schreibweise der Addition gleicher Summanden dar. 
+
+3 
+
+= 
+Faktor  mal  Faktor  gleich  Wert des Produktes 
+
+(+2,5) 
+
++7,5 
+
+· 
+
+P r o d u k t 
+
+Das folgende Pfeilbild stellt das Produkt 3 · (–2,5) = –7,5 dar. 
+
+Die  folgenden  Beispielaufgaben  sollen  verdeutlichen,  wie  man  zu  sinnvollen  Vor-  
+zeichenregeln gekommen ist. 
+
+  3  4 = 12 
+  2  4 = 8 
+  1  4 = 4 
+  0  4 = 0 
+–1  4 = –4 
+–2  4 = –8 
+
+ 
+ 
+ 
+
+  3  3 = 9 
+  3  2 = 6 
+  3  1 = 3 
+  3  0 = 0 
+3  (–1) = –3 
+3  (–2) = –6 
+
+ 
+ 
+ 
+
+  –5  4 = –20 
+  –5  3 = –15 
+  –5  2 = –10 
+  –5  1 = –5 
+–5  (–1) = +5 
+–5  (–2) = +10 
+
+  –4  0,5 = –2 
+
+–3  0,5 = –1,5 
+–2  0,5 = –1 
+–1  0,5 = –0,5 
+  0  0,5 = 0 
+  1  0,5 = +0,5 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+Bei der Multiplikation zweier rationaler Zahlen mit gleichen Vorzeichen werden 
+die Beträge multipliziert und das Vorzeichen „+“ gesetzt.  
+
++5 
+–7 
+–1,5 
+
+ 
+ 
+ 
+
+= +30 
+= +14 
+
+(+6) 
+(–2) 
+(–1,5)  = +2,25 
+
+Bei  der  Multiplikation  zweier  rationaler  Zahlen  mit  verschiedenen  Vorzeichen 
+werden die Beträge multipliziert und das Vorzeichen „–“ gesetzt.  
+
++8 
+–2 
++0,8 
+
+ 
+ 
+ 
+
+(–5) 
+= –40 
+(+11)  = –22 
+(–0,7)  = –0,56 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+47 
+
+yyxyx−=−yy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Das folgende Streifendiagramm verdeutlicht die Multiplikation des Bruches 2/8 mit der 
+ganzen Zahl 3. 
+
+Die markierte Fläche entspricht einem Anteil von 6/8. 
+Also gilt: 
+
+2/8 · 3 = 6/8 
+
+Ein Bruch wird mit einer ganzen Zahl multipliziert, indem der Zähler mit der gan-
+zen Zahl multipliziert und der Nenner beibehalten wird. 
+
+–3/4 · 5 = –15/4 
+
+2/7 · (–3) = –6/7 
+
+Lehrbeispiel 1 
+
+Geben Sie den Zahlenterm für das Streifendiagramm an! 
+
+Lösung 
+
+Im ersten Streifen ist die Bruchzahl 1/2 dargestellt. Im zweiten Streifen ist die Bruch-
+zahl 3/8 dargestellt. Also ist ein Zusammenhang herzustellen zwischen den Bruchzah-
+len 1/2 und 3/8. 
+
+Schaut  man  sich  die  beiden  markierten  Hälften  jeweils  an,  so  ist  zu  erkennen,  dass 
+die Hälfte im zweiten Streifen in vier Teile unterteilt worden ist. Von diesen Teilen sind 
+wiederum drei markiert. Also sind im zweiten Streifen 3/4 von 1/2 markiert. 
+
+Ein Bruch wird mit einem Bruch multipliziert, indem die Zähler miteinander und 
+die Nenner miteinander multipliziert werden. 
+
+1/5  2/7 = 2/35 
+–3/8  (–3/5) = 9/40 
+
+48 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+8/32/1→8342314321== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 2 
+
+Multiplizieren Sie die Bruchterme miteinander! 
+
+Lösung 
+
+D = 
+
+\{0} 
+
+Auch  für  Bruchterme  gilt  die  Regel:  Die  Zähler  und  die  Nenner  werden  jeweils 
+miteinander multipliziert. 
+
+Lehrbeispiel 3 
+
+Multiplizieren Sie! 
+
+Lösung 
+
+D = 
+
+\{0} 
+
+Bevor jeweils die Zähler und Nenner miteinander multipliziert werden, muss überprüft 
+werden, ob die Brüche noch gekürzt werden können. 
+
+Lehrbeispiel 4 
+
+Multiplizieren Sie! 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+49 
+
+10xy5x3x10yx532x50y3x10x5y3x10yx53==3y15b5ab12xy2y3b15ab5xy122abx12ab3x4y3b15ab5xy122==43111119xyy3x72 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+D = 
+
+\{0} 
+
+Gesetzmäßigkeiten 
+
+Kommutativgesetz der Multiplikation 
+
+Assoziativgesetz der Multiplikation 
+
+(–7)  5 = 5  (–7) = –35 
+
+(5  3)  (–2) = 5  [3  (–2)] = 5  3  (–2) 
+
+Für alle a, b  
+
+ gilt: 
+
+Für alle a, b, c  
+
+ gilt: 
+
+a  b = b  a 
+
+(a  b)  c = a  (b  c) = a  b  c 
+
+Die Zahl 1 ist das neutrale Element der 
+Multiplikation. 
+
+Das inverse Element einer Zahl ist ihr 
+Kehrwert. 
+
+Für alle a  
+
+ gilt: 
+
+a  1 = 1  a = a 
+
+–3  (–1/3)  = 1 
+4/7  7/4   = 1 
+
+Für alle a   * gilt: 
+
+a  1/a = 1 
+
+* ist die Menge aller rationalen Zahlen ohne die Null. 
+
+Die Division ist die Umkehrung der Multiplikation. Aus der Multiplikationsaufgabe 
+7  9 = 63 lässt sich durch Umkehrung jeweils einer der Faktoren bestimmen: 
+
+63 
+
+: 
+Dividend  geteilt durch  Divisor 
+
+7 
+
+= 
+
+9 
+
+ist gleich  Wert des Quotienten 
+
+Q u o t i e n t 
+
+oder 
+
+63 : 9 = 7 
+
+Dabei leiten sich die Vorzeichenregeln der Division von den Regeln der Multiplikation 
+ab. 
+
+Bei  der  Division  zweier  rationaler  Zahlen  mit  gleichen  Vorzeichen  werden  die 
+Beträge dividiert und das Vorzeichen „+“ gesetzt.  
+
++32 : (+8) = +4 
+–75 : (–15) = +5 
+–5,7 : (–1,9) = +3 
+
+Bei der Division zweier rationaler Zahlen mit verschiedenen Vorzeichen werden 
+die Beträge dividiert und das Vorzeichen “–„ gesetzt. 
+
+50 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+x21x379xyy3x72==31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
++96 : (–12) = –8 
+–81 : (+27) = –3 
+0,49 : (–0,7) = –0,7 
+
+Das  Streifendiagramm  verdeutlicht  die  Division  der  Bruchzahl  3/8  durch  die  ganze 
+Zahl 2. Der Term lautet also: 
+
+3/8 : 2 
+
+Der zweite Streifen macht deutlich, dass nach der Division ein Anteil von 3/16 markiert 
+ist. Also lautet die Division: 
+
+3/8 : 2 = 3/16 
+
+Ein  Bruch wird  durch  eine  ganze Zahl dividiert, indem  der  Nenner  mit  der  gan-
+zen Zahl multipliziert wird und der Zähler beibehalten wird. 
+
+–4/9 : 5 = –4/45 
+2/15 : (–3) = –2/45 
+
+Lehrbeispiel 5 
+
+Berechnen  Sie,  wie  viele  Flaschen  jeweils  gefüllt  werden  können,  wenn  20  Liter  auf 
+2 l, 1 l, 1/2 l und 1/4 l Flaschen umgefüllt werden sollen! 
+
+Lösung 
+
+20 l : 2 l = 10 
+
+20 l : 1 l = 20 
+
+20 l : 1/2 l = 40  20 l : 1/4 l = 80 
+
+Deutlich wird, dass die Anzahl der Flaschen zunimmt. Dies kann nur durch eine Multi-
+plikation erklärt werden. Also muss gelten: 
+
+20 l : 1/2 l = 20 l  2/1 l = 40 
+20 l : 1/4 l = 20 l  4/1 l = 80 
+
+Dabei ist 2/1 der Kehrwert von 1/2, 4/1 der Kehrwert von 1/4. 
+
+Durch einen Bruch wird dividiert, indem mit seinem Kehrwert multipliziert wird. 
+
+–20 : (+3/5) = –20  (+5/3) 
+
+= –100/3 
+
+1/4 : (–3/5)  = 1/4  (–5/3) 
+
+= –5/12 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+51 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 6 
+
+Dividieren Sie die Bruchterme! 
+
+Lösung 
+
+Bevor bei einer Division durch einen Bruchterm die Definitionsmenge festgelegt wird, 
+muss die Division zunächst in eine Multiplikation umgewandelt werden. 
+
+D = 
+
+\{0} 
+
+Durch  einen  Bruchterm  wird  dividiert,  indem  mit  seinem  Kehrwert  multipliziert 
+wird. 
+
+       D = 
+
+\{0} 
+
+Lehrbeispiel 7 
+
+Dividieren Sie die Bruchterme!     
+
+Lösung 
+
+Nach dem Umwandeln in eine Multiplikationsaufgabe muss die Definitionsmenge fest-
+gelegt  und  geprüft  werden,  ob vor  der  Multiplikation  durch  Kürzen  die Terme zu ver-
+einfachen sind. Der Einfachheit halber soll die Definitionsmenge in Kurzform erfolgen. 
+
+52 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+7b:a3b7a37b:a3=ab21=a3b5a63ba:5a6=25a18b=ba15:ab5215baab5ba15:ab522=0b,0a3a15baab52=31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+3.3 Klammerrechnen und Faktorisieren 
+
+Kommen  in  einem  Term  Verknüpfungen,  d.h.  mathematische  Operationen  verschie-
+dener „Hierarchiestufen“ vor, so hängt das Ergebnis entscheidend von der Reihenfol-
+ge der durchgeführten Rechenoperationen ab. Dabei sind wichtige Regeln zu beach-
+ten, von denen bereits folgende bekannt sind: 
+
+•  Punktrechnung (Multiplikation und Division) geht vor Strichrechnung (Addition und 
+
+Subtraktion. 
+
+Beispiel: 5  3 + 9 = 15 + 9 = 24 
+
+•  Was in der Klammer steht, wird zuerst gerechnet. 
+
+Beispiel: 10 + (25 – 15) = 10 + 10 = 20 
+
+Darüber  hinaus  hat man  Klammern  eingeführt,  um  zusammenhängende  Rechenope-
+rationen mit noch höherer Priorität hervorzuheben. 
+
+Man unterscheidet drei verschiedene Klammerebenen: 
+
+•  Die runden Klammern stellen die unterste Ebene dar ( ). 
+•  Die nächst höhere ist die eckige Klammer [ ]. 
+•  Die Klammer mit der höchsten Priorität ist die geschweifte Klammer { }. 
+
+Grundsätzlich gilt die Regel: Was in der Klammer steht wird zuerst berechnet. 
+
+Sind in einem Term Klammern verschiedener Ebenen vorhanden, so wird grundsätz-
+lich immer erst die Klammer mit der niedrigsten Stufe aufgelöst (von innen nach au-
+ßen). 
+
+Lehrbeispiel 1 
+
+Berechnen Sie die Summen und vergleichen Sie:  
+
+17 + (–3 + 18)  und  17 – 3 + 18 
+
+Lösung 
+
+17 + (–3 + 18) = 17 + 15 
+
+17 – 3 + 18 = 32 
+
+= 32 
+
+Antwort:  Beide Terme ergeben die Zahl 32; sie sind also äquivalent. 
+
+Steht  vor  der  Klammer  ein  Pluszeichen  („Plusklammer“),  so  kann die  Klammer 
+weggelassen werden. Die Vorzeichen in der Klammer ändern sich nicht. 
+
+4,5 + (1,5 – 3,5)  =  4,5 + 1,5 – 3,5 
+
+=  2,5 
+
+–2a + (–3b + 4c) =  –2a – 3b + 4c 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+53 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 2 
+
+Berechnen und vergleichen Sie! 
+
+21 – (7 + 13)  und  21 – 7 – 13 
+
+Lösung 
+
+21 – (7 + 13) = 21 – 20 = 1 
+
+21 – 7 – 13 = 1 
+
+Antwort:  Beide Terme ergeben die Zahl 1; sie sind also äquivalent. 
+
+Steht  vor  der  Klammer  ein  Minuszeichen  („Minusklammer“),  so  müssen  beim 
+Auflösen der Klammer die Zeichen vor jedem Summanden in der Klammer um-
+gekehrt werden. 
+
+18 – (2 – 14) 
+
+=  18 – 2 + 14 
+
+=  30 
+
+–5a – (–3b + 4c) =  –5a +3b – 4c 
+
+Lehrbeispiel 3 
+
+Lösen Sie die Klammer auf und fassen Sie zusammen! 
+
+44ab – (–39cd + 17ab – 5) – 49cd 
+
+Lösung 
+
+Vor dem Zusammenfassen muss unbedingt die Klammer aufgelöst werden. 
+
+44ab – (–39cd + 17ab – 5) – 49cd = 44ab + 39cd – 17ab + 5 – 49 cd 
+
+= 27ab – 10cd + 5 
+
+Lehrbeispiel 4 
+
+Berechnen Sie den Term –(14x4 – 17x) – (–14x + 17x4) + (x – x4) ! 
+
+Lösung 
+
+Auch wenn vor der Klammer nur ein Minuszeichen steht (also kein weiterer Term), so 
+handelt es sich doch auch um eine „Minusklammer“ . 
+
+–(14x4 – 17x) – (–14x + 17x4) + (x – x4) = –14x4 + 17x + 14x – 17x4 + x – x4 
+
+= –32x4 + 32x 
+
+Lehrbeispiel 5 
+
+Vereinfachen Sie so weit wie möglich! 
+
+5x + [–13y – (4x – 17y)] 
+
+54 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Hier  ist  die  Regel  zu  beachten:  Von  innen  nach  außen  auflösen;  d.h.  die  eckige 
+Klammer bleibt zunächst unberücksichtigt. 
+
+5x + [–13y – (4x – 17y) ] = 5x + [–13y – 4x + 17y ] = 5x – 13y – 4x + 17y = x + 4y 
+
+Lehrbeispiel 6 
+
+Vereinfachen Sie so weit wie möglich! 
+
+–{–[12,8xy – (3,4yz + 5,6xy) – (–6,4xy + 12,4yz)] – xy}  
+
+Lösung 
+
+Bei  einer  Aufgabe  dieser  Komplexität  ist  es  wichtig,  die  Auflösungsschritte  sorgfältig 
+nacheinander durchzuführen. 
+
+–{ –[12,8xy – (3,4yz + 5,6xy) – (–6,4xy + 12,4yz)] – xy} 
+
+= –{–[12,8xy – 3,4yz – 5,6xy + 6,4xy – 12,4yz] – xy} 
+
+= –{–12,8xy + 3,4yz + 5,6xy – 6,4xy + 12,4yz – xy} 
+
+= +12,8xy – 3,4yz – 5,6xy + 6,4xy – 12,4yz + xy 
+
+= 14,6xy – 15,8yz 
+
+Lehrbeispiel 7 
+
+Berechnen Sie den Flächeninhalt des Rechtecks! Geben Sie zwei Lösungsterme an! 
+
+Lösung 
+
+1.  Der  Flächeninhalt  des  gesamten  Rechtecks  berechnet  sich  als  Produkt  beider 
+
+Seitenlängen: 
+
+A = a  (b + c) 
+
+2.  Der  Flächeninhalt  lässt  sich  jedoch  auch  als  Summe  der  beiden  Teilflächen  be- 
+
+rechnen: 
+
+A = a  b + a  c 
+
+Da  beide  Flächeninhalte  gleich  groß  sind,  müssen  auch  die  entsprechenden  Terme 
+gleich sein: 
+
+a  (b + c) = a  b + a  c 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+55 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Distributivgesetz 
+
+Ein  Term  wird  mit  einer  Summe  multipliziert,  indem  er  mit  jedem  Summanden 
+der Summe multipliziert wird. 
+
+Das Malzeichen vor und hinter der Klammer kann weg gelassen werden. 
+
+x  (y – z) = xy – xz 
+
+Für alle a, b, c  
+ gilt: 
+a  (b + c) = a  b + a  c 
+
+Lehrbeispiel 8 
+
+Multiplizieren Sie aus und fassen zusammen! 
+
+–x(1,4 + y – x) – 3(6,2x – xy + x2) 
+
+Lösung 
+
+Das Beachten der Vorzeichen der beiden Faktoren vor den Klammern ist wichtig. 
+
+   –x(1,4 + y – x) – 3(6,2x – xy + x2)  
+= –1,4x – xy + x2 – 18,6x + 3xy – 3x2 
+= –2x2 – 20x + 2xy 
+
+Lehrbeispiel 9 
+
+Berechnen Sie den Flächeninhalt des Rechtecks. Geben Sie zwei Lösungsterme an. 
+
+Lösung 
+
+1.  Der Flächeninhalt des gesamten Rechtecks berechnet sich als Produkt beider 
+
+Seitenlängen:  
+
+A = (a + b) (c + d) 
+
+2.  Der Flächeninhalt lässt sich jedoch auch als Summe der vier Teilflächen berech-
+
+nen: 
+
+A = I + II + III + IV 
+
+= a  c + b  c + b  d + a  d 
+
+Da  beide  Flächeninhalte  gleich  groß  sind,  müssen  auch  die  entsprechenden  Terme 
+äquivalent sein: 
+
+56 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+(a + b) (c + d) = ac + ad + bc + bd 
+
+Eine Summe wird mit einer Summe multipliziert, indem jeder Summand der ers-
+ten  Summe  mit  jedem  Summanden  der  zweiten  Summe  multipliziert  wird  und 
+die Teilprodukte addiert werden. 
+
+(a + b) (c + d)  = ac + ad + bc + bd 
+
+(a + b) (c – d)  = ac – ad + bc – bd 
+
+(x – y) (r + s)  = rx + sx – ry – sy 
+
+(x – y) (z – q)  = xz – qx – yz + qy 
+
+Lehrbeispiel 10 
+
+Multiplizieren Sie den folgenden Term aus! 
+
+(x – 2 + 2a) (x + 5 – a) 
+
+Lösung 
+
+Die oben erarbeitete Regel für die Multiplikation von Summen gilt auch dann, wenn in 
+den Summentermen mehr als zwei Summanden stehen. 
+
+(x – 2 + 2a) (x + 5 – a) = x2 + 5x – ax – 2x – 10 + 2a + 2ax + 10a – 2a2 
+
+Beim Zusammenfassen und Ordnen ist darauf zu achten, dass die Variablenterme in 
+alphabetischer  Reihenfolge  und  mit  dem  größten  Exponenten  beginnend  geordnet 
+werden. 
+
+= –2a 2 + 12a + ax + x 2 + 3x – 10 
+
+Lehrbeispiel 11 
+
+Multiplizieren Sie aus und fassen zusammen! 
+
+(a + 1) (a – 2) (a + 3)  
+
+Lösung 
+
+Nach dem Assoziativgesetz der Multiplikation fasst man zunächst zwei der drei Fakto-
+ren zusammen und multipliziert diese aus. 
+
+[(a + 1) (a – 2)] (a + 3) = [a2 – 2a + a – 2] (a + 3) 
+
+Wenn möglich – wie in der eckigen Klammer – werden vor der nächsten Multiplikation 
+gleichnamige Terme addiert. 
+
+= [a2 – a – 2] (a + 3) = a3 + 3a2 – a2 – 3a – 2a – 6 = a3 + 2a2 – 5a – 6 
+
+Das Distributivgesetz der Multiplikation a(b + c) = ab + ac kann nicht nur in der vorlie-
+genden  Reihenfolge  angewendet  werden.  In vielen  Aufgabenstellungen  (z.B.  Kürzen 
+bei Bruchtermen) ist es notwendig, vorhandene Summenterme in Produkte umzuwan-
+deln. Dabei muss man nur das Distributivgesetz von rechts nach links lesen. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+57 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 12 
+
+Zerlegen Sie die Summe mithilfe des Distributivgesetzes in ein Produkt! 
+
+5a + 5b 
+
+Lösung 
+
+Der erste Lösungsschritt besteht darin, dass die Summanden auf gemeinsame Fakto-
+ren überprüft werden. 
+
+5a + 5b 
+
+Wenn ein solcher gemeinsamer Faktor gefunden wurde, wird dieser  ausgeklammert 
+und die jeweiligen „Reste“ der Summanden in eine Klammer geschrieben. 
+
+= 5(a + b) 
+
+Diese  „umgekehrte“  Anwendung  des  Distributivgesetzes  nennt  man  Ausklammern 
+oder Faktorisieren.  
+
+Lehrbeispiel 13 
+
+Verwandeln Sie in ein Produkt! 
+
+–28an + 21bn – 56np 
+
+Lösung 
+
+Zunächst  scheinen  die  Koeffizienten  keinen  gemeinsamen  Faktor  zu  haben.  Zur  ge-
+nauen Überprüfung werden sie in Primfaktoren zerlegt: 
+
+2  2  
+
+28 = 
+21 = 
+56 =  2  2  2  
+
+7 
+3   7 
+7 
+
+ggT (28,21,56) = 7 
+
+Die  Primfaktorzerlegung  zeigt,  dass  der  Faktor  7  in  allen  Koeffizienten  vorkommt. 
+Damit sieht der Summenterm wie folgt aus: 
+
+      –28an 
+=  –4  7 a n   +  3  7 b n  –  8  7 n p 
+
+56np 
+
+21bn 
+
++ 
+
+– 
+
+Bei  der  Überprüfung  der  Variablen  wird  deutlich,  dass  der Faktor  n  ebenfalls in  allen 
+Summanden vorkommt. 
+
+= –4  7 a n + 3  7 b n – 8  7 n p 
+
+Somit ergibt sich als auszuklammernder Faktor 7n. 
+
+= 7n(–4a + 3b – 8p) 
+
+58 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 14 
+
+Verwandeln Sie die Summe in ein Produkt! 
+
+12a – 12 
+
+Lösung 
+
+In beiden Summanden steht die Zahl 12; sie wird also faktorisiert. 
+
+12 a – 12 = 12 a – 12  1 
+
+Wichtig ist hier, dass beim zweiten Summanden unbedingt der Faktor 1 mitzudenken 
+ist. 
+
+= 12 (a – 1) 
+
+Würde die 1 in der Klammer vergessen, ergäbe sich beim Ausmultiplizieren nicht die 
+ursprüngliche Summe. 
+
+Lehrbeispiel 15 
+
+Verwandeln Sie die Summe in ein Produkt, indem Sie den Faktor (–1) ausklammern! 
+
+–x – y 
+
+Lösung 
+
+In vielen  Aufgabenstellungen  ist  es vorteilhaft,  den  Term  so  zu verändern,  dass  sich 
+die Vorzeichen der Variablen ändern. 
+
+–x – y = (–1) (x + y) 
+
+Nun  gibt  es  Summenterme,  bei  denen  zunächst  ein  Faktorisieren  nicht  möglich  er-
+scheint. In der Summe px + pz + qx + qz ist kein gemeinsamer Faktor aller vier Sum-
+manden  zu  erkennen.  Bei  genauerer  Überprüfung  ist  aber  festzustellen,  dass  in  je-
+weils zwei Summanden ein gemeinsamer Faktor vorhanden ist. 
+
+p x + p z + q x + q z  
+
+Im ersten Lösungsschritt wird also aus jeweils zwei Summanden ausgeklammert. 
+
+= p (x + z) + q (x + z) 
+
+Jetzt  wird  deutlich,  dass  die  beiden  verbleibenden  Summanden  wiederum  einen  ge-
+meinsamen Faktor haben. 
+
+= p (x + z) + q (x + z) 
+
+Da dieser gemeinsame Faktor ein Klammerterm ist, wird die gesamte Klammer (x + z) 
+faktorisiert. 
+
+= (x + z) (p + q) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+59 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 16 
+
+Verwandeln Sie in ein Produkt! 
+
+2ax + 8ay – bx – 4by  
+
+Lösung 
+
+2ax + 8ay – bx – 4by 
+
+= 2a (x + 4y) – b (x + 4y) 
+
+In  der  zweiten  Klammer  ist  darauf  zu  achten,  dass  beim  Ausmultiplizieren  der  ur-
+sprüngliche Term –4by entsteht; in der Klammer muss der „Restterm“ 4y also mit ei-
+nem Pluszeichen versehen werden. 
+
+Da beide Klammerterme wieder identisch sind, können diese faktorisiert werden. 
+
+= (x + 4y) (2a – b) 
+
+Lehrbeispiel 17 
+
+Überprüfen Sie, ob die gegebene Summe in ein Produkt zu verwandeln ist! 
+
+p2 + 6pr + 8r2 
+
+Lösung 
+
+Zur Überprüfung dieser Frage sind folgende Voraussetzungen zu formulieren: 
+
+1.  Wenn diese Summe als Produkt zweier Summenterme entstanden ist, müssen die 
+
+ersten Summanden beider Klammern gleich sein. 
+
+p2 + 6pr + 8r 2 = (p       ) (p       ) 
+
+2.  Die Variable des jeweils zweiten Summanden ist ebenfalls festgelegt. 
+
+= (p      r) (p      r) 
+
+3.  Nach der Regel über das Multiplizieren von Summentermen muss gelten: 
+
+(p     a1 r) (p      a2 r) = p2 + 6pr + 8r2 
+
+Die beiden gleichnamigen Variablenterme pr müssen in ihrer Summe +6pr ergeben. 
+Zugleich muss das Produkt der Koeffizienten der Variablen r +8 ergeben. Daraus ist 
+zu folgern: 
+
++6 = a1 + a2 
+
++8 = a1  a2 
+
+Gesucht werden also zwei Zahlen, die in ihrer Summe +6 und als Produkt +8 ergeben.  
+
+60 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Es gibt folgende Möglichkeiten: 
+
++6 =  1 + 5  
+
+=  2 + 4  
+
+=  3 + 3  
+
++8 =  1  8 
+
+=  2  4 
+
+=  (–1)  (–8) 
+
+=  (–2)  (–4) 
+
+Die Zahlenkombination +6 = 2 + 4  und +8 = 2  4  erfüllt diese Voraussetzungen. Es 
+ergibt sich als Lösung: 
+
+p2 + 6pr + 8r2 = (p + 2r) (p + 4r) 
+
+Antwort:  Der gegebene Summenterm lässt sich in ein Produkt umwandeln. 
+
+Lehrbeispiel 18 
+
+Faktorisieren Sie! 
+
+a2 – ay – 6y2  
+
+Lösung 
+
+1. Lösungsschritt: a2 – ay – 6y2 = (a   y) (a   y) 
+
+2. Lösungsschritt:   –6  =  (–1)  6 
+
+  =  (–2)  3 
+
+  =  1  (–6)   
+
+–1 = 2 + (–3) 
+
+  =  2  (–3) 
+
+Das Zahlenpaar +2/–3 erfüllt beide Bedingungen. 
+
+a2 – ay – 6y2 = (a + 2y) (a – 3y) 
+
+Das Faktorisieren von Summentermen wird besonders bei der Addition und Multiplika-
+tion von Bruchtermen benötigt. 
+
+Lehrbeispiel 19 
+
+Bestimmen Sie die Definitionsmenge! 
+
+Die Grundmenge ist G = 
+
+. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+61 
+
+8a45− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+Da  der  Nenner  des  Bruchterms  eine  Summe  ist,  muss  dieser  zunächst  faktorisiert 
+werden. 
+
+4a – 8  = 4a – 2  4 = 4(a – 2) 
+
+Gesucht wird die Zahl, für deren Einsetzung in den Nennerterm dieser Null wird. 
+
+4(a – 2)  
+4(2 – 2) = 4  0 = 0 
+
+Antwort:  Definitionsmenge D = 
+
+\{2} 
+
+Lehrbeispiel 20 
+
+Faktorisieren Sie den folgenden Term im Nenner und geben Sie die Definitionsmenge 
+an! 
+
+Lösung 
+
+a2 – 19a = a(a – 19) 
+
+In diesem Term ist folgende Regel zu beachten: 
+
+Ein  Produkt  aus  zwei  oder  mehreren  Faktoren  (Termen)  ist  immer  dann  gleich 
+Null, wenn mindestens einer der Faktoren (Terme) Null ist. 
+
+a(a – 19) 
+
+  0 (0 – 19)  = 0  (–19) = 0 
+
+  19(19 – 19)  = 19  0 
+
+= 0 
+
+Für zwei Einsetzungen wird der Nenner Null. 
+
+Antwort:  D = 
+
+\{0; 19} 
+
+Lehrbeispiel 21 
+
+Bestimmen Sie die Definitionsmenge! 
+
+62 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+a19aa252−−1)6)(x(2x5x−+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+(2x + 6) (x – 1) 
+
+=  2(x + 3) (x – 1) 
+
+2(–3 + 3) (–3 – 1)  =  2  0  (–4)  = 0 
+
+2(1 + 3) (1 – 1) 
+
+=  2  4  0 
+
+= 0 
+
+Antwort:  D = 
+
+\{–3; 1} 
+
+Für das Addieren und Subtrahieren von Bruchtermen ist das Erweitern und Kürzen ein 
+wesentlicher  Bestandteil.  Aus  diesem  Grunde  sollen  dazu  zunächst  einige  Beispiele 
+erläutert werden. 
+
+Lehrbeispiel 22 
+
+Geben Sie die Definitionsmenge an und erweitern Sie den Bruchterm! 
+
+erweitert mit y – 3 
+
+Lösung 
+
+Da beim Erweitern Zähler und Nenner mit dem selben Term multipliziert werden, darf 
+auch der Term, mit dem erweitert wird, nicht die Zahl Null bezeichnen. 
+
+Lehrbeispiel 23 
+
+Kürzen Sie den Bruchterm! 
+
+Lösung 
+
+Bisher  wurden  nur  Bruchterme  behandelt,  in  denen  keine  Summen  vorkamen.  Im 
+vorliegenden  Beispiel  bestehen  Zähler  und  Nenner  aus  Summen.  Hier  ist  folgende 
+Regel zu beachten: 
+
+Aus  Summen  und  Differenzen  darf  nicht  gekürzt  werden.  Die  Terme  im  Zähler 
+und im Nenner müssen zunächst jeweils in Faktoren zerlegt werden.  
+
+Erst  wenn  im  Zähler  und  im  Nenner  nur  Faktoren  stehen,  darf  gekürzt  werden. 
+Auch hier gilt die Regel, dass beim Kürzen der Term, durch den gekürzt wird, nicht die 
+Zahl Null bezeichnet. 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+63 
+
+y25+2y,3y6yy15y5y3y6y215y5)3y)(y2()3y(522−−−−=−+−−=−+−105a15a355a2−−0a,7a)7a(a15)7a(5a105a1535a52−−=−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 24 
+
+Kürzen Sie den Bruchterm! 
+
+Lösung 
+
+Lehrbeispiel 25 
+
+Fassen Sie die Bruchterme zusammen! 
+
+Lösung 
+
+Zunächst  muss  der  Hauptnenner  bestimmt  werden.  Da  beide  Nenner  nicht  weiter 
+zerlegt werden können, ist der Hauptnenner 
+
+HN: (x – 1)  2x 
+
+Anschließend werden beide Bruchterme gleichnamig gemacht; d.h. erweitert und ad-
+diert. 
+
+Lehrbeispiel 26 
+
+Machen Sie gleichnamig und fassen Sie zusammen! 
+
+64 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+a31)7a(a15)7a(5=−−31113xx3)3)(x(x2−+−x3x3x,0x)3x(x)3x)(3x(x3x)3x)(3x(2+=−+−=−+−112x51x10x+−0x,1xx251xx10+−x2)1x(5x5x20x2)1x()1x(5x2)1x(x2x102−−+=−−+−)1x(43x)1x(x22x+−−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+  HN: 4x(x + 1) 
+
+In  diesem  Lösungsschritt  ist  im  Zähler  des  zweiten  Bruches  eine  Klammer  gesetzt 
+worden, da es sich um eine Summe handelt, die mit dem Faktor x multipliziert wird. 
+
+Lehrbeispiel 27 
+
+Fassen Sie die Bruchterme zusammen! 
+
+Lösung 
+
+Zunächst müssen die Nenner faktorisiert werden. 
+
+5x – 20 = 5 (x – 4) 
+
+3x – 12 = 3 (x – 4) 
+
+HN: 5  3 (x – 4) = 15 (x – 4) 
+
+Lehrbeispiel 28 
+
+Fassen Sie zusammen! 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+65 
+
+1x,0x)1x(43x)1x(x22x−+−−+−)1x(22)1x(x2++)1x(x4x)3x()1x(x42)2x(+−−+−)1x(x44x5x)1x(x4x3x4x2)1x(x4x)3x(4x222+−+−=++−−=+−−−123x6a205x4a−+−4x)4x(5a14)4x(15a42)4x(15a30a12)4x(155a6)4x(153a412x3a620x5a4−=−=−+=−+−=−+−145xx24x3x422+−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+3x2 – 4x  = x(3x – 4) 
+
+x2 + x 
+
+= x(x + 1) 
+
+HN: x(3x – 4) (x + 1) 
+
+Beachten Sie das Minuszeichen vor dem Bruchstrich! 
+
+Lehrbeispiel 29 
+
+Multiplizieren Sie die Bruchterme! 
+
+Lösung 
+
+Da aus Summen und Differenzen nicht gekürzt werden darf, müssen die Zähler beider 
+Bruchterme  zunächst  faktorisiert  werden.  Erst  dann  können  vollständige  Summen 
+gekürzt werden. 
+
+Lehrbeispiel 30 
+
+Dividieren Sie die folgenden Terme! 
+
+Lösung 
+
+Wenn die Summenterme auf einen gemeinsamen Bruchstrich geschrieben wer-
+den, müssen unbedingt Klammern gesetzt werden.  
+
+66 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+)1x)(4x3(x8x64x4)1x)(4x3(x)4x3(2)1x)(4x3(x)1x(4)1x(x2)4x3(x4+−+−+=+−−−+−+=+−−0x,34x,1x)1x)(4x3(x12x2−+−+−9y426x7x455y−++−309y,7x)9y)(7x()7x(6)9y(59y)7x(67x)9y(59y42x67x45y5=−−++−=−++−=−++−1111yx3y6:5y5x18y36−−−−−−−−y36yxy5x5y1836yxy36:y5x5y1836−−−−−−−−=−−−−−−−−)y36)(y5x5()yx)(y1836(−−−−−−−−= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+3.4 Binomische Formeln 
+
+Die 1. binomische Formel 
+
+Mit dem Term (a + b) (a + b) kann der 
+Flächeninhalt des gesamten Quadrats mit 
+der Seitenlänge (a + b) berechnet werden. 
+
+Wie aus der Abbildung 3 zu erkennen ist, 
+lässt sich das gesamte Quadrat in vier 
+Teilflächen zerlegen: 
+
+a2
+
+ + ab + ab + b2 
+
+Abbildung 3 Zerlegung eines Quadrates 
+
+Die beiden mittleren Terme lassen sich zu einem Term zusammenfassen, sodass 
+folgender Lösungsterm für die 1. binomische Formel entsteht: 
+
+(a + b) (a + b) = (a + b)2 
+
+= a2 + 2ab + b2 
+
+1. binomische Formel 
+
+(a + b)2 = a2 + 2ab + b2 
+
+(x + y)2 = x2 + 2xy + y2  
+
+(a + 5)2 = a2 + 10a + 25 
+
+Lehrbeispiel 1 
+
+Wenden Sie die 1. binomische Formel an! 
+
+(15r + 3s)2 
+
+Lösung 
+
+(15r + 3s)2 = 15r  15r + 2  15r  3s + 3s  3s 
+= 225r2 + 90 rs + 9s2 
+
+Oft ist es notwendig, eine gegebene Summe in ein Produkt zu verwandeln   
+(Faktorisieren). 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+67 
+
+2y,yx56)y2)(3()yx(5)yx)(1()y2(18−−=+−+−+−+−=611111 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 2 
+
+Schreiben Sie als Produkt, indem Sie die 1. binomische Formel anwenden! 
+
+a2 + 8a + 16 
+
+Lösung 
+
+Aus dem Quadrat (a2) erhält man a als erstes Glied, aus dem Quadrat 16 erhält man 4 
+als  zweites  Glied.  Zur  Kontrolle  bildet  man  abschließend  den  mittleren  Term 
+8a = 2  a  4. Als Lösung ergibt sich somit: 
+
+a2 + 8a + 16 = (a + 4)2 
+
+Die 2. binomische Formel 
+
+Für  die  Multiplikation  von  zwei  Summentermen  gilt  die  Regel,  dass  jeder  Summand 
+der 1. Klammer mit jedem Summanden der 2. Klammer multipliziert wird. 
+
+Dann ergibt sich für die Multiplikation von: 
+
+(a – b) (a – b) = (a – b)2 
+
+= a2 – ab – ab + b2 
+= a2 – 2ab + b2 
+
+2. binomische Formel 
+
+(a – b)2 = a2 – 2ab + b2 
+
+(r – s)2 = r2 – 2rs + s2 
+
+(8 – y)2 = 64 – 16y + y2 
+
+Lehrbeispiel 3 
+
+Wenden Sie die 2. binomische Formel an! 
+
+(4t – 3v)2 
+
+Lösung 
+
+(4t – 3v)2 
+
+= 4t  4t – 2  4t 3v + 3v  3v 
+= 16t2 – 24 tv + 9v2 
+
+68 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 4 
+
+Schreiben Sie als Produkt, indem Sie die 2. binomische Formel anwenden! 
+
+u2 – 12u + 36 
+
+Lösung 
+
+u2 – 12u + 36 = (
+
+ – 
+
+)2 
+
+Diese  Aufgabe  wird  analog  zur  1.  binomischen  Formel  gelöst;  d.h.  aus  dem  Quadrat 
+u2 erhält man das erste Glied u, aus dem Quadrat 36 das zweite Glied 6. Die Kontrolle 
+des mittleren Gliedes ergibt 12u = 2  u  6. 
+
+Als Lösung ergibt sich somit: 
+
+u2 – 12u + 36 = (u – 6)2 
+
+Die 3. binomische Formel 
+
+Die  dritte  binomische  Formel  behandelt  den  Sonderfall,  dass  sich  die  beiden  Klam-
+mern durch das Vorzeichen unterscheiden. 
+
+(a + b) (a – b) = a2 – ab + ab – b 2 
+
+Die  beiden mittleren Terme  ergeben  zusammen  Null, sodass  folgender  Lösungsterm 
+für die 3. binomische Formel entsteht: 
+
+(a + b) (a – b) = a2 – b2 
+
+3. binomische Formel 
+
+(a + b) (a – b) = a2 – b2 
+
+(m + n) (m – n) = m2 – n2 
+
+(4a + 5c) (4a – 5c) = 16a2 – 25c2 
+
+Lehrbeispiel 5 
+
+Wenden Sie die 3. binomische Formel an!  
+
+(3x + 5y) (3x – 5y) 
+
+Lösung 
+
+(3x + 5y) (3x – 5y) = 3x  3x – 5y  5y 
+
+= 9x2 – 25y2 
+
+Lehrbeispiel 6 
+
+Schreiben Sie als Produkt, indem Sie die 3. binomische Formel anwenden! 
+
+4 – a2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+69 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösung 
+
+4 – a2 = (
+
+ + 
+
+) (
+
+ – 
+
+) 
+
+Aus dem Quadrat 4 erhält man das erste Glied 2, aus dem Quadrat a2 erhält man das 
+zweite Glied a. Als Lösung ergibt sich somit: 
+
+4 – a2 = (2 + a) (2 – a) 
+
+Da die drei binomischen Formeln in vielen Aufgaben mit anderen Termen kombiniert 
+sind, ist ein systematischer und geordneter Lösungsweg sehr wichtig. 
+
+Lehrbeispiel 7 
+
+Berechnen Sie und fassen so weit wie möglich zusammen! 
+
+(–4a – 7)2 – (2a + 4)2 
+
+Lösung 
+
+Im  ersten  Lösungsschritt  werden  ausschließlich  die  beiden  binomischen  Formeln 
+angewendet,  ohne  das  Minuszeichen  vor  der  zweiten  Klammer  zu  berücksichtigen. 
+Die erste Klammer ist das 2. Binom: 
+
+(–4a)(–4a) – 2 (–4a) 7 + (–7)(–7) = 16a2 + 56a + 49 
+
+Die zweite Klammer ist das 1. Binom: 
+
+2a  2a + 2  2a  4 + 4  4 = 4a 2 + 16a + 16 
+
+Dann ergibt sich als Zwischenlösung: 
+
+16a2 + 56a + 49 – (4a2 + 16a + 16) 
+
+Im zweiten Lösungsschritt wird die Minusklammer aufgelöst, indem alle Vorzeichen 
+in der Klammer geändert werden: 
+
+16a2 + 56a + 49 – 4a2 – 16a – 16 
+
+Abschließend werden gleichartige Terme zusammengefasst: 
+
+(–4a – 7)2 – (2a + 4)2 = 12a2 + 40a + 33 
+
+Lehrbeispiel 8 
+
+Berechnen Sie und fassen Sie so weit wie möglich zusammen! 
+
+–[48xz – (4x – 6z)2] – [(4x – 6z) (4x + 6z)] 
+
+Lösung 
+
+Im  ersten  Lösungsschritt  werden  nur  die  Terme  innerhalb  der  runden  Klammern 
+mithilfe der binomischen Formeln ausgerechnet. 
+
+–[48xz – (16x2 – 48xz + 36z2)] – [16x2 – 36z2] 
+
+70 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Im zweiten Lösungsschritt wird die verbleibende runde Klammer aufgelöst . 
+
+–[48xz – 16x2 + 48xz – 36z2] – [16x2 – 36z2] 
+
+Im  dritten  Lösungsschritt  werden  die  eckigen  Klammern  aufgelöst  (vor  beiden 
+Klammern steht ein Minuszeichen!). 
+
+–48xz + 16x2 – 48xz + 36z2 – 16x2 + 36z2 
+
+Nach dem Zusammenfassen gleichartiger Terme ergibt sich als Lösung:  
+
+[48xz – (4x – 6z)2] – [(4x – 6z)(4x + 6z)] = 72z2 – 96xz 
+
+Lehrbeispiel 9 
+
+Machen Sie gleichnamig und fassen Sie zusammen!  
+
+Lösung 
+
+a2 – 4 = (a + 2)(a – 2) 
+
+HN: (a + 2)(a - 2) 
+
+Lehrbeispiel 10 
+
+Fassen Sie zusammen! 
+
+Lösung 
+
+x2 – 9 = (x + 3)(x - 3) 
+
+x2 – 6x + 9 = (x – 3)2 
+
+HN: (x + 3) (x – 3)2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+71 
+
+2a14a12+−−2a,2a)2a)(2a(3a)2a)(2a(2a1)2a)(2a()2a(1)2a)(2a(12a14a12−−++−=−++−=−+−−−+=+−−96xx29x222+−−−3x,3x)3x)(3x(12)3x)(3x(6x26x2)3x)(3x()3x(2)3x(2)3x(2)3x)(3x(22222−−+−=−+−−−=−++−−=−−−+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lehrbeispiel 11 
+
+Dividieren Sie die Terme! Faktorisieren Sie und kürzen so weit wie möglich! 
+
+Lösung 
+
+3.5 Polynomdivision 
+
+Die Polynomdivision ist prinzipiell ein mathematisches Verfahren zum Lösen von Glei-
+chungen höheren Grades. An dieser Stelle wird zunächst das Verfahren zum Dividie-
+ren von Polynomen vom Grad n mit einem Term ersten Grades vorgestellt.  
+
+(axn + bxn-1 + ... + cx + d) : (x - e) 
+
+Mit  dem  Ergebnis  der  Division  kann  das  Polynom  faktorisiert  werden,  wodurch  sich 
+der  Grad  des  Polynoms  um  eine  Potenz  reduziert.  Mit  dieser  Faktorisierung  kann  in 
+der Regel einfacher weitergerechnet werden. 
+
+Mithilfe des folgenden Beispiels wird die Vorgehensweise erläutert. 
+
+Durch Ausmultiplizieren der zwei Summenterme 
+
+(3x + 5) (2x – 6) = 6x2 – 18x + 10x – 30 
+
+= 6x2 – 8x – 30 
+
+ergibt sich ein Summenterm, der Polynom genannt wird. 
+
+Soll nun wieder aus diesem Polynom durch Faktorisieren ein Produkt hergestellt wer-
+den,  ist  dies  nicht  so  einfach  möglich  wie  bei  den  Binomen.  Ist  aber  bereits  ein  Teil 
+des  Produktes  bekannt,  lässt  sich  durch  eine  Polynomdivision  der  zweite  Faktor 
+berechnen. 
+
+72 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+22222224b4abayx:2b)4(ayxy2x+−−−++22222222222222yxb4ab4a)b2a(4yxy2xb4ab4ayx:)b2a(4yxy2x−+−−++=+−−−++yx,yx,b2a)yx(4yx)yx)(yx()b2a(4)b2a()yx(222−−+=−+−−+= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Beispiel: 
+
+(6x2 – 8x – 30) : (2x – 6) = 3x + 5 
+
+6x2 : 2x = 3x 
+
+6x2 –   8x – 30 
+–(6x2 – 18x)       
+0   + 10x – 30 
+
+10x : 2x = 5 
+
+10x – 30 
+–(10x – 30) 
+0     0 
+
+Der  erste  Lösungsschritt  erfolgt  ähn-
+lich  wie  bei  der  gewöhnlichen  Division; 
+es  wird  allerdings  nur  durch  den  1. 
+Summanden des Divisors dividiert: 
+
+Der Quotient 3x wird mit dem gesamten 
+Divisor  multipliziert,  unter  den  Dividen-
+den geschrieben und subtrahiert:  
+
+Der  „Rest“  von  10x  wird  nun  wieder 
+durch  den  ersten  Summanden  des 
+Divisors dividiert: 
+
+Das Ergebnis 5 wird wiederum mit dem 
+gesamten  Divisor  multipliziert;  an-
+schließend  wird  erneut  die  Differenz 
+gebildet: 
+
+Als Lösung ergibt sich somit: (6x2 – 8x – 30) : (2x – 6) = 3x + 5 
+
+Lehrbeispiel 1 
+
+Führen Sie die Polynomdivision in zwei Schritten durch, indem Sie das Polynom  
+
+(x3 + 4x2 + x – 6)  
+
+zunächst durch den Term (x-1) dividieren und anschließend das Ergebnis durch  
+(x + 2) dividieren! 
+
+Lösung 
+
+Erste Division: 
+
+ (x3 + 4x2 + x – 6) : (x – 1) = x2 +  5x + 6 
+–(x3 – x2) 
+
+0    5x2 + x – 6 
+–(5x2 – 5x) 
+
+0      6x – 6 
+
+–(6x – 6) 
+
+0    0 
+
+daraus ergibt sich: 
+
+x3 + 4x2 + x – 6 = (x – 1) (x2 + 5x + 6) 
+
+Zweite Division:  
+
+(x2 + 5x + 6) : (x + 2) = x + 3 
+
+–(x2 + 2x) 
+
+0    3x + 6 
+
+–(3x + 6) 
+
+0 
+
+Eine vollständige Faktorisierung des Polynoms ergibt also: 
+
+x3 + 4x2 + x – 6 = (x – 1) (x + 2) (x + 3) 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+73 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgaben 
+
+Aufgabe 1 
+
+Berechnen Sie! 
+
+1.1 
+
+1.2 
+
+1.3 
+
+1.4 
+
+(+63) + (+37) 
+
+(–27) + (+15) 
+
+(+87) + (–37) 
+
+(+32) – (+28) 
+
+1.5 
+
+(–43) – (+71) 
+
+1.6 
+
+(–17) – (–34) 
+
+Aufgabe 2 
+
+Vereinfachen und berechnen Sie! 
+
+2.1 
+
+2.2 
+
+(–13) – (–12) 
+
+(–79) – (+95) 
+
+2.3 
+
+(+55) – (+25) 
+
+Aufgabe 3 
+
+Fassen Sie zusammen! Bestimmen Sie zunächst die Definitionsmenge! 
+
+3.1 
+
+3.2 
+
+3.3 
+
+3.4 
+
+3.5 
+
+3.6 
+
+3.7 
+
+3.8 
+
+Aufgabe 4 
+
+Berechnen Sie! Bestimmen Sie zunächst die Definitionsmenge! 
+
+4.1 
+
+4.2 
+
+74 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+x7a3x7a5+3ax273a1x4++−++y11x9+c6m8c9m12+y3x23−1x32x5−−−x26a7x39a74−−+−+6p4p14pp282++−a4c3c21ab2xyx3102 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+4.3 
+
+4.4 
+
+Aufgabe 5 
+
+Berechnen Sie! Bestimmen Sie zunächst die Definitionsmenge! 
+
+5.1 
+
+5.2 
+
+5.3 
+
+5.4 
+
+Aufgabe 6 
+
+Lösen Sie die Klammern auf und fassen Sie zusammen! 
+
+6.1  10ab – (20a + 12b) –2(3ab + a) + 5ab 
+
+6.2 
+
+6.3  3a – {–[–16b – (17,5a – 2,5b)] – (4a + 0,3b)} 
+
+Aufgabe 7 
+
+Faktorisieren Sie! 
+
+7.1  6ax + 4bx + 9ay + 6by 
+7.2  x2 + 2xy – 35y2 
+
+Aufgabe 8 
+
+Wenden Sie die binomischen Formeln an! 
+
+8.1 
+
+8.2 
+
+8.3 
+
+(15 + s)2 
+(a – 9b)2 
+(n + 8) (n – 8) 
+
+Aufgabe 9 
+
+Schreiben Sie als Produkt, indem Sie die binomischen Formeln anwenden! 
+
+9.1  81 + 18m + m2 
+9.2  49 – 14x + x2 
+9.3  64r2 – 121s2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+75 
+
+x916x232x4x9−−−−y2x2b3a3ba)yx(x2−−−−c715:cc12+st3:s5t−x12a1236p27:x8a828p21−+−+ax8x2x:x166x32−−]y)x5,1y315(x21y6111[x211−+−−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 10 
+
+Vereinfachen Sie! 
+
+10.1  –4a + (8 – 4a)2 
+10.2  x2 – (x – y)2 +  2xy 
+10.3  (6x + 4y)2 – (4y – 6x)2 + 36x2 + 16y2 
+10.4  12a2 – [(4a – 2b)(4a + 2b)] + 4b2 
+10.5  –[9x2 – (5x – 4y)2 –16xy] – (4x + 3y)2 – 6y2 
+
+Aufgabe 11 
+
+Fassen Sie zusammen! Bestimmen Sie zunächst die Definitionsmenge! 
+
+11.1 
+
+11.2 
+
+11.3 
+
+Aufgabe 12 
+
+Dividieren Sie die Terme! Bestimmen Sie zunächst die Definitionsmenge! 
+
+12.1  (x2 – 4x – 21) : (x + 3) 
+
+12.2 
+
+Aufgabe 13 
+
+Zerlegen  Sie  die  folgenden  Polynome  vollständig  in  ein  Produkt,  indem  Sie  nachei-
+nander Polynomdivisionen durch die angegebenen Faktoren durchführen! Bestimmen 
+Sie die Definitionsmenge! 
+
+13.1  x3 + 10x2 + 7x – 18 
+13.2  x3 + 5x2 – 22x – 56 
+13.3  2x3 + 4,8x2 +  1,5x – 0,2 
+13.4  4x3 – 3x – 1 
+13.5  10x3 – 23x2y – 12xy2 + 36y3 
+
+(x – 1), (x + 2) 
+
+(x – 4), (x + 7) 
+
+(x + 2), (2x + 1) 
+
+(x – 1), (x + 0,5) 
+
+(2x – 3y), (x – 2y) 
+
+76 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+4y4y1yy2−−−2x9x5x3x18x3x4−−++−5a8a59a2582−−+−−)41x(:)81x43x(2−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Lösungsanhang 
+
+1 Mathematische Zahlendarstellungen 
+
+Lösungen 
+
+Aufgabe 1.1 
+
+3,1505 ≈ 3,15 
+
+Aufgabe 1.2 
+
+19,67 ≈ 19,7 
+
+Aufgabe1.3 
+
+1250,0 ≈ 1300 
+
+Aufgabe 1.4 
+
+875,5 ≈ 880 
+
+Aufgabe 2.1 
+
+8,5441 + 25,489 + 0,75  
+  8,54  + 25,49  + 0,75 = 34,78 
+
+Aufgabe 2.2 
+
+33,567 – 9,8  
+  33,6 – 9,8 = 23,8 
+
+Aufgabe 3.1 
+
+47,93  3,5  
+
+48  3,5 = 168  
+
+Aufgabe 3.2 
+
+65,2 : 0,38  
+  65 : 0,38 ≈ 171 
+
+Aufgabe 4.1 
+
+5 000 000 = 5  106 
+
+Aufgabe 4.2 
+
+1 230 000 000 = 1,23  109 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+77 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 4.3 
+
+9 184 530 = 9,18453  106 
+
+Aufgabe 5.1 
+
+250 KW = 2,5  105 W   
+
+Aufgabe 5.2 
+
+7 GW = 7  109 W 
+
+Aufgabe 5.3 
+
+800 km = 8  105 m  
+
+Aufgabe 6.1 
+
+510 Billionen m2 = 5,1  1014 m2 
+
+Aufgabe 6.2 
+
+1083 Trillionen m3 = 1,083  1021 m3 
+
+Aufgabe 7.1 
+
+0,000 7 = 7  10–4 
+
+Aufgabe 7.2 
+
+0,000 000 72 = 7,2  10–7 
+
+Aufgabe 7.3 
+
+0,000 001 = 1  10–6 
+
+Aufgabe 8.1 
+
+12 μm = 1,2  10–5 m  
+
+Aufgabe 8.2 
+
+1280 nm = 1,28  10–6 m 
+
+Aufgabe 8.3 
+
+500 pF = 5  10–10 F 
+
+78 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 9.1 
+
+8 μm = 8  10–6 m  
+
+Aufgabe 9.2 
+
+250 nm = 2,5  10–7 m 
+
+Aufgabe 10.1 
+
+88 = 1  26 + 0  25 + 1  24 + 1  23 + 0  22 + 0  21 + 0  20 
+  = (1011000)2 
+
+Aufgabe 10.2 
+
+429 = 1  28 + 1  27 + 0  26 + 1  25 + 0  24 + 1  23 + 1  22 + 0  21 + 1  20 
+
+= (110101101)2 
+
+Aufgabe 10.3 
+
+901 = (1110000101)2 
+
+Aufgabe 11.1 
+
+10010 + 10101 = 100111 
+
+18 + 21 = 39 
+
+Aufgabe 11.2 
+
+1111111 + 1100 = 10001011 
+
+127 + 12 = 139 
+
+Aufgabe 12.1 
+
+10  100 = 1000  
+
+2  4 = 8 
+
+Aufgabe 12.2 
+
+100101  11001 = 1110011101 
+
+37  25 = 925 
+
+2 Zahlenmengen 
+
+Aufgabe 1.1 
+
+8  
+
+, 8  
+
+, 8   +, 8  
+
+Aufgabe 1.2 
+
+–6  
+
+, –6  
+
+–, –6  
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+79 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 1.3 
+
+   +, 
+
+  
+
+Aufgabe 1.4 
+
+–10,5  
+
+–, –10,5  
+
+Aufgabe 1.5 
+
+8,1   +, 8,1  
+
+Aufgabe 1.6 
+
+–20  
+
+, –20  
+
+–, –20  
+
+Aufgabe 1.7 
+
+100  
+
+, 100  
+
+, 100   +, 100  
+
+Aufgabe 2.1 
+
+3 <  5 
+
+Aufgabe 2.2 
+
+7 >  –8 
+
+Aufgabe 2.3 
+
+  >  –5 
+
+Aufgabe 2.4 
+
+20,01  >  –21 
+
+Aufgabe 2.5 
+
+–1 < 1 
+
+Aufgabe 2.6 
+
+–9  =  –9 
+
+80 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+21122112212− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 3.1 
+
+Gegenzahl +15 
+
+|–15| = 15 
+
+Aufgabe 3.2 
+
+Gegenzahl –3,4 
+
+|–3,4| = 3,4 
+
+Aufgabe 3.3 
+
+Gegenzahl 
+
+ = 
+
+Aufgabe 3.4 
+
+Gegenzahl +8,35 
+
+|–8,35| = 8,35 
+
+Aufgabe 4.1 
+
+72 = 49 
+
+Aufgabe 4.2 
+
+(–2)2 = 4 
+
+Aufgabe 4.3 
+
+(–0,4)2 = 0,16 
+
+Aufgabe 4.4 
+
+Aufgabe 4.5 
+
+(–1,2)2 = 1,44 
+
+Aufgabe 5.1 
+
+Aufgabe 5.2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+81 
+
+214+214−214254)52(2=12144=11= 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 5.3 
+
+Aufgabe 5.4 
+
+Aufgabe 5.5 
+
+Aufgabe 6 
+
+12 ≤ 3 ≤ 22 
+
+1 ≤ 
+
+ ≤ 2 
+
+1,72 ≤ 3 ≤ 1,82 
+
+1,7 ≤ 
+
+ ≤ 1,8 
+
+1,732 ≤ 3 ≤ 1,742 
+
+1,73 ≤ 
+
+ ≤ 1,74 
+
+Aufgabe 7 
+
+Aufgabe 8.1 
+
+Aufgabe 8.2 
+
+Aufgabe 8.3 
+
+Aufgabe 9.1 
+
+82 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+8,124,3=9,081,0=07,00049,0=333864322==20400850==7495,242==28642128== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 9.2 
+
+Aufgabe 9.3 
+
+Aufgabe 10.1 
+
+Aufgabe 10.2 
+
+Aufgabe 10.3 
+
+Aufgabe 11.1 
+
+Aufgabe 11.2 
+
+Aufgabe 12.1 
+
+Aufgabe 12.2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+83 
+
+1011101211210==57549245==39327==7493147==7,049,0545,2==3754+75616+331535=32126623== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 13.1 
+
+Aufgabe 13.2 
+
+3 Grundrechenarten 
+
+Aufgabe 1.1 
+
+(+63) + (+37) = +100 
+
+Aufgabe 1.2 
+
+(–27) + (+15) = –12 
+
+Aufgabe 1.3 
+
+(+87) + (–37) = +50 
+
+Aufgabe 1.4 
+
+(+32) – (+28) = +4 
+
+84 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 1.5 
+
+(–43) – (+71) = –114 
+
+Aufgabe 1.6 
+
+(–17) – (–34) =+17 
+
+Aufgabe 2.1 
+
+(–13) – (–12) = –13 + 12 = –1 
+
+Aufgabe 2.2 
+
+(–79) – (+95) = –79 – 95 = –174 
+
+Aufgabe 2.3 
+
+(+55) – (+25) = +55 – 25 = +30 
+
+Aufgabe 3.1 
+
+Aufgabe 3.2 
+
+Aufgabe 3.3 
+
+Aufgabe 3.4 
+
+Aufgabe 3.5 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+85 
+
+0xx7a8x7a3x7a5=+3a3a6x23ax273a1x4−+−=++−++0y,0xxyx11y9y11x9+=+0cc3m8c6m8c9m12=+0yy3x2y9y3x23−=− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 3.6 
+
+Aufgabe 3.7 
+
+Aufgabe 3.8 
+
+Aufgabe 4.1 
+
+Aufgabe 4.2 
+
+Aufgabe 4.3 
+
+Aufgabe 4.4 
+
+Aufgabe 5.1 
+
+Aufgabe 5.2 
+
+86 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+1x,2x)1x)(2x(1x2)1x)(2x()2x(3)1x(51x32x5−−+=−−−−−=−−−3x)x3(629a11)x3(2a7)x3(3a74x26a7x39a74−+=−−+−+=−−+−+21p,0p,23p)3p2)(1p2(p248p32p14p28)3p2(2p14)1p2(p86p4p14pp28232−+−++−=++−=++−0xx3y10xyx3102=8x,9x21x916x232x4x9=−−−−yx,ba2x3y2x2b3a3ba)yx(x22=−−−−0cc15)1c(715cc7)c1(c715:cc122+=+=+0s,5s)s5(s31st3:s5t−=− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 5.3 
+
+Aufgabe 5.4 
+
+Aufgabe 6.1 
+
+10ab – (20a + 12b) –2(3ab + a) + 5ab = –22a + 9ab – 12b 
+
+Aufgabe 6.2 
+
+Aufgabe 6.3 
+
+3a – {–[–16b – (17,5a – 2,5b)] – (4a + 0,3b)} = –10,5a – 13,2b 
+
+Aufgabe 7.1 
+
+6ax + 4bx + 9ay + 6by = (3a + 2b)(2x + 3y) 
+
+Aufgabe 7.2 
+
+x2 + 2xy – 35y2 = (x + 7y)(x – 5y) 
+
+Aufgabe 8.1 
+
+(15 + s)2 = 225 + 30s +s2 
+
+Aufgabe 8.2 
+
+(a – 9b)2 = a2 – 18ab + 81b2 
+
+Aufgabe 8.3 
+
+(n + 8) (n – 8) = n2 – 64 
+
+Aufgabe 9.1 
+
+81 + 18m + m2 = (9 + m)2 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+87 
+
+34p,xa67x12a1236p27:x8a828p21−=−+−+2x,0xx2a3ax8x2x:x166x32=−−y5,17x5,3]y)x5,1y315(x21y6111[x211+=−+−−−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 9.2 
+
+49 – 14x + x2 = (7 – x)2 
+
+Aufgabe 9.3 
+
+64r2 – 121s2 = (8r + 11s)(8r – 11s) 
+
+Aufgabe 10.1 
+
+–4a + (8 – 4a)2 = 16a2 – 68a + 64 
+
+Aufgabe 10.2 
+
+x2 – (x – y)2 +  2xy = 4xy – y2 
+
+Aufgabe 10.3 
+
+(6x + 4y)2 – (4y – 6x)2 + 36x2 + 16y2 = 36x2 + 96xy + 16y2 
+
+Aufgabe 10.4 
+
+12a2 – [(4a – 2b)(4a + 2b)] + 4b2 = –4(a2– 2b2) 
+
+Aufgabe 10.5 
+
+–[9x2 – (5x – 4y)2 –16xy] – (4x + 3y)2 – 6y2 = y2 – 48xy 
+
+Aufgabe 11.1 
+
+Aufgabe 11.2 
+
+Aufgabe 11.3 
+
+Aufgabe 12.1 
+
+(x2 – 4x – 21) : (x + 3) = x – 7 
+
+x  –3 
+
+88 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+1y,1y)1y)(1y(4y3y44y4y1yy22−−++=−−−3x,3x)x3)(x3(x61x14x9x5x3x18x3x422−−++−=−−++−5a,5a)a5)(a5(3a17a58a59)a5)(a5(85a8a59a2582−−++=−++−−+=−−+−− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+Aufgabe 12.2 
+
+Aufgabe 13.1 
+
+(x3 + 10x2 + 7x – 18) : (x – 1) = x2 + 11x +18 
+(x2 + 11x +18) : (x + 2) = x + 9 
+(x3 + 10x2 + 7x – 18) = (x – 1)(x + 2)(x + 9) 
+
+x  1, x  –2 
+
+Aufgabe 13.2 
+
+(x3 + 5x2 – 22x – 56) : (x – 4) = x2 + 9x +14 
+(x2 + 9x +14) : (x + 7) = x + 2 
+
+(x3 + 5x2 – 22x – 56) = (x – 4)(x + 7)(x + 2) 
+
+x  4, x  –7 
+
+Aufgabe 13.3 
+
+(2x3 + 4,8x2 +  1,5x – 0,2) : (x + 2) = 2x2 + 0,8x – 0,1 
+(2x2 + 0,8x – 0,1) : (2x + 1) = x – 0,1 
+
+(2x3 + 4,8x2 +  1,5x – 0,2) = (x + 2)(2x + 1)(x – 0,1)   
+
+x  –2, x  –0,5 
+
+Aufgabe 13.4 
+
+(4x3 – 3x – 1) : (x – 1) = 4x2 + 4x + 1 
+(4x2 + 4x + 1) : (x + 0,5) = 4x + 2 
+(4x3 – 3x – 1) = (x – 1)(x + 0,5)(4x + 2) 
+
+= (x – 1)(x + 0,5)(2x + 1)2 
+
+x  1, x  –0,5 
+
+Aufgabe 13.5 
+
+(10x3 – 23x2y – 12xy2 + 36y3) : (2x – 3y) = 5x2 –4xy – 12y2 
+(5x2 –4xy – 12y2) : (x – 2y) = 5x + 6y 
+(10x3 – 23x2y – 12xy2 + 36y3) = (2x – 3y)(x – 2y)(5x + 6y)  
+
+x  1,5y, x  2y 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+89 
+
+41x21x)41x(:)81x43x(2−=−+− 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zahlen kennen und Grundrechenarten anwenden 
+
+90 
+
+© DAA-Technikum Essen / gs-21_00_math_lm1.01.00.01 
+
+ 
+ 
+ 
+ 
+
