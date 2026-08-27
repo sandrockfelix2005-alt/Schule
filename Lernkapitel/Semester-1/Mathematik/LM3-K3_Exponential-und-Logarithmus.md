@@ -497,8 +497,8 @@ Jahresfaktor:  a_Jahr = 1,10951^(1/5) = 1,02100
 
 ```
 N(8) = 5 650 000 · 1,10951⁸
-     = 5 650 000 · 2,32337
-     = 13 127 000 Einwohner
+     = 5 650 000 · 2,29648
+     = 12 975 000 Einwohner
 ```
 
 ### Schritt 5: Wann sind 15 Millionen erreicht?
@@ -684,7 +684,7 @@ Gegeben die Tabelle aus dem Modul (1980: 5 650 000 · 2000: 8 561 766).
 
 **13.3** 2015 = 35 Jahre nach 1980 = 7 Schritte
 ```
-N(7) = 5 650 000 · 1,10951⁷ = 5 650 000 · 2,09404 = 11 831 000 Einwohner
+N(7) = 5 650 000 · 1,10951⁷ = 5 650 000 · 2,06983 = 11 695 000 Einwohner
 ```
 </details>
 
