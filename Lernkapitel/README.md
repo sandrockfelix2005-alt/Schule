@@ -36,12 +36,12 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 ### Naturwissenschaft
 | Modul | Kapitel | Thema | Status |
 |-------|---------|-------|:------:|
-| LM1 | K1 | Messen und Maßeinheiten (SI) | ⬜ |
-| LM1 | K2 | Kräfte (Zerlegung, schiefe Ebene, Reibung, Feder) | ⬜ |
-| LM1 | K3 | Hebel, Drehmoment, Gleichgewicht | ⬜ |
-| LM1 | K4 | Bewegungen (gleichförmig, beschleunigt, Fall, Kreis) | ⬜ |
-| LM1 | K5 | Arbeit, Energie, Leistung, Wirkungsgrad | ⬜ |
-| LM1 | K6 | Flüssigkeiten und Gase (Druck, Hydraulik, Auftrieb) | ⬜ |
+| LM1 | K1 | Messen und Maßeinheiten (SI) | ✅ |
+| LM1 | K2 | Kräfte (Zerlegung, schiefe Ebene, Reibung, Feder) | ✅ |
+| LM1 | K3 | Hebel, Drehmoment, Gleichgewicht | ✅ |
+| LM1 | K4 | Bewegungen (gleichförmig, beschleunigt, Fall, Kreis) | ✅ |
+| LM1 | K5 | Arbeit, Energie, Leistung, Wirkungsgrad | ✅ |
+| LM1 | K6 | Flüssigkeiten und Gase (Druck, Hydraulik, Auftrieb) | ✅ |
 | LM2 | K1 | Wärme und Temperatur, Ausdehnung, Gasgesetze | ⬜ |
 | LM2 | K2 | Wärmemenge, Hauptsatz, Aggregatzustände | ⬜ |
 
