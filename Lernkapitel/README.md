@@ -10,7 +10,8 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 | **So gehst du vor** | Nummeriertes Rezept: welcher Schritt zuerst |
 | **📐 Lehrbeispiele** | Vollständig durchgerechnete Beispiele aus dem Original-Lernmodul |
 | **⚠️ Typische Fehler** | Woran die meisten scheitern – und wie du es vermeidest |
-| **✍️ Übungsaufgaben** | Original-Aufgaben mit **ausführlichem Lösungsweg** (nicht nur Ergebnis) |
+| **🏗️ Bau-Beispiele** | Der Stoff angewandt auf echte Bautechnik-Aufgaben (Aufmaß, Statik, Material) |
+| **✍️ Übungsaufgaben** | Original-Aufgaben **plus zusätzliche Bau-Aufgaben**, alle mit ausführlichem Lösungsweg |
 | **✅ Selbstkontrolle** | Checkliste: kannst du das jetzt wirklich? |
 
 ---
@@ -21,8 +22,8 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 | Modul | Kapitel | Thema | Status |
 |-------|---------|-------|:------:|
 | LM1 | K1 | Mathematische Zahlendarstellungen | ✅ |
-| LM1 | K2 | Zahlenmengen (ℕ, ℤ, ℚ, ℝ, ℂ) | ⬜ |
-| LM1 | K3 | Grundrechenarten, Klammern, Binome, Polynomdivision | ⬜ |
+| LM1 | K2 | Zahlenmengen (ℕ, ℤ, ℚ, ℝ, ℂ) | ✅ |
+| LM1 | K3 | Grundrechenarten, Klammern, Binome, Polynomdivision | ✅ |
 | LM2 | K1 | Zuordnungen, Dreisatz, Äquivalenzumformungen | ⬜ |
 | LM2 | K2 | Funktionen, Gerade, Nullstellen, Gleichungssysteme, Umkehrfunktion | ⬜ |
 | LM3 | K1 | Quadratische Funktionen und Gleichungen | ⬜ |
