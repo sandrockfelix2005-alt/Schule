@@ -48,12 +48,12 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 ### Deutsch/Kommunikation
 | Modul | Kapitel | Thema | Status |
 |-------|---------|-------|:------:|
-| LM1 | K1 | Geschäftsbrief nach DIN 5008 | ⬜ |
-| LM1 | K2 | Bewerbung, Lebenslauf, Zeugnis, E-Mail | ⬜ |
-| LM1 | K3 | Berichte und Protokolle | ⬜ |
-| LM1 | K4 | Beschreibungen und Bedienungsanleitungen | ⬜ |
+| LM1 | K1 | Geschäftsbrief nach DIN 5008 | ✅ |
+| LM1 | K2 | Bewerbung, Lebenslauf, Zeugnis, E-Mail | ✅ |
+| LM1 | K3 | Berichte und Protokolle | ✅ |
+| LM1 | K4 | Beschreibungen und Bedienungsanleitungen | ✅ |
 
-**23 Kapitel insgesamt.** Quelle: die Original-Lernmodule (rund 1,29 Mio. Zeichen mit etwa 600 Lehrbeispielen).
+**23 Kapitel – alle fertig ✅** Quelle: die Original-Lernmodule (rund 1,29 Mio. Zeichen mit etwa 600 Lehrbeispielen).
 
 ---
 
