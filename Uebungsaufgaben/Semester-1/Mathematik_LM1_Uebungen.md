@@ -60,3 +60,60 @@ a) (x + 5)(x − 5) · b) (a + 5)²
 x² : x = x → x·(x+2) = x²+2x → Rest 3x+6 → 3x : x = 3 → 3·(x+2)=3x+6 → Rest 0.
 Ergebnis: **x + 3**
 </details>
+
+---
+
+## 🏗️ Zusatzaufgaben mit Bau-Bezug
+
+### Aufgabe 10 · Aufmaß mit Rundungsfalle
+Ein Raum misst **6,428 m × 4,215 m**.
+**10.1** Fläche auf 0,01 m² genau? **10.2** Was ergäbe sich, wenn man erst die Maße auf 2 Stellen rundet? **10.3** Wie groß ist der Unterschied?
+
+<details><summary>Lösung anzeigen</summary>
+
+**10.1** 6,428 · 4,215 = 27,094 02 → **27,09 m²**
+**10.2** 6,43 · 4,22 = 27,1346 → 27,13 m²
+**10.3** Unterschied **0,04 m²**. Bei 30 Räumen wären das 1,2 m² – deshalb **erst am Ende runden**.
+</details>
+
+### Aufgabe 11 · Festigkeiten umrechnen
+**11.1** C30/37 → 30 N/mm² in MN/m² und N/m²? **11.2** E-Modul Beton 31 000 N/mm² wissenschaftlich? **11.3** Bewehrungsstahl B500 in MPa?
+
+<details><summary>Lösung anzeigen</summary>
+
+**11.1** 30 N/mm² = **30 MN/m² = 3 · 10⁷ N/m²**
+**11.2** **3,1 · 10⁴ N/mm²**
+**11.3** **500 MPa** (Zahlenwert bleibt)
+</details>
+
+### Aufgabe 12 · Bodenpressung
+Eine Stütze überträgt **850 kN** auf ein Fundament von **1,8 m × 1,8 m**.
+**12.1** Bodenpressung in kN/m²? **12.2** In N/mm²? **12.3** Zulässig sind 300 kN/m² – reicht es?
+
+<details><summary>Lösung anzeigen</summary>
+
+**12.1** A = 3,24 m² → σ = 850 : 3,24 = **262,3 kN/m²**
+**12.2** 262,3 kN/m² = 0,2623 MN/m² = **0,26 N/mm²**
+**12.3** 262,3 < 300 → **ja, ausreichend** (Ausnutzung 87 %)
+</details>
+
+### Aufgabe 13 · Treppe planen
+Eine Geschosshöhe von **2,64 m** soll überwunden werden. Die Steigung soll zwischen 17 und 18 cm liegen.
+**13.1** Wie viele Steigungen? **13.2** Genaue Stufenhöhe? **13.3** Probe.
+
+<details><summary>Lösung anzeigen</summary>
+
+**13.1** 264 : 17,5 ≈ 15,1 → **15 Steigungen**
+**13.2** 264 : 15 = **17,6 cm** (liegt im Bereich ✓)
+**13.3** 15 · 17,6 = 264 cm ✓ geht exakt auf
+</details>
+
+### Aufgabe 14 · SPS-Diagnose
+Eine Steuerung meldet nacheinander die Fehlercodes **(00010100)₂** und **(01000001)₂**.
+**14.1** Welche Dezimalwerte? **14.2** Welche Eingänge waren jeweils aktiv?
+
+<details><summary>Lösung anzeigen</summary>
+
+**14.1** 16+4 = **20** und 64+1 = **65**
+**14.2** Erster: E4 und E2. Zweiter: E6 und E0.
+</details>

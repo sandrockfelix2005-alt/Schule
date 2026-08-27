@@ -95,3 +95,82 @@ Schmelzen: 334 kJ · Erwärmen: 4,19·1·100 = 419 kJ → **zusammen 753 kJ**
 
 ΔU = Q + W: Die Änderung der inneren Energie eines Systems ist gleich der Summe aus zugeführter Wärme Q und zugeführter mechanischer Arbeit W (Energieerhaltung für Wärme).
 </details>
+
+---
+
+## 🏗️ Zusatzaufgaben mit Bau-Bezug
+
+### Aufgabe 16 · Dehnfuge planen
+Eine **68 m** lange Betonfassade (α = 10·10⁻⁶ 1/K) erlebt **−18 °C bis +52 °C**.
+**16.1** Δϑ? **16.2** Gesamte Längenänderung? **16.3** Wie viele Fugen bei je 25 mm Aufnahmefähigkeit?
+
+<details><summary>Lösung anzeigen</summary>
+
+**16.1** Δϑ = 52 − (−18) = **70 K**
+**16.2** Δl = 10·10⁻⁶ · 68 · 70 = 0,0476 m = **47,6 mm**
+**16.3** 47,6 : 25 = 1,9 → **2 Fugen** (Feld also auf ca. 23 m unterteilen)
+</details>
+
+### Aufgabe 17 · Wärmeschutz vergleichen
+Eine Wand **A = 42 m²**, innen **20 °C**, außen **−8 °C**.
+**17.1** Ungedämmt: 0,30 m Beton (λ=2,1) – Wärmestrom? **17.2** Mit 16 cm Dämmung (λ=0,035)? **17.3** Ersparnis in %?
+
+<details><summary>Lösung anzeigen</summary>
+
+**17.1**
+```
+R = 0,30/2,1 = 0,1429 m²K/W
+Φ = 42 · 28 / 0,1429 = 1176/0,1429 = 8230 W ≈ 8,23 kW
+```
+**17.2**
+```
+R = 0,1429 + 0,16/0,035 = 0,1429 + 4,571 = 4,714 m²K/W
+Φ = 1176 / 4,714 = 249 W
+```
+**17.3** Ersparnis (8230−249)/8230 = **97 %**
+</details>
+
+### Aufgabe 18 · Estrich aufheizen
+Ein Zementestrich **120 m²**, **6 cm** dick, ρ = 2000 kg/m³, c = 1,0 kJ/(kg·K) soll um **25 K** erwärmt werden (Belegreifheizen).
+**18.1** Masse? **18.2** Wärmemenge? **18.3** In kWh?
+
+<details><summary>Lösung anzeigen</summary>
+
+**18.1** V = 120 · 0,06 = 7,2 m³ → m = 7,2 · 2000 = **14 400 kg**
+**18.2** Q = 1,0 · 14 400 · 25 = **360 000 kJ = 360 MJ**
+**18.3** 360 000 : 3600 = **100 kWh**
+</details>
+
+### Aufgabe 19 · Mischbatterie
+**40 l** Wasser von **60 °C** werden mit **25 l** von **12 °C** gemischt.
+**19.1** Mischtemperatur? **19.2** Plausibilitätsprüfung?
+
+<details><summary>Lösung anzeigen</summary>
+
+**19.1**
+```
+40(60 − ϑ) = 25(ϑ − 12)
+2400 − 40ϑ = 25ϑ − 300
+2700 = 65ϑ  →  ϑ = 41,5 °C
+```
+**19.2** Liegt zwischen 12 und 60 ✓, näher an 60 (mehr heißes Wasser) ✓
+</details>
+
+### Aufgabe 20 · Heizkosten und Sanierung
+Ein Gebäude verliert **9,5 kW**, **1850 Vollbenutzungsstunden**, Kessel η = 0,88, Gaspreis **0,13 €/kWh**.
+**20.1** Jahreskosten? **20.2** Nach Dämmung nur noch 4,2 kW – neue Kosten? **20.3** Ersparnis pro Jahr?
+
+<details><summary>Lösung anzeigen</summary>
+
+**20.1**
+```
+Q = 9,5 · 1850 = 17 575 kWh
+Q_zu = 17 575/0,88 = 19 972 kWh
+Kosten = 19 972 · 0,13 = 2596 €
+```
+**20.2**
+```
+Q = 4,2 · 1850 = 7770 kWh → Q_zu = 8830 kWh → 1148 €
+```
+**20.3** Ersparnis **1448 € pro Jahr**
+</details>

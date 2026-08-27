@@ -3,6 +3,21 @@
 Frage-Antwort-Karten zum Auswendiglernen, sortiert nach Semester und Fach.
 Format: `.csv` mit Semikolon (`;`) als Trennzeichen, Spalten **Frage** und **Antwort**.
 
+## Bestand
+
+| Stapel | Karten |
+|--------|-------:|
+| Mathe LM1 | 34 |
+| Mathe LM2 | 31 |
+| Mathe LM3 | 46 |
+| Mathe LM4 | 44 |
+| NaWi LM1 (Mechanik) | 72 |
+| NaWi LM2 (Wärme) | 47 |
+| Deutsch LM1 | 45 |
+| **Gesamt** | **319** |
+
+> Im HTML-Lerntool sind dieselben Karten im Bereich **Wiederholen** mit Spaced Repetition nutzbar – dort musst du nichts importieren.
+
 ## In Anki importieren (empfohlen – kostenloses Lernprogramm mit Wiederholungssystem)
 1. [Anki](https://apps.ankiweb.net/) installieren (PC) oder AnkiDroid (Android) / AnkiMobile (iOS).
 2. Ein Deck anlegen, z. B. „Techniker – Mathe LM1".

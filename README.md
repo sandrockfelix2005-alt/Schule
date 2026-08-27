@@ -14,6 +14,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
 | **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
+| **`Lernkapitel/`** | **Der vollständige Lehrstoff** in 23 Kapiteln (434 KB) – zum Lernen ohne gedruckte Hefte. |
 | **`Formelsammlung/`** | Alle Formeln kompakt – Prüfungshilfsmittel-Training. |
 | **`Termine.md`** | Präsenztermine (Samstage ohne hessische Ferien/Feiertage). |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
@@ -74,7 +75,7 @@ Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nu
 - **Semester 1:** [Fahrplan & Lernabschnitte](Zusammenfassungen/Semester-1/00_Semesterueberblick.md) · [✅ Lernplan-Checkliste](Zusammenfassungen/Semester-1/01_Lernplan-Checkliste.md)
 
 ## ✍️ Übungsaufgaben
-- [Zur Aufgabenübersicht](Uebungsaufgaben/README.md) – 7 Module, 82 Aufgaben mit Lösungen
+- [Zur Aufgabenübersicht](Uebungsaufgaben/README.md) – 7 Module, **120 Aufgaben** mit Lösungen
 
 ## 📐 Formelsammlung & Termine
 - [Alle Formeln (92)](Formelsammlung/Semester-1_Formeln.md) – Prüfungshilfsmittel
@@ -85,12 +86,13 @@ Die Datei `lerntool_offline.html` bündelt alles in einer App für Handy und PC:
 
 | Bereich | Was es kann |
 |---------|-------------|
-| **Wiederholen** | Karteikarten mit Spaced Repetition – zeigt täglich, was dran ist |
+| **Wiederholen** | 319 Karteikarten mit Spaced Repetition – zeigt täglich, was dran ist |
 | **Zusammenfassungen** | kompakt/ausführlich umschaltbar, je Modul |
 | **Karteikarten** | freies Üben nach Stapeln |
-| **Übungen** | Aufgaben mit aufklappbarer Lösung |
+| **Übungen** | 120 Aufgaben mit aufklappbarer Lösung |
 | **Probeklausur** | 90 min im Prüfungsformat, mit Timer |
 | **Formelsammlung** | durchsuchbar + Trainer „Welche Formel brauche ich?“ |
+| **Lernkapitel** | **der komplette Lehrstoff in 23 Kapiteln** – ersetzt die gedruckten Hefte |
 | **Lexikon** | 57 Begriffe mit ausführlicher Erklärung |
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
 | **Lernplan / Termine** | Checkliste je Semester und Präsenztermine |
