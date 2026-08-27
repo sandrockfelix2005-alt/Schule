@@ -10,7 +10,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 
 | Ordner | Was drin ist |
 |--------|--------------|
-| **`Unterlagen/`** | Die Original-PDFs vom DAA (Quelle der Wahrheit), sortiert nach Semester und Fach. |
+| **`Unterlagen/`** | Die **14 Original-PDFs** vom DAA (Quelle der Wahrheit), sortiert nach Semester und Fach – auch direkt im Lerntool unter **Original-PDFs** öffnenbar. |
 | **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
 | **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
@@ -82,7 +82,14 @@ Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nu
 - [Präsenztermine](Termine.md) – Samstage ohne hessische Ferien und Feiertage
 
 ## 🖥️ Das HTML-Lerntool
-Die Datei `lerntool_offline.html` bündelt alles in einer App für Handy und PC:
+Es gibt **zwei Fassungen** – der Inhalt ist identisch, sie unterscheiden sich nur bei den Original-PDFs:
+
+| Datei | Größe | Original-PDFs |
+|-------|-------|---------------|
+| **`lerntool_offline.html`** | ~19 MB | **alle 14 PDFs eingebettet** – funktioniert komplett offline, auch ohne Internet |
+| **`lerntool_offline_klein.html`** | ~4 MB | 9 kleine PDFs eingebettet, die 5 großen Lernmodule öffnen über Google Drive – lädt schneller |
+
+Beide bündeln alles in einer App für Handy und PC:
 
 | Bereich | Was es kann |
 |---------|-------------|
@@ -93,6 +100,7 @@ Die Datei `lerntool_offline.html` bündelt alles in einer App für Handy und PC:
 | **Probeklausur** | 90 min im Prüfungsformat, mit Timer |
 | **Formelsammlung** | durchsuchbar + Trainer „Welche Formel brauche ich?“ |
 | **Lernkapitel** | **der komplette Lehrstoff in 23 Kapiteln** – ersetzt die gedruckten Hefte |
+| **Original-PDFs** | alle 14 DAA-Dokumente direkt öffnen oder aufs Gerät speichern |
 | **Lexikon** | 57 Begriffe mit ausführlicher Erklärung |
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
 | **Lernplan / Termine** | Checkliste je Semester und Präsenztermine |

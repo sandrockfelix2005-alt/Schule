@@ -2,3 +2,6 @@
 *.txt.tmp
 tools/__pycache__/
 .DS_Store
+
+# Build-Datei nur zum Veroeffentlichen (wird neu erzeugt)
+lerntool_artifact.html

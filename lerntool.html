@@ -278,6 +278,21 @@
   .kapnav button{flex:1;min-width:120px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:13.5px;cursor:pointer;color:var(--ink)}
   .kapnav button:hover{border-color:var(--accent)}
 
+  /* --- Original-PDFs --- */
+  .dokgruppe{margin:20px 0 10px}
+  .dokgruppe h2{font-size:17px;margin:0 0 10px;padding-top:14px;border-top:1px solid var(--line-soft)}
+  .dok{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px 16px;margin:8px 0}
+  .dok .dtop{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .dok .dt{font-size:15px;font-weight:600}
+  .dok .dgr{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-left:auto}
+  .dok .db{margin:5px 0 0;font-size:13px;color:var(--muted)}
+  .dok .dbtn{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}
+  .dok .dbtn a,.dok .dbtn button{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:8px 15px;font-size:13px;cursor:pointer;color:var(--ink);text-decoration:none;display:inline-block;font-family:var(--sans)}
+  .dok .dbtn a:hover,.dok .dbtn button:hover{border-color:var(--accent)}
+  .dok .dbtn .prim{background:var(--accent);color:#1a1305;border-color:var(--accent);font-weight:650}
+  .dok.pruef{border-left:3px solid var(--accent)}
+  .dok .badge{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-deep);border:1px solid var(--accent);border-radius:20px;padding:1px 8px}
+
   @media (max-width:820px){
     .sidebar{display:none}
     .topbar{display:block;position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line)}
@@ -313,6 +328,7 @@
     <button data-view="start" class="active">Übersicht</button>
     <button data-view="wdh">Wiederholen<span class="due" id="dueBadgeM"></span></button>
     <button data-view="kapitel">Lernkapitel</button>
+    <button data-view="unterlagen">Original-PDFs</button>
     <button data-view="fach">Zusammenfassungen</button>
     <button data-view="karten">Karteikarten</button>
     <button data-view="uebung">Übungen</button>
@@ -346,21 +362,22 @@
     <div class="eyebrow">Lernen</div>
     <nav id="nav2">
       <a data-view="kapitel"><span class="n">02</span> Lernkapitel</a>
-      <a data-view="fach"><span class="n">03</span> Zusammenfassungen</a>
-      <a data-view="karten"><span class="n">04</span> Karteikarten</a>
-      <a data-view="uebung"><span class="n">05</span> Übungsaufgaben</a>
-      <a data-view="klausur"><span class="n">06</span> Probeklausur</a>
+      <a data-view="unterlagen"><span class="n">03</span> Original-PDFs</a>
+      <a data-view="fach"><span class="n">04</span> Zusammenfassungen</a>
+      <a data-view="karten"><span class="n">05</span> Karteikarten</a>
+      <a data-view="uebung"><span class="n">06</span> Übungsaufgaben</a>
+      <a data-view="klausur"><span class="n">07</span> Probeklausur</a>
     </nav>
     <div class="eyebrow">Nachschlagen</div>
     <nav id="nav3">
-      <a data-view="formeln"><span class="n">07</span> Formelsammlung</a>
-      <a data-view="lexikon"><span class="n">08</span> Lexikon</a>
-      <a data-view="notizen"><span class="n">09</span> Meine Notizen</a>
+      <a data-view="formeln"><span class="n">08</span> Formelsammlung</a>
+      <a data-view="lexikon"><span class="n">09</span> Lexikon</a>
+      <a data-view="notizen"><span class="n">10</span> Meine Notizen</a>
     </nav>
     <div class="eyebrow">Planen</div>
     <nav id="nav4">
-      <a data-view="plan"><span class="n">10</span> Lernplan</a>
-      <a data-view="termine"><span class="n">11</span> Termine</a>
+      <a data-view="plan"><span class="n">11</span> Lernplan</a>
+      <a data-view="termine"><span class="n">12</span> Termine</a>
     </nav>
     <div class="eyebrow">Fortschritt Lernplan</div>
     <div class="side-progress"><span id="pct">0 %</span><div class="bar"><i id="barfill"></i></div></div>
@@ -403,6 +420,7 @@
       <div class="panel">
         <strong>Was drin steckt</strong>
         <ul style="margin:8px 0 0">
+          <li><strong>Original-PDFs</strong> – alle Unterlagen vom DAA zum direkten Öffnen.</li>
           <li><strong>Lernkapitel</strong> – der komplette Lehrstoff: Erklärungen, durchgerechnete Beispiele, Bau-Bezug, Übungen. Ersetzt die gedruckten Hefte.</li>
           <li><strong>Wiederholen</strong> – Karteikarten im wissenschaftlichen Abstand (Spaced Repetition), Fortschritt bleibt gespeichert.</li>
           <li><strong>Probeklausur</strong> – 90 Minuten im echten Prüfungsformat, mit Timer.</li>
@@ -478,6 +496,16 @@
         <button id="kap-top">↑ Nach oben</button>
         <button id="kap-next">Nächstes Kapitel →</button>
       </div>
+    </section>
+
+
+    <!-- ORIGINAL-PDFs -->
+    <section class="view" data-view="unterlagen">
+      <div class="kicker">Original-Unterlagen · Semester 1</div>
+      <h1>Die PDFs vom DAA</h1>
+      <p class="lead">Alle Original-Dokumente zum direkten Öffnen. <strong>Öffnen</strong> zeigt das PDF im Betrachter, <strong>Speichern</strong> legt es auf deinem Gerät ab.</p>
+      <div class="panel tip" id="dok-info"></div>
+      <div id="dok-liste"></div>
     </section>
 
     <!-- SUCHE (global) -->
@@ -1566,6 +1594,68 @@ function updateProgress(){const P=curData().PLAN;const tot=totalItems();let done
 function renderPlan(){const wrap=document.getElementById('plan-list');wrap.innerHTML='';const P=curData().PLAN;if(!P.length){wrap.innerHTML=emptyMsg('Lernabschnitte');return;}P.forEach((ab,ai)=>{const box=document.createElement('div');box.className='chk-abschnitt';const done=ab[2].filter((_,ii)=>state[pid(ai,ii)]).length;box.innerHTML='<div class="chk-head"><span>'+ab[0]+'</span><span class="meta">'+done+'/'+ab[2].length+' · '+ab[1]+'</span></div>';const body=document.createElement('div');body.className='chk-body';ab[2].forEach((t,ii)=>{const id=pid(ai,ii);const soon=/\[Material folgt\]/.test(t);const label=t.replace(/\s*\[Material folgt\]/,'');const row=document.createElement('label');row.className='chk'+(state[id]?' done':'');row.innerHTML='<input type="checkbox" '+(state[id]?'checked':'')+'><span>'+label+(soon?' <span class="soon">Material folgt</span>':'')+'</span>';row.querySelector('input').addEventListener('change',e=>{state[id]=e.target.checked;saveState(state);renderPlan();updateProgress();});body.appendChild(row);});box.appendChild(body);wrap.appendChild(box);});}
 document.getElementById('reset').onclick=()=>{if(confirm('Fortschritt für Semester '+curSem+' zurücksetzen?')){curData().PLAN.forEach((ab,ai)=>ab[2].forEach((_,ii)=>{delete state[pid(ai,ii)];}));saveState(state);renderPlan();updateProgress();}};
 
+
+
+/* ================= ORIGINAL-PDFs ================= */
+const DOK = JSON.parse(document.getElementById('dokdata').textContent);
+function fmtKB(b){return b>=1048576 ? (b/1048576).toFixed(1)+' MB' : Math.round(b/1024)+' KB';}
+function b64ToBlob(b64, typ){
+  const bin = atob(b64); const len = bin.length;
+  const arr = new Uint8Array(len);
+  for(let i=0;i<len;i++) arr[i]=bin.charCodeAt(i);
+  return new Blob([arr], {type: typ});
+}
+const _blobCache={};
+function dokUrl(i){
+  if(_blobCache[i]) return _blobCache[i];
+  const d=DOK[i]; if(!d.d) return null;
+  const url=URL.createObjectURL(b64ToBlob(d.d, d.pdf ? 'application/pdf' : 'text/plain;charset=utf-8'));
+  _blobCache[i]=url; return url;
+}
+function renderDok(){
+  const eingebettet = DOK.filter(d=>d.d).length;
+  const gesamt = DOK.reduce((s,d)=>s+d.s,0);
+  document.getElementById('dok-info').innerHTML =
+    '<strong>'+DOK.length+' Original-Dokumente</strong><p style="margin:8px 0 0">'+
+    (eingebettet===DOK.length
+      ? 'Alle Dokumente sind in dieser Datei enthalten und funktionieren <b>offline</b>.'
+      : eingebettet+' Dokumente sind direkt enthalten (offline nutzbar). Die '+(DOK.length-eingebettet)+' großen Lernmodule öffnen sich über Google&nbsp;Drive – dort kannst du sie in der Drive-App auch offline verfügbar machen.')
+    +' Gesamtumfang '+fmtKB(gesamt)+'.</p>';
+  const box=document.getElementById('dok-liste'); box.innerHTML='';
+  let letztesFach=null, gruppe=null;
+  DOK.forEach((d,i)=>{
+    if(d.f!==letztesFach){
+      letztesFach=d.f;
+      gruppe=document.createElement('div'); gruppe.className='dokgruppe';
+      gruppe.innerHTML='<h2>'+d.f+'</h2>';
+      box.appendChild(gruppe);
+    }
+    const pruef = d.t.indexOf('Formeln')>=0;
+    const el=document.createElement('div'); el.className='dok'+(pruef?' pruef':'');
+    let btns='';
+    if(d.d){
+      btns='<button class="prim" data-open="'+i+'">Öffnen</button>'+
+           '<button data-save="'+i+'">Speichern</button>';
+    }
+    if(d.drive){
+      btns+='<a href="https://drive.google.com/file/d/'+d.drive+'/view" target="_blank" rel="noopener">'+(d.d?'In Drive':'In Google Drive öffnen')+'</a>';
+    }
+    el.innerHTML='<div class="dtop"><span class="dt">'+d.t+'</span>'+
+      (pruef?'<span class="badge">Prüfungshilfsmittel</span>':'')+
+      '<span class="dgr">'+fmtKB(d.s)+(d.d?'':' · in Drive')+'</span></div>'+
+      '<p class="db">'+d.b+'</p><div class="dbtn">'+btns+'</div>';
+    gruppe.appendChild(el);
+  });
+  box.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{
+    const u=dokUrl(+b.dataset.open); if(u) window.open(u,'_blank');
+  });
+  box.querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>{
+    const i=+b.dataset.save, u=dokUrl(i); if(!u) return;
+    const a=document.createElement('a'); a.href=u; a.download=DOK[i].n;
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+}
+renderDok();
 
 /* ================= LERNKAPITEL ================= */
 const KAP = JSON.parse(document.getElementById('kapdata').textContent);
