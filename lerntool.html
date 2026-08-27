@@ -291,6 +291,11 @@
   .dok .dbtn a:hover,.dok .dbtn button:hover{border-color:var(--accent)}
   .dok .dbtn .prim{background:var(--accent);color:#1a1305;border-color:var(--accent);font-weight:650}
   .dok.pruef{border-left:3px solid var(--accent)}
+  #dok-viewer{margin:16px 0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+  #dok-viewer .vzeile{display:flex;align-items:center;gap:12px;padding:10px 14px;border-bottom:1px solid var(--line);font-size:14px}
+  #dok-viewer .vzeile button{margin-left:auto;background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:6px 13px;font-size:13px;color:var(--ink);cursor:pointer;font-family:var(--sans)}
+  #dok-vframe{width:100%;height:78vh;min-height:420px;border:0;display:block;background:#fff}
+  @media (max-width:820px){#dok-vframe{height:62vh;min-height:320px}}
   .dok .badge{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-deep);border:1px solid var(--accent);border-radius:20px;padding:1px 8px}
 
   @media (max-width:820px){
@@ -503,8 +508,13 @@
     <section class="view" data-view="unterlagen">
       <div class="kicker">Original-Unterlagen · Semester 1</div>
       <h1>Die PDFs vom DAA</h1>
-      <p class="lead">Alle Original-Dokumente zum direkten Öffnen. <strong>Öffnen</strong> zeigt das PDF im Betrachter, <strong>Speichern</strong> legt es auf deinem Gerät ab.</p>
+      <p class="lead">Alle Original-Dokumente zum direkten Öffnen. <strong>Öffnen</strong> zeigt das PDF direkt hier im Betrachter. Falls dein Handy das nicht darstellt, nimm <strong>Neues Fenster</strong>. <strong>Speichern</strong> legt die Datei auf deinem Gerät ab.</p>
       <div class="panel tip" id="dok-info"></div>
+      <div id="dok-viewer" hidden>
+        <div class="vzeile"><strong id="dok-vtitel"></strong>
+          <button id="dok-vzu">Schließen</button></div>
+        <iframe id="dok-vframe" title="PDF-Ansicht"></iframe>
+      </div>
       <div id="dok-liste"></div>
     </section>
 
@@ -1635,6 +1645,7 @@ function renderDok(){
     let btns='';
     if(d.d){
       btns='<button class="prim" data-open="'+i+'">Öffnen</button>'+
+           '<button data-tab="'+i+'">Neues Fenster</button>'+
            '<button data-save="'+i+'">Speichern</button>';
     }
     if(d.drive){
@@ -1646,14 +1657,52 @@ function renderDok(){
       '<p class="db">'+d.b+'</p><div class="dbtn">'+btns+'</div>';
     gruppe.appendChild(el);
   });
-  box.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{
-    const u=dokUrl(+b.dataset.open); if(u) window.open(u,'_blank');
+  box.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>zeigeDok(+b.dataset.open));
+  box.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{
+    const u=dokUrl(+b.dataset.tab); if(u) window.open(u,'_blank','noopener');
   });
-  box.querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>{
-    const i=+b.dataset.save, u=dokUrl(i); if(!u) return;
-    const a=document.createElement('a'); a.href=u; a.download=DOK[i].n;
-    document.body.appendChild(a); a.click(); a.remove();
-  });
+  box.querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>speichereDok(+b.dataset.save, b));
+}
+document.getElementById('dok-vzu').onclick=()=>{
+  const v=document.getElementById('dok-viewer');
+  document.getElementById('dok-vframe').src='about:blank'; v.hidden=true;
+};
+function zeigeDok(i){
+  const u=dokUrl(i); if(!u) return;
+  const v=document.getElementById('dok-viewer');
+  document.getElementById('dok-vtitel').textContent=DOK[i].t;
+  document.getElementById('dok-vframe').src=u;
+  v.hidden=false; v.scrollIntoView({behavior:'smooth',block:'start'});
+}
+/* Der Speichern-Knopf nutzt im Browser-Link die Download-Freigabe von Claude,
+   in der heruntergeladenen Datei den normalen Browser-Download. */
+let _dl=null, _dlGeprueft=false;
+async function holeDownloads(){
+  if(_dlGeprueft) return _dl;
+  _dlGeprueft=true;
+  try{ if(window.claude && claude.use) _dl = await claude.use('downloads'); }catch(e){ _dl=null; }
+  return _dl;
+}
+function direktSpeichern(i){
+  const u=dokUrl(i); if(!u) return;
+  const a=document.createElement('a'); a.href=u; a.download=DOK[i].n;
+  document.body.appendChild(a); a.click(); a.remove();
+}
+async function speichereDok(i, btn){
+  const d=DOK[i]; if(!d.d) return;
+  const alt=btn.textContent;
+  const dl=await holeDownloads();
+  if(!dl){ direktSpeichern(i); return; }
+  btn.textContent='…'; btn.disabled=true;
+  try{
+    await dl.save({filename:d.n, data:b64ToBlob(d.d, d.pdf?'application/pdf':'text/plain;charset=utf-8')});
+    btn.textContent='Gespeichert';
+    setTimeout(()=>{btn.textContent=alt; btn.disabled=false;},2200);
+  }catch(err){
+    btn.textContent=alt; btn.disabled=false;
+    if(err && err.code==='declined') return;
+    direktSpeichern(i);
+  }
 }
 renderDok();
 
