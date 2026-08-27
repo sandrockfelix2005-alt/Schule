@@ -29,9 +29,9 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 | LM3 | K1 | Quadratische Funktionen und Gleichungen | ✅ |
 | LM3 | K2 | Wurzel- und Potenzfunktionen | ✅ |
 | LM3 | K3 | Exponential- und Logarithmusfunktionen | ✅ |
-| LM4 | K1 | Planimetrie (Winkel, Dreieck, Kreis, Flächen) | ⬜ |
-| LM4 | K2 | Trigonometrie (sin/cos/tan, Sinus-/Kosinussatz) | ⬜ |
-| LM4 | K3 | Stereometrie (Volumen und Oberflächen) | ⬜ |
+| LM4 | K1 | Planimetrie (Winkel, Dreieck, Kreis, Flächen) | ✅ |
+| LM4 | K2 | Trigonometrie (sin/cos/tan, Sinus-/Kosinussatz) | ✅ |
+| LM4 | K3 | Stereometrie (Volumen und Oberflächen) | ✅ |
 
 ### Naturwissenschaft
 | Modul | Kapitel | Thema | Status |
