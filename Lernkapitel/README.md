@@ -42,8 +42,8 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 | LM1 | K4 | Bewegungen (gleichförmig, beschleunigt, Fall, Kreis) | ✅ |
 | LM1 | K5 | Arbeit, Energie, Leistung, Wirkungsgrad | ✅ |
 | LM1 | K6 | Flüssigkeiten und Gase (Druck, Hydraulik, Auftrieb) | ✅ |
-| LM2 | K1 | Wärme und Temperatur, Ausdehnung, Gasgesetze | ⬜ |
-| LM2 | K2 | Wärmemenge, Hauptsatz, Aggregatzustände | ⬜ |
+| LM2 | K1 | Wärme und Temperatur, Ausdehnung, Gasgesetze | ✅ |
+| LM2 | K2 | Wärmemenge, Hauptsatz, Aggregatzustände | ✅ |
 
 ### Deutsch/Kommunikation
 | Modul | Kapitel | Thema | Status |
