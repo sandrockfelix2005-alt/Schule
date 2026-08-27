@@ -24,11 +24,11 @@ Diese Kapitel ersetzen die gedruckten Unterlagen. Jedes Kapitel enthält:
 | LM1 | K1 | Mathematische Zahlendarstellungen | ✅ |
 | LM1 | K2 | Zahlenmengen (ℕ, ℤ, ℚ, ℝ, ℂ) | ✅ |
 | LM1 | K3 | Grundrechenarten, Klammern, Binome, Polynomdivision | ✅ |
-| LM2 | K1 | Zuordnungen, Dreisatz, Äquivalenzumformungen | ⬜ |
-| LM2 | K2 | Funktionen, Gerade, Nullstellen, Gleichungssysteme, Umkehrfunktion | ⬜ |
-| LM3 | K1 | Quadratische Funktionen und Gleichungen | ⬜ |
-| LM3 | K2 | Wurzel- und Potenzfunktionen | ⬜ |
-| LM3 | K3 | Exponential- und Logarithmusfunktionen | ⬜ |
+| LM2 | K1 | Zuordnungen, Dreisatz, Äquivalenzumformungen | ✅ |
+| LM2 | K2 | Funktionen, Gerade, Nullstellen, Gleichungssysteme, Umkehrfunktion | ✅ |
+| LM3 | K1 | Quadratische Funktionen und Gleichungen | ✅ |
+| LM3 | K2 | Wurzel- und Potenzfunktionen | ✅ |
+| LM3 | K3 | Exponential- und Logarithmusfunktionen | ✅ |
 | LM4 | K1 | Planimetrie (Winkel, Dreieck, Kreis, Flächen) | ⬜ |
 | LM4 | K2 | Trigonometrie (sin/cos/tan, Sinus-/Kosinussatz) | ⬜ |
 | LM4 | K3 | Stereometrie (Volumen und Oberflächen) | ⬜ |
