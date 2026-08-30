@@ -119,6 +119,60 @@ v² = v₀² + 2·a·s
 s = 40 m
 ```
 
+### Der Anhalteweg – was in der Praxis wirklich zählt
+
+Der Bremsweg ist nur der halbe Vorgang. Bis der Fuß überhaupt auf dem Pedal ist, fährt das Fahrzeug **ungebremst weiter**. Dieser Teil heißt **Reaktionsweg**:
+
+```
+s_Reaktion = v · t_Reaktion          (gleichförmige Bewegung!)
+s_Brems    = v² / (2 · a)
+s_Anhalte  = s_Reaktion + s_Brems
+```
+
+Als Reaktionszeit rechnet man üblicherweise mit **1,0 s**.
+
+### 📐 Lehrbeispiel – Anhalteweg auf der Baustelle
+
+Ein Radlader fährt **30 km/h** und bremst mit **4,5 m/s²**. Reaktionszeit 1,0 s.
+
+```
+v = 30 : 3,6 = 8,333 m/s
+
+Reaktionsweg:  s₁ = 8,333 · 1,0 = 8,33 m
+Bremsweg:      s₂ = 8,333² / (2 · 4,5) = 69,44 / 9 = 7,72 m
+Anhalteweg:    s  = 8,33 + 7,72 = 16,05 m
+```
+
+> ### ⚠️ Der Bremsweg wächst im Quadrat
+> Bei **50 km/h** statt 30 km/h wird derselbe Radlader erst nach **35,3 m** stehen: Reaktionsweg 13,89 m plus Bremsweg 21,43 m. Die Geschwindigkeit steigt um zwei Drittel – der Anhalteweg **verdoppelt sich mehr als**. Genau deshalb gilt auf Baustellen Schrittgeschwindigkeit: Bei 7 km/h beträgt der Anhalteweg noch etwa 2,3 m.
+
+### Bewegungen im Diagramm lesen
+
+In der Klausur bekommst du Bewegungen oft als **Diagramm** statt als Zahlen. Zwei Formen musst du unterscheiden:
+
+| | **s-t-Diagramm** (Weg über Zeit) | **v-t-Diagramm** (Geschwindigkeit über Zeit) |
+|---|---|---|
+| **waagerechte Linie** | Stillstand | konstante Geschwindigkeit |
+| **ansteigende Gerade** | gleichförmige Fahrt | gleichmäßige Beschleunigung |
+| **Steigung bedeutet** | die Geschwindigkeit v | die Beschleunigung a |
+| **Fläche darunter** | (ohne Bedeutung) | den **zurückgelegten Weg** |
+| **gekrümmte Kurve** | beschleunigte Bewegung | ungleichmäßige Beschleunigung |
+
+> ### 💡 Die zwei Merksätze
+> Im **v-t-Diagramm** ist die **Fläche unter der Kurve der Weg**. Bei einer Beschleunigung aus dem Stand ist diese Fläche ein Dreieck: A = ½ · Grundseite · Höhe = ½ · t · v – und genau das ist die Formel s = ½ · v · t.
+> Die **Steigung** ist jeweils die Ableitung: im s-t-Diagramm die Geschwindigkeit, im v-t-Diagramm die Beschleunigung.
+
+**Beispiel:** Ein Aufzug fährt laut v-t-Diagramm 4 s lang gleichmäßig auf 2,5 m/s hoch, hält diese Geschwindigkeit 10 s und bremst in 2 s wieder auf null.
+
+```
+Anfahren:      Dreieck   ½ · 4 · 2,5   =  5,0 m
+Gleichförmig:  Rechteck  10 · 2,5      = 25,0 m
+Bremsen:       Dreieck   ½ · 2 · 2,5   =  2,5 m
+                                  ────────────
+Gesamthöhe                            = 32,5 m
+```
+Ohne eine einzige Bewegungsformel – nur über Flächen.
+
 ### 🏗️ Bau-Beispiel – Aufzug
 
 Ein Bauaufzug beschleunigt in **3,0 s** auf **1,2 m/s**, fährt dann gleichförmig und bremst in **3,0 s** ab. Gesamthöhe **24,0 m**.
@@ -228,6 +282,32 @@ v = π · 0,350 · 73,33 = 80,6 m/s
 ```
 
 > **Sicherheitsrelevanz:** Trennscheiben haben eine aufgedruckte **maximale Umfangsgeschwindigkeit** (meist 80 m/s). Wird sie überschritten, kann die Scheibe bersten. Deshalb darf man eine Scheibe nie auf einer Maschine mit zu hoher Drehzahl verwenden.
+
+Zum Vergleich: 80,6 m/s sind **290 km/h**. Bei diesem Tempo verlässt ein abgeplatztes Bruchstück die Maschine – deshalb ist die Schutzhaube keine Empfehlung, sondern die einzige Barriere.
+
+### 🏗️ Bau-Beispiel – Förderleistung eines Bandes
+
+Ein Förderband läuft mit **1,6 m/s**. Der Materialquerschnitt auf dem Band beträgt **0,040 m²**. Welche Leistung hat es?
+
+```
+Volumenstrom = Querschnitt · Geschwindigkeit
+V̇ = 0,040 · 1,6 = 0,064 m³/s
+Je Stunde: 0,064 · 3600 = 230,4 m³/h
+```
+
+Bei einer Schüttdichte von 1800 kg/m³ sind das 230,4 · 1,8 = **414,7 t/h**. Dieselbe Überlegung – Querschnitt mal Geschwindigkeit – brauchst du später bei jeder Rohrleitung und jedem Kanal wieder.
+
+### 🏗️ Bau-Beispiel – Warum ein Kranhaken pendelt
+
+Der Kran fährt die Katze mit **0,8 m/s** und stoppt. Die Last hängt an einem **12 m** langen Seil. Weil sie träge ist (1. Axiom), bewegt sie sich mit 0,8 m/s weiter und schwingt aus – wie ein Pendel.
+
+Die Schwingungsdauer eines Pendels hängt nur von der Seillänge ab, **nicht von der Last**:
+```
+T = 2π · √(l/g) = 2π · √(12/9,81) = 2π · 1,106 = 6,95 s
+```
+Ein 12-m-Seil pendelt also mit knapp **7 Sekunden** Periode – langsam, aber mit großem Ausschlag. Deshalb wird sanft angefahren und sanft gestoppt: Jeder Ruck erzeugt einen Pendelschlag, der sich nicht abschütteln lässt.
+
+*(Die Pendelformel steht nicht in deinem Modul – sie erklärt hier nur, warum das Trägheitsgesetz auf der Baustelle so sichtbar wird.)*
 
 ---
 
@@ -384,6 +464,56 @@ v = π · d · n   →   n = v / (π · d) = 80 / (π · 0,30) = 80 / 0,9425 = 8
 ```
 **10.1** **84,9 s⁻¹**
 **10.2** 84,88 · 60 = **5093 min⁻¹**
+</details>
+
+---
+
+### 🏗️ Aufgabe 11 · Anhalteweg
+Ein Radlader fährt **40 km/h** und bremst mit **4,0 m/s²**. Die Reaktionszeit beträgt 1,0 s.
+**11.1** Reaktionsweg? **11.2** Bremsweg? **11.3** Anhalteweg? **11.4** Warum ist auf Baustellen Schrittgeschwindigkeit vorgeschrieben?
+
+<details><summary>Lösung anzeigen</summary>
+
+**11.1** v = 40 : 3,6 = 11,11 m/s → s₁ = 11,11 · 1,0 = **11,11 m**
+**11.2** s₂ = v²/(2·a) = 123,46 / 8,0 = **15,43 m**
+**11.3** s = 11,11 + 15,43 = **26,54 m**
+**11.4** Weil der Bremsweg **im Quadrat** mit der Geschwindigkeit wächst. Bei halber Geschwindigkeit ist er nur noch ein Viertel so lang – und auf einer Baustelle stehen Menschen oft erst im letzten Moment sichtbar hinter Material oder Maschinen.
+</details>
+
+### Aufgabe 12 · v-t-Diagramm
+Ein Bauaufzug beschleunigt in **5 s** gleichmäßig auf **3,0 m/s**, fährt **8 s** konstant und bremst in **3 s** auf null ab.
+**12.1** Welchen Weg legt er insgesamt zurück? **12.2** Wie groß sind Beschleunigung und Verzögerung? **12.3** Was bedeutet die Fläche unter dem v-t-Diagramm?
+
+<details><summary>Lösung anzeigen</summary>
+
+**12.1** Über die Flächen:
+Anfahren (Dreieck) ½ · 5 · 3,0 = 7,5 m · gleichförmig (Rechteck) 8 · 3,0 = 24,0 m · Bremsen (Dreieck) ½ · 3 · 3,0 = 4,5 m
+Gesamt = 7,5 + 24,0 + 4,5 = **36,0 m**
+**12.2** a₁ = 3,0/5 = **0,60 m/s²** · a₃ = −3,0/3 = **−1,0 m/s²**
+**12.3** Den **zurückgelegten Weg**. Die Steigung dagegen ist die Beschleunigung.
+</details>
+
+### 🏗️ Aufgabe 13 · Betonmischer
+Die Mischtrommel (**d = 1,80 m**) dreht sich mit **22 min⁻¹**.
+**13.1** Drehzahl in s⁻¹? **13.2** Umfangsgeschwindigkeit? **13.3** Winkelgeschwindigkeit? **13.4** Umlaufdauer?
+
+<details><summary>Lösung anzeigen</summary>
+
+**13.1** n = 22/60 = **0,3667 s⁻¹**
+**13.2** v = π · d · n = π · 1,80 · 0,3667 = **2,07 m/s**
+**13.3** ω = 2π · n = 2π · 0,3667 = **2,30 s⁻¹** (rad/s)
+**13.4** T = 1/n = 1/0,3667 = **2,73 s** je Umdrehung
+</details>
+
+### 🏗️ Aufgabe 14 · Förderband
+Ein Band läuft mit **1,25 m/s**, der Materialquerschnitt beträgt **0,030 m²**, die Schüttdichte 1,6 t/m³.
+**14.1** Volumenstrom in m³/h? **14.2** Massenstrom in t/h? **14.3** Wie lange dauert es, 500 m³ zu fördern?
+
+<details><summary>Lösung anzeigen</summary>
+
+**14.1** V̇ = 0,030 · 1,25 = 0,0375 m³/s → · 3600 = **135,0 m³/h**
+**14.2** 135,0 · 1,6 = **216,0 t/h**
+**14.3** t = 500 / 135,0 = **3,70 h** ≈ 3 h 42 min
 </details>
 
 ---

@@ -14,11 +14,12 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
 | **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
-| **`Lernkapitel/`** | **Der vollständige Lehrstoff** in 23 Kapiteln (434 KB) – zum Lernen ohne gedruckte Hefte. |
+| **`Lernkapitel/`** | **Der vollständige Lehrstoff** in 23 Kapiteln (569 KB) – zum Lernen ohne gedruckte Hefte. |
 | **`Formelsammlung/`** | Alle Formeln kompakt – Prüfungshilfsmittel-Training. |
 | **`Termine.md`** | Präsenztermine (Samstage ohne hessische Ferien/Feiertage). |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
-| **`tools/`** | Kleine Hilfsskripte (PDF-Text auslesen, Karten prüfen). |
+| **`tools/`** | Hilfsskripte: PDF-Text auslesen, Kapitel ins Tool einbauen, Suchindex bauen. |
+| **`Suchindex_Semester-1.json`** | 1857 durchsuchbare Textstellen aus den Original-PDFs mit Seitenzahl. |
 
 ### Wie wir zusammenarbeiten
 1. **Du lädst neue Unterlagen hoch** (PDFs vom DAA). Ich lege sie unter `Unterlagen/Semester-X/<Fach>/` ab.
@@ -96,15 +97,16 @@ Beide bündeln alles in einer App für Handy und PC:
 | **Wiederholen** | 319 Karteikarten mit Spaced Repetition – zeigt täglich, was dran ist |
 | **Zusammenfassungen** | kompakt/ausführlich umschaltbar, je Modul |
 | **Karteikarten** | freies Üben nach Stapeln |
-| **Übungen** | 120 Aufgaben mit aufklappbarer Lösung |
-| **Probeklausur** | 90 min im Prüfungsformat, mit Timer |
+| **Übungen** | 120 Aufgaben mit aufklappbarer Lösung, **Fehlerbuch** und Fortschrittsanzeige |
+| **Rechentrainer** | 23 Aufgabentypen mit **immer neuen Zahlen**, Rechenweg und Trefferquote je Thema |
+| **Probeklausur** | 6 Klausuren – je 2 Varianten für Mathematik, Naturwissenschaft und Deutsch, 90 min mit Timer |
 | **Formelsammlung** | durchsuchbar + Trainer „Welche Formel brauche ich?“ |
 | **Lernkapitel** | **der komplette Lehrstoff in 23 Kapiteln** – ersetzt die gedruckten Hefte |
 | **Original-PDFs** | alle 14 DAA-Dokumente direkt öffnen oder aufs Gerät speichern |
-| **Lexikon** | 57 Begriffe mit ausführlicher Erklärung |
+| **Lexikon** | 74 Begriffe mit ausführlicher Erklärung |
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
 | **Lernplan / Termine** | Checkliste je Semester und Präsenztermine |
-| **Globale Suche** | findet alles auf einmal |
+| **Globale Suche** | findet alles auf einmal – auch im **Originaltext der PDFs**, mit Sprung auf die richtige Seite |
 
 Semester 1–7 sind umschaltbar; Fortschritt und Notizen werden pro Semester gespeichert.
 

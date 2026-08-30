@@ -10,7 +10,7 @@
 - **Auflagerkräfte** eines Trägers berechnen.
 - Die **Standsicherheit** (Kippsicherheit) beurteilen.
 
-**Inhalt:** [3.1 Drehmoment](#31-das-drehmoment) · [3.2 Hebelgesetz](#32-das-hebelgesetz) · [3.3 Gleichgewicht](#33-die-gleichgewichtsbedingungen) · [3.4 Auflagerkräfte](#34-auflagerkräfte-berechnen) · [3.5 Kippsicherheit](#35-kippsicherheit) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
+**Inhalt:** [3.1 Drehmoment](#31-das-drehmoment) · [3.2 Hebelgesetz](#32-das-hebelgesetz) · [3.3 Gleichgewicht](#33-die-gleichgewichtsbedingungen) · [3.4 Auflagerarten](#34-die-auflagerarten) · [3.5 Auflagerkräfte](#35-auflagerkräfte-berechnen) · [3.6 Kippsicherheit](#36-kippsicherheit) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
 
 ---
 
@@ -74,6 +74,45 @@ F = 180 / 0,30 = 600 N  (≈ 61 kg)
 ```
 
 > **Deshalb** haben Drehmomentschlüssel lange Hebel: Je länger der Hebel, desto weniger Kraft ist nötig.
+
+### Wenn die Kraft schräg angreift
+
+Der Hebelarm ist der **senkrechte** Abstand – greift die Kraft schräg an, zählt nur ihr senkrechter Anteil. Zerlege die Kraft und nimm die Komponente **quer zum Hebel**:
+
+```
+M = F · l · sin α
+```
+Dabei ist α der Winkel zwischen Kraftrichtung und Hebelarm.
+
+### 📐 Lehrbeispiel – schräge Kraft
+
+Am Ende eines **1,20 m** langen Hebels greift eine Kraft von **800 N** unter **65°** zur Hebelachse an.
+
+```
+M = F · l · sin α = 800 · 1,20 · sin 65°
+M = 960 · 0,90631 = 870,1 Nm
+```
+
+Bei α = 90° wäre sin α = 1 und M = 960 Nm – das ist der **günstigste Fall**. Je flacher die Kraft angreift, desto weniger Drehwirkung bleibt übrig. Bei α = 0° (Kraft in Hebelrichtung) ist das Moment **null**: Du kannst am Schlüssel ziehen, so viel du willst, die Schraube dreht sich nicht.
+
+> ### ⚠️ Der häufigste Fehler bei Momenten
+> Den Abstand zum **Angriffspunkt** statt den senkrechten Abstand der **Wirkungslinie** einzusetzen. Zeichne im Zweifel die Wirkungslinie durch und fälle das Lot vom Drehpunkt darauf – diese Strecke ist der Hebelarm.
+
+### Das Moment einer Gleichstreckenlast
+
+Eine über die Länge verteilte Last (Eigengewicht einer Decke, Schnee, aufgeschüttetes Material) rechnest du in **zwei Schritten** um:
+
+1. **Resultierende bilden:** F = q · l
+2. **Im Schwerpunkt ansetzen:** bei gleichmäßiger Last in der **Mitte** der belasteten Länge
+
+**Beispiel:** q = 4,5 kN/m über l = 6,00 m
+```
+F = q · l = 4,5 · 6,00 = 27,0 kN   →   greift bei 3,00 m an
+M = 27,0 · 3,00 = 81,0 kNm
+```
+
+> ### 💡 Einheiten im Bauwesen
+> In der Statik rechnest du fast immer mit **kN** und **kNm** statt N und Nm – die Zahlen bleiben handlich. 1 kNm = 1000 Nm. Achte darauf, innerhalb einer Aufgabe nicht zu mischen.
 
 ---
 
@@ -173,7 +212,27 @@ F_Griff = 470,88 / 1,50 = 313,9 N  (≈ 32 kg)
 
 ---
 
-## 3.4 Auflagerkräfte berechnen
+## 3.4 Die Auflagerarten
+
+Bevor du rechnest, musst du wissen, **was ein Auflager überhaupt aufnehmen kann**. Davon hängt ab, wie viele unbekannte Kräfte du hast.
+
+| Auflager | Symbol | nimmt auf | Unbekannte |
+|----------|--------|-----------|------------|
+| **Loslager** (verschieblich) | Rolle / Dreieck auf Rollen | nur Kraft **senkrecht** zur Auflagerfläche | 1 |
+| **Festlager** (gelenkig) | Dreieck | Kraft **senkrecht und waagerecht** | 2 |
+| **Einspannung** | schraffierte Wand | Kraft senkrecht, waagerecht **und ein Moment** | 3 |
+
+> ### 💡 Warum ein Träger genau ein Fest- und ein Loslager bekommt
+> Zwei Festlager wären „zu viel des Guten": Der Träger könnte sich bei Erwärmung nicht ausdehnen und würde sich selbst unter Zwang setzen. Das Loslager lässt die Längenänderung zu – deshalb liegt ein Brückenträger auf einer Seite auf Rollen oder Gleitlagern.
+
+Ein Träger auf **einem Fest- und einem Loslager** hat drei Unbekannte und du hast drei Gleichgewichtsbedingungen – das geht genau auf. Solche Systeme heißen **statisch bestimmt** und sind alles, was du im ersten Semester rechnen musst.
+
+> ### 🏗️ Bau-Bezug
+> Ein Kragarm (Balkonplatte, Vordach) hat nur **ein** Auflager: eine Einspannung. Sie muss deshalb das gesamte Moment aufnehmen – und genau dort liegt bei einer Balkonplatte auch die Bewehrung, nämlich **oben**. Wer sie unten einlegt, baut einen Einsturz.
+
+---
+
+## 3.5 Auflagerkräfte berechnen
 
 ### Das Standardproblem
 
@@ -253,9 +312,63 @@ Symmetrisch belastet → A = B = 60 / 2 = 30 kN
 A = B = q · l / 2
 ```
 
+### 🏗️ Bau-Beispiel – Träger mit Kragarm und gemischter Last
+
+Das ist der Fall, der in Klausuren am häufigsten schiefgeht. Ein Träger liegt auf **A** und **B** im Abstand **6,00 m**. Über **B** hinaus kragt er **1,50 m** aus. Auf dem Feld liegt eine Gleichlast **q = 3,0 kN/m**, am Kragarmende hängt **F = 8,0 kN**.
+
+```
+ q = 3,0 kN/m                       F = 8,0 kN
+ ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓                   ↓
+ ═══════════════════════════════════════
+ △                          △
+ A                          B
+ |◄────── 6,00 m ──────────►|◄─1,50 m─►|
+```
+
+**Schritt 1 – Lasten zusammenfassen:**
+```
+Gleichlast:  F_q = q · l = 3,0 · 6,00 = 18,0 kN, greift bei 3,00 m an
+Einzellast:  F   = 8,0 kN, greift bei 6,00 + 1,50 = 7,50 m an
+```
+
+**Schritt 2 – Momentengleichgewicht um A** (dann fällt F_A heraus, weil sein Hebelarm null ist):
+```
+ΣM_A = 0:   F_B · 6,00 = 18,0 · 3,00 + 8,0 · 7,50
+            F_B · 6,00 = 54,0 + 60,0 = 114,0 kNm
+            F_B = 114,0 / 6,00 = 19,0 kN
+```
+
+**Schritt 3 – Kräftegleichgewicht:**
+```
+ΣF = 0:     F_A = 18,0 + 8,0 − 19,0 = 7,0 kN
+```
+
+**Schritt 4 – Probe über den zweiten Drehpunkt.** Rechne noch einmal, aber um **B**. Achte auf das Vorzeichen: Die Kragarmlast dreht um B **andersherum** als die Feldlast.
+```
+ΣM_B = 0:   F_A · 6,00 = 18,0 · 3,00 − 8,0 · 1,50
+            F_A · 6,00 = 54,0 − 12,0 = 42,0 kNm
+            F_A = 42,0 / 6,00 = 7,0 kN ✓
+```
+Beide Wege liefern 7,0 kN – die Rechnung stimmt.
+
+> ### 💡 Warum die Probe über den zweiten Punkt so wertvoll ist
+> Sie deckt genau die zwei Fehler auf, die am häufigsten passieren: einen falschen Hebelarm und ein falsches Vorzeichen. Rechnest du nur ΣF = 0 als Probe, merkst du einen falschen Hebelarm **nicht**, weil sich die Summe der Kräfte dabei gar nicht ändert. Kostet zwei Minuten und rettet die Aufgabe.
+
+### 🏗️ Bau-Beispiel – Balkonplatte als Kragarm
+
+Eine Balkonplatte kragt **1,60 m** aus. Sie trägt je m² **6,0 kN** Eigenlast und **4,0 kN** Nutzlast. Wie groß ist das Einspannmoment je Meter Plattenbreite?
+
+```
+Gesamtlast je m Breite:  (6,0 + 4,0) · 1,60 = 16,0 kN/m
+Schwerpunkt der Gleichlast:  1,60 / 2 = 0,80 m von der Einspannung
+M = 16,0 · 0,80 = 12,8 kNm je Meter Plattenbreite
+```
+
+Dieses Moment muss die Decke aufnehmen – und zwar über eine Bewehrung, die **an der Oberseite** durchläuft und weit genug in die Decke hineinreicht. Deshalb ist die Auskragung so empfindlich: Verdoppelt sich die Auskragung von 1,60 m auf 3,20 m, **vervierfacht** sich das Moment (die Last verdoppelt sich und ihr Hebelarm ebenfalls).
+
 ---
 
-## 3.5 Kippsicherheit
+## 3.6 Kippsicherheit
 
 Ein Bauteil kippt, wenn das **kippende Moment** größer wird als das **standsichernde Moment**.
 
@@ -265,28 +378,35 @@ Ein Bauteil kippt, wenn das **kippende Moment** größer wird als das **standsic
 > ```
 > Gefordert wird üblicherweise **η ≥ 1,5**.
 
-### 🏗️ Bau-Beispiel – Stützmauer
+### 🏗️ Bau-Beispiel – Stützmauer nachweisen
 
-Eine Stützmauer:
-- **Eigengewicht G = 140 kN**, greift **0,90 m** von der Kippkante entfernt an
-- **Erddruck H = 48 kN**, greift **1,20 m** über der Kippkante an
+Eine Betonstützmauer ist **2,80 m** hoch und unten **1,20 m** breit (Wichte Beton 24 kN/m³). Dahinter drückt Erde mit der Wichte 18 kN/m³ und dem Erddruckbeiwert K = 0,33. Betrachtet wird ein **1,00 m langer Abschnitt** der Mauer.
 
-**Standsicherndes Moment** (Eigengewicht hält die Mauer):
+**Standsicherndes Moment** – das Eigengewicht hält die Mauer:
 ```
-M_stand = G · 0,90 = 140 · 0,90 = 126 kNm
-```
-
-**Kippendes Moment** (Erddruck will kippen):
-```
-M_kipp = H · 1,20 = 48 · 1,20 = 57,6 kNm
+G = b · h · Länge · γ_Beton = 1,20 · 2,80 · 1,00 · 24 = 80,64 kN
+Der Schwerpunkt liegt in der Mitte, also 1,20/2 = 0,60 m von der Kippkante:
+M_stand = 80,64 · 0,60 = 48,38 kNm
 ```
 
-**Kippsicherheit:**
+**Kippendes Moment** – der Erddruck drückt:
 ```
-η = 126 / 57,6 = 2,19
+E = ½ · K · γ_Erde · h² = ½ · 0,33 · 18 · 2,80² = ½ · 0,33 · 18 · 7,84 = 23,29 kN
+```
+Der Erddruck wächst mit der Tiefe **dreieckförmig**, seine Resultierende greift deshalb bei **h/3** über der Sohle an:
+```
+Hebelarm = 2,80 / 3 = 0,933 m
+M_kipp = 23,29 · 0,933 = 21,73 kNm
 ```
 
-**Bewertung:** 2,19 ≥ 1,5 → **ausreichend standsicher** ✓
+**Nachweis:**
+```
+η = M_stand / M_kipp = 48,38 / 21,73 = 2,23  ≥ 1,5  ✓
+```
+Die Mauer ist standsicher.
+
+> ### ⚠️ Der Erddruck greift nicht in halber Höhe an
+> Weil der Druck von oben nach unten linear zunimmt, ist die Druckfläche ein **Dreieck** – und der Schwerpunkt eines Dreiecks liegt bei einem Drittel der Höhe, gemessen von der breiten Seite, also von unten. Wer h/2 einsetzt, bekommt ein um die Hälfte zu großes Moment und verwirft eine tragfähige Mauer. Derselbe Gedanke gilt beim Wasserdruck in Kapitel 6.
 
 ### 🏗️ Bau-Beispiel – Kran-Ballast
 
@@ -442,6 +562,63 @@ Eine Schraube soll mit **240 Nm** angezogen werden.
 **10.1** F = 240 / 0,50 = **480 N**
 **10.2** F = 240 / 0,35 = **685,7 N**
 **10.3** l = 240 / 350 = **0,686 m** → mindestens **0,70 m**
+</details>
+
+### 🏗️ Aufgabe 11 · Schräg angreifende Kraft
+An einem **0,90 m** langen Hebel greift eine Kraft von **650 N** unter **52°** zur Hebelachse an.
+**11.1** Wie groß ist das Drehmoment? **11.2** Wie viel Prozent des möglichen Moments gehen durch die schräge Richtung verloren?
+
+<details><summary>Lösung anzeigen</summary>
+
+**11.1** M = F · l · sin α = 650 · 0,90 · sin 52° = 585 · 0,78801 = **461,0 Nm**
+**11.2** Bei senkrechtem Angriff wären es 585 Nm. Genutzt werden 461,0/585 = 0,788 → **21,2 % gehen verloren**.
+</details>
+
+### 🏗️ Aufgabe 12 · Träger mit Kragarm
+Ein Träger liegt auf A und B im Abstand **5,00 m**, über B kragt er **2,00 m** aus. Im Feld liegt **q = 4,0 kN/m**, am Kragarmende **F = 6,0 kN**.
+**12.1** Berechnen Sie F_B. **12.2** Berechnen Sie F_A. **12.3** Machen Sie die Probe über den zweiten Drehpunkt.
+
+<details><summary>Lösung anzeigen</summary>
+
+**12.1** Gleichlast F_q = 4,0 · 5,00 = 20,0 kN bei 2,50 m; Einzellast bei 7,00 m
+ΣM_A = 0: F_B · 5,00 = 20,0 · 2,50 + 6,0 · 7,00 = 50,0 + 42,0 = 92,0 kNm → **F_B = 18,4 kN**
+**12.2** ΣF = 0: F_A = 20,0 + 6,0 − 18,4 = **7,6 kN**
+**12.3** ΣM_B = 0: F_A · 5,00 = 20,0 · 2,50 − 6,0 · 2,00 = 50,0 − 12,0 = 38,0 kNm → F_A = **7,6 kN** ✓
+Beachte das **Minus**: Die Kragarmlast dreht um B in die andere Richtung als die Feldlast.
+</details>
+
+### Aufgabe 13 · Auflagerarten
+**13.1** Welche Kräfte nimmt ein Loslager auf, welche ein Festlager? **13.2** Warum bekommt ein Träger nicht zwei Festlager? **13.3** Wie viele Unbekannte hat eine Einspannung?
+
+<details><summary>Lösung anzeigen</summary>
+
+**13.1** Loslager: nur die Kraft **senkrecht** zur Auflagerfläche (1 Unbekannte). Festlager: senkrecht **und** waagerecht (2 Unbekannte).
+**13.2** Weil sich der Träger dann bei Erwärmung nicht mehr längen könnte – es entstünden Zwängungskräfte. Das Loslager lässt die Längenänderung zu.
+**13.3** Drei: Kraft senkrecht, Kraft waagerecht und ein **Einspannmoment**.
+</details>
+
+### 🏗️ Aufgabe 14 · Balkonplatte
+Eine Balkonplatte kragt **1,20 m** aus und trägt je m² **5,5 kN** Eigenlast und **4,0 kN** Nutzlast.
+**14.1** Wie groß ist das Einspannmoment je Meter Plattenbreite? **14.2** Auf welcher Seite der Platte liegt die Bewehrung und warum?
+
+<details><summary>Lösung anzeigen</summary>
+
+**14.1** Last je m Breite: (5,5 + 4,0) · 1,20 = 11,4 kN/m, Schwerpunkt bei 0,60 m
+M = 11,4 · 0,60 = **6,84 kNm je Meter**
+**14.2** **Oben.** Der Kragarm biegt sich nach unten durch, dadurch wird die Oberseite gedehnt – und Beton kann keine Zugkräfte aufnehmen, der Stahl muss dort liegen, wo gezogen wird.
+</details>
+
+### 🏗️ Aufgabe 15 · Kippsicherheit einer Stützmauer
+Eine Betonstützmauer (γ = 24 kN/m³) ist **2,20 m** hoch und **1,00 m** breit. Der Erddruck beträgt E = ½ · K · γ_Erde · h² mit K = 0,33 und γ_Erde = 18 kN/m³. Betrachtet wird 1,00 m Mauerlänge.
+**15.1** Standsicherndes Moment? **15.2** Kippendes Moment? **15.3** Ist η ≥ 1,5 erfüllt?
+
+<details><summary>Lösung anzeigen</summary>
+
+**15.1** G = 1,00 · 2,20 · 1,00 · 24 = 52,8 kN, Hebelarm 1,00/2 = 0,50 m
+M_stand = 52,8 · 0,50 = **26,4 kNm**
+**15.2** E = ½ · 0,33 · 18 · 2,20² = ½ · 0,33 · 18 · 4,84 = 14,38 kN, Hebelarm h/3 = 0,733 m
+M_kipp = 14,38 · 0,733 = **10,54 kNm**
+**15.3** η = 26,4 / 10,54 = **2,50 ≥ 1,5 ✓** – die Mauer ist standsicher.
 </details>
 
 ---

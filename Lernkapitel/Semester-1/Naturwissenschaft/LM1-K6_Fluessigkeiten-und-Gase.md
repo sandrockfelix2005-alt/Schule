@@ -178,6 +178,36 @@ W₂ = 10 000 · 0,02 = 200 J ✓
 
 ### 🏗️ Bau-Beispiel – Baggerzylinder
 
+Ein Hydraulikzylinder hat einen **Kolben von 100 mm** Durchmesser und eine **Kolbenstange von 56 mm**. Der Betriebsdruck beträgt **250 bar = 250·10⁵ Pa**.
+
+**Ausfahren** – der Druck wirkt auf die volle Kolbenfläche:
+```
+A₁ = π · d²/4 = π · 0,100²/4 = 0,007854 m²
+F = p · A₁ = 25 000 000 · 0,007854 = 196 350 N ≈ 19,6 kN
+```
+
+**Einfahren** – auf der Stangenseite fehlt die Fläche der Kolbenstange, es bleibt die **Ringfläche**:
+```
+A₂ = π/4 · (D² − d²) = π/4 · (0,100² − 0,056²) = π/4 · (0,01 − 0,003136) = 0,005391 m²
+F = 25 000 000 · 0,005391 = 134 775 N ≈ 13,5 kN
+```
+
+> ### 💡 Deshalb drückt ein Bagger stärker, als er zieht
+> Beim Einfahren stehen nur **69 %** der Kraft zur Verfügung. Ein Bagger reißt deshalb mit der Löffelbewegung „zu sich hin" – da fahren die Zylinder aus. Wer die Bewegungsrichtung eines Zylinders kennt, weiß auch, wo seine Kraft liegt.
+
+### 🏗️ Bau-Beispiel – Raupe oder Räder?
+
+Warum stehen Bagger auf Ketten? Ein Gerät von **180 kN** Gewicht:
+
+| | Aufstandsfläche | Bodenpressung |
+|---|---|---|
+| **Raupenfahrwerk** 2 Ketten je 3,20 m × 0,60 m | 3,84 m² | p = 180 / 3,84 = **46,9 kN/m²** |
+| **Radfahrwerk** 4 Reifen je 0,35 m × 0,25 m Aufstandsfläche | 0,35 m² | p = 180 / 0,35 = **514,3 kN/m²** |
+
+Die Raupe erzeugt gut **ein Elftel** des Drucks. Auf weichem Boden trägt nur sie – ein Radgerät gräbt sich ein. Dieselbe Formel p = F/A entscheidet später über die Größe jedes Fundaments.
+
+### 🏗️ Bau-Beispiel – Baggerzylinder (Grundfall)
+
 Ein Hydraulikzylinder hat **d = 100 mm** Kolbendurchmesser, Betriebsdruck **250 bar**.
 
 ```
@@ -218,6 +248,43 @@ F_A = 1000 · 9,81 · 240 = 2 354 400 N ≈ 2354 kN ≈ 240 t
 ```
 
 **Bewertung:** Das Gebäude muss mindestens **240 t** wiegen, sonst wird es vom Grundwasser **angehoben** – die berüchtigte „aufschwimmende Wanne".
+
+### 🏗️ Bau-Beispiel – Auftriebsnachweis vollständig gerechnet
+
+So sieht der Nachweis in der Praxis aus. Eine Kellerwanne ist **12,00 m × 9,00 m** groß, taucht **1,80 m** ins Grundwasser ein und besteht aus einer **30 cm** dicken Bodenplatte und **30 cm** dicken Wänden von **2,20 m** Höhe (Beton 24 kN/m³).
+
+**Schritt 1 – Auftriebskraft (was hochdrückt):**
+```
+V_verdrängt = 12,00 · 9,00 · 1,80 = 194,4 m³
+F_A = ρ · g · V = 1000 · 9,81 · 194,4 = 1 907 064 N ≈ 1907 kN
+```
+
+**Schritt 2 – Eigengewicht (was dagegenhält):**
+```
+Bodenplatte:  12,00 · 9,00 · 0,30            = 32,40 m³
+Wände:        2 · (12,00 + 9,00) · 2,20 · 0,30 = 27,72 m³
+Summe                                        = 60,12 m³
+G = 60,12 · 24 = 1442,9 kN
+```
+
+**Schritt 3 – Nachweis:**
+```
+η = G / F_A = 1442,9 / 1907,1 = 0,76
+```
+
+**Das reicht nicht.** Gefordert ist mindestens η ≥ 1,05, meist η ≥ 1,10. Die Wanne würde **aufschwimmen**.
+
+> ### 🏗️ Was der Bautechniker daraus macht
+> Drei Wege führen aus dem Problem:
+> 1. **Mehr Gewicht** – dickere Bodenplatte oder das Gewicht der darüberliegenden Geschosse mitrechnen (meist reicht schon ein Obergeschoss).
+> 2. **Verankerung** – Zugpfähle oder Verpressanker binden die Wanne im Baugrund fest.
+> 3. **Grundwasser absenken** – nur als Bauzustand, nicht auf Dauer.
+>
+> Kritisch ist fast immer der **Bauzustand**: Die Wanne steht schon, die aufgehenden Geschosse fehlen noch. Genau in diesem Fenster schwimmen Wannen auf – bei einem Starkregen über Nacht.
+
+> ### ⚠️ Die zwei Fehler beim Auftriebsnachweis
+> **Erstens:** Nicht das Volumen des Betons zählt für den Auftrieb, sondern das **verdrängte Volumen** – also der gesamte eingetauchte Baukörper einschließlich des Hohlraums darin.
+> **Zweitens:** Für die Eintauchtiefe ist der **höchste anzunehmende Grundwasserstand** maßgebend, nicht der Stand am Tag der Baugrunduntersuchung.
 
 > ### ⚠️ Ein echtes Bauschadensrisiko
 > Bei Kellern in Grundwasser wird die **Auftriebssicherheit** nachgewiesen:
@@ -363,6 +430,43 @@ A = π · 0,04² = 0,005027 m²
 p = 20 000 000 Pa
 F = 20 000 000 · 0,005027 = 100 540 N ≈ 100,5 kN  (≈ 10 t)
 ```
+</details>
+
+---
+
+### 🏗️ Aufgabe 9 · Auftriebsnachweis
+Eine Kellerwanne ist **10,00 m × 7,00 m** groß und taucht **1,60 m** ins Grundwasser. Bodenplatte **35 cm**, Wände **35 cm** dick und **2,00 m** hoch, Beton 24 kN/m³.
+**9.1** Auftriebskraft? **9.2** Eigengewicht? **9.3** Ist η ≥ 1,05 erfüllt? **9.4** Wann ist der Zustand am kritischsten?
+
+<details><summary>Lösung anzeigen</summary>
+
+**9.1** V = 10,00 · 7,00 · 1,60 = 112,0 m³ → F_A = 1000 · 9,81 · 112,0 = 1 098 720 N = **1098,7 kN**
+**9.2** Bodenplatte 10,00 · 7,00 · 0,35 = 24,50 m³ · Wände 2 · (10,00 + 7,00) · 2,00 · 0,35 = 23,80 m³ · Summe 48,30 m³
+G = 48,30 · 24 = **1159,2 kN**
+**9.3** η = 1159,2 / 1098,7 = **1,055 ≥ 1,05 ✓** – gerade eben erfüllt, ohne jede Reserve.
+**9.4** Im **Bauzustand**, solange die aufgehenden Geschosse noch fehlen und ihr Gewicht nicht mitwirkt.
+</details>
+
+### 🏗️ Aufgabe 10 · Hydraulikzylinder
+Ein Zylinder hat **D = 80 mm** Kolben- und **d = 45 mm** Stangendurchmesser bei **180 bar**.
+**10.1** Kraft beim Ausfahren? **10.2** Kraft beim Einfahren? **10.3** Wie viel Prozent bleiben beim Einfahren?
+
+<details><summary>Lösung anzeigen</summary>
+
+**10.1** A₁ = π · 0,080²/4 = 0,005027 m² → F = 18 000 000 · 0,005027 = **90 480 N ≈ 90,5 kN**
+**10.2** A₂ = π/4 · (0,080² − 0,045²) = π/4 · (0,0064 − 0,002025) = 0,003436 m² → F = **61 850 N ≈ 61,9 kN**
+**10.3** 61,85 / 90,48 = **68,4 %** – die Kolbenstange nimmt gut ein Drittel der Fläche weg.
+</details>
+
+### 🏗️ Aufgabe 11 · Raupe gegen Rad
+Ein Gerät wiegt **240 kN**. Raupenfahrwerk: 2 Ketten je 3,50 m × 0,70 m. Radfahrwerk: 4 Reifen mit je 0,40 m × 0,30 m Aufstandsfläche.
+**11.1** Bodenpressung mit Raupe? **11.2** Mit Rädern? **11.3** Der Baugrund verträgt 120 kN/m² – welches Fahrwerk geht?
+
+<details><summary>Lösung anzeigen</summary>
+
+**11.1** A = 2 · 3,50 · 0,70 = 4,90 m² → p = 240 / 4,90 = **48,98 kN/m²**
+**11.2** A = 4 · 0,40 · 0,30 = 0,48 m² → p = 240 / 0,48 = **500,0 kN/m²**
+**11.3** Nur die **Raupe**: 48,98 < 120 ✓. Das Radgerät überschreitet die zulässige Pressung um mehr als das Vierfache und würde einsinken.
 </details>
 
 ---
