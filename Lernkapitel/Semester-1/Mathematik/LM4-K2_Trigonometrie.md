@@ -10,8 +10,10 @@
 - Mit **Sinussatz** und **Kosinussatz** im **beliebigen** Dreieck rechnen.
 - Zwischen **Grad- und Bogenmaß** umrechnen.
 - Dachneigungen, Böschungen und Vermessungsaufgaben lösen.
+- Die **Additionstheoreme** anwenden.
+- Mit **Höhen- und Tiefenwinkeln** und im **Raum** rechnen.
 
-**Inhalt:** [2.1 sin, cos, tan](#21-sinus-kosinus-und-tangens) · [2.2 Trigonometrische Funktionen](#22-die-trigonometrischen-funktionen) · [2.3 Sinussatz](#23-der-sinussatz) · [2.4 Kosinussatz](#24-der-kosinussatz) · [2.5 Bogenmaß](#25-das-bogenmaß) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
+**Inhalt:** [2.1 sin, cos, tan](#21-sinus-kosinus-und-tangens) · [2.2 Trigonometrische Funktionen](#22-die-trigonometrischen-funktionen) · [2.3 Sinussatz](#23-der-sinussatz) · [2.4 Kosinussatz](#24-der-kosinussatz) · [2.5 Bogenmaß](#25-das-bogenmaß) · [2.6 Additionstheoreme](#26-die-additionstheoreme) · [2.7 Trigonometrie im Raum](#27-trigonometrie-im-raum) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
 
 ---
 
@@ -548,6 +550,140 @@ b = r · φ = 1,20 · 2,094 = 2,513 m ✓
 
 # ✍️ Übungsaufgaben mit Lösungsweg
 
+## 2.6 Die Additionstheoreme
+
+Manchmal kennst du die Funktionswerte zweier Winkel und brauchst den Wert ihrer **Summe**. Dafür gibt es die **Additionstheoreme** – sie drücken den Funktionswert einer Winkelsumme durch die Werte der einzelnen Winkel aus.
+
+> ### 💡 Die drei Formeln
+> ```
+> sin(x₁ + x₂) = sin x₁ · cos x₂ + cos x₁ · sin x₂
+> cos(x₁ + x₂) = cos x₁ · cos x₂ − sin x₁ · sin x₂
+> tan(x₁ + x₂) = (tan x₁ + tan x₂) / (1 − tan x₁ · tan x₂)
+> ```
+
+> ### ⚠️ Der Fehler, der fast jedem einmal passiert
+> **sin(x₁ + x₂) ist NICHT sin x₁ + sin x₂.** Der Sinus ist keine lineare Funktion, du darfst ihn nicht „ausmultiplizieren". Probe mit Zahlen: sin(30° + 60°) = sin 90° = 1, aber sin 30° + sin 60° = 0,5 + 0,866 = 1,366. Zwei völlig verschiedene Werte.
+
+> ### 💡 Beim Kosinus dreht sich das Vorzeichen um
+> Beim Sinus steht ein **Plus** zwischen den Produkten, beim Kosinus ein **Minus**. Das ist die häufigste Verwechslung. Merksatz: *„Sinus bleibt freundlich, Kosinus wird kritisch."*
+
+### 📐 Lehrbeispiel – sin 75° ohne Taschenrechner
+
+75° ist keiner der bekannten Winkel, aber 75° = 45° + 30°:
+
+```
+sin 75° = sin(45° + 30°)
+        = sin 45° · cos 30° + cos 45° · sin 30°
+        = 0,70711 · 0,86603 + 0,70711 · 0,50000
+        = 0,61237 + 0,35355
+        = 0,96593
+```
+Der Taschenrechner sagt sin 75° = 0,96593 ✓
+
+**Zur Gegenprobe der Kosinus:**
+```
+cos 75° = cos 45° · cos 30° − sin 45° · sin 30°
+        = 0,70711 · 0,86603 − 0,70711 · 0,50000
+        = 0,61237 − 0,35355
+        = 0,25882            (Taschenrechner: 0,25882 ✓)
+```
+
+> ### 💡 Wofür du das brauchst
+> Die Additionstheoreme sind das Werkzeug, mit dem man Winkelfunktionen **umformt** statt sie auszurechnen. Das wird wichtig, sobald du Formeln zusammenfassen oder vereinfachen musst – etwa bei Schwingungen und bei der Zerlegung von Kräften unter mehreren Winkeln.
+
+---
+
+## 2.7 Trigonometrie im Raum
+
+Bisher lag alles in einer Ebene. Am Bau ist das selten so: Ein Dach, eine Böschung, eine Raumdiagonale liegen **schräg im Raum**. Der Trick ist immer derselbe.
+
+> ### 💡 Das Grundprinzip
+> **Suche im Raum ein rechtwinkliges Dreieck, das in einer Ebene liegt** – dann rechnest du darin ganz normal weiter. Meist brauchst du **zwei** Dreiecke nacheinander: eins in der Grundfläche, eins senkrecht dazu.
+
+### Höhenwinkel und Tiefenwinkel
+
+| Begriff | Bedeutung |
+|---------|-----------|
+| **Höhenwinkel** | Winkel zwischen der Waagerechten und der Blickrichtung **nach oben** |
+| **Tiefenwinkel** | Winkel zwischen der Waagerechten und der Blickrichtung **nach unten** |
+
+Beide werden **von der Waagerechten aus** gemessen – das ist beim Nivellier und beim Tachymeter genauso.
+
+### 📐 Lehrbeispiel – Höhe eines Bauwerks von einem Standpunkt aus
+
+Du stehst auf einem Gebäude in **h = 60,0 m** Höhe. Zum **Fuß** eines gegenüberliegenden Turms misst du den Tiefenwinkel **β = 28°44'**, zu seiner **Spitze** den Höhenwinkel **α = 30°17'**. Wie hoch ist der Turm?
+
+**Schritt 1 – Winkel in Dezimalgrad umrechnen:**
+```
+β = 28° + 44/60 = 28,7333°
+α = 30° + 17/60 = 30,2833°
+```
+
+**Schritt 2 – waagerechte Entfernung** über das untere Dreieck:
+```
+tan β = h / d      →      d = h / tan β = 60,0 / 0,54824 = 109,44 m
+```
+
+**Schritt 3 – Höhe über deinem Standpunkt** über das obere Dreieck:
+```
+tan α = x / d      →      x = d · tan α = 109,44 · 0,58396 = 63,91 m
+```
+
+**Schritt 4 – Gesamthöhe:**
+```
+H = h + x = 60,0 + 63,91 = 123,9 m
+```
+
+> ### ⚠️ Winkel in Grad und Minuten
+> 28°44' bedeutet **28 Grad und 44 Minuten**, nicht 28,44°. Eine Minute ist 1/60 Grad. Wer das verwechselt, rechnet mit 28,44° statt 28,73° und liegt schon im ersten Schritt daneben. Am Taschenrechner hilft die Taste **°'"**.
+
+### 📐 Lehrbeispiel – Winkel der Raumdiagonale
+
+Ein Quader misst **6,00 m × 4,00 m × 3,00 m**. Welchen Winkel bildet die Raumdiagonale mit der Grundfläche?
+
+**Schritt 1 – Flächendiagonale der Grundfläche** (liegt in der Grundebene):
+```
+d_G = √(6,00² + 4,00²) = √(36 + 16) = √52 = 7,211 m
+```
+
+**Schritt 2 – jetzt das senkrechte Dreieck** aus Flächendiagonale, Höhe und Raumdiagonale:
+```
+tan φ = h / d_G = 3,00 / 7,211 = 0,41603
+φ = arctan 0,41603 = 22,59°
+```
+
+**Nebenbei die Raumdiagonale selbst:**
+```
+d_R = √(6,00² + 4,00² + 3,00²) = √61 = 7,810 m
+```
+
+### 🏗️ Bau-Beispiel – Satteldach
+
+Über einer Decke von **21,0 m × 12,0 m** sitzt ein Satteldach mit **3,20 m** Firsthöhe über der Traufe.
+
+```
+Halbe Breite:  12,0 / 2 = 6,00 m
+Dachneigung:   tan α = 3,20 / 6,00 = 0,53333  →  α = 28,07°
+Sparrenlänge:  √(6,00² + 3,20²) = √(36 + 10,24) = √46,24 = 6,80 m
+Dachfläche:    2 · 21,0 · 6,80 = 285,6 m²
+```
+
+> ### 🏗️ Warum das die wichtigste Rechnung am Dach ist
+> Die **Dachfläche** ist immer größer als die überdeckte Grundfläche – hier 285,6 m² statt 252 m². Wer die Ziegel nach der Grundfläche bestellt, hat 13 % zu wenig. Der Faktor ist genau **1/cos α**: 1/cos 28,07° = 1,133.
+
+### 🏗️ Bau-Beispiel – Böschungswinkel
+
+Eine Baugrube ist **4,50 m** tief und wird mit der Neigung **1 : 1,5** geböscht (auf 1 m Höhe 1,5 m Breite).
+
+```
+Waagerechte Ausladung:  4,50 · 1,5 = 6,75 m je Seite
+Böschungswinkel:        tan α = 4,50 / 6,75 = 0,66667  →  α = 33,69°
+```
+
+Die Grube wird dadurch je Seite **6,75 m breiter** als das Bauwerk – bei enger Bebauung der Grund, warum stattdessen ein Verbau gesetzt wird.
+
+---
+
 ### Aufgabe 1 · Definitionen
 Nenne die drei Winkelfunktionen und den Merkspruch.
 
@@ -728,6 +864,64 @@ x = 35,00 · cos48° = 35,00 · 0,6691 = 23,42 m
 y = 35,00 · sin48° = 35,00 · 0,7431 = 26,01 m
 ```
 **Kontrolle:** √(23,42² + 26,01²) = √(548,5 + 676,5) = √1225 = 35,00 ✓
+</details>
+
+---
+
+### Aufgabe 16 · Additionstheoreme
+**16.1** Berechnen Sie sin 105° über 60° + 45°. **16.2** Berechnen Sie cos 105° auf demselben Weg. **16.3** Zeigen Sie an einem Beispiel, dass sin(x₁ + x₂) ≠ sin x₁ + sin x₂ gilt.
+
+<details><summary>Lösung anzeigen</summary>
+
+**16.1** sin 105° = sin 60° · cos 45° + cos 60° · sin 45° = 0,86603 · 0,70711 + 0,50000 · 0,70711 = 0,61237 + 0,35355 = **0,96593**
+**16.2** cos 105° = cos 60° · cos 45° − sin 60° · sin 45° = 0,35355 − 0,61237 = **−0,25882**
+*(Das Minus ist richtig: 105° liegt im zweiten Quadranten, dort ist der Kosinus negativ.)*
+**16.3** sin(30° + 60°) = sin 90° = 1,000 · aber sin 30° + sin 60° = 0,500 + 0,866 = **1,366**. Die Werte sind verschieden – der Sinus lässt sich nicht auseinanderziehen.
+</details>
+
+### 🏗️ Aufgabe 17 · Höhen- und Tiefenwinkel
+Von einem Standpunkt in **45,0 m** Höhe misst du zum Fuß eines Turms den Tiefenwinkel **β = 25°18'** und zu seiner Spitze den Höhenwinkel **α = 33°42'**.
+**17.1** Rechnen Sie beide Winkel in Dezimalgrad um. **17.2** Waagerechte Entfernung? **17.3** Gesamthöhe des Turms?
+
+<details><summary>Lösung anzeigen</summary>
+
+**17.1** β = 25 + 18/60 = **25,30°** · α = 33 + 42/60 = **33,70°**
+**17.2** d = h / tan β = 45,0 / 0,47270 = **95,20 m**
+**17.3** x = d · tan α = 95,20 · 0,66692 = 63,49 m → H = 45,0 + 63,49 = **108,5 m**
+</details>
+
+### 🏗️ Aufgabe 18 · Raumdiagonale
+Ein Raum misst **8,00 m × 5,00 m × 3,50 m**.
+**18.1** Flächendiagonale der Grundfläche? **18.2** Raumdiagonale? **18.3** Welchen Winkel bildet die Raumdiagonale mit der Grundfläche?
+
+<details><summary>Lösung anzeigen</summary>
+
+**18.1** d_G = √(8,00² + 5,00²) = √89 = **9,434 m**
+**18.2** d_R = √(8,00² + 5,00² + 3,50²) = √101,25 = **10,06 m**
+**18.3** tan φ = 3,50 / 9,434 = 0,37101 → φ = **20,35°**
+</details>
+
+### 🏗️ Aufgabe 19 · Satteldach
+Über einer Decke von **16,5 m × 9,00 m** sitzt ein Satteldach mit **2,80 m** Firsthöhe.
+**19.1** Dachneigung? **19.2** Sparrenlänge? **19.3** Dachfläche? **19.4** Um welchen Faktor ist sie größer als die Grundfläche?
+
+<details><summary>Lösung anzeigen</summary>
+
+**19.1** halbe Breite 4,50 m → tan α = 2,80 / 4,50 = 0,62222 → α = **31,89°**
+**19.2** √(4,50² + 2,80²) = √(20,25 + 7,84) = √28,09 = **5,30 m**
+**19.3** A = 2 · 16,5 · 5,30 = **174,9 m²**
+**19.4** Grundfläche 16,5 · 9,00 = 148,5 m² → 174,9 / 148,5 = **1,178** = 1/cos 31,89°. Wer nach Grundfläche bestellt, hat 18 % zu wenig Material.
+</details>
+
+### 🏗️ Aufgabe 20 · Böschung
+Eine Baugrube ist **3,80 m** tief und wird **1 : 1,25** geböscht.
+**20.1** Waagerechte Ausladung je Seite? **20.2** Böschungswinkel? **20.3** Um wie viel m² wird die Grubensohle bei 12,0 m × 8,0 m Bauwerksfläche überschritten?
+
+<details><summary>Lösung anzeigen</summary>
+
+**20.1** 3,80 · 1,25 = **4,75 m**
+**20.2** tan α = 3,80 / 4,75 = 0,80000 → α = **38,66°**
+**20.3** Oben ist die Grube (12,0 + 2·4,75) × (8,0 + 2·4,75) = 21,5 · 17,5 = 376,25 m² statt 96,0 m² – also **280,25 m² mehr**. Das ist der Grund, warum bei beengten Verhältnissen verbaut statt geböscht wird.
 </details>
 
 ---
