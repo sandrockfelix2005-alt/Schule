@@ -279,6 +279,52 @@
   .kapnav button{flex:1;min-width:120px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:13.5px;cursor:pointer;color:var(--ink)}
   .kapnav button:hover{border-color:var(--accent)}
 
+  /* --- Rechentrainer --- */
+  .rbox{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:14px 0}
+  .rkopf{display:flex;align-items:baseline;gap:12px;margin-bottom:10px}
+  .rth{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.11em;color:var(--accent-deep)}
+  .rscore{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .rfrage{font-size:16px;line-height:1.6;margin:0 0 16px}
+  .reingabe{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+  .reingabe input{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:10px 14px;font-size:16px;color:var(--ink);font-family:var(--mono);width:170px}
+  .reingabe input:focus{outline:none;border-color:var(--accent)}
+  .reinheit{font-family:var(--mono);font-size:13px;color:var(--muted);min-width:44px}
+  .reingabe button{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:10px 16px;font-size:14px;color:var(--ink);cursor:pointer;font-family:var(--sans)}
+  .reingabe button:hover{border-color:var(--accent)}
+  .reingabe button.prim{background:var(--accent);color:#1a1305;border-color:var(--accent);font-weight:650}
+  .rfeedback{margin-top:14px;font-size:15px;font-weight:600;display:none}
+  .rfeedback.gut{display:block;color:#3f9d5a}
+  .rfeedback.schlecht{display:block;color:#c2603c}
+  .rfeedback small{display:block;font-weight:400;color:var(--muted);margin-top:4px;font-size:13px}
+  .rweg{display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--line-soft);font-size:14.5px;line-height:1.75}
+  .rweg.an{display:block}
+  .rweg .lbl{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);display:block;margin-bottom:7px}
+  .rstat{margin-top:18px}
+  .rstat h3{font-size:14px;margin:0 0 10px}
+  .rstat table{width:100%;border-collapse:collapse;font-size:13px}
+  .rstat td{padding:5px 8px;border-bottom:1px solid var(--line-soft)}
+  .rstat td:nth-child(2),.rstat td:nth-child(3){text-align:right;font-family:var(--mono);width:64px}
+  .rstat .schwach td{color:#c2603c}
+
+  /* --- Fehlerbuch --- */
+  .ueb-stat{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:12px 0 4px;font-size:13px;color:var(--muted)}
+  .ueb-bar{flex:1;min-width:160px;height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden;display:flex}
+  .ueb-bar i{display:block;height:100%}
+  .ueb-bar .gut{background:#3f9d5a}
+  .ueb-bar .schlecht{background:#c2603c}
+  .ueb-stat b{color:var(--ink);font-weight:650}
+  .ubtn{display:flex;gap:8px;margin-top:12px;align-items:center;flex-wrap:wrap}
+  .ubtn button{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:7px 14px;font-size:13px;color:var(--ink);cursor:pointer;font-family:var(--sans)}
+  .ubtn button:hover{border-color:var(--accent)}
+  .ubtn button.jaOn{background:#3f9d5a;border-color:#3f9d5a;color:#fff;font-weight:650}
+  .ubtn button.neinOn{background:#c2603c;border-color:#c2603c;color:#fff;font-weight:650}
+  .ubtn .hint{font-size:12px;color:var(--muted)}
+  .umark{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;border-radius:20px;padding:1px 8px;margin-left:8px;flex:none}
+  .umark.gut{color:#3f9d5a;border:1px solid #3f9d5a}
+  .umark.schlecht{color:#c2603c;border:1px solid #c2603c}
+  h2.ugrp{font-size:15px;margin:22px 0 8px;padding-top:12px;border-top:1px solid var(--line-soft);display:flex;align-items:center;gap:9px}
+  h2.ugrp span{font-family:var(--mono);font-size:10.5px;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:1px 8px;font-weight:400}
+
   /* --- Original-PDFs --- */
   .dokgruppe{margin:20px 0 10px}
   .dokgruppe h2{font-size:17px;margin:0 0 10px;padding-top:14px;border-top:1px solid var(--line-soft)}
@@ -338,6 +384,7 @@
     <button data-view="fach">Zusammenfassungen</button>
     <button data-view="karten">Karteikarten</button>
     <button data-view="uebung">Übungen</button>
+    <button data-view="rechnen">Rechentrainer</button>
     <button data-view="klausur">Probeklausur</button>
     <button data-view="formeln">Formeln</button>
     <button data-view="lexikon">Lexikon</button>
@@ -372,18 +419,19 @@
       <a data-view="fach"><span class="n">04</span> Zusammenfassungen</a>
       <a data-view="karten"><span class="n">05</span> Karteikarten</a>
       <a data-view="uebung"><span class="n">06</span> Übungsaufgaben</a>
-      <a data-view="klausur"><span class="n">07</span> Probeklausur</a>
+      <a data-view="rechnen"><span class="n">07</span> Rechentrainer</a>
+      <a data-view="klausur"><span class="n">08</span> Probeklausur</a>
     </nav>
     <div class="eyebrow">Nachschlagen</div>
     <nav id="nav3">
-      <a data-view="formeln"><span class="n">08</span> Formelsammlung</a>
-      <a data-view="lexikon"><span class="n">09</span> Lexikon</a>
-      <a data-view="notizen"><span class="n">10</span> Meine Notizen</a>
+      <a data-view="formeln"><span class="n">09</span> Formelsammlung</a>
+      <a data-view="lexikon"><span class="n">10</span> Lexikon</a>
+      <a data-view="notizen"><span class="n">11</span> Meine Notizen</a>
     </nav>
     <div class="eyebrow">Planen</div>
     <nav id="nav4">
-      <a data-view="plan"><span class="n">11</span> Lernplan</a>
-      <a data-view="termine"><span class="n">12</span> Termine</a>
+      <a data-view="plan"><span class="n">12</span> Lernplan</a>
+      <a data-view="termine"><span class="n">13</span> Termine</a>
     </nav>
     <div class="eyebrow">Fortschritt Lernplan</div>
     <div class="side-progress"><span id="pct">0 %</span><div class="bar"><i id="barfill"></i></div></div>
@@ -471,9 +519,38 @@
     <section class="view" data-view="uebung">
       <div class="kicker">Übungsaufgaben</div>
       <h1>Aufgaben mit Lösung</h1>
-      <p class="lead">Erst selbst rechnen, dann auf die Aufgabe tippen — die Lösung klappt auf.</p>
+      <p class="lead">Erst selbst rechnen, dann auf die Aufgabe tippen — die Lösung klappt auf. Sag danach ehrlich, ob du sie <strong>konntest</strong> oder <strong>nicht</strong>: Was du nicht konntest, sammelt das Fehlerbuch und bringt es dir wieder.</p>
+      <div class="seg" id="uebmode">
+        <button data-m="alle" class="on">Alle Aufgaben</button>
+        <button data-m="fehler">Mein Fehlerbuch</button>
+        <button data-m="offen">Noch nicht gerechnet</button>
+      </div>
       <div class="modpick" id="uebpick"></div>
+      <div class="ueb-stat" id="ueb-stat"></div>
       <div id="ueb-content"></div>
+    </section>
+
+    <!-- RECHENTRAINER -->
+    <section class="view" data-view="rechnen">
+      <div class="kicker">Rechentrainer</div>
+      <h1>Üben mit immer neuen Zahlen</h1>
+      <p class="lead">Jede Aufgabe wird neu gewürfelt – du kannst dieselbe Sorte hundertmal rechnen, ohne die Lösung auswendig zu können. Ergebnis eintippen, prüfen lassen, Rechenweg vergleichen.</p>
+      <div class="seg" id="rfach"><button data-f="alle" class="on">Alle</button><button data-f="Mathematik">Mathematik</button><button data-f="Naturwissenschaft">Naturwissenschaft</button></div>
+      <div class="modpick" id="rthema"></div>
+      <div class="rbox">
+        <div class="rkopf"><span class="rth" id="r-thema"></span><span class="rscore" id="r-score"></span></div>
+        <p class="rfrage" id="r-frage"></p>
+        <div class="reingabe">
+          <input id="r-eingabe" inputmode="decimal" placeholder="Ergebnis …" autocomplete="off" />
+          <span class="reinheit" id="r-einheit"></span>
+          <button class="prim" id="r-pruefen">Prüfen</button>
+          <button id="r-neu">Neue Aufgabe</button>
+          <button id="r-zeigen">Lösung zeigen</button>
+        </div>
+        <div class="rfeedback" id="r-feedback"></div>
+        <div class="rweg" id="r-weg"></div>
+      </div>
+      <div class="rstat" id="r-stat"></div>
     </section>
 
     <!-- LEXIKON -->
@@ -560,6 +637,7 @@
       <h1>Klausur im Prüfungsformat</h1>
       <p class="lead">90 Minuten, nur mit Formelsammlung und Taschenrechner – so wie in der echten Prüfung. Erst rechnen, dann Lösungen aufklappen.</p>
       <div class="modpick" id="klausurpick"></div>
+      <div class="modpick" id="klausurvar"></div>
       <div class="panel tip" id="klausur-info"></div>
       <div class="timerbar">
         <span class="timer" id="k-timer">90:00</span>
@@ -1449,8 +1527,8 @@ const FTRAIN = [
 /* ---------- PROBEKLAUSUREN ---------- */
 /* {titel, dauer (min), hinweis, aufgaben:[[Punkte, Aufgabe, Lösung]]} */
 const KLAUSUREN = {
- "Mathematik I":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. 60 Punkte.",
-  aufgaben:[
+ "Mathematik I":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. 60 Punkte.",varianten:[
+  {v:"A",aufgaben:[
    [5,"Runden Sie auf zwei Dezimalstellen und geben Sie in wissenschaftlicher Schreibweise an: a) 48 372 m · b) 0,000 815 s","a) 4,84·10⁴ m · b) 8,15·10⁻⁴ s"],
    [5,"Wandeln Sie um: a) 1101₂ ins Dezimalsystem · b) 45 ins Dualsystem","a) 8+4+0+1 = 13 · b) 45 = 101101₂ (32+8+4+1)"],
    [6,"Multiplizieren Sie aus und fassen Sie zusammen: (3x + 4)² − (3x − 4)(3x + 4)","(9x²+24x+16) − (9x²−16) = 24x + 32"],
@@ -1462,8 +1540,21 @@ const KLAUSUREN = {
    [5,"Berechnen Sie Volumen und Oberfläche eines Zylinders mit d = 0,8 m und h = 2,5 m.","r=0,4 → V = π·0,16·2,5 ≈ 1,257 m³ · O = 2π·0,16 + 2π·0,4·2,5 ≈ 1,005+6,283 ≈ 7,29 m²"],
    [5,"Eine kreisrunde Bodenplatte (d = 12 m) soll 25 cm dick betoniert werden. Wie viel m³ Beton werden benötigt?","A = π·6² ≈ 113,10 m² · V = 113,10 · 0,25 ≈ 28,3 m³"]
   ]},
- "Naturwissenschaft":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. g = 9,81 m/s². 60 Punkte.",
-  aufgaben:[
+  {v:"B",aufgaben:[
+   [5,"Runden Sie auf drei geltende Ziffern und geben Sie in wissenschaftlicher Schreibweise an: a) 7 250 000 mm · b) 0,000 042 6 m","a) 7,25·10⁶ mm · b) 4,26·10⁻⁵ m"],
+   [5,"Wandeln Sie um: a) 10110₂ ins Dezimalsystem · b) 58 ins Dualsystem","a) 16+4+2 = 22 · b) 58 = 111010₂ (32+16+8+2)"],
+   [6,"Multiplizieren Sie aus und fassen Sie zusammen: (2a − 5)² + (2a + 5)(2a − 5)","(4a²−20a+25) + (4a²−25) = 8a² − 20a"],
+   [6,"Lösen Sie die Gleichung: 5(x − 3) = 2x + 12. Machen Sie die Probe.","5x − 15 = 2x + 12 → 3x = 27 → x = 9. Probe: 5·(9−3) = 30 · 2·9+12 = 30 ✓"],
+   [8,"Gegeben ist f(x) = x² + 4x − 12. a) Scheitelpunktform und Scheitelpunkt · b) Nullstellen · c) Schnittpunkt mit der y-Achse","a) (x+2)² − 16 → S(−2|−16) · b) (x+2)² = 16 → x = −2 ± 4 → x₁ = 2, x₂ = −6 · c) P(0|−12)"],
+   [6,"Der Zeitwert eines Baugeräts fällt jährlich auf das 0,92-fache. Nach wie vielen Jahren ist er unter die Hälfte gesunken? (Ansatz + Rechnung)","0,92ⁿ = 0,5 → n = lg 0,5 / lg 0,92 = (−0,30103)/(−0,03621) ≈ 8,31 → nach 9 Jahren"],
+   [6,"Ein rechtwinkliges Dreieck hat die Kathete b = 3,80 m und den Winkel α = 34° (α liegt der Kathete a gegenüber). Berechnen Sie a und die Hypotenuse c.","a = b·tan α = 3,80·0,6745 ≈ 2,56 m · c = b/cos α = 3,80/0,8290 ≈ 4,58 m"],
+   [8,"Ein Dreieck hat b = 7,50 m, c = 5,20 m und den eingeschlossenen Winkel α = 68°. Berechnen Sie die Seite a und die Fläche.","a² = 7,5²+5,2²−2·7,5·5,2·cos68° = 56,25+27,04−78·0,37461 = 54,07 → a ≈ 7,35 m · A = ½·b·c·sin α = ½·39·0,92718 ≈ 18,08 m²"],
+   [5,"Berechnen Sie Volumen und Mantelfläche eines Kegels mit d = 1,20 m und h = 1,80 m.","r = 0,60 m · V = ⅓·π·r²·h = ⅓·π·0,36·1,8 ≈ 0,679 m³ · s = √(r²+h²) = √(0,36+3,24) = √3,60 ≈ 1,897 m · M = π·r·s = π·0,6·1,897 ≈ 3,58 m²"],
+   [5,"Ein Fundamentgraben ist 18,50 m lang, 0,80 m breit und 1,10 m tief. a) Wie viel m³ Boden fallen an? b) Der Boden lockert beim Lösen um den Faktor 1,25 auf. Wie viele Fuhren braucht ein Kipper mit 6,5 m³ Mulde?","a) V = 18,50·0,80·1,10 = 16,28 m³ · b) gelockert 16,28·1,25 = 20,35 m³ → 20,35/6,5 ≈ 3,13 → 4 Fuhren (aufrunden, es gibt keine Teilfuhre)"]
+  ]}
+ ]},
+ "Naturwissenschaft":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. g = 9,81 m/s². 60 Punkte.",varianten:[
+  {v:"A",aufgaben:[
    [4,"Nennen Sie die sieben SI-Basisgrößen mit ihren Einheiten.","Zeit (s), Länge (m), Masse (kg), Stromstärke (A), Temperatur (K), Lichtstärke (cd), Stoffmenge (mol)"],
    [6,"Ein Betonfundament misst 2,5 m × 1,8 m × 0,45 m (ρ = 2400 kg/m³). Berechnen Sie Volumen, Masse und Gewichtskraft.","V = 2,025 m³ · m = 2400·2,025 = 4860 kg · F_G = 4860·9,81 ≈ 47 679 N ≈ 47,7 kN"],
    [6,"Eine Kiste (m = 150 kg) liegt auf einer Rampe mit 18° Neigung. Berechnen Sie Normalkraft und Hangabtriebskraft.","F_G = 1471,5 N · F_N = 1471,5·cos18° ≈ 1399,5 N · F_H = 1471,5·sin18° ≈ 454,7 N"],
@@ -1475,7 +1566,47 @@ const KLAUSUREN = {
    [6,"Eine 18 m lange Stahlträgerreihe (α = 12·10⁻⁶ 1/K) erwärmt sich von −5 °C auf 35 °C. Wie groß ist die Längenänderung?","Δϑ = 40 K · Δl = 12·10⁻⁶·18·40 = 0,00864 m = 8,64 mm"],
    [5,"Ein Gas hat bei 290 K einen Druck von 1,8 bar. Auf welche Temperatur muss es (bei konstantem Volumen) erwärmt werden, damit 2,4 bar herrschen?","T₂ = T₁·p₂/p₁ = 290·2,4/1,8 ≈ 386,7 K ≈ 113,5 °C"],
    [5,"Wie viel Energie ist nötig, um 120 l Wasser von 12 °C auf 60 °C zu erwärmen? (c = 4,19 kJ/(kg·K))","Q = 4,19·120·48 ≈ 24 134 kJ ≈ 24,1 MJ ≈ 6,7 kWh"]
+  ]},
+  {v:"B",aufgaben:[
+   [5,"Nennen Sie zu den folgenden Basisgrößen die SI-Basiseinheit mit Zeichen: a) Länge · b) Masse · c) Zeit · d) thermodynamische Temperatur · e) Stoffmenge","a) Meter (m) · b) Kilogramm (kg) · c) Sekunde (s) · d) Kelvin (K) · e) Mol (mol)"],
+   [5,"Ein Betonquader misst 0,60 m × 0,40 m × 2,50 m und hat die Masse 1440 kg. Berechnen Sie Dichte und Wichte.","V = 0,60·0,40·2,50 = 0,600 m³ · ρ = m/V = 1440/0,6 = 2400 kg/m³ · F_G = 1440·9,81 = 14 126,4 N · γ = F_G/V = 14 126,4/0,6 ≈ 23 544 N/m³ ≈ 23,5 kN/m³"],
+   [6,"Eine Palette mit 380 kg steht auf einer Rampe mit 12° Neigung. Berechnen Sie Normalkraft und Hangabtriebskraft.","F_G = 380·9,81 = 3727,8 N · F_N = F_G·cos 12° = 3727,8·0,97815 ≈ 3646,3 N · F_H = F_G·sin 12° = 3727,8·0,20791 ≈ 775,1 N"],
+   [6,"Ein Schalungsträger von 4,20 m Länge liegt an beiden Enden auf je einer Stütze. 1,60 m vom linken Auflager entfernt greift eine Last von 12,0 kN an. Berechnen Sie beide Auflagerkräfte.","Momente um A: F_B·4,20 = 12,0·1,60 → F_B = 19,2/4,2 ≈ 4,57 kN · ΣF = 0: F_A = 12,0 − 4,57 ≈ 7,43 kN · Probe: 4,57+7,43 = 12,0 ✓"],
+   [5,"Eine Stahlplatte mit 250 kg liegt auf Beton (Haftreibungszahl µ₀ = 0,45). Welche waagerechte Kraft ist zum Losbrechen mindestens nötig?","F_N = 250·9,81 = 2452,5 N · F_R,max = µ₀·F_N = 0,45·2452,5 ≈ 1103,6 N ≈ 1,10 kN"],
+   [6,"Ein Bauaufzug fährt aus dem Stand in 3,5 s gleichmäßig auf 1,60 m/s. Berechnen Sie die Beschleunigung und den in dieser Zeit zurückgelegten Weg.","a = Δv/Δt = 1,60/3,5 ≈ 0,457 m/s² · s = ½·a·t² = ½·0,457·3,5² = ½·0,457·12,25 ≈ 2,80 m"],
+   [6,"Ein Kran hebt 850 kg um 22,0 m in 50 s. Der Wirkungsgrad beträgt 0,68. Berechnen Sie Hubarbeit, abgegebene und zugeführte Leistung.","W = m·g·h = 850·9,81·22 = 183 447 J ≈ 183,4 kJ · P_ab = W/t = 183 447/50 ≈ 3668,9 W · P_zu = P_ab/η = 3668,9/0,68 ≈ 5395,5 W ≈ 5,40 kW"],
+   [5,"Ein Fundament von 2,40 m × 1,80 m überträgt 540 kN auf den Baugrund. Berechnen Sie die Bodenpressung in kN/m² und in bar.","A = 2,40·1,80 = 4,32 m² · p = F/A = 540/4,32 = 125 kN/m² = 125 000 Pa = 1,25 bar"],
+   [6,"An einer 8,00 m langen Spundwand steht Grundwasser 2,60 m hoch an. Berechnen Sie den Wasserdruck am Wandfuß und die resultierende Kraft auf die Wand (ρ = 1000 kg/m³).","p = ρ·g·h = 1000·9,81·2,60 = 25 506 Pa ≈ 0,255 bar · Der Druck steigt dreieckförmig von 0 auf p, daher F = ½·p·h·b = ½·25 506·2,60·8,00 ≈ 265 262 N ≈ 265,3 kN"],
+   [5,"Eine 12,50 m lange Betonplatte (α = 12·10⁻⁶ 1/K) erwärmt sich von 5 °C auf 38 °C. Wie groß ist die Längenänderung?","Δϑ = 38 − 5 = 33 K · Δl = α·l₁·Δϑ = 12·10⁻⁶·12,50·33 = 0,004 95 m = 4,95 mm"],
+   [5,"80 l Wasser von 15 °C werden mit 40 l Wasser von 70 °C gemischt. Welche Mischtemperatur stellt sich ein? (Wärmeverluste vernachlässigt)","Q_ab = Q_auf, c kürzt sich heraus: ϑ_m = (m₁·ϑ₁ + m₂·ϑ₂)/(m₁+m₂) = (80·15 + 40·70)/120 = 4000/120 ≈ 33,3 °C"]
   ]}
+ ]},
+ "Deutsch/Kommunikation":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: keines. 60 Punkte. Achte auf Fachbegriffe, Vollständigkeit und sachlichen Stil – dafür gibt es die Punkte.",varianten:[
+  {v:"A",aufgaben:[
+   [6,"Nennen Sie sechs Bestandteile eines Geschäftsbriefes nach DIN 5008 in der richtigen Reihenfolge von oben nach unten.","Briefkopf → Anschriftfeld → Bezugszeichenzeile/Informationsblock (mit Datum) → Betreff → Anrede → Brieftext → Grußformel → Unterschrift → Anlagenvermerk. Sechs davon in dieser Reihenfolge genügen."],
+   [6,"Ein Kollege schreibt: <em>„Betreff: Ihr Schreiben\"</em>. Erklären Sie, was daran unzureichend ist, und formulieren Sie eine korrekte Betreffzeile für eine Behinderungsanzeige zum Bauvorhaben „Neubau Kita Lindenweg\", Los 3 Rohbau.","Der Betreff nennt weder Vorgang noch Bauvorhaben – der Empfänger kann den Brief nicht zuordnen. Außerdem gehört das Wort „Betreff\" selbst nicht mehr in die Zeile, sie wird ohne Leitwort und fett gesetzt.<br>Korrekt: <strong>Behinderungsanzeige nach § 6 VOB/B – BV Neubau Kita Lindenweg, Los 3 Rohbau</strong>"],
+   [5,"Setzen Sie die richtige Interpunktion und erklären Sie die Regel: „Sehr geehrte Damen und Herren ___ wir bestätigen Ihnen ___\"","Nach der Anrede steht ein <strong>Komma</strong>, das erste Wort des Brieftextes wird <strong>klein</strong> weitergeschrieben (außer bei Substantiven und „Sie\"): „Sehr geehrte Damen und Herren,<br>wir bestätigen Ihnen …\" Ein Ausrufezeichen ist veraltet, ein Punkt falsch."],
+   [6,"Im Arbeitszeugnis steht: <em>„Er erledigte die ihm übertragenen Aufgaben zu unserer Zufriedenheit.\"</em> a) Welcher Note entspricht das? b) Formulieren Sie die Aussage für die Note „sehr gut\".","a) Note <strong>4 (ausreichend)</strong>. Die Skala läuft über die Verstärkung: „stets zu unserer vollsten Zufriedenheit\" = 1, „stets zu unserer vollen Zufriedenheit\" = 2, „zu unserer vollen Zufriedenheit\" = 3, „zu unserer Zufriedenheit\" = 4, „im Großen und Ganzen zu unserer Zufriedenheit\" = 5.<br>b) „Er erledigte die ihm übertragenen Aufgaben <strong>stets zu unserer vollsten</strong> Zufriedenheit.\""],
+   [6,"Verbessern Sie die folgenden zwei E-Mail-Betreffzeilen und begründen Sie jeweils kurz: a) „Frage\" · b) „WICHTIG!!! Bitte sofort lesen\"","a) Nichtssagend, nicht wiederauffindbar → z. B. „Rückfrage zur Position 3.4 des LV – BV Schulzentrum Ost\".<br>b) Versalien und Ausrufezeichen wirken unhöflich und sagen inhaltlich nichts → z. B. „Terminverschiebung Baubesprechung 14.03. auf 16.03.\". Regel: Der Betreff nennt Vorgang und Bezug, ist konkret und ohne Schreien."],
+   [8,"a) Nennen Sie die sechs W-Fragen, die ein Bericht beantworten muss. b) Nennen Sie drei Sprachregeln für Berichte.","a) <strong>Wer? Was? Wann? Wo? Wie? Warum?</strong> (teils ergänzt um „Welche Folgen?\")<br>b) drei von: sachlich und wertungsfrei · Vergangenheitsform (Präteritum, bei Vorzeitigkeit Plusquamperfekt) · keine wörtliche Rede, sondern indirekte Rede · knapp und vollständig · chronologisch · keine Ausschmückungen oder Vermutungen"],
+   [6,"Nennen Sie drei Protokollarten und beschreiben Sie jeweils in einem Satz, wann sie eingesetzt werden.","<strong>Verlaufsprotokoll:</strong> gibt den Ablauf der Sitzung in der Reihenfolge der Beiträge wieder – bei strittigen Verhandlungen, wenn nachvollziehbar sein muss, wer was gesagt hat.<br><strong>Ergebnisprotokoll:</strong> hält nur Ergebnisse und Beschlüsse fest – die übliche Form bei Baubesprechungen.<br><strong>Wortprotokoll:</strong> gibt jeden Beitrag wörtlich wieder – nur bei rechtlich heiklen Anlässen, z. B. Gerichtsterminen oder Abnahmen mit Streit."],
+   [5,"Formen Sie in die indirekte Rede um: <em>Der Polier sagte: „Ich habe die Bewehrung gestern selbst geprüft.\"</em>","Der Polier sagte, er <strong>habe</strong> die Bewehrung am Vortag selbst <strong>geprüft</strong>. (Konjunktiv I; Zeitangaben werden angepasst: „gestern\" → „am Vortag\")"],
+   [6,"Worin unterscheiden sich Gegenstandsbeschreibung und Vorgangsbeschreibung? Nennen Sie je ein Beispiel aus dem Bauwesen.","Die <strong>Gegenstandsbeschreibung</strong> beschreibt einen ruhenden Gegenstand nach Merkmalen – vom Ganzen zum Einzelnen, von oben nach unten oder von außen nach innen (Beispiel: Beschreibung eines Bauteils im Bestandsaufmaß).<br>Die <strong>Vorgangsbeschreibung</strong> beschreibt einen Ablauf in seiner zeitlichen Reihenfolge mit Reihenfolgewörtern wie zuerst, danach, abschließend (Beispiel: das Einbringen und Verdichten einer Betondecke).<br>Beide stehen im Präsens, sind sachlich und wertungsfrei."],
+   [6,"Eine Leistungsbeschreibung muss nach VOB/A bestimmte Anforderungen erfüllen. Nennen Sie drei davon und erklären Sie, warum eine Position eindeutig sein muss.","Drei von: <strong>eindeutig und erschöpfend</strong> · für alle Bieter <strong>im gleichen Sinne verständlich</strong> · <strong>produktneutral</strong> (keine Markennamen ohne Zusatz „oder gleichwertig\") · Angabe aller preisbeeinflussenden Umstände · übliche Bezeichnungen.<br>Begründung: Nur bei eindeutiger Beschreibung kalkulieren alle Bieter dieselbe Leistung – die Angebote werden vergleichbar, und spätere Nachträge und Streit über den Leistungsumfang werden vermieden."]
+  ]},
+  {v:"B",aufgaben:[
+   [6,"Nennen Sie drei Regeln der DIN 5008 für das Anschriftfeld und erklären Sie, warum die Postleitzahl nicht mehr abgesetzt wird.","Drei von: keine Leerzeile zwischen Straße und Ort · Postfach oder Straße, nicht beides · Ländername bei Auslandspost in Großbuchstaben in der letzten Zeile · Postleitzahl und Ort in einer Zeile ohne Trennzeichen · maximal sechs Zeilen · keine Anrede „Herrn/Frau\" weglassen.<br>Begründung: Die Anschrift wird maschinell gelesen; zusätzliche Leerzeichen oder Leerzeilen stören die automatische Sortierung."],
+   [5,"Bringen Sie in die richtige Reihenfolge und benennen Sie die Bestandteile: Grußformel · Betreff · Anschriftfeld · Anlagenvermerk · Anrede · Brieftext","Anschriftfeld → Betreff → Anrede → Brieftext → Grußformel → Anlagenvermerk"],
+   [6,"Formulieren Sie die folgenden Sätze sachlich und wertungsfrei um: a) „Die Firma hat mal wieder total geschlampt.\" · b) „Der Beton sah irgendwie komisch aus.\"","a) „Die Firma hat die vereinbarte Leistung nicht vertragsgemäß ausgeführt.\" – besser noch mit Beleg: „Die Bewehrung wich an drei Stellen um mehr als 2 cm von der Planung ab.\"<br>b) „Der Beton wies an der Oberfläche Kiesnester und eine ungleichmäßige Färbung auf.\"<br>Regel: Wertungen und Umgangssprache durch nachprüfbare Beobachtungen ersetzen."],
+   [6,"Nennen Sie fünf Pflichtangaben im Protokollkopf einer Baubesprechung.","Fünf von: Bezeichnung des Bauvorhabens · Art des Protokolls und laufende Nummer · Datum, Beginn und Ende · Ort der Besprechung · Teilnehmer mit Firma und Funktion · Entschuldigte/Verteiler · Name des Protokollführers · Sitzungsleitung"],
+   [6,"Was ist eine Behinderungsanzeige, wann muss sie erfolgen und welche drei Angaben muss sie enthalten?","Die Behinderungsanzeige nach § 6 Abs. 1 VOB/B meldet dem Auftraggeber schriftlich, dass die Ausführung behindert ist. Sie muss <strong>unverzüglich</strong> erfolgen, sobald die Behinderung erkennbar wird – sonst gehen Fristverlängerung und Ansprüche verloren.<br>Angaben: <strong>Was</strong> behindert (Ursache) · <strong>ab wann</strong> und welche Leistungen betroffen sind · welche <strong>Auswirkung</strong> auf Termine und Bauablauf zu erwarten ist. Sinnvoll ergänzt um die Aufforderung, die Behinderung zu beseitigen."],
+   [6,"Nennen Sie die fünf Grundregeln jeder Beschreibung.","1. sachlich und wertungsfrei · 2. <strong>Präsens</strong> als Zeitform · 3. vollständig, aber ohne Nebensächlichkeiten · 4. eine <strong>nachvollziehbare Reihenfolge</strong> (vom Ganzen zum Einzelnen bzw. zeitlich) · 5. treffende Fachbegriffe statt vager Wörter, klare kurze Sätze"],
+   [5,"Bedienungsanleitungen werden im Imperativ oder im Infinitiv geschrieben. Formulieren Sie den Satz in beiden Formen: <em>Der Hauptschalter wird ausgeschaltet.</em>","Imperativ: „<strong>Schalten Sie</strong> den Hauptschalter aus.\" · Infinitiv: „Hauptschalter <strong>ausschalten</strong>.\"<br>Beide Formen sind zulässig, dürfen aber innerhalb einer Anleitung nicht gemischt werden. Das Passiv („wird ausgeschaltet\") ist ungeeignet, weil unklar bleibt, wer handeln soll."],
+   [6,"Nennen Sie fünf Angaben, die ein Bautagesbericht enthalten muss, und begründen Sie, warum er täglich geführt wird.","Fünf von: Datum und Wochentag · Witterung, Temperatur · eingesetztes Personal nach Anzahl und Gewerk · eingesetzte Geräte · ausgeführte Arbeiten mit Ort im Bauwerk · Materiallieferungen · Behinderungen, Störungen, Besuche · besondere Vorkommnisse und Unterschrift.<br>Begründung: Der Bautagesbericht ist im Streitfall ein <strong>Beweismittel</strong>. Nachträge, Behinderungen und Verzögerungen lassen sich nur belegen, wenn sie zeitnah und lückenlos dokumentiert wurden."],
+   [8,"Auf der Baustelle stürzt ein Gerüstteil um und verletzt einen Arbeiter leicht. a) Welche sechs W-Fragen beantworten Sie im Unfallbericht? b) In welcher Zeitform schreiben Sie? c) Nennen Sie zwei Formulierungen, die im Bericht nichts zu suchen haben.","a) <strong>Wer</strong> war beteiligt · <strong>Was</strong> ist geschehen · <strong>Wann</strong> (Datum, Uhrzeit) · <strong>Wo</strong> genau im Bauwerk · <strong>Wie</strong> ist es abgelaufen · <strong>Warum</strong> / welche Ursache und welche Folgen.<br>b) <strong>Präteritum</strong>; für Vorzeitiges das Plusquamperfekt.<br>c) Wertungen und Schuldzuweisungen („der unaufmerksame Kollege\") sowie Vermutungen ohne Beleg („vermutlich war der Wind schuld\"). Auch wörtliche Rede gehört nicht hinein – sie wird in indirekter Rede wiedergegeben."],
+   [6,"Schreiben Sie eine LV-Position für das Betonieren einer Bodenplatte. Nennen Sie die Bestandteile einer Position und formulieren Sie den Positionstext.","Bestandteile: <strong>Ordnungszahl (OZ)</strong> · <strong>Menge und Einheit</strong> · <strong>Kurztext</strong> · <strong>Langtext</strong> mit allen preisrelevanten Angaben · Einheitspreis und Gesamtbetrag (vom Bieter).<br>Beispiel:<br>„<strong>01.02.030 · 145,00 m³ · Bodenplatte C25/30 herstellen</strong><br>Beton C25/30, Expositionsklasse XC2, Konsistenz F3, liefern und in die vorbereitete Schalung einbringen, verdichten und abziehen. Einbaustärke 25 cm. Oberfläche abgerieben. Nachbehandlung nach DIN 1045-3. Bewehrung wird gesondert vergütet.\"<br>Der Langtext nennt Stoff, Güte, Maß, Ausführung und Abgrenzung – damit ist die Position eindeutig und produktneutral."]
+  ]}
+ ]}
 };
 
 /* ---------- TERMINE: hessische Schulferien (offiziell, Kultusministerium) ---------- */
@@ -1577,10 +1708,90 @@ document.getElementById('fc-next').onclick=()=>{const D=curData().DECKS;if(!curD
 document.getElementById('fc-prev').onclick=()=>{const D=curData().DECKS;if(!curDeck||!D[curDeck])return;idx=(idx-1+D[curDeck].length)%D[curDeck].length;renderCard();};
 document.addEventListener('keydown',e=>{if(!document.querySelector('.view[data-view="karten"]').classList.contains('active'))return;if(e.code==='Space'){e.preventDefault();fc.classList.toggle('flip');}if(e.code==='ArrowRight')document.getElementById('fc-next').click();if(e.code==='ArrowLeft')document.getElementById('fc-prev').click();});
 
-/* ---------- ÜBUNGEN ---------- */
-let curUeb=Object.keys(SEMDATA[1].UEB)[0];
-function renderUebPicks(){const p=document.getElementById('uebpick');p.innerHTML='';sortKeys(curData().UEB).forEach(d=>{const b=document.createElement('button');b.textContent=d;if(d===curUeb)b.classList.add('on');b.onclick=()=>{curUeb=d;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderUeb();};p.appendChild(b);});}
-function renderUeb(){const c=document.getElementById('ueb-content');const U=curData().UEB;if(!curUeb||!U[curUeb]){c.innerHTML=emptyMsg('Übungsaufgaben');return;}c.innerHTML=U[curUeb].map((a,i)=>'<details><summary><span class="q">'+(i+1)+'</span><span>'+a[0]+'</span></summary><div class="sol"><strong>Lösung:</strong> '+a[1]+'</div></details>').join('');}
+/* ---------- ÜBUNGEN + FEHLERBUCH ---------- */
+const UKEY='lerntool-bautechnik-uebungen';
+let ustand=(function(){try{return JSON.parse(localStorage.getItem(UKEY))||{};}catch(e){return {};}})();
+function saveU(){try{localStorage.setItem(UKEY,JSON.stringify(ustand));}catch(e){}}
+function uid(mod,i){return curSem+'|'+mod+'|'+i;}
+function ustatus(mod,i){const e=ustand[uid(mod,i)];return e?e.s:null;}
+function setU(mod,i,s){
+  const k=uid(mod,i), alt=ustand[k]||{f:0};
+  if(s===null){delete ustand[k];}
+  else ustand[k]={s:s, t:Date.now(), f:(alt.f||0)+(s==='nein'?1:0)};
+  saveU(); renderUebStat();
+}
+/* Zählt über alle Module des laufenden Semesters */
+function uZaehl(){
+  const U=curData().UEB; let ges=0,gut=0,schlecht=0;
+  Object.keys(U).forEach(m=>U[m].forEach((a,i)=>{ges++;
+    const s=ustatus(m,i); if(s==='ja')gut++; else if(s==='nein')schlecht++;}));
+  return {ges:ges,gut:gut,schlecht:schlecht,offen:ges-gut-schlecht};
+}
+let curUeb=Object.keys(SEMDATA[1].UEB)[0], uebMode='alle';
+function renderUebPicks(){
+  const p=document.getElementById('uebpick');p.innerHTML='';
+  p.style.display = uebMode==='alle' ? '' : 'none';
+  sortKeys(curData().UEB).forEach(d=>{const b=document.createElement('button');b.textContent=d;
+    if(d===curUeb)b.classList.add('on');
+    b.onclick=()=>{curUeb=d;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderUeb();};
+    p.appendChild(b);});
+}
+function renderUebStat(){
+  const z=uZaehl(), el=document.getElementById('ueb-stat');
+  if(!z.ges){el.innerHTML='';return;}
+  const pg=Math.round(z.gut/z.ges*100), ps=Math.round(z.schlecht/z.ges*100);
+  el.innerHTML='<div class="ueb-bar"><i class="gut" style="width:'+pg+'%"></i><i class="schlecht" style="width:'+ps+'%"></i></div>'+
+    '<span><b>'+z.gut+'</b> gekonnt · <b>'+z.schlecht+'</b> im Fehlerbuch · <b>'+z.offen+'</b> offen von '+z.ges+'</span>';
+}
+function uebKarte(mod,i,a){
+  const s=ustatus(mod,i);
+  const mark = s==='ja' ? '<span class="umark gut">gekonnt</span>'
+             : s==='nein' ? '<span class="umark schlecht">Fehlerbuch</span>' : '';
+  return '<details data-mod="'+mod.replace(/"/g,'&quot;')+'" data-i="'+i+'">'+
+    '<summary><span class="q">'+(i+1)+'</span><span>'+a[0]+'</span>'+mark+'</summary>'+
+    '<div class="sol"><strong>Lösung:</strong> '+a[1]+'</div>'+
+    '<div class="ubtn"><span class="hint">Konntest du sie?</span>'+
+      '<button data-ja class="'+(s==='ja'?'jaOn':'')+'">Ja</button>'+
+      '<button data-nein class="'+(s==='nein'?'neinOn':'')+'">Nein, nochmal</button>'+
+      (s?'<button data-weg>Zurücksetzen</button>':'')+
+    '</div></details>';
+}
+function renderUeb(){
+  const c=document.getElementById('ueb-content'), U=curData().UEB;
+  if(!Object.keys(U).length){c.innerHTML=emptyMsg('Übungsaufgaben');renderUebStat();return;}
+  let html='';
+  if(uebMode==='alle'){
+    if(!curUeb||!U[curUeb]){c.innerHTML=emptyMsg('Übungsaufgaben');return;}
+    html=U[curUeb].map((a,i)=>uebKarte(curUeb,i,a)).join('');
+  }else{
+    const suche = uebMode==='fehler' ? 'nein' : null;
+    let n=0;
+    sortKeys(U).forEach(m=>{
+      const treffer=U[m].map((a,i)=>[a,i]).filter(([a,i])=>ustatus(m,i)===suche);
+      if(!treffer.length)return;
+      n+=treffer.length;
+      html+='<h2 class="ugrp">'+m+' <span>'+treffer.length+'</span></h2>'+
+            treffer.map(([a,i])=>uebKarte(m,i,a)).join('');
+    });
+    if(!n) html= uebMode==='fehler'
+      ? '<div class="empty"><strong>Dein Fehlerbuch ist leer</strong><p>Sobald du bei einer Aufgabe auf „Nein, nochmal“ tippst, landet sie hier – und bleibt, bis du sie kannst.</p></div>'
+      : '<div class="empty"><strong>Alles durchgearbeitet</strong><p>Du hast jede Aufgabe dieses Semesters schon bewertet. Nimm dir das Fehlerbuch vor.</p></div>';
+  }
+  c.innerHTML=html;
+  c.querySelectorAll('details').forEach(d=>{
+    const mod=d.dataset.mod, i=+d.dataset.i;
+    const jb=d.querySelector('[data-ja]'), nb=d.querySelector('[data-nein]'), wb=d.querySelector('[data-weg]');
+    if(jb) jb.onclick=e=>{e.preventDefault();setU(mod,i,'ja');renderUeb();};
+    if(nb) nb.onclick=e=>{e.preventDefault();setU(mod,i,'nein');renderUeb();};
+    if(wb) wb.onclick=e=>{e.preventDefault();setU(mod,i,null);renderUeb();};
+  });
+  renderUebStat();
+}
+document.getElementById('uebmode').querySelectorAll('button').forEach(b=>b.onclick=()=>{
+  uebMode=b.dataset.m;
+  document.getElementById('uebmode').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  renderUebPicks(); renderUeb();
+});
 
 /* ---------- LEXIKON (global über alle Semester) ---------- */
 function renderLex(q){
@@ -1841,18 +2052,34 @@ document.getElementById('wdh-reset').onclick=()=>{
 };
 
 /* ================= PROBEKLAUSUR ================= */
-let curK=Object.keys(KLAUSUREN)[0], kSec=0, kTimer=null;
+let curK=Object.keys(KLAUSUREN)[0], curKV=0, kSec=0, kTimer=null;
 function renderKlausurPicks(){
   const p=document.getElementById('klausurpick');p.innerHTML='';
   Object.keys(KLAUSUREN).forEach(k=>{const b=document.createElement('button');b.textContent=k;
     if(k===curK)b.classList.add('on');
-    b.onclick=()=>{curK=k;p.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');renderKlausur();};
+    b.onclick=()=>{curK=k;curKV=0;renderKlausurPicks();renderKlausurVar();renderKlausur();};
     p.appendChild(b);});
 }
-function renderKlausur(){
+function renderKlausurVar(){
+  const p=document.getElementById('klausurvar');p.innerHTML='';
+  KLAUSUREN[curK].varianten.forEach((va,i)=>{const b=document.createElement('button');
+    b.textContent='Variante '+va.v;
+    if(i===curKV)b.classList.add('on');
+    b.onclick=()=>{curKV=i;renderKlausurVar();renderKlausur();};
+    p.appendChild(b);});
+}
+function aktKlausur(){
   const K=KLAUSUREN[curK];
-  document.getElementById('klausur-info').innerHTML='<strong>'+curK+' · '+K.dauer+' Minuten</strong><p style="margin:8px 0 0">'+K.hinweis+'</p>';
-  document.getElementById('klausur-out').innerHTML=K.aufgaben.map((a,i)=>
+  return K.varianten[Math.min(curKV,K.varianten.length-1)];
+}
+function renderKlausur(){
+  const K=KLAUSUREN[curK], va=aktKlausur();
+  const punkte=va.aufgaben.reduce((s,a)=>s+a[0],0);
+  document.getElementById('klausur-info').innerHTML=
+    '<strong>'+curK+' · Variante '+va.v+' · '+K.dauer+' Minuten · '+punkte+' Punkte</strong>'+
+    '<p style="margin:8px 0 0">'+K.hinweis+'</p>'+
+    '<p style="margin:6px 0 0;font-size:13px;color:var(--muted)">Die Varianten prüfen denselben Stoff mit anderen Aufgaben – rechne erst A, und nimm B eine Woche später zur Kontrolle.</p>';
+  document.getElementById('klausur-out').innerHTML=va.aufgaben.map((a,i)=>
     '<div class="kauf"><span class="kp">'+a[0]+' P.</span><span class="knr">Aufgabe '+(i+1)+'</span>'+
     '<p class="ktxt">'+a[1]+'</p><details><summary>Lösung anzeigen</summary><div class="sol">'+a[2]+'</div></details></div>').join('');
   resetTimer();
@@ -1989,6 +2216,414 @@ function renderTermine(){
     +'<p class="fe" style="margin-top:10px;font-size:12px;color:var(--muted)">Quelle: Hessisches Kultusministerium. Hinterlegt bis '+d(FERIEN_BIS).toLocaleDateString('de-DE')+' – spätere Ferien ergänze ich, sobald sie feststehen.</p>';
 }
 
+/* ================= RECHENTRAINER ================= */
+const RKEY='lerntool-bautechnik-rechnen';
+let rstat=(function(){try{return JSON.parse(localStorage.getItem(RKEY))||{};}catch(e){return {};}})();
+function saveR(){try{localStorage.setItem(RKEY,JSON.stringify(rstat));}catch(e){}}
+
+/* Zufallshelfer */
+function rz(a,b){return a+Math.floor(Math.random()*(b-a+1));}                 /* ganze Zahl a..b */
+function rs(a,b,st){const n=Math.round((b-a)/st);return +(a+rz(0,n)*st).toFixed(6);} /* in Schritten */
+function rw(arr){return arr[Math.floor(Math.random()*arr.length)];}
+function nz(x,n){                        /* deutsche Zahl: Komma, Tausender mit festem Leerzeichen */
+  if(x===undefined||x===null||!isFinite(x))return '–';
+  let s=x.toFixed(n===undefined?2:n);
+  let neg=s.charAt(0)==='-'; if(neg)s=s.slice(1);
+  let teile=s.split('.'), g=teile[0];
+  g=g.replace(/\B(?=(\d{3})+(?!\d))/g,'\u00A0');
+  return (neg?'\u2212':'')+g+(teile[1]?','+teile[1]:'');
+}
+const G=9.81;
+
+/* Jeder Generator liefert: {f:Frage, a:Antwort(Zahl), e:Einheit, w:Rechenweg(HTML), tol:Toleranz} */
+const RTHEMEN=[
+{id:'zehner',fach:'Mathematik',n:'Zehnerpotenzen',gen:function(){
+  const m=rs(1.05,9.85,0.05), e=rz(-6,6);
+  const einh=rw([['m','Länge'],['kg','Masse'],['m³','Volumen'],['N','Kraft']]);
+  const v=m*Math.pow(10,e);
+  return {f:'Schreiben Sie <b>'+nz(v,Math.max(0,-e+2))+' '+einh[0]+'</b> in wissenschaftlicher Schreibweise. Geben Sie nur die <b>Mantisse</b> ein (die Zahl vor der Zehnerpotenz).',
+    a:m,e:'(Mantisse)',tol:0.005,
+    w:'Die Mantisse muss zwischen 1 und 10 liegen. Das Komma wandert um <b>'+Math.abs(e)+'</b> Stellen '+(e>0?'nach links':'nach rechts')+
+      ', der Exponent ist damit <b>'+e+'</b>.<br>Ergebnis: <b>'+nz(m,2)+'·10<sup>'+e+'</sup> '+einh[0]+'</b>'};
+}},
+{id:'einheit',fach:'Mathematik',n:'Einheiten umrechnen',gen:function(){
+  const s=rw([
+    {v:rs(1.5,95,0.5),von:'m²',nach:'cm²',f:10000},
+    {v:rs(1.5,45,0.5),von:'m³',nach:'dm³ (l)',f:1000},
+    {v:rz(150,9800),von:'cm²',nach:'m²',f:1/10000},
+    {v:rs(0.5,25,0.5),von:'kN',nach:'N',f:1000},
+    {v:rz(15,900),von:'mm',nach:'m',f:0.001},
+    {v:rs(1.2,9.8,0.1),von:'t',nach:'kg',f:1000}]);
+  return {f:'Rechnen Sie um: <b>'+nz(s.v,2)+' '+s.von+'</b> = ? '+s.nach,
+    a:s.v*s.f,e:s.nach,tol:0.005,
+    w:'Umrechnungsfaktor '+s.von+' → '+s.nach+': <b>'+(s.f>=1?'·'+nz(s.f,0):'÷'+nz(1/s.f,0))+'</b><br>'+
+      nz(s.v,2)+' '+s.von+' = <b>'+nz(s.v*s.f,3)+' '+s.nach+'</b>'};
+}},
+{id:'dreisatz',fach:'Mathematik',n:'Dreisatz und Prozent',gen:function(){
+  if(Math.random()<0.5){
+    const m=rz(6,28), p=rz(35,140)*10, m2=rz(3,40);
+    return {f:'Für <b>'+m+' m²</b> Estrich werden <b>'+p+' kg</b> Trockenmörtel gebraucht. Wie viel kg werden für <b>'+m2+' m²</b> benötigt?',
+      a:p/m*m2,e:'kg',tol:0.01,
+      w:'Je m²: '+p+' kg ÷ '+m+' m² = <b>'+nz(p/m,2)+' kg/m²</b><br>Für '+m2+' m²: '+nz(p/m,2)+' · '+m2+' = <b>'+nz(p/m*m2,1)+' kg</b>'};
+  }
+  const netto=rz(1200,48000), pz=rw([7,19]);
+  return {f:'Eine Rechnung lautet über <b>'+nz(netto,2)+' €</b> netto. Wie hoch ist der Bruttobetrag bei <b>'+pz+' % </b>Umsatzsteuer?',
+    a:netto*(1+pz/100),e:'€',tol:0.005,
+    w:'USt = '+nz(netto,2)+' · '+pz+'/100 = <b>'+nz(netto*pz/100,2)+' €</b><br>Brutto = '+nz(netto,2)+' + '+nz(netto*pz/100,2)+' = <b>'+nz(netto*(1+pz/100),2)+' €</b><br>Kurzweg: ·'+nz(1+pz/100,2)};
+}},
+{id:'gleichung',fach:'Mathematik',n:'Lineare Gleichung',gen:function(){
+  const a=rz(2,9), b=rz(-14,14), c=rz(1,7), x=rz(-9,12);
+  const d=a*x+b-c*x;
+  return {f:'Lösen Sie nach x auf: <b>'+a+'x '+(b<0?'− '+(-b):'+ '+b)+' = '+c+'x '+(d<0?'− '+(-d):'+ '+d)+'</b>',
+    a:x,e:'',tol:0.001,
+    w:'Beide Seiten sortieren: '+a+'x − '+c+'x = '+d+' '+(b<0?'+ '+(-b):'− '+b)+'<br>'+
+      (a-c)+'x = '+(d-b)+'<br>x = '+(d-b)+' ÷ '+(a-c)+' = <b>'+x+'</b><br>Probe: '+a+'·'+x+(b<0?'−'+(-b):'+'+b)+' = '+(a*x+b)+' und '+c+'·'+x+(d<0?'−'+(-d):'+'+d)+' = '+(c*x+d)+' ✓'};
+}},
+{id:'quadrat',fach:'Mathematik',n:'Quadratische Funktion',gen:function(){
+  const x1=rz(-7,3), x2=x1+rz(2,8);
+  const p=-(x1+x2), q=x1*x2, s=-p/2, ys=s*s+p*s+q;
+  const teil=rw(['xg','sx','sy']);
+  if(teil==='xg') return {f:'Berechnen Sie die <b>größere Nullstelle</b> von f(x) = x² '+(p<0?'− '+(-p):'+ '+p)+'x '+(q<0?'− '+(-q):'+ '+q)+'',
+    a:Math.max(x1,x2),e:'',tol:0.01,
+    w:'p-q-Formel: x = −p/2 ± √((p/2)² − q) mit p = '+p+', q = '+q+'<br>x = '+nz(-p/2,2)+' ± √('+nz(p*p/4,2)+' − '+q+') = '+nz(-p/2,2)+' ± '+nz(Math.sqrt(p*p/4-q),2)+
+      '<br>x₁ = <b>'+Math.min(x1,x2)+'</b> · x₂ = <b>'+Math.max(x1,x2)+'</b>'};
+  if(teil==='sx') return {f:'Berechnen Sie die <b>x-Koordinate des Scheitelpunkts</b> von f(x) = x² '+(p<0?'− '+(-p):'+ '+p)+'x '+(q<0?'− '+(-q):'+ '+q),
+    a:s,e:'',tol:0.01,
+    w:'Der Scheitel liegt bei x = −p/2 = −('+p+')/2 = <b>'+nz(s,2)+'</b><br>Scheitelpunktform: (x '+(s<0?'+ '+(-s):'− '+s)+')² '+(ys<0?'− '+nz(-ys,2):'+ '+nz(ys,2))};
+  return {f:'Berechnen Sie die <b>y-Koordinate des Scheitelpunkts</b> von f(x) = x² '+(p<0?'− '+(-p):'+ '+p)+'x '+(q<0?'− '+(-q):'+ '+q),
+    a:ys,e:'',tol:0.01,
+    w:'x_S = −p/2 = '+nz(s,2)+'<br>y_S = f('+nz(s,2)+') = '+nz(s,2)+'² '+(p<0?'− '+(-p):'+ '+p)+'·'+nz(s,2)+' '+(q<0?'− '+(-q):'+ '+q)+' = <b>'+nz(ys,2)+'</b>'};
+}},
+{id:'wachstum',fach:'Mathematik',n:'Exponentielles Wachstum',gen:function(){
+  const w=Math.random()<0.5;
+  const f=w? rs(1.02,1.09,0.01) : rs(0.88,0.97,0.01);
+  const ziel=w? rw([1.5,2,2.5,3]) : rw([0.5,0.4,0.3]);
+  const n=Math.log(ziel)/Math.log(f);
+  return {f:'Ein Wert verändert sich jährlich um den Faktor <b>'+nz(f,2)+'</b>. Nach wie vielen Jahren beträgt er das <b>'+nz(ziel,2)+'-fache</b> des Anfangswerts? (auf zwei Stellen genau, nicht runden)',
+    a:n,e:'Jahre',tol:0.01,
+    w:'Ansatz: '+nz(f,2)+'ⁿ = '+nz(ziel,2)+'<br>Logarithmieren: n · lg '+nz(f,2)+' = lg '+nz(ziel,2)+
+      '<br>In der Praxis wird aufgerundet – nach '+Math.ceil(n)+' vollen Jahren ist der Wert erreicht, weil nur ganze Jahre gezählt werden.'+
+      '<br>n = lg '+nz(ziel,2)+' / lg '+nz(f,2)+' = '+nz(Math.log10(ziel),5)+' / '+nz(Math.log10(f),5)+' = <b>'+nz(n,2)+' Jahre</b>'};
+}},
+{id:'pythagoras',fach:'Mathematik',n:'Rechtwinkliges Dreieck',gen:function(){
+  const a=rs(1.5,9.5,0.1), b=rs(1.5,9.5,0.1), c=Math.sqrt(a*a+b*b);
+  const teil=rw(['c','alpha']);
+  if(teil==='c') return {f:'Ein Dachbinder bildet ein rechtwinkliges Dreieck mit den Katheten <b>a = '+nz(a,2)+' m</b> und <b>b = '+nz(b,2)+' m</b>. Wie lang ist die Hypotenuse c?',
+    a:c,e:'m',tol:0.005,
+    w:'Pythagoras: c² = a² + b² = '+nz(a,2)+'² + '+nz(b,2)+'² = '+nz(a*a,3)+' + '+nz(b*b,3)+' = '+nz(a*a+b*b,3)+
+      '<br>c = √'+nz(a*a+b*b,3)+' = <b>'+nz(c,3)+' m</b>'};
+  const al=Math.atan(a/b)*180/Math.PI;
+  return {f:'Eine Rampe steigt auf <b>'+nz(b,2)+' m</b> Länge um <b>'+nz(a,2)+' m</b> an. Wie groß ist der Steigungswinkel α?',
+    a:al,e:'°',tol:0.005,
+    w:'tan α = Gegenkathete / Ankathete = '+nz(a,2)+' / '+nz(b,2)+' = '+nz(a/b,4)+
+      '<br>α = arctan '+nz(a/b,4)+' = <b>'+nz(al,2)+'°</b>'};
+}},
+{id:'kosinus',fach:'Mathematik',n:'Schiefwinkliges Dreieck',gen:function(){
+  const b=rs(3,12,0.1), c=rs(3,12,0.1), al=rz(28,128);
+  const ar=al*Math.PI/180, a=Math.sqrt(b*b+c*c-2*b*c*Math.cos(ar));
+  const teil=rw(['seite','flaeche']);
+  if(teil==='seite') return {f:'Ein Grundstück bildet ein Dreieck mit b = <b>'+nz(b,2)+' m</b>, c = <b>'+nz(c,2)+' m</b> und dem eingeschlossenen Winkel α = <b>'+al+'°</b>. Wie lang ist die Seite a?',
+    a:a,e:'m',tol:0.005,
+    w:'Kosinussatz: a² = b² + c² − 2·b·c·cos α<br>a² = '+nz(b*b,2)+' + '+nz(c*c,2)+' − 2·'+nz(b,2)+'·'+nz(c,2)+'·cos '+al+'°'+
+      '<br>a² = '+nz(b*b+c*c,2)+' − '+nz(2*b*c,2)+'·'+nz(Math.cos(ar),5)+' = '+nz(a*a,3)+'<br>a = <b>'+nz(a,3)+' m</b>'};
+  const A=0.5*b*c*Math.sin(ar);
+  return {f:'Ein Grundstück bildet ein Dreieck mit b = <b>'+nz(b,2)+' m</b>, c = <b>'+nz(c,2)+' m</b> und dem eingeschlossenen Winkel α = <b>'+al+'°</b>. Wie groß ist die Fläche?',
+    a:A,e:'m²',tol:0.005,
+    w:'A = ½ · b · c · sin α = ½ · '+nz(b,2)+' · '+nz(c,2)+' · sin '+al+'°'+
+      '<br>A = ½ · '+nz(b*c,2)+' · '+nz(Math.sin(ar),5)+' = <b>'+nz(A,3)+' m²</b>'};
+}},
+{id:'flaeche',fach:'Mathematik',n:'Flächen am Bau',gen:function(){
+  const art=rw(['wand','kreis','trapez']);
+  if(art==='wand'){
+    const l=rs(4,14,0.25), hh=rs(2.5,3.5,0.05), nf=rz(1,4), bf=rs(0.9,1.8,0.1), hf=rs(1.1,1.6,0.1);
+    const A=l*hh-nf*bf*hf;
+    return {f:'Eine Wand ist <b>'+nz(l,2)+' m</b> lang und <b>'+nz(hh,2)+' m</b> hoch. Darin liegen <b>'+nf+'</b> Fenster von je <b>'+nz(bf,2)+' m × '+nz(hf,2)+' m</b>. Wie groß ist die zu verputzende Fläche?',
+      a:A,e:'m²',tol:0.005,
+      w:'Bruttofläche: '+nz(l,2)+' · '+nz(hh,2)+' = '+nz(l*hh,3)+' m²<br>Öffnungen: '+nf+' · '+nz(bf,2)+' · '+nz(hf,2)+' = '+nz(nf*bf*hf,3)+' m²'+
+        '<br>Nettofläche = '+nz(l*hh,3)+' − '+nz(nf*bf*hf,3)+' = <b>'+nz(A,3)+' m²</b>'};
+  }
+  if(art==='kreis'){
+    const d=rs(0.6,16,0.2), A=Math.PI*d*d/4;
+    return {f:'Ein kreisrunder Schacht hat den Durchmesser <b>'+nz(d,2)+' m</b>. Wie groß ist die Querschnittsfläche?',
+      a:A,e:'m²',tol:0.005,
+      w:'r = d/2 = '+nz(d/2,3)+' m<br>A = π · r² = π · '+nz(d/2,3)+'² = π · '+nz(d*d/4,4)+' = <b>'+nz(A,4)+' m²</b>'};
+  }
+  const a=rs(3,14,0.25), b=rs(3,14,0.25), hh=rs(2,9,0.25), A=(a+b)/2*hh;
+  return {f:'Ein Grundstück hat die Form eines Trapezes mit den parallelen Seiten <b>'+nz(a,2)+' m</b> und <b>'+nz(b,2)+' m</b> und der Höhe <b>'+nz(hh,2)+' m</b>. Wie groß ist die Fläche?',
+    a:A,e:'m²',tol:0.005,
+    w:'A = (a + c)/2 · h = ('+nz(a,2)+' + '+nz(b,2)+')/2 · '+nz(hh,2)+'<br>A = '+nz((a+b)/2,3)+' · '+nz(hh,2)+' = <b>'+nz(A,3)+' m²</b>'};
+}},
+{id:'volumen',fach:'Mathematik',n:'Volumen und Massen',gen:function(){
+  const art=rw(['platte','zylinder','kegel','graben']);
+  if(art==='platte'){
+    const l=rs(5,20,0.5), b=rs(4,15,0.5), d=rw([0.15,0.2,0.25,0.3]), V=l*b*d;
+    return {f:'Eine Bodenplatte misst <b>'+nz(l,2)+' m × '+nz(b,2)+' m</b> und ist <b>'+nz(d*100,0)+' cm</b> dick. Wie viel m³ Beton werden benötigt?',
+      a:V,e:'m³',tol:0.005,
+      w:'V = l · b · d = '+nz(l,2)+' · '+nz(b,2)+' · '+nz(d,2)+' m<br>V = '+nz(l*b,3)+' m² · '+nz(d,2)+' m = <b>'+nz(V,3)+' m³</b>'};
+  }
+  if(art==='zylinder'){
+    const d=rs(0.3,2.5,0.1), hh=rs(1,6,0.25), V=Math.PI*d*d/4*hh;
+    return {f:'Eine Stütze ist kreisrund mit <b>d = '+nz(d,2)+' m</b> und <b>h = '+nz(hh,2)+' m</b>. Welches Volumen hat sie?',
+      a:V,e:'m³',tol:0.005,
+      w:'A = π·d²/4 = π·'+nz(d*d,4)+'/4 = '+nz(Math.PI*d*d/4,4)+' m²<br>V = A · h = '+nz(Math.PI*d*d/4,4)+' · '+nz(hh,2)+' = <b>'+nz(V,4)+' m³</b>'};
+  }
+  if(art==='kegel'){
+    const d=rs(0.8,4,0.2), hh=rs(1,5,0.25), V=Math.PI*d*d/4*hh/3;
+    return {f:'Ein Kieshaufen bildet einen Kegel mit <b>d = '+nz(d,2)+' m</b> und <b>h = '+nz(hh,2)+' m</b>. Wie viel m³ Kies liegen dort?',
+      a:V,e:'m³',tol:0.005,
+      w:'Grundfläche A = π·d²/4 = '+nz(Math.PI*d*d/4,4)+' m²<br>V = ⅓ · A · h = ⅓ · '+nz(Math.PI*d*d/4,4)+' · '+nz(hh,2)+' = <b>'+nz(V,4)+' m³</b>'};
+  }
+  const l=rs(8,40,0.5), b=rs(0.6,1.2,0.1), t=rs(0.8,2.2,0.1), auf=rw([1.15,1.25,1.35]), V=l*b*t;
+  return {f:'Ein Fundamentgraben ist <b>'+nz(l,2)+' m</b> lang, <b>'+nz(b,2)+' m</b> breit und <b>'+nz(t,2)+' m</b> tief. Der Boden lockert beim Lösen um den Faktor <b>'+nz(auf,2)+'</b> auf. Wie viel m³ müssen abgefahren werden?',
+    a:V*auf,e:'m³',tol:0.005,
+    w:'Festes Volumen: V = '+nz(l,2)+' · '+nz(b,2)+' · '+nz(t,2)+' = '+nz(V,3)+' m³'+
+      '<br>Gelockert: '+nz(V,3)+' · '+nz(auf,2)+' = <b>'+nz(V*auf,3)+' m³</b><br>Merke: Auf dem Kipper zählt immer das <em>gelockerte</em> Volumen.'};
+}}
+,
+{id:'dichte',fach:'Naturwissenschaft',n:'Dichte und Wichte',gen:function(){
+  const st=rw([['Beton',2400],['Stahl',7850],['Kalksandstein',1800],['Fichtenholz',480],['Estrich',2000],['Kies',1800]]);
+  const l=rs(0.3,3,0.1), b=rs(0.3,2,0.1), hh=rs(0.2,2.5,0.1), V=l*b*hh, m=V*st[1];
+  if(Math.random()<0.5) return {f:'Ein Bauteil aus <b>'+st[0]+'</b> (ρ = '+st[1]+' kg/m³) misst <b>'+nz(l,2)+' m × '+nz(b,2)+' m × '+nz(hh,2)+' m</b>. Welche Masse hat es?',
+    a:m,e:'kg',tol:0.005,
+    w:'V = '+nz(l,2)+' · '+nz(b,2)+' · '+nz(hh,2)+' = '+nz(V,4)+' m³<br>m = ρ · V = '+st[1]+' · '+nz(V,4)+' = <b>'+nz(m,1)+' kg</b> ≈ '+nz(m/1000,3)+' t'};
+  return {f:'Ein Bauteil aus <b>'+st[0]+'</b> (ρ = '+st[1]+' kg/m³) hat das Volumen <b>'+nz(V,3)+' m³</b>. Wie groß ist seine Wichte γ in kN/m³?',
+    a:st[1]*G/1000,e:'kN/m³',tol:0.005,
+    w:'Die Wichte ist die Gewichtskraft je Volumen: γ = ρ · g<br>γ = '+st[1]+' kg/m³ · 9,81 m/s² = '+nz(st[1]*G,0)+' N/m³ = <b>'+nz(st[1]*G/1000,2)+' kN/m³</b><br>Das Volumen wird dafür gar nicht gebraucht – γ hängt nur vom Stoff ab.'};
+}},
+{id:'schiefe',fach:'Naturwissenschaft',n:'Schiefe Ebene',gen:function(){
+  const m=rz(80,900), a=rz(6,32), ar=a*Math.PI/180, FG=m*G;
+  const teil=rw(['FN','FH']);
+  if(teil==='FN') return {f:'Eine Last von <b>'+m+' kg</b> steht auf einer Rampe mit <b>'+a+'°</b> Neigung. Wie groß ist die Normalkraft F_N?',
+    a:FG*Math.cos(ar),e:'N',tol:0.005,
+    w:'F_G = m · g = '+m+' · 9,81 = '+nz(FG,1)+' N<br>F_N = F_G · cos α = '+nz(FG,1)+' · cos '+a+'° = '+nz(FG,1)+' · '+nz(Math.cos(ar),5)+' = <b>'+nz(FG*Math.cos(ar),1)+' N</b>'};
+  return {f:'Eine Last von <b>'+m+' kg</b> steht auf einer Rampe mit <b>'+a+'°</b> Neigung. Wie groß ist die Hangabtriebskraft F_H?',
+    a:FG*Math.sin(ar),e:'N',tol:0.005,
+    w:'F_G = m · g = '+m+' · 9,81 = '+nz(FG,1)+' N<br>F_H = F_G · sin α = '+nz(FG,1)+' · sin '+a+'° = '+nz(FG,1)+' · '+nz(Math.sin(ar),5)+' = <b>'+nz(FG*Math.sin(ar),1)+' N</b>'+
+      '<br>Merke: sin für den Hang, cos für die Normale.'};
+}},
+{id:'hebel',fach:'Naturwissenschaft',n:'Hebel und Auflagerkräfte',gen:function(){
+  const L=rs(3,9,0.1), x=rs(0.6,L-0.6,0.1), F=rs(4,40,0.5);
+  const FB=F*x/L, FA=F-FB;
+  if(Math.random()<0.5) return {f:'Ein Träger von <b>'+nz(L,2)+' m</b> Länge liegt an beiden Enden auf. Im Abstand <b>'+nz(x,2)+' m</b> vom linken Auflager A greift die Einzellast <b>'+nz(F,2)+' kN</b> an. Wie groß ist die Auflagerkraft <b>F_B</b> (rechts)?',
+    a:FB,e:'kN',tol:0.005,
+    w:'Momentengleichgewicht um A (ΣM_A = 0):<br>F_B · '+nz(L,2)+' = '+nz(F,2)+' · '+nz(x,2)+' = '+nz(F*x,3)+' kNm'+
+      '<br>F_B = '+nz(F*x,3)+' / '+nz(L,2)+' = <b>'+nz(FB,3)+' kN</b>'+
+      '<br>Merke: Die Last verteilt sich <em>umgekehrt</em> zum Abstand – je näher an A, desto weniger trägt B.'};
+  return {f:'Ein Träger von <b>'+nz(L,2)+' m</b> Länge liegt an beiden Enden auf. Im Abstand <b>'+nz(x,2)+' m</b> vom linken Auflager A greift die Einzellast <b>'+nz(F,2)+' kN</b> an. Wie groß ist die Auflagerkraft <b>F_A</b> (links)?',
+    a:FA,e:'kN',tol:0.005,
+    w:'Momentengleichgewicht um B: F_A · '+nz(L,2)+' = '+nz(F,2)+' · '+nz(L-x,2)+' = '+nz(F*(L-x),3)+' kNm'+
+      '<br>F_A = '+nz(F*(L-x),3)+' / '+nz(L,2)+' = <b>'+nz(FA,3)+' kN</b>'+
+      '<br>Probe: F_A + F_B = '+nz(FA,3)+' + '+nz(FB,3)+' = '+nz(F,2)+' kN ✓'};
+}},
+{id:'reibung',fach:'Naturwissenschaft',n:'Reibung',gen:function(){
+  const m=rz(60,1200), mu=rw([0.15,0.2,0.25,0.3,0.45,0.6]), FN=m*G;
+  return {f:'Ein Bauteil von <b>'+m+' kg</b> liegt waagerecht auf. Die Reibungszahl beträgt <b>µ = '+nz(mu,2)+'</b>. Welche waagerechte Kraft ist zum Verschieben nötig?',
+    a:mu*FN,e:'N',tol:0.005,
+    w:'F_N = m · g = '+m+' · 9,81 = '+nz(FN,1)+' N<br>F_R = µ · F_N = '+nz(mu,2)+' · '+nz(FN,1)+' = <b>'+nz(mu*FN,1)+' N</b> ≈ '+nz(mu*FN/1000,2)+' kN'+
+      '<br>Die Reibkraft hängt nur von Normalkraft und Reibungszahl ab, <em>nicht</em> von der Auflagefläche.'};
+}},
+{id:'bewegung',fach:'Naturwissenschaft',n:'Bewegung',gen:function(){
+  const art=rw(['beschl','fall','weg']);
+  if(art==='beschl'){
+    const v=rs(0.8,4,0.1), t=rs(2,9,0.5), a=v/t;
+    return {f:'Ein Bauaufzug beschleunigt aus dem Stand in <b>'+nz(t,1)+' s</b> gleichmäßig auf <b>'+nz(v,2)+' m/s</b>. Wie groß ist die Beschleunigung?',
+      a:a,e:'m/s²',tol:0.005,
+      w:'a = Δv / Δt = '+nz(v,2)+' / '+nz(t,1)+' = <b>'+nz(a,4)+' m/s²</b><br>Weg in dieser Zeit: s = ½·a·t² = ½·'+nz(a,4)+'·'+nz(t*t,2)+' = '+nz(0.5*a*t*t,3)+' m'};
+  }
+  if(art==='fall'){
+    const hh=rs(3,45,0.5), v=Math.sqrt(2*G*hh);
+    return {f:'Ein Werkzeug fällt vom Gerüst aus <b>'+nz(hh,1)+' m</b> Höhe. Mit welcher Geschwindigkeit schlägt es auf? (Luftwiderstand vernachlässigt)',
+      a:v,e:'m/s',tol:0.005,
+      w:'v = √(2·g·h) = √(2 · 9,81 · '+nz(hh,1)+') = √'+nz(2*G*hh,2)+' = <b>'+nz(v,3)+' m/s</b> ≈ '+nz(v*3.6,1)+' km/h'+
+        '<br>Deshalb ist jedes ungesicherte Teil auf dem Gerüst eine Gefahr.'};
+  }
+  const a=rs(0.3,2.5,0.1), t=rs(2,12,0.5);
+  return {f:'Ein Fahrzeug beschleunigt aus dem Stand mit <b>'+nz(a,2)+' m/s²</b> über <b>'+nz(t,1)+' s</b>. Welchen Weg legt es zurück?',
+    a:0.5*a*t*t,e:'m',tol:0.005,
+    w:'s = ½ · a · t² = ½ · '+nz(a,2)+' · '+nz(t,1)+'² = ½ · '+nz(a,2)+' · '+nz(t*t,2)+' = <b>'+nz(0.5*a*t*t,3)+' m</b>'+
+      '<br>Endgeschwindigkeit: v = a·t = '+nz(a*t,3)+' m/s'};
+}},
+{id:'arbeit',fach:'Naturwissenschaft',n:'Arbeit, Leistung, Wirkungsgrad',gen:function(){
+  const m=rz(150,1800), hh=rs(4,30,0.5), t=rz(15,120), eta=rw([0.6,0.65,0.7,0.75,0.8,0.85]);
+  const W=m*G*hh, Pab=W/t, Pzu=Pab/eta;
+  const teil=rw(['W','Pab','Pzu']);
+  if(teil==='W') return {f:'Ein Kran hebt <b>'+m+' kg</b> um <b>'+nz(hh,1)+' m</b>. Welche Hubarbeit wird verrichtet?',
+    a:W,e:'J',tol:0.005,
+    w:'W = m · g · h = '+m+' · 9,81 · '+nz(hh,1)+' = <b>'+nz(W,0)+' J</b> ≈ '+nz(W/1000,2)+' kJ<br>1 J = 1 Nm = 1 Ws'};
+  if(teil==='Pab') return {f:'Ein Kran hebt <b>'+m+' kg</b> um <b>'+nz(hh,1)+' m</b> in <b>'+t+' s</b>. Welche Leistung gibt er ab?',
+    a:Pab,e:'W',tol:0.005,
+    w:'W = m·g·h = '+m+' · 9,81 · '+nz(hh,1)+' = '+nz(W,0)+' J<br>P_ab = W / t = '+nz(W,0)+' / '+t+' = <b>'+nz(Pab,1)+' W</b> ≈ '+nz(Pab/1000,2)+' kW'};
+  return {f:'Ein Kran hebt <b>'+m+' kg</b> um <b>'+nz(hh,1)+' m</b> in <b>'+t+' s</b> bei einem Wirkungsgrad von <b>'+nz(eta,2)+'</b>. Welche Leistung muss ihm zugeführt werden?',
+    a:Pzu,e:'W',tol:0.005,
+    w:'W = '+m+' · 9,81 · '+nz(hh,1)+' = '+nz(W,0)+' J<br>P_ab = '+nz(W,0)+' / '+t+' = '+nz(Pab,1)+' W'+
+      '<br>η = P_ab / P_zu → P_zu = P_ab / η = '+nz(Pab,1)+' / '+nz(eta,2)+' = <b>'+nz(Pzu,1)+' W</b> ≈ '+nz(Pzu/1000,2)+' kW'+
+      '<br>Die Differenz '+nz(Pzu-Pab,1)+' W geht als Reibung und Wärme verloren.'};
+}},
+{id:'druck',fach:'Naturwissenschaft',n:'Druck und Bodenpressung',gen:function(){
+  const a=rs(0.8,3.5,0.1), b=rs(0.8,3,0.1), F=rz(80,1400), A=a*b, p=F/A;
+  return {f:'Ein Fundament von <b>'+nz(a,2)+' m × '+nz(b,2)+' m</b> überträgt <b>'+F+' kN</b> auf den Baugrund. Wie groß ist die Bodenpressung?',
+    a:p,e:'kN/m²',tol:0.005,
+    w:'A = '+nz(a,2)+' · '+nz(b,2)+' = '+nz(A,4)+' m²<br>p = F / A = '+F+' / '+nz(A,4)+' = <b>'+nz(p,2)+' kN/m²</b>'+
+      '<br>Das sind '+nz(p*1000,0)+' Pa = '+nz(p/100,3)+' bar. Zulässige Werte liegen je nach Boden bei 150–400 kN/m².'};
+}},
+{id:'schweredruck',fach:'Naturwissenschaft',n:'Schweredruck',gen:function(){
+  const hh=rs(1.2,9,0.1), b=rs(2,15,0.5), p=1000*G*hh;
+  if(Math.random()<0.5) return {f:'In einem Behälter steht Wasser <b>'+nz(hh,2)+' m</b> hoch. Wie groß ist der Druck am Boden? (ρ = 1000 kg/m³)',
+    a:p,e:'Pa',tol:0.005,
+    w:'p = ρ · g · h = 1000 · 9,81 · '+nz(hh,2)+' = <b>'+nz(p,0)+' Pa</b> ≈ '+nz(p/100000,3)+' bar'+
+      '<br>Der Schweredruck hängt nur von der Höhe ab, nicht von der Behälterform oder -breite.'};
+  const F=0.5*p*hh*b;
+  return {f:'An einer <b>'+nz(b,1)+' m</b> breiten Wand steht Wasser <b>'+nz(hh,2)+' m</b> hoch an. Wie groß ist die resultierende Kraft auf die Wand?',
+    a:F,e:'N',tol:0.005,
+    w:'Druck am Fuß: p = ρ·g·h = 1000 · 9,81 · '+nz(hh,2)+' = '+nz(p,0)+' Pa'+
+      '<br>Der Druck steigt von oben (0) nach unten (p) <b>dreieckförmig</b>, im Mittel also p/2:'+
+      '<br>F = ½ · p · h · b = ½ · '+nz(p,0)+' · '+nz(hh,2)+' · '+nz(b,1)+' = <b>'+nz(F,0)+' N</b> ≈ '+nz(F/1000,1)+' kN'};
+}},
+{id:'hydraulik',fach:'Naturwissenschaft',n:'Hydraulik',gen:function(){
+  const A1=rw([2,4,5,8]), A2=rw([120,200,250,320,400]), F1=rz(80,600);
+  return {f:'Ein hydraulischer Heber hat die Kolbenflächen <b>A₁ = '+A1+' cm²</b> und <b>A₂ = '+A2+' cm²</b>. Auf den kleinen Kolben wirkt <b>F₁ = '+F1+' N</b>. Welche Kraft F₂ entsteht am großen Kolben?',
+    a:F1*A2/A1,e:'N',tol:0.005,
+    w:'Der Druck ist überall gleich: p = F₁/A₁ = F₂/A₂<br>F₂ = F₁ · A₂/A₁ = '+F1+' · '+A2+'/'+A1+' = '+F1+' · '+nz(A2/A1,1)+' = <b>'+nz(F1*A2/A1,0)+' N</b>'+
+      '<br>Die Kraft wird um '+nz(A2/A1,1)+'-fach verstärkt – der Weg dafür um denselben Faktor kürzer.'};
+}},
+{id:'ausdehnung',fach:'Naturwissenschaft',n:'Längenausdehnung',gen:function(){
+  const st=rw([['Beton',12],['Stahl',12],['Aluminium',23],['Kupfer',16],['Mauerwerk',6]]);
+  const l=rs(5,60,0.5), t1=rz(-12,12), t2=rz(20,55), dt=t2-t1;
+  const dl=st[1]*1e-6*l*dt;
+  return {f:'Ein Bauteil aus <b>'+st[0]+'</b> (α = '+st[1]+'·10⁻⁶ 1/K) ist <b>'+nz(l,1)+' m</b> lang und erwärmt sich von <b>'+t1+' °C</b> auf <b>'+t2+' °C</b>. Wie groß ist die Längenänderung in mm?',
+    a:dl*1000,e:'mm',tol:0.005,
+    w:'Δϑ = '+t2+' − ('+t1+') = '+dt+' K<br>Δl = α · l₁ · Δϑ = '+st[1]+'·10⁻⁶ · '+nz(l,1)+' · '+dt+
+      '<br>Δl = '+nz(dl,6)+' m = <b>'+nz(dl*1000,2)+' mm</b>'+
+      '<br>Deshalb braucht jede längere Betonfläche Dehnfugen.'};
+}},
+{id:'waerme',fach:'Naturwissenschaft',n:'Wärmemenge',gen:function(){
+  const st=rw([['Wasser',4.19],['Beton',0.88],['Stahl',0.47],['Ziegel',0.84]]);
+  const m=rz(20,600), t1=rz(5,25), t2=rz(35,90), dt=t2-t1, Q=st[1]*m*dt;
+  return {f:'<b>'+m+' kg '+st[0]+'</b> (c = '+nz(st[1],2)+' kJ/(kg·K)) werden von <b>'+t1+' °C</b> auf <b>'+t2+' °C</b> erwärmt. Wie viel Wärme ist nötig?',
+    a:Q,e:'kJ',tol:0.005,
+    w:'Δϑ = '+t2+' − '+t1+' = '+dt+' K<br>Q = c · m · Δϑ = '+nz(st[1],2)+' · '+m+' · '+dt+' = <b>'+nz(Q,1)+' kJ</b>'+
+      '<br>Das entspricht '+nz(Q/3600,3)+' kWh.'};
+}},
+{id:'mischen',fach:'Naturwissenschaft',n:'Mischtemperatur',gen:function(){
+  const m1=rz(20,200), t1=rz(5,25), m2=rz(20,150), t2=rz(45,95);
+  const tm=(m1*t1+m2*t2)/(m1+m2);
+  return {f:'<b>'+m1+' l</b> Wasser von <b>'+t1+' °C</b> werden mit <b>'+m2+' l</b> Wasser von <b>'+t2+' °C</b> gemischt. Welche Mischtemperatur stellt sich ein?',
+    a:tm,e:'°C',tol:0.005,
+    w:'Energieerhaltung: Q_ab = Q_auf. Weil beide Male Wasser vorliegt, kürzt sich c heraus:'+
+      '<br>ϑ_m = (m₁·ϑ₁ + m₂·ϑ₂) / (m₁ + m₂)'+
+      '<br>ϑ_m = ('+m1+'·'+t1+' + '+m2+'·'+t2+') / '+(m1+m2)+' = '+nz(m1*t1+m2*t2,0)+' / '+(m1+m2)+' = <b>'+nz(tm,2)+' °C</b>'};
+}},
+{id:'gas',fach:'Naturwissenschaft',n:'Gasgesetze',gen:function(){
+  const art=rw(['isochor','isobar','isotherm']);
+  const T1=rz(270,320), p1=rs(1,4,0.1);
+  if(art==='isochor'){
+    const p2=+(p1+rs(0.3,2,0.1)).toFixed(1), T2=T1*p2/p1;
+    return {f:'Ein Gas hat bei <b>'+T1+' K</b> den Druck <b>'+nz(p1,1)+' bar</b>. Auf welche Temperatur muss es bei <b>konstantem Volumen</b> erwärmt werden, damit <b>'+nz(p2,1)+' bar</b> herrschen?',
+      a:T2,e:'K',tol:0.005,
+      w:'Bei konstantem Volumen (isochor) gilt p₁/p₂ = T₁/T₂<br>T₂ = T₁ · p₂/p₁ = '+T1+' · '+nz(p2,1)+'/'+nz(p1,1)+' = <b>'+nz(T2,1)+' K</b> ≈ '+nz(T2-273.15,1)+' °C'};
+  }
+  if(art==='isobar'){
+    const V1=rs(0.5,8,0.1), T2=rz(330,520), V2=V1*T2/T1;
+    return {f:'Ein Gas nimmt bei <b>'+T1+' K</b> das Volumen <b>'+nz(V1,1)+' m³</b> ein. Welches Volumen hat es bei <b>'+T2+' K</b> und <b>konstantem Druck</b>?',
+      a:V2,e:'m³',tol:0.005,
+      w:'Bei konstantem Druck (isobar, Gay-Lussac) gilt V₁/V₂ = T₁/T₂<br>V₂ = V₁ · T₂/T₁ = '+nz(V1,1)+' · '+T2+'/'+T1+' = <b>'+nz(V2,3)+' m³</b>'};
+  }
+  const V1=rs(0.5,8,0.1), p2=+(p1+rs(0.5,3,0.1)).toFixed(1), V2=p1*V1/p2;
+  return {f:'Ein Gas hat bei <b>'+nz(p1,1)+' bar</b> das Volumen <b>'+nz(V1,1)+' m³</b>. Welches Volumen nimmt es bei <b>'+nz(p2,1)+' bar</b> und <b>gleicher Temperatur</b> ein?',
+    a:V2,e:'m³',tol:0.005,
+    w:'Bei konstanter Temperatur (isotherm, Boyle-Mariotte) gilt p₁·V₁ = p₂·V₂'+
+      '<br>V₂ = p₁·V₁/p₂ = '+nz(p1,1)+'·'+nz(V1,1)+'/'+nz(p2,1)+' = '+nz(p1*V1,2)+'/'+nz(p2,1)+' = <b>'+nz(V2,3)+' m³</b>'};
+}}
+];
+
+/* Bedienung */
+let rFach='alle', rThema=null, rAuf=null, rTreffer=0, rVersuche=0, rBeantwortet=false;
+function rListe(){return RTHEMEN.filter(t=>rFach==='alle'||t.fach===rFach);}
+function renderRThema(){
+  const p=document.getElementById('rthema'); p.innerHTML='';
+  const l=rListe();
+  const mix=document.createElement('button'); mix.textContent='Bunt gemischt';
+  if(!rThema)mix.classList.add('on');
+  mix.onclick=()=>{rThema=null;renderRThema();neueAufgabe();};
+  p.appendChild(mix);
+  l.forEach(t=>{const b=document.createElement('button'); b.textContent=t.n;
+    if(rThema===t.id)b.classList.add('on');
+    b.onclick=()=>{rThema=t.id;renderRThema();neueAufgabe();};
+    p.appendChild(b);});
+}
+function neueAufgabe(){
+  const l=rListe();
+  const t = rThema ? (RTHEMEN.find(x=>x.id===rThema)||l[0]) : l[Math.floor(Math.random()*l.length)];
+  if(!t)return;
+  rAuf=t.gen(); rAuf.thema=t; rBeantwortet=false;
+  document.getElementById('r-thema').textContent=t.fach+' · '+t.n;
+  document.getElementById('r-frage').innerHTML=rAuf.f;
+  document.getElementById('r-einheit').textContent=rAuf.e||'';
+  const inp=document.getElementById('r-eingabe'); inp.value=''; inp.focus();
+  const fb=document.getElementById('r-feedback'); fb.className='rfeedback'; fb.innerHTML='';
+  document.getElementById('r-weg').className='rweg';
+  renderRScore();
+}
+function renderRScore(){
+  document.getElementById('r-score').textContent = rVersuche ? rTreffer+' von '+rVersuche+' richtig' : '';
+}
+function zeigeWeg(){
+  document.getElementById('r-weg').innerHTML='<span class="lbl">So wird gerechnet</span>'+rAuf.w;
+  document.getElementById('r-weg').className='rweg an';
+}
+function zahlAus(s){
+  s=String(s).trim().replace(/−/g,'-').replace(/[\s  ]/g,'').replace(/\./g,'').replace(',','.');
+  const v=parseFloat(s); return isFinite(v)?v:null;
+}
+function merkeR(id,ok){
+  const e=rstat[id]||{r:0,f:0};
+  if(ok)e.r++; else e.f++;
+  rstat[id]=e; saveR(); renderRStat();
+}
+function pruefen(){
+  if(!rAuf||rBeantwortet)return;
+  const v=zahlAus(document.getElementById('r-eingabe').value);
+  const fb=document.getElementById('r-feedback');
+  if(v===null){fb.className='rfeedback schlecht';fb.innerHTML='Bitte eine Zahl eintragen. <small>Komma oder Punkt sind beide in Ordnung.</small>';return;}
+  rBeantwortet=true; rVersuche++;
+  const soll=rAuf.a, tol=Math.max(Math.abs(soll)*(rAuf.tol||0.005), 1e-9);
+  const ok=Math.abs(v-soll)<=tol;
+  if(ok){rTreffer++; fb.className='rfeedback gut';
+    fb.innerHTML='Richtig. <small>Lösung: '+nz(soll,Math.abs(soll)<10?3:2)+' '+(rAuf.e||'')+'</small>';}
+  else{fb.className='rfeedback schlecht';
+    const dpz=Math.abs((v-soll)/(soll||1))*100;
+    const nah = dpz<400 ? ' – du liegst um '+nz(dpz,1)+' % daneben' : '';
+    fb.innerHTML='Nicht ganz. <small>Richtig wäre <b>'+nz(soll,Math.abs(soll)<10?3:2)+' '+(rAuf.e||'')+
+      '</b>'+nah+'. Vergleiche deinen Weg mit dem unten.</small>';}
+  merkeR(rAuf.thema.id, ok);
+  zeigeWeg(); renderRScore();
+}
+function renderRStat(){
+  const el=document.getElementById('r-stat');
+  const ids=Object.keys(rstat).filter(k=>rstat[k].r+rstat[k].f>0);
+  if(!ids.length){el.innerHTML='';return;}
+  const zeilen=ids.map(id=>{
+    const t=RTHEMEN.find(x=>x.id===id); if(!t)return null;
+    const s=rstat[id], g=s.r+s.f, q=Math.round(s.r/g*100);
+    return {n:t.n,g:g,q:q,schwach:g>=3&&q<60};
+  }).filter(Boolean).sort((a,b)=>a.q-b.q);
+  el.innerHTML='<h3>Wie du bisher abschneidest</h3><table>'+zeilen.map(z=>
+    '<tr class="'+(z.schwach?'schwach':'')+'"><td>'+z.n+'</td><td>'+z.g+'×</td><td>'+z.q+' %</td></tr>').join('')+
+    '</table><p class="lead" style="font-size:13px;margin-top:10px">Rot markiert heißt: unter 60 % richtig bei mindestens drei Versuchen – da lohnt das passende Lernkapitel.</p>';
+}
+document.getElementById('rfach').querySelectorAll('button').forEach(b=>b.onclick=()=>{
+  rFach=b.dataset.f; rThema=null;
+  document.getElementById('rfach').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  renderRThema(); neueAufgabe();
+});
+document.getElementById('r-pruefen').onclick=pruefen;
+document.getElementById('r-neu').onclick=neueAufgabe;
+document.getElementById('r-zeigen').onclick=()=>{if(rAuf){if(!rBeantwortet){rBeantwortet=true;rVersuche++;merkeR(rAuf.thema.id,false);renderRScore();}zeigeWeg();}};
+document.getElementById('r-eingabe').addEventListener('keydown',e=>{
+  if(e.key==='Enter'){e.preventDefault(); if(rBeantwortet)neueAufgabe(); else pruefen();}
+});
+renderRThema(); neueAufgabe(); renderRStat();
+
 /* ================= GLOBALE SUCHE ================= */
 function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
 function hl(txt,q){const t=esc(txt);if(!q)return t;const i=t.toLowerCase().indexOf(q);if(i<0)return t;
@@ -2036,7 +2671,7 @@ function globalSearch(q){
   });});
 
 /* ---------- START ---------- */
-renderKlausurPicks(); renderKlausur();
+renderKlausurPicks(); renderKlausurVar(); renderKlausur();
 renderFFach(); renderFormeln();
 setSem(1);
 </script>
