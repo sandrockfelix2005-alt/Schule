@@ -1533,7 +1533,7 @@ function emptyMsg(kind){return '<div class="empty"><strong>Semester '+curSem+' â
 
 /* ---------- ROUTING ---------- */
 const views=document.querySelectorAll('.view');
-const navEls=document.querySelectorAll('#nav a, #mobnav button');
+const navEls=document.querySelectorAll('#sidebar nav a[data-view], #mobnav button[data-view]');
 function show(v){
   views.forEach(s=>s.classList.toggle('active',s.dataset.view===v));
   navEls.forEach(a=>a.classList.toggle('active',a.dataset.view===v));
