@@ -1,0 +1,294 @@
+<title>Grafik-Muster Bautechnik</title>
+<style>
+:root{
+  --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#EEF1F5;
+  --ink:#1B2430; --muted:#5A6675; --line:#D3DAE2; --line-soft:#E4E9EF;
+  --accent:#DE9128; --accent-deep:#B26A12; --accent-soft:#FBEED8;
+  --blue:#3E6D9C; --good:#2E7D53; --bad:#C2603C;
+  --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0E1520; --surface:#16202E; --surface-2:#1B2736;
+  --ink:#E7ECF2; --muted:#93A1B2; --line:#26323F; --line-soft:#1E2A38;
+  --accent:#F0A93E; --accent-deep:#F0A93E; --accent-soft:#2A2113;
+  --blue:#6FA3D2; --good:#5CB98A; --bad:#E08A63;
+}}
+:root[data-theme="dark"]{
+  --ground:#0E1520; --surface:#16202E; --surface-2:#1B2736;
+  --ink:#E7ECF2; --muted:#93A1B2; --line:#26323F; --line-soft:#1E2A38;
+  --accent:#F0A93E; --accent-deep:#F0A93E; --accent-soft:#2A2113;
+  --blue:#6FA3D2; --good:#5CB98A; --bad:#E08A63;
+}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);line-height:1.65;margin:0}
+.wrap{max-width:800px;margin:0 auto;padding:34px 20px 70px}
+.kicker{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--accent-deep)}
+h1{font-size:27px;margin:6px 0 10px;letter-spacing:-.015em}
+h2{font-size:19px;margin:0 0 4px}
+.lead{color:var(--muted);font-size:15px;margin:0 0 26px}
+.karte{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:22px 0}
+.karte > .num{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);display:block;margin-bottom:6px}
+.karte p.was{color:var(--muted);font-size:14px;margin:2px 0 16px}
+.buehne{background:var(--surface-2);border-radius:9px;padding:8px 4px;overflow-x:auto}
+svg{display:block;width:100%;height:auto;max-width:100%}
+.regler{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:15px;font-size:13.5px}
+.regler label{color:var(--muted);min-width:118px}
+.regler input[type=range]{flex:1;min-width:140px;accent-color:var(--accent)}
+.regler output{font-family:var(--mono);font-size:13px;min-width:74px;text-align:right;color:var(--ink);font-weight:600}
+.werte{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.wert{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:8px 13px;font-size:13px;flex:1;min-width:118px}
+.wert b{display:block;font-family:var(--mono);font-size:16px;margin-top:2px}
+.wert.a b{color:var(--blue)} .wert.b b{color:var(--accent-deep)} .wert.g b{color:var(--good)}
+.rw{margin-top:14px;padding-top:13px;border-top:1px solid var(--line-soft);font-family:var(--mono);font-size:12.5px;color:var(--muted);line-height:1.9}
+.rw b{color:var(--ink)}
+/* SVG-Bausteine */
+.tr{fill:none;stroke:var(--ink);stroke-width:2}
+.hilf{stroke:var(--line);stroke-width:1;stroke-dasharray:4 3;fill:none}
+.masz{stroke:var(--muted);stroke-width:1;fill:none}
+.txt{font-family:var(--mono);font-size:11px;fill:var(--ink)}
+.txtm{font-family:var(--mono);font-size:10.5px;fill:var(--muted)}
+.kraft{stroke:var(--accent);stroke-width:2.5;fill:none}
+.reak{stroke:var(--blue);stroke-width:2.5;fill:none}
+.flaeche{fill:var(--accent);opacity:.16}
+.note{font-size:13.5px;color:var(--muted);margin:26px 0 0;padding:14px 16px;background:var(--surface);border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+</style>
+
+<div class="wrap">
+<div class="kicker">Muster · zum Anschauen</div>
+<h1>Wie grafische Beispiele aussehen würden</h1>
+<p class="lead">Vier Beispiele aus deinem Stoff. Bei den ersten dreien kannst du am Regler ziehen – Zeichnung und Zahlen ändern sich mit. Schau, ob dir das beim Verstehen hilft.</p>
+
+<!-- 1 TRÄGER -->
+<div class="karte">
+  <span class="num">Naturwissenschaft · Kapitel 3</span>
+  <h2>Auflagerkräfte am Träger</h2>
+  <p class="was">Zieh die Last hin und her. Du siehst sofort, warum das nähere Auflager mehr trägt – und dass beide zusammen immer die Last ergeben.</p>
+  <div class="buehne"><svg id="s1" viewBox="0 0 640 285" role="img" aria-label="Träger auf zwei Auflagern mit verschiebbarer Einzellast"></svg></div>
+  <div class="regler">
+    <label for="r1">Abstand von A</label>
+    <input type="range" id="r1" min="30" max="570" value="200">
+    <output id="o1"></output>
+  </div>
+  <div class="regler">
+    <label for="r1b">Größe der Last</label>
+    <input type="range" id="r1b" min="2" max="40" value="12" step="0.5">
+    <output id="o1b"></output>
+  </div>
+  <div class="werte">
+    <div class="wert a">Auflagerkraft A<b id="v1a"></b></div>
+    <div class="wert b">Auflagerkraft B<b id="v1b"></b></div>
+    <div class="wert g">Summe = Last<b id="v1s"></b></div>
+  </div>
+  <div class="rw" id="rw1"></div>
+</div>
+
+<!-- 2 SCHIEFE EBENE -->
+<div class="karte">
+  <span class="num">Naturwissenschaft · Kapitel 2</span>
+  <h2>Kräfte an der schiefen Ebene</h2>
+  <p class="was">Der Winkel entscheidet, wie sich die Gewichtskraft aufteilt. Die gestrichelten Linien zeigen: F_N und F_H ergeben zusammen genau F_G. Bei 0° drückt alles auf die Fläche, bei 90° zieht alles den Hang hinab.</p>
+  <div class="buehne"><svg id="s2" viewBox="0 0 640 250" role="img" aria-label="Schiefe Ebene mit Zerlegung der Gewichtskraft"></svg></div>
+  <div class="regler">
+    <label for="r2">Neigungswinkel</label>
+    <input type="range" id="r2" min="5" max="60" value="25">
+    <output id="o2"></output>
+  </div>
+  <div class="regler">
+    <label for="r2b">Masse</label>
+    <input type="range" id="r2b" min="50" max="900" value="380" step="10">
+    <output id="o2b"></output>
+  </div>
+  <div class="werte">
+    <div class="wert">Gewichtskraft<b id="v2g"></b></div>
+    <div class="wert a">Normalkraft<b id="v2n"></b></div>
+    <div class="wert b">Hangabtrieb<b id="v2h"></b></div>
+  </div>
+  <div class="rw" id="rw2"></div>
+</div>
+
+<!-- 3 DACH -->
+<div class="karte">
+  <span class="num">Mathematik · Lernmodul 4</span>
+  <h2>Dachneigung und Dachfläche</h2>
+  <p class="was">Hier wird sichtbar, warum die Dachfläche immer größer ist als die Grundfläche – und dass genau das der Faktor 1/cos α ist.</p>
+  <div class="buehne"><svg id="s3" viewBox="0 0 640 250" role="img" aria-label="Satteldach im Schnitt mit Neigungswinkel und Sparrenlänge"></svg></div>
+  <div class="regler">
+    <label for="r3">Firsthöhe</label>
+    <input type="range" id="r3" min="1" max="7" value="3.2" step="0.1">
+    <output id="o3"></output>
+  </div>
+  <div class="werte">
+    <div class="wert b">Dachneigung<b id="v3a"></b></div>
+    <div class="wert a">Sparrenlänge<b id="v3s"></b></div>
+    <div class="wert g">Dachfläche<b id="v3f"></b></div>
+  </div>
+  <div class="rw" id="rw3"></div>
+</div>
+
+<!-- 4 ERDDRUCK (statisch) -->
+<div class="karte">
+  <span class="num">Naturwissenschaft · Kapitel 3 und 6</span>
+  <h2>Warum der Druck bei h/3 angreift</h2>
+  <p class="was">Ein statisches Bild reicht hier – aber es beantwortet die Frage, an der in der Klausur die meisten scheitern.</p>
+  <div class="buehne"><svg id="s4" viewBox="0 0 640 250" role="img" aria-label="Dreieckförmige Druckverteilung an einer Wand mit Resultierender bei einem Drittel der Höhe"></svg></div>
+  <div class="rw">Der Druck wächst linear mit der Tiefe: <b>p = ρ · g · h</b>. Die Druckfläche ist deshalb ein <b>Dreieck</b>, nicht ein Rechteck.<br>Die Resultierende ist die Fläche dieses Dreiecks: <b>F = ½ · p · h · b</b>.<br>Sie greift im Schwerpunkt des Dreiecks an – und der liegt bei <b>h/3 über der Sohle</b>, nicht bei h/2.</div>
+</div>
+
+<p class="note"><b>Das sind vier von rund fünfzig Stellen</b>, an denen eine Zeichnung den Text schlagen würde. Wenn dir die Richtung gefällt, baue ich sie in die Lernkapitel ein – jeweils dort, wo die Formel erklärt wird.</p>
+</div>
+
+<script>
+const nz=(x,n)=>x.toFixed(n===undefined?2:n).replace('.',',');
+const NS='http://www.w3.org/2000/svg';
+function el(p,tag,at,txt){const e=document.createElementNS(NS,tag);
+  for(const k in at)e.setAttribute(k,at[k]); if(txt!==undefined)e.textContent=txt; p.appendChild(e); return e;}
+function pfeil(p,x1,y1,x2,y2,klasse){
+  el(p,'line',{x1,y1,x2,y2,class:klasse});
+  const w=Math.atan2(y2-y1,x2-x1), L=9, s=0.42;
+  el(p,'polyline',{points:[x2-L*Math.cos(w-s),y2-L*Math.sin(w-s),x2,y2,x2-L*Math.cos(w+s),y2-L*Math.sin(w+s)].join(' '),class:klasse});
+}
+
+/* ---- 1 Träger ---- */
+const X0=50, X1=590, Y=120, L=6.0;                 // 540 px = 6,00 m
+function zeichne1(){
+  const px=+document.getElementById('r1').value, F=+document.getElementById('r1b').value;
+  const a=(px-X0)/(X1-X0)*L, FB=F*a/L, FA=F-FB;
+  const s=document.getElementById('s1'); s.innerHTML='';
+  el(s,'line',{x1:X0-18,y1:Y,x2:X1+18,y2:Y,class:'hilf'});
+  el(s,'line',{x1:X0,y1:Y,x2:X1,y2:Y,class:'tr'});                        // Träger
+  [[X0,'A'],[X1,'B']].forEach(([x,n])=>{                                   // Auflager
+    el(s,'polygon',{points:`${x},${Y+2} ${x-13},${Y+24} ${x+13},${Y+24}`,class:'tr'});
+    el(s,'line',{x1:x-19,y1:Y+27,x2:x+19,y2:Y+27,class:'tr'});
+    el(s,'text',{x:x,y:Y+45,class:'txt','text-anchor':'middle'},n);
+  });
+  pfeil(s,px,34,px,Y-4,'kraft');                                           // Last
+  el(s,'text',{x:px,y:26,class:'txt','text-anchor':'middle',fill:'var(--accent-deep)'},'F = '+nz(F,1)+' kN');
+  const sk=46/Math.max(FA,FB,0.001);                                       // Reaktionen
+  pfeil(s,X0,Y+80+FA*sk,X0,Y+34,'reak');
+  pfeil(s,X1,Y+80+FB*sk,X1,Y+34,'reak');
+  el(s,'text',{x:X0,y:Y+96+FA*sk,class:'txt','text-anchor':'middle',fill:'var(--blue)'},nz(FA)+' kN');
+  el(s,'text',{x:X1,y:Y+96+FB*sk,class:'txt','text-anchor':'middle',fill:'var(--blue)'},nz(FB)+' kN');
+  el(s,'line',{x1:X0,y1:Y-58,x2:px,y2:Y-58,class:'masz'});                 // Maße
+  el(s,'line',{x1:X0,y1:Y-63,x2:X0,y2:Y-53,class:'masz'});
+  el(s,'line',{x1:px,y1:Y-63,x2:px,y2:Y-53,class:'masz'});
+  el(s,'text',{x:(X0+px)/2,y:Y-64,class:'txtm','text-anchor':'middle'},'a = '+nz(a)+' m');
+  el(s,'line',{x1:X0,y1:Y+58,x2:X1,y2:Y+58,class:'masz'});
+  el(s,'text',{x:(X0+X1)/2,y:Y+54,class:'txtm','text-anchor':'middle'},'l = 6,00 m');
+  document.getElementById('o1').value=nz(a)+' m';
+  document.getElementById('o1b').value=nz(F,1)+' kN';
+  document.getElementById('v1a').textContent=nz(FA)+' kN';
+  document.getElementById('v1b').textContent=nz(FB)+' kN';
+  document.getElementById('v1s').textContent=nz(FA+FB)+' kN';
+  document.getElementById('rw1').innerHTML=
+    'Momente um A:  F_B · 6,00 = '+nz(F,1)+' · '+nz(a)+' = '+nz(F*a)+' kNm<br>'+
+    'F_B = '+nz(F*a)+' / 6,00 = <b>'+nz(FB)+' kN</b><br>'+
+    'Kräfte:  F_A = '+nz(F,1)+' − '+nz(FB)+' = <b>'+nz(FA)+' kN</b>';
+}
+document.getElementById('r1').oninput=zeichne1;
+document.getElementById('r1b').oninput=zeichne1;
+
+/* ---- 2 Schiefe Ebene ---- */
+function zeichne2(){
+  const al=+document.getElementById('r2').value, m=+document.getElementById('r2b').value;
+  const r=al*Math.PI/180, g=9.81, FG=m*g, FN=FG*Math.cos(r), FH=FG*Math.sin(r);
+  const s=document.getElementById('s2'); s.innerHTML='';
+  const bx=70, by=192, len=400, ex=bx+len*Math.cos(r), ey=by-len*Math.sin(r);
+  el(s,'polygon',{points:`${bx},${by} ${ex},${ey} ${ex},${by}`,fill:'var(--surface)',stroke:'var(--line)','stroke-width':1});
+  el(s,'line',{x1:bx,y1:by,x2:ex,y2:ey,class:'tr'});
+  el(s,'line',{x1:bx,y1:by,x2:ex,y2:by,class:'hilf'});
+  el(s,'path',{d:`M ${bx+58} ${by} A 58 58 0 0 0 ${bx+58*Math.cos(r)} ${by-58*Math.sin(r)}`,class:'masz'});
+  el(s,'text',{x:bx+72,y:by-14,class:'txt'},'α = '+al+'°');
+  const t=0.55, kx=bx+len*t*Math.cos(r), ky=by-len*t*Math.sin(r);          // Klotz auf der Ebene
+  const w=34,hh=24, nx=Math.sin(r), ny=Math.cos(r);
+  el(s,'polygon',{points:[
+    kx-w/2*Math.cos(r)+0*nx, ky+w/2*Math.sin(r),
+    kx+w/2*Math.cos(r), ky-w/2*Math.sin(r),
+    kx+w/2*Math.cos(r)-hh*nx, ky-w/2*Math.sin(r)-hh*ny,
+    kx-w/2*Math.cos(r)-hh*nx, ky+w/2*Math.sin(r)-hh*ny].join(' '),
+    fill:'var(--accent-soft)',stroke:'var(--accent)','stroke-width':1.5});
+  const sk=85/Math.max(FG,1);
+  /* Zerlegung: F_N zeigt in die Flaeche hinein, F_H den Hang hinab.
+     Beide zusammen ergeben genau F_G - das zeigen die gestrichelten Linien. */
+  const gx=kx, gy=ky+FG*sk;                                   // Spitze von F_G
+  const nX=kx+FN*sk*nx, nY=ky+FN*sk*ny;                       // Spitze von F_N (in die Ebene)
+  const hX=kx-FH*sk*Math.cos(r), hY=ky+FH*sk*Math.sin(r);     // Spitze von F_H (hangabwaerts)
+  el(s,'line',{x1:nX,y1:nY,x2:gx,y2:gy,class:'hilf'});
+  el(s,'line',{x1:hX,y1:hY,x2:gx,y2:gy,class:'hilf'});
+  pfeil(s,kx,ky,gx,gy,'kraft');                                            // F_G senkrecht nach unten
+  el(s,'text',{x:gx,y:gy+19,class:'txt','text-anchor':'middle',fill:'var(--accent-deep)'},'F_G');
+  pfeil(s,kx,ky,nX,nY,'reak');                                             // Normalkraft
+  el(s,'text',{x:nX+11,y:nY+14,class:'txt',fill:'var(--blue)'},'F_N');
+  pfeil(s,kx,ky,hX,hY,'reak');                                             // Hangabtrieb
+  el(s,'text',{x:hX-6,y:hY+20,class:'txt','text-anchor':'end',fill:'var(--blue)'},'F_H');
+  document.getElementById('o2').value=al+'°';
+  document.getElementById('o2b').value=m+' kg';
+  document.getElementById('v2g').textContent=nz(FG,0)+' N';
+  document.getElementById('v2n').textContent=nz(FN,0)+' N';
+  document.getElementById('v2h').textContent=nz(FH,0)+' N';
+  document.getElementById('rw2').innerHTML=
+    'F_G = m · g = '+m+' · 9,81 = <b>'+nz(FG,1)+' N</b><br>'+
+    'F_N = F_G · cos α = '+nz(FG,1)+' · '+nz(Math.cos(r),5)+' = <b>'+nz(FN,1)+' N</b><br>'+
+    'F_H = F_G · sin α = '+nz(FG,1)+' · '+nz(Math.sin(r),5)+' = <b>'+nz(FH,1)+' N</b>';
+}
+document.getElementById('r2').oninput=zeichne2;
+document.getElementById('r2b').oninput=zeichne2;
+
+/* ---- 3 Dach ---- */
+function zeichne3(){
+  const hF=+document.getElementById('r3').value, B=12.0, LG=21.0;
+  const al=Math.atan(hF/(B/2)), spar=Math.hypot(B/2,hF), A=2*LG*spar;
+  const s=document.getElementById('s3'); s.innerHTML='';
+  const mx=320, by=205, halb=230, sk=halb/(B/2);
+  el(s,'line',{x1:mx-halb,y1:by,x2:mx+halb,y2:by,class:'tr'});
+  const fy=by-hF*sk;
+  el(s,'line',{x1:mx-halb,y1:by,x2:mx,y2:fy,class:'tr'});
+  el(s,'line',{x1:mx,y1:fy,x2:mx+halb,y2:by,class:'tr'});
+  el(s,'polygon',{points:`${mx-halb},${by} ${mx},${fy} ${mx+halb},${by}`,class:'flaeche'});
+  el(s,'line',{x1:mx,y1:by,x2:mx,y2:fy,class:'hilf'});
+  el(s,'path',{d:`M ${mx-halb+62} ${by} A 62 62 0 0 0 ${mx-halb+62*Math.cos(al)} ${by-62*Math.sin(al)}`,class:'masz'});
+  el(s,'text',{x:mx-halb+74,y:by-13,class:'txt'},'α = '+nz(al*180/Math.PI,1)+'°');
+  el(s,'text',{x:mx+10,y:(by+fy)/2,class:'txtm'},'h = '+nz(hF,1)+' m');
+  el(s,'text',{x:(mx-halb+mx)/2-52,y:(by+fy)/2+20,class:'txt',fill:'var(--accent-deep)'},'Sparren '+nz(spar)+' m');
+  el(s,'line',{x1:mx-halb,y1:by+26,x2:mx+halb,y2:by+26,class:'masz'});
+  el(s,'text',{x:mx,y:by+42,class:'txtm','text-anchor':'middle'},'Breite 12,00 m · Länge 21,00 m');
+  document.getElementById('o3').value=nz(hF,1)+' m';
+  document.getElementById('v3a').textContent=nz(al*180/Math.PI,2)+'°';
+  document.getElementById('v3s').textContent=nz(spar)+' m';
+  document.getElementById('v3f').textContent=nz(A,1)+' m²';
+  document.getElementById('rw3').innerHTML=
+    'tan α = '+nz(hF,1)+' / 6,00 = '+nz(hF/6,5)+'  →  α = <b>'+nz(al*180/Math.PI,2)+'°</b><br>'+
+    'Sparren = √(6,00² + '+nz(hF,1)+'²) = <b>'+nz(spar,3)+' m</b><br>'+
+    'Dachfläche = 2 · 21,00 · '+nz(spar,3)+' = <b>'+nz(A,1)+' m²</b>   (Grundfläche 252,0 m², Faktor '+nz(A/252,3)+' = 1/cos α)';
+}
+document.getElementById('r3').oninput=zeichne3;
+
+/* ---- 4 Erddruck ---- */
+(function(){
+  const s=document.getElementById('s4');
+  const wx=250, wy0=30, wy1=210, br=170;
+  el(s,'line',{x1:wx,y1:wy0,x2:wx,y2:wy1,class:'tr'});                     // Wand
+  el(s,'line',{x1:wx-60,y1:wy1,x2:wx+230,y2:wy1,class:'tr'});             // Sohle
+  for(let i=0;i<9;i++) el(s,'line',{x1:wx-58+i*10,y1:wy1,x2:wx-64+i*10,y2:wy1+10,class:'masz'});
+  el(s,'polygon',{points:`${wx},${wy0} ${wx},${wy1} ${wx+br},${wy1}`,class:'flaeche'});
+  el(s,'line',{x1:wx,y1:wy0,x2:wx+br,y2:wy1,stroke:'var(--accent)','stroke-width':2,fill:'none'});
+  for(let i=1;i<=7;i++){const y=wy0+(wy1-wy0)*i/8, l=br*(y-wy0)/(wy1-wy0);
+    pfeil(s,wx+l,y,wx+4,y,'kraft');}
+  el(s,'text',{x:wx+br+10,y:wy1-8,class:'txt',fill:'var(--accent-deep)'},'unten: p = ρ·g·h');
+  el(s,'text',{x:wx+16,y:wy0+14,class:'txtm'},'oben: p = 0');
+  const yR=wy1-(wy1-wy0)/3;
+  el(s,'line',{x1:wx-40,y1:yR,x2:wx+br,y2:yR,class:'hilf'});
+  pfeil(s,wx+120,yR,wx+6,yR,'reak');
+  el(s,'text',{x:wx+126,y:yR-7,class:'txt',fill:'var(--blue)'},'F = ½ · p · h · b');
+  el(s,'line',{x1:wx-34,y1:yR,x2:wx-34,y2:wy1,class:'masz'});
+  el(s,'line',{x1:wx-39,y1:yR,x2:wx-29,y2:yR,class:'masz'});
+  el(s,'line',{x1:wx-39,y1:wy1,x2:wx-29,y2:wy1,class:'masz'});
+  el(s,'text',{x:wx-44,y:(yR+wy1)/2+4,class:'txt','text-anchor':'end'},'h/3');
+  el(s,'line',{x1:wx-90,y1:wy0,x2:wx-90,y2:wy1,class:'masz'});
+  el(s,'line',{x1:wx-95,y1:wy0,x2:wx-85,y2:wy0,class:'masz'});
+  el(s,'line',{x1:wx-95,y1:wy1,x2:wx-85,y2:wy1,class:'masz'});
+  el(s,'text',{x:wx-100,y:(wy0+wy1)/2+4,class:'txt','text-anchor':'end'},'h');
+})();
+
+zeichne1(); zeichne2(); zeichne3();
+</script>
