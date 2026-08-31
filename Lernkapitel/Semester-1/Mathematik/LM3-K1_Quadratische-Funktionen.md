@@ -229,6 +229,8 @@ Bringe `h(x) = −0,5x² − 2x − 3` in die Scheitelpunktform.
 
 ---
 
+<div class="viz" data-viz="parabel"></div>
+
 ## 1.3 Quadratische Gleichungen lösen
 
 ### Die Normalform

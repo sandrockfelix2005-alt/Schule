@@ -146,6 +146,8 @@ Anhalteweg:    s  = 8,33 + 7,72 = 16,05 m
 > ### ⚠️ Der Bremsweg wächst im Quadrat
 > Bei **50 km/h** statt 30 km/h wird derselbe Radlader erst nach **35,3 m** stehen: Reaktionsweg 13,89 m plus Bremsweg 21,43 m. Die Geschwindigkeit steigt um zwei Drittel – der Anhalteweg **verdoppelt sich mehr als**. Genau deshalb gilt auf Baustellen Schrittgeschwindigkeit: Bei 7 km/h beträgt der Anhalteweg noch etwa 2,3 m.
 
+<div class="viz" data-viz="anhalteweg"></div>
+
 ### Bewegungen im Diagramm lesen
 
 In der Klausur bekommst du Bewegungen oft als **Diagramm** statt als Zahlen. Zwei Formen musst du unterscheiden:
@@ -189,6 +191,8 @@ Gesamtzeit: t = 3,0 + 17,0 + 3,0 = 23,0 s
 ```
 
 ---
+
+<div class="viz" data-viz="vtdiagramm"></div>
 
 ## 4.3 Der freie Fall
 

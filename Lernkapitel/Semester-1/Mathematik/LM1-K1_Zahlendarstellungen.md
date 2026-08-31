@@ -410,6 +410,8 @@ Verhältnis: 2,1 : 0,035 = 60
 
 ---
 
+<div class="viz" data-viz="zehnerpotenz"></div>
+
 ## 1.4 Zweiersystem (Dualsystem)
 
 ### Warum ein anderes Zahlensystem?

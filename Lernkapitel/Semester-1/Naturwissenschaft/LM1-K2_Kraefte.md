@@ -278,6 +278,8 @@ tan α = 20,00 / 22,68 = 0,8818  →  α = 41,4°
 
 ---
 
+<div class="viz" data-viz="parallelogramm"></div>
+
 ## 2.5 Die schiefe Ebene
 
 Auf einer geneigten Fläche (Winkel α) teilt sich die Gewichtskraft in **zwei Komponenten** auf:
@@ -347,6 +349,8 @@ s_∥ = 0,85 · sin35° = 0,85 · 0,5736 = 0,488 kN/m²
 > **Praxisbezug:** Die Parallelkomponente ist der Grund für **Schneefanggitter** – ohne sie rutscht die Schneelast als Lawine vom Dach. Und je steiler das Dach, desto größer wird diese Komponente.
 
 ---
+
+<div class="viz" data-viz="schiefeebene"></div>
 
 ## 2.6 Reibung
 

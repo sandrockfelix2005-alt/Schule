@@ -18,7 +18,8 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Formelsammlung/`** | Alle Formeln kompakt – Prüfungshilfsmittel-Training. |
 | **`Termine.md`** | Präsenztermine (Samstage ohne hessische Ferien/Feiertage). |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
-| **`tools/`** | Hilfsskripte: PDF-Text auslesen, Kapitel ins Tool einbauen, Suchindex bauen. |
+| **`tools/`** | Hilfsskripte: PDF-Text auslesen, Kapitel ins Tool einbauen, Suchindex bauen, Grafiken einspielen und setzen. |
+| **`Visualisierungen/`** | Quelltext der 24 interaktiven Grafiken (SVG mit Reglern). |
 | **`Suchindex_Semester-1.json`** | 1857 durchsuchbare Textstellen aus den Original-PDFs mit Seitenzahl. |
 
 ### Wie wir zusammenarbeiten
@@ -101,7 +102,7 @@ Beide bündeln alles in einer App für Handy und PC:
 | **Rechentrainer** | 23 Aufgabentypen mit **immer neuen Zahlen**, Rechenweg und Trefferquote je Thema |
 | **Probeklausur** | 6 Klausuren – je 2 Varianten für Mathematik, Naturwissenschaft und Deutsch, 90 min mit Timer |
 | **Formelsammlung** | durchsuchbar + Trainer „Welche Formel brauche ich?“ |
-| **Lernkapitel** | **der komplette Lehrstoff in 23 Kapiteln** – ersetzt die gedruckten Hefte |
+| **Lernkapitel** | **der komplette Lehrstoff in 23 Kapiteln** – ersetzt die gedruckten Hefte, mit **24 Grafiken zum Ausprobieren** direkt im Text |
 | **Original-PDFs** | alle 14 DAA-Dokumente direkt öffnen oder aufs Gerät speichern |
 | **Lexikon** | 74 Begriffe mit ausführlicher Erklärung |
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |

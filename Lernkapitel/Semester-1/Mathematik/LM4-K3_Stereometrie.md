@@ -243,6 +243,8 @@ m = 22,51 · 1,6 = 36,0 t
 
 ---
 
+<div class="viz" data-viz="koerper"></div>
+
 ## 3.3 Die Kugel
 
 > ### 💡 Formeln

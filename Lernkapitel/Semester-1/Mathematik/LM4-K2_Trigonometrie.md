@@ -236,6 +236,8 @@ y = 28,50 · sin62° = 28,50 · 0,8829 = 25,16 m
 
 ---
 
+<div class="viz" data-viz="rechtwinklig"></div>
+
 ## 2.2 Die trigonometrischen Funktionen
 
 Trägt man sin, cos und tan über dem Winkel auf, entstehen **periodische Kurven**.
@@ -303,6 +305,8 @@ Für Winkel über 90° (die im **allgemeinen** Dreieck vorkommen) gilt:
 > **Praktische Bedeutung:** Beim Kosinussatz kann γ stumpf sein – dann wird cos γ **negativ**, und aus dem Minus in der Formel wird effektiv ein Plus. Der Taschenrechner macht das automatisch richtig, wenn du den Winkel direkt eingibst.
 
 ---
+
+<div class="viz" data-viz="einheitskreis"></div>
 
 ## 2.3 Der Sinussatz
 
@@ -497,6 +501,8 @@ d = √20,226 = 4,497 m ≈ 4,50 m
 > **Beachte:** cos 95° ist **negativ** → aus dem Minus in der Formel wird ein Plus, die Diagonale wird **länger** als bei 90° (dort wäre sie √18,72 = 4,33 m).
 
 ---
+
+<div class="viz" data-viz="schiefwinklig"></div>
 
 ## 2.5 Das Bogenmaß
 

@@ -188,6 +188,8 @@ F_Griff = 470,88 / 1,50 = 313,9 N  (≈ 32 kg)
 
 ---
 
+<div class="viz" data-viz="hebel"></div>
+
 ## 3.3 Die Gleichgewichtsbedingungen
 
 > ### 💡 Die drei Bedingungen der Statik
@@ -368,6 +370,8 @@ Dieses Moment muss die Decke aufnehmen – und zwar über eine Bewehrung, die **
 
 ---
 
+<div class="viz" data-viz="traeger"></div>
+
 ## 3.6 Kippsicherheit
 
 Ein Bauteil kippt, wenn das **kippende Moment** größer wird als das **standsichernde Moment**.
@@ -407,6 +411,8 @@ Die Mauer ist standsicher.
 
 > ### ⚠️ Der Erddruck greift nicht in halber Höhe an
 > Weil der Druck von oben nach unten linear zunimmt, ist die Druckfläche ein **Dreieck** – und der Schwerpunkt eines Dreiecks liegt bei einem Drittel der Höhe, gemessen von der breiten Seite, also von unten. Wer h/2 einsetzt, bekommt ein um die Hälfte zu großes Moment und verwirft eine tragfähige Mauer. Derselbe Gedanke gilt beim Wasserdruck in Kapitel 6.
+
+<div class="viz" data-viz="kippen"></div>
 
 ### 🏗️ Bau-Beispiel – Kran-Ballast
 

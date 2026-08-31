@@ -187,6 +187,8 @@ Ein **6 m** langes PVC-Rohr (α = 80·10⁻⁶ 1/K) wird um **35 K** erwärmt.
 
 ---
 
+<div class="viz" data-viz="ausdehnung"></div>
+
 ## 1.3 Zustandsänderungen bei Gasen
 
 Bei Gasen hängen **Druck p**, **Volumen V** und **Temperatur T** zusammen.

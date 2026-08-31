@@ -266,6 +266,8 @@ Ein Plan im **Maßstab 1 : 50** ist nichts anderes als eine zentrische Streckung
 
 ---
 
+<div class="viz" data-viz="strahlensatz"></div>
+
 ## 1.4 Das Dreieck
 
 ### Die Winkelsumme
@@ -467,6 +469,8 @@ Böschungslänge:  l = √(3,50² + 5,25²) = √(12,25 + 27,5625) = √39,8125 
 | **Kreisring** | Fläche zwischen zwei konzentrischen Kreisen |
 
 ---
+
+<div class="viz" data-viz="kreis"></div>
 
 ## 1.7 Flächen- und Umfangsberechnung
 

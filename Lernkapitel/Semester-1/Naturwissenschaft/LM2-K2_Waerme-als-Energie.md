@@ -169,6 +169,8 @@ Q_ab = Q_auf
 
 ---
 
+<div class="viz" data-viz="mischen"></div>
+
 ## 2.4 Änderung des Aggregatzustandes
 
 ### Die Zustandsänderungen

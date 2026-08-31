@@ -273,6 +273,8 @@ P_zu = P_ab / η_ges = 7357,5 / 0,678 = 10 852 W ≈ 10,9 kW
 
 ---
 
+<div class="viz" data-viz="wirkungsgrad"></div>
+
 ## 5.5 Einfache Maschinen
 
 **Einfache Maschinen** sind: Hebel, feste und lose Rolle, Flaschenzug, schiefe Ebene, Keil, Schraube.

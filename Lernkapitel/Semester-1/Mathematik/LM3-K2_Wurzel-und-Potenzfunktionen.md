@@ -235,6 +235,8 @@ Ein Modell im Maßstab **1 : 50** soll die Realität abbilden.
 
 ---
 
+<div class="viz" data-viz="potenz"></div>
+
 ## 2.3 Die Potenzgesetze
 
 Diese Regeln brauchst du für alles Weitere – besonders für die Logarithmen in Kapitel 3.

@@ -254,6 +254,8 @@ x = 90 m
 
 ---
 
+<div class="viz" data-viz="gerade"></div>
+
 ## 2.3 Nullstelle und Schnittpunkt
 
 ### Die Nullstelle

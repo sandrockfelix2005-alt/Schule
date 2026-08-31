@@ -175,6 +175,8 @@ W(t) = 185 000 · 0,82ᵗ
 
 ---
 
+<div class="viz" data-viz="wachstum"></div>
+
 ## 3.2 Der Logarithmus
 
 ### Die Fragestellung

@@ -135,6 +135,8 @@ Zwei durchsichtige Rohrenden an einem wassergefüllten Schlauch zeigen immer **e
 
 ---
 
+<div class="viz" data-viz="schweredruck"></div>
+
 ## 6.3 Hydraulische Kraftübersetzung
 
 > ### 💡 Das Prinzip
@@ -221,6 +223,8 @@ Das entspricht rund **20 Tonnen** Druckkraft – aus einem Zylinder von 10 cm Du
 
 ---
 
+<div class="viz" data-viz="hydraulik"></div>
+
 ## 6.4 Der Auftrieb
 
 > ### 💡 Das Archimedische Prinzip
@@ -294,6 +298,8 @@ G = 60,12 · 24 = 1442,9 kN
 > Reicht das Eigengewicht nicht, braucht es Ballast, Verankerung oder eine Grundwasserabsenkung.
 
 ---
+
+<div class="viz" data-viz="auftrieb"></div>
 
 ## 6.5 Eigenschaften der Gase
 
