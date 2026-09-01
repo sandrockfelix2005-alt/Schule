@@ -71,6 +71,7 @@ function mountViz(wurzel){
       '<div class="vkopf"><span class="vlabel">Zum Ausprobieren</span><h4>'+v.titel+'</h4>'+
       (v.was?'<p class="vwas">'+v.was+'</p>':'')+'</div>'+
       '<div class="vbuehne"><svg viewBox="'+(v.vb||'0 0 640 260')+'" role="img" aria-label="'+v.titel+'"></svg></div>'+
+      '<p class="vhinweis">← Zeichnung seitlich verschiebbar →</p>'+
       '<div class="vregler"></div><div class="vwerte"></div>'+
       (v.weg?'<div class="vweg"></div>':'');
 

@@ -144,8 +144,10 @@ VIZ.traeger={
    ve(s,'line',{x1:X0,y1:Y-63,x2:X0,y2:Y-53,class:'vmasz'});
    ve(s,'line',{x1:px,y1:Y-63,x2:px,y2:Y-53,class:'vmasz'});
    ve(s,'text',{x:(X0+px)/2,y:Y-64,class:'vtxtm','text-anchor':'middle'},'a = '+vn(st.a,2)+' m');
-   ve(s,'line',{x1:X0,y1:Y+58,x2:X1,y2:Y+58,class:'vmasz'});
-   ve(s,'text',{x:(X0+X1)/2,y:Y+54,class:'vtxtm','text-anchor':'middle'},'l = 6,00 m');
+   ve(s,'line',{x1:X0+24,y1:Y+58,x2:X1-24,y2:Y+58,class:'vmasz'});
+   ve(s,'line',{x1:X0+24,y1:Y+53,x2:X0+24,y2:Y+63,class:'vmasz'});
+   ve(s,'line',{x1:X1-24,y1:Y+53,x2:X1-24,y2:Y+63,class:'vmasz'});
+   ve(s,'text',{x:(X0+X1)/2,y:Y+53,class:'vtxtm','text-anchor':'middle'},'l = 6,00 m');
  },
  weg:(s,r)=>'Momente um A:  F_B · 6,00 = '+vn(s.F,1)+' · '+vn(s.a,2)+' = '+vn(r.M)+' kNm<br>'+
    'F_B = '+vn(r.M)+' / 6,00 = <b>'+vn(r.FB)+' kN</b><br>'+

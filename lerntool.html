@@ -6,7 +6,7 @@
     --accent:#DE9128; --accent-deep:#B26A12; --accent-soft:#FbeeD8;
     --blue:#3E6D9C; --grid:#DCE4EC;
     --good:#2E7D53; --good-bg:#E4F1E9;
-    --radius:10px; --maxw:820px;
+    --radius:10px; --maxw:820px; --lesebreite:760px; --kapbreite:1060px;
     --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
     --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   }
@@ -39,7 +39,8 @@
     background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
     background-size:26px 26px; background-attachment:fixed;
   }
-  .layout{display:flex; min-height:100vh; max-width:1200px; margin:0 auto}
+  .layout{display:flex; min-height:100vh; max-width:1400px; margin:0 auto}
+  .view[data-view="kapitel"]{max-width:var(--kapbreite)}
 
   /* Sidebar */
   .sidebar{
@@ -250,28 +251,38 @@
   .kapitem .kmeta{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
   .kapbody{display:none}
   .kapbody.show{display:block}
-  .kapbody h1{font-size:24px;margin:22px 0 6px;padding-top:18px;border-top:2px solid var(--accent)}
-  .kapbody h2{font-size:19px;margin:30px 0 10px;padding-top:14px;border-top:1px solid var(--line-soft)}
-  .kapbody h3{font-size:15.5px;margin:22px 0 8px;color:var(--accent-deep)}
-  .kapbody h4{font-size:14.5px;margin:16px 0 6px}
-  .kapbody p{margin:0 0 11px;font-size:14.5px}
-  .kapbody ul,.kapbody ol{margin:0 0 12px;padding-left:22px;font-size:14.5px}
-  .kapbody li{margin:5px 0}
-  .kapbody table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13.5px;display:block;overflow-x:auto}
-  .kapbody th,.kapbody td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  /* Lesetext bleibt auf angenehmer Zeilenbreite, Grafiken duerfen breiter werden */
+  .kapbody > *{max-width:var(--lesebreite);}
+  .kapbody > .viz{max-width:none}
+  .kapbody h1{font-size:26px;line-height:1.28;margin:26px 0 10px;padding-top:20px;border-top:2px solid var(--accent);letter-spacing:-.01em}
+  .kapbody h1 + h1{margin-top:0;padding-top:0;border-top:none;font-size:20px;color:var(--muted);font-weight:600}
+  /* Abschnittswechsel deutlich sichtbar machen */
+  .kapbody h2{font-size:21px;line-height:1.3;margin:58px 0 16px;padding:20px 0 0;
+              border-top:3px solid var(--accent);letter-spacing:-.01em}
+  .kapbody h1 + h2{margin-top:34px}
+  .kapbody h3{font-size:16.5px;margin:34px 0 10px;padding-left:12px;color:var(--accent-deep);
+              border-left:3px solid var(--accent-soft);line-height:1.4}
+  .kapbody h4{font-size:15px;margin:22px 0 7px}
+  .kapbody p{margin:0 0 14px;font-size:15px;line-height:1.78}
+  .kapbody ul,.kapbody ol{margin:0 0 16px;padding-left:24px;font-size:15px;line-height:1.75}
+  .kapbody li{margin:7px 0}
+  .kapbody table{width:100%;border-collapse:collapse;margin:18px 0;font-size:14px;display:block;overflow-x:auto}
+  .kapbody th,.kapbody td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top;line-height:1.6}
   .kapbody th{background:var(--surface-2);font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em}
-  .kapbody pre{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:13px 15px;overflow-x:auto;font-size:13px;line-height:1.55;margin:12px 0}
+  .kapbody pre{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:15px 17px;overflow-x:auto;font-size:13.5px;line-height:1.7;margin:16px 0}
   .kapbody code{font-family:var(--mono);font-size:.92em}
   .kapbody p code,.kapbody li code,.kapbody td code{background:var(--surface-2);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
-  .kapbody blockquote{margin:14px 0;padding:13px 16px;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:0 10px 10px 0}
-  .kapbody blockquote h3{margin:0 0 8px;font-size:14.5px;color:var(--ink)}
+  .kapbody blockquote{margin:22px 0;padding:16px 19px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:0 10px 10px 0}
+  .kapbody blockquote h3{margin:0 0 9px;font-size:15px;color:var(--ink);padding-left:0;border-left:none}
   .kapbody blockquote p:last-child{margin-bottom:0}
   .kapbody blockquote table{margin:8px 0}
-  .kapbody details{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:11px 15px;margin:9px 0}
+  .kapbody details{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:13px 17px;margin:13px 0}
   .kapbody details[open]{border-color:var(--accent)}
-  .kapbody summary{cursor:pointer;font-weight:550;font-size:14px;color:var(--accent-deep);list-style:none}
+  .kapbody summary{cursor:pointer;font-weight:600;font-size:14.5px;color:var(--accent-deep);list-style:none}
   .kapbody summary::-webkit-details-marker{display:none}
-  .kapbody hr{border:none;border-top:1px solid var(--line);margin:26px 0}
+  .kapbody hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+  /* Trennlinie direkt vor einer Abschnittsueberschrift entfaellt - die Ueberschrift bringt ihre eigene mit */
+  .kapbody hr:has(+ h2){display:none}
   .kapbody .tocitem{color:var(--muted)}
   .kapbody input[type=checkbox]{margin-right:6px;accent-color:var(--accent)}
   .kapnav{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
@@ -279,23 +290,23 @@
   .kapnav button:hover{border-color:var(--accent)}
 
   /* --- Interaktive Grafiken --- */
-  .viz{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:26px 0}
+  .viz{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:40px 0}
   .viz .vkopf{margin-bottom:13px}
   .viz .vlabel{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:var(--accent-deep)}
-  .viz .vkopf h4{font-size:16.5px;margin:4px 0 0;font-weight:650}
-  .viz .vwas{color:var(--muted);font-size:13.5px;margin:5px 0 0;line-height:1.6}
-  .viz .vbuehne{background:var(--surface-2);border-radius:9px;padding:8px 4px;overflow-x:auto}
+  .viz .vkopf h4{font-size:18px;margin:5px 0 0;font-weight:650}
+  .viz .vwas{color:var(--muted);font-size:14.5px;margin:7px 0 0;line-height:1.65;max-width:720px}
+  .viz .vbuehne{background:var(--surface-2);border-radius:10px;padding:14px 8px;overflow-x:auto}
   .viz svg{display:block;width:100%;height:auto;max-width:100%}
-  .viz .vzeile{display:flex;align-items:center;gap:11px;margin-top:11px;font-size:13.5px;flex-wrap:wrap}
-  .viz .vzeile label{color:var(--muted);min-width:132px;flex:none}
+  .viz .vzeile{display:flex;align-items:center;gap:13px;margin-top:14px;font-size:14.5px;flex-wrap:wrap}
+  .viz .vzeile label{color:var(--muted);min-width:180px;flex:none}
   .viz .vzeile input[type=range]{flex:1;min-width:130px;accent-color:var(--accent)}
-  .viz .vzeile output{font-family:var(--mono);font-size:12.5px;min-width:88px;text-align:right;color:var(--ink);font-weight:600;flex:none}
+  .viz .vzeile output{font-family:var(--mono);font-size:14px;min-width:104px;text-align:right;color:var(--ink);font-weight:600;flex:none}
   .viz .vwerte{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
-  .viz .vwert{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:12.5px;flex:1;min-width:124px;color:var(--muted)}
-  .viz .vwert b{display:block;font-family:var(--mono);font-size:15px;margin-top:3px;color:var(--ink)}
+  .viz .vwert{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:11px 15px;font-size:13.5px;flex:1;min-width:150px;color:var(--muted)}
+  .viz .vwert b{display:block;font-family:var(--mono);font-size:17px;margin-top:4px;color:var(--ink)}
   .viz .vwert.a b{color:var(--accent-deep)} .viz .vwert.b b{color:var(--blue)}
   .viz .vwert.g b{color:var(--good)} .viz .vwert.r b{color:#C2603C}
-  .viz .vweg{margin-top:14px;padding-top:13px;border-top:1px solid var(--line-soft);font-family:var(--mono);font-size:12px;line-height:1.95;color:var(--muted)}
+  .viz .vweg{margin-top:18px;padding-top:15px;border-top:1px solid var(--line-soft);font-family:var(--mono);font-size:13px;line-height:2;color:var(--muted)}
   .viz .vweg b{color:var(--ink)}
   .viz .vfehlt{color:#C2603C;font-size:13px;margin:0}
   /* SVG-Bausteine */
@@ -310,12 +321,17 @@
   .viz .vkurve{stroke:var(--accent);stroke-width:2.4;fill:none;stroke-linejoin:round}
   .viz .vkurve2{stroke:var(--blue);stroke-width:2.4;fill:none;stroke-linejoin:round}
   .viz .vflaeche{fill:var(--accent);opacity:.16;stroke:none}
-  .viz .vtxt{font-family:var(--mono);font-size:11px;fill:var(--ink)}
-  .viz .vtxtm{font-family:var(--mono);font-size:10.5px;fill:var(--muted)}
-  @media (max-width:560px){
+  .viz .vtxt{font-family:var(--mono);font-size:12px;fill:var(--ink)}
+  .viz .vtxtm{font-family:var(--mono);font-size:11.5px;fill:var(--muted)}
+  .viz .vhinweis{display:none;font-size:11.5px;color:var(--muted);margin:7px 0 0;font-family:var(--mono)}
+  @media (max-width:620px){
     .viz{padding:15px 13px}
     .viz .vzeile label{min-width:100%}
     .viz .vzeile output{min-width:70px}
+    /* Sonst wird die Schrift in der Zeichnung unlesbar klein - lieber seitlich wischen */
+    .viz .vbuehne svg{min-width:540px}
+    .viz .vhinweis{display:block}
+    .viz .vwert{min-width:100%}
   }
 
   /* --- Rechentrainer --- */
@@ -393,8 +409,10 @@
     .mobnav button{flex:none;background:var(--surface-2);border:1px solid var(--line);border-radius:20px;padding:8px 14px;font-size:13px;color:var(--ink);cursor:pointer;white-space:nowrap}
     .mobnav button.active{background:var(--accent);color:#1a1305;border-color:var(--accent);font-weight:650}
     main{padding:20px 18px 80px}
-    .kapbody h1{font-size:20px}
-    .kapbody h2{font-size:17px}
+    .kapbody h1{font-size:21px;margin-top:20px;padding-top:16px}
+    .kapbody h2{font-size:18.5px;margin:40px 0 12px;padding-top:16px}
+    .kapbody h3{font-size:15.5px;margin:26px 0 8px}
+    .kapbody p,.kapbody ul,.kapbody ol{font-size:14.5px;line-height:1.72}
     .kapbody pre{font-size:11.5px;padding:10px}
     .kapbody table{font-size:12px}
     .kapnav button{min-width:100px;font-size:12.5px}
@@ -2529,6 +2547,7 @@ function mountViz(wurzel){
       '<div class="vkopf"><span class="vlabel">Zum Ausprobieren</span><h4>'+v.titel+'</h4>'+
       (v.was?'<p class="vwas">'+v.was+'</p>':'')+'</div>'+
       '<div class="vbuehne"><svg viewBox="'+(v.vb||'0 0 640 260')+'" role="img" aria-label="'+v.titel+'"></svg></div>'+
+      '<p class="vhinweis">← Zeichnung seitlich verschiebbar →</p>'+
       '<div class="vregler"></div><div class="vwerte"></div>'+
       (v.weg?'<div class="vweg"></div>':'');
 
@@ -3102,8 +3121,10 @@ VIZ.traeger={
    ve(s,'line',{x1:X0,y1:Y-63,x2:X0,y2:Y-53,class:'vmasz'});
    ve(s,'line',{x1:px,y1:Y-63,x2:px,y2:Y-53,class:'vmasz'});
    ve(s,'text',{x:(X0+px)/2,y:Y-64,class:'vtxtm','text-anchor':'middle'},'a = '+vn(st.a,2)+' m');
-   ve(s,'line',{x1:X0,y1:Y+58,x2:X1,y2:Y+58,class:'vmasz'});
-   ve(s,'text',{x:(X0+X1)/2,y:Y+54,class:'vtxtm','text-anchor':'middle'},'l = 6,00 m');
+   ve(s,'line',{x1:X0+24,y1:Y+58,x2:X1-24,y2:Y+58,class:'vmasz'});
+   ve(s,'line',{x1:X0+24,y1:Y+53,x2:X0+24,y2:Y+63,class:'vmasz'});
+   ve(s,'line',{x1:X1-24,y1:Y+53,x2:X1-24,y2:Y+63,class:'vmasz'});
+   ve(s,'text',{x:(X0+X1)/2,y:Y+53,class:'vtxtm','text-anchor':'middle'},'l = 6,00 m');
  },
  weg:(s,r)=>'Momente um A:  F_B · 6,00 = '+vn(s.F,1)+' · '+vn(s.a,2)+' = '+vn(r.M)+' kNm<br>'+
    'F_B = '+vn(r.M)+' / 6,00 = <b>'+vn(r.FB)+' kN</b><br>'+
