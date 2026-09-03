@@ -340,6 +340,8 @@
   .rth{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.11em;color:var(--accent-deep)}
   .rscore{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
   .rfrage{font-size:16px;line-height:1.6;margin:0 0 16px}
+  .rfrage .rnk{display:block;margin-top:9px;font-size:13.5px;color:var(--accent-deep);font-family:var(--mono)}
+  .rfrage .rnk b{color:var(--accent-deep)}
   .reingabe{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
   .reingabe input{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:10px 14px;font-size:16px;color:var(--ink);font-family:var(--mono);width:170px}
   .reingabe input:focus{outline:none;border-color:var(--accent)}
@@ -608,7 +610,7 @@
           <button id="r-neu">Neue Aufgabe</button>
           <button id="r-zeigen">Lösung zeigen</button>
         </div>
-        <p class="rtol">Die Aufgabe hat <strong>einen exakten Wert</strong>. Weil du mit gerundeten Zwischenergebnissen rechnest, lässt der Trainer beim Vergleich <strong>0,5 % Rundungsabweichung</strong> durchgehen – den exakten Wert bekommst du danach immer angezeigt. In der Klausur zählt, was du auf dem Blatt stehen hast.</p>
+        <p class="rtol">Es gibt <strong>keine versteckte Toleranz</strong>. Wo gerundet werden muss, steht die Vorgabe in der Aufgabe – geprüft wird genau auf diese Stelle. Rechne mit allen Stellen durch und runde erst am Ende.</p>
         <div class="rfeedback" id="r-feedback"></div>
         <div class="rweg" id="r-weg"></div>
       </div>
@@ -3823,13 +3825,34 @@ function renderRThema(){
     b.onclick=()=>{rThema=t.id;renderRThema();neueAufgabe();};
     p.appendChild(b);});
 }
+/* Wie genau soll gerundet werden? Haengt an der Groessenordnung des Ergebnisses
+   und steht immer in der Aufgabe - es gibt keine unsichtbare Toleranz. */
+function stellen(a){
+  const x=Math.abs(a);
+  if(x>=10000) return 0;
+  if(x>=1000)  return 1;
+  if(x>=10)    return 2;
+  if(x>=1)     return 3;
+  if(x>=0.01)  return 4;
+  return 6;
+}
+function rundeAuf(x,n){const f=Math.pow(10,n); return Math.round((x+Number.EPSILON*Math.abs(x))*f)/f;}
+function stellenText(n){
+  if(n===0) return 'Runden Sie auf <b>ganze Zahlen</b>.';
+  if(n===1) return 'Runden Sie auf <b>eine Nachkommastelle</b>.';
+  return 'Runden Sie auf <b>'+n+' Nachkommastellen</b>.';
+}
 function neueAufgabe(){
   const l=rListe();
   const t = rThema ? (RTHEMEN.find(x=>x.id===rThema)||l[0]) : l[Math.floor(Math.random()*l.length)];
   if(!t)return;
   rAuf=t.gen(); rAuf.thema=t; rBeantwortet=false;
+  rAuf.nk=stellen(rAuf.a);
+  /* Bei einem glatten Ergebnis waere eine Rundungsvorgabe nur Ballast */
+  rAuf.glatt = Math.abs(rAuf.a-Math.round(rAuf.a))<1e-9;
   document.getElementById('r-thema').textContent=t.fach+' · '+t.n;
-  document.getElementById('r-frage').innerHTML=rAuf.f;
+  document.getElementById('r-frage').innerHTML=rAuf.f+
+    (rAuf.glatt ? '' : '<span class="rnk">'+stellenText(rAuf.nk)+'</span>');
   document.getElementById('r-einheit').textContent=rAuf.e||'';
   const inp=document.getElementById('r-eingabe'); inp.value=''; inp.focus();
   const fb=document.getElementById('r-feedback'); fb.className='rfeedback'; fb.innerHTML='';
@@ -3858,19 +3881,19 @@ function pruefen(){
   const fb=document.getElementById('r-feedback');
   if(v===null){fb.className='rfeedback schlecht';fb.innerHTML='Bitte eine Zahl eintragen. <small>Komma oder Punkt sind beide in Ordnung.</small>';return;}
   rBeantwortet=true; rVersuche++;
-  const soll=rAuf.a, tol=Math.max(Math.abs(soll)*(rAuf.tol||0.005), 1e-9);
-  const ok=Math.abs(v-soll)<=tol;
+  const soll=rAuf.a, nk=rAuf.nk;
+  const sollGerundet=rundeAuf(soll,nk), deinGerundet=rundeAuf(v,nk);
+  const ok = Math.abs(deinGerundet-sollGerundet) < Math.pow(10,-nk)/2;
+  const zeig = nz(sollGerundet,nk);
   if(ok){rTreffer++; fb.className='rfeedback gut';
-    const genau=nz(soll,Math.abs(soll)<10?5:3);
-    const abw=Math.abs((v-soll)/(soll||1))*100;
-    fb.innerHTML='Richtig. <small>Exakter Wert: <b>'+genau+' '+(rAuf.e||'')+'</b>'+
-      (abw>1e-6 ? ' · deine Eingabe weicht um '+nz(abw,3)+' % ab – das ist reine Rundung und wird als richtig gewertet.'
-                : ' · genau getroffen.')+'</small>';}
+    fb.innerHTML='Richtig. <small>Lösung: <b>'+zeig+' '+(rAuf.e||'')+'</b></small>';}
   else{fb.className='rfeedback schlecht';
-    const dpz=Math.abs((v-soll)/(soll||1))*100;
-    const nah = dpz<400 ? ' – du liegst um '+nz(dpz,1)+' % daneben' : '';
-    fb.innerHTML='Nicht ganz. <small>Richtig wäre <b>'+nz(soll,Math.abs(soll)<10?5:3)+' '+(rAuf.e||'')+
-      '</b>'+nah+'. Vergleiche deinen Weg mit dem unten.</small>';}
+    /* Nur die letzte Stelle daneben? Dann lag es fast sicher am Zwischenrunden. */
+    const schritt=Math.pow(10,-nk);
+    const knapp = Math.abs(deinGerundet-sollGerundet) <= schritt*2.001;
+    fb.innerHTML='Nicht ganz. <small>Richtig wäre <b>'+zeig+' '+(rAuf.e||'')+'</b>'+
+      (knapp ? '. Du liegst nur in der letzten Stelle daneben – hast du zwischendurch schon gerundet? Rechne mit allen Stellen und runde erst am Ende.'
+             : '. Vergleiche deinen Weg mit dem unten.')+'</small>';}
   merkeR(rAuf.thema.id, ok);
   zeigeWeg(); renderRScore();
 }
