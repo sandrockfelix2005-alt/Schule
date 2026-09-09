@@ -1,0 +1,525 @@
+[
+ {
+  "datum": "17.10.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "09:30",
+    "fach": "EIN",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   },
+   {
+    "von": "09:45",
+    "bis": "13:00",
+    "fach": "LA2-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "17.10.2026",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA1-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "24.10.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "10:30",
+    "fach": "LA2-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "10:30",
+    "bis": "13:00",
+    "fach": "LA3-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "24.10.2026",
+  "semester": 3,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA1-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "07.11.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "12:15",
+    "fach": "LA1-DEU",
+    "dozent": "GJo",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "07.11.2026",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA3-MAT",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "14.11.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "11:15",
+    "fach": "LA3-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "11:30",
+    "bis": "13:00",
+    "fach": "LA4-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "14.11.2026",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "12:15",
+    "fach": "LA4-DEU",
+    "dozent": "GJo",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "14.11.2026",
+  "semester": 3,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "12:15",
+    "fach": "LA3-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "21.11.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "11:15",
+    "fach": "LA4-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   },
+   {
+    "von": "11:30",
+    "bis": "13:45",
+    "fach": "LA5-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "21.11.2026",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA2-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "05.12.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "09:30",
+    "fach": "LA4-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "09:45",
+    "bis": "13:00",
+    "fach": "LA5-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "05.12.2026",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA5-MAT",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "05.12.2026",
+  "semester": 3,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:45",
+    "fach": "LA2-MAT",
+    "dozent": "JMö",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "12.12.2026",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "08:45",
+    "fach": "LA5-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "08:45",
+    "bis": "13:00",
+    "fach": "LA6-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "12.12.2026",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "08:45",
+    "fach": "LA2-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   },
+   {
+    "von": "08:45",
+    "bis": "12:15",
+    "fach": "LA7-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   },
+   {
+    "von": "12:15",
+    "bis": "13:45",
+    "fach": "BER",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "16.01.2027",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA7-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "16.01.2027",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "12:15",
+    "fach": "LA8-DEU",
+    "dozent": "GJo",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "16.01.2027",
+  "semester": 3,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "12:15",
+    "fach": "LA5-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   },
+   {
+    "von": "12:15",
+    "bis": "13:45",
+    "fach": "LA6-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "23.01.2027",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "09:30",
+    "fach": "LA6-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "09:45",
+    "bis": "13:00",
+    "fach": "LA8-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "13:00",
+    "bis": "13:45",
+    "fach": "BER",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "23.01.2027",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "09:30",
+    "fach": "LA7-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   },
+   {
+    "von": "09:45",
+    "bis": "13:00",
+    "fach": "LA9-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "23.01.2027",
+  "semester": 3,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA4-MAT",
+    "dozent": "JMö",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "30.01.2027",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "09:30",
+    "fach": "LA8-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   },
+   {
+    "von": "09:45",
+    "bis": "12:15",
+    "fach": "LA9-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   },
+   {
+    "von": "12:15",
+    "bis": "13:00",
+    "fach": "LA10-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "30.01.2027",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA6-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "06.02.2027",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "08:45",
+    "fach": "LA8-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "08:45",
+    "bis": "13:00",
+    "fach": "LA9-MAT",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   },
+   {
+    "von": "13:00",
+    "bis": "13:45",
+    "fach": "BER",
+    "dozent": "SKn",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "06.02.2027",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA10-ENG",
+    "dozent": "EOp",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "06.02.2027",
+  "semester": 3,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "11:15",
+    "fach": "LA6-MAT",
+    "dozent": "JMö",
+    "raum": "Aushang"
+   },
+   {
+    "von": "11:30",
+    "bis": "13:00",
+    "fach": "BER",
+    "dozent": "JMö",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "20.02.2027",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "12:15",
+    "fach": "LA11-DEU",
+    "dozent": "GJo",
+    "raum": "Aushang"
+   },
+   {
+    "von": "12:15",
+    "bis": "13:45",
+    "fach": "LA12-DEU",
+    "dozent": "GJo",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "06.03.2027",
+  "semester": 1,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "13:00",
+    "fach": "LA10-PHY",
+    "dozent": "AHO",
+    "raum": "Aushang"
+   }
+  ]
+ },
+ {
+  "datum": "06.03.2027",
+  "semester": 2,
+  "bloecke": [
+   {
+    "von": "08:00",
+    "bis": "09:30",
+    "fach": "LA9-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   },
+   {
+    "von": "09:45",
+    "bis": "13:00",
+    "fach": "LA12-PHY",
+    "dozent": "LBr",
+    "raum": "Aushang"
+   }
+  ]
+ }
+]

@@ -6,6 +6,7 @@
     --ink:#1B2430; --muted:#5A6675; --line:#D3DAE2; --line-soft:#E4E9EF;
     --accent:#DE9128; --accent-deep:#B26A12; --accent-soft:#FbeeD8;
     --blue:#3E6D9C; --grid:#DCE4EC;
+    --schule:#1B3A6B; --schule-bg:#E8EDF6; --schule-line:#C3CEE4;
     --good:#2E7D53; --good-bg:#E4F1E9;
     --radius:10px; --maxw:820px; --lesebreite:760px; --kapbreite:1060px;
     --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
@@ -18,6 +19,7 @@
       --accent:#F0A93E; --accent-deep:#F0A93E; --accent-soft:#2A2416;
       --blue:#8FB4E0; --grid:#182432;
       --good:#57C08A; --good-bg:#152A20;
+      --schule:#8FB0DE; --schule-bg:#16233A; --schule-line:#2A4364;
     }
   }
   :root[data-theme="light"]{
@@ -25,12 +27,14 @@
     --ink:#1B2430; --muted:#5A6675; --line:#D3DAE2; --line-soft:#E4E9EF;
     --accent:#DE9128; --accent-deep:#B26A12; --accent-soft:#FbeeD8;
     --blue:#3E6D9C; --grid:#DCE4EC; --good:#2E7D53; --good-bg:#E4F1E9;
+    --schule:#1B3A6B; --schule-bg:#E8EDF6; --schule-line:#C3CEE4;
   }
   :root[data-theme="dark"]{
     --ground:#0E1520; --surface:#16202E; --surface-2:#1B2736;
     --ink:#E7ECF2; --muted:#93A1B2; --line:#26323F; --line-soft:#1E2A38;
     --accent:#F0A93E; --accent-deep:#F0A93E; --accent-soft:#2A2416;
     --blue:#8FB4E0; --grid:#182432; --good:#57C08A; --good-bg:#152A20;
+    --schule:#8FB0DE; --schule-bg:#16233A; --schule-line:#2A4364;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -289,6 +293,35 @@
   .kapnav{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
   .kapnav button{flex:1;min-width:120px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:13.5px;cursor:pointer;color:var(--ink)}
   .kapnav button:hover{border-color:var(--accent)}
+
+  .icsleiste{display:flex;align-items:center;gap:13px;flex-wrap:wrap;margin:14px 0 4px}
+  .icsleiste button{background:var(--schule);color:#fff;border:none;border-radius:9px;padding:10px 17px;
+                    font-size:14px;font-weight:600;cursor:pointer;font-family:var(--sans)}
+  .icsleiste button:hover{filter:brightness(1.12)}
+  .icsleiste span{font-size:12.5px;color:var(--muted)}
+
+  /* --- Schultage aus dem Betreuungsplan --- */
+  .termtag{background:var(--schule-bg);border:1px solid var(--schule-line);border-left:5px solid var(--schule);
+           border-radius:10px;padding:13px 16px;margin:11px 0}
+  .termtag .tkopf{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;margin-bottom:9px}
+  .termtag .tdat{font-weight:650;font-size:15px;color:var(--schule)}
+  .termtag .tspanne{font-family:var(--mono);font-size:12px;color:var(--schule);opacity:.85}
+  .termtag .tmark{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;
+                  background:var(--schule);color:#fff;border-radius:20px;padding:2px 9px}
+  .termtag .tnr{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .termtag .tbl{display:flex;gap:11px;align-items:baseline;font-size:13px;padding:5px 0;
+                border-top:1px solid var(--schule-line)}
+  .termtag .tzeit{font-family:var(--mono);font-size:12px;color:var(--ink);min-width:96px;flex:none}
+  .termtag .tfach{font-family:var(--mono);font-size:12px;color:var(--schule);font-weight:600}
+  .termtag .tfach em{font-style:normal;font-family:var(--sans);font-weight:400;color:var(--muted);font-size:12.5px}
+  .termtag .tdoz{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted);flex:none}
+  .termtag.next{border-color:var(--schule);box-shadow:0 0 0 1px var(--schule)}
+  .termtag.past{opacity:.5}
+  @media (max-width:560px){
+    .termtag .tbl{flex-wrap:wrap;gap:4px 10px}
+    .termtag .tzeit{min-width:auto}
+    .termtag .tdoz{margin-left:0}
+  }
 
   /* --- Interaktive Grafiken --- */
   .viz{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:40px 0}
@@ -747,9 +780,13 @@
     <!-- TERMINE -->
     <section class="view" data-view="termine">
       <div class="kicker">Termine · Präsenzphasen</div>
-      <h1>Deine Samstage</h1>
-      <p class="lead">Alle Samstage im Semester – ohne die hessischen Schulferien. Der nächste Termin steht oben.</p>
+      <h1>Deine Schultage</h1>
+      <p class="lead" id="termin-quelle"></p>
       <div class="panel tip" id="next-termin"></div>
+      <div class="icsleiste" id="icsleiste">
+        <button id="ics-laden">Termine in den Kalender laden</button>
+        <span>12 Termine mit Erinnerung am Vorabend und eine Stunde vorher</span>
+      </div>
       <div id="termin-out"></div>
       <div class="panel"><strong>Hessische Schulferien</strong><div id="ferien-out"></div></div>
     </section>
@@ -1867,6 +1904,27 @@ const KLAUSUREN = {
  ]}
 };
 
+const ICSTEXT = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Lerntool Bautechnik//DAA-Technikum//DE\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-CALNAME:DAA Präsenztermine · Semester 1\nNAME:DAA Präsenztermine · Semester 1\nX-WR-TIMEZONE:Europe/Berlin\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nX-OUTLOOK-COLOR:#1B3A6B\nX-WR-CALDESC:Betreuungsplan DAA-Technikum\\, Studienort Kassel\nBEGIN:VTIMEZONE\nTZID:Europe/Berlin\nBEGIN:DAYLIGHT\nTZOFFSETFROM:+0100\nTZOFFSETTO:+0200\nTZNAME:CEST\nDTSTART:19700329T020000\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\nEND:DAYLIGHT\nBEGIN:STANDARD\nTZOFFSETFROM:+0200\nTZOFFSETTO:+0100\nTZNAME:CET\nDTSTART:19701025T030000\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\nEND:STANDARD\nEND:VTIMEZONE\nBEGIN:VEVENT\nUID:daa-s1-20261017-be8c69@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261017T080000\nDTEND;TZID=Europe/Berlin:20261017T130000\nSUMMARY:DAA Semester 1 · EIN · Mathematik\nDESCRIPTION:08:00–09:30  EIN  (LBr)\\n09:45–13:00  LA2-MAT  (SKn)\\n\\nS\n tudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom 24.\n 08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · EIN · Mathemati\n k\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · EIN · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261024-dcd1a7@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261024T080000\nDTEND;TZID=Europe/Berlin:20261024T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–10:30  LA2-MAT  (SKn)\\n10:30–13:00  LA3-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261107-083e40@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261107T080000\nDTEND;TZID=Europe/Berlin:20261107T121500\nSUMMARY:DAA Semester 1 · Deutsch/Kommunikation\nDESCRIPTION:08:00–12:15  LA1-DEU  (GJo)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Deutsch/Kommunik\n ation\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Deutsch/Kommunikation\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261114-a480c2@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261114T080000\nDTEND;TZID=Europe/Berlin:20261114T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–11:15  LA3-MAT  (SKn)\\n11:30–13:00  LA4-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261121-e357ae@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261121T080000\nDTEND;TZID=Europe/Berlin:20261121T134500\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–11:15  LA4-PHY  (AHO)\\n11:30–13:45  LA5-PHY  (AHO)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261205-6123c6@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261205T080000\nDTEND;TZID=Europe/Berlin:20261205T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–09:30  LA4-MAT  (SKn)\\n09:45–13:00  LA5-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261212-9c80dc@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261212T080000\nDTEND;TZID=Europe/Berlin:20261212T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–08:45  LA5-MAT  (SKn)\\n08:45–13:00  LA6-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270116-9c88af@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270116T080000\nDTEND;TZID=Europe/Berlin:20270116T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA7-PHY  (AHO)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270123-fea3be@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270123T080000\nDTEND;TZID=Europe/Berlin:20270123T134500\nSUMMARY:DAA Semester 1 · Mathematik · BER\nDESCRIPTION:08:00–09:30  LA6-MAT  (SKn)\\n09:45–13:00  LA8-MAT  (SKn)\\\n n13:00–13:45  BER  (SKn)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE\n R\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270130-fc85fe@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270130T080000\nDTEND;TZID=Europe/Berlin:20270130T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–09:30  LA8-PHY  (AHO)\\n09:45–12:15  LA9-PHY  (AHO)\\\n n12:15–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: Aushang\\nK\n ürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270206-1f0ca9@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270206T080000\nDTEND;TZID=Europe/Berlin:20270206T134500\nSUMMARY:DAA Semester 1 · Mathematik · BER\nDESCRIPTION:08:00–08:45  LA8-MAT  (SKn)\\n08:45–13:00  LA9-MAT  (SKn)\\\n n13:00–13:45  BER  (SKn)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE\n R\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270306-6e5fc2@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270306T080000\nDTEND;TZID=Europe/Berlin:20270306T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: \n Aushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR\n";
+const PLANTERMINE = {
+ 1:[
+  {d:"2026-10-17",b:[["08:00","09:30","EIN","LBr"],["09:45","13:00","LA2-MAT","SKn"]]},
+  {d:"2026-10-24",b:[["08:00","10:30","LA2-MAT","SKn"],["10:30","13:00","LA3-MAT","SKn"]]},
+  {d:"2026-11-07",b:[["08:00","12:15","LA1-DEU","GJo"]]},
+  {d:"2026-11-14",b:[["08:00","11:15","LA3-MAT","SKn"],["11:30","13:00","LA4-MAT","SKn"]]},
+  {d:"2026-11-21",b:[["08:00","11:15","LA4-PHY","AHO"],["11:30","13:45","LA5-PHY","AHO"]]},
+  {d:"2026-12-05",b:[["08:00","09:30","LA4-MAT","SKn"],["09:45","13:00","LA5-MAT","SKn"]]},
+  {d:"2026-12-12",b:[["08:00","08:45","LA5-MAT","SKn"],["08:45","13:00","LA6-MAT","SKn"]]},
+  {d:"2027-01-16",b:[["08:00","13:00","LA7-PHY","AHO"]]},
+  {d:"2027-01-23",b:[["08:00","09:30","LA6-MAT","SKn"],["09:45","13:00","LA8-MAT","SKn"],["13:00","13:45","BER","SKn"]]},
+  {d:"2027-01-30",b:[["08:00","09:30","LA8-PHY","AHO"],["09:45","12:15","LA9-PHY","AHO"],["12:15","13:00","LA10-PHY","AHO"]]},
+  {d:"2027-02-06",b:[["08:00","08:45","LA8-MAT","SKn"],["08:45","13:00","LA9-MAT","SKn"],["13:00","13:45","BER","SKn"]]},
+  {d:"2027-03-06",b:[["08:00","13:00","LA10-PHY","AHO"]]}
+ ]
+};
+/* Stand des Betreuungsplans, wird bei jedem neuen Plan mitgeführt */
+const PLANSTAND = "24.08.2026";
+const PLANORT = "Kassel";
+
 /* ---------- TERMINE: hessische Schulferien (offiziell, Kultusministerium) ---------- */
 const FERIEN = [
  ["Sommerferien 2026","2026-06-29","2026-08-07"],
@@ -2461,17 +2519,77 @@ function samstage(sem){
   while(cur<=end){if(!faelltAus(cur))out.push(new Date(cur));cur.setDate(cur.getDate()+7);}
   return out;
 }
+/* Ausgeschriebene Fachnamen, soweit das Kürzel eindeutig ist */
+function fachName(code){
+  const m={'MAT':'Mathematik','PHY':'Naturwissenschaft','DEU':'Deutsch/Kommunikation','ENG':'Englisch'};
+  for(const k in m){ if(code.endsWith('-'+k)) return m[k]; }
+  return null;
+}
+async function icsSpeichern(btn){
+  const name='DAA-Praesenztermine.ics';
+  const alt=btn.textContent; btn.textContent='…'; btn.disabled=true;
+  const fertig=t=>{btn.textContent=t; setTimeout(()=>{btn.textContent=alt;btn.disabled=false;},2400);};
+  let dl=null;
+  try{ if(window.claude && claude.use) dl=await claude.use('downloads'); }catch(e){ dl=null; }
+  if(dl){
+    try{ await dl.save({filename:name, data:ICSTEXT}); fertig('Gespeichert'); return; }
+    catch(err){ if(err && err.code==='declined'){fertig(alt); return;} }
+  }
+  const url=URL.createObjectURL(new Blob([ICSTEXT],{type:'text/calendar;charset=utf-8'}));
+  const a=document.createElement('a'); a.href=url; a.download=name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),4000);
+  fertig('Gespeichert');
+}
+document.getElementById('ics-laden').onclick=e=>icsSpeichern(e.target);
 function renderTermine(){
-  const list=samstage(curSem),now=new Date();now.setHours(0,0,0,0);
-  const out=document.getElementById('termin-out'),nx=document.getElementById('next-termin');
-  if(!list.length){out.innerHTML='<p class="lead">Für Semester '+curSem+' sind keine Termine hinterlegt.</p>';nx.innerHTML='';return;}
-  const next=list.find(x=>x>=now);
-  nx.innerHTML=next
-    ? '<strong>Nächster Präsenztermin</strong><p style="margin:8px 0 0">'+fmtD(next)+' · noch '+Math.ceil((next-now)/DAY)+' Tage</p>'
-    : '<strong>Semester '+curSem+' liegt in der Vergangenheit</strong><p style="margin:8px 0 0">Alle '+list.length+' Termine sind vorbei.</p>';
-  out.innerHTML='<p class="lead">'+list.length+' Präsenztermine im Semester '+curSem+'</p>'+list.map((x,i)=>{
-    const cls=x<now?'past':(next&&x.getTime()===next.getTime()?'next':'');
-    return '<div class="term '+cls+'"><span class="tdat">'+fmtD(x)+'</span>'+(cls==='next'?'<span>nächster Termin</span>':'')+'<span class="tnr">#'+(i+1)+'</span></div>';
+  const now=new Date(); now.setHours(0,0,0,0);
+  const out=document.getElementById('termin-out'), nx=document.getElementById('next-termin');
+  const quelle=document.getElementById('termin-quelle');
+  const plan=PLANTERMINE[curSem];
+  document.getElementById('icsleiste').style.display = plan ? 'flex' : 'none';
+
+  if(!plan){
+    /* Kein Betreuungsplan hinterlegt – dann nur die geschätzten Samstage, klar als solche benannt */
+    const list=samstage(curSem);
+    quelle.innerHTML='Für Semester '+curSem+' liegt noch <strong>kein Betreuungsplan</strong> vor. '+
+      'Unten stehen die <em>voraussichtlichen</em> Samstage ohne hessische Ferien und Feiertage – '+
+      'sobald du den Plan hast, trage ich die echten Termine ein.';
+    if(!list.length){out.innerHTML='';nx.innerHTML='';return;}
+    const next=list.find(x=>x>=now);
+    nx.innerHTML=next
+      ? '<strong>Voraussichtlich nächster Termin</strong><p style="margin:8px 0 0">'+fmtD(next)+' · noch '+Math.ceil((next-now)/DAY)+' Tage</p>'
+      : '<strong>Semester '+curSem+' liegt in der Vergangenheit</strong>';
+    out.innerHTML=list.map((x,i)=>{
+      const cls=x<now?'past':(next&&x.getTime()===next.getTime()?'next':'');
+      return '<div class="term '+cls+'"><span class="tdat">'+fmtD(x)+'</span><span class="tnr">#'+(i+1)+'</span></div>';
+    }).join('');
+    return;
+  }
+
+  const tage=plan.map(t=>({dt:d(t.d), b:t.b}));
+  const naechster=tage.find(t=>t.dt>=now);
+  quelle.innerHTML='<strong>'+tage.length+' Präsenztermine</strong> aus dem Betreuungsplan vom '+PLANSTAND+
+    ' · Studienort '+PLANORT+' · Semester '+curSem+'. Räume werden per Aushang bekannt gegeben.';
+  nx.innerHTML = naechster
+    ? '<strong>Nächster Schultag</strong><p style="margin:8px 0 0">'+fmtD(naechster.dt)+' · '+
+      naechster.b[0][0]+'–'+naechster.b[naechster.b.length-1][1]+' Uhr · noch '+
+      Math.ceil((naechster.dt-now)/DAY)+' Tage</p>'
+    : '<strong>Alle Termine dieses Semesters sind vorbei</strong>';
+  out.innerHTML=tage.map((t,i)=>{
+    const cls = t.dt<now ? 'past' : (naechster && t.dt.getTime()===naechster.dt.getTime() ? 'next' : '');
+    const bis = t.b[t.b.length-1][1];
+    const bloecke = t.b.map(b=>{
+      const n=fachName(b[2]);
+      return '<div class="tbl"><span class="tzeit">'+b[0]+'–'+b[1]+'</span>'+
+             '<span class="tfach">'+b[2]+(n?' <em>'+n+'</em>':'')+'</span>'+
+             '<span class="tdoz">'+b[3]+'</span></div>';
+    }).join('');
+    return '<div class="termtag '+cls+'">'+
+      '<div class="tkopf"><span class="tdat">'+fmtD(t.dt)+'</span>'+
+      '<span class="tspanne">'+t.b[0][0]+'–'+bis+' Uhr</span>'+
+      (cls==='next'?'<span class="tmark">nächster</span>':'')+
+      '<span class="tnr">#'+(i+1)+'</span></div>'+bloecke+'</div>';
   }).join('');
   const fe=[];
   if(SEMZEIT[curSem]){const s=d(SEMZEIT[curSem][0]),e2=d(SEMZEIT[curSem][1]);

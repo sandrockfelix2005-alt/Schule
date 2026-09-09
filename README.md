@@ -16,7 +16,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
 | **`Lernkapitel/`** | **Der vollständige Lehrstoff** in 23 Kapiteln (569 KB) – zum Lernen ohne gedruckte Hefte. |
 | **`Formelsammlung/`** | Alle Formeln kompakt – Prüfungshilfsmittel-Training. |
-| **`Termine.md`** | Präsenztermine (Samstage ohne hessische Ferien/Feiertage). |
+| **`Termine/`** | Der **Betreuungsplan des DAA** als PDF und ausgelesen als JSON. |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
 | **`tools/`** | Hilfsskripte: PDF-Text auslesen, Kapitel ins Tool einbauen, Suchindex bauen, Grafiken einspielen und setzen. |
 | **`Visualisierungen/`** | Quelltext der 24 interaktiven Grafiken (SVG mit Reglern). |
@@ -81,7 +81,8 @@ Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nu
 
 ## 📐 Formelsammlung & Termine
 - [Alle Formeln (92)](Formelsammlung/Semester-1_Formeln.md) – Prüfungshilfsmittel
-- [Präsenztermine](Termine.md) – Samstage ohne hessische Ferien und Feiertage
+- **Schultage Semester 1:** 12 Präsenztermine vom 17.10.2026 bis 06.03.2027 (Betreuungsplan vom 24.08.2026, Studienort Kassel)
+- [`DAA-Praesenztermine.ics`](DAA-Praesenztermine.ics) – zum Import in den Handy-Kalender
 
 ## 🖥️ Das HTML-Lerntool
 Es gibt **zwei Fassungen** – der Inhalt ist identisch, sie unterscheiden sich nur bei den Original-PDFs:
@@ -106,7 +107,7 @@ Beide bündeln alles in einer App für Handy und PC:
 | **Original-PDFs** | alle 14 DAA-Dokumente direkt öffnen oder aufs Gerät speichern |
 | **Lexikon** | 74 Begriffe mit ausführlicher Erklärung |
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
-| **Lernplan / Termine** | Checkliste je Semester und Präsenztermine |
+| **Lernplan / Termine** | Checkliste je Semester und die **echten Schultage** aus dem Betreuungsplan, mit Kalender-Download |
 | **Globale Suche** | findet alles auf einmal – auch im **Originaltext der PDFs**, mit Sprung auf die richtige Seite |
 
 Semester 1–7 sind umschaltbar; Fortschritt und Notizen werden pro Semester gespeichert.
