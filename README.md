@@ -14,7 +14,7 @@ Hier laufen alle Unterlagen, Zusammenfassungen, Karteikarten und ein Lexikon zus
 | **`Zusammenfassungen/`** | Je Lernmodul **zwei Varianten**: *kompakt* (schneller Überblick zum Wiederholen) und *ausführlich* (detailliertes Nachschlagewerk mit Schritt-für-Schritt-Beispielen). |
 | **`Karteikarten/`** | Frage-Antwort-Karten zum Auswendiglernen. Als `.csv` direkt in **Anki** importierbar. |
 | **`Uebungsaufgaben/`** | Aufgaben zum Selbertesten mit **eingeklappten Lösungen**. |
-| **`Lernkapitel/`** | **Der vollständige Lehrstoff** in 23 Kapiteln (569 KB) – zum Lernen ohne gedruckte Hefte. |
+| **`Lernkapitel/`** | **Der vollständige Lehrstoff** in 24 Kapiteln (600 KB) – zum Lernen ohne gedruckte Hefte. Naturwissenschaft beginnt mit einem **Kapitel 0**, das die Grundlagen von vorn aufbaut. |
 | **`Formelsammlung/`** | Alle Formeln kompakt – Prüfungshilfsmittel-Training. |
 | **`Termine/`** | Der **Betreuungsplan des DAA** als PDF und ausgelesen als JSON. |
 | **`Lexikon/`** | Nachschlagewerk: Begriffe, Formeln und Regeln mit Erklärung **und Beispiel**. |
@@ -103,9 +103,10 @@ Beide bündeln alles in einer App für Handy und PC:
 | **Rechentrainer** | 23 Aufgabentypen mit **immer neuen Zahlen**, Rechenweg und Trefferquote je Thema |
 | **Probeklausur** | 6 Klausuren – je 2 Varianten für Mathematik, Naturwissenschaft und Deutsch, 90 min mit Timer |
 | **Formelsammlung** | durchsuchbar + Trainer „Welche Formel brauche ich?“ |
-| **Lernkapitel** | **der komplette Lehrstoff in 23 Kapiteln** – ersetzt die gedruckten Hefte, mit **24 Grafiken zum Ausprobieren** direkt im Text |
+| **Lernkapitel** | **der komplette Lehrstoff in 24 Kapiteln** – ersetzt die gedruckten Hefte, mit **27 Grafiken zum Ausprobieren** direkt im Text |
 | **Original-PDFs** | alle 14 DAA-Dokumente direkt öffnen oder aufs Gerät speichern |
 | **Lexikon** | 74 Begriffe mit ausführlicher Erklärung |
+| **`tools/bauen.py`** | baut die drei Fassungen neu – nach einem Container-Reset genügt dieser Aufruf |
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
 | **Lernplan / Termine** | Checkliste je Semester und die **echten Schultage** aus dem Betreuungsplan, mit Kalender-Download |
 | **Globale Suche** | findet alles auf einmal – auch im **Originaltext der PDFs**, mit Sprung auf die richtige Seite |

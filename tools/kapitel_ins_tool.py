@@ -21,6 +21,20 @@ def main():
 
     ordner = {'Mathematik I':'Mathematik','Naturwissenschaft':'Naturwissenschaft','Deutsch/Kommunikation':'Deutsch'}
     geaendert = []
+    # Neue Kapiteldateien aufnehmen, die es im Tool noch nicht gibt
+    for fach in daten:
+        verz = BASIS/'Lernkapitel'/'Semester-1'/ordner[fach['f']]
+        for mod in fach['mod']:
+            lm = re.match(r'Lernmodul (\d)', mod['m']).group(1)
+            vorhanden = {re.match(r'K(\d)', k['t']).group(1) for k in mod['k']}
+            for datei in sorted(verz.glob('LM%s-K*.md' % lm)):
+                knr = re.match(r'LM\d-K(\d)', datei.name).group(1)
+                if knr in vorhanden: continue
+                titel = 'K%s · %s' % (knr, datei.stem.split('_',1)[1].replace('-',' '))
+                mod['k'].append({'t': titel, 'h': ''})
+                geaendert.append('NEU: %s %s' % (fach['f'], titel))
+            mod['k'].sort(key=lambda k: int(re.match(r'K(\d)', k['t']).group(1)))
+
     for fach in daten:
         verz = BASIS/'Lernkapitel'/'Semester-1'/ordner[fach['f']]
         for mod in fach['mod']:
