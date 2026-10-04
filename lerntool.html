@@ -311,6 +311,43 @@
   button.tkap:hover{border-color:var(--schule);background:var(--surface-2)}
   button.tkap span{font-size:11.5px;color:var(--schule);font-family:var(--mono)}
 
+  /* --- Tagesplan --- */
+  .tpkopf{display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;background:var(--schule-bg);
+          border:1px solid var(--schule-line);border-left:5px solid var(--schule);
+          border-radius:12px;padding:17px 20px;margin:4px 0 18px}
+  .tpkopf h2{font-size:22px;margin:5px 0 3px;color:var(--schule)}
+  .tpkopf p{margin:0;font-size:13.5px;color:var(--muted)}
+  .tpfort{margin-left:auto;text-align:right;min-width:150px}
+  .tpfort b{display:block;font-family:var(--mono);font-size:26px;color:var(--schule);line-height:1.1}
+  .tpfort span{font-size:12px;color:var(--muted)}
+  .tpbalken{height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden;margin-top:7px}
+  .tpbalken i{display:block;height:100%;background:var(--schule)}
+  .tptag{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px 16px;margin:9px 0}
+  .tptag.heute{border-color:var(--schule);border-left:5px solid var(--schule);box-shadow:0 0 0 1px var(--schule)}
+  .tptag.vorbei{opacity:.55}
+  .tpkopfz{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:9px}
+  .tpdat{font-family:var(--mono);font-size:12px;color:var(--schule);font-weight:650;flex:none}
+  .tph{font-size:15px;font-weight:600}
+  .tpmark{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;
+          background:var(--schule);color:#fff;border-radius:20px;padding:2px 9px}
+  .tpmin{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:auto}
+  .tpzahl{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .tpz{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:14px;cursor:pointer;
+       border-top:1px solid var(--line-soft)}
+  .tpz input{accent-color:var(--schule);width:17px;height:17px;flex:none;cursor:pointer}
+  .tpz.done span{text-decoration:line-through;color:var(--muted)}
+  .tpz span{flex:1}
+  .tpgo{background:var(--surface-2);border:1px solid var(--line);border-radius:7px;padding:4px 11px;
+        font-size:11.5px;font-family:var(--mono);color:var(--schule);cursor:pointer;flex:none}
+  .tpgo:hover{border-color:var(--schule)}
+  .tptipp{margin:10px 0 0;padding:9px 12px;background:var(--surface-2);border-radius:7px;
+          font-size:13px;color:var(--muted);line-height:1.6}
+  h2.planueber{font-size:17px;margin:34px 0 12px;padding-top:16px;border-top:1px solid var(--line)}
+  @media (max-width:560px){
+    .tpfort{margin-left:0;text-align:left;width:100%}
+    .tpmin{margin-left:0}
+  }
+
   /* --- Schultage aus dem Betreuungsplan --- */
   .termtag{background:var(--schule-bg);border:1px solid var(--schule-line);border-left:5px solid var(--schule);
            border-radius:10px;padding:13px 16px;margin:11px 0}
@@ -808,6 +845,8 @@
       <div class="kicker">Lernplan · 10 Lernabschnitte</div>
       <h1>Checkliste Semester 1</h1>
       <p class="lead">Hake ab, was du erledigt hast — dein Fortschritt wird auf diesem Gerät gespeichert.</p>
+      <div id="tagesplan"></div>
+      <h2 class="planueber" id="plan-ueber">Die Lernabschnitte des Semesters</h2>
       <div id="plan-list"></div>
       <button class="reset" id="reset">Fortschritt zurücksetzen</button>
     </section>
@@ -1917,6 +1956,70 @@ const KLAUSUREN = {
 const ICSTEXT = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Lerntool Bautechnik//DAA-Technikum//DE\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-CALNAME:DAA Präsenztermine · Semester 1\nNAME:DAA Präsenztermine · Semester 1\nX-WR-TIMEZONE:Europe/Berlin\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nX-OUTLOOK-COLOR:#1B3A6B\nX-WR-CALDESC:Betreuungsplan DAA-Technikum\\, Studienort Kassel\nBEGIN:VTIMEZONE\nTZID:Europe/Berlin\nBEGIN:DAYLIGHT\nTZOFFSETFROM:+0100\nTZOFFSETTO:+0200\nTZNAME:CEST\nDTSTART:19700329T020000\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\nEND:DAYLIGHT\nBEGIN:STANDARD\nTZOFFSETFROM:+0200\nTZOFFSETTO:+0100\nTZNAME:CET\nDTSTART:19701025T030000\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\nEND:STANDARD\nEND:VTIMEZONE\nBEGIN:VEVENT\nUID:daa-s1-20261017-be8c69@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261017T080000\nDTEND;TZID=Europe/Berlin:20261017T130000\nSUMMARY:DAA Semester 1 · EIN · Mathematik\nDESCRIPTION:08:00–09:30  EIN  (LBr)\\n09:45–13:00  LA2-MAT  (SKn)\\n\\nS\n tudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom 24.\n 08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · EIN · Mathemati\n k\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · EIN · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261024-dcd1a7@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261024T080000\nDTEND;TZID=Europe/Berlin:20261024T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–10:30  LA2-MAT  (SKn)\\n10:30–13:00  LA3-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261107-083e40@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261107T080000\nDTEND;TZID=Europe/Berlin:20261107T121500\nSUMMARY:DAA Semester 1 · Deutsch/Kommunikation\nDESCRIPTION:08:00–12:15  LA1-DEU  (GJo)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Deutsch/Kommunik\n ation\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Deutsch/Kommunikation\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261114-a480c2@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261114T080000\nDTEND;TZID=Europe/Berlin:20261114T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–11:15  LA3-MAT  (SKn)\\n11:30–13:00  LA4-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261121-e357ae@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261121T080000\nDTEND;TZID=Europe/Berlin:20261121T134500\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–11:15  LA4-PHY  (AHO)\\n11:30–13:45  LA5-PHY  (AHO)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261205-6123c6@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261205T080000\nDTEND;TZID=Europe/Berlin:20261205T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–09:30  LA4-MAT  (SKn)\\n09:45–13:00  LA5-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261212-9c80dc@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261212T080000\nDTEND;TZID=Europe/Berlin:20261212T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–08:45  LA5-MAT  (SKn)\\n08:45–13:00  LA6-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270116-9c88af@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270116T080000\nDTEND;TZID=Europe/Berlin:20270116T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA7-PHY  (AHO)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270123-fea3be@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270123T080000\nDTEND;TZID=Europe/Berlin:20270123T134500\nSUMMARY:DAA Semester 1 · Mathematik · BER\nDESCRIPTION:08:00–09:30  LA6-MAT  (SKn)\\n09:45–13:00  LA8-MAT  (SKn)\\\n n13:00–13:45  BER  (SKn)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE\n R\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270130-fc85fe@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270130T080000\nDTEND;TZID=Europe/Berlin:20270130T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–09:30  LA8-PHY  (AHO)\\n09:45–12:15  LA9-PHY  (AHO)\\\n n12:15–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: Aushang\\nK\n ürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270206-1f0ca9@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270206T080000\nDTEND;TZID=Europe/Berlin:20270206T134500\nSUMMARY:DAA Semester 1 · Mathematik · BER\nDESCRIPTION:08:00–08:45  LA8-MAT  (SKn)\\n08:45–13:00  LA9-MAT  (SKn)\\\n n13:00–13:45  BER  (SKn)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE\n R\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270306-6e5fc2@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270306T080000\nDTEND;TZID=Europe/Berlin:20270306T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: \n Aushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR\n";
 /* Was an einem Schultag drankommt. Quelle: WilmA / Technikum24.
    Nur eingetragen, was ich tatsaechlich gesehen habe - der Rest bleibt offen. */
+/* Tagesplan bis zum naechsten Schultag.
+   Ziele: ['kapitel',Fach,Modul,Kapitel] · ['karten',Stapel] · ['uebung',Modul]
+          ['rechnen',ThemenId] · ['wdh'] · null = nur abhaken */
+const TAGESPLAN = {
+ ziel:'2026-10-17',
+ was:'Mathematik I · Lernmodul 1, Kapitel 1 bis 3.5',
+ tage:[
+  {d:'2026-10-04',min:90,h:'Kapitel 1 beginnen · Zeichen und Runden',
+   p:[['Abschnitt 1.1 Zeichen und Abkürzungen lesen',['kapitel','Mathematik I',0,0]],
+      ['Abschnitt 1.2 Runden von Zahlen lesen',['kapitel','Mathematik I',0,0]],
+      ['Übungsaufgabe 1 · Runden',['uebung','Mathe LM1']]],
+   tipp:'In WilmA stehst du bei Kap. 1–1.4 schon auf 55 %. Was davon sitzt, überspringst du – dann zieh 1.3 vor.'},
+  {d:'2026-10-05',min:45,h:'Zehnerpotenzen',
+   p:[['Abschnitt 1.3 Zehnerpotenzen lesen',['kapitel','Mathematik I',0,0]],
+      ['Grafik „Das Komma wandert“ durchziehen',['kapitel','Mathematik I',0,0]],
+      ['Übungsaufgaben 2 und 3',['uebung','Mathe LM1']]]},
+  {d:'2026-10-06',min:45,h:'Dualsystem',
+   p:[['Abschnitt 1.4 Zweiersystem lesen',['kapitel','Mathematik I',0,0]],
+      ['Übungsaufgabe 4 · Dualsystem',['uebung','Mathe LM1']],
+      ['Rechentrainer: Zehnerpotenzen, 10 Aufgaben',['rechnen','zehner']]]},
+  {d:'2026-10-07',min:45,h:'Kapitel 1 festigen',
+   p:[['Selbstkontrolle am Kapitelende durchgehen',['kapitel','Mathematik I',0,0]],
+      ['Karteikarten Mathe LM1, erste Runde',['karten','Mathe LM1']],
+      ['Rechentrainer: Einheiten umrechnen, 10 Aufgaben',['rechnen','einheit']]],
+   tipp:'Erst wenn die Selbstkontrolle ohne Nachschlagen klappt, ist Kapitel 1 durch.'},
+  {d:'2026-10-08',min:45,h:'Zahlenmengen · ℕ, ℤ, ℚ',
+   p:[['Abschnitte 2.1 bis 2.3 lesen',['kapitel','Mathematik I',0,1]],
+      ['Die Aufgaben im Kapitel dazu rechnen',['kapitel','Mathematik I',0,1]]]},
+  {d:'2026-10-09',min:45,h:'Zahlenmengen · ℝ und ℂ',
+   p:[['Abschnitte 2.4 und 2.5 lesen',['kapitel','Mathematik I',0,1]],
+      ['Übungsaufgabe 5 · Zahlenmengen zuordnen',['uebung','Mathe LM1']]]},
+  {d:'2026-10-10',min:90,h:'Kapitel 2 abschließen',
+   p:[['Restliche Kapitelaufgaben rechnen',['kapitel','Mathematik I',0,1]],
+      ['Selbstkontrolle Kapitel 2',['kapitel','Mathematik I',0,1]],
+      ['Fällige Karteikarten wiederholen',['wdh']]]},
+  {d:'2026-10-11',min:90,h:'Zwischenstand · Kapitel 1 und 2 sitzen lassen',
+   p:[['Alle fälligen Karteikarten',['wdh']],
+      ['Fehlerbuch durchgehen – was du als „nochmal“ markiert hast',['uebung','Mathe LM1']],
+      ['Rechentrainer: bunt gemischt Mathematik, 15 Aufgaben',['rechnen',null]],
+      ['Was hakt: das betreffende Kapitel noch einmal',['kapitel','Mathematik I',0,0]]],
+   tipp:'Halbzeit. Was heute nicht sitzt, hat noch sechs Tage Zeit – was du heute überspringst, fehlt am Samstag.'},
+  {d:'2026-10-12',min:45,h:'Grundrechenarten',
+   p:[['Abschnitte 3.1 und 3.2 lesen',['kapitel','Mathematik I',0,2]],
+      ['Übungsaufgabe 6 · Klammer und Punkt vor Strich',['uebung','Mathe LM1']]]},
+  {d:'2026-10-13',min:45,h:'Klammerrechnen und Faktorisieren',
+   p:[['Abschnitt 3.3 lesen',['kapitel','Mathematik I',0,2]],
+      ['Die Kapitelaufgaben dazu rechnen',['kapitel','Mathematik I',0,2]]]},
+  {d:'2026-10-14',min:60,h:'Binomische Formeln',
+   p:[['Abschnitt 3.4 lesen',['kapitel','Mathematik I',0,2]],
+      ['Übungsaufgaben 7 und 8 · ausmultiplizieren und faktorisieren',['uebung','Mathe LM1']]],
+   tipp:'Die drei binomischen Formeln musst du auswendig können – sie kommen in jedem weiteren Modul vor.'},
+  {d:'2026-10-15',min:60,h:'Polynomdivision',
+   p:[['Abschnitt 3.5 lesen',['kapitel','Mathematik I',0,2]],
+      ['Übungsaufgabe 9 · Polynomdivision',['uebung','Mathe LM1']],
+      ['Selbstkontrolle Kapitel 3',['kapitel','Mathematik I',0,2]]],
+   tipp:'Der schwerste Teil des Moduls. Lieber einmal langsam und richtig als dreimal schnell.'},
+  {d:'2026-10-16',min:90,h:'Generalprobe',
+   p:[['Bau-Aufgaben 10 bis 14 rechnen',['uebung','Mathe LM1']],
+      ['Alle 34 Karteikarten einmal durch',['karten','Mathe LM1']],
+      ['Fehlerbuch leeren',['uebung','Mathe LM1']],
+      ['Formelsammlung überfliegen – wo steht was?',['formeln']]],
+   tipp:'Morgen ist Schule. Heute nichts Neues mehr anfangen, nur noch festigen.'}
+ ]
+};
 const DOZENT = {'LBr':'Lars Bruchhäuser','SKn':'Sebastian Kneip'};
 const LACODE = {'EIN':'Einführung'};
 /* Der Stoff haengt am einzelnen Termin, nicht am Kuerzel: derselbe Lernabschnitt
@@ -2159,7 +2262,80 @@ let state=loadState();
 function pid(ai,ii){return curSem+'-'+ai+'-'+ii;}
 function totalItems(){return curData().PLAN.reduce((n,a)=>n+a[2].length,0);}
 function updateProgress(){const P=curData().PLAN;const tot=totalItems();let done=0;P.forEach((ab,ai)=>ab[2].forEach((_,ii)=>{if(state[pid(ai,ii)])done++;}));const pct=tot?Math.round(done/tot*100):0;document.getElementById('pct').textContent=pct+' %';document.getElementById('barfill').style.width=pct+'%';}
-function renderPlan(){const wrap=document.getElementById('plan-list');wrap.innerHTML='';const P=curData().PLAN;if(!P.length){wrap.innerHTML=emptyMsg('Lernabschnitte');return;}P.forEach((ab,ai)=>{const box=document.createElement('div');box.className='chk-abschnitt';const done=ab[2].filter((_,ii)=>state[pid(ai,ii)]).length;box.innerHTML='<div class="chk-head"><span>'+ab[0]+'</span><span class="meta">'+done+'/'+ab[2].length+' · '+ab[1]+'</span></div>';const body=document.createElement('div');body.className='chk-body';ab[2].forEach((t,ii)=>{const id=pid(ai,ii);const soon=/\[Material folgt\]/.test(t);const label=t.replace(/\s*\[Material folgt\]/,'');const row=document.createElement('label');row.className='chk'+(state[id]?' done':'');row.innerHTML='<input type="checkbox" '+(state[id]?'checked':'')+'><span>'+label+(soon?' <span class="soon">Material folgt</span>':'')+'</span>';row.querySelector('input').addEventListener('change',e=>{state[id]=e.target.checked;saveState(state);renderPlan();updateProgress();});body.appendChild(row);});box.appendChild(body);wrap.appendChild(box);});}
+
+/* ---------- TAGESPLAN bis zum naechsten Schultag ---------- */
+function springe(ziel){
+  if(!ziel) return;
+  const art=ziel[0];
+  if(art==='kapitel'){
+    const fi=KAP.findIndex(f=>f.f===ziel[1]); if(fi<0) return;
+    show('kapitel'); kFach=fi; kModul=ziel[2];
+    renderKapFach(); renderKapModul(); openKap(ziel[3]);
+  } else if(art==='karten'){
+    show('karten'); curDeck=ziel[1]; idx=0; renderDeckPicks(); renderCard();
+  } else if(art==='uebung'){
+    show('uebung'); curUeb=ziel[1]; uebMode='alle';
+    document.getElementById('uebmode').querySelectorAll('button')
+      .forEach(x=>x.classList.toggle('on', x.dataset.m==='alle'));
+    renderUebPicks(); renderUeb();
+  } else if(art==='rechnen'){
+    show('rechnen'); rThema=ziel[1]||null; rFach='alle';
+    renderRThema(); neueAufgabe();
+  } else if(art==='wdh'){ show('wdh'); refreshWdhStats(); }
+  else if(art==='formeln'){ show('formeln'); renderFFach(); renderFormeln(); }
+}
+function renderTagesplan(){
+  const box=document.getElementById('tagesplan');
+  const ueber=document.getElementById('plan-ueber');
+  if(curSem!==1 || !TAGESPLAN){ box.innerHTML=''; ueber.style.display='none'; return; }
+  ueber.style.display='';
+  const heute=new Date(); heute.setHours(0,0,0,0);
+  const ziel=d(TAGESPLAN.ziel);
+  const offen=Math.ceil((ziel-heute)/DAY);
+  const alle=TAGESPLAN.tage.reduce((n,t)=>n+t.p.length,0);
+  const fertig=TAGESPLAN.tage.reduce((n,t,ti)=>n+t.p.filter((_,pi)=>state['tp-'+ti+'-'+pi]).length,0);
+
+  let html='<div class="tpkopf"><div><span class="kicker">Lernplan bis zum ersten Schultag</span>'+
+    '<h2>'+(offen>0? 'Noch '+offen+' Tage' : 'Heute ist Schultag')+'</h2>'+
+    '<p>'+TAGESPLAN.was+' · '+fmtD(ziel)+'</p></div>'+
+    '<div class="tpfort"><b>'+fertig+'</b><span>von '+alle+' erledigt</span>'+
+    '<div class="tpbalken"><i style="width:'+(alle?Math.round(fertig/alle*100):0)+'%"></i></div></div></div>';
+
+  TAGESPLAN.tage.forEach((t,ti)=>{
+    const dt=d(t.d);
+    const cls = dt.getTime()===heute.getTime() ? 'heute' : (dt<heute ? 'vorbei' : '');
+    const erledigt=t.p.filter((_,pi)=>state['tp-'+ti+'-'+pi]).length;
+    html+='<div class="tptag '+cls+'" data-ti="'+ti+'">'+
+      '<div class="tpkopfz"><span class="tpdat">'+fmtD(dt)+'</span>'+
+      '<span class="tph">'+t.h+'</span>'+
+      (cls==='heute'?'<span class="tpmark">heute</span>':'')+
+      '<span class="tpmin">'+t.min+' min</span>'+
+      '<span class="tpzahl">'+erledigt+'/'+t.p.length+'</span></div>'+
+      t.p.map((p,pi)=>{
+        const id='tp-'+ti+'-'+pi;
+        return '<label class="tpz'+(state[id]?' done':'')+'">'+
+          '<input type="checkbox" data-id="'+id+'" '+(state[id]?'checked':'')+'>'+
+          '<span>'+p[0]+'</span>'+
+          (p[1]?'<button class="tpgo" data-ti="'+ti+'" data-pi="'+pi+'">öffnen</button>':'')+
+          '</label>';
+      }).join('')+
+      (t.tipp?'<p class="tptipp">'+t.tipp+'</p>':'')+
+    '</div>';
+  });
+  box.innerHTML=html;
+  box.querySelectorAll('input[type=checkbox]').forEach(c=>c.onchange=()=>{
+    if(c.checked) state[c.dataset.id]=1; else delete state[c.dataset.id];
+    saveState(state); renderTagesplan();
+  });
+  box.querySelectorAll('.tpgo').forEach(b=>b.onclick=e=>{
+    e.preventDefault(); e.stopPropagation();
+    springe(TAGESPLAN.tage[+b.dataset.ti].p[+b.dataset.pi][1]);
+  });
+  const h=box.querySelector('.tptag.heute');
+  if(h && !box.dataset.gescrollt){ box.dataset.gescrollt='1'; }
+}
+
+function renderPlan(){renderTagesplan();const wrap=document.getElementById('plan-list');wrap.innerHTML='';const P=curData().PLAN;if(!P.length){wrap.innerHTML=emptyMsg('Lernabschnitte');return;}P.forEach((ab,ai)=>{const box=document.createElement('div');box.className='chk-abschnitt';const done=ab[2].filter((_,ii)=>state[pid(ai,ii)]).length;box.innerHTML='<div class="chk-head"><span>'+ab[0]+'</span><span class="meta">'+done+'/'+ab[2].length+' · '+ab[1]+'</span></div>';const body=document.createElement('div');body.className='chk-body';ab[2].forEach((t,ii)=>{const id=pid(ai,ii);const soon=/\[Material folgt\]/.test(t);const label=t.replace(/\s*\[Material folgt\]/,'');const row=document.createElement('label');row.className='chk'+(state[id]?' done':'');row.innerHTML='<input type="checkbox" '+(state[id]?'checked':'')+'><span>'+label+(soon?' <span class="soon">Material folgt</span>':'')+'</span>';row.querySelector('input').addEventListener('change',e=>{state[id]=e.target.checked;saveState(state);renderPlan();updateProgress();});body.appendChild(row);});box.appendChild(body);wrap.appendChild(box);});}
 document.getElementById('reset').onclick=()=>{if(confirm('Fortschritt für Semester '+curSem+' zurücksetzen?')){curData().PLAN.forEach((ab,ai)=>ab[2].forEach((_,ii)=>{delete state[pid(ai,ii)];}));saveState(state);renderPlan();updateProgress();}};
 
 
