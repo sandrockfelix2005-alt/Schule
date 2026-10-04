@@ -82,6 +82,7 @@ Die Ordnerstruktur für **alle 7 Semester** ist bereits vorhanden – es muss nu
 ## 📐 Formelsammlung & Termine
 - [Alle Formeln (92)](Formelsammlung/Semester-1_Formeln.md) – Prüfungshilfsmittel
 - **Schultage Semester 1:** 12 Präsenztermine vom 17.10.2026 bis 06.03.2027 (Betreuungsplan vom 24.08.2026, Studienort Kassel)
+- **Erster Schultag 17.10.2026:** Einführung (L. Bruchhäuser) und Mathematik I Lernmodul 1 komplett, Kap. 1 bis 3.5 (S. Kneip)
 - [`DAA-Praesenztermine.ics`](DAA-Praesenztermine.ics) – zum Import in den Handy-Kalender
 
 ## 🖥️ Das HTML-Lerntool
