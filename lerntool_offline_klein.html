@@ -312,6 +312,27 @@
   button.tkap:hover{border-color:var(--schule);background:var(--surface-2)}
   button.tkap span{font-size:11.5px;color:var(--schule);font-family:var(--mono)}
 
+  /* --- Synchronisierung --- */
+  .syncstand{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);
+             border-radius:10px;padding:14px 16px;margin:4px 0 12px}
+  .syncstand .syncpunkt{width:11px;height:11px;border-radius:50%;flex:none;margin-top:5px;background:var(--muted)}
+  .syncstand.an .syncpunkt{background:var(--good)}
+  .syncstand.an{border-color:var(--good)}
+  .syncstand.lokal .syncpunkt{background:var(--accent)}
+  .syncstand.fehler .syncpunkt{background:#C2603C}
+  .syncstand strong{font-size:14.5px;display:block}
+  .syncstand p{margin:4px 0 0;font-size:13px;color:var(--muted);line-height:1.6}
+  .syncstand .synczeit{font-family:var(--mono);font-size:11.5px}
+  .syncbox{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:15px 17px}
+  .syncbox p{margin:0 0 12px;font-size:13.5px;color:var(--muted);line-height:1.65}
+  .syncknoepfe{display:flex;gap:9px;flex-wrap:wrap}
+  .syncknoepfe button{background:var(--surface-2);border:1px solid var(--line);border-radius:9px;
+                      padding:9px 16px;font-size:13.5px;color:var(--ink);cursor:pointer;font-family:var(--sans)}
+  .syncknoepfe button:hover{border-color:var(--schule)}
+  .syncmelde{margin:11px 0 0;font-size:13px}
+  .syncmelde.gut{color:var(--good)}
+  .syncmelde.fehler{color:#C2603C}
+
   /* --- Tagesplan --- */
   .tpkopf{display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;background:var(--schule-bg);
           border:1px solid var(--schule-line);border-left:5px solid var(--schule);
@@ -849,6 +870,19 @@
       <div id="tagesplan"></div>
       <h2 class="planueber" id="plan-ueber">Die Lernabschnitte des Semesters</h2>
       <div id="plan-list"></div>
+
+      <h2 class="planueber">Fortschritt sichern und übertragen</h2>
+      <div class="syncstand" id="syncstand"></div>
+      <div class="syncbox">
+        <p>Wenn du auf mehreren Geräten lernst, kannst du deinen Stand hier als Datei mitnehmen.
+           Beim Laden wird <strong>zusammengeführt</strong>, nicht überschrieben – es geht nichts verloren.</p>
+        <div class="syncknoepfe">
+          <button id="sync-sichern">Fortschritt sichern</button>
+          <button id="sync-laden">Sicherung laden</button>
+          <input type="file" id="sync-datei" accept="application/json,.json" hidden>
+        </div>
+        <p class="syncmelde" id="sync-melde"></p>
+      </div>
       <button class="reset" id="reset">Fortschritt zurücksetzen</button>
     </section>
 
@@ -4507,6 +4541,166 @@ function globalSearch(q){
     if(v.trim().length>=2&&!document.querySelector('.view[data-view="suche"]').classList.contains('active'))show('suche');
     globalSearch(v);
   });});
+
+
+/* ================= FORTSCHRITT ÜBER GERÄTE SYNCHRONISIEREN =================
+   Die fünf Speicher bleiben unverändert. Darüber liegt eine Schicht, die sich
+   je Schlüssel merkt, wann er zuletzt geändert wurde. Beim Zusammenführen
+   gewinnt der jüngere Eintrag – so geht kein Haken verloren, egal auf welchem
+   Gerät er gesetzt wurde. */
+const ZKEY='lerntool-bautechnik-zeit';
+const SYNCPFAD='fortschritt/alles';
+
+const SPEICHER={
+  plan:   {k:KEY,  hol:()=>state,   setz:o=>{state=o;},   neu:()=>{try{renderPlan();}catch(e){}}},
+  srs:    {k:SKEY, hol:()=>srs,     setz:o=>{srs=o;},     neu:()=>{try{refreshWdhStats();}catch(e){}}},
+  notizen:{k:NKEY, hol:()=>notizen, setz:o=>{notizen=o;}, neu:()=>{try{loadNotizIntoBox();}catch(e){}}},
+  ueb:    {k:UKEY, hol:()=>ustand,  setz:o=>{ustand=o;},  neu:()=>{try{renderUeb();}catch(e){}}},
+  rechnen:{k:RKEY, hol:()=>rstat,   setz:o=>{rstat=o;},   neu:()=>{try{renderRStat();}catch(e){}}}
+};
+
+let zeit=(function(){try{return JSON.parse(localStorage.getItem(ZKEY))||{};}catch(e){return {};}})();
+Object.keys(SPEICHER).forEach(n=>{if(!zeit[n])zeit[n]={};});
+let abbild={};   /* letzter bekannter Stand je Speicher, um Änderungen zu erkennen */
+function abbildNehmen(){
+  Object.keys(SPEICHER).forEach(n=>{ abbild[n]=JSON.stringify(SPEICHER[n].hol()||{}); });
+}
+function zeitSichern(){try{localStorage.setItem(ZKEY,JSON.stringify(zeit));}catch(e){}}
+
+/* Nach jedem Speichern: welche Schlüssel haben sich geändert? */
+function aenderungenErfassen(name){
+  const jetzt=Date.now();
+  const neu=SPEICHER[name].hol()||{};
+  let alt={}; try{ alt=JSON.parse(abbild[name]||'{}'); }catch(e){}
+  let etwas=false;
+  Object.keys(neu).forEach(k=>{
+    if(JSON.stringify(alt[k])!==JSON.stringify(neu[k])){ zeit[name][k]=jetzt; etwas=true; }
+  });
+  Object.keys(alt).forEach(k=>{
+    if(!(k in neu)){ zeit[name][k]=jetzt; etwas=true; }   /* gelöscht: Zeitstempel bleibt als Grabstein */
+  });
+  if(etwas){ abbild[name]=JSON.stringify(neu); zeitSichern(); hochladenGleich(); }
+}
+
+/* Zusammenführen: je Schlüssel gewinnt der jüngere Zeitstempel.
+   Sind beide gleich alt (z. B. vor der ersten Synchronisierung), gewinnt
+   das Vorhandensein – damit beim ersten Abgleich nichts verlorengeht. */
+function zusammenfuehren(fern){
+  let geaendert=false;
+  Object.keys(SPEICHER).forEach(name=>{
+    const hier=SPEICHER[name].hol()||{};
+    const dort=(fern.daten&&fern.daten[name])||{};
+    const zh=zeit[name]||{}, zd=(fern.zeit&&fern.zeit[name])||{};
+    const alle=new Set(Object.keys(hier).concat(Object.keys(dort),Object.keys(zh),Object.keys(zd)));
+    alle.forEach(k=>{
+      const th=zh[k]||0, td=zd[k]||0;
+      const hatH=(k in hier), hatD=(k in dort);
+      let nimmFern=false;
+      if(td>th) nimmFern=true;
+      else if(td===th && !hatH && hatD) nimmFern=true;   /* erster Abgleich: nichts wegwerfen */
+      if(nimmFern){
+        if(hatD){ if(JSON.stringify(hier[k])!==JSON.stringify(dort[k])){ hier[k]=dort[k]; geaendert=true; } }
+        else if(hatH){ delete hier[k]; geaendert=true; }
+        if(td>th){ zh[k]=td; }
+      }
+    });
+    zeit[name]=zh;
+    if(geaendert){ try{localStorage.setItem(SPEICHER[name].k,JSON.stringify(hier));}catch(e){} }
+  });
+  if(geaendert){
+    zeitSichern(); abbildNehmen();
+    Object.keys(SPEICHER).forEach(n=>SPEICHER[n].neu());
+  }
+  return geaendert;
+}
+
+function eigenerStand(){
+  const daten={};
+  Object.keys(SPEICHER).forEach(n=>{ daten[n]=SPEICHER[n].hol()||{}; });
+  return {daten:daten, zeit:zeit, stand:Date.now()};
+}
+
+/* ---------- Anbindung an die Datenbank des Lerntools ---------- */
+let DB=null, dbRef=null, hochTimer=null, syncStatus='prüfe', letzteSync=0;
+async function syncStarten(){
+  try{ if(window.claude && claude.use) DB=await claude.use('db'); }catch(e){ DB=null; }
+  if(!DB){ syncStatus='lokal'; zeigeSync(); return; }
+  dbRef=DB.doc(SYNCPFAD);
+  dbRef.onSnapshot(snap=>{
+    if(snap.exists){
+      const f=snap.data();
+      if(f && f.daten){ zusammenfuehren(f); }
+    }
+    syncStatus='an'; letzteSync=Date.now(); zeigeSync();
+    if(!snap.metadata.hasPendingWrites) hochladen();     /* eigene Neuerungen nachreichen */
+  }, err=>{ syncStatus='fehler'; zeigeSync(); });
+}
+async function hochladen(){
+  if(!dbRef) return;
+  try{ await dbRef.set(eigenerStand()); letzteSync=Date.now(); syncStatus='an'; }
+  catch(e){ if(e&&e.code==='unavailable'){ setTimeout(hochladen,4000); } else syncStatus='fehler'; }
+  zeigeSync();
+}
+function hochladenGleich(){ clearTimeout(hochTimer); hochTimer=setTimeout(hochladen,1200); }
+
+function zeigeSync(){
+  const el=document.getElementById('syncstand'); if(!el) return;
+  const t={an:['Synchronisiert','Dein Fortschritt gleicht sich mit deinen anderen Geräten ab.'],
+           lokal:['Nur auf diesem Gerät','Diese Fassung speichert offline. Nutze den Online-Link, wenn der Fortschritt mitwandern soll – oder sichere ihn unten als Datei.'],
+           fehler:['Abgleich gestört','Der Fortschritt bleibt auf diesem Gerät gespeichert. Beim nächsten Öffnen wird erneut versucht.'],
+           'prüfe':['Verbinde …','']}[syncStatus];
+  el.className='syncstand '+syncStatus;
+  el.innerHTML='<span class="syncpunkt"></span><div><strong>'+t[0]+'</strong>'+
+    (t[1]?'<p>'+t[1]+'</p>':'')+
+    (syncStatus==='an'&&letzteSync?'<p class="synczeit">zuletzt abgeglichen '+
+      new Date(letzteSync).toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'})+' Uhr</p>':'')+'</div>';
+}
+
+/* ---------- Sichern und Laden als Datei (funktioniert überall) ---------- */
+async function fortschrittSichern(btn){
+  const name='Lerntool-Fortschritt.json';
+  const inhalt=JSON.stringify(eigenerStand(),null,1);
+  const alt=btn.textContent; btn.textContent='…'; btn.disabled=true;
+  const fertig=t=>{btn.textContent=t;setTimeout(()=>{btn.textContent=alt;btn.disabled=false;},2200);};
+  let dl=null; try{ if(window.claude&&claude.use) dl=await claude.use('downloads'); }catch(e){}
+  if(dl){ try{ await dl.save({filename:name,data:inhalt}); fertig('Gesichert'); return; }
+          catch(err){ if(err&&err.code==='declined'){fertig(alt);return;} } }
+  const url=URL.createObjectURL(new Blob([inhalt],{type:'application/json'}));
+  const a=document.createElement('a'); a.href=url; a.download=name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),4000); fertig('Gesichert');
+}
+function fortschrittLaden(datei, melde){
+  const leser=new FileReader();
+  leser.onload=()=>{
+    let f=null; try{ f=JSON.parse(leser.result); }catch(e){}
+    if(!f||!f.daten){ melde('Die Datei passt nicht – erwartet wird eine Sicherung aus diesem Lerntool.',true); return; }
+    const geaendert=zusammenfuehren(f);
+    hochladenGleich();
+    melde(geaendert? 'Übernommen und zusammengeführt.' : 'Nichts Neues dabei – dein Stand war schon aktuell.',false);
+  };
+  leser.onerror=()=>melde('Die Datei konnte nicht gelesen werden.',true);
+  leser.readAsText(datei);
+}
+
+abbildNehmen();
+/* Die bestehenden Speicherfunktionen melden ihre Änderungen an die Schicht */
+const _saveState=saveState, _saveSrs=saveSrs, _saveU=saveU, _saveR=saveR, _saveNotizNow=saveNotizNow;
+saveState=function(s){ _saveState(s); aenderungenErfassen('plan'); };
+saveSrs=function(){ _saveSrs(); aenderungenErfassen('srs'); };
+saveU=function(){ _saveU(); aenderungenErfassen('ueb'); };
+saveR=function(){ _saveR(); aenderungenErfassen('rechnen'); };
+saveNotizNow=function(){ _saveNotizNow(); aenderungenErfassen('notizen'); };
+
+document.getElementById('sync-sichern').onclick=e=>fortschrittSichern(e.target);
+document.getElementById('sync-laden').onclick=()=>document.getElementById('sync-datei').click();
+document.getElementById('sync-datei').onchange=e=>{
+  const f=e.target.files[0]; if(!f) return;
+  const m=document.getElementById('sync-melde');
+  fortschrittLaden(f,(txt,fehler)=>{ m.textContent=txt; m.className='syncmelde'+(fehler?' fehler':' gut'); });
+  e.target.value='';
+};
+zeigeSync(); syncStarten();
 
 /* ---------- START ---------- */
 renderKlausurPicks(); renderKlausurVar(); renderKlausur();

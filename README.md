@@ -111,6 +111,7 @@ Beide bündeln alles in einer App für Handy und PC:
 | **Notizen** | eigene Merker je Modul (bleiben auf dem Gerät) |
 | **Lernplan / Termine** | Checkliste je Semester und die **echten Schultage** aus dem Betreuungsplan, mit Kalender-Download |
 | **Globale Suche** | findet alles auf einmal – auch im **Originaltext der PDFs**, mit Sprung auf die richtige Seite |
+| **Geräteabgleich** | Haken, Karteikarten-Stand, Fehlerbuch und Notizen gleichen sich über den Online-Link zwischen Geräten ab; zusätzlich Sicherung als Datei |
 
 Semester 1–7 sind umschaltbar; Fortschritt und Notizen werden pro Semester gespeichert.
 
