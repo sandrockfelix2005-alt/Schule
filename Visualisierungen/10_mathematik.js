@@ -391,3 +391,95 @@ VIZ.koerper={
      'O = 4·π·r² = <b>'+vn(r.O,4)+' m²</b> – genau das Vierfache der größten Schnittfläche';
  }
 };
+
+/* --- Dualsystem: Bits anklicken, Zahl wandert mit --- */
+VIZ.dualsystem={
+ titel:'Dualsystem zum Anfassen', vb:'0 0 640 340',
+ was:'Zieh am Regler – oder klick direkt auf ein Bit-Feld und mach aus der 0 eine 1. Oben siehst du, was die Stellen zusammen ergeben, unten die Teilung durch 2.',
+ regler:[{k:'n',l:'Dezimalzahl',min:0,max:255,step:1,val:45,e:v=>vn(v,0)}],
+ rechne:s=>{
+   const n=Math.round(s.n);
+   const bits=[]; for(let i=7;i>=0;i--) bits.push((n>>i)&1);
+   const teile=[]; for(let i=7;i>=0;i--) if((n>>i)&1) teile.push(Math.pow(2,i));
+   /* Teilung durch 2, Reste von unten nach oben */
+   const schritte=[]; let r=n;
+   if(n===0) schritte.push({von:0,erg:0,rest:0});
+   while(r>0){ schritte.push({von:r,erg:Math.floor(r/2),rest:r%2}); r=Math.floor(r/2); }
+   return {n:n, bits:bits, teile:teile, schritte:schritte,
+           dual: n===0?'0':bits.join('').replace(/^0+/,''),
+           hex: n.toString(16).toUpperCase()};},
+ werte:(s,r)=>[['Dezimal', vn(r.n,0),'a'],
+               ['Dual', '('+r.dual+')₂','b'],
+               ['Hexadezimal', '('+r.hex+')₁₆','g']],
+ zeichne:(s,st,r,neu)=>{
+   const bw=56, pitch=64, x0=68;
+   ve(s,'text',{x:320,y:20,class:'vtxtm','text-anchor':'middle'},'Jedes Feld ist anklickbar – probier aus, welche Stelle welchen Wert bringt');
+   /* Kopfzeile: Zweierpotenz und Stellenwert */
+   r.bits.forEach((b,i)=>{
+     const cx=x0+i*pitch+bw/2, bx=x0+i*pitch, p=7-i;
+     ve(s,'text',{x:cx,y:46,class:'vtxtm','text-anchor':'middle'},'2'+'⁰¹²³⁴⁵⁶⁷'[p]);
+     ve(s,'text',{x:cx,y:64,class:'vtxt','text-anchor':'middle','font-size':'13',
+       fill:b?'var(--accent-deep)':'var(--text-3)'},vn(Math.pow(2,p),0));
+     /* Bit-Feld */
+     const feld=ve(s,'rect',{x:bx,y:74,width:bw,height:42,rx:6,
+       fill:b?'var(--accent-soft)':'var(--surface-2)',
+       stroke:b?'var(--accent-deep)':'var(--line)','stroke-width':b?2:1,
+       style:'cursor:pointer'});
+     const ziffer=ve(s,'text',{x:cx,y:103,class:'vtxt','text-anchor':'middle','font-size':'21',
+       'font-weight':'600',fill:b?'var(--accent-deep)':'var(--text-3)',
+       style:'cursor:pointer;user-select:none'},String(b));
+     /* Klick kippt das Bit */
+     const kippen=ev=>{ ev.preventDefault();
+       st.n = (Math.round(st.n) ^ (1<<p)) & 255; neu(); };
+     feld.addEventListener('click',kippen);
+     ziffer.addEventListener('click',kippen);
+     /* Beitrag dieser Stelle */
+     if(b) ve(s,'text',{x:cx,y:136,class:'vtxt','text-anchor':'middle','font-size':'12',
+       fill:'var(--accent-deep)'},'+ '+vn(Math.pow(2,p),0));
+   });
+   /* Summenzeile */
+   const summe = r.teile.length? r.teile.map(t=>vn(t,0)).join(' + ')+' = '+vn(r.n,0)
+                              : 'keine Stelle gesetzt = 0';
+   ve(s,'text',{x:320,y:162,class:'vtxt','text-anchor':'middle','font-size':'15',
+     'font-weight':'600'},summe);
+   ve(s,'line',{x1:40,y1:178,x2:600,y2:178,stroke:'var(--line)','stroke-width':1});
+   /* Teilung durch 2 */
+   ve(s,'text',{x:60,y:198,class:'vtxt','font-size':'13','font-weight':'600'},
+     'Der andere Weg: fortlaufend durch 2 teilen');
+   const zy=218, zh=15;
+   if(r.n===0){
+     ve(s,'text',{x:76,y:zy,class:'vtxt','font-size':'12'},
+       'Hier gibt es nichts zu teilen – die 0 bleibt in jedem Zahlensystem die 0.');
+   } else {
+     r.schritte.forEach((k,i)=>{
+       const y=zy+i*zh;
+       ve(s,'text',{x:76,y:y,class:'vtxt','font-size':'12'},
+         vn(k.von,0)+' : 2 = '+vn(k.erg,0)+'   Rest');
+       ve(s,'text',{x:218,y:y,class:'vtxt','font-size':'12','font-weight':'600',
+         fill:'var(--accent-deep)'},String(k.rest));
+     });
+   }
+   /* Leserichtung: von unten nach oben */
+   const yu=zy+(r.schritte.length-1)*zh, ym=(zy+yu)/2;
+   if(r.schritte.length>1){
+     vpfeil(s,236,yu,236,zy-9,'vkraft');
+     ve(s,'text',{x:250,y:ym-3,class:'vtxt','font-size':'11',
+       fill:'var(--accent-deep)'},'von unten');
+     ve(s,'text',{x:250,y:ym+11,class:'vtxt','font-size':'11',
+       fill:'var(--accent-deep)'},'nach oben lesen');
+   }
+   /* Ergebnis: bei 0 unter den Satz, sonst neben die Teilungsleiter */
+   const ex = r.n===0 ? 76 : 412, ey = r.n===0 ? zy+28 : ym+1;
+   ve(s,'text',{x:ex,y:ey,class:'vtxt','font-size':'15','font-weight':'600'},
+     '→  ('+r.dual+')₂');
+   if(r.n!==0) ve(s,'text',{x:412,y:ym+21,class:'vtxtm','font-size':'11'},
+     'gleiches Ergebnis wie oben');
+ },
+ weg:(s,r)=>'<b>Von oben nach unten gelesen:</b> alle Stellen mit einer 1 addieren – '+
+   (r.teile.length? r.teile.map(t=>vn(t,0)).join(' + ')+' = <b>'+vn(r.n,0)+'</b>'
+                  : 'keine 1 gesetzt, also <b>0</b>')+'.<br>'+
+   '<b>Von unten nach oben gelesen:</b> '+vn(r.n,0)+' immer wieder halbieren und die Reste '+
+   'aufsammeln – ergibt <b>('+r.dual+')₂</b>.<br>'+
+   'Beide Wege müssen dasselbe liefern. Wenn nicht, ist einer von beiden falsch gerechnet – '+
+   'das ist die eingebaute Probe.'
+};

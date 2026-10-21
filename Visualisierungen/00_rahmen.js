@@ -86,14 +86,16 @@ function mountViz(wurzel){
         '<output></output>';
       const inp=zeile.querySelector('input'), out=zeile.querySelector('output');
       inp.addEventListener('input',()=>{stand[r.k]=+inp.value; neu();});
-      r._out=out; rBox.appendChild(zeile);
+      r._out=out; r._inp=inp; rBox.appendChild(zeile);
     });
 
     function neu(){
       const erg=v.rechne?v.rechne(stand):{};
       (v.regler||[]).forEach(r=>{r._out.value = r.e? r.e(stand[r.k],stand,erg) : vn(stand[r.k]);});
+      /* Regler nachziehen, falls die Zeichnung den Stand selbst geaendert hat */
+      (v.regler||[]).forEach(r=>{ const i=r._inp; if(i && +i.value!==stand[r.k]) i.value=stand[r.k]; });
       svg.innerHTML='';
-      try{ v.zeichne(svg,stand,erg); }
+      try{ v.zeichne(svg,stand,erg,neu); }
       catch(e){ ve(svg,'text',{x:20,y:30,class:'vtxt'},'Zeichnung nicht darstellbar'); }
       if(v.werte){
         wBox.innerHTML=v.werte(stand,erg).map(w=>

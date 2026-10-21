@@ -6,8 +6,54 @@ import markdown
 BASIS = pathlib.Path(__file__).resolve().parent.parent
 EXT = ['tables','fenced_code','md_in_html','sane_lists']
 
+def merkkaesten(md):
+    """Code-Bloecke mit ``` werden innerhalb eines Merkkastens (>) nicht erkannt:
+    die Backticks blieben sichtbar und die Formeln verschmolzen mit dem Fliesstext.
+    Innerhalb der Kaesten wird daher auf eingerueckten Code umgestellt, den
+    Markdown dort versteht."""
+    zeilen = md.split('\n'); aus = []; drin = False
+    for z in zeilen:
+        m = re.match(r'^(\s*)>\s?(.*)$', z)
+        if not m:
+            if drin:                       # Kasten endet, Code war nicht geschlossen
+                drin = False
+            aus.append(z); continue
+        vor, inhalt = m.group(1), m.group(2)
+        if inhalt.strip().startswith('```'):
+            drin = not drin
+            aus.append(vor + '>')          # Leerzeile im Kasten statt der Backticks
+        elif drin:
+            aus.append(vor + '>     ' + inhalt)
+        else:
+            aus.append(z)
+    return '\n'.join(aus)
+
+def loesungsbloecke(md):
+    """In den <details>-Loesungsbloecken wird das Markdown sonst nicht umgesetzt
+    (md_in_html verlangt markdown="1"), und einzelne Zeilenumbrueche verschmelzen
+    zu einem Absatz. Beides wird hier nur innerhalb dieser Bloecke behoben."""
+    zeilen = md.split('\n'); aus = []; drin = False; fence = False
+    for i, z in enumerate(zeilen):
+        if z.lstrip().startswith('```'):
+            fence = not fence
+        if not fence and '<details' in z and 'markdown=' not in z:
+            z = z.replace('<details>', '<details markdown="1">')
+            drin = True
+        elif '</details>' in z:
+            drin = False
+        if drin and not fence and z.strip() and not z.lstrip().startswith(('|', '<', '```')):
+            nxt = zeilen[i+1] if i+1 < len(zeilen) else ''
+            # Umbruch erhalten, solange die naechste Zeile normaler Text ist
+            if (nxt.strip() and not nxt.lstrip().startswith(('|', '<', '```', '#'))
+                    and not z.endswith('  ')):
+                z += '  '
+        aus.append(z)
+    return '\n'.join(aus)
+
 def html_aus(pfad):
     md = pfad.read_text(encoding='utf-8')
+    md = merkkaesten(md)
+    md = loesungsbloecke(md)
     md = re.sub(r'^> \*\*Lernkapitel zum Selbststudium\.\*\*.*?(?=\n\n)', '', md, flags=re.S|re.M)
     # Inhaltsverzeichnis: Sprungmarken gibt es im Tool nicht, daher als reiner Text
     md = re.sub(r'\[([^\]]+)\]\(#[^)]*\)', r'<span class="tocitem">\1</span>', md)

@@ -436,7 +436,19 @@ Statt Zehnerpotenzen sind es hier **Zweierpotenzen**:
 
 > **Tipp zum Merken:** Die Reihe verdoppelt sich immer: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024. Wenn du sie einmal auswendig kannst, geht jede Umrechnung im Kopf.
 
-### Dezimal → Dual: So gehst du vor
+<div class="viz" data-viz="dualsystem"></div>
+
+### Die Begriffe: Bit und Byte
+
+| Begriff | Bedeutung |
+|---------|-----------|
+| **Bit** | Eine **einzelne Stelle** einer Dualzahl. Sie kann nur 0 oder 1 sein. Der Name kommt von *binary digit* – Binärziffer. |
+| **Byte** | **Acht Bit** zusammen. Damit lassen sich 2⁸ = 256 verschiedene Werte darstellen, nämlich **0 bis 255**. |
+| **2ⁿ** | Mit *n* Bit lassen sich **2ⁿ** verschiedene Werte darstellen: 4 Bit → 16 Werte, 8 Bit → 256 Werte, 10 Bit → 1024 Werte. |
+
+> **Warum 0 bis 255 und nicht 1 bis 256?** Weil die **Null ein gültiger Wert** ist – alle acht Bit auf 0. Der größte Wert eines Bytes ist deshalb 256 − 1 = **255**, also (11111111)₂. Dasselbe gilt überall: *n* Bit reichen von 0 bis 2ⁿ − 1.
+
+### Dezimal → Dual, Weg 1: größte Zweierpotenz abziehen
 
 1. Suche die **größte Zweierpotenz**, die in deine Zahl passt → dort eine **1**.
 2. **Ziehe sie ab**, es bleibt ein Rest.
@@ -444,7 +456,7 @@ Statt Zehnerpotenzen sind es hier **Zweierpotenzen**:
 4. Schreibe die Ziffern von der größten bis zur kleinsten Potenz auf.
 5. **Probe:** Stellenwerte der Einsen addieren – muss die Ausgangszahl ergeben.
 
-### 📐 Lehrbeispiel 1 – Schreibe 125 im Zweiersystem
+### 📐 Lehrbeispiel 1 – Schreibe 125 im Zweiersystem (Weg 1)
 
 | Zweierpotenz | Wert | Passt in den Rest? | Ziffer | Rest danach |
 |:------------:|-----:|--------------------|:------:|------------:|
@@ -460,11 +472,45 @@ Statt Zehnerpotenzen sind es hier **Zweierpotenzen**:
 
 Probe: 64 + 32 + 16 + 8 + 4 + 0 + 1 = 125 ✓
 
+### Dezimal → Dual, Weg 2: fortlaufend durch 2 teilen
+
+Weg 1 setzt voraus, dass du die Zweierpotenzen im Kopf hast. Weg 2 braucht das **nicht** – du teilst einfach immer wieder durch 2 und schreibst nur die **Reste** mit:
+
+1. Teile die Zahl durch 2. Notiere **Ergebnis** und **Rest**. Der Rest ist immer 0 oder 1 – 0 bei geraden, 1 bei ungeraden Zahlen.
+2. Teile das **Ergebnis** wieder durch 2, Rest notieren.
+3. Mach weiter, bis das Ergebnis **0** ist.
+4. Lies die Reste **von unten nach oben** – das ist die Dualzahl.
+5. **Probe:** Stellenwerte der Einsen addieren – muss die Ausgangszahl ergeben.
+
+### 📐 Lehrbeispiel 2 – Schreibe 45 im Zweiersystem (Weg 2)
+
+| Rechnung | Ergebnis | Rest |
+|----------|---------:|:----:|
+| 45 : 2 | 22 | **1** |
+| 22 : 2 | 11 | **0** |
+| 11 : 2 | 5 | **1** |
+| 5 : 2 | 2 | **1** |
+| 2 : 2 | 1 | **0** |
+| 1 : 2 | 0 | **1** |
+
+Die Reste **von unten nach oben** gelesen: 1 – 0 – 1 – 1 – 0 – 1
+
+**Ergebnis: 45 = (101101)₂**
+
+Probe: 32 + 0 + 8 + 4 + 0 + 1 = 45 ✓
+
+> ### 💡 Welchen Weg soll ich nehmen?
+> Beide führen zum **selben Ergebnis** – nimm den, der dir liegt.
+> - **Weg 1 (abziehen)** ist schneller, wenn du die Reihe 1, 2, 4, 8, 16, 32, 64, 128 auswendig kannst.
+> - **Weg 2 (teilen)** ist sicherer, wenn nicht: du musst nur halbieren können, und das Verfahren läuft jedes Mal exakt gleich ab – es gibt nichts zu suchen.
+>
+> Schreib bei beiden Wegen die Zwischenschritte mit. Dann ist der Rechenweg nachvollziehbar, und du findest einen Fehler selbst wieder.
+
 ### Dual → Dezimal: So gehst du vor
 
 Addiere die Stellenwerte aller Stellen, an denen eine **1** steht.
 
-### 📐 Lehrbeispiel 2 – Übersetze (10010)₂
+### 📐 Lehrbeispiel 3 – Übersetze (10010)₂
 
 | Stelle | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
 |--------|:--:|:--:|:--:|:--:|:--:|
@@ -487,11 +533,14 @@ Addiere die Stellenwerte aller Stellen, an denen eine **1** steht.
 | 0 + 1 | 1 | – |
 | 1 + 0 | 1 | – |
 | **1 + 1** | **0** | **1** |
+| **1 + 1 + 1** | **1** | **1** |
+
+Die letzte Zeile brauchst du, sobald ein **Übertrag** aus der Stelle rechts dazukommt: 1 + 1 + 1 = 3, und 3 ist dual (11)₂ – also **1 hinschreiben und 1 übertragen**.
 
 > ### 💡 Merke
 > Im Dualsystem gibt es keine „2". Sobald 1 + 1 entsteht, schreibst du **0** und trägst **1** in die nächsthöhere Stelle über – genau wie beim schriftlichen Addieren im Zehnersystem, nur früher.
 
-### 📐 Lehrbeispiel 3 – Addiere (10010)₂ + (10101)₂
+### 📐 Lehrbeispiel 4 – Addiere (10010)₂ + (10101)₂
 
 ```
     1 0 0 1 0     (= 18)
@@ -536,12 +585,15 @@ Aktive Eingänge: **E3 (Feuchte), E1 (Präsenz), E0 (Hauptschalter)**
 > **2. Stellenwerte falsch zugeordnet.** Immer von **rechts** (2⁰) nach links zählen.
 > **3. Führende Nullen weglassen, wo sie zählen.** Bei 8-Bit-Angaben (SPS, Byte) gehören die Nullen dazu: (00001011)₂, nicht (1011)₂.
 > **4. Probe weglassen.** Die Umrechnung ins Dezimalsystem ist eine kostenlose Kontrolle – nutze sie immer.
+> **5. Bei Weg 2 die Reste von oben nach unten gelesen.** Dann steht die Zahl rückwärts da. Der **letzte** Rest ist die **erste** Ziffer – immer von unten nach oben lesen.
+> **6. Beim Addieren nicht rechts angefangen.** Dual addierst du genauso wie dezimal: bei der **letzten Stelle rechts** beginnen, damit der Übertrag nach links mitwandern kann.
+> **7. Stellen verrutscht, wenn die Zahlen unterschiedlich lang sind.** Fülle links mit **Nullen** auf, bis beide gleich lang sind. Nur dann stehen die Stellenwerte wirklich untereinander.
 
 ---
 
 # ✍️ Übungsaufgaben mit Lösungsweg
 
-> Rechne jede Aufgabe zuerst selbst, dann klapp die Lösung auf. Aufgaben 1–11 stammen aus dem Original-Lernmodul, Aufgaben 12–16 sind zusätzliche Bau-Aufgaben.
+> Rechne jede Aufgabe zuerst selbst, dann klapp die Lösung auf. Aufgaben 1–11 stammen aus dem Original-Lernmodul, Aufgaben 12–14 sind zusätzliche Dual-Aufgaben und Aufgaben 15–19 zusätzliche Bau-Aufgaben.
 
 ### Aufgabe 1 · Runden
 **1.1** 3,1505 (2 Stellen) · **1.2** 19,67 (1 Stelle) · **1.3** 1250,0 (Hunderter) · **1.4** 875,5 (Zehner)
@@ -664,7 +716,65 @@ Genutzt: 64, 16, 8 → **(1011000)₂** · *Probe: 64+16+8 = 88 ✓*
 *Probe: 127 + 12 = 139 ✓ · 128+8+2+1 = 139 ✓*
 </details>
 
-### 🏗️ Aufgabe 12 · Aufmaß Bodenfläche
+### Aufgabe 12 · Dual → Dezimal
+**12.1** (1110)₂ · **12.2** (101010)₂ · **12.3** (11111111)₂
+
+<details><summary>Lösung anzeigen</summary>
+
+**12.1** Stellenwerte 8 · 4 · 2 · 1 → Einsen bei 8, 4, 2
+8 + 4 + 2 + 0 = **14**
+
+**12.2** Stellenwerte 32 · 16 · 8 · 4 · 2 · 1 → Einsen bei 32, 8, 2
+32 + 0 + 8 + 0 + 2 + 0 = **42**
+
+**12.3** Alle acht Bit auf 1 – das ist der **größte Wert eines Bytes**
+128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = **255** · *Probe: 2⁸ − 1 = 256 − 1 = 255 ✓*
+</details>
+
+### Aufgabe 13 · Dezimal → Dual mit Weg 2 (durch 2 teilen)
+**13.1** 19 · **13.2** 60 · **13.3** 100
+
+<details><summary>Lösung anzeigen</summary>
+
+**13.1** 19 : 2 = 9 R **1** · 9 : 2 = 4 R **1** · 4 : 2 = 2 R **0** · 2 : 2 = 1 R **0** · 1 : 2 = 0 R **1**
+Reste von unten nach oben → **(10011)₂** · *Probe: 16 + 2 + 1 = 19 ✓*
+
+**13.2** 60 : 2 = 30 R **0** · 30 : 2 = 15 R **0** · 15 : 2 = 7 R **1** · 7 : 2 = 3 R **1** · 3 : 2 = 1 R **1** · 1 : 2 = 0 R **1**
+Reste von unten nach oben → **(111100)₂** · *Probe: 32 + 16 + 8 + 4 = 60 ✓*
+
+**13.3** 100 : 2 = 50 R **0** · 50 : 2 = 25 R **0** · 25 : 2 = 12 R **1** · 12 : 2 = 6 R **0** · 6 : 2 = 3 R **0** · 3 : 2 = 1 R **1** · 1 : 2 = 0 R **1**
+Reste von unten nach oben → **(1100100)₂** · *Probe: 64 + 32 + 4 = 100 ✓*
+</details>
+
+### Aufgabe 14 · Dualzahlen addieren (4 Bit)
+**14.1** (0101)₂ + (0011)₂ · **14.2** (1101)₂ + (0111)₂
+
+<details><summary>Lösung anzeigen</summary>
+
+**14.1**
+```
+    0 1 0 1     =  5
+  + 0 0 1 1     =  3
+  ─────────
+    1 0 0 0     =  8
+```
+Von rechts: 1+1 = 0 Ü1 · 0+1+**1** = 0 Ü1 · 1+0+**1** = 0 Ü1 · 0+0+**1** = 1
+*Probe: 5 + 3 = 8 ✓ · (1000)₂ = 8 ✓*
+
+**14.2**
+```
+    1 1 0 1     = 13
+  + 0 1 1 1     =  7
+  ─────────
+  1 0 1 0 0     = 20
+```
+Von rechts: 1+1 = 0 Ü1 · 0+1+**1** = 0 Ü1 · 1+1+**1** = 1 Ü1 · 1+0+**1** = 0 Ü1 → der letzte Übertrag wird zur **neuen Stelle ganz links**.
+*Probe: 13 + 7 = 20 ✓ · (10100)₂ = 16 + 4 = 20 ✓*
+
+> Hier siehst du beides, was dual gern schiefgeht: der Fall **1 + 1 + 1** und ein Übertrag, der das Ergebnis **eine Stelle länger** macht als beide Ausgangszahlen.
+</details>
+
+### 🏗️ Aufgabe 15 · Aufmaß Bodenfläche
 Ein Raum misst **5,237 m × 3,884 m**. Berechne die Bodenfläche (Angabe auf 0,01 m²). Wie viele Fliesenpakete à 1,44 m² brauchst du bei 8 % Verschnitt?
 
 <details><summary>Lösung anzeigen</summary>
@@ -689,7 +799,7 @@ Pakete gibt es nur ganz → **aufrunden auf 16 Pakete**
 **Antwort:** Bodenfläche ≈ 20,34 m², benötigt werden **16 Pakete**.
 </details>
 
-### 🏗️ Aufgabe 13 · Festigkeiten umrechnen
+### 🏗️ Aufgabe 16 · Festigkeiten umrechnen
 Rechne um und gib in wissenschaftlicher Schreibweise an:
 **13.1** Beton C30/37 → 30 N/mm² in N/m² · **13.2** Bewehrungsstahl B500 → 500 N/mm² in MN/m² · **13.3** E-Modul Beton 31 000 N/mm² in N/mm² (wissenschaftlich)
 
@@ -708,7 +818,7 @@ Rechne um und gib in wissenschaftlicher Schreibweise an:
 **13.3** 31 000 = **3,1 · 10⁴ N/mm²**
 </details>
 
-### 🏗️ Aufgabe 14 · Last und Masse
+### 🏗️ Aufgabe 17 · Last und Masse
 Eine Stütze trägt **2,4 MN**.
 **14.1** Wie viel kN sind das? **14.2** Welcher Masse entspricht das (g = 9,81 m/s²)?
 
@@ -725,7 +835,7 @@ m = F / g = 2 400 000 N : 9,81 m/s² ≈ 244 648 kg ≈ 244,6 t
 ```
 </details>
 
-### 🏗️ Aufgabe 15 · Treppe
+### 🏗️ Aufgabe 18 · Treppe
 Eine Geschosshöhe von **3,12 m** soll mit **18 Steigungen** überwunden werden.
 **15.1** Wie hoch ist eine Stufe (auf 1 mm)? **15.2** Prüfe durch Rückrechnung.
 
@@ -745,7 +855,7 @@ Soll: 3,120 m  →  Differenz 6 mm
 Die 6 mm müssen ausgeglichen werden – üblicherweise über die Antrittsstufe oder durch Verteilung im Estrichaufbau. Alternativ 17 Steigungen à 183,5 mm prüfen.
 </details>
 
-### 🏗️ Aufgabe 16 · SPS-Meldung
+### 🏗️ Aufgabe 19 · SPS-Meldung
 Eine Steuerung meldet den Bitzustand **(00110100)₂**.
 **16.1** Welcher Dezimalwert ist das? **16.2** Welche Eingänge (E0…E7) sind aktiv?
 
@@ -772,7 +882,10 @@ Eine Steuerung meldet den Bitzustand **(00110100)₂**.
 - [ ] Ich kenne die Vorsätze T, G, M, k und m, µ, n, p auswendig.
 - [ ] Ich weiß, dass **1 mm² = 10⁻⁶ m²** ist (Exponent wird mitquadriert).
 - [ ] Ich kenne die Merkregel **1 N/mm² = 1 MN/m² = 1 MPa**.
-- [ ] Ich kann eine Dezimalzahl ins Dualsystem umwandeln und die Probe machen.
+- [ ] Ich weiß, was ein **Bit** und was ein **Byte** ist, und warum ein Byte von 0 bis 255 reicht.
+- [ ] Ich kann eine Dezimalzahl ins Dualsystem umwandeln – **auf beiden Wegen** (abziehen und durch 2 teilen) – und die Probe machen.
+- [ ] Ich weiß, dass die Reste beim Teilen **von unten nach oben** gelesen werden.
+- [ ] Ich kann eine Dualzahl ins Dezimalsystem zurückrechnen.
 - [ ] Ich kann zwei Dualzahlen addieren und beachte den Übertrag.
 - [ ] Ich kann aus einem Bitmuster ablesen, welche Eingänge aktiv sind.
 
