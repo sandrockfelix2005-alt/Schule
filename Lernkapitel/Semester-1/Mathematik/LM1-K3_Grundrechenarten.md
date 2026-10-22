@@ -490,17 +490,100 @@ Umgekehrt aus einem Polynom wieder ein **Produkt** zu machen (faktorisieren) ist
 > - **Nullstellen** von Gleichungen höheren Grades finden (kommt in LM3).
 > - Terme **vereinfachen**, bevor man weiterrechnet.
 
-### So gehst du vor
+### Die Grundidee: lies die Division als Malaufgabe
 
-Es funktioniert wie die schriftliche Division bei Zahlen:
+Polynomdivision beantwortet immer nur **eine** Frage:
 
-1. **Höchstes Glied** des Dividenden durch **höchstes Glied** des Divisors teilen → erstes Glied des Ergebnisses.
-2. Dieses Ergebnis mit dem **ganzen Divisor** multiplizieren.
-3. Das Produkt vom Dividenden **abziehen** (Vorzeichen beachten!).
-4. Nächstes Glied **herunterziehen**.
-5. Wiederholen, bis kein Rest bleibt.
+> **Womit muss ich den Teiler malnehmen, damit die Aufgabe herauskommt?**
 
-### 📐 Lehrbeispiel 1 – vollständig durchgerechnet
+Bei normalen Zahlen machst du das längst. **12 : 3** heißt nichts anderes als „3 mal wie viel ergibt 12?" – Antwort: 4.
+
+Bei **(x² + 5x + 6) : (x + 2)** fragst du genau dasselbe: „(x + 2) mal was ergibt x² + 5x + 6?"
+
+Der einzige Unterschied ist, dass du die Antwort nicht auf einen Schlag findest, sondern **Stück für Stück zusammenbaust**. Erst kümmerst du dich um das x², dann um das, was übrig bleibt.
+
+> **Deshalb ist die Probe so einfach.** Wenn die Division eine Malaufgabe rückwärts ist, musst du zum Prüfen nur wieder vorwärts rechnen: Ergebnis mal Teiler muss die Aufgabe ergeben.
+
+### Die drei Schritte, die sich wiederholen
+
+Zwei Dinge müssen vorher stimmen: Dividend und Divisor nach **fallenden Potenzen** sortiert, und **fehlende Potenzen mit 0 aufgefüllt** – aus x² − 9 wird x² + 0x − 9, sonst verrutschen dir die Spalten.
+
+Dann wiederholst du immer dieselben drei Schritte, bis nichts mehr übrig ist:
+
+1. **Fragen.** Schau nur auf das **vorderste Glied** des Teilers (meistens einfach x) und auf das vorderste Glied dessen, was gerade noch dasteht. Frag dich: „x mal was ergibt das?" Die Antwort schreibst du rechts ins Ergebnis.
+2. **Malnehmen.** Nimm diese Antwort mal den **ganzen** Teiler – nicht nur das x, sondern auch die Zahl dahinter – und schreib das Ergebnis darunter.
+3. **Abziehen.** Zieh es von der Zeile darüber ab und hol das nächste Glied herunter.
+
+Danach geht es mit dem, was übrig geblieben ist, wieder bei Schritt 1 los. Ist der Rest **0**, bist du fertig.
+
+### 📐 Lehrbeispiel 1 – (x² + 5x + 6) : (x + 2), Runde für Runde
+
+**Runde 1**
+
+- **Fragen:** x mal was ergibt x²? → **x**. Das ist das erste Glied des Ergebnisses.
+- **Malnehmen:** x · (x + 2) = x² + 2x
+- **Abziehen:** x² − x² = 0, fällt weg. 5x − 2x = 3x. Dann die **+ 6** herunterholen. Übrig bleibt **3x + 6**.
+
+```
+(x² + 5x + 6) : (x + 2) = x
+−(x² + 2x)
+ ─────────
+       3x + 6
+```
+
+**Runde 2**
+
+- **Fragen:** x mal was ergibt 3x? → **3**. Das kommt als **+ 3** ins Ergebnis.
+- **Malnehmen:** 3 · (x + 2) = 3x + 6
+- **Abziehen:** (3x + 6) − (3x + 6) = **0**. Fertig.
+
+```
+(x² + 5x + 6) : (x + 2) = x + 3
+−(x² + 2x)
+ ─────────
+       3x + 6
+     −(3x + 6)
+      ────────
+            0
+```
+
+**Ergebnis: x + 3**
+
+Probe: (x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓
+
+Damit gilt: x² + 5x + 6 = (x + 2)(x + 3)
+
+### 📐 Lehrbeispiel 2 – mit Minuszeichen: (x² − x − 6) : (x − 3)
+
+Der Ablauf ist **exakt derselbe**. Du musst nur beim Abziehen gut aufpassen.
+
+**Runde 1**
+
+- **Fragen:** x mal was ergibt x²? → **x**
+- **Malnehmen:** x · (x − 3) = x² − 3x
+- **Abziehen:** x² − x² = 0. Und −x − (−3x) = −x + 3x = **2x** – Minus mal Minus wird Plus! Dann die **− 6** herunterholen. Übrig bleibt **2x − 6**.
+
+**Runde 2**
+
+- **Fragen:** x mal was ergibt 2x? → **2**
+- **Malnehmen:** 2 · (x − 3) = 2x − 6
+- **Abziehen:** (2x − 6) − (2x − 6) = **0**. Fertig.
+
+```
+(x² − x − 6) : (x − 3) = x + 2
+−(x² − 3x)
+ ─────────
+       2x − 6
+     −(2x − 6)
+      ────────
+            0
+```
+
+**Ergebnis: x + 2**
+
+Probe: (x − 3)(x + 2) = x² + 2x − 3x − 6 = x² − x − 6 ✓
+
+### 📐 Lehrbeispiel 3 – mit Vorfaktoren vor dem x
 
 Berechne `(6x² − 8x − 30) : (2x − 6)`
 
@@ -544,26 +627,15 @@ Berechne `(6x² − 8x − 30) : (2x − 6)`
 
 **Probe:** (3x + 5)(2x − 6) = 6x² − 18x + 10x − 30 = 6x² − 8x − 30 ✓
 
-### 📐 Lehrbeispiel 2 – einfacher Fall
-
-Berechne `(x² + 5x + 6) : (x + 2)`
-
-| Schritt | Rechnung | Zwischenstand |
-|---------|----------|---------------|
-| 1 | x² : x = **x** | |
-| 2 | x·(x+2) = x² + 2x | abziehen → 3x + 6 |
-| 3 | 3x : x = **3** | |
-| 4 | 3·(x+2) = 3x + 6 | abziehen → **Rest 0** |
-
-**Ergebnis: x + 3**
-
-Damit gilt: x² + 5x + 6 = (x + 2)(x + 3)
+<div class="viz" data-viz="polynomdivision"></div>
 
 > ### ⚠️ Typische Fehler bei der Polynomdivision
 > **1. Vorzeichen beim Abziehen.** Du ziehst einen **ganzen Term** ab – alle Vorzeichen darin kehren sich um. Schreib den abzuziehenden Term in Klammern!
 > **2. Glieder nicht sortiert.** Dividend und Divisor müssen nach **fallenden Potenzen** geordnet sein (x², dann x, dann Zahl).
 > **3. Fehlende Potenzen.** Fehlt z. B. das x-Glied, setze **0x** ein, damit die Spalten stimmen.
 > **4. Probe weglassen.** Rückmultiplizieren dauert 20 Sekunden und findet jeden Fehler.
+> **5. Nur das x malgenommen.** In Schritt 2 multiplizierst du mit dem **ganzen** Teiler, also auch mit der Zahl dahinter.
+> **6. Vorne bleibt etwas stehen.** Nach dem Abziehen muss das vorderste Glied **immer** wegfallen. Tut es das nicht, hast du dich in Schritt 1 oder 2 verrechnet. Das ist deine eingebaute Kontrolle – noch vor der Probe.
 
 ---
 
@@ -660,6 +732,10 @@ Damit gilt: x² + 5x + 6 = (x + 2)(x + 3)
 
 ### Aufgabe 9 · Polynomdivision
 **9.1** (x² + 5x + 6) : (x + 2) · **9.2** (6x² − 8x − 30) : (2x − 6)
+**9.3** (x² + 7x + 12) : (x + 3) · **9.4** (x² + 6x + 8) : (x + 2)
+**9.5** (x² − 2x − 15) : (x − 5) · **9.6** (x² − 9) : (x − 3)
+
+*Alle gehen ohne Rest auf. Bei 9.6 schreibst du zuerst x² + 0x − 9 hin.*
 
 <details><summary>Lösung anzeigen</summary>
 
@@ -676,6 +752,22 @@ x² : x = x  →  x(x+2) = x²+2x  →  Rest 3x+6
 10x : 2x = 5   →  5(2x−6) = 10x−30     →  Rest 0
 ```
 **Ergebnis: 3x + 5**
+
+**9.3** x mal was ergibt x²? → x · x(x+3) = x²+3x · Rest **4x + 12**
+x mal was ergibt 4x? → 4 · 4(x+3) = 4x+12 · Rest 0
+**Ergebnis: x + 4** · *Probe: (x+3)(x+4) = x² + 7x + 12 ✓*
+
+**9.4** x·(x+2) = x²+2x · Rest **4x + 8** → 4·(x+2) = 4x+8 · Rest 0
+**Ergebnis: x + 4** · *Probe: (x+2)(x+4) = x² + 6x + 8 ✓*
+
+**9.5** x·(x−5) = x²−5x · Abziehen: −2x − (−5x) = **+3x** · Rest **3x − 15**
+3·(x−5) = 3x−15 · Rest 0
+**Ergebnis: x + 3** · *Probe: (x−5)(x+3) = x² − 2x − 15 ✓*
+
+**9.6** Erst auffüllen: x² − 9 = **x² + 0x − 9**
+x·(x−3) = x²−3x · Abziehen: 0x − (−3x) = **+3x** · Rest **3x − 9**
+3·(x−3) = 3x−9 · Rest 0
+**Ergebnis: x + 3** · *Probe: (x−3)(x+3) = x² − 9 ✓ – das ist die 3. binomische Formel rückwärts.*
 </details>
 
 ### 🏗️ Aufgabe 10 · Wandfläche mit Abzügen
@@ -778,6 +870,9 @@ Statt vier Multiplikationen nur zwei – und weniger Fehlerquellen.
 - [ ] Ich vergesse das **mittlere Glied 2ab** nicht.
 - [ ] Ich quadriere bei (3x)² auch den **Faktor** mit → 9x².
 - [ ] Ich kann eine **Polynomdivision** durchrechnen und beim Abziehen die Vorzeichen umkehren.
+- [ ] Ich lese die Division als **Malaufgabe**: „Teiler mal was ergibt die Aufgabe?"
+- [ ] Ich fülle **fehlende Potenzen mit 0x** auf, bevor ich anfange.
+- [ ] Ich weiß: fällt das vorderste Glied nach dem Abziehen **nicht** weg, habe ich mich verrechnet.
 - [ ] Ich mache bei jeder Faktorisierung und Division die **Rückprobe**.
 
 **Damit ist Lernmodul 1 abgeschlossen.**

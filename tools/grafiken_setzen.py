@@ -10,6 +10,7 @@ PLAN = [
  # (Datei-Anfang,                   Zeile davor,                                  Grafik)
  ('Mathematik/LM1-K1',              '## 1.4 Zweiersystem',                        'zehnerpotenz'),
  ('Mathematik/LM1-K1',              '### Die Begriffe: Bit und Byte',             'dualsystem'),
+ ('Mathematik/LM1-K3',              '> ### ⚠️ Typische Fehler bei der Polynomdivision','polynomdivision'),
  ('Mathematik/LM2-K2',              '## 2.3 Nullstelle',                          'gerade'),
  ('Mathematik/LM3-K1',              '## 1.3 Quadratische Gleichungen',            'parabel'),
  ('Mathematik/LM3-K2',              '## 2.3 Die Potenzgesetze',                   'potenz'),

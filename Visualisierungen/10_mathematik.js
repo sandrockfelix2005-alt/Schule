@@ -483,3 +483,90 @@ VIZ.dualsystem={
    'Beide Wege müssen dasselbe liefern. Wenn nicht, ist einer von beiden falsch gerechnet – '+
    'das ist die eingebaute Probe.'
 };
+
+/* --- Polynomdivision: Runde fuer Runde aufgebaut --- */
+function pdMon(k,pot){                      /* Betrag eines Gliedes, ohne Vorzeichen */
+  const b=Math.abs(k);
+  if(pot===0) return String(b);
+  return (b===1?'':String(b)) + (pot===1?'x':'x²');
+}
+function pdPoly(terme){                     /* [[Faktor,Potenz], ...] -> "x² + 5x + 6" */
+  const t=terme.filter(g=>g[0]!==0);
+  if(!t.length) return '0';
+  return t.map((g,i)=> i===0 ? (g[0]<0?'−':'')+pdMon(g[0],g[1])
+                             : (g[0]<0?' − ':' + ')+pdMon(g[0],g[1])).join('');
+}
+function pdLin(a){                          /* Teiler x + a, nie "x + 0" */
+  return a===0 ? 'x' : (a>0 ? 'x + '+a : 'x − '+(-a));
+}
+VIZ.polynomdivision={
+ titel:'Polynomdivision Schritt für Schritt', vb:'0 0 640 245',
+ was:'Stell dir mit den beiden oberen Reglern eine Aufgabe zusammen – das Tool multipliziert die zwei Klammern aus. Mit dem Schritt-Regler teilst du sie dann wieder auseinander und siehst bei jeder Runde, was gefragt, malgenommen und abgezogen wird.',
+ regler:[{k:'p',l:'Teiler',min:-6,max:5,step:1,val:1,e:v=>pdLin(v>=0?v+1:v)},
+         {k:'q',l:'Zweiter Faktor',min:-6,max:5,step:1,val:2,e:v=>pdLin(v>=0?v+1:v)},
+         {k:'s',l:'Schritt',min:0,max:4,step:1,val:0,e:v=>v+' von 4'}],
+ rechne:st=>{
+   const p=st.p>=0?st.p+1:st.p, q=st.q>=0?st.q+1:st.q, s=Math.round(st.s);
+   const D =pdPoly([[1,2],[p+q,1],[p*q,0]]);          /* x² + (p+q)x + pq   */
+   const P1=pdPoly([[1,2],[p,1]]);                    /* x·(x+p)            */
+   const R1=pdPoly([[q,1],[p*q,0]]);                  /* Rest nach Runde 1  */
+   const P2=pdPoly([[q,1],[p*q,0]]);                  /* q·(x+p) = Rest 1   */
+   return {p:p,q:q,s:s,D:D,T:pdLin(p),E:pdLin(q),P1:P1,R1:R1,P2:P2,
+           erg: s<1 ? '?' : (s<3 ? 'x' : pdLin(q))};},
+ werte:(st,r)=>[['Aufgabe','('+r.D+') : ('+r.T+')','a'],
+                ['Ergebnis bisher', r.erg,'b'],
+                ['Probe', r.s>=4 ? '('+r.T+')('+r.E+') = '+r.D : 'kommt am Ende','g']],
+ zeichne:(s,st,r)=>{
+   const X=34, Z=14, MONO='ui-monospace,Menlo,Consolas,monospace', y0=74, zh=24;
+   /* Breiten echt messen statt schaetzen - sonst verrutschen die Spalten */
+   const mess=str=>{const t=ve(s,'text',{x:-999,y:-999,'font-size':Z,'font-family':MONO},str);
+                    const w=t.getComputedTextLength(); t.remove(); return w;};
+   const txt=(x,zeile,inhalt,farbe)=>ve(s,'text',
+     {x:x, y:y0+zeile*zh, class:'vtxt','font-size':Z,'font-family':MONO,
+      fill:farbe||'var(--ink)'}, inhalt);
+   const strich=(x,breite,zeile)=>ve(s,'line',
+     {x1:x, y1:y0+zeile*zh-17, x2:x+breite, y2:y0+zeile*zh-17,
+      stroke:'var(--muted)','stroke-width':1.2});
+   /* Was passiert gerade? */
+   const sagen=['Die Aufgabe steht da. Gefragt ist: ('+r.T+') mal was ergibt '+r.D+'?',
+     'Runde 1 – Fragen: x mal was ergibt x²?  Antwort: x',
+     'Runde 1 – Malnehmen und Abziehen: x · ('+r.T+') = '+r.P1,
+     'Runde 2 – Fragen: x mal was ergibt '+(r.q<0?'−':'')+pdMon(r.q,1)+
+       '?  Antwort: '+(r.q<0?'−':'')+Math.abs(r.q),
+     'Runde 2 – Abziehen: nichts bleibt übrig. Fertig.'][r.s];
+   ve(s,'text',{x:X,y:30,class:'vtxt','font-size':'13','font-weight':'600',
+     fill:'var(--accent-deep)'},'Schritt '+r.s+' von 4');
+   ve(s,'text',{x:X,y:50,class:'vtxtm','font-size':'12'},sagen);
+   /* Zeile 0: die Aufgabe, dahinter das bisherige Ergebnis */
+   const kopf='('+r.D+') : ('+r.T+') = ', kb=mess(kopf);
+   txt(X,0,kopf);
+   if(r.s>=1) ve(s,'rect',{x:X+kb-4,y:y0-13,width:mess(r.erg)+8,height:19,rx:4,
+     fill:'var(--accent-soft)',stroke:'var(--accent)','stroke-width':1});
+   txt(X+kb,0,r.erg, r.s>=1?'var(--accent-deep)':'var(--muted)');
+   /* Rechte Kante des Dividenden - daran richten sich die Reste aus */
+   const W=mess('('+r.D+')');
+   if(r.s>=2){
+     const z1='−('+r.P1+')', b1=mess(z1);
+     txt(X,1,z1);
+     strich(X,b1,2);
+     txt(X+W-mess(r.R1),2,r.R1);
+   }
+   if(r.s===3){
+     ve(s,'text',{x:X+W-mess(r.R1),y:y0+3*zh,class:'vtxtm','font-size':'12',
+       'font-family':MONO},'↑ damit geht es weiter');
+   }
+   if(r.s>=4){
+     const xr=X+W-mess(r.R1), z2='−('+r.P2+')', b2=mess(z2), x2=xr-mess('−(');
+     txt(x2,3,z2);
+     strich(x2,b2,4);
+     txt(x2+b2-mess('0'),4,'0','var(--good)');
+     ve(s,'text',{x:X,y:y0+5.5*zh,class:'vtxt','font-size':'12.5',fill:'var(--good)'},
+       'Probe: ('+r.T+')('+r.E+') = '+r.D+'  ✓');
+   }
+ },
+ weg:(st,r)=>'Der Trick ist, die Division als <b>Malaufgabe</b> zu lesen: nicht „'+r.D+
+   ' geteilt durch '+r.T+'“, sondern „('+r.T+') mal was ergibt '+r.D+'?“<br>'+
+   'Dieselbe Frage stellst du in jeder Runde neu – immer nur für das <b>vorderste Glied</b>. '+
+   'Erst x mal was ergibt x², dann x mal was ergibt '+(r.q<0?'−':'')+pdMon(r.q,1)+'.<br>'+
+   '<b>Probe:</b> ('+r.T+')('+r.E+') = '+r.D+' – kommt die Aufgabe wieder heraus, stimmt das Ergebnis.'
+};
