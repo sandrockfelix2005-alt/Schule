@@ -8,9 +8,10 @@
 - **Potenzfunktionen** f(x) = xⁿ beschreiben und ihre Grafen unterscheiden.
 - Alle **Potenzgesetze** sicher anwenden.
 - Mit **negativen** und **rationalen** Exponenten rechnen.
+- Die **Wurzelgesetze** anwenden – und wissen, wofür es keine gibt.
 - Erkennen, was es bedeutet, wenn eine Größe **quadratisch oder kubisch** eingeht.
 
-**Inhalt:** [2.1 Wurzelfunktionen](#21-wurzelfunktionen) · [2.2 Potenzfunktionen](#22-potenzfunktionen) · [2.3 Potenzgesetze](#23-die-potenzgesetze) · [2.4 Negative & rationale Exponenten](#24-negative-und-rationale-exponenten) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
+**Inhalt:** [2.1 Wurzelfunktionen](#21-wurzelfunktionen) · [2.2 Potenzfunktionen](#22-potenzfunktionen) · [2.3 Potenzgesetze](#23-die-potenzgesetze) · [2.4 Negative & rationale Exponenten](#24-negative-und-rationale-exponenten) · [2.5 Wurzelgesetze](#25-die-wurzelgesetze) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
 
 ---
 
@@ -424,6 +425,151 @@ m/s²  = m · s⁻²         (Beschleunigung)
 
 > **In Formelsammlungen und Normen** findest du oft diese Schreibweise. Sie bedeutet exakt dasselbe – nur ohne Bruchstrich.
 
+## 2.5 Die Wurzelgesetze
+
+### Der eine Gedanke, aus dem alles folgt
+
+Du musst dir die Wurzelgesetze **nicht extra merken**. Es sind die Potenzgesetze aus 2.3, nur in anderer Schreibweise – denn eine Wurzel **ist** eine Potenz:
+
+```
+ⁿ√a = a^(1/n)          und allgemein          ⁿ√(aᵐ) = a^(m/n)
+```
+
+Wenn du bei einer Wurzelaufgabe nicht weiterkommst, ist das dein Werkzeug: **als Potenz schreiben → Potenzgesetz anwenden → zurückschreiben.**
+
+> ### 💡 Die Wurzelgesetze
+> | Nr. | Gesetz | Formel | Beispiel |
+> |:---:|--------|--------|----------|
+> | 1 | **Produkt** | ⁿ√a · ⁿ√b = ⁿ√(a·b) | √8 · √2 = √16 = 4 |
+> | 2 | **Quotient** | ⁿ√a : ⁿ√b = ⁿ√(a:b) | √50 : √2 = √25 = 5 |
+> | 3 | **Wurzel aus Potenz** | ⁿ√(aᵐ) = (ⁿ√a)ᵐ = a^(m/n) | 4^(3/2) = (√4)³ = 8 |
+> | 4 | **Wurzel aus Wurzel** | ᵐ√(ⁿ√a) = ^(m·n)√a | √(³√729) = ⁶√729 = 3 |
+> | 5 | **Kürzen im Exponenten** | ⁿ√(aᵐ) = a^(m/n) | ³√(x⁶) = x^(6/3) = x² |
+> | 6 | **hin und zurück** | ⁿ√(aⁿ) = a (für a ≥ 0) | √(7²) = 7 |
+>
+> Die Gesetze 1 und 2 gelten nur, wenn **beide Wurzeln denselben Wurzelexponenten** haben. √a · ³√b lässt sich so nicht zusammenziehen.
+
+### Woher die Gesetze kommen
+
+Gesetz 1 ist nichts anderes als Potenzgesetz 4 („Produkt potenzieren"):
+
+```
+ⁿ√a · ⁿ√b = a^(1/n) · b^(1/n) = (a·b)^(1/n) = ⁿ√(a·b)
+```
+
+Gesetz 4 ist Potenzgesetz 3 („Potenz potenzieren"):
+
+```
+√(³√a) = (a^(1/3))^(1/2) = a^(1/3 · 1/2) = a^(1/6) = ⁶√a
+```
+
+Bei Gesetz 3 hast du die **freie Wahl**, was du zuerst machst. Nimm fast immer **erst die Wurzel, dann die Potenz** – dann bleiben die Zahlen klein:
+
+```
+4^(3/2) = √(4³) = √64 = 8        ← große Zwischenzahl
+4^(3/2) = (√4)³ = 2³  = 8        ← im Kopf machbar
+```
+
+> ### ⚠️ Vorsicht bei geradem Wurzelexponenten
+> Gesetz 6 gilt nur für a ≥ 0. Sonst gilt:
+> ```
+> √((−5)²) = √25 = 5        (nicht −5)
+> ```
+> Die Quadratwurzel liefert **immer** den nicht-negativen Wert. Streng geschrieben: √(a²) = |a|.
+
+### Das Gesetz, das es nicht gibt
+
+Hier passieren die meisten Fehler – deshalb ausdrücklich:
+
+> ### ⚠️ Für Plus und Minus gibt es kein Wurzelgesetz
+> ```
+> √(a + b)  ≠  √a + √b
+> ```
+> Zum Nachrechnen:
+> ```
+> √(9 + 16) = √25   = 5
+> √9 + √16  = 3 + 4 = 7        ← nicht dasselbe
+> ```
+> **Nur Mal und Geteilt** dürfen unter die Wurzel hinein oder aus ihr heraus. Steht unter der Wurzel eine Summe, musst du sie erst ausrechnen.
+
+Genau deshalb lässt sich beim Satz des Pythagoras `√(a² + b²)` **nicht** zu `a + b` vereinfachen. Eine Wand von 3,00 m und eine von 4,00 m ergeben eine Diagonale von **5,00 m**, nicht 7,00 m. Das ist derselbe Fehler, nur in Bauform.
+
+### Teilweise Wurzelziehen
+
+Gesetz 1 rückwärts gelesen: Suche unter der Wurzel einen Faktor, der eine **Quadratzahl** ist, und zieh ihn heraus.
+
+```
+√72 = √(36 · 2) = √36 · √2 = 6√2  ≈ 8,485
+√18 = √(9 · 2)  = √9 · √2  = 3√2  ≈ 4,243
+```
+
+Brauchst du das? Für den Taschenrechner nicht – aber es hält das Ergebnis **exakt**, und in Klausuren wird es oft so verlangt. Die Quadratzahlen zum Suchen: 4, 9, 16, 25, 36, 49, 64, 81, 100.
+
+### Den Nenner rational machen
+
+Steht eine Wurzel im Nenner, erweiterst du mit genau dieser Wurzel:
+
+```
+  1       1 · √2      √2
+ ──  =  ─────────  =  ──  ≈ 0,7071
+ √2      √2 · √2       2
+```
+
+Unten steht dann √2 · √2 = 2 – nach Gesetz 1. Das macht den Bruch leichter abschätzbar: dass √2/2 ungefähr 0,7 ist, siehst du sofort, bei 1/√2 nicht.
+
+### 📐 Lehrbeispiel 5 – alle Gesetze in einer Aufgabe
+
+Vereinfache: `√32 : √2 · ³√27`
+
+| Schritt | Rechnung | Gesetz |
+|---------|----------|--------|
+| 1 | √32 : √2 = √(32 : 2) = √16 | 2 |
+| 2 | √16 = 4 | 6 |
+| 3 | ³√27 = 3 | – |
+| 4 | 4 · 3 = **12** | – |
+
+Beachte: √32 und ³√27 haben **verschiedene** Wurzelexponenten – die darfst du nicht zusammenziehen. Erst jede für sich ausrechnen, dann multiplizieren.
+
+### 🏗️ Bau-Beispiel 1 – quadratische Stütze
+
+Eine quadratische Stahlbetonstütze trägt **N = 900 kN**, zulässig sind **σ = 10 N/mm²**. Welche Kantenlänge braucht sie?
+
+```
+A = N : σ = 900 000 N : 10 N/mm² = 90 000 mm²
+a = √90 000 mm² = √(9 · 10 000) = √9 · √10 000 = 3 · 100 = 300 mm
+```
+
+**Ergebnis: 300 mm × 300 mm.** Gesetz 1 hat dir hier den Taschenrechner gespart.
+
+### 🏗️ Bau-Beispiel 2 – doppelte Fläche, wie viel mehr Kante?
+
+Eine quadratische Stütze soll die **doppelte** Querschnittsfläche bekommen. Um wie viel wächst die Kantenlänge?
+
+```
+a_neu = √(2 · A) = √2 · √A = √2 · a ≈ 1,414 · a
+```
+
+**Nur rund 41 % mehr Kantenlänge verdoppeln die Fläche.** Das ist Gesetz 1 – und eine Zahl, die man als Bautechniker im Kopf haben sollte: aus 30 cm werden rund 42 cm.
+
+### 🏗️ Bau-Beispiel 3 – Fundament ohne Taschenrechner
+
+Ein quadratisches Fundament hat **A = 2,56 m²**. Kantenlänge?
+
+```
+a = √2,56 = √(256 : 100) = √256 : √100 = 16 : 10 = 1,60 m
+```
+
+**Ergebnis: 1,60 m.** Mit Gesetz 2 wird aus einer Kommazahl eine Aufgabe mit zwei bekannten Quadratzahlen.
+
+<div class="viz" data-viz="wurzelgesetze"></div>
+
+> ### ⚠️ Typische Fehler bei den Wurzelgesetzen
+> **1. Summe auseinandergezogen.** √(a + b) ist **nicht** √a + √b. Der häufigste Fehler überhaupt.
+> **2. Verschiedene Wurzelexponenten zusammengezogen.** √a · ³√b geht nicht – die Gesetze 1 und 2 verlangen denselben Wurzelexponenten.
+> **3. Erst potenziert, dann gewurzelt.** Erlaubt ist beides, aber die Zahlen werden unnötig groß. Erst die Wurzel ziehen.
+> **4. Das Minuszeichen verloren.** √((−5)²) ist 5, nicht −5.
+> **5. Negativer Radikand übersehen.** Aus einer negativen Zahl gibt es keine Quadratwurzel. Prüfe vor dem Rechnen, ob der Ausdruck unter der Wurzel ≥ 0 ist.
+
 ---
 
 # ✍️ Übungsaufgaben mit Lösungsweg
@@ -502,7 +648,53 @@ Schreibe mit positiven Exponenten:
 **7.4** (³√8)² = 2² = **4**
 </details>
 
-### 🏗️ Aufgabe 8 · Fundament
+### Aufgabe 8 · Wurzelgesetze anwenden
+**8.1** √12 · √3 · **8.2** √98 : √2 · **8.3** ³√4 · ³√16 · **8.4** √(³√64)
+**8.5** Rechne beides aus und vergleiche: √(25 + 144) und √25 + √144
+
+<details><summary>Lösung anzeigen</summary>
+
+**8.1** Gesetz 1: √(12 · 3) = √36 = **6**
+
+**8.2** Gesetz 2: √(98 : 2) = √49 = **7**
+
+**8.3** Gesetz 1, beide dritte Wurzeln: ³√(4 · 16) = ³√64 = **4**
+
+**8.4** Gesetz 4: Wurzelexponenten malnehmen → ⁶√64 = **2** · *Probe: 2⁶ = 64 ✓*
+
+**8.5** √(25 + 144) = √169 = **13** · √25 + √144 = 5 + 12 = **17**
+Die beiden sind **nicht** gleich – für Plus gibt es kein Wurzelgesetz.
+</details>
+
+### Aufgabe 9 · Teilweise Wurzelziehen
+**9.1** √50 · **9.2** √48 · **9.3** √200 · **9.4** √75
+
+<details><summary>Lösung anzeigen</summary>
+
+**9.1** √(25 · 2) = √25 · √2 = **5√2** ≈ 7,071
+
+**9.2** √(16 · 3) = √16 · √3 = **4√3** ≈ 6,928
+
+**9.3** √(100 · 2) = √100 · √2 = **10√2** ≈ 14,142
+
+**9.4** √(25 · 3) = √25 · √3 = **5√3** ≈ 8,660
+
+> Vorgehen: die größte Quadratzahl suchen, die aufgeht. Bei 9.3 ginge auch √(4 · 50) = 2√50 – das ist nicht falsch, aber noch nicht fertig, weil in √50 noch eine 25 steckt.
+</details>
+
+### Aufgabe 10 · Nenner rational machen
+**10.1** 6 / √3 · **10.2** 1 / √5 · **10.3** 10 / √2
+
+<details><summary>Lösung anzeigen</summary>
+
+**10.1** Mit √3 erweitern: (6 · √3) / (√3 · √3) = 6√3 / 3 = **2√3** ≈ 3,464
+
+**10.2** Mit √5 erweitern: √5 / (√5 · √5) = **√5 / 5** ≈ 0,447
+
+**10.3** Mit √2 erweitern: 10√2 / 2 = **5√2** ≈ 7,071
+</details>
+
+### 🏗️ Aufgabe 11 · Fundament
 Ein quadratisches Fundament soll **6,25 m²** groß sein.
 **8.1** Kantenlänge? **8.2** Wie groß muss die Fläche für die **doppelte** Kantenlänge sein?
 
@@ -512,7 +704,7 @@ Ein quadratisches Fundament soll **6,25 m²** groß sein.
 **8.2** doppelte Kante = 5,00 m → A = 5,00² = **25,00 m²** (also das **Vierfache**, nicht das Doppelte!)
 </details>
 
-### 🏗️ Aufgabe 9 · Rohrquerschnitt
+### 🏗️ Aufgabe 12 · Rohrquerschnitt
 Ein Rohr soll einen Querschnitt von **0,196 m²** haben.
 **9.1** Welchen Radius? **9.2** Welchen Durchmesser (auf mm gerundet)?
 
@@ -526,7 +718,7 @@ r = √0,06239 = 0,2498 m ≈ 0,25 m
 **9.2** d = 2r = 0,4996 m ≈ **500 mm** (DN 500)
 </details>
 
-### 🏗️ Aufgabe 10 · Trägerlage
+### 🏗️ Aufgabe 13 · Trägerlage
 Ein Kantholz misst **12 × 24 cm**.
 **10.1** Berechne W = b·h²/6 für beide Lagen. **10.2** Berechne I = b·h³/12 für beide Lagen. **10.3** Welchen Faktor macht die Lage aus?
 
@@ -551,7 +743,7 @@ hochkant: I = 12·13824/12 = 13824 cm⁴
 Hochkant trägt **doppelt** so viel und ist **viermal** so steif.
 </details>
 
-### 🏗️ Aufgabe 11 · Maßstab
+### 🏗️ Aufgabe 14 · Maßstab
 Ein Modell im Maßstab **1 : 25**.
 **11.1** Eine Modellfläche von 8 cm² entspricht wie viel real? **11.2** Ein Modellvolumen von 30 cm³?
 
@@ -561,7 +753,7 @@ Ein Modell im Maßstab **1 : 25**.
 **11.2** Volumenfaktor 25³ = 15 625 → 30 · 15 625 = **468 750 cm³ ≈ 0,469 m³**
 </details>
 
-### 🏗️ Aufgabe 12 · Würfel
+### 🏗️ Aufgabe 15 · Würfel
 Ein Betonwürfel hat **10 cm** Kantenlänge.
 **12.1** Volumen? **12.2** Volumen bei 20 cm Kante? **12.3** Um welchen Faktor wächst es?
 
@@ -585,6 +777,11 @@ Ein Betonwürfel hat **10 cm** Kantenlänge.
 - [ ] Ich kenne alle **sechs Potenzgesetze** und kann sie herleiten.
 - [ ] Ich weiß: **a⁻ⁿ = 1/aⁿ** und **a⁰ = 1**.
 - [ ] Ich kann **Wurzeln als Potenzen** schreiben (a^(1/n) = ⁿ√a).
+- [ ] Ich kenne die **Wurzelgesetze** und weiß, dass sie nur die Potenzgesetze in anderer Schreibweise sind.
+- [ ] Ich weiß: **√(a + b) ist nicht √a + √b** – für Plus und Minus gibt es kein Gesetz.
+- [ ] Ich ziehe Wurzeln nur zusammen, wenn der **Wurzelexponent gleich** ist.
+- [ ] Ich kann **teilweise die Wurzel ziehen** (√72 = 6√2) und einen **Nenner rational machen**.
+- [ ] Ich weiß, dass **√(a²) = |a|** ist, also immer nicht-negativ.
 - [ ] Ich verstehe, warum **doppelte Kantenlänge = vierfache Fläche = achtfaches Volumen** bedeutet.
 - [ ] Ich kann erklären, warum Träger **hochkant** eingebaut werden.
 - [ ] Ich beachte beim Maßstab, ob es um Längen (¹), Flächen (²) oder Volumen (³) geht.

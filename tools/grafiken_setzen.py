@@ -14,6 +14,7 @@ PLAN = [
  ('Mathematik/LM2-K2',              '## 2.3 Nullstelle',                          'gerade'),
  ('Mathematik/LM3-K1',              '## 1.3 Quadratische Gleichungen',            'parabel'),
  ('Mathematik/LM3-K2',              '## 2.3 Die Potenzgesetze',                   'potenz'),
+ ('Mathematik/LM3-K2',              '> ### ⚠️ Typische Fehler bei den Wurzelgesetzen','wurzelgesetze'),
  ('Mathematik/LM3-K3',              '## 3.2 Der Logarithmus',                     'wachstum'),
  ('Mathematik/LM4-K1',              '## 1.4 Das Dreieck',                         'strahlensatz'),
  ('Mathematik/LM4-K1',              '## 1.7 Flächen- und Umfangsberechnung',      'kreis'),

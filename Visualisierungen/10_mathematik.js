@@ -570,3 +570,90 @@ VIZ.polynomdivision={
    'Erst x mal was ergibt x², dann x mal was ergibt '+(r.q<0?'−':'')+pdMon(r.q,1)+'.<br>'+
    '<b>Probe:</b> ('+r.T+')('+r.E+') = '+r.D+' – kommt die Aufgabe wieder heraus, stimmt das Ergebnis.'
 };
+
+/* --- Wurzelgesetze: wann sind zwei Wurzelterme gleich? --- */
+VIZ.wurzelgesetze={
+ titel:'Wurzelgesetze: gleich oder nicht?', vb:'0 0 640 270',
+ was:'Links wird jede Zahl einzeln gewurzelt und dann verrechnet, rechts erst verrechnet und dann gewurzelt. Stell mit dem dritten Regler das Rechenzeichen um – bei Mal und Geteilt kommt dasselbe heraus, bei Plus und Minus nicht.',
+ regler:[{k:'a',l:'Zahl a',min:0,max:100,step:1,val:9,e:v=>vn(v,0)},
+         {k:'b',l:'Zahl b',min:0,max:100,step:1,val:16,e:v=>vn(v,0)},
+         {k:'op',l:'Rechenzeichen',min:0,max:3,step:1,val:2,
+          e:v=>['mal  ·','geteilt  :','plus  +','minus  −'][v]}],
+ rechne:st=>{
+   const a=Math.round(st.a), b=Math.round(st.b), i=Math.round(st.op);
+   const zeichen=['·',':','+','−'][i];
+   const rechne=(x,y)=>[x*y, y===0?null:x/y, x+y, x-y][i];
+   const links = rechne(Math.sqrt(a),Math.sqrt(b));          /* erst wurzeln, dann rechnen */
+   const innen = rechne(a,b);                                /* erst rechnen, dann wurzeln */
+   const rechts= (innen===null||innen<0) ? null : Math.sqrt(innen);
+   const gilt  = (i===0||i===1);
+   const gleich= (links!==null&&rechts!==null) && Math.abs(links-rechts)<1e-9;
+   return {a:a,b:b,i:i,z:zeichen,links:links,rechts:rechts,innen:innen,
+           gilt:gilt,gleich:gleich,
+           lt:'√'+a+' '+zeichen+' √'+b,
+           rt:'√('+a+' '+zeichen+' '+b+')'};},
+ werte:(st,r)=>[['√a '+r.z+' √b', r.links===null?'nicht definiert':vn(r.links,4),'a'],
+                ['√(a '+r.z+' b)', r.rechts===null?'nicht definiert':vn(r.rechts,4),'b'],
+                ['Gleich?', r.gleich?'ja – das Gesetz gilt':'nein', r.gleich?'g':'r']],
+ zeichne:(s,st,r)=>{
+   const X=40, BR=440, y1=92, y2=150, H=26;
+   /* Urteil oben */
+   const gut=r.gleich;
+   ve(s,'rect',{x:X,y:26,width:560,height:34,rx:8,
+     fill:gut?'var(--good-bg)':'var(--accent-soft)',
+     stroke:gut?'var(--good)':'#C2603C','stroke-width':1.5});
+   ve(s,'text',{x:X+16,y:48,class:'vtxt','font-size':'14','font-weight':'600',
+     fill:gut?'var(--good)':'#C2603C'},
+     gut ? r.lt+'  =  '+r.rt+'   ✓ dasselbe'
+         : r.lt+'  ≠  '+r.rt+'   ✗ nicht dasselbe');
+   /* Massstab: der groessere der beiden Werte fuellt den Balken */
+   const w=[r.links,r.rechts].filter(v=>v!==null&&isFinite(v));
+   const max=Math.max(1,...w.map(Math.abs));
+   const balken=(y,wert,beschr,farbe)=>{
+     ve(s,'text',{x:X,y:y-7,class:'vtxtm','font-size':'11.5'},beschr);
+     ve(s,'rect',{x:X,y:y,width:BR,height:H,rx:5,fill:'var(--surface-2)',
+       stroke:'var(--line)','stroke-width':1});
+     if(wert===null){
+       ve(s,'text',{x:X+12,y:y+18,class:'vtxt','font-size':'12.5',
+         fill:'var(--muted)'},'nicht definiert');
+       return;}
+     const L=Math.max(2,Math.abs(wert)/max*BR);
+     ve(s,'rect',{x:X,y:y,width:L,height:H,rx:5,fill:farbe,opacity:.38});
+     ve(s,'rect',{x:X,y:y,width:L,height:H,rx:5,fill:'none',stroke:farbe,'stroke-width':1.6});
+     ve(s,'text',{x:X+L+10,y:y+18,class:'vtxt','font-size':'13','font-weight':'600',
+       fill:farbe},vn(wert,4)+(wert<0?'  (negativ)':''));
+   };
+   balken(y1,r.links, 'erst wurzeln, dann rechnen:  '+r.lt,  'var(--accent)');
+   balken(y2,r.rechts,'erst rechnen, dann wurzeln:  '+r.rt,  'var(--blue)');
+   /* Unterschied */
+   if(r.links!==null && r.rechts!==null && !r.gleich){
+     ve(s,'text',{x:X,y:206,class:'vtxt','font-size':'12.5',fill:'#C2603C'},
+       'Unterschied: '+vn(Math.abs(r.links-r.rechts),4));
+   }
+   /* Hinweiszeile */
+   const hinweis = r.gilt
+     ? 'Mal und Geteilt dürfen unter die Wurzel – das sind die Wurzelgesetze 1 und 2.'
+     : (r.gleich
+        ? 'Zufall, weil '+(r.b===0?'b gleich 0 ist':r.a===0?'a gleich 0 ist':'a und b gleich sind')+
+          ' – ein Gesetz ist das nicht.'
+        : 'Für Plus und Minus gibt es kein Wurzelgesetz. Erst ausrechnen, dann wurzeln.');
+   ve(s,'text',{x:X,y:234,class:'vtxtm','font-size':'12'},hinweis);
+   if(!r.gilt && r.gleich)
+     ve(s,'text',{x:X,y:254,class:'vtxtm','font-size':'11.5'},
+       'Ändere eine der beiden Zahlen, dann siehst du den Unterschied.');
+   if(r.i===3 && r.innen!==null && r.innen<0)
+     ve(s,'text',{x:X,y:254,class:'vtxtm','font-size':'11.5'},
+       'a − b ist negativ – aus einer negativen Zahl gibt es keine Quadratwurzel.');
+   if(r.i===1 && r.b===0)
+     ve(s,'text',{x:X,y:254,class:'vtxtm','font-size':'11.5'},
+       'Durch 0 darf nicht geteilt werden.');
+ },
+ weg:(st,r)=>'<b>Links</b> wird jede Zahl für sich gewurzelt und danach verrechnet, '+
+   '<b>rechts</b> erst verrechnet und dann gewurzelt.<br>'+
+   (r.gilt
+     ? 'Bei <b>'+(r.i===0?'Mal':'Geteilt')+'</b> ist beides dasselbe – das ist Wurzelgesetz '+
+       (r.i===0?'1':'2')+': ⁿ√a '+r.z+' ⁿ√b = ⁿ√(a '+r.z+' b).'
+     : 'Bei <b>'+(r.i===2?'Plus':'Minus')+'</b> gibt es kein solches Gesetz. '+
+       'Probier es mit a = 9 und b = 16: links 3 + 4 = 7, rechts √25 = 5.')+'<br>'+
+   '<b>Merksatz:</b> Nur Mal und Geteilt dürfen unter die Wurzel hinein oder aus ihr heraus.'
+};
