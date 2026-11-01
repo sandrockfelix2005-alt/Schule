@@ -1,74 +1,72 @@
 #!/usr/bin/env python3
 """Liest den DAA-Betreuungsplan (PDF) aus und schreibt ihn als JSON.
 Die Tabelle wird ueber die Zeilenkoordinaten rekonstruiert, weil die reine
-Textextraktion die Spalten durcheinanderwirft."""
+Textextraktion die Spalten durcheinanderwirft.
+
+Seit dem Stand 22.09.2026 steht in der Spalte Klasse nicht mehr nur
+"Semester 1", sondern "Semester 1a" bzw. "1b" - das erste Semester ist in
+zwei Klassen geteilt, die an verschiedenen Tagen verschiedenen Unterricht
+haben. Die Klasse wird deshalb mitgefuehrt.
+"""
 import re, json, sys, pathlib
+
+BASIS = pathlib.Path(__file__).resolve().parent.parent
+PDF  = sys.argv[1] if len(sys.argv)>1 else str(BASIS/'Termine'/'Betreuungsplan_WS2026.pdf')
+ZIEL = sys.argv[2] if len(sys.argv)>2 else str(BASIS/'Termine'/'Betreuungsplan_WS2026.json')
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextContainer
 
-BASIS = pathlib.Path(__file__).resolve().parent.parent
-
 def zeilen(pfad):
-    for seite in extract_pages(str(pfad)):
-        stuecke=[]
+    for seite in extract_pages(pfad):
+        st=[]
         for el in seite:
             if isinstance(el, LTTextContainer):
                 for z in el:
                     if hasattr(z,'get_text'):
                         t=z.get_text().strip()
-                        if t: stuecke.append((round(z.y1,1), round(z.x0,1), t))
-        stuecke.sort(key=lambda s:(-s[0], s[1]))
-        gruppen=[]
-        for y,x,t in stuecke:
-            if gruppen and abs(gruppen[-1][0]-y)<=3.2: gruppen[-1][1].append((x,t))
-            else: gruppen.append([y,[(x,t)]])
-        for y,teile in gruppen:
+                        if t: st.append((round(z.y1,1), round(z.x0,1), t))
+        st.sort(key=lambda s:(-s[0], s[1]))
+        gr=[]
+        for y,x,t in st:
+            if gr and abs(gr[-1][0]-y)<=3.2: gr[-1][1].append((x,t))
+            else: gr.append([y,[(x,t)]])
+        for y,teile in gr:
             teile.sort()
             yield [t for x,t in teile]
 
-DATUM = re.compile(r'^(\d{2}\.\d{2}\.\d{4})\s+Semester\s+(\d+)$')
-SEM   = re.compile(r'^Semester\s+(\d+)$')
-ZEIT  = re.compile(r'^(\d{2}:\d{2})-(\d{2}:\d{2})$')
+DAT  = re.compile(r'^(\d{2}\.\d{2}\.\d{4})(?:\s+(.*))?$')
+KLAS = re.compile(r'^Semester\s+(\d+[ab]?)$')
+ZEIT = re.compile(r'^(\d{2}:\d{2})-(\d{2}:\d{2})$')
 
-def main(pdf):
-    termine={}                       # (datum, semester) -> Liste von Bloecken
-    datum=sem=None
-    for teile in zeilen(pdf):
-        if not teile: continue
-        kopf=teile[0]
-        m=DATUM.match(kopf)
+eintraege={}
+datum=klasse=None
+for teile in zeilen(PDF):
+    rest=list(teile)
+    if rest:
+        m=DAT.match(rest[0])
         if m:
-            datum, sem = m.group(1), int(m.group(2)); rest=teile[1:]
-        else:
-            m2=SEM.match(kopf)
-            if m2:
-                if datum is None: continue
-                sem=int(m2.group(1)); rest=teile[1:]
-            elif ZEIT.match(kopf):
-                rest=teile                       # Fortsetzungszeile
-            else:
-                continue
-        if datum is None or sem is None: continue
-        if not rest or not ZEIT.match(rest[0]): continue
-        von,bis = ZEIT.match(rest[0]).groups()
-        fach   = rest[1] if len(rest)>1 else ''
-        dozent = rest[2] if len(rest)>2 else ''
-        raum   = rest[3] if len(rest)>3 else ''
-        termine.setdefault((datum,sem),[]).append(
-            {'von':von,'bis':bis,'fach':fach,'dozent':dozent,'raum':raum})
+            datum=m.group(1)
+            rest.pop(0)
+            if m.group(2): rest.insert(0, m.group(2).strip())
+    if rest:
+        m=KLAS.match(rest[0])
+        if m: klasse=m.group(1); rest.pop(0)
+    if not rest or not datum or not klasse: continue
+    m=ZEIT.match(rest[0])
+    if not m: continue
+    von,bis=m.group(1),m.group(2); rest=rest[1:]
+    eintraege.setdefault((datum,klasse),[]).append(
+        {'von':von,'bis':bis,
+         'fach':   rest[0] if len(rest)>0 else '',
+         'dozent': rest[1] if len(rest)>1 else '',
+         'raum':   rest[2] if len(rest)>2 else ''})
 
-    aus=[]
-    for (d,s),bl in sorted(termine.items(), key=lambda k:(k[0][0][6:10]+k[0][0][3:5]+k[0][0][0:2], k[0][1])):
-        aus.append({'datum':d,'semester':s,'bloecke':bl})
-    ziel=BASIS/'Termine'/'Betreuungsplan_WS2026.json'
-    ziel.write_text(json.dumps(aus, ensure_ascii=False, indent=1), encoding='utf-8')
-
-    from collections import Counter
-    c=Counter(e['semester'] for e in aus)
-    print('Termine gesamt:', len(aus))
-    for s in sorted(c): print('  Semester %d: %2d Termine' % (s, c[s]))
-    print('->', ziel.relative_to(BASIS))
-    return aus
-
-if __name__=='__main__':
-    main(sys.argv[1] if len(sys.argv)>1 else BASIS/'Termine'/'Betreuungsplan_WS2026.pdf')
+def sortier(k):
+    t,m,j=k[0].split('.'); return (j,m,t,k[1])
+aus=[{'datum':d,'klasse':k,'semester':int(k[0]),'bloecke':b}
+     for (d,k),b in sorted(eintraege.items(), key=lambda kv: sortier(kv[0]))]
+json.dump(aus, open(ZIEL,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
+import collections
+print('%d Termine, je Klasse: %s' % (len(aus), dict(sorted(collections.Counter(e['klasse'] for e in aus).items()))))
+bl=sum(len(e['bloecke']) for e in aus)
+print('Unterrichtsblöcke gesamt:', bl)

@@ -2,7 +2,7 @@
 
 /* --- Masse und Kraft --- */
 VIZ.massekraft={
- titel:'Masse und Kraft', vb:'0 0 640 270',
+ titel:'Masse und Kraft', vb:'0 0 640 300',
  was:'Zieh an der Masse. Die Masse bleibt überall gleich – die Kraft, mit der es nach unten zieht, hängt vom Himmelskörper ab.',
  regler:[{k:'m',l:'Masse',min:1,max:5000,step:1,val:80,e:v=>v>=1000?vn(v/1000,2)+' t':vn(v,0)+' kg'}],
  rechne:s=>({F:s.m*9.81, FM:s.m*1.62, kN:s.m*9.81/1000}),
@@ -31,7 +31,7 @@ VIZ.massekraft={
    vpfeil(s,mx,ky+w*0.62+6,mx,ky+w*0.62+6+lM,'vreak');
    ve(s,'text',{x:mx,y:ky+w*0.62+lM+26,class:'vtxt','text-anchor':'middle',fill:'var(--blue)'},vn(r.FM,0)+' N');
    ve(s,'line',{x1:320,y1:34,x2:320,y2:236,class:'vhilf'});
-   ve(s,'text',{x:320,y:258,class:'vtxtm','text-anchor':'middle'},
+   ve(s,'text',{x:320,y:288,class:'vtxtm','text-anchor':'middle'},
      'Die Pfeile sind maßstäblich – der Mondpfeil ist ein Sechstel so lang.');
  },
  weg:(s,r)=>'F_G = m · g = '+vn(s.m,0)+' kg · 9,81 m/s² = <b>'+vn(r.F,1)+' N</b> = '+vn(r.kN,3)+' kN<br>'+
@@ -127,13 +127,13 @@ VIZ.umstellen={
    /* Dreieck als Kasten */
    ve(s,'rect',{x:cx-bw/2,y:oy,width:bw,height:bh,fill:st.g===0?'var(--surface-2)':'var(--accent-soft)',
      stroke:'var(--ink)','stroke-width':2});
-   ve(s,'text',{x:cx,y:oy+bh/2+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[0]);
+   if(st.g!==0) ve(s,'text',{x:cx,y:oy+bh/2+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[0]);
    ve(s,'rect',{x:cx-bw/2,y:oy+bh,width:bw/2,height:bh,fill:st.g===1?'var(--accent-soft)':'var(--surface-2)',
      stroke:'var(--ink)','stroke-width':2});
-   ve(s,'text',{x:cx-bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[1]);
+   if(st.g!==1) ve(s,'text',{x:cx-bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[1]);
    ve(s,'rect',{x:cx,y:oy+bh,width:bw/2,height:bh,fill:st.g===2?'var(--accent-soft)':'var(--surface-2)',
      stroke:'var(--ink)','stroke-width':2});
-   ve(s,'text',{x:cx+bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[2]);
+   if(st.g!==2) ve(s,'text',{x:cx+bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[2]);
    /* Das Gesuchte durchstreichen = zuhalten */
    const felder=[[cx-bw/2,oy,bw,bh],[cx-bw/2,oy+bh,bw/2,bh],[cx,oy+bh,bw/2,bh]];
    const f=felder[st.g];

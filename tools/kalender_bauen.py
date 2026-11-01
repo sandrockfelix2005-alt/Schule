@@ -3,7 +3,7 @@
 import json, pathlib, datetime, hashlib
 
 BASIS = pathlib.Path(__file__).resolve().parent.parent
-SEMESTER = 1                      # eigene Klasse
+KLASSE = '1b'                     # eigene Klasse (seit 22.09.2026 geteilt in 1a/1b)
 FARBE_NAME = 'navy'               # RFC 7986, CSS3-Farbname
 FARBE_HEX  = '#1B3A6B'            # fuer Apple/Outlook
 
@@ -27,17 +27,20 @@ def falten(zeile):
     return out[0] + ''.join('\r\n '+t for t in out[1:])
 
 def esc(s):
-    return s.replace('\\','\\\\').replace(';','\;').replace(',','\\,').replace('\n','\\n')
+    return s.replace('\\','\\\\').replace(';','\\;').replace(',','\\,').replace('\n','\\n')
 
 def main():
     plan=json.loads((BASIS/'Termine'/'Betreuungsplan_WS2026.json').read_text(encoding='utf-8'))
-    meine=[e for e in plan if e['semester']==SEMESTER]
+    meine=[e for e in plan if e.get('klasse', str(e['semester']))==KLASSE]
+    if not meine:
+        raise SystemExit('Keine Termine fuer Klasse %s im Plan gefunden.' % KLASSE)
+    stand=sorted({e.get('stand','22.09.2026') for e in plan})[-1]
     stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
 
     L=['BEGIN:VCALENDAR','VERSION:2.0',
        'PRODID:-//Lerntool Bautechnik//DAA-Technikum//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',
-       'X-WR-CALNAME:DAA Präsenztermine · Semester %d' % SEMESTER,
-       'NAME:DAA Präsenztermine · Semester %d' % SEMESTER,
+       'X-WR-CALNAME:DAA Präsenztermine · Semester %s' % KLASSE,
+       'NAME:DAA Präsenztermine · Semester %s' % KLASSE,
        'X-WR-TIMEZONE:Europe/Berlin',
        'COLOR:'+FARBE_NAME,
        'X-APPLE-CALENDAR-COLOR:'+FARBE_HEX,
@@ -60,10 +63,11 @@ def main():
         for b in e['bloecke']:
             n=lesbar(b['fach']) or b['fach']      # unbekannte Kuerzel unveraendert uebernehmen
             if n and n not in faecher: faecher.append(n)
-        titel='DAA Semester %d · %s' % (SEMESTER, ' · '.join(faecher) if faecher else 'Präsenzunterricht')
+        titel='DAA Semester %s · %s' % (KLASSE, ' · '.join(faecher) if faecher else 'Präsenzunterricht')
         zeilen=['%s–%s  %s  (%s)' % (b['von'],b['bis'],b['fach'],b['dozent']) for b in e['bloecke']]
-        besch='\n'.join(zeilen)+'\n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom 24.08.2026.'
-        uid='daa-s%d-%s-%s@lerntool' % (SEMESTER, d, hashlib.md5(besch.encode()).hexdigest()[:6])
+        besch='\n'.join(zeilen)+('\n\nStudienort Kassel · Raum: Aushang\n'
+                                 'Kürzel wie im Betreuungsplan vom %s.' % stand)
+        uid='daa-s%s-%s-%s@lerntool' % (KLASSE, d, hashlib.md5(besch.encode()).hexdigest()[:6])
         L += ['BEGIN:VEVENT', 'UID:'+uid, 'DTSTAMP:'+stamp,
               'DTSTART;TZID=Europe/Berlin:'+beg, 'DTEND;TZID=Europe/Berlin:'+end,
               falten('SUMMARY:'+esc(titel)),

@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Lerntool Bautechnik//DAA-Technikum//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:DAA Präsenztermine · Semester 1
-NAME:DAA Präsenztermine · Semester 1
+X-WR-CALNAME:DAA Präsenztermine · Semester 1b
+NAME:DAA Präsenztermine · Semester 1b
 X-WR-TIMEZONE:Europe/Berlin
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -28,42 +28,14 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:daa-s1-20261017-be8c69@lerntool
-DTSTAMP:20260909T172814Z
-DTSTART;TZID=Europe/Berlin:20261017T080000
-DTEND;TZID=Europe/Berlin:20261017T130000
-SUMMARY:DAA Semester 1 · EIN · Mathematik
-DESCRIPTION:08:00–09:30  EIN  (LBr)\n09:45–13:00  LA2-MAT  (SKn)\n\nS
- tudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom 24.
- 08.2026.
-LOCATION:DAA-Technikum · Studienort Kassel
-COLOR:navy
-X-APPLE-CALENDAR-COLOR:#1B3A6B
-CATEGORIES:Schule
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · EIN · Mathemati
- k
-TRIGGER:-PT14H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · EIN · Mathematik
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:daa-s1-20261024-dcd1a7@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20261024-7398b1@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20261024T080000
 DTEND;TZID=Europe/Berlin:20261024T130000
-SUMMARY:DAA Semester 1 · Mathematik
-DESCRIPTION:08:00–10:30  LA2-MAT  (SKn)\n10:30–13:00  LA3-MAT  (SKn)\
- n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
-  24.08.2026.
+SUMMARY:DAA Semester 1b · EIN · Mathematik
+DESCRIPTION:08:00–09:30  EIN  (LBr)\n09:45–13:00  LA2-MAT  (LBr)\n\nS
+ tudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom 22.
+ 09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -73,23 +45,25 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · EIN · Mathemat
+ ik
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik
+DESCRIPTION:In einer Stunde: DAA Semester 1b · EIN · Mathematik
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20261107-083e40@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20261107-95e77b@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20261107T080000
-DTEND;TZID=Europe/Berlin:20261107T121500
-SUMMARY:DAA Semester 1 · Deutsch/Kommunikation
-DESCRIPTION:08:00–12:15  LA1-DEU  (GJo)\n\nStudienort Kassel · Raum: A
- ushang\nKürzel wie im Betreuungsplan vom 24.08.2026.
+DTEND;TZID=Europe/Berlin:20261107T130000
+SUMMARY:DAA Semester 1b · Mathematik
+DESCRIPTION:08:00–10:30  LA2-MAT  (LBr)\n10:30–13:00  LA3-MAT  (LBr)\
+ n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
+  22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -99,25 +73,24 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Deutsch/Kommunik
- ation
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Deutsch/Kommunikation
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20261114-a480c2@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20261114-ec593a@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20261114T080000
 DTEND;TZID=Europe/Berlin:20261114T130000
-SUMMARY:DAA Semester 1 · Mathematik
-DESCRIPTION:08:00–11:15  LA3-MAT  (SKn)\n11:30–13:00  LA4-MAT  (SKn)\
+SUMMARY:DAA Semester 1b · Mathematik
+DESCRIPTION:08:00–11:15  LA3-MAT  (LBr)\n11:30–13:00  LA4-MAT  (LBr)\
  n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
-  24.08.2026.
+  22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -127,24 +100,51 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20261121-e357ae@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20261121-00360a@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20261121T080000
-DTEND;TZID=Europe/Berlin:20261121T134500
-SUMMARY:DAA Semester 1 · Naturwissenschaft
+DTEND;TZID=Europe/Berlin:20261121T121500
+SUMMARY:DAA Semester 1b · Deutsch/Kommunikation
+DESCRIPTION:08:00–12:15  LA1-DEU  (GJo)\n\nStudienort Kassel · Raum: A
+ ushang\nKürzel wie im Betreuungsplan vom 22.09.2026.
+LOCATION:DAA-Technikum · Studienort Kassel
+COLOR:navy
+X-APPLE-CALENDAR-COLOR:#1B3A6B
+CATEGORIES:Schule
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Deutsch/Kommuni
+ kation
+TRIGGER:-PT14H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Deutsch/Kommunikation
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:daa-s1b-20261128-e1d3a4@lerntool
+DTSTAMP:20261101T125550Z
+DTSTART;TZID=Europe/Berlin:20261128T080000
+DTEND;TZID=Europe/Berlin:20261128T134500
+SUMMARY:DAA Semester 1b · Naturwissenschaft
 DESCRIPTION:08:00–11:15  LA4-PHY  (AHO)\n11:30–13:45  LA5-PHY  (AHO)\
  n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
-  24.08.2026.
+  22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -154,25 +154,25 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf
- t
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha
+ ft
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20261205-6123c6@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20261205-8ac285@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20261205T080000
 DTEND;TZID=Europe/Berlin:20261205T130000
-SUMMARY:DAA Semester 1 · Mathematik
-DESCRIPTION:08:00–09:30  LA4-MAT  (SKn)\n09:45–13:00  LA5-MAT  (SKn)\
+SUMMARY:DAA Semester 1b · Mathematik
+DESCRIPTION:08:00–08:45  LA5-MAT  (LBr)\n08:45–13:00  LA6-MAT  (LBr)\
  n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
-  24.08.2026.
+  22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -182,50 +182,23 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20261212-9c80dc@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20261212-566bc6@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20261212T080000
 DTEND;TZID=Europe/Berlin:20261212T130000
-SUMMARY:DAA Semester 1 · Mathematik
-DESCRIPTION:08:00–08:45  LA5-MAT  (SKn)\n08:45–13:00  LA6-MAT  (SKn)\
- n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
-  24.08.2026.
-LOCATION:DAA-Technikum · Studienort Kassel
-COLOR:navy
-X-APPLE-CALENDAR-COLOR:#1B3A6B
-CATEGORIES:Schule
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik
-TRIGGER:-PT14H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:daa-s1-20270116-9c88af@lerntool
-DTSTAMP:20260909T172814Z
-DTSTART;TZID=Europe/Berlin:20270116T080000
-DTEND;TZID=Europe/Berlin:20270116T130000
-SUMMARY:DAA Semester 1 · Naturwissenschaft
+SUMMARY:DAA Semester 1b · Naturwissenschaft
 DESCRIPTION:08:00–13:00  LA7-PHY  (AHO)\n\nStudienort Kassel · Raum: A
- ushang\nKürzel wie im Betreuungsplan vom 24.08.2026.
+ ushang\nKürzel wie im Betreuungsplan vom 22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -235,25 +208,25 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf
- t
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha
+ ft
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20270123-fea3be@lerntool
-DTSTAMP:20260909T172814Z
-DTSTART;TZID=Europe/Berlin:20270123T080000
-DTEND;TZID=Europe/Berlin:20270123T134500
-SUMMARY:DAA Semester 1 · Mathematik · BER
-DESCRIPTION:08:00–09:30  LA6-MAT  (SKn)\n09:45–13:00  LA8-MAT  (SKn)\
- n13:00–13:45  BER  (SKn)\n\nStudienort Kassel · Raum: Aushang\nKürze
- l wie im Betreuungsplan vom 24.08.2026.
+UID:daa-s1b-20261219-8240a5@lerntool
+DTSTAMP:20261101T125550Z
+DTSTART;TZID=Europe/Berlin:20261219T080000
+DTEND;TZID=Europe/Berlin:20261219T130000
+SUMMARY:DAA Semester 1b · Mathematik
+DESCRIPTION:08:00–09:30  LA4-MAT  (LBr)\n09:45–13:00  LA5-MAT  (LBr)\
+ n\nStudienort Kassel · Raum: Aushang\nKürzel wie im Betreuungsplan vom
+  22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -263,25 +236,52 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE
- R
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20270130-fc85fe@lerntool
-DTSTAMP:20260909T172814Z
+UID:daa-s1b-20270130-6f2a80@lerntool
+DTSTAMP:20261101T125550Z
 DTSTART;TZID=Europe/Berlin:20270130T080000
-DTEND;TZID=Europe/Berlin:20270130T130000
-SUMMARY:DAA Semester 1 · Naturwissenschaft
+DTEND;TZID=Europe/Berlin:20270130T134500
+SUMMARY:DAA Semester 1b · Mathematik · BER
+DESCRIPTION:08:00–09:30  LA6-MAT  (LBr)\n09:45–13:00  LA8-MAT  (LBr)\
+ n13:00–13:45  BER  (LBr)\n\nStudienort Kassel · Raum: Aushang\nKürze
+ l wie im Betreuungsplan vom 22.09.2026.
+LOCATION:DAA-Technikum · Studienort Kassel
+COLOR:navy
+X-APPLE-CALENDAR-COLOR:#1B3A6B
+CATEGORIES:Schule
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik · B
+ ER
+TRIGGER:-PT14H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik · BER
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:daa-s1b-20270206-ec238a@lerntool
+DTSTAMP:20261101T125550Z
+DTSTART;TZID=Europe/Berlin:20270206T080000
+DTEND;TZID=Europe/Berlin:20270206T130000
+SUMMARY:DAA Semester 1b · Naturwissenschaft
 DESCRIPTION:08:00–09:30  LA8-PHY  (AHO)\n09:45–12:15  LA9-PHY  (AHO)\
  n12:15–13:00  LA10-PHY  (AHO)\n\nStudienort Kassel · Raum: Aushang\nK
- ürzel wie im Betreuungsplan vom 24.08.2026.
+ ürzel wie im Betreuungsplan vom 22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -291,52 +291,24 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf
- t
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha
+ ft
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:daa-s1-20270206-1f0ca9@lerntool
-DTSTAMP:20260909T172814Z
-DTSTART;TZID=Europe/Berlin:20270206T080000
-DTEND;TZID=Europe/Berlin:20270206T134500
-SUMMARY:DAA Semester 1 · Mathematik · BER
-DESCRIPTION:08:00–08:45  LA8-MAT  (SKn)\n08:45–13:00  LA9-MAT  (SKn)\
- n13:00–13:45  BER  (SKn)\n\nStudienort Kassel · Raum: Aushang\nKürze
- l wie im Betreuungsplan vom 24.08.2026.
-LOCATION:DAA-Technikum · Studienort Kassel
-COLOR:navy
-X-APPLE-CALENDAR-COLOR:#1B3A6B
-CATEGORIES:Schule
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE
- R
-TRIGGER:-PT14H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:daa-s1-20270306-6e5fc2@lerntool
-DTSTAMP:20260909T172814Z
-DTSTART;TZID=Europe/Berlin:20270306T080000
-DTEND;TZID=Europe/Berlin:20270306T130000
-SUMMARY:DAA Semester 1 · Naturwissenschaft
+UID:daa-s1b-20270213-7425f4@lerntool
+DTSTAMP:20261101T125550Z
+DTSTART;TZID=Europe/Berlin:20270213T080000
+DTEND;TZID=Europe/Berlin:20270213T130000
+SUMMARY:DAA Semester 1b · Naturwissenschaft
 DESCRIPTION:08:00–13:00  LA10-PHY  (AHO)\n\nStudienort Kassel · Raum: 
- Aushang\nKürzel wie im Betreuungsplan vom 24.08.2026.
+ Aushang\nKürzel wie im Betreuungsplan vom 22.09.2026.
 LOCATION:DAA-Technikum · Studienort Kassel
 COLOR:navy
 X-APPLE-CALENDAR-COLOR:#1B3A6B
@@ -346,13 +318,41 @@ TRANSP:OPAQUE
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf
- t
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha
+ ft
 TRIGGER:-PT14H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:daa-s1b-20270220-349dc0@lerntool
+DTSTAMP:20261101T125550Z
+DTSTART;TZID=Europe/Berlin:20270220T080000
+DTEND;TZID=Europe/Berlin:20270220T134500
+SUMMARY:DAA Semester 1b · Mathematik · BER
+DESCRIPTION:08:00–08:45  LA8-MAT  (LBr)\n08:45–13:00  LA9-MAT  (LBr)\
+ n13:00–13:45  BER  (LBr)\n\nStudienort Kassel · Raum: Aushang\nKürze
+ l wie im Betreuungsplan vom 22.09.2026.
+LOCATION:DAA-Technikum · Studienort Kassel
+COLOR:navy
+X-APPLE-CALENDAR-COLOR:#1B3A6B
+CATEGORIES:Schule
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik · B
+ ER
+TRIGGER:-PT14H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik · BER
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

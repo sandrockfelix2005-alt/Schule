@@ -453,6 +453,10 @@
   .viz .vkurve{stroke:var(--accent);stroke-width:2.4;fill:none;stroke-linejoin:round}
   .viz .vkurve2{stroke:var(--blue);stroke-width:2.4;fill:none;stroke-linejoin:round}
   .viz .vflaeche{fill:var(--accent);opacity:.16;stroke:none}
+  /* Saum in der Buehnenfarbe: Beschriftungen bleiben lesbar, auch wenn eine
+     Mass- oder Kraftlinie genau darunter durchlaeuft. */
+  .viz .vbuehne svg text{paint-order:stroke fill;stroke:var(--surface-2);
+    stroke-width:3px;stroke-linejoin:round;stroke-linecap:round}
   .viz .vtxt{font-family:var(--mono);font-size:12px;fill:var(--ink)}
   .viz .vtxtm{font-family:var(--mono);font-size:11.5px;fill:var(--muted)}
   .viz .vhinweis{display:none;font-size:11.5px;color:var(--muted);margin:7px 0 0;font-family:var(--mono)}
@@ -886,6 +890,7 @@
     <section class="view" data-view="termine">
       <div class="kicker">Termine · Präsenzphasen</div>
       <h1>Deine Schultage</h1>
+      <div class="modpick" id="klassenwahl"></div>
       <p class="lead" id="termin-quelle"></p>
       <div class="panel tip" id="next-termin"></div>
       <div class="panel vorb" id="termin-vorb" style="display:none"></div>
@@ -2053,7 +2058,7 @@ const KLAUSUREN = {
  ]}
 };
 
-const ICSTEXT = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Lerntool Bautechnik//DAA-Technikum//DE\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-CALNAME:DAA Präsenztermine · Semester 1\nNAME:DAA Präsenztermine · Semester 1\nX-WR-TIMEZONE:Europe/Berlin\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nX-OUTLOOK-COLOR:#1B3A6B\nX-WR-CALDESC:Betreuungsplan DAA-Technikum\\, Studienort Kassel\nBEGIN:VTIMEZONE\nTZID:Europe/Berlin\nBEGIN:DAYLIGHT\nTZOFFSETFROM:+0100\nTZOFFSETTO:+0200\nTZNAME:CEST\nDTSTART:19700329T020000\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\nEND:DAYLIGHT\nBEGIN:STANDARD\nTZOFFSETFROM:+0200\nTZOFFSETTO:+0100\nTZNAME:CET\nDTSTART:19701025T030000\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\nEND:STANDARD\nEND:VTIMEZONE\nBEGIN:VEVENT\nUID:daa-s1-20261017-be8c69@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261017T080000\nDTEND;TZID=Europe/Berlin:20261017T130000\nSUMMARY:DAA Semester 1 · EIN · Mathematik\nDESCRIPTION:08:00–09:30  EIN  (LBr)\\n09:45–13:00  LA2-MAT  (SKn)\\n\\nS\n tudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom 24.\n 08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · EIN · Mathemati\n k\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · EIN · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261024-dcd1a7@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261024T080000\nDTEND;TZID=Europe/Berlin:20261024T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–10:30  LA2-MAT  (SKn)\\n10:30–13:00  LA3-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261107-083e40@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261107T080000\nDTEND;TZID=Europe/Berlin:20261107T121500\nSUMMARY:DAA Semester 1 · Deutsch/Kommunikation\nDESCRIPTION:08:00–12:15  LA1-DEU  (GJo)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Deutsch/Kommunik\n ation\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Deutsch/Kommunikation\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261114-a480c2@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261114T080000\nDTEND;TZID=Europe/Berlin:20261114T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–11:15  LA3-MAT  (SKn)\\n11:30–13:00  LA4-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261121-e357ae@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261121T080000\nDTEND;TZID=Europe/Berlin:20261121T134500\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–11:15  LA4-PHY  (AHO)\\n11:30–13:45  LA5-PHY  (AHO)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261205-6123c6@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261205T080000\nDTEND;TZID=Europe/Berlin:20261205T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–09:30  LA4-MAT  (SKn)\\n09:45–13:00  LA5-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20261212-9c80dc@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20261212T080000\nDTEND;TZID=Europe/Berlin:20261212T130000\nSUMMARY:DAA Semester 1 · Mathematik\nDESCRIPTION:08:00–08:45  LA5-MAT  (SKn)\\n08:45–13:00  LA6-MAT  (SKn)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270116-9c88af@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270116T080000\nDTEND;TZID=Europe/Berlin:20270116T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA7-PHY  (AHO)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270123-fea3be@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270123T080000\nDTEND;TZID=Europe/Berlin:20270123T134500\nSUMMARY:DAA Semester 1 · Mathematik · BER\nDESCRIPTION:08:00–09:30  LA6-MAT  (SKn)\\n09:45–13:00  LA8-MAT  (SKn)\\\n n13:00–13:45  BER  (SKn)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE\n R\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270130-fc85fe@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270130T080000\nDTEND;TZID=Europe/Berlin:20270130T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–09:30  LA8-PHY  (AHO)\\n09:45–12:15  LA9-PHY  (AHO)\\\n n12:15–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: Aushang\\nK\n ürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270206-1f0ca9@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270206T080000\nDTEND;TZID=Europe/Berlin:20270206T134500\nSUMMARY:DAA Semester 1 · Mathematik · BER\nDESCRIPTION:08:00–08:45  LA8-MAT  (SKn)\\n08:45–13:00  LA9-MAT  (SKn)\\\n n13:00–13:45  BER  (SKn)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Mathematik · BE\n R\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1-20270306-6e5fc2@lerntool\nDTSTAMP:20260909T172814Z\nDTSTART;TZID=Europe/Berlin:20270306T080000\nDTEND;TZID=Europe/Berlin:20270306T130000\nSUMMARY:DAA Semester 1 · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: \n Aushang\\nKürzel wie im Betreuungsplan vom 24.08.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1 · Naturwissenschaf\n t\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1 · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR\n";
+const ICSTEXT = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Lerntool Bautechnik//DAA-Technikum//DE\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-CALNAME:DAA Präsenztermine · Semester 1b\nNAME:DAA Präsenztermine · Semester 1b\nX-WR-TIMEZONE:Europe/Berlin\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nX-OUTLOOK-COLOR:#1B3A6B\nX-WR-CALDESC:Betreuungsplan DAA-Technikum\\, Studienort Kassel\nBEGIN:VTIMEZONE\nTZID:Europe/Berlin\nBEGIN:DAYLIGHT\nTZOFFSETFROM:+0100\nTZOFFSETTO:+0200\nTZNAME:CEST\nDTSTART:19700329T020000\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\nEND:DAYLIGHT\nBEGIN:STANDARD\nTZOFFSETFROM:+0200\nTZOFFSETTO:+0100\nTZNAME:CET\nDTSTART:19701025T030000\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\nEND:STANDARD\nEND:VTIMEZONE\nBEGIN:VEVENT\nUID:daa-s1b-20261024-7398b1@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261024T080000\nDTEND;TZID=Europe/Berlin:20261024T130000\nSUMMARY:DAA Semester 1b · EIN · Mathematik\nDESCRIPTION:08:00–09:30  EIN  (LBr)\\n09:45–13:00  LA2-MAT  (LBr)\\n\\nS\n tudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom 22.\n 09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · EIN · Mathemat\n ik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · EIN · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261107-95e77b@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261107T080000\nDTEND;TZID=Europe/Berlin:20261107T130000\nSUMMARY:DAA Semester 1b · Mathematik\nDESCRIPTION:08:00–10:30  LA2-MAT  (LBr)\\n10:30–13:00  LA3-MAT  (LBr)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261114-ec593a@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261114T080000\nDTEND;TZID=Europe/Berlin:20261114T130000\nSUMMARY:DAA Semester 1b · Mathematik\nDESCRIPTION:08:00–11:15  LA3-MAT  (LBr)\\n11:30–13:00  LA4-MAT  (LBr)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261121-00360a@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261121T080000\nDTEND;TZID=Europe/Berlin:20261121T121500\nSUMMARY:DAA Semester 1b · Deutsch/Kommunikation\nDESCRIPTION:08:00–12:15  LA1-DEU  (GJo)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Deutsch/Kommuni\n kation\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Deutsch/Kommunikation\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261128-e1d3a4@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261128T080000\nDTEND;TZID=Europe/Berlin:20261128T134500\nSUMMARY:DAA Semester 1b · Naturwissenschaft\nDESCRIPTION:08:00–11:15  LA4-PHY  (AHO)\\n11:30–13:45  LA5-PHY  (AHO)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha\n ft\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261205-8ac285@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261205T080000\nDTEND;TZID=Europe/Berlin:20261205T130000\nSUMMARY:DAA Semester 1b · Mathematik\nDESCRIPTION:08:00–08:45  LA5-MAT  (LBr)\\n08:45–13:00  LA6-MAT  (LBr)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261212-566bc6@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261212T080000\nDTEND;TZID=Europe/Berlin:20261212T130000\nSUMMARY:DAA Semester 1b · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA7-PHY  (AHO)\\n\\nStudienort Kassel · Raum: A\n ushang\\nKürzel wie im Betreuungsplan vom 22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha\n ft\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20261219-8240a5@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20261219T080000\nDTEND;TZID=Europe/Berlin:20261219T130000\nSUMMARY:DAA Semester 1b · Mathematik\nDESCRIPTION:08:00–09:30  LA4-MAT  (LBr)\\n09:45–13:00  LA5-MAT  (LBr)\\\n n\\nStudienort Kassel · Raum: Aushang\\nKürzel wie im Betreuungsplan vom\n  22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20270130-6f2a80@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20270130T080000\nDTEND;TZID=Europe/Berlin:20270130T134500\nSUMMARY:DAA Semester 1b · Mathematik · BER\nDESCRIPTION:08:00–09:30  LA6-MAT  (LBr)\\n09:45–13:00  LA8-MAT  (LBr)\\\n n13:00–13:45  BER  (LBr)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik · B\n ER\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20270206-ec238a@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20270206T080000\nDTEND;TZID=Europe/Berlin:20270206T130000\nSUMMARY:DAA Semester 1b · Naturwissenschaft\nDESCRIPTION:08:00–09:30  LA8-PHY  (AHO)\\n09:45–12:15  LA9-PHY  (AHO)\\\n n12:15–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: Aushang\\nK\n ürzel wie im Betreuungsplan vom 22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha\n ft\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20270213-7425f4@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20270213T080000\nDTEND;TZID=Europe/Berlin:20270213T130000\nSUMMARY:DAA Semester 1b · Naturwissenschaft\nDESCRIPTION:08:00–13:00  LA10-PHY  (AHO)\\n\\nStudienort Kassel · Raum: \n Aushang\\nKürzel wie im Betreuungsplan vom 22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Naturwissenscha\n ft\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Naturwissenschaft\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nBEGIN:VEVENT\nUID:daa-s1b-20270220-349dc0@lerntool\nDTSTAMP:20261101T125550Z\nDTSTART;TZID=Europe/Berlin:20270220T080000\nDTEND;TZID=Europe/Berlin:20270220T134500\nSUMMARY:DAA Semester 1b · Mathematik · BER\nDESCRIPTION:08:00–08:45  LA8-MAT  (LBr)\\n08:45–13:00  LA9-MAT  (LBr)\\\n n13:00–13:45  BER  (LBr)\\n\\nStudienort Kassel · Raum: Aushang\\nKürze\n l wie im Betreuungsplan vom 22.09.2026.\nLOCATION:DAA-Technikum · Studienort Kassel\nCOLOR:navy\nX-APPLE-CALENDAR-COLOR:#1B3A6B\nCATEGORIES:Schule\nSTATUS:CONFIRMED\nTRANSP:OPAQUE\nSEQUENCE:0\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Morgen Präsenzunterricht: DAA Semester 1b · Mathematik · B\n ER\nTRIGGER:-PT14H\nEND:VALARM\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:In einer Stunde: DAA Semester 1b · Mathematik · BER\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR\n";
 /* Was an einem Schultag drankommt. Quelle: WilmA / Technikum24.
    Nur eingetragen, was ich tatsaechlich gesehen habe - der Rest bleibt offen. */
 /* Tagesplan bis zum naechsten Schultag.
@@ -2138,23 +2143,87 @@ function stoffVon(datum, code){
   return t ? t[code] : null;
 }
 const PLANTERMINE = {
- 1:[
-  {d:"2026-10-17",b:[["08:00","09:30","EIN","LBr"],["09:45","13:00","LA2-MAT","SKn"]]},
-  {d:"2026-10-24",b:[["08:00","10:30","LA2-MAT","SKn"],["10:30","13:00","LA3-MAT","SKn"]]},
-  {d:"2026-11-07",b:[["08:00","12:15","LA1-DEU","GJo"]]},
-  {d:"2026-11-14",b:[["08:00","11:15","LA3-MAT","SKn"],["11:30","13:00","LA4-MAT","SKn"]]},
-  {d:"2026-11-21",b:[["08:00","11:15","LA4-PHY","AHO"],["11:30","13:45","LA5-PHY","AHO"]]},
-  {d:"2026-12-05",b:[["08:00","09:30","LA4-MAT","SKn"],["09:45","13:00","LA5-MAT","SKn"]]},
-  {d:"2026-12-12",b:[["08:00","08:45","LA5-MAT","SKn"],["08:45","13:00","LA6-MAT","SKn"]]},
-  {d:"2027-01-16",b:[["08:00","13:00","LA7-PHY","AHO"]]},
-  {d:"2027-01-23",b:[["08:00","09:30","LA6-MAT","SKn"],["09:45","13:00","LA8-MAT","SKn"],["13:00","13:45","BER","SKn"]]},
-  {d:"2027-01-30",b:[["08:00","09:30","LA8-PHY","AHO"],["09:45","12:15","LA9-PHY","AHO"],["12:15","13:00","LA10-PHY","AHO"]]},
-  {d:"2027-02-06",b:[["08:00","08:45","LA8-MAT","SKn"],["08:45","13:00","LA9-MAT","SKn"],["13:00","13:45","BER","SKn"]]},
-  {d:"2027-03-06",b:[["08:00","13:00","LA10-PHY","AHO"]]}
- ]
+ "1a":[
+   {d:"2026-10-17",b:[["08:00","09:30","EIN","LBr"],["09:45","13:00","LA2-MAT","SKn"]]},
+   {d:"2026-10-24",b:[["08:00","10:30","LA2-MAT","SKn"],["10:30","13:00","LA3-MAT","SKn"]]},
+   {d:"2026-11-07",b:[["08:00","12:15","LA1-DEU","GJo"]]},
+   {d:"2026-11-14",b:[["08:00","11:15","LA3-MAT","SKn"],["11:30","13:00","LA4-MAT","SKn"]]},
+   {d:"2026-11-21",b:[["08:00","11:15","LA4-PHY","AHO"],["11:30","13:45","LA5-PHY","AHO"]]},
+   {d:"2026-11-28",b:[["08:00","09:30","LA4-MAT","SKn"],["09:45","13:00","LA5-MAT","SKn"]]},
+   {d:"2026-12-12",b:[["08:00","08:45","LA5-MAT","SKn"],["08:45","13:00","LA6-MAT","SKn"]]},
+   {d:"2027-01-16",b:[["08:00","13:00","LA7-PHY","AHO"]]},
+   {d:"2027-01-23",b:[["08:00","09:30","LA6-MAT","SKn"],["09:45","13:00","LA8-MAT","SKn"],["13:00","13:45","BER","SKn"]]},
+   {d:"2027-01-30",b:[["08:00","09:30","LA8-PHY","AHO"],["09:45","12:15","LA9-PHY","AHO"],["12:15","13:00","LA10-PHY","AHO"]]},
+   {d:"2027-02-06",b:[["08:00","08:45","LA8-MAT","SKn"],["08:45","13:00","LA9-MAT","SKn"],["13:00","13:45","BER","SKn"]]},
+   {d:"2027-03-06",b:[["08:00","13:00","LA10-PHY","AHO"]]}],
+ "1b":[
+   {d:"2026-10-24",b:[["08:00","09:30","EIN","LBr"],["09:45","13:00","LA2-MAT","LBr"]]},
+   {d:"2026-11-07",b:[["08:00","10:30","LA2-MAT","LBr"],["10:30","13:00","LA3-MAT","LBr"]]},
+   {d:"2026-11-14",b:[["08:00","11:15","LA3-MAT","LBr"],["11:30","13:00","LA4-MAT","LBr"]]},
+   {d:"2026-11-21",b:[["08:00","12:15","LA1-DEU","GJo"]]},
+   {d:"2026-11-28",b:[["08:00","11:15","LA4-PHY","AHO"],["11:30","13:45","LA5-PHY","AHO"]]},
+   {d:"2026-12-05",b:[["08:00","08:45","LA5-MAT","LBr"],["08:45","13:00","LA6-MAT","LBr"]]},
+   {d:"2026-12-12",b:[["08:00","13:00","LA7-PHY","AHO"]]},
+   {d:"2026-12-19",b:[["08:00","09:30","LA4-MAT","LBr"],["09:45","13:00","LA5-MAT","LBr"]]},
+   {d:"2027-01-30",b:[["08:00","09:30","LA6-MAT","LBr"],["09:45","13:00","LA8-MAT","LBr"],["13:00","13:45","BER","LBr"]]},
+   {d:"2027-02-06",b:[["08:00","09:30","LA8-PHY","AHO"],["09:45","12:15","LA9-PHY","AHO"],["12:15","13:00","LA10-PHY","AHO"]]},
+   {d:"2027-02-13",b:[["08:00","13:00","LA10-PHY","AHO"]]},
+   {d:"2027-02-20",b:[["08:00","08:45","LA8-MAT","LBr"],["08:45","13:00","LA9-MAT","LBr"],["13:00","13:45","BER","LBr"]]}],
+ "2a":[
+   {d:"2026-10-17",b:[["08:00","13:00","LA1-ENG","EOp"]]},
+   {d:"2026-10-31",b:[["08:00","12:15","LA4-DEU","GJo"]]},
+   {d:"2026-11-07",b:[["08:00","13:00","LA3-MAT","AHO"]]},
+   {d:"2026-12-05",b:[["08:00","13:00","LA5-MAT","AHO"]]},
+   {d:"2026-12-12",b:[["08:00","13:00","LA2-PHY","LBr"]]},
+   {d:"2027-01-16",b:[["08:00","12:15","LA8-DEU","GJo"]]},
+   {d:"2027-01-23",b:[["08:00","08:45","LA2-PHY","LBr"],["08:45","12:15","LA7-PHY","LBr"],["12:15","13:45","BER","LBr"]]},
+   {d:"2027-01-30",b:[["08:00","13:00","LA6-ENG","EOp"]]},
+   {d:"2027-02-06",b:[["08:00","13:00","LA10-ENG","EOp"]]},
+   {d:"2027-02-13",b:[["08:00","09:30","LA7-PHY","LBr"],["09:45","13:00","LA9-PHY","LBr"]]},
+   {d:"2027-02-20",b:[["08:00","12:15","LA11-DEU","GJo"],["12:15","13:45","LA12-DEU","GJo"]]},
+   {d:"2027-03-06",b:[["08:00","09:30","LA9-PHY","LBr"],["09:45","13:00","LA12-PHY","LBr"]]}],
+ "3a":[
+   {d:"2026-10-24",b:[["08:00","13:00","LA1-ENG","EOp"]]},
+   {d:"2026-11-14",b:[["08:00","12:15","LA3-ENG","EOp"]]},
+   {d:"2026-12-05",b:[["08:00","13:45","LA2-MAT","JMö"]]},
+   {d:"2027-01-16",b:[["08:00","12:15","LA5-ENG","EOp"],["12:15","13:45","LA6-ENG","EOp"]]},
+   {d:"2027-02-13",b:[["08:00","13:00","LA4-MAT","JMö"]]},
+   {d:"2027-03-06",b:[["08:00","11:15","LA6-MAT","JMö"],["11:30","13:00","BER","JMö"]]}]
 };
+const KLASSEN = {"1": ["1a", "1b"], "2": ["2a"], "3": ["3a"]};
 /* Stand des Betreuungsplans, wird bei jedem neuen Plan mitgeführt */
-const PLANSTAND = "24.08.2026";
+const PLANSTAND = "22.09.2026";
+/* Seit dem Betreuungsplan vom 22.09.2026 ist das 1. Semester in die Klassen
+   1a und 1b geteilt. Sie haben an verschiedenen Tagen verschiedenen
+   Unterricht, die Termine haengen also an der Klasse, nicht am Semester. */
+const KKEY='lerntool-bautechnik-klasse';
+const STANDARDKLASSE={1:'1b'};
+function meineKlasse(){
+  const moeglich=(typeof KLASSEN!=='undefined' && KLASSEN[curSem]) || [];
+  if(!moeglich.length) return null;
+  let k=null; try{ k=JSON.parse(localStorage.getItem(KKEY)||'{}')[curSem]; }catch(e){}
+  return moeglich.includes(k) ? k : (STANDARDKLASSE[curSem]||moeglich[0]);
+}
+function klasseSetzen(k){
+  let o={}; try{ o=JSON.parse(localStorage.getItem(KKEY)||'{}'); }catch(e){}
+  o[curSem]=k;
+  try{ localStorage.setItem(KKEY, JSON.stringify(o)); }catch(e){}
+  renderTermine();
+}
+function renderKlassenwahl(){
+  const p=document.getElementById('klassenwahl'); if(!p) return;
+  const moeglich=(typeof KLASSEN!=='undefined' && KLASSEN[curSem]) || [];
+  p.innerHTML='';
+  if(moeglich.length<2) return;            /* nichts zu waehlen */
+  const jetzt=meineKlasse();
+  moeglich.forEach(k=>{
+    const b=document.createElement('button');
+    b.textContent='Semester '+k;
+    if(k===jetzt) b.classList.add('on');
+    b.onclick=()=>klasseSetzen(k);
+    p.appendChild(b);
+  });
+}
 const PLANORT = "Kassel";
 
 /* ---------- TERMINE: hessische Schulferien (offiziell, Kultusministerium) ---------- */
@@ -2831,7 +2900,7 @@ function fachName(code){
   return null;
 }
 async function icsSpeichern(btn){
-  const name='DAA-Praesenztermine.ics';
+  const name='DAA-Praesenztermine-Semester-'+(meineKlasse()||'1')+'.ics';
   const alt=btn.textContent; btn.textContent='…'; btn.disabled=true;
   const fertig=t=>{btn.textContent=t; setTimeout(()=>{btn.textContent=alt;btn.disabled=false;},2400);};
   let dl=null;
@@ -2851,7 +2920,9 @@ function renderTermine(){
   const now=new Date(); now.setHours(0,0,0,0);
   const out=document.getElementById('termin-out'), nx=document.getElementById('next-termin');
   const quelle=document.getElementById('termin-quelle');
-  const plan=PLANTERMINE[curSem];
+  renderKlassenwahl();
+  const klasse=meineKlasse();
+  const plan=klasse ? PLANTERMINE[klasse] : null;
   document.getElementById('icsleiste').style.display = plan ? 'flex' : 'none';
 
   if(!plan){
@@ -2875,7 +2946,10 @@ function renderTermine(){
   const tage=plan.map(t=>({dt:d(t.d), b:t.b}));
   const naechster=tage.find(t=>t.dt>=now);
   quelle.innerHTML='<strong>'+tage.length+' Präsenztermine</strong> aus dem Betreuungsplan vom '+PLANSTAND+
-    ' · Studienort '+PLANORT+' · Semester '+curSem+'. Räume werden per Aushang bekannt gegeben.';
+    ' · Studienort '+PLANORT+' · <strong>Semester '+klasse+'</strong>. Räume werden per Aushang bekannt gegeben.'+
+    (((typeof KLASSEN!=='undefined' && KLASSEN[curSem])||[]).length>1
+      ? ' Die Klassen '+KLASSEN[curSem].join(' und ')+' haben an verschiedenen Tagen verschiedenen Unterricht – oben umstellen, falls nötig.'
+      : '');
   nx.innerHTML = naechster
     ? '<strong>Nächster Schultag</strong><p style="margin:8px 0 0">'+fmtD(naechster.dt)+' · '+
       naechster.b[0][0]+'–'+naechster.b[naechster.b.length-1][1]+' Uhr · noch '+
@@ -3065,7 +3139,7 @@ function mountViz(wurzel){
 
 /* --- Masse und Kraft --- */
 VIZ.massekraft={
- titel:'Masse und Kraft', vb:'0 0 640 270',
+ titel:'Masse und Kraft', vb:'0 0 640 300',
  was:'Zieh an der Masse. Die Masse bleibt überall gleich – die Kraft, mit der es nach unten zieht, hängt vom Himmelskörper ab.',
  regler:[{k:'m',l:'Masse',min:1,max:5000,step:1,val:80,e:v=>v>=1000?vn(v/1000,2)+' t':vn(v,0)+' kg'}],
  rechne:s=>({F:s.m*9.81, FM:s.m*1.62, kN:s.m*9.81/1000}),
@@ -3094,7 +3168,7 @@ VIZ.massekraft={
    vpfeil(s,mx,ky+w*0.62+6,mx,ky+w*0.62+6+lM,'vreak');
    ve(s,'text',{x:mx,y:ky+w*0.62+lM+26,class:'vtxt','text-anchor':'middle',fill:'var(--blue)'},vn(r.FM,0)+' N');
    ve(s,'line',{x1:320,y1:34,x2:320,y2:236,class:'vhilf'});
-   ve(s,'text',{x:320,y:258,class:'vtxtm','text-anchor':'middle'},
+   ve(s,'text',{x:320,y:288,class:'vtxtm','text-anchor':'middle'},
      'Die Pfeile sind maßstäblich – der Mondpfeil ist ein Sechstel so lang.');
  },
  weg:(s,r)=>'F_G = m · g = '+vn(s.m,0)+' kg · 9,81 m/s² = <b>'+vn(r.F,1)+' N</b> = '+vn(r.kN,3)+' kN<br>'+
@@ -3190,13 +3264,13 @@ VIZ.umstellen={
    /* Dreieck als Kasten */
    ve(s,'rect',{x:cx-bw/2,y:oy,width:bw,height:bh,fill:st.g===0?'var(--surface-2)':'var(--accent-soft)',
      stroke:'var(--ink)','stroke-width':2});
-   ve(s,'text',{x:cx,y:oy+bh/2+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[0]);
+   if(st.g!==0) ve(s,'text',{x:cx,y:oy+bh/2+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[0]);
    ve(s,'rect',{x:cx-bw/2,y:oy+bh,width:bw/2,height:bh,fill:st.g===1?'var(--accent-soft)':'var(--surface-2)',
      stroke:'var(--ink)','stroke-width':2});
-   ve(s,'text',{x:cx-bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[1]);
+   if(st.g!==1) ve(s,'text',{x:cx-bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[1]);
    ve(s,'rect',{x:cx,y:oy+bh,width:bw/2,height:bh,fill:st.g===2?'var(--accent-soft)':'var(--surface-2)',
      stroke:'var(--ink)','stroke-width':2});
-   ve(s,'text',{x:cx+bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[2]);
+   if(st.g!==2) ve(s,'text',{x:cx+bw/4,y:oy+bh*1.5+8,class:'vtxt','text-anchor':'middle','font-size':'21'},r.T[2]);
    /* Das Gesuchte durchstreichen = zuhalten */
    const felder=[[cx-bw/2,oy,bw,bh],[cx-bw/2,oy+bh,bw/2,bh],[cx,oy+bh,bw/2,bh]];
    const f=felder[st.g];
@@ -3371,9 +3445,15 @@ VIZ.wachstum={
      const yz=st.K*(st.p>0?2:0.5);
      ve(s,'line',{x1:A.X(r.t),y1:A.Y(0),x2:A.X(r.t),y2:A.Y(yz),class:'vhilf'});
      ve(s,'line',{x1:A.X(0),y1:A.Y(yz),x2:A.X(r.t),y2:A.Y(yz),class:'vhilf'});
-     ve(s,'text',{x:A.X(r.t)+6,y:A.Y(yz)-7,class:'vtxtm'},(st.p>0?'verdoppelt':'halbiert')+' nach '+vn(r.t,1)+' J.');
+     const weit=A.X(r.t)>380;
+     ve(s,'text',{x:A.X(r.t)+(weit?-6:6),y:A.Y(yz)-7,class:'vtxtm','text-anchor':weit?'end':'start'},
+       (st.p>0?'verdoppelt':'halbiert')+' nach '+vn(r.t,1)+' J.');
    }
-   ve(s,'text',{x:A.X(st.n*0.35),y:A.Y(st.K+st.K*st.p/100*st.n*0.35)-9,class:'vtxtm'},'gestrichelt: linear zum Vergleich');
+   /* Legende dorthin, wo die Kurve nicht verlaeuft: beim Wachsen nach links oben,
+      beim Schrumpfen nach rechts unten */
+   ve(s,'text',{x:st.p>0?74:580,y:st.p>0?32:252,class:'vtxtm','text-anchor':st.p>0?'start':'end'},
+     'gestrichelt: linear zum Vergleich');
+   if(false) ve(s,'text',{x:A.X(st.n*0.35),y:A.Y(st.K+st.K*st.p/100*st.n*0.35)-9,class:'vtxtm'},'gestrichelt: linear zum Vergleich');
  },
  weg:(s,r)=>'K_n = K₀ · q<sup>n</sup> = '+vn(s.K,0)+' · '+vn(r.f,4)+'<sup>'+s.n+'</sup> = <b>'+vn(r.E,2)+' €</b><br>'+
    (r.t===null?'':'Verdopplungszeit: q<sup>t</sup> = 2 → t = lg 2 / lg '+vn(r.f,4)+' = <b>'+vn(r.t,2)+' Jahre</b><br>')+
@@ -3432,9 +3512,9 @@ VIZ.kreis={
    ve(s,'path',{d:`M ${cx+R} ${cy} A ${R} ${R} 0 ${gross} 0 ${ex} ${ey}`,class:'vkurve'});
    ve(s,'line',{x1:cx,y1:cy,x2:cx+R,y2:cy,class:'vlinie'});
    ve(s,'line',{x1:cx,y1:cy,x2:ex,y2:ey,class:'vlinie'});
-   ve(s,'text',{x:cx+R/2,y:cy-8,class:'vtxt','text-anchor':'middle'},'r = '+vn(r.r,2)+' m');
+   ve(s,'text',{x:cx+R*0.62,y:cy+20,class:'vtxt','text-anchor':'middle'},'r = '+vn(r.r,2)+' m');
    ve(s,'circle',{cx:cx,cy:cy,r:3,fill:'var(--ink)'});
-   ve(s,'text',{x:cx+34,y:cy+(st.w<180?-12:24),class:'vtxt',fill:'var(--accent-deep)'},st.w+'°');
+   ve(s,'text',{x:cx+34,y:cy+(st.w<180?-14:48),class:'vtxt',fill:'var(--accent-deep)'},st.w+'°');
    /* Anteilsbalken */
    const bx=440, by=60, bw=150, bh=170;
    ve(s,'rect',{x:bx,y:by,width:bw,height:bh,fill:'var(--surface-2)',stroke:'var(--line)','stroke-width':1,rx:5});
@@ -3468,7 +3548,8 @@ VIZ.einheitskreis={
    ve(s,'line',{x1:px,y1:cy,x2:px,y2:py,stroke:'var(--blue)','stroke-width':3.5});      /* sin */
    ve(s,'circle',{cx:px,cy:py,r:4.5,fill:'var(--ink)'});
    ve(s,'text',{x:cx+(px-cx)/2,y:cy+(r.si>=0?17:-8),class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'cos');
-   ve(s,'text',{x:px+(r.co>=0?8:-8),y:cy-(cy-py)/2+4,class:'vtxt','text-anchor':r.co>=0?'start':'end',fill:'var(--blue)'},'sin');
+   ve(s,'text',{x:Math.max(16,px+(r.co>=0?8:-8)),y:cy-(cy-py)/2+4,class:'vtxt',
+     'text-anchor':(r.co>=0||px<46)?'start':'end',fill:'var(--blue)'},'sin');
    ve(s,'text',{x:cx,y:305,class:'vtxtm','text-anchor':'middle'},'Radius = 1');
    /* Kurven rechts */
    const A=vachsen(s,{x0:0,x1:360,y0:-1.2,y1:1.2,bx:330,by:40,bw:290,bh:240});
@@ -3504,8 +3585,8 @@ VIZ.rechtwinklig={
    ve(s,'path',{d:`M ${ax+44} ${ay} A 44 44 0 0 0 ${ax+44*Math.cos(r.rad)} ${ay-44*Math.sin(r.rad)}`,class:'vmasz'});
    ve(s,'text',{x:ax+54,y:ay-12,class:'vtxt'},'α = '+st.w+'°');
    ve(s,'text',{x:(ax+bx)/2,y:ay+20,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'b (Ankathete) = '+vn(st.b,2)+' m');
-   ve(s,'text',{x:bx+10,y:(by+cy)/2+4,class:'vtxt',fill:'var(--blue)'},'a (Gegenkathete) = '+vn(r.a,2)+' m');
-   ve(s,'text',{x:(ax+cx)/2-24,y:(ay+cy)/2-8,class:'vtxt','text-anchor':'end'},'c = '+vn(r.c,2)+' m');
+   ve(s,'text',{x:bx+10,y:Math.min((by+cy)/2+4, ay-46),class:'vtxt',fill:'var(--blue)'},'a (Gegenkathete) = '+vn(r.a,2)+' m');
+   ve(s,'text',{x:(ax+cx)/2-24,y:Math.min((ay+cy)/2-8, ay-34),class:'vtxt','text-anchor':'end'},'c = '+vn(r.c,2)+' m');
    ve(s,'text',{x:320,y:262,class:'vtxtm','text-anchor':'middle'},'Der rechte Winkel liegt immer der Hypotenuse gegenüber.');
  },
  weg:(s,r)=>'tan α = a / b  →  a = b · tan α = '+vn(s.b,2)+' · '+vn(Math.tan(r.rad),5)+' = <b>'+vn(r.a,3)+' m</b><br>'+
@@ -3527,8 +3608,15 @@ VIZ.schiefwinklig={
                ['Winkel β / γ', vn(r.be,1)+'° / '+vn(r.ga,1)+'°','b'],
                ['Fläche', vn(r.A,3)+' m²','g']],
  zeichne:(s,st,r)=>{
-   const sk=Math.min(430/Math.max(st.b,st.c,r.a), 190/Math.max(st.b*Math.sin(r.ar),1));
-   const Ax=120, Ay=232;
+   let sk=Math.min(430/Math.max(st.b,st.c,r.a), 190/Math.max(st.b*Math.sin(r.ar),1));
+   const Ay=232;
+   /* Bei stumpfem Winkel liegt C weit links von A. Deshalb erst die Breite
+      bestimmen, notfalls kleiner zeichnen und das Dreieck mittig einpassen. */
+   const spanne=k=>{const cx=st.b*k*Math.cos(r.ar), bx=st.c*k;
+                    return [Math.min(0,cx), Math.max(bx,cx)];};
+   let [u,o]=spanne(sk);
+   if(o-u>470){ sk=sk*470/(o-u); [u,o]=spanne(sk); }
+   const Ax=85-u+(470-(o-u))/2;
    const Cx=Ax+st.b*sk*Math.cos(r.ar), Cy=Ay-st.b*sk*Math.sin(r.ar);   /* Seite b von A aus */
    const Bx=Ax+st.c*sk, By=Ay;                                          /* Seite c waagerecht */
    ve(s,'polygon',{points:`${Ax},${Ay} ${Bx},${By} ${Cx},${Cy}`,class:'vflaeche'});
@@ -3579,7 +3667,7 @@ VIZ.koerper={
      ve(s,'path',{d:`M ${cx-rr} ${unten} A ${rr} ${rr*0.28} 0 0 1 ${cx+rr} ${unten}`,class:'vhilf'});
      ve(s,'line',{x1:cx,y1:oy,x2:cx,y2:unten,class:'vhilf'});
      ve(s,'line',{x1:cx,y1:oy,x2:cx+rr,y2:unten,stroke:'var(--blue)','stroke-width':2});
-     ve(s,'text',{x:cx+rr/2+12,y:oy+hh/2,class:'vtxt',fill:'var(--blue)'},'s = '+vn(r.m,2)+' m');
+     ve(s,'text',{x:cx+rr/2-18,y:oy+hh/2-13,class:'vtxt',fill:'var(--blue)'},'s = '+vn(r.m,2)+' m');
    } else {
      const cy=unten-rr;
      ve(s,'circle',{cx:cx,cy:cy,r:rr,class:'vflaeche'});
@@ -3991,7 +4079,7 @@ const VG=9.81;
 
 /* --- Schiefe Ebene --- */
 VIZ.schiefeebene={
- titel:'Kräfte an der schiefen Ebene', vb:'0 0 640 250',
+ titel:'Kräfte an der schiefen Ebene', vb:'0 0 640 300',
  was:'Der Winkel entscheidet, wie sich die Gewichtskraft aufteilt. Die gestrichelten Linien zeigen: F_N und F_H ergeben zusammen genau F_G.',
  regler:[{k:'al',l:'Neigungswinkel',min:5,max:60,step:1,val:25,e:v=>v+'°'},
          {k:'m',l:'Masse',min:50,max:900,step:10,val:380,e:v=>vn(v,0)+' kg'}],
@@ -4093,7 +4181,8 @@ VIZ.hebel={
      const x=cx+l*sk;
      ve(s,'line',{x1:cx,y1:cy+52,x2:x,y2:cy+52,class:'vmasz'});
      ve(s,'line',{x1:x,y1:cy+47,x2:x,y2:cy+57,class:'vmasz'});
-     ve(s,'text',{x:(cx+x)/2,y:cy+70,class:'vtxt','text-anchor':'middle'},n+' = '+vn(Math.abs(l),2)+' m');
+     ve(s,'text',{x:(cx+x)/2,y:cy+70+(n==='l₂'?17:0),class:'vtxt','text-anchor':'middle'},
+       n+' = '+vn(Math.abs(l),2)+' m');
    });
    ve(s,'text',{x:cx,y:cy+48,class:'vtxtm','text-anchor':'middle'},'Drehpunkt');
    ve(s,'text',{x:320,y:232,class:'vtxtm','text-anchor':'middle'},'Beide Drehmomente sind gleich groß: '+vn(r.M,1)+' Nm');
@@ -4169,7 +4258,7 @@ VIZ.kippen={
      vpfeil(s,lx+bw+l,y,lx+bw+3,y,'vreak',7);}
    const yR=sohle-bh/3;
    ve(s,'circle',{cx:lx,cy:sohle,r:4.5,fill:'var(--accent)'});
-   ve(s,'text',{x:lx-10,y:sohle+34,class:'vtxt','text-anchor':'end',fill:'var(--accent-deep)'},'Kippkante');
+   ve(s,'text',{x:lx-14,y:sohle+5,class:'vtxt','text-anchor':'end',fill:'var(--accent-deep)'},'Kippkante');
    vpfeil(s,lx+bw/2,sohle-bh/2,lx+bw/2,sohle-6,'vkraft');
    ve(s,'text',{x:lx+bw/2+9,y:sohle-bh/2-6,class:'vtxt',fill:'var(--accent-deep)'},'G');
    ve(s,'line',{x1:lx+bw,y1:yR,x2:lx+bw+dmax+16,y2:yR,class:'vhilf'});
@@ -4249,13 +4338,14 @@ VIZ.anhalteweg={
    const wR=Math.min(r.sr,maxs)*sk, wB=Math.min(r.sb,maxs-Math.min(r.sr,maxs))*sk;
    ve(s,'rect',{x:x0,y:y,width:wR,height:30,fill:'var(--blue)',opacity:0.62,rx:3});
    ve(s,'rect',{x:x0+wR,y:y,width:wB,height:30,fill:'var(--accent)',opacity:0.78,rx:3});
-   ve(s,'text',{x:x0+wR/2,y:y-9,class:'vtxt','text-anchor':'middle',fill:'var(--blue)'},'Reaktion '+vn(r.sr,1)+' m');
-   ve(s,'text',{x:x0+wR+wB/2,y:y-9,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'Bremsen '+vn(r.sb,1)+' m');
+   const mitt=x=>Math.min(562,Math.max(80,x));   /* mittig gesetzte Texte im Rahmen halten */
+   ve(s,'text',{x:mitt(x0+wR/2),y:y-9,class:'vtxt','text-anchor':'middle',fill:'var(--blue)'},'Reaktion '+vn(r.sr,1)+' m');
+   ve(s,'text',{x:mitt(x0+wR+wB/2),y:y-27,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'Bremsen '+vn(r.sb,1)+' m');
    /* Fahrzeug */
    ve(s,'rect',{x:x0-26,y:y+4,width:24,height:22,rx:4,fill:'var(--surface-2)',stroke:'var(--ink)','stroke-width':1.5});
    const ende=x0+wR+wB;
-   ve(s,'line',{x1:ende,y1:y-26,x2:ende,y2:y+38,class:'vhilf'});
-   ve(s,'text',{x:ende,y:y-32,class:'vtxt','text-anchor':'middle'},'Stillstand nach '+vn(r.ges,1)+' m');
+   ve(s,'line',{x1:ende,y1:y-42,x2:ende,y2:y+38,class:'vhilf'});
+   ve(s,'text',{x:mitt(ende),y:y-48,class:'vtxt','text-anchor':'middle'},'Stillstand nach '+vn(r.ges,1)+' m');
    if(r.ges>maxs) ve(s,'text',{x:320,y:200,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'Der Balken ist bei 90 m abgeschnitten.');
    ve(s,'text',{x:320,y:222,class:'vtxtm','text-anchor':'middle'},'Doppelte Geschwindigkeit heißt vierfacher Bremsweg.');
  },
@@ -4321,11 +4411,15 @@ VIZ.schweredruck={
    ve(s,'line',{x1:wx,y1:wy0,x2:wx+br,y2:sohle,class:'vkurve'});
    for(let i=1;i<=7;i++){const y=wy0+hoch*i/8, l=br*(y-wy0)/hoch; vpfeil(s,wx+l,y,wx+4,y,'vkraft',7);}
    ve(s,'text',{x:wx+br+10,y:sohle-8,class:'vtxt',fill:'var(--accent-deep)'},'p = '+vn(r.p,0)+' Pa');
-   ve(s,'text',{x:wx+14,y:wy0+13,class:'vtxtm'},'oben: p = 0');
+   /* links neben die Wand: rechts davon steht bei flachem Wasserstand die
+      Resultierende und der Bodendruck */
+   ve(s,'text',{x:wx-10,y:wy0-6,class:'vtxtm','text-anchor':'end'},'oben: p = 0');
    const yR=sohle-hoch/3;
    ve(s,'line',{x1:wx-40,y1:yR,x2:wx+br,y2:yR,class:'vhilf'});
    vpfeil(s,wx+Math.min(br,130),yR,wx+6,yR,'vreak');
-   ve(s,'text',{x:wx+Math.min(br,130)+8,y:yR-7,class:'vtxt',fill:'var(--blue)'},'F = '+vn(r.F/1000,1)+' kN');
+   /* bei geringer Fuellhoehe ruecken Resultierende und Bodendruck zusammen -
+      die Resultierende bekommt einen Mindestabstand nach oben */
+   ve(s,'text',{x:wx+Math.min(br,130)+8,y:Math.min(yR-7, sohle-28),class:'vtxt',fill:'var(--blue)'},'F = '+vn(r.F/1000,1)+' kN');
    ve(s,'line',{x1:wx-34,y1:yR,x2:wx-34,y2:sohle,class:'vmasz'});
    ve(s,'text',{x:wx-40,y:(yR+sohle)/2+4,class:'vtxt','text-anchor':'end'},'h/3');
    ve(s,'line',{x1:wx-88,y1:wy0,x2:wx-88,y2:sohle,class:'vmasz'});
@@ -4427,18 +4521,19 @@ VIZ.ausdehnung={
                ['Längenänderung', vn(r.dl*1000,2)+' mm','b'],
                ['neue Länge', vn(s.l+r.dl,4)+' m','g']],
  zeichne:(s,st,r)=>{
-   const x0=60, breite=500, y=88;
+   const x0=60, breite=460, y=88;
    ve(s,'rect',{x:x0,y:y,width:breite,height:26,fill:'var(--surface-2)',stroke:'var(--line)','stroke-width':1.5,rx:3});
    ve(s,'text',{x:x0+breite/2,y:y+18,class:'vtxt','text-anchor':'middle'},r.name+', kalt');
    const lupe=6000;                                   /* Dehnung 6000-fach ueberhoeht zeigen */
-   const zu=Math.min(90, r.dl/st.l*breite*lupe/10);
+   const zu=Math.min(80, r.dl/st.l*breite*lupe/10);
    const y2=y+62;
    ve(s,'rect',{x:x0,y:y2,width:breite+zu,height:26,fill:'var(--accent)',opacity:0.28,rx:3});
    ve(s,'rect',{x:x0,y:y2,width:breite+zu,height:26,fill:'none',stroke:'var(--accent)','stroke-width':1.5,rx:3});
    ve(s,'text',{x:x0+breite/2,y:y2+18,class:'vtxt','text-anchor':'middle'},r.name+', um '+st.dt+' K erwärmt');
    ve(s,'line',{x1:x0+breite,y1:y-10,x2:x0+breite,y2:y2+38,class:'vhilf'});
    vpfeil(s,x0+breite,y2+50,x0+breite+zu,y2+50,'vkraft',8);
-   ve(s,'text',{x:x0+breite+zu+10,y:y2+54,class:'vtxt',fill:'var(--accent-deep)'},'Δl = '+vn(r.dl*1000,2)+' mm');
+   ve(s,'text',{x:x0+breite+zu/2,y:y2+68,class:'vtxt','text-anchor':'middle',
+     fill:'var(--accent-deep)'},'Δl = '+vn(r.dl*1000,2)+' mm');
    ve(s,'text',{x:320,y:200,class:'vtxtm','text-anchor':'middle'},'Die Dehnung ist in der Zeichnung stark übertrieben dargestellt.');
  },
  weg:(s,r)=>'Δl = α · l₁ · Δϑ = '+vn(r.al*1e6,0)+'·10⁻⁶ · '+vn(s.l,1)+' · '+s.dt+'<br>'+
@@ -4449,7 +4544,7 @@ VIZ.ausdehnung={
 
 /* --- Mischtemperatur --- */
 VIZ.mischen={
- titel:'Mischtemperatur', vb:'0 0 640 260',
+ titel:'Mischtemperatur', vb:'0 0 640 300',
  was:'Die Mischtemperatur liegt immer zwischen beiden Ausgangswerten – und zwar näher bei der größeren Menge.',
  regler:[{k:'m1',l:'Menge kalt',min:10,max:300,step:10,val:80,e:v=>v+' l'},
          {k:'t1',l:'Temperatur kalt',min:1,max:40,step:1,val:15,e:v=>v+' °C'},
@@ -4476,7 +4571,7 @@ VIZ.mischen={
    vpfeil(s,170,110,236,110,'vhilf2',8);
    vpfeil(s,360,110,448,110,'vhilf2',8);
    /* Temperaturskala */
-   const sx=40, sy=232, sb=560;
+   const sx=40, sy=262, sb=560;
    ve(s,'line',{x1:sx,y1:sy,x2:sx+sb,y2:sy,class:'vmasz'});
    const T=(t)=>sx+t/100*sb;
    [0,25,50,75,100].forEach(t=>{ve(s,'line',{x1:T(t),y1:sy-4,x2:T(t),y2:sy+4,class:'vmasz'});

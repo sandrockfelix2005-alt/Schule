@@ -3,7 +3,7 @@ const VG=9.81;
 
 /* --- Schiefe Ebene --- */
 VIZ.schiefeebene={
- titel:'Kräfte an der schiefen Ebene', vb:'0 0 640 250',
+ titel:'Kräfte an der schiefen Ebene', vb:'0 0 640 300',
  was:'Der Winkel entscheidet, wie sich die Gewichtskraft aufteilt. Die gestrichelten Linien zeigen: F_N und F_H ergeben zusammen genau F_G.',
  regler:[{k:'al',l:'Neigungswinkel',min:5,max:60,step:1,val:25,e:v=>v+'°'},
          {k:'m',l:'Masse',min:50,max:900,step:10,val:380,e:v=>vn(v,0)+' kg'}],
@@ -105,7 +105,8 @@ VIZ.hebel={
      const x=cx+l*sk;
      ve(s,'line',{x1:cx,y1:cy+52,x2:x,y2:cy+52,class:'vmasz'});
      ve(s,'line',{x1:x,y1:cy+47,x2:x,y2:cy+57,class:'vmasz'});
-     ve(s,'text',{x:(cx+x)/2,y:cy+70,class:'vtxt','text-anchor':'middle'},n+' = '+vn(Math.abs(l),2)+' m');
+     ve(s,'text',{x:(cx+x)/2,y:cy+70+(n==='l₂'?17:0),class:'vtxt','text-anchor':'middle'},
+       n+' = '+vn(Math.abs(l),2)+' m');
    });
    ve(s,'text',{x:cx,y:cy+48,class:'vtxtm','text-anchor':'middle'},'Drehpunkt');
    ve(s,'text',{x:320,y:232,class:'vtxtm','text-anchor':'middle'},'Beide Drehmomente sind gleich groß: '+vn(r.M,1)+' Nm');
@@ -181,7 +182,7 @@ VIZ.kippen={
      vpfeil(s,lx+bw+l,y,lx+bw+3,y,'vreak',7);}
    const yR=sohle-bh/3;
    ve(s,'circle',{cx:lx,cy:sohle,r:4.5,fill:'var(--accent)'});
-   ve(s,'text',{x:lx-10,y:sohle+34,class:'vtxt','text-anchor':'end',fill:'var(--accent-deep)'},'Kippkante');
+   ve(s,'text',{x:lx-14,y:sohle+5,class:'vtxt','text-anchor':'end',fill:'var(--accent-deep)'},'Kippkante');
    vpfeil(s,lx+bw/2,sohle-bh/2,lx+bw/2,sohle-6,'vkraft');
    ve(s,'text',{x:lx+bw/2+9,y:sohle-bh/2-6,class:'vtxt',fill:'var(--accent-deep)'},'G');
    ve(s,'line',{x1:lx+bw,y1:yR,x2:lx+bw+dmax+16,y2:yR,class:'vhilf'});
@@ -261,13 +262,14 @@ VIZ.anhalteweg={
    const wR=Math.min(r.sr,maxs)*sk, wB=Math.min(r.sb,maxs-Math.min(r.sr,maxs))*sk;
    ve(s,'rect',{x:x0,y:y,width:wR,height:30,fill:'var(--blue)',opacity:0.62,rx:3});
    ve(s,'rect',{x:x0+wR,y:y,width:wB,height:30,fill:'var(--accent)',opacity:0.78,rx:3});
-   ve(s,'text',{x:x0+wR/2,y:y-9,class:'vtxt','text-anchor':'middle',fill:'var(--blue)'},'Reaktion '+vn(r.sr,1)+' m');
-   ve(s,'text',{x:x0+wR+wB/2,y:y-9,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'Bremsen '+vn(r.sb,1)+' m');
+   const mitt=x=>Math.min(562,Math.max(80,x));   /* mittig gesetzte Texte im Rahmen halten */
+   ve(s,'text',{x:mitt(x0+wR/2),y:y-9,class:'vtxt','text-anchor':'middle',fill:'var(--blue)'},'Reaktion '+vn(r.sr,1)+' m');
+   ve(s,'text',{x:mitt(x0+wR+wB/2),y:y-27,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'Bremsen '+vn(r.sb,1)+' m');
    /* Fahrzeug */
    ve(s,'rect',{x:x0-26,y:y+4,width:24,height:22,rx:4,fill:'var(--surface-2)',stroke:'var(--ink)','stroke-width':1.5});
    const ende=x0+wR+wB;
-   ve(s,'line',{x1:ende,y1:y-26,x2:ende,y2:y+38,class:'vhilf'});
-   ve(s,'text',{x:ende,y:y-32,class:'vtxt','text-anchor':'middle'},'Stillstand nach '+vn(r.ges,1)+' m');
+   ve(s,'line',{x1:ende,y1:y-42,x2:ende,y2:y+38,class:'vhilf'});
+   ve(s,'text',{x:mitt(ende),y:y-48,class:'vtxt','text-anchor':'middle'},'Stillstand nach '+vn(r.ges,1)+' m');
    if(r.ges>maxs) ve(s,'text',{x:320,y:200,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'Der Balken ist bei 90 m abgeschnitten.');
    ve(s,'text',{x:320,y:222,class:'vtxtm','text-anchor':'middle'},'Doppelte Geschwindigkeit heißt vierfacher Bremsweg.');
  },
@@ -333,11 +335,15 @@ VIZ.schweredruck={
    ve(s,'line',{x1:wx,y1:wy0,x2:wx+br,y2:sohle,class:'vkurve'});
    for(let i=1;i<=7;i++){const y=wy0+hoch*i/8, l=br*(y-wy0)/hoch; vpfeil(s,wx+l,y,wx+4,y,'vkraft',7);}
    ve(s,'text',{x:wx+br+10,y:sohle-8,class:'vtxt',fill:'var(--accent-deep)'},'p = '+vn(r.p,0)+' Pa');
-   ve(s,'text',{x:wx+14,y:wy0+13,class:'vtxtm'},'oben: p = 0');
+   /* links neben die Wand: rechts davon steht bei flachem Wasserstand die
+      Resultierende und der Bodendruck */
+   ve(s,'text',{x:wx-10,y:wy0-6,class:'vtxtm','text-anchor':'end'},'oben: p = 0');
    const yR=sohle-hoch/3;
    ve(s,'line',{x1:wx-40,y1:yR,x2:wx+br,y2:yR,class:'vhilf'});
    vpfeil(s,wx+Math.min(br,130),yR,wx+6,yR,'vreak');
-   ve(s,'text',{x:wx+Math.min(br,130)+8,y:yR-7,class:'vtxt',fill:'var(--blue)'},'F = '+vn(r.F/1000,1)+' kN');
+   /* bei geringer Fuellhoehe ruecken Resultierende und Bodendruck zusammen -
+      die Resultierende bekommt einen Mindestabstand nach oben */
+   ve(s,'text',{x:wx+Math.min(br,130)+8,y:Math.min(yR-7, sohle-28),class:'vtxt',fill:'var(--blue)'},'F = '+vn(r.F/1000,1)+' kN');
    ve(s,'line',{x1:wx-34,y1:yR,x2:wx-34,y2:sohle,class:'vmasz'});
    ve(s,'text',{x:wx-40,y:(yR+sohle)/2+4,class:'vtxt','text-anchor':'end'},'h/3');
    ve(s,'line',{x1:wx-88,y1:wy0,x2:wx-88,y2:sohle,class:'vmasz'});
@@ -439,18 +445,19 @@ VIZ.ausdehnung={
                ['Längenänderung', vn(r.dl*1000,2)+' mm','b'],
                ['neue Länge', vn(s.l+r.dl,4)+' m','g']],
  zeichne:(s,st,r)=>{
-   const x0=60, breite=500, y=88;
+   const x0=60, breite=460, y=88;
    ve(s,'rect',{x:x0,y:y,width:breite,height:26,fill:'var(--surface-2)',stroke:'var(--line)','stroke-width':1.5,rx:3});
    ve(s,'text',{x:x0+breite/2,y:y+18,class:'vtxt','text-anchor':'middle'},r.name+', kalt');
    const lupe=6000;                                   /* Dehnung 6000-fach ueberhoeht zeigen */
-   const zu=Math.min(90, r.dl/st.l*breite*lupe/10);
+   const zu=Math.min(80, r.dl/st.l*breite*lupe/10);
    const y2=y+62;
    ve(s,'rect',{x:x0,y:y2,width:breite+zu,height:26,fill:'var(--accent)',opacity:0.28,rx:3});
    ve(s,'rect',{x:x0,y:y2,width:breite+zu,height:26,fill:'none',stroke:'var(--accent)','stroke-width':1.5,rx:3});
    ve(s,'text',{x:x0+breite/2,y:y2+18,class:'vtxt','text-anchor':'middle'},r.name+', um '+st.dt+' K erwärmt');
    ve(s,'line',{x1:x0+breite,y1:y-10,x2:x0+breite,y2:y2+38,class:'vhilf'});
    vpfeil(s,x0+breite,y2+50,x0+breite+zu,y2+50,'vkraft',8);
-   ve(s,'text',{x:x0+breite+zu+10,y:y2+54,class:'vtxt',fill:'var(--accent-deep)'},'Δl = '+vn(r.dl*1000,2)+' mm');
+   ve(s,'text',{x:x0+breite+zu/2,y:y2+68,class:'vtxt','text-anchor':'middle',
+     fill:'var(--accent-deep)'},'Δl = '+vn(r.dl*1000,2)+' mm');
    ve(s,'text',{x:320,y:200,class:'vtxtm','text-anchor':'middle'},'Die Dehnung ist in der Zeichnung stark übertrieben dargestellt.');
  },
  weg:(s,r)=>'Δl = α · l₁ · Δϑ = '+vn(r.al*1e6,0)+'·10⁻⁶ · '+vn(s.l,1)+' · '+s.dt+'<br>'+
@@ -461,7 +468,7 @@ VIZ.ausdehnung={
 
 /* --- Mischtemperatur --- */
 VIZ.mischen={
- titel:'Mischtemperatur', vb:'0 0 640 260',
+ titel:'Mischtemperatur', vb:'0 0 640 300',
  was:'Die Mischtemperatur liegt immer zwischen beiden Ausgangswerten – und zwar näher bei der größeren Menge.',
  regler:[{k:'m1',l:'Menge kalt',min:10,max:300,step:10,val:80,e:v=>v+' l'},
          {k:'t1',l:'Temperatur kalt',min:1,max:40,step:1,val:15,e:v=>v+' °C'},
@@ -488,7 +495,7 @@ VIZ.mischen={
    vpfeil(s,170,110,236,110,'vhilf2',8);
    vpfeil(s,360,110,448,110,'vhilf2',8);
    /* Temperaturskala */
-   const sx=40, sy=232, sb=560;
+   const sx=40, sy=262, sb=560;
    ve(s,'line',{x1:sx,y1:sy,x2:sx+sb,y2:sy,class:'vmasz'});
    const T=(t)=>sx+t/100*sb;
    [0,25,50,75,100].forEach(t=>{ve(s,'line',{x1:T(t),y1:sy-4,x2:T(t),y2:sy+4,class:'vmasz'});

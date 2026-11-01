@@ -156,9 +156,15 @@ VIZ.wachstum={
      const yz=st.K*(st.p>0?2:0.5);
      ve(s,'line',{x1:A.X(r.t),y1:A.Y(0),x2:A.X(r.t),y2:A.Y(yz),class:'vhilf'});
      ve(s,'line',{x1:A.X(0),y1:A.Y(yz),x2:A.X(r.t),y2:A.Y(yz),class:'vhilf'});
-     ve(s,'text',{x:A.X(r.t)+6,y:A.Y(yz)-7,class:'vtxtm'},(st.p>0?'verdoppelt':'halbiert')+' nach '+vn(r.t,1)+' J.');
+     const weit=A.X(r.t)>380;
+     ve(s,'text',{x:A.X(r.t)+(weit?-6:6),y:A.Y(yz)-7,class:'vtxtm','text-anchor':weit?'end':'start'},
+       (st.p>0?'verdoppelt':'halbiert')+' nach '+vn(r.t,1)+' J.');
    }
-   ve(s,'text',{x:A.X(st.n*0.35),y:A.Y(st.K+st.K*st.p/100*st.n*0.35)-9,class:'vtxtm'},'gestrichelt: linear zum Vergleich');
+   /* Legende dorthin, wo die Kurve nicht verlaeuft: beim Wachsen nach links oben,
+      beim Schrumpfen nach rechts unten */
+   ve(s,'text',{x:st.p>0?74:580,y:st.p>0?32:252,class:'vtxtm','text-anchor':st.p>0?'start':'end'},
+     'gestrichelt: linear zum Vergleich');
+   if(false) ve(s,'text',{x:A.X(st.n*0.35),y:A.Y(st.K+st.K*st.p/100*st.n*0.35)-9,class:'vtxtm'},'gestrichelt: linear zum Vergleich');
  },
  weg:(s,r)=>'K_n = K₀ · q<sup>n</sup> = '+vn(s.K,0)+' · '+vn(r.f,4)+'<sup>'+s.n+'</sup> = <b>'+vn(r.E,2)+' €</b><br>'+
    (r.t===null?'':'Verdopplungszeit: q<sup>t</sup> = 2 → t = lg 2 / lg '+vn(r.f,4)+' = <b>'+vn(r.t,2)+' Jahre</b><br>')+
@@ -217,9 +223,9 @@ VIZ.kreis={
    ve(s,'path',{d:`M ${cx+R} ${cy} A ${R} ${R} 0 ${gross} 0 ${ex} ${ey}`,class:'vkurve'});
    ve(s,'line',{x1:cx,y1:cy,x2:cx+R,y2:cy,class:'vlinie'});
    ve(s,'line',{x1:cx,y1:cy,x2:ex,y2:ey,class:'vlinie'});
-   ve(s,'text',{x:cx+R/2,y:cy-8,class:'vtxt','text-anchor':'middle'},'r = '+vn(r.r,2)+' m');
+   ve(s,'text',{x:cx+R*0.62,y:cy+20,class:'vtxt','text-anchor':'middle'},'r = '+vn(r.r,2)+' m');
    ve(s,'circle',{cx:cx,cy:cy,r:3,fill:'var(--ink)'});
-   ve(s,'text',{x:cx+34,y:cy+(st.w<180?-12:24),class:'vtxt',fill:'var(--accent-deep)'},st.w+'°');
+   ve(s,'text',{x:cx+34,y:cy+(st.w<180?-14:48),class:'vtxt',fill:'var(--accent-deep)'},st.w+'°');
    /* Anteilsbalken */
    const bx=440, by=60, bw=150, bh=170;
    ve(s,'rect',{x:bx,y:by,width:bw,height:bh,fill:'var(--surface-2)',stroke:'var(--line)','stroke-width':1,rx:5});
@@ -253,7 +259,8 @@ VIZ.einheitskreis={
    ve(s,'line',{x1:px,y1:cy,x2:px,y2:py,stroke:'var(--blue)','stroke-width':3.5});      /* sin */
    ve(s,'circle',{cx:px,cy:py,r:4.5,fill:'var(--ink)'});
    ve(s,'text',{x:cx+(px-cx)/2,y:cy+(r.si>=0?17:-8),class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'cos');
-   ve(s,'text',{x:px+(r.co>=0?8:-8),y:cy-(cy-py)/2+4,class:'vtxt','text-anchor':r.co>=0?'start':'end',fill:'var(--blue)'},'sin');
+   ve(s,'text',{x:Math.max(16,px+(r.co>=0?8:-8)),y:cy-(cy-py)/2+4,class:'vtxt',
+     'text-anchor':(r.co>=0||px<46)?'start':'end',fill:'var(--blue)'},'sin');
    ve(s,'text',{x:cx,y:305,class:'vtxtm','text-anchor':'middle'},'Radius = 1');
    /* Kurven rechts */
    const A=vachsen(s,{x0:0,x1:360,y0:-1.2,y1:1.2,bx:330,by:40,bw:290,bh:240});
@@ -289,8 +296,8 @@ VIZ.rechtwinklig={
    ve(s,'path',{d:`M ${ax+44} ${ay} A 44 44 0 0 0 ${ax+44*Math.cos(r.rad)} ${ay-44*Math.sin(r.rad)}`,class:'vmasz'});
    ve(s,'text',{x:ax+54,y:ay-12,class:'vtxt'},'α = '+st.w+'°');
    ve(s,'text',{x:(ax+bx)/2,y:ay+20,class:'vtxt','text-anchor':'middle',fill:'var(--accent-deep)'},'b (Ankathete) = '+vn(st.b,2)+' m');
-   ve(s,'text',{x:bx+10,y:(by+cy)/2+4,class:'vtxt',fill:'var(--blue)'},'a (Gegenkathete) = '+vn(r.a,2)+' m');
-   ve(s,'text',{x:(ax+cx)/2-24,y:(ay+cy)/2-8,class:'vtxt','text-anchor':'end'},'c = '+vn(r.c,2)+' m');
+   ve(s,'text',{x:bx+10,y:Math.min((by+cy)/2+4, ay-46),class:'vtxt',fill:'var(--blue)'},'a (Gegenkathete) = '+vn(r.a,2)+' m');
+   ve(s,'text',{x:(ax+cx)/2-24,y:Math.min((ay+cy)/2-8, ay-34),class:'vtxt','text-anchor':'end'},'c = '+vn(r.c,2)+' m');
    ve(s,'text',{x:320,y:262,class:'vtxtm','text-anchor':'middle'},'Der rechte Winkel liegt immer der Hypotenuse gegenüber.');
  },
  weg:(s,r)=>'tan α = a / b  →  a = b · tan α = '+vn(s.b,2)+' · '+vn(Math.tan(r.rad),5)+' = <b>'+vn(r.a,3)+' m</b><br>'+
@@ -312,8 +319,15 @@ VIZ.schiefwinklig={
                ['Winkel β / γ', vn(r.be,1)+'° / '+vn(r.ga,1)+'°','b'],
                ['Fläche', vn(r.A,3)+' m²','g']],
  zeichne:(s,st,r)=>{
-   const sk=Math.min(430/Math.max(st.b,st.c,r.a), 190/Math.max(st.b*Math.sin(r.ar),1));
-   const Ax=120, Ay=232;
+   let sk=Math.min(430/Math.max(st.b,st.c,r.a), 190/Math.max(st.b*Math.sin(r.ar),1));
+   const Ay=232;
+   /* Bei stumpfem Winkel liegt C weit links von A. Deshalb erst die Breite
+      bestimmen, notfalls kleiner zeichnen und das Dreieck mittig einpassen. */
+   const spanne=k=>{const cx=st.b*k*Math.cos(r.ar), bx=st.c*k;
+                    return [Math.min(0,cx), Math.max(bx,cx)];};
+   let [u,o]=spanne(sk);
+   if(o-u>470){ sk=sk*470/(o-u); [u,o]=spanne(sk); }
+   const Ax=85-u+(470-(o-u))/2;
    const Cx=Ax+st.b*sk*Math.cos(r.ar), Cy=Ay-st.b*sk*Math.sin(r.ar);   /* Seite b von A aus */
    const Bx=Ax+st.c*sk, By=Ay;                                          /* Seite c waagerecht */
    ve(s,'polygon',{points:`${Ax},${Ay} ${Bx},${By} ${Cx},${Cy}`,class:'vflaeche'});
@@ -364,7 +378,7 @@ VIZ.koerper={
      ve(s,'path',{d:`M ${cx-rr} ${unten} A ${rr} ${rr*0.28} 0 0 1 ${cx+rr} ${unten}`,class:'vhilf'});
      ve(s,'line',{x1:cx,y1:oy,x2:cx,y2:unten,class:'vhilf'});
      ve(s,'line',{x1:cx,y1:oy,x2:cx+rr,y2:unten,stroke:'var(--blue)','stroke-width':2});
-     ve(s,'text',{x:cx+rr/2+12,y:oy+hh/2,class:'vtxt',fill:'var(--blue)'},'s = '+vn(r.m,2)+' m');
+     ve(s,'text',{x:cx+rr/2-18,y:oy+hh/2-13,class:'vtxt',fill:'var(--blue)'},'s = '+vn(r.m,2)+' m');
    } else {
      const cy=unten-rr;
      ve(s,'circle',{cx:cx,cy:cy,r:rr,class:'vflaeche'});
