@@ -875,5 +875,4 @@ Statt vier Multiplikationen nur zwei – und weniger Fehlerquellen.
 - [ ] Ich weiß: fällt das vorderste Glied nach dem Abziehen **nicht** weg, habe ich mich verrechnet.
 - [ ] Ich mache bei jeder Faktorisierung und Division die **Rückprobe**.
 
-**Damit ist Lernmodul 1 abgeschlossen.**
-**Nächstes Modul:** LM2 – Funktionen und Gleichungen erster Ordnung
+**Nächstes Kapitel:** LM1 Kapitel 4 – Bruchrechnen

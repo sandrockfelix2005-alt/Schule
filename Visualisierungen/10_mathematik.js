@@ -657,3 +657,116 @@ VIZ.wurzelgesetze={
        'Probier es mit a = 9 und b = 16: links 3 + 4 = 7, rechts √25 = 5.')+'<br>'+
    '<b>Merksatz:</b> Nur Mal und Geteilt dürfen unter die Wurzel hinein oder aus ihr heraus.'
 };
+
+/* --- Bruchrechnen: alle vier Rechenarten als Balken --- */
+function brGgt(a,b){a=Math.abs(a);b=Math.abs(b);while(b){[a,b]=[b,a%b];}return a||1;}
+function brKgv(a,b){return Math.abs(a*b)/brGgt(a,b);}
+function brKuerz(z,n){               /* Bruch kuerzen, Vorzeichen in den Zaehler */
+  if(n<0){z=-z;n=-n;}
+  const g=brGgt(z,n)||1; return [z/g, n/g];}
+function brText(z,n){                /* "3/4", "2" oder "−3/4" */
+  const [a,b]=brKuerz(z,n);
+  return b===1 ? String(a) : a+'/'+b;}
+VIZ.bruchrechnen={
+ titel:'Bruchrechnen mit Balken', vb:'0 0 640 300',
+ was:'Stell zwei Brüche ein und wähle die Rechenart. Bei Plus und Minus siehst du den Zwischenschritt: beide Brüche müssen erst in gleich große Stücke geteilt werden – das ist der Hauptnenner. Bei Mal und Geteilt braucht es ihn nicht.',
+ regler:[{k:'z1',l:'1. Bruch · Zähler',min:1,max:12,step:1,val:1,e:v=>vn(v,0)},
+         {k:'n1',l:'1. Bruch · Nenner',min:2,max:12,step:1,val:2,e:v=>vn(v,0)},
+         {k:'z2',l:'2. Bruch · Zähler',min:1,max:12,step:1,val:1,e:v=>vn(v,0)},
+         {k:'n2',l:'2. Bruch · Nenner',min:2,max:12,step:1,val:3,e:v=>vn(v,0)},
+         {k:'op',l:'Rechenart',min:0,max:3,step:1,val:0,
+          e:v=>['plus  +','minus  −','mal  ·','geteilt  :'][v]}],
+ rechne:st=>{
+   const z1=Math.round(st.z1), n1=Math.round(st.n1),
+         z2=Math.round(st.z2), n2=Math.round(st.n2), op=Math.round(st.op);
+   const H=brKgv(n1,n2);                       /* Hauptnenner */
+   const e1=z1*(H/n1), e2=z2*(H/n2);           /* beide auf H erweitert */
+   let rz,rn;
+   if(op===0){ rz=e1+e2; rn=H; }
+   else if(op===1){ rz=e1-e2; rn=H; }
+   else if(op===2){ rz=z1*z2; rn=n1*n2; }
+   else { rz=z1*n2; rn=n1*z2; }
+   const [kz,kn]=brKuerz(rz,rn);
+   return {z1:z1,n1:n1,z2:z2,n2:n2,op:op,H:H,e1:e1,e2:e2,
+           zeichen:['+','−','·',':'][op], gleichnamig:(op<2),
+           w1:z1/n1, w2:z2/n2, wert:rz/rn, kz:kz, kn:kn,
+           erg:brText(rz,rn), roh:rz+'/'+rn,
+           gekuerzt:(Math.abs(rz)!==Math.abs(kz)||rn!==kn)};},
+ werte:(st,r)=>[['Aufgabe', brText(r.z1,r.n1)+' '+r.zeichen+' '+brText(r.z2,r.n2),'a'],
+                ['Ergebnis', r.erg,'b'],
+                ['als Dezimalzahl', vn(r.wert,4),'g']],
+ zeichne:(s,st,r)=>{
+   const X=150, BR=368, H=22;   /* Platz lassen fuer die Beschriftung hinter dem Balken */
+   const max=Math.max(1, Math.abs(r.w1), Math.abs(r.w2), Math.abs(r.wert));
+   const laenge=v=>Math.abs(v)/max*BR;
+   const balken=(y,wert,teile,voll,beschr,farbe)=>{
+     ve(s,'text',{x:X-12,y:y+15,class:'vtxt','font-size':'12.5','text-anchor':'end'},beschr);
+     /* das Ganze als heller Rahmen */
+     ve(s,'rect',{x:X,y:y,width:laenge(1),height:H,rx:3,fill:'var(--surface-2)',
+       stroke:'var(--line)','stroke-width':1});
+     /* gefuellter Anteil */
+     if(wert!==0){
+       const L=laenge(wert);
+       ve(s,'rect',{x:X,y:y,width:L,height:H,rx:3,
+         fill:wert<0?'#C2603C':farbe,opacity:.34});
+       ve(s,'rect',{x:X,y:y,width:L,height:H,rx:3,fill:'none',
+         stroke:wert<0?'#C2603C':farbe,'stroke-width':1.5});
+     }
+     /* Teilstriche des Ganzen */
+     if(teile && teile<=24) for(let i=1;i<teile;i++){
+       const x=X+laenge(1)*i/teile;
+       ve(s,'line',{x1:x,y1:y+1,x2:x,y2:y+H-1,stroke:'var(--line)','stroke-width':.8});
+     }
+     ve(s,'text',{x:X+Math.max(laenge(Math.abs(wert)),laenge(1))+9,y:y+15,
+       class:'vtxt','font-size':'12'},voll);
+   };
+   let y=34;
+   balken(y, r.w1, r.n1, '', brText(r.z1,r.n1), 'var(--accent)');
+   /* Rechenzeichen in die Luecke zwischen den beiden Balken, nicht in die Beschriftungsspalte */
+   ve(s,'text',{x:X+8,y:y+H+13,class:'vtxt','font-size':'15',
+     'font-weight':'600',fill:'var(--accent-deep)'},r.zeichen);
+   y+=38;
+   balken(y, r.w2, r.n2, '', brText(r.z2,r.n2), 'var(--blue)');
+   y+=44;
+   if(r.gleichnamig){
+     ve(s,'text',{x:X-12,y:y+14,class:'vtxtm','font-size':'11.5','text-anchor':'end'},
+       'Hauptnenner '+r.H+':');
+     ve(s,'text',{x:X,y:y+14,class:'vtxt','font-size':'12.5'},
+       r.e1+'/'+r.H+'  '+r.zeichen+'  '+r.e2+'/'+r.H+'   →   '+(r.e1+(r.op?-1:1)*r.e2)+'/'+r.H);
+     y+=16;
+     balken(y, r.e1/r.H, r.H, '', r.e1+'/'+r.H, 'var(--accent)');
+     y+=30;
+     balken(y, r.e2/r.H, r.H, '', r.e2+'/'+r.H, 'var(--blue)');
+     y+=38;
+   } else {
+     ve(s,'text',{x:X,y:y+12,class:'vtxtm','font-size':'11.5'},
+       r.op===2 ? 'Mal: Zähler mal Zähler, Nenner mal Nenner – kein Hauptnenner nötig.'
+                : 'Geteilt: mit dem Kehrwert malnehmen – kein Hauptnenner nötig.');
+     ve(s,'text',{x:X,y:y+30,class:'vtxt','font-size':'12.5'},
+       r.op===2 ? r.z1+'·'+r.z2+' / '+r.n1+'·'+r.n2+'  =  '+r.roh
+                : brText(r.z1,r.n1)+' · '+brText(r.n2,r.z2)+'  =  '+r.roh);
+     y+=44;
+   }
+   ve(s,'line',{x1:40,y1:y-6,x2:600,y2:y-6,stroke:'var(--line)','stroke-width':1});
+   balken(y+6, r.wert, r.kn<=24?r.kn:0, '= '+vn(r.wert,4), 'Ergebnis  '+r.erg, 'var(--good)');
+   if(r.gekuerzt)
+     ve(s,'text',{x:X,y:y+54,class:'vtxtm','font-size':'11.5'},
+       r.roh+' lässt sich kürzen zu '+r.erg+'.');
+   if(r.wert<0)
+     ve(s,'text',{x:X,y:y+54+(r.gekuerzt?16:0),class:'vtxtm','font-size':'11.5'},
+       'Das Ergebnis ist negativ – der zweite Bruch war größer als der erste.');
+ },
+ weg:(st,r)=> r.gleichnamig
+   ? 'Zwei Brüche lassen sich nur zusammenzählen, wenn die Stücke <b>gleich groß</b> sind. '+
+     'Der Hauptnenner ist das kleinste gemeinsame Vielfache von '+r.n1+' und '+r.n2+', also <b>'+r.H+'</b>.<br>'+
+     brText(r.z1,r.n1)+' = '+r.e1+'/'+r.H+'  und  '+brText(r.z2,r.n2)+' = '+r.e2+'/'+r.H+'<br>'+
+     'Jetzt nur noch die Zähler '+(r.op?'abziehen':'addieren')+', der Nenner bleibt: <b>'+r.roh+'</b>'+
+     (r.gekuerzt? ' = <b>'+r.erg+'</b> nach dem Kürzen.' : '.')
+   : (r.op===2
+     ? 'Beim Malnehmen brauchst du <b>keinen</b> Hauptnenner: Zähler mal Zähler, Nenner mal Nenner.<br>'+
+       r.z1+'·'+r.z2+' = '+(r.z1*r.z2)+'  und  '+r.n1+'·'+r.n2+' = '+(r.n1*r.n2)+
+       '  →  <b>'+r.roh+'</b>'+(r.gekuerzt? ' = <b>'+r.erg+'</b>.' : '.')
+     : 'Geteilt wird, indem man mit dem <b>Kehrwert</b> malnimmt – zweiter Bruch umdrehen, dann mal.<br>'+
+       brText(r.z1,r.n1)+' : '+brText(r.z2,r.n2)+' = '+brText(r.z1,r.n1)+' · '+brText(r.n2,r.z2)+
+       ' = <b>'+r.roh+'</b>'+(r.gekuerzt? ' = <b>'+r.erg+'</b>.' : '.'))
+};
