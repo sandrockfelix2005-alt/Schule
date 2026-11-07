@@ -901,6 +901,10 @@
         <span>12 Termine mit Erinnerung am Vorabend und eine Stunde vorher</span>
       </div>
       <div id="termin-out"></div>
+      <div class="panel"><strong>Deine Endprüfungen</strong>
+        <p style="font-size:13px;color:var(--muted);margin:6px 0 10px">Aus den Fachbeschreibungen.
+          Nicht verwechseln mit den Probeklausuren im Bereich 08 – die sind zum Üben.</p>
+        <div id="pruef-out"></div></div>
       <div class="panel"><strong>Hessische Schulferien</strong><div id="ferien-out"></div></div>
     </section>
 
@@ -1979,6 +1983,38 @@ const FTRAIN = [
 
 /* ---------- PROBEKLAUSUREN ---------- */
 /* {titel, dauer (min), hinweis, aufgaben:[[Punkte, Aufgabe, Lösung]]} */
+/* Die echten Endpruefungen, wie sie in den Fachbeschreibungen stehen.
+   Nicht zu verwechseln mit den Probeklausuren hier im Tool. */
+const PRUEFUNGEN = [
+ {f:'Naturwissenschaft', sem:3, dauer:90,
+  mittel:'Modul Formeln (selbst mitbringen)',
+  vorb:'in den Präsenzphasen des 2. Semesters',
+  stoff:'Lernmodule 1 bis 5'},
+ {f:'Deutsch/Kommunikation', sem:3, dauer:180,
+  mittel:'Duden oder ein vergleichbares Wörterbuch (selbst mitbringen)',
+  vorb:'in den Präsenzphasen des 2. Semesters',
+  stoff:'Lernmodule 1 und 2'},
+ {f:'Mathematik I', sem:4, dauer:90,
+  mittel:'Modul Formeln (selbst mitbringen)',
+  vorb:'in den Präsenzphasen des 3. Semesters',
+  stoff:'Lernmodule 1 bis 5',
+  hinweis:'Bestehen ist Voraussetzung für die Vorprüfung Mathematik II im Hauptstudium.'}
+];
+function pruefungZu(fach){
+  const f=String(fach).split(' · ')[0];
+  return PRUEFUNGEN.find(p=>p.f===f)||null;
+}
+function renderPruefungen(){
+  const ziel=document.getElementById('pruef-out'); if(!ziel) return;
+  ziel.innerHTML=PRUEFUNGEN.slice().sort((a,b)=>a.sem-b.sem).map(p=>
+    '<div class="term" style="display:block">'+
+    '<div><strong>'+p.f+'</strong> · <span class="tdat">1. Hälfte des '+p.sem+'. Semesters</span>'+
+    '<span class="tnr">'+p.dauer+' min</span></div>'+
+    '<div style="font-size:13px;color:var(--muted);margin-top:5px">'+
+    'Stoff: '+p.stoff+' · Hilfsmittel: '+p.mittel+'<br>Vorbereitung '+p.vorb+
+    (p.hinweis? '<br><strong>'+p.hinweis+'</strong>' : '')+'</div></div>').join('');
+}
+
 const KLAUSUREN = {
  "Mathematik I · Lernmodul 1":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. 60 Punkte. Nur Lernmodul 1: Zahlendarstellungen, Zahlenmengen, Grundrechenarten, Bruchrechnen. Runde erst das Endergebnis, nicht die Zwischenschritte.",varianten:[
   {v:"A",aufgaben:[
@@ -2802,7 +2838,11 @@ function renderKlausur(){
   document.getElementById('klausur-info').innerHTML=
     '<strong>'+curK+' · Variante '+va.v+' · '+K.dauer+' Minuten · '+punkte+' Punkte</strong>'+
     '<p style="margin:8px 0 0">'+K.hinweis+'</p>'+
-    '<p style="margin:6px 0 0;font-size:13px;color:var(--muted)">Die Varianten prüfen denselben Stoff mit anderen Aufgaben – rechne erst A, und nimm B eine Woche später zur Kontrolle.</p>';
+    '<p style="margin:6px 0 0;font-size:13px;color:var(--muted)">Die Varianten prüfen denselben Stoff mit anderen Aufgaben – rechne erst A, und nimm B eine Woche später zur Kontrolle.</p>'+
+    (()=>{const pr=pruefungZu(curK); if(!pr) return '';
+      return '<p style="margin:8px 0 0;font-size:13px">Bereitet vor auf die <strong>Endprüfung '+pr.f+
+        '</strong> in der 1. Hälfte des <strong>'+pr.sem+'. Semesters</strong> · '+pr.dauer+
+        ' min · Hilfsmittel: '+pr.mittel+'.</p>';})();
   document.getElementById('klausur-out').innerHTML=va.aufgaben.map((a,i)=>
     '<div class="kauf"><span class="kp">'+a[0]+' P.</span><span class="knr">Aufgabe '+(i+1)+'</span>'+
     '<p class="ktxt">'+a[1]+'</p><details><summary>Lösung anzeigen</summary><div class="sol">'+a[2]+'</div></details></div>').join('');
@@ -5293,7 +5333,7 @@ function startZahlen(){
 }
 
 /* ---------- START ---------- */
-startZahlen(); standZeigen();
+startZahlen(); standZeigen(); renderPruefungen();
 renderKlausurPicks(); renderKlausurVar(); renderKlausur();
 renderFFach(); renderFormeln();
 setSem(1);
