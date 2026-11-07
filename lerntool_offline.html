@@ -650,6 +650,8 @@
       <div class="kicker">DAA-Technikum · Start Oktober 2026</div>
       <h1>Dein Lerntool für Bautechnik</h1>
       <p class="lead">Semester 1 ist <strong>komplett aufbereitet</strong> – mit dem <strong>vollständigen Lehrstoff</strong> in <span id="st-kap2">23</span> Lernkapiteln: Zusammenfassungen (kompakt &amp; ausführlich), Karteikarten zum Umdrehen, Übungsaufgaben mit Lösung, ein durchsuchbares Lexikon und ein abhakbarer Lernplan. Läuft offline auf dem Handy.</p>
+      <p class="lead" style="margin:-12px 0 18px;font-family:var(--mono);font-size:12.5px">
+        Stand <span id="bauStand2">unbekannt</span> · <span id="bauArt2"></span></p>
       <div class="cards-grid">
         <div class="stat"><div class="num" id="st-kap">23</div><div class="lbl">Lernkapitel</div></div>
         <div class="stat"><div class="num" id="st-karten">319</div><div class="lbl">Karteikarten</div></div>
@@ -930,6 +932,8 @@
     <div class="foot">
       Lerntool Bautechnik · erstellt für das DAA-Technikum, 1. Semester ·
       Original-PDFs im Repo <code>Schule/Unterlagen/</code> und in Google&nbsp;Drive · offline nutzbar.
+      <br><strong>Stand: <span id="bauStand">unbekannt</span></strong> ·
+      <span id="bauArt">heruntergeladene Datei – aktualisiert sich nicht von selbst</span>
     </div>
   </main>
 </div>
@@ -940,6 +944,7 @@
 
 <script>
 /* ---------- DATEN ---------- */
+const BAUSTAND="07.11.2026";
 const FACH = {
  m1:{name:"Mathe LM1 – Zahlen &amp; Grundrechenarten",
   k:`<ul>
@@ -5246,6 +5251,18 @@ zeigeSync(); syncStarten();
 
 /* Die Zahlen auf der Startseite aus den Daten zaehlen - von Hand gepflegt
    waren sie regelmaessig veraltet. */
+/* Woher die Seite kommt: die veroeffentlichte Fassung holt sich Aenderungen
+   beim Neuladen, eine heruntergeladene Datei bleibt auf ihrem Stand. */
+function standZeigen(){
+  const d=document.getElementById('bauStand'), d2=document.getElementById('bauStand2');
+  if(d) d.textContent=BAUSTAND; if(d2) d2.textContent=BAUSTAND;
+  const online=/^https?:/.test(location.protocol);
+  const txt=online ? 'über den Link geöffnet – lädt beim Neuladen den neuesten Stand'
+                   : 'heruntergeladene Datei – aktualisiert sich nicht von selbst';
+  const a=document.getElementById('bauArt'), a2=document.getElementById('bauArt2');
+  if(a) a.textContent=txt; if(a2) a2.textContent=txt;
+}
+
 function startZahlen(){
   const setz=(id,n)=>{const e=document.getElementById(id); if(e) e.textContent=n;};
   const kapZahl = KAP.reduce((s,f)=>s+f.mod.reduce((t,m)=>t+m.k.length,0),0);
@@ -5259,7 +5276,7 @@ function startZahlen(){
 }
 
 /* ---------- START ---------- */
-startZahlen();
+startZahlen(); standZeigen();
 renderKlausurPicks(); renderKlausurVar(); renderKlausur();
 renderFFach(); renderFormeln();
 setSem(1);

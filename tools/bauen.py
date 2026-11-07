@@ -23,7 +23,18 @@ def doks(voll):
     return json.dumps(aus, ensure_ascii=False, separators=(',',':'))
 
 def main():
+    import datetime
     basis=(BASIS/'lerntool.html').read_text(encoding='utf-8')
+    # Standdatum einsetzen: bei der heruntergeladenen Datei die einzige
+    # Moeglichkeit zu sehen, ob sie noch aktuell ist.
+    stand=datetime.date.today().strftime('%d.%m.%Y')
+    marke='const BAUSTAND='
+    if marke in basis:
+        i=basis.index(marke); j=basis.index('\n', i)
+        basis=basis[:i]+marke+'"%s";'%stand+basis[j:]
+    else:
+        basis=basis.replace('/* ---------- DATEN ---------- */',
+                            '/* ---------- DATEN ---------- */\nconst BAUSTAND="%s";'%stand, 1)
     idx=(BASIS/'Suchindex_Semester-1.json').read_text(encoding='utf-8').replace('</','<\\/')
     for datei, voll, wrap in [('lerntool_artifact.html',False,False),
                               ('lerntool_offline.html',True,True),
