@@ -1984,6 +1984,27 @@ const FTRAIN = [
 /* ---------- PROBEKLAUSUREN ---------- */
 /* {titel, dauer (min), hinweis, aufgaben:[[Punkte, Aufgabe, Lösung]]} */
 const KLAUSUREN = {
+ "Mathematik I · Lernmodul 1":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. 60 Punkte. Nur Lernmodul 1: Zahlendarstellungen, Zahlenmengen, Grundrechenarten, Bruchrechnen. Runde erst das Endergebnis, nicht die Zwischenschritte.",varianten:[
+  {v:"A",aufgaben:[
+   [6,"Runden und Überschlag. a) Runde 47,3849 auf zwei Dezimalstellen. b) Überschlage 612 · 39 und gib danach das genaue Ergebnis an.","a) 3. Dezimale ist 4 → abrunden: <b>47,38</b> · b) Überschlag 600 · 40 = <b>24 000</b>, genau <b>23 868</b>"],
+   [6,"Zehnerpotenzen. a) 0,000 047 m in wissenschaftlicher Schreibweise. b) 25 N/mm² in MN/m². c) Wie viele m² sind 1 mm²?","a) <b>4,7 · 10⁻⁵ m</b> · b) 1 N/mm² = 1 MN/m², also <b>25 MN/m²</b> · c) 1 mm² = <b>10⁻⁶ m²</b> (der Exponent wird mitquadriert)"],
+   [6,"Dualsystem. a) Schreibe 93 im Zweiersystem. b) Welchen Dezimalwert hat (110101)₂?","a) 64 + 16 + 8 + 4 + 1 = 93 → <b>(1011101)₂</b> · b) 32 + 16 + 4 + 1 = <b>53</b>"],
+   [8,"Bruchrechnen. a) 3/4 + 5/6 · b) 7/8 − 1/3 · c) 2/5 · 10/3 · d) 3/4 : 9/8 — Ergebnisse vollständig kürzen.","a) HN 12: 9/12 + 10/12 = <b>19/12 = 1 7/12</b> · b) HN 24: 21/24 − 8/24 = <b>13/24</b> · c) 20/15 = <b>4/3 = 1 1/3</b> · d) Kehrwert: 3/4 · 8/9 = 24/36 = <b>2/3</b>"],
+   [6,"Kürzen und Hauptnenner. a) Kürze 168/252 vollständig. b) Bestimme den Hauptnenner von 12 und 18.","a) 168 = 2³·3·7, 252 = 2²·3²·7 → ggT = 2²·3·7 = 84 → <b>2/3</b> · b) 12 = 2²·3, 18 = 2·3² → kgV = 2²·3² = <b>36</b>"],
+   [8,"Binomische Formeln. a) (4x + 3)² · b) (5a − 2b)(5a + 2b) · c) Faktorisiere x² − 10x + 25.","a) <b>16x² + 24x + 9</b> (das mittlere Glied 2·4x·3 nicht vergessen) · b) 3. Binom: <b>25a² − 4b²</b> · c) <b>(x − 5)²</b>"],
+   [6,"Polynomdivision. Berechne (x² + 9x + 20) : (x + 4) und mache die Probe.","x² : x = x → x(x+4) = x²+4x → Rest 5x+20 · 5x : x = 5 → 5(x+4) = 5x+20 → Rest 0<br><b>Ergebnis: x + 5</b> · Probe: (x+4)(x+5) = x² + 9x + 20 ✓"],
+   [6,"Zahlenmengen. Ordne jede Zahl der kleinsten Menge zu, in der sie liegt: −7 · 0,75 · √2 · 5/8 · √(−4)","−7 → <b>ℤ</b> · 0,75 = 3/4 → <b>ℚ</b> · √2 → <b>ℝ</b> (irrational, kein Bruch) · 5/8 → <b>ℚ</b> · √(−4) → <b>ℂ</b> (= 2i, keine reelle Wurzel aus einer negativen Zahl)"],
+   [8,"Bau: Mörtel ansetzen. Zementmörtel 1 : 3 (Zement : Sand), gebraucht werden 0,75 m³. a) Wie viel m³ Zement und Sand? (auf 0,01 m³) b) Zement wiegt 1,30 t/m³ und kommt in 25-kg-Säcken. Wie viele Säcke brauchst du?","a) 1 : 3 sind <b>4 Teile</b>. Zement 1/4 · 0,75 = 0,1875 → <b>0,19 m³</b>, Sand 3/4 · 0,75 = 0,5625 → <b>0,56 m³</b><br>b) Mit dem <b>ungerundeten</b> Wert weiterrechnen: 0,1875 m³ · 1300 kg/m³ = 243,75 kg · 243,75 : 25 = 9,75 → es müssen <b>10 Säcke</b> sein (Material wird immer aufgerundet)"]]},
+  {v:"B",aufgaben:[
+   [6,"Runden und Überschlag. a) Runde 128,4951 auf zwei Dezimalstellen. b) Überschlage 1 985 : 38 und gib danach das genaue Ergebnis auf 0,01 an.","a) 3. Dezimale ist 5 → aufrunden: <b>128,50</b> · b) Überschlag 2 000 : 40 = <b>50</b>, genau <b>52,24</b>"],
+   [6,"Zehnerpotenzen. a) 3 200 000 in wissenschaftlicher Schreibweise. b) 0,8 kN in N. c) Wie viele m³ sind 1 cm³?","a) <b>3,2 · 10⁶</b> · b) <b>800 N</b> · c) 1 cm = 10⁻² m, hoch 3 → <b>10⁻⁶ m³</b>"],
+   [6,"Dualsystem. a) Schreibe 148 im Zweiersystem. b) Welchen Dezimalwert hat (10011010)₂?","a) 128 + 16 + 4 = 148 → <b>(10010100)₂</b> · b) 128 + 16 + 8 + 2 = <b>154</b>"],
+   [8,"Bruchrechnen. a) 5/6 + 7/9 · b) 4/5 − 2/3 · c) 9/14 · 7/3 · d) 5/12 : 10/9 — Ergebnisse vollständig kürzen.","a) HN 18: 15/18 + 14/18 = <b>29/18 = 1 11/18</b> · b) HN 15: 12/15 − 10/15 = <b>2/15</b> · c) über Kreuz kürzen (7 und 14, 9 und 3): 3/2 → <b>3/2 = 1 1/2</b> · d) Kehrwert: 5/12 · 9/10 = 45/120 = <b>3/8</b>"],
+   [6,"Kürzen und Hauptnenner. a) Kürze 204/357 vollständig. b) Bestimme den Hauptnenner von 15 und 20.","a) 204 = 2²·3·17, 357 = 3·7·17 → ggT = 3·17 = 51 → <b>4/7</b> · b) 15 = 3·5, 20 = 2²·5 → kgV = 2²·3·5 = <b>60</b>"],
+   [8,"Binomische Formeln. a) (3m − 5)² · b) (2x + 7y)(2x − 7y) · c) Faktorisiere 9a² − 42a + 49.","a) <b>9m² − 30m + 25</b> · b) 3. Binom: <b>4x² − 49y²</b> · c) 9a² = (3a)², 49 = 7², Probe 2·3a·7 = 42a ✓ → <b>(3a − 7)²</b>"],
+   [6,"Polynomdivision. Berechne (2x² − 7x − 15) : (x − 5) und mache die Probe.","2x² : x = 2x → 2x(x−5) = 2x²−10x → Abziehen: −7x − (−10x) = <b>+3x</b>, Rest 3x−15 · 3x : x = 3 → 3(x−5) = 3x−15 → Rest 0<br><b>Ergebnis: 2x + 3</b> · Probe: (x−5)(2x+3) = 2x² − 7x − 15 ✓"],
+   [6,"Zahlenmengen. Ordne jede Zahl der kleinsten Menge zu, in der sie liegt: 12 · −3/4 · π · √(−9) · 0","12 → <b>ℕ</b> · −3/4 → <b>ℚ</b> · π → <b>ℝ</b> (irrational) · √(−9) → <b>ℂ</b> (= 3i) · 0 → <b>ℕ₀ bzw. ℤ</b> (je nach Lehrbuch gehört die 0 zu ℕ)"],
+   [8,"Bau: Fundament betonieren. Ein Streifenfundament misst 2,45 m × 1,80 m × 0,60 m. Beton wiegt 2,4 t/m³. a) Volumen auf 0,01 m³. b) Masse in t auf 0,01 t. c) Wie viele Fahrten bei 6 t Nutzlast?","a) V = 2,45 · 1,80 · 0,60 = 2,646 → <b>2,65 m³</b><br>b) Mit dem <b>ungerundeten</b> Volumen: 2,646 · 2,4 = 6,3504 → <b>6,35 t</b><br>c) 6,35 : 6 = 1,06 → <b>2 Fahrten</b>"]]}]},
  "Mathematik I":{dauer:90,hinweis:"Erlaubtes Hilfsmittel: Modul Formeln + Taschenrechner. 60 Punkte.",varianten:[
   {v:"A",aufgaben:[
    [5,"Runden Sie auf zwei Dezimalstellen und geben Sie in wissenschaftlicher Schreibweise an: a) 48 372 m · b) 0,000 815 s","a) 4,84·10⁴ m · b) 8,15·10⁻⁴ s"],
