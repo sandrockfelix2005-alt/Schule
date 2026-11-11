@@ -33,7 +33,7 @@ const ALTKLAUSUREN = [
     ['Aufgabe 2.2','Folgefehler daraus: die Stammfunktion ist im Original <code>1/63·x⁷ + 2/15·x⁵ + 1/6·x³</code>, richtig ist <code>… + ⅓·x³</code>. Das Endergebnis V = 28,16 VE stimmt trotzdem.']
   ],
   aufgaben:[
-  {nr:'1', t:'Kurvendiskussion',
+  {nr:'1', g:'ak14_kurve', t:'Kurvendiskussion',
    a:'Führen Sie für folgende Funktion eine komplette Kurvendiskussion durch. Zeichnen Sie den Funktionsgraphen und füllen Sie die Tabelle aus (Definitionsbereich, Achsensymmetrie zur y-Achse, Punktsymmetrie zum Ursprung, Eigenschaften des Funktionsgraphen).<br><br><code>f(x) = −x² − 2x + 8</code>',
    l:'<strong>Ableitungen</strong><br>f′(x) = −2x − 2 · f″(x) = −2 · f‴(x) = 0'
     +'<br><br><strong>Definitionsbereich</strong><br>Ganzrationale Funktion → D = ℝ, keine Polstellen.'
@@ -43,20 +43,20 @@ const ALTKLAUSUREN = [
     +'<br><br><strong>Wendepunkte</strong><br>f″(x) = −2 ≠ 0 → keine Wendepunkte.'
     +'<br><br><strong>Verhalten im Unendlichen</strong><br>x → −∞: f(x) → −∞, Steigung → +∞<br>x → +∞: f(x) → −∞, Steigung → −∞'
     +'<br><br><strong>Tabelle</strong><br>−∞ → −∞ · N₁ (−4 | 0) · H (−1 | 9) · N₂ (2 | 0) · +∞ → −∞'},
-  {nr:'2.1', t:'Flächenintegral',
+  {nr:'2.1', g:'ak14_flaeche', t:'Flächenintegral',
    a:'Gegeben ist <code>f(x) = −⅓·x³ − x</code>.<br><br>Berechnen Sie für die gegebene Funktion das Flächen-Integral in den Grenzen von <code>−2 ≤ x ≤ 0</code>.',
    l:'<strong>Stammfunktion</strong><br>F(x) = −1/12·x⁴ − ½·x²'
     +'<br><br><strong>Einsetzen</strong><br>F(0) = 0<br>F(−2) = −1/12·16 − ½·4 = −4/3 − 2 = −10/3'
     +'<br><br>A = |F(0) − F(−2)| = |0 − (−10/3)| = <strong>10/3 = 3⅓ FE ≈ 3,33 FE</strong>'
     +'<br><br><span class="afehl">Achtung: im Original-Lösungsblatt steht F(x) = −1/12·x⁴ − x². Das ½ fehlt dort. Das Endergebnis 3⅓ FE ist richtig, der gedruckte Zwischenschritt nicht.</span>'},
-  {nr:'2.2', t:'Volumenintegral (Rotation um die x-Achse)',
+  {nr:'2.2', g:'ak14_volumen', t:'Volumenintegral (Rotation um die x-Achse)',
    a:'Ermitteln Sie <code>f(x)²</code> und bestimmen Sie anschließend das Volumen-Integral durch Rotation um die x-Achse in den Grenzen von <code>−2 ≤ x ≤ 0</code>.',
    l:'<strong>Quadrieren</strong><br>f(x)² = (−⅓x³ − x)² = 1/9·x⁶ + 2·(⅓x³·x) + x² = <strong>1/9·x⁶ + 2/3·x⁴ + x²</strong>'
     +'<br><br><strong>Stammfunktion</strong><br>G(x) = 1/63·x⁷ + 2/15·x⁵ + ⅓·x³'
     +'<br><br><strong>Einsetzen</strong><br>G(0) = 0<br>G(−2) = −128/63 − 64/15 − 8/3 = −2824/315'
     +'<br><br>V = π · |G(0) − G(−2)| = π · 2824/315 = π · 8,9651 = <strong>28,16 VE</strong>'
     +'<br><br><span class="afehl">Im Original steht beim Quadrieren „+ ½x²“ statt „+ x²“ und folgerichtig „+ 1/6·x³“ statt „+ ⅓·x³“. Beides ist falsch; das Endergebnis 28,16 VE stimmt.</span>'},
-  {nr:'3', t:'Vektoren',
+  {nr:'3', g:'ak14_vektoren', t:'Vektoren',
    a:'Gegeben sind die Vektoren <code>V₁(1 | −2)</code>, <code>V₂(2 | 4)</code>, <code>a(2 | −7)</code>.'
     +'<br><br><strong>3.1</strong> Berechnen Sie die Vektoren b und c, die den Winkel α einschließen. Berechnen Sie die Beträge von b und c sowie das Skalarprodukt b·c.'
     +'<br><strong>3.2</strong> Berechnen Sie den Winkel α in Grad und rad.'
@@ -66,7 +66,7 @@ const ALTKLAUSUREN = [
     +'<br><br><strong>3.2 Winkel</strong><br>cos α = (b·c) / (|b|·|c|) = −3 / (√37·√10) = −3/√370 = −0,15594<br>α = cos⁻¹(−0,15594) = <strong>98,97°</strong><br>im Bogenmaß: 98,97° · π/180° = <strong>1,727 rad</strong>'
     +'<br><br><strong>3.3 Dreiecksfläche</strong><br>A = ½ · |b| · |c| · sin α = ½ · √37 · √10 · sin(98,97°) = ½ · 19,235 · 0,98777 = <strong>9,5 FE</strong>'
     +'<br><br><em>Gegenprobe über die Determinante (im 2D schneller und ohne Winkel):</em><br>A = ½ · |b<sub>x</sub>·c<sub>y</sub> − b<sub>y</sub>·c<sub>x</sub>| = ½ · |1·(−1) − 6·3| = ½ · 19 = 9,5 FE ✓'},
-  {nr:'4', t:'Lineares Gleichungssystem (Gauß)',
+  {nr:'4', g:'ak14_gauss', t:'Lineares Gleichungssystem (Gauß)',
    a:'Gegeben ist folgendes 3×3-Gleichungssystem:'
     +'<br><br><code>(1) −3x + y − 2z = 5<br>(2) &nbsp;&nbsp;x + 2y + 3z = −4<br>(3) &nbsp;5x + 2y + &nbsp;z = 6</code>'
     +'<br><br>Lösen Sie das Gleichungssystem mit dem Gaußschen Eliminationsverfahren. Führen Sie anschließend eine Probe durch.',
@@ -95,7 +95,7 @@ const ALTKLAUSUREN = [
     ['Aufgabe 1','Kleinigkeit: die Zeile zur Achsensymmetrie ist mit „f(x) =“ beschriftet, gerechnet wird aber f(−x).']
   ],
   aufgaben:[
-  {nr:'1', t:'Kurvendiskussion',
+  {nr:'1', g:'ak21_kurve', t:'Kurvendiskussion',
    a:'Führen Sie eine vollständige Kurvendiskussion durch! Füllen Sie die Ergebnistabelle aus und zeichnen Sie den Graphen.<br><br><code>f(x) = −x² + 3x + 10</code>',
    l:'<strong>Ableitungen</strong><br>f′(x) = −2x + 3 · f″(x) = −2 · f‴(x) = 0'
     +'<br><br><strong>Definitionsbereich</strong><br>D = ℝ, keine Polstellen.'
@@ -105,18 +105,18 @@ const ALTKLAUSUREN = [
     +'<br><br><strong>Extrempunkt</strong><br>−2x + 3 = 0 → x = 1,5<br>f″(1,5) = −2 &lt; 0 → Maximum<br>f(1,5) = −2,25 + 4,5 + 10 = 12,25 → <strong>H(1,5 | 12,25)</strong>'
     +'<br><br><strong>Wendepunkte</strong><br>f″(x) = −2 ≠ 0 → keine Wendepunkte.'
     +'<br><br><strong>Verhalten im Unendlichen</strong><br>x → −∞: f(x) → −∞, Steigung → +∞<br>x → +∞: f(x) → −∞, Steigung → −∞'},
-  {nr:'2.1', t:'Flächenintegral',
+  {nr:'2.1', g:'ak21_flaeche', t:'Flächenintegral',
    a:'Gegeben ist <code>f(x) = −⅓·x⁴ + 3x</code>.<br><br>Berechnen Sie das bestimmte Flächen-Integral in den Grenzen von <code>1 ≤ x ≤ 2</code>.',
    l:'<strong>Stammfunktion</strong><br>F(x) = −(1/3)·x⁵/5 + 3·x²/2 = <strong>−1/15·x⁵ + 3/2·x²</strong>'
     +'<br><br><strong>Einsetzen</strong><br>F(2) = −32/15 + 6 = 58/15<br>F(1) = −1/15 + 3/2 = 43/30'
     +'<br><br>A = F(2) − F(1) = 116/30 − 43/30 = <strong>73/30 = 2,4333 FE</strong>'},
-  {nr:'2.2', t:'Volumenintegral (Rotation um die x-Achse)',
+  {nr:'2.2', g:'ak21_volumen', t:'Volumenintegral (Rotation um die x-Achse)',
    a:'Berechnen Sie <code>f(x)²</code> und dann das bestimmte Volumen-Integral durch Rotation um die x-Achse in den Grenzen von <code>1 ≤ x ≤ 2</code>.',
    l:'<strong>Quadrieren</strong><br>f(x)² = (−⅓x⁴ + 3x)² = 1/9·x⁸ − 2·(⅓x⁴·3x) + 9x² = <strong>1/9·x⁸ − 2x⁵ + 9x²</strong>'
     +'<br><br><strong>Stammfunktion</strong><br>G(x) = 1/81·x⁹ − ⅓·x⁶ + 3x³'
     +'<br><br><strong>Einsetzen</strong><br>G(2) = 512/81 − 64/3 + 24 = 728/81<br>G(1) = 1/81 − 1/3 + 3 = 217/81'
     +'<br><br>V = π · (728/81 − 217/81) = π · 511/81 = π · 6,3086 = <strong>19,82 VE</strong>'},
-  {nr:'3', t:'Vektoren',
+  {nr:'3', g:'ak21_vektoren', t:'Vektoren',
    a:'Gegeben sind die Vektoren <code>V₁(4 | −1)</code>, <code>V₃(1 | −3)</code>, <code>c(2 | −1)</code>.'
     +'<br><br><strong>3.1</strong> Bestimmen Sie die Vektoren a und b. Berechnen Sie den Betrag von a und b und das Skalarprodukt.'
     +'<br><strong>3.2</strong> Bestimmen Sie den Winkel α in Grad und rad.'
@@ -126,7 +126,7 @@ const ALTKLAUSUREN = [
     +'<br><br><strong>3.2 Winkel</strong><br>cos α = 9 / (√13·√10) = 9/√130 = 0,78935<br>α = cos⁻¹(0,78935) = <strong>37,875°</strong><br>im Bogenmaß: 37,875° · π/180° = <strong>0,661 rad</strong>'
     +'<br><br><strong>3.3 Dreiecksfläche</strong><br>A = ½ · |a| · |b| · sin α = ½ · √13 · √10 · sin(37,875°) = ½ · 11,402 · 0,61394 = <strong>3,5 FE</strong>'
     +'<br><br><em>Gegenprobe über die Determinante:</em><br>A = ½ · |a<sub>x</sub>·b<sub>y</sub> − a<sub>y</sub>·b<sub>x</sub>| = ½ · |(−3)(−3) − (−2)(−1)| = ½ · |9 − 2| = 3,5 FE ✓'},
-  {nr:'4', t:'Lineares Gleichungssystem (Gauß)',
+  {nr:'4', g:'ak21_gauss', t:'Lineares Gleichungssystem (Gauß)',
    a:'Lösen Sie das gegebene lineare Gleichungssystem (3×3) mit dem Gaußschen Eliminationsverfahren und führen Sie anschließend eine Probe durch.'
     +'<br><br><code>(1) &nbsp;3x − 2y + 6z = −2<br>(2) −x + 3y − 2z = −4<br>(3) −2x − &nbsp;y − 5z = &nbsp;8</code>',
    l:'<strong>Schritt 1 – x aus (2) eliminieren</strong><br>3·(2) + (1):<br>3·(−x + 3y − 2z) = −3x + 9y − 6z = −12<br>addiert zu (1): 7y + 0z = −14 → <strong>y = −2</strong>'
@@ -241,7 +241,9 @@ function renderAlt(){
   document.getElementById('alt-out').innerHTML=K.aufgaben.map(a=>
     '<div class="kauf"><span class="knr">Aufgabe '+a.nr+' · '+a.t+'</span>'+
     '<p class="ktxt">'+a.a+'</p>'+
-    '<details><summary>Lösung anzeigen (nachgerechnet)</summary><div class="sol">'+a.l+'</div></details></div>').join('');
+    '<details><summary>Lösung anzeigen (nachgerechnet)</summary><div class="sol">'+a.l+
+    (a.g?'<div class="viz" data-viz="'+a.g+'"></div>':'')+'</div></details></div>').join('');
+  if(typeof mountViz==='function') mountViz(document.getElementById('alt-out'));
   resetATimer();
 }
 function paintATimer(){const el=document.getElementById('a-timer');el.textContent=fmtT(aSec);el.classList.toggle('warn',aSec<=600);}
@@ -249,11 +251,27 @@ function resetATimer(){clearInterval(aTimer);aTimer=null;aSec=ALTKLAUSUREN[curAl
 document.getElementById('a-start').onclick=()=>{if(aTimer)return;aTimer=setInterval(()=>{if(aSec>0){aSec--;paintATimer();}else{clearInterval(aTimer);aTimer=null;alert('Zeit abgelaufen!');}},1000);};
 document.getElementById('a-stop').onclick=()=>{clearInterval(aTimer);aTimer=null;};
 document.getElementById('a-reset').onclick=resetATimer;
-renderAltPick();renderAlt();
 '''
-if '/* ================= ALTKLAUSUREN ================= */' not in h:
+marke_l = '/* ================= ALTKLAUSUREN ================= */'
+ende_l  = "document.getElementById('a-reset').onclick=resetATimer;\n"
+if marke_l in h:
+    i = h.index(marke_l); j = h.index(ende_l, i) + len(ende_l)
+    h = h[:i] + LOGIK.lstrip('\n') + h[j:]
+    # Altlast: frueher stand der Erstaufruf direkt hinter dem Logikblock.
+    # Dort liegt er vor der Grafik-Definition und VIZ waere noch in der
+    # temporalen Totzone - also raus damit.
+    h = h.replace(LOGIK.lstrip('\n') + 'renderAltPick();renderAlt();\n',
+                  LOGIK.lstrip('\n'), 1)
+else:
     i = h.index('/* ================= FORMELSAMMLUNG ================= */')
     h = h[:i] + LOGIK.lstrip('\n') + '\n' + h[i:]
+
+# Erstaufruf ans Ende setzen: VIZ wird erst im Grafikteil weiter unten gefuellt,
+# vorher waere ALTKLAUSUREN zwar da, VIZ aber noch in der temporalen Totzone.
+START = 'renderKlausurPicks(); renderKlausurVar(); renderKlausur();'
+if 'renderAltPick(); renderAlt();' not in h:
+    assert START in h
+    h = h.replace(START, START + '\nrenderAltPick(); renderAlt();', 1)
 
 P.write_text(h, encoding='utf-8')
 print('UI eingebaut. Datei:', len(h), 'Zeichen')
