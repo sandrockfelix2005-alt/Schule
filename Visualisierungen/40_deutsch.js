@@ -285,3 +285,102 @@ VIZ.eroerterung={
    : 'Lineare Form: alle Argumente stützen dieselbe Aussage, geordnet <b>vom schwächsten zum stärksten</b>.<br>'+
      'Erkennungszeichen im Thema: gefragt sind <b>Gründe, Ursachen, Folgen oder Vorteile</b> – keine Gegenseite.'
 };
+
+/* ---------- 4. Die Beschreibungsarten im Vergleich ---------- */
+const BESCHR=[
+{ kurz:'Gegenstand', name:'Gegenstandsbeschreibung',
+  frage:'Wie sieht es aus und wozu dient es?',
+  form:'Präsens, 3. Person · sachlich',
+  aufbau:['Überblick: Art, Zweck, Gesamteindruck',
+          'Form, Größe, Material, Farbe',
+          'Einzelteile – vom Wichtigen zum Unwichtigen',
+          'Funktion: Wie wirken die Teile zusammen?'],
+  bsp:'Der Winkelschleifer besteht aus einem Gehäuse, einem Handgriff und der Schutzhaube.'},
+{ kurz:'Vorgang', name:'Vorgangsbeschreibung',
+  frage:'Wie läuft es ab?',
+  form:'Präsens · Reihenfolgewörter',
+  aufbau:['Einleitung: Ziel des Vorgangs',
+          'Vorbereitung: Material, Geräte',
+          'Arbeitsschritte in zwingender Reihenfolge',
+          'Abschluss: Ergebnis, Kontrolle'],
+  bsp:'Zunächst wird die Schalung gesetzt, anschließend die Bewehrung verlegt.'},
+{ kurz:'Bedienung', name:'Bedienungsanleitung',
+  frage:'Was muss ich tun?',
+  form:'Imperativ oder Infinitiv',
+  aufbau:['Sicherheitshinweise – zuerst!',
+          'Geräteübersicht, Bedienelemente',
+          'Nummerierte Handlungsschritte',
+          'Störungshilfe: Fehler und Abhilfe'],
+  bsp:'Schutzhaube aufsetzen. Netzstecker einstecken. Gerät einschalten.'},
+{ kurz:'Rezept', name:'Rezept',
+  frage:'Wie stelle ich es her?',
+  form:'eine Form durchhalten: Imperativ, Infinitiv oder man-Form',
+  aufbau:['Überschrift, Portionen, Zeiten',
+          'Zutaten mit Menge und Einheit',
+          'Nummerierte Schritte – eine Handlung je Schritt',
+          'Hinweis: Tipp, Variante, Haltbarkeit'],
+  bsp:'500 g Mehl · 10 g Salz → Mehl und Salz vermischen. Wasser zugeben.'},
+{ kurz:'Leistung (LV)', name:'Leistungsbeschreibung',
+  frage:'Was wird geschuldet?',
+  form:'Präsens · eindeutig und erschöpfend (VOB/A)',
+  aufbau:['Kurztext: Leistung in einer Zeile',
+          'Langtext: Stoff, Maße, Güte, Ausführung',
+          'Einheit und Menge',
+          'Verweis auf Normen und Vorschriften'],
+  bsp:'Mauerwerk aus Kalksandstein KS 12-2,0, d = 24 cm, DIN EN 771-2 · m²'}
+];
+
+VIZ.beschreibungen={
+ titel:'Die fünf Beschreibungsarten', vb:'0 0 640 302',
+ was:'Wähle eine Art. Du siehst die Frage, die sie beantwortet, die vorgeschriebene Sprachform und den Aufbau. Die Sprachform ist der häufigste Punktverlust – sie muss zur Textsorte passen.',
+ regler:[{k:'b',l:'Beschreibungsart',min:0,max:BESCHR.length-1,step:1,val:0,e:v=>BESCHR[v].name}],
+ rechne:st=>({z:BESCHR[st.b]}),
+ werte:(st,r)=>[['Beantwortet die Frage', r.z.frage,'a'],
+                ['Sprach- und Zeitform', r.z.form,'b'],
+                ['Beispielsatz', r.z.bsp,'g']],
+ zeichne:(s,st,r)=>{
+   /* Reiter oben: alle Arten, die gewaehlte hervorgehoben */
+   const g=ve(s,'g',{});
+   let x=0;
+   BESCHR.forEach((b,i)=>{
+     const t=ve(g,'text',{x:0,y:0,class:'vtxtm'},b.kurz);
+     let br=0; try{ br=t.getComputedTextLength(); }catch(e){ br=b.kurz.length*7; }
+     const w=br+20, an=(i===st.b);
+     const kr=ve(g,'rect',{x:x,y:0,width:w,height:26,rx:13,
+       fill: an?'var(--accent)':'var(--surface)','fill-opacity':an?.2:1,
+       stroke: an?'var(--accent)':'var(--line)','stroke-width':an?1.8:1});
+     g.insertBefore(kr,t);
+     t.setAttribute('x',x+w/2); t.setAttribute('y',17);
+     t.setAttribute('text-anchor','middle');
+     if(an) t.setAttribute('fill','var(--accent-deep)');
+     x += w+8;
+   });
+   let bb; try{ bb=g.getBBox(); }catch(e){ bb=null; }
+   if(bb && bb.width>0){
+     const k=Math.min(1, 596/bb.width);
+     g.setAttribute('transform','translate('+(22-bb.x*k).toFixed(1)+','+(16-bb.y*k).toFixed(1)+') scale('+k.toFixed(4)+')');
+   }
+
+   const z=r.z;
+   ve(s,'text',{x:22,y:72,class:'vtxt',fill:'var(--accent-deep)'},z.name);
+   ve(s,'text',{x:22,y:94,class:'vtxtm'},'Frage: '+z.frage);
+
+   /* Aufbau als Treppe */
+   let y=112;
+   z.aufbau.forEach((a,i)=>{
+     ve(s,'rect',{x:22,y:y,width:596,height:34,rx:7,
+       fill:'var(--accent)','fill-opacity':.08+i*0.05,
+       stroke:'var(--accent)','stroke-width':1.1});
+     ve(s,'circle',{cx:44,cy:y+17,r:11,fill:'var(--accent)','fill-opacity':.28});
+     ve(s,'text',{x:44,y:y+21,class:'vtxtm','text-anchor':'middle',
+       fill:'var(--accent-deep)'},String(i+1));
+     ve(s,'text',{x:64,y:y+21,class:'vtxtm'},a);
+     y+=40;
+   });
+   ve(s,'text',{x:22,y:y+16,class:'vtxtm',fill:'var(--blue)'},'Sprachform: '+z.form);
+ },
+ weg:(st,r)=>'<b>'+r.z.name+'</b> – '+r.z.frage+'<br>'+
+   'Sprachform: <b>'+r.z.form+'</b><br>'+
+   'Beispiel: '+r.z.bsp+'<br>'+
+   'Für alle Beschreibungen gilt: sachlich, genau, keine Wertung, logische Reihenfolge.'
+};

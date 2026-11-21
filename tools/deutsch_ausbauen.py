@@ -370,3 +370,72 @@ j = h.index('\n];\n', i)
 h = h[:j] + ',\n' + eintraege + h[j:]
 P.write_text(h, encoding='utf-8')
 print('Lexikon: %d neue Einträge' % len(LEX_NEU))
+
+
+# ---------------------------------------------------------------- LM1: Rezept
+# Der LM1-Stapel bestand schon; hier kommen nur die Karten zur
+# Beschreibungsart "Rezept" dazu, die im Kapitel ergaenzt wurde.
+KARTEN_REZEPT = [
+ ("Was ist ein Rezept sprachlich gesehen?",
+  "Eine Vorgangsbeschreibung mit fester Form: erst die Zutaten mit genauen Mengen, dann die Schritte in zwingender Reihenfolge."),
+ ("Welche drei Sprachformen sind im Rezept zulässig?",
+  "Imperativ („Gib das Mehl …“), Infinitiv („Das Mehl … geben“) und die man-Form („Man gibt …“). Aber nur EINE pro Text, durchgehend."),
+ ("Was ist der häufigste Fehler im Rezept?",
+  "Die Sprachform wird mitten im Text gewechselt – Infinitiv, dann Anrede, dann Passiv. Das kostet jedes Mal Punkte."),
+ ("Wie ist ein Rezept aufgebaut?",
+  "Überschrift mit Portionen und Zeiten · Zutatenliste mit Menge und Einheit · nummerierte Zubereitungsschritte · optional ein Hinweis."),
+ ("In welcher Reihenfolge stehen die Zutaten?",
+  "In der Reihenfolge ihrer Verwendung – nicht alphabetisch und nicht nach Menge."),
+ ("Wie viele Handlungen gehören in einen Rezeptschritt?",
+  "Genau eine. „Rühren und würzen und wenden“ gehört in drei getrennte Schritte."),
+ ("Was hat ein Rezept mit einer Betonrezeptur zu tun?",
+  "Formal dasselbe: Mengen mit Einheit, zwingende Reihenfolge, durchgehaltene Sprachform. Auch beim Mörtel entscheidet die Reihenfolge – erst trocken mischen, dann Wasser."),
+ ("Was darf in einem Rezept nicht vorkommen?",
+  "Wertungen („herrlich duftend“), ungenaue Mengen („etwas Salz“), mehrere Handlungen je Schritt und Vergangenheitsformen."),
+]
+
+UEB_REZEPT = [
+ ("Sprachform vereinheitlichen. <i>1. Die Kartoffeln schälen. 2. Dann schneidest du sie in Scheiben. 3. Anschließend wird das Öl erhitzt. 4. Kartoffeln hineingeben und braten.</i>",
+  "Durchgehend im <b>Infinitiv</b>:<br>1. Die Kartoffeln schälen.<br>2. Die Kartoffeln in Scheiben schneiden.<br>3. Das Öl in der Pfanne erhitzen.<br>4. Die Kartoffeln hineingeben und 15 Minuten braten.<br><br>Schritt 2 war Anrede, Schritt 3 war Passiv. Auch richtig wäre durchgehend der Imperativ – aber dann in <b>allen</b> Schritten."),
+ ("Mängel finden. <i>Omelett. Man nimmt etwas Mehl, ein paar Eier und Milch. Alles wird verrührt und in die heiße Pfanne gegeben, dabei rühren und würzen und wenden. Schmeckt herrlich!</i>",
+  "<b>Vier Mängel:</b> keine Mengenangaben („etwas“, „ein paar“) · keine getrennte Zutatenliste · mehrere Handlungen in einem Schritt („rühren und würzen und wenden“) · Wertung („Schmeckt herrlich!“).<br>Zusätzlich wechselt die Sprachform von der man-Form über das Passiv in den Infinitiv; Portionszahl und Zeitangaben fehlen."),
+ ("Beschreibungsart zuordnen. Welche Art ist gefragt? a) „Beschreiben Sie den Aufbau eines Winkelschleifers.“ · b) „Beschreiben Sie das Betonieren einer Bodenplatte.“ · c) „Erstellen Sie eine Anleitung zur Bedienung der Rüttelplatte.“ · d) „Schreiben Sie ein Rezept für Rührei.“",
+  "a) <b>Gegenstandsbeschreibung</b> – Präsens, 3. Person<br>b) <b>Vorgangsbeschreibung</b> – Präsens, Reihenfolgewörter<br>c) <b>Bedienungsanleitung</b> – Imperativ oder Infinitiv, Sicherheitshinweise zuerst<br>d) <b>Rezept</b> – Zutatenliste mit Mengen, nummerierte Schritte, eine Sprachform"),
+]
+
+h = P.read_text(encoding='utf-8')
+def klammer_zu(text, start):
+    """Sucht die schliessende Klammer zu text[start] == '[' und ueberspringt
+    dabei Zeichenketten - in den Karten stehen selbst eckige Klammern."""
+    tiefe = 0; i = start; n = len(text)
+    while i < n:
+        c = text[i]
+        if c == '"':
+            i += 1
+            while i < n and text[i] != '"':
+                i += 2 if text[i] == '\\' else 1
+        elif c == '[':
+            tiefe += 1
+        elif c == ']':
+            tiefe -= 1
+            if tiefe == 0:
+                return i
+        i += 1
+    raise ValueError('Klammer nicht geschlossen')
+
+
+MARKE = '/* Rezept */'
+for bereich, ende, liste in [('const DECKS', 'const UEB', KARTEN_REZEPT),
+                             ('const UEB',   'const LEX', UEB_REZEPT)]:
+    a = h.index(bereich); b = h.index(ende, a)
+    teil = h[a:b]
+    i = teil.index('"Deutsch LM1":[') + len('"Deutsch LM1":')
+    j = klammer_zu(teil, i)
+    inhalt = teil[i+1:j]
+    if MARKE in inhalt:                      # frueheren Anbau entfernen
+        inhalt = inhalt[:inhalt.index(',\n  ' + MARKE)]
+    inhalt = inhalt.rstrip() + ',\n  ' + MARKE + '\n  ' + karten(liste) + '\n '
+    teil = teil[:i+1] + inhalt + teil[j:]
+    h = h[:a] + teil + h[b:]
+P.write_text(h, encoding='utf-8')
+print('LM1 ergänzt: %d Karten, %d Übungen' % (len(KARTEN_REZEPT), len(UEB_REZEPT)))

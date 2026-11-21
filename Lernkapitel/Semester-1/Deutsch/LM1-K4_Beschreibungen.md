@@ -9,9 +9,10 @@
 - Eine **Gegenstandsbeschreibung** vom Allgemeinen zum Besonderen aufbauen.
 - Eine **Vorgangsbeschreibung** in der richtigen Reihenfolge verfassen.
 - Eine **Bedienungsanleitung** mit Handlungsanweisungen schreiben.
-- Eine **Leistungsbeschreibung** fuer den Bau formulieren.
+- Ein **Rezept** als Sonderform der Vorgangsbeschreibung verfassen.
+- Eine **Leistungsbeschreibung** für den Bau formulieren.
 
-**Inhalt:** [4.1 Grundregeln](#41-die-grundregeln-jeder-beschreibung) · [4.2 Gegenstandsbeschreibung](#42-die-gegenstandsbeschreibung) · [4.3 Vorgangsbeschreibung](#43-die-vorgangsbeschreibung) · [4.4 Bedienungsanleitung](#44-die-bedienungsanleitung) · [4.5 Leistungsbeschreibung](#45-die-leistungsbeschreibung-im-bau) · [Uebungen](#-uebungsaufgaben-mit-loesungsweg)
+**Inhalt:** [4.1 Grundregeln](#41-die-grundregeln-jeder-beschreibung) · [4.2 Gegenstandsbeschreibung](#42-die-gegenstandsbeschreibung) · [4.3 Vorgangsbeschreibung](#43-die-vorgangsbeschreibung) · [4.4 Bedienungsanleitung](#44-die-bedienungsanleitung) · [4.5 Das Rezept](#45-das-rezept) · [4.6 Leistungsbeschreibung](#46-die-leistungsbeschreibung-im-bau) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
 
 ---
 
@@ -50,6 +51,10 @@
 | Mangel beschreiben | Zustandsbeschreibung |
 
 ---
+
+### 🖥️ Zum Ausprobieren: alle fünf Arten im Vergleich
+
+<div class="viz" data-viz="beschreibungen"></div>
 
 ## 4.2 Die Gegenstandsbeschreibung
 
@@ -260,7 +265,111 @@ Unzureichende Verdichtung
 
 ---
 
-## 4.5 Die Leistungsbeschreibung im Bau
+## 4.5 Das Rezept
+
+> ### 💡 Definition
+> Ein **Rezept** ist eine **Vorgangsbeschreibung mit fester Form**: erst die Zutaten mit genauen Mengen, dann die Arbeitsschritte in zwingender Reihenfolge.
+
+Warum das in der Prüfung drankommt: Am Rezept lässt sich in wenigen Zeilen prüfen, ob du **Mengenangaben, Reihenfolge und eine durchgehaltene Sprachform** beherrschst. Es ist die am klarsten bewertbare Beschreibungsform überhaupt.
+
+### Der feste Aufbau
+
+| Teil | Inhalt |
+|------|--------|
+| **Überschrift** | Was entsteht |
+| **Mengenangabe** | für wie viele Portionen / welche Menge |
+| **Zeitangabe** | Arbeitszeit, ggf. Ruhe- oder Garzeit |
+| **Zutatenliste** | alle Zutaten mit **Menge und Einheit**, in der Reihenfolge der Verwendung |
+| **Zubereitung** | nummerierte Schritte, eine Handlung je Schritt |
+| **Hinweis** | optional: Tipp, Variante, Haltbarkeit |
+
+### Die Sprachform
+
+> ### 💡 Drei Formen sind zulässig – aber nur **eine** pro Text
+> | Form | Beispiel |
+> |------|----------|
+> | **Imperativ** | *Gib das Mehl in eine Schüssel.* |
+> | **Infinitiv** | *Das Mehl in eine Schüssel geben.* |
+> | **man-Form** | *Man gibt das Mehl in eine Schüssel.* |
+>
+> Die **Infinitivform** ist in Kochbüchern am häufigsten, der **Imperativ** in Anleitungen. Entscheide dich am Anfang für eine Form und halte sie **bis zum letzten Satz** durch.
+
+> ### ⚠️ Der häufigste Fehler
+> Die Form wird mitten im Text gewechselt:
+> ❌ *Das Mehl in eine Schüssel **geben**. Dann **gibst du** die Hefe dazu. Anschließend **wird** alles verknetet.*
+> ✅ *Das Mehl in eine Schüssel **geben**. Die Hefe **zugeben**. Alles gründlich **verkneten**.*
+>
+> Das kostet sicher Punkte – und zwar jedes Mal, wenn gewechselt wird.
+
+### 📐 Muster – Rezept
+
+> **Bauernbrot**
+> *für 1 Laib · Arbeitszeit 20 min · Ruhezeit 90 min · Backzeit 45 min*
+>
+> **Zutaten**
+>
+> | Menge | Zutat |
+> |-------|-------|
+> | 500 g | Weizenmehl Typ 1050 |
+> | 1 Pck. | Trockenhefe (7 g) |
+> | 10 g | Salz |
+> | 350 ml | lauwarmes Wasser |
+> | 1 EL | Öl |
+>
+> **Zubereitung**
+>
+> 1. Mehl, Trockenhefe und Salz in einer Schüssel vermischen.
+> 2. Wasser und Öl zugeben und etwa fünf Minuten zu einem glatten Teig verkneten.
+> 3. Den Teig abdecken und bei Raumtemperatur 60 Minuten gehen lassen.
+> 4. Den Teig zu einem runden Laib formen und auf ein mit Backpapier belegtes Blech setzen.
+> 5. Den Laib abdecken und weitere 30 Minuten gehen lassen.
+> 6. Den Backofen auf 220 °C Ober-/Unterhitze vorheizen.
+> 7. Das Brot 45 Minuten backen.
+> 8. Das Brot auf einem Gitter vollständig auskühlen lassen.
+>
+> **Hinweis:** Eine hitzebeständige Schale mit Wasser im Ofen sorgt für eine knusprigere Kruste.
+
+**Was dieses Muster richtig macht:**
+
+| Merkmal | im Text |
+|---------|---------|
+| Mengen **mit Einheit** | 500 g, 350 ml, 10 g – nie „etwas Mehl" |
+| Zutaten in **Verwendungsreihenfolge** | Mehl zuerst, Öl zuletzt |
+| **eine Handlung je Schritt** | Schritt 4 und 5 sind getrennt, nicht zusammengefasst |
+| **durchgehaltene Infinitivform** | *vermischen, zugeben, verkneten, gehen lassen* |
+| **Zeiten und Temperaturen** konkret | 60 min, 220 °C, 45 min |
+| Vorheizen **vor** dem Backen | die Reihenfolge ist zwingend, nicht beliebig |
+
+### 🏗️ Die Bau-Parallele: die Rezeptur
+
+> ### 💡 Dasselbe Prinzip, anderer Gegenstand
+> Eine **Mörtel- oder Betonrezeptur** ist formal exakt dasselbe wie ein Kochrezept: Mengen mit Einheit, feste Reihenfolge, durchgehaltene Sprachform.
+>
+> **Zementmörtel MG III (1 m³)**
+>
+> | Menge | Stoff |
+> |-------|-------|
+> | 350 kg | Zement CEM I 32,5 R |
+> | 1 350 kg | Mauersand 0/4 |
+> | 175 l | Wasser |
+>
+> 1. Sand und Zement im Mischer 30 Sekunden trocken vormischen.
+> 2. Zwei Drittel des Wassers zugeben und 60 Sekunden mischen.
+> 3. Das restliche Wasser nach Bedarf zugeben, bis die Konsistenz erreicht ist.
+> 4. Mindestens weitere 60 Sekunden nachmischen.
+> 5. Den Mörtel innerhalb von zwei Stunden verarbeiten.
+>
+> **Wichtig:** Trockenmischen vor der Wasserzugabe – sonst bilden sich Zementnester. Genau wie beim Brotteig entscheidet die **Reihenfolge** über das Ergebnis.
+
+> ### ⚠️ Was im Rezept nichts zu suchen hat
+> - **Wertungen:** „ein herrlich duftendes Brot" → sachlich beschreiben
+> - **Ungenaue Mengen:** „etwas Salz", „ein Schuss Öl" → Menge und Einheit angeben
+> - **Mehrere Handlungen in einem Schritt:** erschwert das Nacharbeiten
+> - **Vergangenheitsform:** ein Rezept steht im **Präsens bzw. Imperativ/Infinitiv**, nie im Präteritum
+
+---
+
+## 4.6 Die Leistungsbeschreibung im Bau
 
 > ### 🏗️ Die wichtigste Beschreibung deines Berufs
 > Eine **Leistungsbeschreibung** (Position im Leistungsverzeichnis) beschreibt eine Bauleistung so eindeutig, dass **alle Bieter dasselbe kalkulieren** – und dass später klar ist, was geschuldet wird.
@@ -315,7 +424,7 @@ Menge:   248,50
 
 ---
 
-# ✍️ Uebungsaufgaben mit Loesungsweg
+## 📝 Übungsaufgaben mit Lösungsweg
 
 ### Aufgabe 1 · Grundregeln
 Nenne die fünf Grundregeln jeder Beschreibung.
@@ -435,6 +544,76 @@ Was ist an dieser LV-Position mangelhaft?
 
 ---
 
+### 🏗️ Aufgabe 10 · Sprachform vereinheitlichen
+Korrigiere die Zubereitung – sie wechselt dreimal die Form:
+
+*1. Die Kartoffeln schälen. 2. Dann schneidest du sie in Scheiben. 3. Anschließend wird das Öl in der Pfanne erhitzt. 4. Kartoffeln hineingeben und 15 Minuten braten.*
+
+<details><summary>Lösung anzeigen</summary>
+
+Einheitlich im **Infinitiv**:
+
+1. Die Kartoffeln schälen.
+2. Die Kartoffeln in Scheiben schneiden.
+3. Das Öl in der Pfanne erhitzen.
+4. Die Kartoffeln hineingeben und 15 Minuten braten.
+
+| Schritt | war | ist |
+|---------|-----|-----|
+| 2 | *schneidest du* – Imperativ/Anrede | *schneiden* – Infinitiv |
+| 3 | *wird erhitzt* – Passiv | *erhitzen* – Infinitiv |
+
+**Auch richtig** wäre durchgehend der Imperativ (*Schäle … Schneide … Erhitze …*) – aber dann in **allen** Schritten.
+</details>
+
+### 🏗️ Aufgabe 11 · Rezept schreiben
+Schreibe ein vollständiges Rezept für **Rührei für zwei Personen**. Verwende: 4 Eier, 50 ml Milch, 20 g Butter, Salz, Pfeffer.
+
+<details><summary>Lösung anzeigen</summary>
+
+**Rührei**
+*für 2 Portionen · Arbeitszeit 10 min*
+
+**Zutaten**
+
+| Menge | Zutat |
+|-------|-------|
+| 4 Stück | Eier |
+| 50 ml | Milch |
+| 20 g | Butter |
+| 1 Prise | Salz |
+| 1 Prise | Pfeffer |
+
+**Zubereitung**
+
+1. Die Eier in eine Schüssel aufschlagen.
+2. Die Milch zugeben und mit Salz und Pfeffer würzen.
+3. Alles mit einer Gabel gleichmäßig verquirlen.
+4. Die Butter in einer beschichteten Pfanne bei mittlerer Hitze schmelzen.
+5. Die Eimasse zugeben und etwa drei Minuten stocken lassen.
+6. Die Masse mit einem Pfannenwender mehrfach wenden, bis sie gestockt ist.
+7. Das Rührei sofort servieren.
+
+**Worauf es bei der Bewertung ankommt:** Überschrift mit Portionsangabe · alle Zutaten **mit Menge und Einheit** · Zutaten in Verwendungsreihenfolge · nummerierte Schritte · **eine Handlung je Schritt** · durchgehend Infinitiv · Hitze- und Zeitangaben konkret.
+</details>
+
+### 🏗️ Aufgabe 12 · Fehler im Rezept finden
+Nenne vier Mängel:
+
+*Omelett. Man nimmt etwas Mehl, ein paar Eier und Milch. Alles wird verrührt und in die heiße Pfanne gegeben, dabei rühren und würzen und wenden. Schmeckt herrlich!*
+
+<details><summary>Lösung anzeigen</summary>
+
+| Mangel | Warum |
+|--------|-------|
+| **Keine Mengenangaben** | „etwas Mehl", „ein paar Eier" – nicht nacharbeitbar |
+| **Keine getrennte Zutatenliste** | Zutaten stehen im Fließtext statt in einer Liste |
+| **Mehrere Handlungen in einem Schritt** | „rühren und würzen und wenden" gehört in drei Schritte |
+| **Wertung** | „Schmeckt herrlich!" – eine Beschreibung bewertet nicht |
+
+**Zusätzlich:** Die Sprachform wechselt von der man-Form („Man nimmt") ins Passiv („wird verrührt") und dann in den Infinitiv („rühren"). Auch Portionszahl, Zeit- und Temperaturangaben fehlen.
+</details>
+
 ## ✅ Selbstkontrolle – kannst du das jetzt?
 
 - [ ] Ich kenne die **fünf Grundregeln** jeder Beschreibung.
@@ -444,6 +623,9 @@ Was ist an dieser LV-Position mangelhaft?
 - [ ] Ich verwende **Reihenfolgewörter**.
 - [ ] Ich schreibe **Bedienungsanleitungen** als Handlungsanweisungen und halte eine Form durch.
 - [ ] Ich stelle **Sicherheitshinweise vor** die Bedienschritte.
+- [ ] Ich schreibe ein **Rezept** mit Zutatenliste, Mengen **mit Einheit** und nummerierten Schritten.
+- [ ] Ich halte im Rezept **eine** Sprachform durch (Imperativ, Infinitiv oder man-Form).
+- [ ] Ich weiß, dass eine **Rezeptur im Bau** nach demselben Muster aufgebaut ist.
 - [ ] Ich weiß, dass eine **Leistungsbeschreibung eindeutig und erschöpfend** sein muss.
 - [ ] Ich vermeide „und dergleichen", „bauseits üblich" und wertende Begriffe im LV.
 
