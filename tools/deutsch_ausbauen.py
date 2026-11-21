@@ -439,3 +439,66 @@ for bereich, ende, liste in [('const DECKS', 'const UEB', KARTEN_REZEPT),
     h = h[:a] + teil + h[b:]
 P.write_text(h, encoding='utf-8')
 print('LM1 ergänzt: %d Karten, %d Übungen' % (len(KARTEN_REZEPT), len(UEB_REZEPT)))
+
+
+# ------------------------------------------------------- LM1: Satzanfaenge
+KARTEN_SATZANF = [
+ ("Warum braucht eine Vorgangsbeschreibung wechselnde Satzanfänge?",
+  "Weil sie als Fließtext geschrieben wird. Ohne wechselnde Anfänge klingt der Text nach „dann … dann … dann“ und die Reihenfolge wird unklar."),
+ ("Nenne Satzanfänge für den Anfang eines Ablaufs.",
+  "als Erstes · am Anfang · zu Beginn · zuerst · zunächst"),
+ ("Nenne Satzanfänge für die Mitte eines Ablaufs.",
+  "als Nächstes · anschließend · danach · dann · daraufhin · hierauf · hinterher · in der Folge · nachfolgend · nun · jetzt · später"),
+ ("Nenne Satzanfänge für den Schluss.",
+  "als Letztes · am Ende · am Schluss · schließlich · zu guter Letzt · zuletzt · zum Schluss · abschließend"),
+ ("Welche Satzanfänge drücken Gleichzeitigkeit aus?",
+  "inzwischen · während · unterdessen. Achtung: „während“ leitet einen Nebensatz ein und braucht ein Komma."),
+ ("Welche dieser Wörter brauchen ein Komma: bevor, ehe, nachdem, während, vor, nach?",
+  "bevor, ehe, nachdem und während sind Konjunktionen → Nebensatz, Verb am Ende, Komma. vor und nach sind Präpositionen mit Dativ → kein Komma."),
+ ("Wie schreibt man: als erstes oder als Erstes?",
+  "„als Erstes“ – nach als, zu und zum steht eine Substantivierung, die großgeschrieben wird. Ebenso: zu Beginn, zum Schluss, am Ende, zu guter Letzt."),
+ ("Welche Satzanfänge werden kleingeschrieben?",
+  "Die reinen Adverbien: zuerst, zunächst, danach, dann, anschließend, später, schließlich, zuletzt, abschließend, inzwischen, nun, jetzt."),
+ ("Was passiert im Satz, wenn ein Satzanfang vorangestellt wird?",
+  "Er besetzt Platz 1. Danach kommt sofort das Verb, erst dann das Subjekt: „Zuerst prüft der Polier die Schalung.“ Nicht: „Zuerst der Polier prüft …“"),
+ ("Wie ist eine Vorgangsbeschreibung aufgebaut?",
+  "Überschrift → Material in Stichpunkten → Einleitung mit Überblick und Ziel → Hauptteil mit den Schritten → Schluss."),
+ ("Warum steht die Materialliste vor der Einleitung?",
+  "Damit der Leser vorher weiß, was er braucht – sonst steht er mittendrin ohne Werkzeug da. Als Stichpunktliste, nicht als Satz."),
+ ("Welche Ansprache benutzt die Vorgangsbeschreibung?",
+  "Die „man“-Form: „man verdichtet“ – nicht „du verdichtest“ oder „ich verdichte“."),
+ ("Satzanfänge im Bericht – was ist anders als in der Vorgangsbeschreibung?",
+  "Dieselben Wörter, aber Präteritum statt Präsens und konkrete Personen statt der „man“-Form: „Zuerst prüfte der Polier die Schalung.“"),
+ ("Was ist im Unfallbericht das beste Gliederungsmittel?",
+  "Die Uhrzeit. „Um 10:15 Uhr …, um 10:25 Uhr …“ ist belegbar, „kurz darauf“ nicht."),
+]
+
+UEB_SATZANF = [
+ ("Satzanfänge ersetzen. Schreibe den Text mit wechselnden Satzanfängen: <i>Dann wird die Schalung gesetzt. Dann wird die Bewehrung verlegt. Dann wird betoniert. Dann wird verdichtet.</i>",
+  "<b>Zuerst</b> wird die Schalung gesetzt. <b>Anschließend</b> wird die Bewehrung verlegt. <b>Daraufhin</b> wird betoniert. <b>Zum Schluss</b> wird verdichtet.<br><br>Jeder Anfang kommt aus einer anderen Gruppe: Anfang → Weiter → Weiter → Schluss. Viermal „dann“ kostet Stilpunkte."),
+ ("Komma setzen. a) Bevor betoniert wird prüft der Bauleiter die Freigabe. · b) Vor dem Betonieren prüft der Bauleiter die Freigabe. · c) Nachdem der Beton erhärtet war wurde ausgeschalt.",
+  "a) Bevor betoniert wird<b>,</b> prüft der Bauleiter die Freigabe. – <b>bevor</b> ist eine Konjunktion, das Verb steht am Ende → Komma<br>b) Vor dem Betonieren prüft der Bauleiter die Freigabe. – <b>kein</b> Komma, <b>vor</b> ist eine Präposition mit Dativ<br>c) Nachdem der Beton erhärtet war<b>,</b> wurde ausgeschalt. – <b>nachdem</b> ist eine Konjunktion → Komma"),
+ ("Groß oder klein? a) als (e/E)rstes · b) zu (b/B)eginn · c) (z/Z)uerst · d) zu guter (l/L)etzt · e) (s/S)chließlich",
+  "a) als <b>E</b>rstes · b) zu <b>B</b>eginn · c) <b>z</b>uerst · d) zu guter <b>L</b>etzt · e) <b>s</b>chließlich<br><br>Nach <b>als, zu, zum, am</b> steht eine Substantivierung → groß. Reine Adverbien bleiben klein."),
+ ("Satzstellung korrigieren. <i>Zuerst der Polier prüft die Schalung. Anschließend er verlegt die Bewehrung.</i>",
+  "<b>Zuerst prüft der Polier die Schalung. Anschließend verlegt er die Bewehrung.</b><br><br>Ein vorangestellter Satzanfang besetzt <b>Platz 1</b>. Auf Platz 2 steht immer das konjugierte Verb, das Subjekt rutscht dahinter. Zwei Satzglieder vor dem Verb gehen nicht."),
+ ("Dieselbe Handlung, zwei Textsorten. Schreibe je einen Satz mit dem Satzanfang „Anschließend“: a) als Vorgangsbeschreibung · b) als Unfallbericht.",
+  "a) <b>Vorgangsbeschreibung (Präsens, man-Form):</b> Anschließend wird die Bewehrung nach Bewehrungsplan verlegt.<br>b) <b>Bericht (Präteritum, konkrete Person):</b> Anschließend verlegte der Eisenflechter Herr Demir die Bewehrung.<br><br>Im Bericht muss die handelnde Person genannt werden – „man“ wäre dort falsch."),
+]
+
+h = P.read_text(encoding='utf-8')
+MARKE2 = '/* Satzanfaenge */'
+for bereich, ende, liste in [('const DECKS', 'const UEB', KARTEN_SATZANF),
+                             ('const UEB',   'const LEX', UEB_SATZANF)]:
+    a = h.index(bereich); b = h.index(ende, a)
+    teil = h[a:b]
+    i = teil.index('"Deutsch LM1":[') + len('"Deutsch LM1":')
+    j = klammer_zu(teil, i)
+    inhalt = teil[i+1:j]
+    if MARKE2 in inhalt:
+        inhalt = inhalt[:inhalt.index(',\n  ' + MARKE2)]
+    inhalt = inhalt.rstrip() + ',\n  ' + MARKE2 + '\n  ' + karten(liste) + '\n '
+    teil = teil[:i+1] + inhalt + teil[j:]
+    h = h[:a] + teil + h[b:]
+P.write_text(h, encoding='utf-8')
+print('Satzanfänge: %d Karten, %d Übungen' % (len(KARTEN_SATZANF), len(UEB_SATZANF)))

@@ -113,17 +113,93 @@ beiden Markierungsstrichen, ist die Fläche waagerecht bzw. senkrecht.
 
 | Teil | Inhalt |
 |------|--------|
-| **Einleitung** | Worum geht es? Was ist das Ziel? |
-| **Vorbereitung** | Benötigte Materialien, Geräte, Voraussetzungen |
+| **Überschrift** | Was wird beschrieben? Kurz und sachlich |
+| **Material** | Zutaten, Werkzeuge, Arbeitsmittel – in **Stichpunkten** |
+| **Einleitung** | Überblick über Ablauf und **Ziel** |
 | **Hauptteil** | Die Arbeitsschritte **in der richtigen Reihenfolge** |
-| **Abschluss** | Ergebnis, ggf. Nacharbeiten, Kontrolle |
+| **Schluss** | Ergebnis, Kontrolle, ggf. Nacharbeiten |
+
+> ### 💡 Material gehört vor die Einleitung
+> Der Leser muss **vorher** wissen, was er braucht – sonst steht er mittendrin ohne Werkzeug da. Deshalb kommt die Materialliste nach der Überschrift und **vor** dem Fließtext, und zwar als Stichpunktliste, nicht als Satz.
+
+---
+
+### Die Satzanfänge
+
+Eine Vorgangsbeschreibung wird als **Fließtext** geschrieben, nicht als nummerierte Liste. Damit die Reihenfolge trotzdem klar bleibt, brauchst du **wechselnde Satzanfänge**. Wer dreimal hintereinander mit *dann* anfängt, verliert Stilpunkte.
+
+#### Nach Stelle im Ablauf geordnet
+
+| Stelle | Wörter |
+|--------|--------|
+| **Anfang** | als Erstes · am Anfang · zu Beginn · zuerst · zunächst |
+| **Weiter** | als Nächstes · anschließend · danach · dann · daraufhin · hierauf · hinterher · in der Folge · nachfolgend · nun · jetzt · später |
+| **Schluss** | als Letztes · am Ende · am Schluss · schließlich · zu guter Letzt · zuletzt · zum Schluss · abschließend |
+| **gleichzeitig** | inzwischen · während · unterdessen |
+| **vorher / nachher** | bevor · ehe · vor · nach · nachdem |
+
+> ### ⚠️ Zwei Fallen, die Punkte kosten
+>
+> **1. Komma oder nicht?** Die Wörter der letzten Zeile verhalten sich unterschiedlich:
+>
+> | Wort | Wortart | Folge |
+> |------|---------|-------|
+> | **bevor, ehe, nachdem, während** | Konjunktion → **Nebensatz** | Verb am Ende, **Komma** |
+> | **vor, nach** | Präposition + Dativ | **kein** Komma |
+>
+> ✅ *<b>Bevor</b> der Beton eingebracht <b>wird</b><b>,</b> prüft der Polier die Schalung.*
+> ✅ *<b>Vor dem</b> Einbringen des Betons prüft der Polier die Schalung.*
+>
+> **2. Groß oder klein?** Auch hier gibt es beide Fälle:
+>
+> | groß | klein |
+> |------|-------|
+> | als **E**rstes · als **N**ächstes · als **L**etztes | zuerst · danach · schließlich |
+> | zu **B**eginn · zum **S**chluss · am **E**nde | zuletzt · anschließend · später |
+> | zu guter **L**etzt | nun · jetzt · inzwischen |
+>
+> Merke: Nach *als*, *zu* und *zum* steht eine **Substantivierung** – die wird großgeschrieben. Reine Adverbien bleiben klein.
+
+#### Was nach dem Satzanfang passiert
+
+Ein vorangestellter Satzanfang besetzt **Platz 1** im Satz. Dadurch rutscht das Subjekt hinter das Verb:
+
+| | Platz 1 | Platz 2 (Verb) | Rest |
+|---|---------|----------------|------|
+| normal | *Der Polier* | **prüft** | die Schalung. |
+| mit Satzanfang | *Zuerst* | **prüft** | der Polier die Schalung. |
+
+> ❌ *Zuerst der Polier prüft die Schalung.* – zwei Satzglieder vor dem Verb, das geht nicht.
+> ✅ *Zuerst **prüft** der Polier die Schalung.*
 
 ### Die Sprachmittel
 
-> ### 💡 Reihenfolge deutlich machen
-> **Zeitliche Gliederung:** zunächst · zuerst · danach · anschließend · daraufhin · abschließend · zuletzt
->
-> **Nummerierung:** 1., 2., 3. – besonders bei Arbeitsanweisungen
+> ### 💡 Weitere Regeln
+> **Zeitform:** durchgehend **Präsens** (Gegenwart).
+> **Ansprache:** die **„man"-Form** – *man verdichtet*, nicht *du verdichtest* oder *ich verdichte*.
+> **Fachwortschatz:** die richtigen Begriffe verwenden – *verdichten*, *abziehen*, *nachbehandeln*, nicht *festmachen* oder *glattmachen*.
+> **Nummerierung:** 1., 2., 3. nur bei **Arbeitsanweisungen** und Rezepten – in der Vorgangsbeschreibung bleibt es Fließtext.
+
+### ✅ Checkliste zum Schreiben
+
+Vor dem Schreiben:
+
+- [ ] Gedanken über **Schritte, Ablauf und benötigtes Material** gemacht
+- [ ] passende **Überschrift** gefunden
+- [ ] **Zutaten, Werkzeuge und Arbeitsmaterialien** in Stichpunkten aufgeführt
+
+Beim Schreiben:
+
+- [ ] Struktur **Überschrift → Material → Einleitung → Hauptteil → Schluss** eingehalten
+- [ ] Die Einleitung gibt einen **Überblick über Ablauf und Ziel**
+- [ ] Durchgehend in der **Gegenwart (Präsens)** geschrieben
+- [ ] Arbeitsschritte in der **richtigen Reihenfolge**
+- [ ] **Kurz, knapp und präzise** formuliert
+- [ ] Mehrere Arbeitsschritte sinnvoll **zu einem Satz verbunden**
+- [ ] **Verschiedene Satzanfänge** genutzt – nicht dreimal *dann*
+- [ ] Die **„man"-Form** verwendet
+- [ ] Passender **Fachwortschatz**, zutreffende Verben und Adjektive
+- [ ] Ein **abschließender Satz** als Schluss
 
 ### 🏗️ Muster – Vorgangsbeschreibung
 

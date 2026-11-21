@@ -384,3 +384,86 @@ VIZ.beschreibungen={
    'Beispiel: '+r.z.bsp+'<br>'+
    'Für alle Beschreibungen gilt: sachlich, genau, keine Wertung, logische Reihenfolge.'
 };
+
+/* ---------- 5. Satzanfaenge im Ablauf ---------- */
+/* k:true = leitet einen Nebensatz ein, braucht also ein Komma
+   g:true = wird grossgeschrieben (Substantivierung nach als/zu/zum) */
+const SATZANF=[
+ {gr:0,t:'als Erstes',g:1},{gr:0,t:'am Anfang',g:1},{gr:0,t:'zu Beginn',g:1},
+ {gr:0,t:'zuerst'},{gr:0,t:'zunächst'},
+ {gr:1,t:'als Nächstes',g:1},{gr:1,t:'anschließend'},{gr:1,t:'danach'},{gr:1,t:'dann'},
+ {gr:1,t:'daraufhin'},{gr:1,t:'hierauf'},{gr:1,t:'hinterher'},{gr:1,t:'in der Folge',g:1},
+ {gr:1,t:'nachfolgend'},{gr:1,t:'nun'},{gr:1,t:'jetzt'},{gr:1,t:'später'},
+ {gr:2,t:'inzwischen'},{gr:2,t:'während',k:1},{gr:2,t:'unterdessen'},
+ {gr:3,t:'bevor',k:1},{gr:3,t:'ehe',k:1},{gr:3,t:'nachdem',k:1},{gr:3,t:'vor'},{gr:3,t:'nach'},
+ {gr:4,t:'als Letztes',g:1},{gr:4,t:'am Ende',g:1},{gr:4,t:'am Schluss',g:1},
+ {gr:4,t:'schließlich'},{gr:4,t:'zu guter Letzt',g:1},{gr:4,t:'zuletzt'},
+ {gr:4,t:'zum Schluss',g:1},{gr:4,t:'abschließend'}
+];
+const SAGRUPPE=[
+ {n:'Anfang',
+  komma:'nein – der Satzanfang besetzt nur Platz 1',
+  gk:'als Erstes, am Anfang, zu Beginn groß · zuerst, zunächst klein',
+  prae:'Zuerst wird die Schalung geprüft.',
+  prat:'Zuerst prüfte der Polier die Schalung.'},
+ {n:'Weiter im Ablauf',
+  komma:'nein – alles Adverbien',
+  gk:'als Nächstes und in der Folge groß · der Rest klein',
+  prae:'Anschließend wird die Bewehrung verlegt.',
+  prat:'Anschließend verlegte er die Bewehrung.'},
+ {n:'gleichzeitig',
+  komma:'während braucht ein Komma · inzwischen und unterdessen nicht',
+  gk:'alle klein',
+  prae:'Während der Beton eingebracht wird, wird er verdichtet.',
+  prat:'Während der Beton eingebracht wurde, verdichtete ihn der Polier.'},
+ {n:'vorher / nachher',
+  komma:'bevor, ehe, nachdem → Komma · vor und nach → kein Komma',
+  gk:'alle klein',
+  prae:'Bevor betoniert wird, prüft der Bauleiter die Freigabe.',
+  prat:'Nach dem Verdichten zog der Polier die Oberfläche ab.'},
+ {n:'Schluss',
+  komma:'nein – alles Adverbien oder Präpositionalgruppen',
+  gk:'als Letztes, am Ende, am Schluss, zu guter Letzt, zum Schluss groß · schließlich, zuletzt, abschließend klein',
+  prae:'Zum Schluss wird die Oberfläche abgezogen.',
+  prat:'Zum Schluss zog der Polier die Oberfläche ab.'}
+];
+
+VIZ.satzanfaenge={
+ titel:'Satzanfänge nach Stelle im Ablauf', vb:'0 0 640 334',
+ was:'Wähle eine Stelle im Ablauf – die passenden Wörter leuchten auf. Ein <b>Komma-Zeichen</b> am Wort heißt: Es leitet einen Nebensatz ein, das Verb rutscht ans Ende und ein Komma ist Pflicht.',
+ regler:[{k:'g',l:'Stelle im Ablauf',min:0,max:4,step:1,val:0,e:v=>SAGRUPPE[v].n}],
+ rechne:st=>({z:SAGRUPPE[st.g], n:SATZANF.filter(w=>w.gr===st.g).length}),
+ werte:(st,r)=>[['Wörter für diese Stelle', String(r.n),'a'],
+                ['Komma nötig?', r.z.komma,'b'],
+                ['Groß oder klein', r.z.gk,'g']],
+ zeichne:(s,st,r)=>{
+   ve(s,'text',{x:22,y:28,class:'vtxt',fill:'var(--accent-deep)'},r.z.n);
+   const x0=22, breite=596, zh=32;
+   let x=x0, y=52;
+   SATZANF.forEach(w=>{
+     const an=(w.gr===st.g);
+     const t=ve(s,'text',{x:0,y:0,class:'vtxtm'},w.t);
+     let br=0; try{ br=t.getComputedTextLength(); }catch(e){ br=w.t.length*7; }
+     const bw=br+18+(w.k?12:0);
+     if(x+bw > x0+breite && x>x0){ x=x0; y+=zh; }
+     const kr=ve(s,'rect',{x:x,y:y-15,width:bw,height:24,rx:12,
+       fill: an?'var(--accent)':'var(--surface)','fill-opacity':an?.22:1,
+       stroke: an?'var(--accent)':'var(--line-soft)','stroke-width':an?1.6:1});
+     s.insertBefore(kr,t);
+     t.setAttribute('x', x+9); t.setAttribute('y', y+1);
+     t.setAttribute('fill', an?'var(--ink)':'var(--muted)');
+     if(w.k) ve(s,'text',{x:x+bw-9,y:y+3,class:'vtxt','text-anchor':'middle',
+       fill: an?'var(--accent-deep)':'var(--line)'},',');
+     x += bw+7;
+   });
+   let yy=y+40;
+   ve(s,'text',{x:22,y:yy,class:'vtxtm',fill:'var(--accent-deep)'},'Vorgangsbeschreibung · Präsens');
+   ve(s,'text',{x:22,y:yy+20,class:'vtxtm'},r.z.prae);
+   ve(s,'text',{x:22,y:yy+48,class:'vtxtm',fill:'var(--blue)'},'Bericht · Präteritum');
+   ve(s,'text',{x:22,y:yy+68,class:'vtxtm'},r.z.prat);
+ },
+ weg:(st,r)=>'<b>'+r.z.n+'</b> – '+r.n+' Wörter<br>'+
+   'Komma: '+r.z.komma+'<br>'+
+   'Groß/klein: '+r.z.gk+'<br>'+
+   'Ein vorangestellter Satzanfang besetzt <b>Platz 1</b> – danach kommt sofort das Verb, erst dann das Subjekt.'
+};

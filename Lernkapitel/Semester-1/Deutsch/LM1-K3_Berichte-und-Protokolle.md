@@ -6,11 +6,12 @@
 **Was du am Ende können musst**
 
 - Einen **Bericht** sachlich und vollständig verfassen (W-Fragen).
+- **Wechselnde Satzanfänge** einsetzen und dabei Komma und Großschreibung richtig behandeln.
 - Die **Protokollarten** unterscheiden und die richtige auswählen.
 - Ein **Protokoll** normgerecht aufbauen.
 - Einen **Bautagesbericht** und ein **Baubesprechungsprotokoll** schreiben.
 
-**Inhalt:** [3.1 Der Bericht](#31-der-bericht) · [3.2 Berichtsformen](#32-berichtsformen-im-bau) · [3.3 Das Protokoll](#33-das-protokoll) · [3.4 Protokollarten](#34-die-protokollarten) · [3.5 Aufbau](#35-aufbau-eines-protokolls) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
+**Inhalt:** [3.1 Der Bericht](#31-der-bericht) · [3.2 Satzanfänge](#32-die-satzanfänge-im-bericht) · [3.3 Berichtsformen](#33-berichtsformen-im-bau) · [3.4 Das Protokoll](#34-das-protokoll) · [3.5 Protokollarten](#35-die-protokollarten) · [3.6 Aufbau](#36-aufbau-eines-protokolls) · [Übungen](#-übungsaufgaben-mit-lösungsweg)
 
 ---
 
@@ -58,7 +59,67 @@
 
 ---
 
-## 3.2 Berichtsformen im Bau
+## 3.2 Die Satzanfänge im Bericht
+
+Ein Bericht schildert einen Ablauf – genau wie die Vorgangsbeschreibung. Deshalb brauchst du auch hier **wechselnde Satzanfänge**, damit die Reihenfolge klar wird und der Text nicht nach „dann … dann … dann" klingt.
+
+| Stelle im Hergang | Wörter |
+|-------------------|--------|
+| **Anfang** | als Erstes · am Anfang · zu Beginn · zuerst · zunächst |
+| **Weiter** | als Nächstes · anschließend · danach · daraufhin · hierauf · in der Folge · später |
+| **gleichzeitig** | inzwischen · während · unterdessen |
+| **vorher / nachher** | bevor · ehe · vor · nach · nachdem |
+| **Schluss** | als Letztes · am Ende · schließlich · zuletzt · zum Schluss |
+
+> ### ⚠️ Der Unterschied zur Vorgangsbeschreibung
+> Die Wortliste ist dieselbe, **die Zeitform ist es nicht**:
+>
+> | | Vorgangsbeschreibung | Bericht |
+> |---|----------------------|---------|
+> | Zeitform | **Präsens** | **Präteritum** |
+> | Beispiel | *Zuerst **wird** die Schalung geprüft.* | *Zuerst **prüfte** der Polier die Schalung.* |
+> | Perspektive | „man"-Form, allgemeingültig | konkrete Personen, konkreter Fall |
+>
+> Im Bericht **nennst du die handelnde Person** – die „man"-Form wäre hier falsch, weil im Streitfall nachvollziehbar sein muss, wer was getan hat.
+
+### Komma oder nicht?
+
+Die Wörter aus der Zeile „vorher / nachher" verhalten sich unterschiedlich – das ist eine klassische Fehlerquelle:
+
+| Wort | Wortart | Folge |
+|------|---------|-------|
+| **bevor, ehe, nachdem, während** | Konjunktion → **Nebensatz** | Verb am Ende, **Komma** |
+| **vor, nach** | Präposition + Dativ | **kein** Komma |
+
+✅ ***Nachdem** der Rettungsdienst eingetroffen **war***, *wurde die Baustelle gesperrt.*
+✅ ***Nach dem** Eintreffen des Rettungsdienstes wurde die Baustelle gesperrt.*
+
+### Groß oder klein?
+
+| groß | klein |
+|------|-------|
+| als **E**rstes · als **N**ächstes · als **L**etztes | zuerst · danach · schließlich |
+| zu **B**eginn · zum **S**chluss · am **E**nde | zuletzt · anschließend · später |
+
+Nach *als*, *zu* und *zum* steht eine **Substantivierung** – die wird großgeschrieben. Reine Adverbien bleiben klein.
+
+> ### 💡 Im Bericht noch stärker: die Uhrzeit
+> Im Unfall- und Schadensbericht ist die **Uhrzeit** das beste Gliederungsmittel. Sie ersetzt oder ergänzt den Satzanfang:
+>
+> *Um 10:15 Uhr rutschte der linke Leiterholm ab. Unmittelbar danach stürzte Herr Weber zu Boden. Um 10:25 Uhr wurde der Rettungsdienst verständigt.*
+>
+> Konkrete Uhrzeiten sind belegbar, „kurz darauf" ist es nicht.
+
+> ### ⚠️ Nicht übertreiben
+> Ein Bericht ist kein Aufsatz. **Nicht jeder** Satz braucht einen schmückenden Satzanfang – nur dort, wo die Reihenfolge sonst unklar bliebe. Sachlichkeit geht vor Abwechslung.
+
+### 🖥️ Zum Ausprobieren: die Satzanfänge nach Stelle im Ablauf
+
+<div class="viz" data-viz="satzanfaenge"></div>
+
+---
+
+## 3.3 Berichtsformen im Bau
 
 | Bericht | Anlass | Besonderheit |
 |---------|--------|--------------|
@@ -121,7 +182,7 @@ Holzheim, 24.03.2026        [Unterschrift]  T. Krause, Bauleiter
 
 ---
 
-## 3.3 Das Protokoll
+## 3.4 Das Protokoll
 
 > ### 💡 Definition (aus dem Lernmodul)
 > Ein **Protokoll** (auch **Niederschrift**) ist die schriftliche Festhaltung des **Be- und Gesprochenen** bei einer Zusammenkunft.
@@ -139,7 +200,7 @@ Ein ausführliches Protokoll ist **immer dann erforderlich**, wenn zu einem Them
 
 ---
 
-## 3.4 Die Protokollarten
+## 3.5 Die Protokollarten
 
 > ### 💡 Die vier Arten
 > | Art | Was festgehalten wird | Wann verwenden |
@@ -160,7 +221,7 @@ Ein ausführliches Protokoll ist **immer dann erforderlich**, wenn zu einem Them
 
 ---
 
-## 3.5 Aufbau eines Protokolls
+## 3.6 Aufbau eines Protokolls
 
 > ### 💡 Die drei Teile
 > **1. Protokollkopf**
@@ -422,6 +483,9 @@ Holzheim, 24.03.2026        [Unterschrift]  T. Krause, Bauleiter
 - [ ] Ich beantworte in einem Bericht alle **sechs W-Fragen**.
 - [ ] Ich schreibe Berichte im **Präteritum**, sachlich und ohne Wertung.
 - [ ] Ich prüfe jeden Satz mit der Frage: **„Könnte ich das belegen?"**
+- [ ] Ich nutze **wechselnde Satzanfänge**, statt dreimal mit *dann* anzufangen.
+- [ ] Ich weiß, dass *bevor, ehe, nachdem, während* ein **Komma** brauchen, *vor* und *nach* nicht.
+- [ ] Ich schreibe *als Erstes, zu Beginn, zum Schluss* **groß**, *zuerst, danach, zuletzt* klein.
 - [ ] Ich kenne die Inhalte eines **Bautagesberichts** und weiß, warum er so wichtig ist.
 - [ ] Ich kenne die **vier Protokollarten** und wähle die passende aus.
 - [ ] Ich weiß, dass das **Ergebnisprotokoll** im Bau der Standard ist.
