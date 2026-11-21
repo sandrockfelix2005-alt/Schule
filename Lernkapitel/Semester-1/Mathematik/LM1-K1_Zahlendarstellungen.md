@@ -5,6 +5,7 @@
 > Quelle: DAA Mathematik I, Lernmodul 1, Lernbereich 1 · **Zeitaufwand: ca. 2–3 Stunden**
 
 **Was du am Ende können musst**
+
 - Die wichtigsten mathematischen **Zeichen** lesen und selbst richtig verwenden.
 - Zahlen nach der offiziellen Regel **runden** – und entscheiden, *wie genau* gerundet werden muss.
 - Große und kleine Zahlen mit **Zehnerpotenzen** schreiben, damit rechnen und Einheiten umrechnen.

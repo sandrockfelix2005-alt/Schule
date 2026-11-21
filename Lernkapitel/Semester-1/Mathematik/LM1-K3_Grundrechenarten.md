@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 1, Lernbereich 3 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - **Vorzeichenregeln** bei allen vier Grundrechenarten sicher anwenden.
 - Die **Rangfolge** der Rechenarten einhalten (Klammer, Potenz, Punkt, Strich).
 - **Klammern auflösen** – besonders die Minusklammer.

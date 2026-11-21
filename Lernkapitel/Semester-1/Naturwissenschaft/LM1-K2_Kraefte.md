@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 1, Kapitel 2.1 und 2.2 · **Zeitaufwand: ca. 6–7 Stunden**
 
 **Was du am Ende können musst**
+
 - **Dichte und Wichte** berechnen und unterscheiden.
 - Die **Kraft** als Vektor beschreiben (Betrag, Richtung, Angriffspunkt).
 - Kräfte **zerlegen** und **addieren** – rechnerisch und zeichnerisch.

@@ -4,6 +4,7 @@
 > **Dieses Kapitel steht nicht im DAA-Modul.** Ich habe es davorgestellt, weil das Modul mit Formalismus anfängt (`G = {G} · [G]`, sieben SI-Basisgrößen) – und wer dort aussteigt, versteht danach zwangsläufig nichts mehr. Hier bauen wir die Vorstellung auf, auf der alles Weitere ruht. · **Zeitaufwand: ca. 3 Stunden**
 
 **Was du am Ende können musst**
+
 - Erklären, was **Masse** und **Kraft** unterscheidet – und warum das der wichtigste Unterschied überhaupt ist.
 - Die fünf Grundbegriffe **Kraft, Druck, Arbeit, Energie, Leistung** anschaulich beschreiben.
 - Verstehen, dass **jede Einheit aus wenigen Grundeinheiten zusammengebaut** ist – und dass die Einheit dir die Formel verrät.

@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 1, Kapitel 2.6 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - **Arbeit** in ihren verschiedenen Formen berechnen.
 - **Energieformen** unterscheiden und den **Energieerhaltungssatz** anwenden.
 - **Leistung** berechnen und von Arbeit unterscheiden.

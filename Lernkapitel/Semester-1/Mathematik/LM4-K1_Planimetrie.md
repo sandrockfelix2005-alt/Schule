@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 4, Lernbereich 1 · **Zeitaufwand: ca. 6–7 Stunden**
 
 **Was du am Ende können musst**
+
 - **Winkelarten** benennen und Winkelsätze anwenden (Scheitel, Neben, Stufen, Wechsel).
 - Die **Grundkonstruktionen** kennen (Mittelsenkrechte, Winkelhalbierende, Thaleskreis).
 - Mit **Strahlensätzen** unzugängliche Strecken bestimmen.

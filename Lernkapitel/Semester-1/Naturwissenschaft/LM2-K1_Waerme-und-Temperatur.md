@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 2, Kapitel 1 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - Zwischen **Celsius und Kelvin** umrechnen.
 - **Längen- und Volumenausdehnung** berechnen – und ihre Bedeutung für Dehnfugen erklären.
 - Die **Gasgesetze** (isobar, isochor, isotherm) anwenden.

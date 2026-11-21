@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 1, Kapitel 2.3 · **Zeitaufwand: ca. 4–5 Stunden**
 
 **Was du am Ende können musst**
+
 - Das **Drehmoment** berechnen und seine Wirkung verstehen.
 - Das **Hebelgesetz** anwenden – ein- und zweiseitige Hebel.
 - Die **drei Gleichgewichtsbedingungen** aufstellen.

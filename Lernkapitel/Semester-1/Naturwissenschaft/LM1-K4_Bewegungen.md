@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 1, Kapitel 2.4 und 2.5 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - **Gleichförmige** und **beschleunigte** Bewegungen unterscheiden und berechnen.
 - Die Formeln für den **freien Fall** anwenden.
 - **Kreisbewegungen** berechnen (Drehzahl, Umfangsgeschwindigkeit, Frequenz).

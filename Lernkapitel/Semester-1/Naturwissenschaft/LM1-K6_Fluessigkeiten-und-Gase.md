@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 1, Kapitel 3 · **Zeitaufwand: ca. 4–5 Stunden**
 
 **Was du am Ende können musst**
+
 - Den **Druck** definieren und in verschiedenen Einheiten angeben.
 - Den **Schweredruck** berechnen und das Prinzip der kommunizierenden Röhren erklären.
 - **Hydraulische Kraftübersetzung** berechnen.

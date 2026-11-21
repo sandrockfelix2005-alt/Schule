@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 4, Lernbereich 3 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - **Volumen und Oberfläche** von Prisma, Zylinder, Pyramide, Kegel und Kugel berechnen.
 - **Pyramiden- und Kegelstumpf** berechnen (Baugruben!).
 - **Rotationskörper** erkennen und berechnen.

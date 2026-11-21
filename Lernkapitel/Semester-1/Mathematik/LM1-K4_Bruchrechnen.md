@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 1, Abschnitte 2.3, 3.1 und 3.2 · **Zeitaufwand: ca. 3–4 Stunden**
 
 **Was du am Ende können musst**
+
 - Einen Bruch **kürzen** und **erweitern** – und wissen, warum sich sein Wert dabei nicht ändert.
 - Den **Hauptnenner** zweier Brüche finden, auch über die **Primfaktorzerlegung**.
 - Brüche **addieren, subtrahieren, multiplizieren und dividieren**.

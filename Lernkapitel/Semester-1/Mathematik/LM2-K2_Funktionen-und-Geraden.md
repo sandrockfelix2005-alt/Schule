@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 2, Lernbereich 2 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - Erklären, was eine **Funktion** ist (und was keine), **Definitions-** und **Wertemenge** angeben.
 - Die **Geradengleichung y = m·x + b** deuten, aufstellen und zeichnen.
 - **Steigung** aus zwei Punkten berechnen und als Gefälle in % umrechnen.

@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 2, Lernbereich 1 · **Zeitaufwand: ca. 4–5 Stunden**
 
 **Was du am Ende können musst**
+
 - **Proportionale** und **antiproportionale** Zuordnungen sicher unterscheiden.
 - Den **Proportionalitätsfaktor k** bzw. die **Konstante c** bestimmen.
 - Aufgaben mit dem **Dreisatz** in beiden Varianten lösen.

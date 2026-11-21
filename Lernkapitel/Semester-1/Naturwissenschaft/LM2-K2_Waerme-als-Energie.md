@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Naturwissenschaft, Lernmodul 2, Kapitel 2 · **Zeitaufwand: ca. 5 Stunden**
 
 **Was du am Ende können musst**
+
 - Den **ersten Hauptsatz** der Wärmelehre erklären.
 - **Wärmemengen** mit Q = c·m·Δϑ berechnen.
 - **Mischungsaufgaben** über die Mischungsregel lösen.

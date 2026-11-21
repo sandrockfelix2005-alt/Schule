@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 3, Lernbereiche 4 und 5 · **Zeitaufwand: ca. 5–6 Stunden**
 
 **Was du am Ende können musst**
+
 - Die **Exponentialfunktion** f(x) = aˣ beschreiben und von der Potenzfunktion unterscheiden.
 - **Wachstums-** und **Zerfallsvorgänge** als Funktion modellieren.
 - Den **Logarithmus** definieren und zwischen Potenz- und Logarithmusform umformen.

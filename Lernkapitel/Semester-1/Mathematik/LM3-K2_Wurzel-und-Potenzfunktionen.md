@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 3, Lernbereiche 2 und 3 · **Zeitaufwand: ca. 4–5 Stunden**
 
 **Was du am Ende können musst**
+
 - Die **Wurzelfunktion** als Umkehrung der quadratischen Funktion verstehen.
 - **Potenzfunktionen** f(x) = xⁿ beschreiben und ihre Grafen unterscheiden.
 - Alle **Potenzgesetze** sicher anwenden.

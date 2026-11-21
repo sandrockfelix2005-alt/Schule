@@ -5,6 +5,7 @@
 > **Voraussetzung:** LM2 (Funktionen erster Ordnung) und LM1 K3 (binomische Formeln)
 
 **Was du am Ende können musst**
+
 - Die **Normalparabel** und ihre Verschiebungen beschreiben.
 - Aus der **Scheitelpunktform** den Scheitelpunkt ablesen.
 - Mit **quadratischer Ergänzung** von der allgemeinen Form zur Scheitelpunktform kommen.

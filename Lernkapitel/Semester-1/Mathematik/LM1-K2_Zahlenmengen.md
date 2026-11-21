@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 1, Lernbereich 2 · **Zeitaufwand: ca. 3–4 Stunden**
 
 **Was du am Ende können musst**
+
 - Die fünf Zahlenmengen **ℕ, ℤ, ℚ, ℝ, ℂ** unterscheiden und Zahlen richtig zuordnen.
 - Erklären, **warum** jede Erweiterung nötig war (welche Rechnung vorher nicht ging).
 - Mit **Brüchen** sicher rechnen (kürzen, erweitern, umwandeln).

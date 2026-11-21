@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Deutsch/Kommunikation, Lernmodul 1, Kapitel 2 · **Zeitaufwand: ca. 4–5 Stunden**
 
 **Was du am Ende können musst**
+
 - Einen **Bericht** sachlich und vollständig verfassen (W-Fragen).
 - Die **Protokollarten** unterscheiden und die richtige auswählen.
 - Ein **Protokoll** normgerecht aufbauen.

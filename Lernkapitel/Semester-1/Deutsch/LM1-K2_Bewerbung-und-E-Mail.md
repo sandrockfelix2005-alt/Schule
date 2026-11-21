@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Deutsch/Kommunikation, Lernmodul 1, Kapitel 1.2 und 1.3 · **Zeitaufwand: ca. 4–5 Stunden**
 
 **Was du am Ende können musst**
+
 - Eine vollständige **Bewerbungsmappe** zusammenstellen.
 - Ein **Anschreiben** zielgerichtet aufbauen.
 - Einen **tabellarischen Lebenslauf** normgerecht erstellen.

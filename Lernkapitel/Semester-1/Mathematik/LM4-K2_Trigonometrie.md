@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Mathematik I, Lernmodul 4, Lernbereich 2 · **Zeitaufwand: ca. 6–7 Stunden**
 
 **Was du am Ende können musst**
+
 - **sin, cos, tan** im rechtwinkligen Dreieck definieren und anwenden.
 - Fehlende **Seiten und Winkel** im rechtwinkligen Dreieck berechnen.
 - Die **trigonometrischen Funktionen** und ihre Grafen kennen.

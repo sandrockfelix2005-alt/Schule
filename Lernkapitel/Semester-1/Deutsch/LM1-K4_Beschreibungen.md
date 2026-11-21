@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Deutsch/Kommunikation, Lernmodul 1, Kapitel 3 · **Zeitaufwand: ca. 4 Stunden**
 
 **Was du am Ende können musst**
+
 - Die **Grundregeln** jeder Beschreibung anwenden.
 - Eine **Gegenstandsbeschreibung** vom Allgemeinen zum Besonderen aufbauen.
 - Eine **Vorgangsbeschreibung** in der richtigen Reihenfolge verfassen.

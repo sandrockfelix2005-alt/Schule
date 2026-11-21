@@ -4,6 +4,7 @@
 > **Lernkapitel zum Selbststudium.** Quelle: DAA Deutsch/Kommunikation, Lernmodul 1, Kapitel 1.1 · **Zeitaufwand: ca. 4 Stunden**
 
 **Was du am Ende können musst**
+
 - Alle **Bestandteile** eines Geschäftsbriefs in der richtigen Reihenfolge nennen.
 - Das **Anschriftfeld** normgerecht aufbauen.
 - **Betreff, Anrede und Grußformel** korrekt formulieren.
